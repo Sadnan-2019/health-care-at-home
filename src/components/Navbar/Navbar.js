@@ -28,6 +28,14 @@ const Navbar = () => {
       <li className="nav-item p-2">
         <NavLink
           className={({ isActive }) => (isActive ? `${active}` : `${normal}`)}
+          to="/service"
+        >
+          Service
+        </NavLink>
+      </li>
+      <li className="nav-item p-2">
+        <NavLink
+          className={({ isActive }) => (isActive ? `${active}` : `${normal}`)}
           to="/cvTemplate"
         >
           CV
@@ -41,17 +49,7 @@ const Navbar = () => {
           RESUME
         </NavLink>
       </li>
-      <li className="nav-item">
-        <NavLink
-          className={({ isActive }) =>
-            isActive ? `${active} flex gap-2` : `${normal} flex gap-2`
-          }
-          to="/coverLatter"
-        >
-          <div>COVER</div>
-          <div>LETTER</div>
-        </NavLink>
-      </li>
+      
 
       <li className="nav-item p-2">
         <NavLink
@@ -61,50 +59,7 @@ const Navbar = () => {
           QUIZ
         </NavLink>
       </li>
-      <li class="dropdown inline-block relative">
-        <button class="text-gray-700 font-medium hover:bg-text-primary px-4 py-2 inline-flex items-center">
-          <Link to="/career-counselling" class="mr-1 flex gap-2">
-            <div>CAREER</div>
-            <div>COUNSELLING</div>
-          </Link>
-          <svg
-            class="fill-current h-4 w-4"
-            xmlns="http://www.w3.org/2000/svg"
-            viewBox="0 0 20 20"
-          >
-            <path d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z" />{" "}
-          </svg>
-        </button>
-        <ul class="dropdown-menu absolute hidden text-gray-700 pt-1 p-2 bg-base-100 z-50 md:w-60">
-          <li className="hover:bg-primary hover:text-white uppercase py-2 px-4 rounded-md">
-            <Link to="/career-counselling/all-article">All-Articles</Link>
-          </li>
-          <li className="hover:bg-primary hover:text-white uppercase py-2 px-4 rounded-md">
-            <Link to="career-counselling/resume-write">Resume Writing</Link>
-          </li>
-          <li className="hover:bg-primary hover:text-white uppercase py-2 px-4 rounded-md">
-            <Link to="/career-counselling/cv-write">CV Writing</Link>
-          </li>
-          <li className="hover:bg-primary hover:text-white uppercase py-2 px-4 rounded-md">
-            <Link to="/career-counselling/examples">Examples</Link>
-          </li>
-          <li className="hover:bg-primary hover:text-white uppercase py-2 px-4 rounded-md">
-            <Link to="/career-counselling/personal-development">
-              Personal Development{" "}
-            </Link>
-          </li>
-          <li className="hover:bg-primary hover:text-white uppercase py-2 px-4 rounded-md">
-            <Link to="/career-counselling/inspiring-stories">
-              Inspiring Stories{" "}
-            </Link>
-          </li>
-          <li className="hover:bg-primary hover:text-white uppercase py-2 px-4 rounded-md">
-            <Link to="/career-counselling/interview-preparation">
-              Interview Prep{" "}
-            </Link>
-          </li>
-        </ul>
-      </li>
+      
     </>
   );
  
@@ -180,7 +135,7 @@ const Navbar = () => {
                 />
               </div> */}
             </label>
-            <ul
+            {/* <ul
               tabindex="0"
               className="mt-3 p-2 shadow menu menu-compact dropdown-content bg-base-100 rounded-box w-52"
             >
@@ -193,7 +148,7 @@ const Navbar = () => {
                 <a>Settings</a>
               </li>
            
-            </ul>
+            </ul> */}
           </div>
         </div>
         {/* End navbar end portion */}

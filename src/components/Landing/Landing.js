@@ -13,15 +13,15 @@ const Landing = () => {
             <p className=" px-2 py-[2px] text-white rounded-full bg-green-500">
               $
             </p>
-            <p>Discover the easiest way to build your resume!</p>
+            <p>Discover the easiest way to get our service!</p>
           </div>
           <p
             data-aos="fade-up"
             data-aos-duration="1000"
-            className="md:text-[43px] font-bold text-[26px] text-left poppins-b text-blue-700"
-            style={{ lineHeight: "135%" }}
+            className="md:text-[43px] font-bold text-[26px] text-left poppins-b text-green-500"
+            style={{ lineHeight: "120%" }}
           >
-            Online Resume Builder With Creative Template
+            Health Care At Home Bangladesh
           </p>
 
           <p
@@ -29,9 +29,7 @@ const Landing = () => {
             data-aos-duration="2000"
             className="max-w-lg mt-7 text-left md:text-[17px] poppins-t text-gray-600 "
           >
-            Resume writing can be stressful, confusing, and time-consuming if
-            you do it all on your own. With our Resume Maker, it’s quick,
-            pain-free, and effective.
+            First ever one stop healthcare solution at your home in bangladesh.
           </p>
 
           <div
