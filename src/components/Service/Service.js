@@ -16,7 +16,7 @@ const Service = () => {
       <div className="md:mx-16 lg:mx-24 mx-8 py-16 ">
         <div className="max-w-lg mr-auto text-left">
           <h2 className="text-3xl text-green-500 font-bold poppins-b sm:text-4xl">
-            Why Use The Resume Builder?
+           Our Services 
           </h2>
           <h1 className='bg-green-800 w-32 h-2 rounded-lg mt-2 mb-4'></h1>
 
@@ -72,7 +72,7 @@ const Service = () => {
             <img className="w-16" src={friendly} alt="" />
 
             <h3 className="mt-3 mb-2 text-xl font-bold text-left ">
-              ATS-Friendly
+            Physiotherapy
             </h3>
 
             <p className="mt-1 text-sm text-left text-gray-800">
@@ -84,7 +84,7 @@ const Service = () => {
             <img className="w-16" src={liveContent} alt="" />
 
             <h3 className="mt-3 mb-2 text-xl font-bold text-left ">
-              Live Content Feedback
+            Physiotherapy
             </h3>
 
             <p className="mt-1 text-sm text-left text-gray-800">
@@ -96,7 +96,7 @@ const Service = () => {
             <img className="w-16" src={edit} alt="" />
 
             <h3 className="mt-3 mb-2 text-xl font-bold text-left ">
-              Edit Your Resume in Real Time
+            Physiotherapy
             </h3>
 
             <p className="mt-1 text-sm text-left text-gray-800">
@@ -106,15 +106,7 @@ const Service = () => {
           </a>
         </div>
 
-        <div className="mt-12 text-center">
-          <Link
-            className="inline-flex items-center px-8 py-3 mt-8  bg-primary border border-primary rounded hover:bg-transparent active:text-primary focus:outline-none focus:ring transition ease-in-out delay-150 text-white hover:text-black"
-            to="/"
-          >
-            <span className="text-sm font-medium"> Read More </span>
-            <BsArrowRight className="text-lg ml-2" />
-          </Link>
-        </div>
+         
       </div>
     </section>
     );
