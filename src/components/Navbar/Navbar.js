@@ -11,9 +11,9 @@ import "./Navbar.css";
 
 const Navbar = () => {
   
-  const active = "text-primary mx-1 font-medium border-b-2 border-primary pb-1";
+  const active = "text-white mx-1 font-medium border-b-2 border-white-600 pb-1";
   const normal =
-    "text-gray-700 mx-1 hover:text-primary font-medium focus:text-gray-700 p-0";
+    "text-white mx-1 hover:text-white-600 font-medium focus:text-gray-700 p-0";
 
   const navItem = (
     <>
@@ -30,7 +30,7 @@ const Navbar = () => {
           className={({ isActive }) => (isActive ? `${active}` : `${normal}`)}
           to="/service"
         >
-          Service
+          SERVICE
         </NavLink>
       </li>
       <li className="nav-item p-2">
@@ -38,7 +38,7 @@ const Navbar = () => {
           className={({ isActive }) => (isActive ? `${active}` : `${normal}`)}
           to="/cvTemplate"
         >
-          About
+          ABOUT
         </NavLink>
       </li>
       <li className="nav-item p-2">
@@ -46,7 +46,7 @@ const Navbar = () => {
           className={({ isActive }) => (isActive ? `${active}` : `${normal}`)}
           to="/resumeTemplate"
         >
-          Contact
+          CONTACT
         </NavLink>
       </li>
       
@@ -65,7 +65,7 @@ const Navbar = () => {
  
 
   return (
-    <div className="px-4 md:pl-10  lg:px-24 bg-[#f4f7f8]">
+    <div className="px-4 md:pl-10  lg:px-24 bg-green-500">
       {/* Navbar start source code from Daisy UI */}
       <div className="navbar py-4">
         {/* Navbar left portion */}
@@ -89,7 +89,7 @@ const Navbar = () => {
             </label>
             <ul
               tabindex="0"
-              className="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52"
+              className="menu menu-compact dropdown-content mt-3 p-2 shadow bg-green-500 rounded-box w-52"
             >
               {navItem}
             </ul>
