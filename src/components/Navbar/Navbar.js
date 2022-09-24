@@ -38,7 +38,7 @@ const Navbar = () => {
           className={({ isActive }) => (isActive ? `${active}` : `${normal}`)}
           to="/cvTemplate"
         >
-          CV
+          About
         </NavLink>
       </li>
       <li className="nav-item p-2">
@@ -46,7 +46,7 @@ const Navbar = () => {
           className={({ isActive }) => (isActive ? `${active}` : `${normal}`)}
           to="/resumeTemplate"
         >
-          RESUME
+          Contact
         </NavLink>
       </li>
       
@@ -56,7 +56,7 @@ const Navbar = () => {
           className={({ isActive }) => (isActive ? `${active}` : `${normal}`)}
           to="/quiz"
         >
-          QUIZ
+          
         </NavLink>
       </li>
       
