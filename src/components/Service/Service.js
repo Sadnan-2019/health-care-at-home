@@ -28,7 +28,10 @@ const Service = () => {
         </div>
 
         <div className="grid grid-cols-1 gap-8 mt-8 md:grid-cols-2 lg:grid-cols-3">
-          <a className="block p-8 transition bg-white  shadow-md rounded-xl hover:shadow-lg cursor-pointer">
+          <a className="block p-8 transition bg-white  shadow-md rounded-xl hover:shadow-lg cursor-pointer" 
+          data-aos="fade-up"
+          data-aos-duration="1000"
+          >
             <img className="w-16" src={premium} alt="" />
 
             <h3 className="mt-3 mb-2 text-xl font-bold text-left ">
@@ -42,7 +45,10 @@ const Service = () => {
               you can use our resume buider completely free of charge.
             </p>
           </a>
-          <a className="block p-8 transition bg-white  shadow-md rounded-xl hover:shadow-lg cursor-pointer">
+          <a className="block p-8 transition bg-white  shadow-md rounded-xl hover:shadow-lg cursor-pointer"
+          data-aos="fade-up"
+          data-aos-duration="1000"
+          >
             <img className="w-16" src={resume} alt="" />
 
             <h3 className="mt-3 mb-2 text-xl font-bold text-left ">
@@ -55,7 +61,10 @@ const Service = () => {
               outside the box, we have what you need!
             </p>
           </a>
-          <a className="block p-8 transition bg-white  shadow-md rounded-xl hover:shadow-lg cursor-pointer">
+          <a className="block p-8 transition bg-white  shadow-md rounded-xl hover:shadow-lg cursor-pointer"
+          data-aos="fade-up"
+          data-aos-duration="1000"
+          >
             <img className="w-16" src={hidden} alt="" />
 
             <h3 className="mt-3 mb-2 text-xl font-bold text-left ">
@@ -68,7 +77,10 @@ const Service = () => {
               notify you if you’re using any of our premium features in advance.
             </p>
           </a>
-          <a className="block p-8 transition bg-white  shadow-md rounded-xl hover:shadow-lg cursor-pointer">
+          <a className="block p-8 transition bg-white  shadow-md rounded-xl hover:shadow-lg cursor-pointer"
+          data-aos="fade-up"
+          data-aos-duration="1000"
+          >
             <img className="w-16" src={friendly} alt="" />
 
             <h3 className="mt-3 mb-2 text-xl font-bold text-left ">
@@ -80,7 +92,10 @@ const Service = () => {
               automatically be rejected because an ATS can’t read it.
             </p>
           </a>
-          <a className="block p-8 transition bg-white  shadow-md rounded-xl hover:shadow-lg cursor-pointer">
+          <a className="block p-8 transition bg-white  shadow-md rounded-xl hover:shadow-lg cursor-pointer"
+          data-aos="fade-up"
+          data-aos-duration="1000"
+          >
             <img className="w-16" src={liveContent} alt="" />
 
             <h3 className="mt-3 mb-2 text-xl font-bold text-left ">
@@ -92,7 +107,10 @@ const Service = () => {
               ensuring that your resume reaches its full potential!
             </p>
           </a>
-          <a className="block p-8 transition bg-white  shadow-md rounded-xl hover:shadow-lg cursor-pointer">
+          <a className="block p-8 transition bg-white  shadow-md rounded-xl hover:shadow-lg cursor-pointer"
+          data-aos="fade-up"
+          data-aos-duration="1000"
+          >
             <img className="w-16" src={edit} alt="" />
 
             <h3 className="mt-3 mb-2 text-xl font-bold text-left ">
