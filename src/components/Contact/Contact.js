@@ -2,7 +2,7 @@ import React from 'react';
 
 const Contact = () => {
      return (
-    <div className=' py-14'>
+    <div className=' py-14  '>
         <div className=" ">
           <h2 className="text-3xl text-center text-green-500 font-bold poppins-b sm:text-4xl">
            Contact 
@@ -65,7 +65,7 @@ const Contact = () => {
             name="message"
             required
             placeholder="message"
-            class="input border border-gray-300 bg-gray-200 h-12"
+            class="input border border-gray-300 bg-gray-200 h-12 form-control form-control-message " rows="10"
             
           ></textarea>
         </div>
