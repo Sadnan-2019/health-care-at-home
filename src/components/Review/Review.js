@@ -11,7 +11,7 @@ const Review = () => {
     slidesToShow: 3,
     slidesToScroll: 2,
     initialSlide: 0,
-    autoplay: false,
+    autoplay: true,
     autoplaySpeed: 2000,
     responsive: [
       {
@@ -52,7 +52,7 @@ const Review = () => {
         <Slider {...settings}>
           
         
-        <div className="card w-96 bg-base-100 shadow-xl">
+        <div className="card w-96 bg-base-100 shadow-xl gap-3 ">
               <div className="flex gap-3 items-center">
                 <div className="avatar">
                   <div className="w-24 m-5 rounded-full">
