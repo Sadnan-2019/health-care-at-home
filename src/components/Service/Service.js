@@ -13,7 +13,7 @@ import { BsArrowRight } from "react-icons/bs";
 const Service = () => {
     return (
         <section className="">
-      <div className="md:mx-16 lg:mx-24 mx-8 py-16 ">
+      <div className="md:mx-16 lg:mx-24 mx-8 py-8 ">
         <div className=" ">
           <h2 className="text-3xl text-center text-green-500 font-bold poppins-b sm:text-4xl">
            Our Services 
@@ -41,7 +41,8 @@ const Service = () => {
               that extra punch? Upgrade to Premium. On a budget? That's OK too -
               you can use our resume buider completely free of charge.
             </p>
-          </a>
+            <button className=' btn btn-sm bg-green-700 border border-green-500 rounded mt-5  '>Service Details</button>
+          </a> 
           <a className="block p-8 transition bg-white  shadow-md rounded-xl hover:shadow-lg cursor-pointer"
           data-aos="fade-up"
           data-aos-duration="1000"
