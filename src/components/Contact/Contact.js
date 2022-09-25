@@ -3,6 +3,14 @@ import React from 'react';
 const Contact = () => {
      return (
     <div className=' py-14'>
+        <div className=" ">
+          <h2 className="text-3xl text-center text-green-500 font-bold poppins-b sm:text-4xl">
+           Contact 
+          </h2>
+          <h1 className='bg-green-800 w-32 h-1 rounded-lg mt-2 mb-4 mx-auto'></h1>
+
+          
+        </div>
         <div class="card  transition bg-white  shadow-md rounded-xl mx-auto w-1/2  ">
       <form class="card-body   ">
         <div class="form-control ">
@@ -57,7 +65,8 @@ const Contact = () => {
             name="message"
             required
             placeholder="message"
-            class="input border border-gray-300 bg-gray-200 "
+            class="input border border-gray-300 bg-gray-200 h-12"
+            
           ></textarea>
         </div>
         <div class="form-control mt-2">

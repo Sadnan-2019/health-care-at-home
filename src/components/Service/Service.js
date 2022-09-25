@@ -14,17 +14,13 @@ const Service = () => {
     return (
         <section className="">
       <div className="md:mx-16 lg:mx-24 mx-8 py-16 ">
-        <div className="max-w-lg mr-auto text-left">
-          <h2 className="text-3xl text-green-500 font-bold poppins-b sm:text-4xl">
+        <div className=" ">
+          <h2 className="text-3xl text-center text-green-500 font-bold poppins-b sm:text-4xl">
            Our Services 
           </h2>
-          <h1 className='bg-green-800 w-32 h-2 rounded-lg mt-2 mb-4'></h1>
+          <h1 className='bg-green-800 w-32 h-1 rounded-lg mt-2 mb-4 mx-auto'></h1>
 
-          <p className="mt-4 text-gray-800 text-[17px] poppins-t">
-            Resume Builder is lightning fast. There's no software to download.
-            No multi-part sign-up form. No long-winded tutorials. Just a
-            straightforward process.
-          </p>
+          
         </div>
 
         <div className="grid grid-cols-1 gap-8 mt-8 md:grid-cols-2 lg:grid-cols-3">
@@ -35,7 +31,8 @@ const Service = () => {
             <img className="w-16" src={premium} alt="" />
 
             <h3 className="mt-3 mb-2 text-xl font-bold text-left ">
-            Physiotherapy
+            
+            Nursing
 
             </h3>
 
@@ -52,7 +49,7 @@ const Service = () => {
             <img className="w-16" src={resume} alt="" />
 
             <h3 className="mt-3 mb-2 text-xl font-bold text-left ">
-        Nursing Care
+            Physiotherapy
             </h3>
 
             <p className="mt-1 text-sm text-left text-gray-800">
@@ -84,7 +81,7 @@ const Service = () => {
             <img className="w-16" src={friendly} alt="" />
 
             <h3 className="mt-3 mb-2 text-xl font-bold text-left ">
-            Physiotherapy
+            Medical Caregiver
             </h3>
 
             <p className="mt-1 text-sm text-left text-gray-800">
@@ -99,7 +96,7 @@ const Service = () => {
             <img className="w-16" src={liveContent} alt="" />
 
             <h3 className="mt-3 mb-2 text-xl font-bold text-left ">
-            Physiotherapy
+            Caregiver
             </h3>
 
             <p className="mt-1 text-sm text-left text-gray-800">
@@ -114,7 +111,7 @@ const Service = () => {
             <img className="w-16" src={edit} alt="" />
 
             <h3 className="mt-3 mb-2 text-xl font-bold text-left ">
-            Physiotherapy
+            Lab Support
             </h3>
 
             <p className="mt-1 text-sm text-left text-gray-800">
