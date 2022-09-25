@@ -12,7 +12,7 @@ import { BsArrowRight } from "react-icons/bs";
 
 const Service = () => {
     return (
-        <section className="bg-gray-100">
+        <section className="">
       <div className="md:mx-16 lg:mx-24 mx-8 py-16 ">
         <div className="max-w-lg mr-auto text-left">
           <h2 className="text-3xl text-green-500 font-bold poppins-b sm:text-4xl">
