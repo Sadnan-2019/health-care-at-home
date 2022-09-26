@@ -57,7 +57,7 @@ const Navbar = () => {
   );
 
   return (
-    <div className="px-4 md:pl-10  lg:px-24 bg-green-500">
+    <div className="px-4 md:pl-10  lg:px-24 bg-green-500" >
       {/* Navbar start source code from Daisy UI */}
       <div className="navbar py-4">
         {/* Navbar left portion */}
