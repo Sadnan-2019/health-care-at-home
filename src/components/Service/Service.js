@@ -24,6 +24,8 @@ const Service = () => {
         </div>
 
         <div className="grid grid-cols-1 gap-8 mt-8 md:grid-cols-2 lg:grid-cols-3">
+
+
           <a className="block p-8 transition bg-white  shadow-md rounded-xl hover:shadow-lg cursor-pointer" 
           data-aos="fade-up"
           data-aos-duration="1000"
@@ -41,8 +43,65 @@ const Service = () => {
               that extra punch? Upgrade to Premium. On a budget? That's OK too -
               you can use our resume buider completely free of charge.
             </p>
-            <button className=' btn btn-sm bg-green-700 border border-green-500 rounded mt-5  '>Service Details</button>
-          </a> 
+            {/* <button className=' btn btn-sm bg-green-700 border border-green-500 rounded mt-5  '>Service Details</button> */}
+            <label htmlFor="my-modal-6" className="btn btn-sm modal-button">
+        service details
+      </label>
+          </a>
+
+
+
+<input type="checkbox" id="my-modal-6" className="modal-toggle" />
+      <div className="modal modal-bottom sm:modal-middle">
+        <div className="modal-box   ">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2  ">
+            <div className='text-1xl font-bold'>
+            
+           <li>Total Nursing Care</li>
+            <li>IV Cannula insertion</li>
+            <li>NG-tube insertion</li>
+            <li>Catheterization</li>
+            <li>Dressing wounds</li>
+            <li>Oxygen support</li>
+            <li>Maintain health records</li>
+         
+            </div>
+            <div>
+             <img src="https://images.saymedia-content.com/.image/t_share/MTc0MTU0Mzc4MDU0MjE1MTY0/what-is-nursing-care.jpg" alt=""/>
+            </div>
+          </div>
+          <div className="modal-action">
+            <label htmlFor="my-modal-6" className="btn">
+              close!
+            </label>
+          </div>
+        </div>
+      </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
           <a className="block p-8 transition bg-white  shadow-md rounded-xl hover:shadow-lg cursor-pointer"
           data-aos="fade-up"
           data-aos-duration="1000"
