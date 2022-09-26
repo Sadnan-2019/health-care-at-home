@@ -246,8 +246,8 @@ const Footer = () => {
                   />
 
                   <button
-                    class="block px-8 py-3 font-medium text-white transition bg-primary rounded-full hover:bg-blue-800"
-                    type="submit"
+                    class="block px-8 py-3 font-medium text-white transition  rounded-full hover:bg-blue-900"
+                    type="submit" style={{backgroundColor: "#453364" }}
                   >
                     Subscribe
                   </button>

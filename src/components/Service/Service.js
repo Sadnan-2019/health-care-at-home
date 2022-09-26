@@ -15,10 +15,10 @@ const Service = () => {
     <section className="">
       <div className="md:mx-16 lg:mx-24 mx-8 py-8 ">
         <div className=" ">
-          <h2 className="text-3xl text-center text-green-500 font-bold poppins-b sm:text-4xl">
+          <h2 className="text-3xl text-center   font-bold poppins-b sm:text-4xl" style={{color: "#453364" }} >
             Our Services
           </h2>
-          <h1 className="bg-green-800 w-32 h-1 rounded-lg mt-2 mb-4 mx-auto"></h1>
+          <h1 className="  w-32 h-1 rounded-lg mt-2 mb-4 mx-auto" style={{backgroundColor: "#453364" }}></h1>
         </div>
 
         <div className="grid grid-cols-1 gap-8 mt-8 md:grid-cols-2 lg:grid-cols-3">
@@ -110,7 +110,7 @@ const Service = () => {
           <div className="modal modal-bottom sm:modal-middle">
             <div className="modal-box   ">
             <h1 className="text-2xl font-bold text-center py-5">Physiotherapy Details</h1>
-              <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 mx-auto ">
+              <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-3   mx-auto	 "  >
                 <div className="text-sm font-bold">
                   <li>Musculoskeletal Physiotherapy </li>
                   <li>Neurological Physiotherapy</li>
@@ -123,9 +123,9 @@ const Service = () => {
                   <li>Sports Physiotherapy</li>
                   <li>All kinds of Musculoskeletal Rehabilitation</li>
                 </div>
-                <div>
+                <div className="">
                   <img
-                    src="https://images.saymedia-content.com/.image/t_share/MTc0MTU0Mzc4MDU0MjE1MTY0/what-is-nursing-care.jpg"
+                    src="https://thumbs.dreamstime.com/b/highlighted-spine-man-physiotherapy-digital-composite-men-53051926.jpg"
                     alt=""
                   />
                 </div>

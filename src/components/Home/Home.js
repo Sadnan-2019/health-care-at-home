@@ -12,7 +12,7 @@ const Home = () => {
             <Service></Service>
             <Review></Review>
             <Contact></Contact>
-            <Modal/>
+            {/* <Modal/> */}
         </div>
     );
 };

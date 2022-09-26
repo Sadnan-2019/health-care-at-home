@@ -4,10 +4,10 @@ const Contact = () => {
      return (
     <div className=' py-14  '>
         <div className=" ">
-          <h2 className="text-3xl text-center text-green-500 font-bold poppins-b sm:text-4xl">
+          <h2 className="text-3xl text-center   font-bold poppins-b sm:text-4xl" style={{color: "#453364" }}>
            Contact 
           </h2>
-          <h1 className='bg-green-800 w-32 h-1 rounded-lg mt-2 mb-4 mx-auto'></h1>
+          <h1 className=' w-32 h-1 rounded-lg mt-2 mb-4 mx-auto' style={{backgroundColor: "#453364" }}></h1>
 
           
         </div>
@@ -70,7 +70,7 @@ const Contact = () => {
           ></textarea>
         </div>
         <div class="form-control mt-2">
-          <button type="submit" class="btn btn-success">
+          <button type="submit" class="btn  text-white" style={{backgroundColor: "#453364" }}>
             Submit
           </button>
           

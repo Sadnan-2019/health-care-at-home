@@ -8,9 +8,9 @@ import { BiLocationPlus } from "react-icons/bi";
 import "./Navbar.css";
 
 const Navbar = () => {
-  const active = "text-white mx-1 font-medium border-b-2 border-white-600 pb-1";
+  const active = "text-blue-900 mx-1 font-medium border-b-2 border-blue-900 pb-1  " ;
   const normal =
-    "text-white mx-1 hover:text-white-600 font-medium focus:text-gray-700 p-0";
+    "  mx-1 hover:text-white-600 font-medium focus:text-gray-700 p-0  " ;
 
   const navItem = (
     <>
@@ -57,7 +57,7 @@ const Navbar = () => {
   );
 
   return (
-    <div className="px-4 md:pl-10  lg:px-24 bg-green-500" >
+    <div className="px-4 md:pl-10  lg:px-24 bg-base-100" >
       {/* Navbar start source code from Daisy UI */}
       <div className="navbar py-4">
         {/* Navbar left portion */}
@@ -112,8 +112,8 @@ const Navbar = () => {
               <FaPhoneVolume />
             </div>
             <div>
-              <p className="text-sm text-slate-200		">01779-848666</p>
-              <p className="text-sm text-slate-200		">info@hcah.mrg.com.bd</p>
+              <p className="text-sm  	" style={{color: "#453364" }}>01779-848666</p>
+              <p className="text-sm  		" style={{color: "#453364" }}>info@hcah.mrg.com.bd</p>
             </div>
           </div>
           <div className="flex items-center gap-2 ">
@@ -122,7 +122,7 @@ const Navbar = () => {
             </div>
             <div>
             <div className="	">
-              <p className="text-xs text-slate-200	 	">24/7days Open</p>
+              <p className="text-xs  	" style={{color: "#453364" }}>24/7days Open</p>
               {/* <p className="text-sm text-slate-200		">24h 7d Care provides</p> */}
             </div>
             </div>
@@ -133,7 +133,7 @@ const Navbar = () => {
               <BiLocationPlus />
             </div>
             <div>
-              <span className="text-sm text-slate-200		">House 11, Road 108, Gulshan 2, Dhaka, Bangladesh. 1212</span>
+              <span className="text-sm  		" style={{color: "#453364" }}>House 11, Road 108, Gulshan 2, Dhaka, Bangladesh. 1212</span>
               
             </div>
           </div>
