@@ -159,7 +159,54 @@ const Service = () => {
               just to be hit with a hidden paywall. Our resume builder will
               notify you if you’re using any of our premium features in advance.
             </p>
+
+            <label
+              htmlFor="my-modal-4"
+              className="btn btn-sm modal-button mt-3 text-white"
+              style={{ backgroundColor: "#453364" }}
+            >
+              service details
+            </label>
           </a>
+
+          <input type="checkbox" id="my-modal-4" className="modal-toggle" />
+          <div className="modal modal-bottom sm:modal-middle">
+            <div className="modal-box   ">
+            <h1 className="text-2xl font-bold text-center py-5">Medical Assistant Details</h1>
+              <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-3   mx-auto	 "  >
+                <div className="text-sm font-bold">
+                  <li>Turing and repositioning </li>
+                  <li>24/7 Personal Healthcare</li>
+                  <li>Transfer assistance</li>
+                  <li>Medication Reminder</li>
+                  <li>Maintain Health records </li>
+                  <li>Hygiene maintenance</li>
+                  
+                </div>
+                <div className="">
+                  <img
+                    src="https://media.istockphoto.com/photos/confident-young-female-african-scrub-nurse-wear-blue-uniform-face-picture-id1313904486?k=20&m=1313904486&s=612x612&w=0&h=Mk2xusMyPLXaPF7seFujaaSi5qXBYqDSINKwDHXL-tE="
+                    alt=""
+                  />
+                </div>
+              </div>
+              <div className="modal-action">
+                <label
+                  htmlFor="my-modal-4"
+                  className="btn text-white "
+                  style={{ backgroundColor: "#453364" }}
+                >
+                  close!
+                </label>
+              </div>
+            </div>
+          </div>
+
+
+
+
+
+
           <a
             className="block p-8 transition bg-white  shadow-md rounded-xl hover:shadow-lg cursor-pointer"
             data-aos="fade-up"
@@ -175,7 +222,62 @@ const Service = () => {
               Our resume templates are ATS-friendly. It means your resume won’t
               automatically be rejected because an ATS can’t read it.
             </p>
+            <label
+              htmlFor="my-modal-3"
+              className="btn btn-sm modal-button mt-3 text-white"
+              style={{ backgroundColor: "#453364" }}
+            >
+              service details
+            </label>
           </a>
+
+
+
+
+          <input type="checkbox" id="my-modal-3" className="modal-toggle" />
+          <div className="modal modal-bottom sm:modal-middle">
+            <div className="modal-box   ">
+            <h1 className="text-2xl font-bold text-center py-5">Medical Caregiver Details</h1>
+              <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-3   mx-auto	 "  >
+                <div className="text-sm font-bold">
+                  
+                  <li>24/7 Personal Healthcare</li>
+                  <li>Patients Diapar Change</li>
+                  <li>Medication Reminder</li>
+                  <li>ANG Tube Insert &  Feeding   </li>
+                  <li>Hygiene maintenance</li>
+                  <li>Good Time pass with patients </li>
+                 
+                  
+                </div>
+                <div className="">
+                  <img
+                    src="https://calbizjournal.com/wp-content/uploads/2021/07/senior-woman-sitting-in-chair-and-laughing-with-nurse-in-retirement-home.jpg"
+                    alt=""
+                  />
+                </div>
+              </div>
+              <div className="modal-action">
+                <label
+                  htmlFor="my-modal-3"
+                  className="btn text-white "
+                  style={{ backgroundColor: "#453364" }}
+                >
+                  close!
+                </label>
+              </div>
+            </div>
+          </div>
+
+
+
+
+
+
+
+
+
+
           <a
             className="block p-8 transition bg-white  shadow-md rounded-xl hover:shadow-lg cursor-pointer"
             data-aos="fade-up"
@@ -191,6 +293,7 @@ const Service = () => {
               Our CV builder provides real-time feedback on your resume content,
               ensuring that your resume reaches its full potential!
             </p>
+            
           </a>
           <a
             className="block p-8 transition bg-white  shadow-md rounded-xl hover:shadow-lg cursor-pointer"

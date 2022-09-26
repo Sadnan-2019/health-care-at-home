@@ -13,7 +13,7 @@ const Landing = () => {
             <p className=" px-2 py-[2px] text-white rounded-full  " style={{backgroundColor: "#453364" }}>
               $
             </p>
-            <p>Discover the easiest way to get our service!</p>
+            <p className='text-sm'>Discover the easiest way to get our service!</p>
           </div>
           <p
             data-aos="fade-up"
