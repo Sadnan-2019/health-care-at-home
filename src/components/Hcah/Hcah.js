@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Whyhcah = () => {
+const Hcah = () => {
     return (
         <div>
             
@@ -8,4 +8,4 @@ const Whyhcah = () => {
     );
 };
 
-export default Whyhcah;
+export default Hcah;
