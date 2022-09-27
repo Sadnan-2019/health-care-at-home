@@ -9,6 +9,7 @@ import Service from './components/Service/Service';
 import Review from './components/Review/Review';
 import Contact from './components/Contact/Contact';
 import Nav from './components/Nav/Nav';
+import About from './components/About/About';
 
 function App() {
   return (
@@ -16,9 +17,10 @@ function App() {
       <Nav></Nav>
    <Navbar></Navbar>
    <Routes>
-        <Route path="/home" element={<Home />}></Route>
+        <Route path="/" element={<Home />}></Route>
         <Route path="/service" element={<Service />}></Route>
         <Route path="/review" element={<Review />}></Route>
+        <Route path="/about" element={<About />}></Route>
         <Route path="/contact" element={<Contact />}></Route>
         {/* <Route path="login" element={<Login />}></Route> */}
       

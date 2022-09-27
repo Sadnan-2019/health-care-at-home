@@ -17,7 +17,7 @@ const Review = () => {
       {
         breakpoint: 1024,
         settings: {
-          slidesToShow: 3,
+          slidesToShow: 2,
           slidesToScroll: 2,
           infinite: true,
           dots: true,
@@ -52,7 +52,7 @@ const Review = () => {
         <Slider {...settings}>
           
         
-        <div className="card shadow-md hover:shadow-lg cursor-pointer rounded-md  lg:max-w-[360px] md:max-w-xs    mx-10  ">
+        <div className="card shadow-md hover:shadow-lg cursor-pointer rounded-md  lg:max-w-[360px] md:max-w-xs    ">
               <div className="flex gap-3 items-center">
                 <div className="avatar">
                   <div className="w-24 m-5 rounded-full">

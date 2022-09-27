@@ -1,4 +1,5 @@
 import React from 'react';
+import About from '../About/About';
 import Contact from '../Contact/Contact';
 import Landing from '../Landing/Landing';
 import Modal from '../Modal/Modal';
@@ -11,6 +12,7 @@ const Home = () => {
             <Landing></Landing>
             <Service></Service>
             <Review></Review>
+            <About></About>
             <Contact></Contact>
             {/* <Modal/> */}
         </div>

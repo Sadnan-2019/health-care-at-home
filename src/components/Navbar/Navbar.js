@@ -17,7 +17,7 @@ const Navbar = () => {
       <li className="nav-item p-2">
         <NavLink
           className={({ isActive }) => (isActive ? `${active}` : `${normal}`)}
-          to="/home"
+          to="/"
         >
           HOME
         </NavLink>
@@ -41,25 +41,39 @@ const Navbar = () => {
       <li className="nav-item p-2">
         <NavLink
           className={({ isActive }) => (isActive ? `${active}` : `${normal}`)}
+          to="/about"
+        >ABOUT</NavLink>
+      </li>
+      <li className="nav-item p-2">
+        <NavLink
+          className={({ isActive }) => (isActive ? `${active}` : `${normal}`)}
           to="/contact"
         >
           CONTACT
         </NavLink>
       </li>
-
       <li className="nav-item p-2">
         <NavLink
           className={({ isActive }) => (isActive ? `${active}` : `${normal}`)}
-          to="/quiz"
-        ></NavLink>
+          to="/profile"
+        >PROFILE</NavLink>
       </li>
+      <li className="nav-item p-2">
+      <input
+                    class="sm:w-mx-xs w-full px-6 py-3 focus:border-red-700 rounded-full shadow-sm"
+                    type="email"
+                    placeholder="Enter your search"
+                  />
+      </li>
+
+    
     </>
   );
 
   return (
     <div className="px-4 md:pl-10  lg:px-24 bg-base-100" >
       {/* Navbar start source code from Daisy UI */}
-      <div className="navbar py-4">
+      <div className="navbar py-4  ">
         {/* Navbar left portion */}
         <div className="">
           <div className="dropdown">
@@ -86,7 +100,7 @@ const Navbar = () => {
               {navItem}
             </ul>
           </div>
-          <Link to="/">
+          <Link to="/home">
             <div className="  flex items-center">
               <img
                 className="w-48"
@@ -96,51 +110,19 @@ const Navbar = () => {
             </div>
           </Link>
         </div>
-        {/* End Navbar left Portion */}
-
-        {/* Navbar center portion */}
-        <div className="navbar-start hidden ml-8 lg:flex">
-          <ul className="menu-horizontal p-0 flex items-center">{navItem}</ul>
-        </div>
-        {/* End Navbar center portion */}
-
-        {/* Navbar end portion */}
-        <div className="navbar-end">
+        
+        <div className="navbar-end flex 	  ">
           
-          <div className="flex items-center gap-2 mr-9">
-            <div>
-              <FaPhoneVolume />
-            </div>
-            <div>
-              <p className="text-sm  	" style={{color: "#453364" }}>01779-848666</p>
-              <p className="text-sm  		" style={{color: "#453364" }}>info@hcah.mrg.com.bd</p>
-            </div>
-          </div>
-          <div className="flex items-center gap-2 ">
-            <div>
-              <FcAlarmClock></FcAlarmClock>
-            </div>
-            <div>
-            <div className="	">
-              <p className="text-xs  	" style={{color: "#453364" }}>24/7days Open</p>
-              {/* <p className="text-sm text-slate-200		">24h 7d Care provides</p> */}
-            </div>
-            </div>
-          </div>
-          <div className="flex items-center gap-2 ml-6">
-            <div>
-              {/* <FcAlarmClock></FcAlarmClock> */}
-              <BiLocationPlus />
-            </div>
-            <div>
-              <span className="text-sm  		" style={{color: "#453364" }}>House 11, Road 108, Gulshan 2, Dhaka, Bangladesh. 1212</span>
-              
-            </div>
-          </div>
-
-          {/* <div className="dropdown dropdown-end ml-2"></div> */}
+         
+        <div className="navbar-start hidden   lg:flex      " >
+        <div className="     "> 
+         <ul className="menu-horizontal p-0 flex items-center    ">{navItem}</ul>
+         
+         </div>
         </div>
-        {/* End navbar end portion */}
+       
+        </div>
+      
       </div>
     </div>
   );

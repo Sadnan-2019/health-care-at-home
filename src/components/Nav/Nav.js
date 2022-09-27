@@ -8,10 +8,10 @@ import { BiLocationPlus } from "react-icons/bi";
 const Nav = () => {
   return (
     <div>
-     <div className="grid sm:grid-cols-1 gap-2 lg:grid-cols-3 mx-28 py-2 ">
+     <div className="grid sm:grid-cols-1 gap-2 lg:grid-cols-3 mx-28 mt-2 ">
      <div className="flex items-center     gap-2">
         <div>
-          <FaPhoneVolume />
+          < FaPhoneVolume  className="text-2xl"/>
         </div>
         <div>
           <p className="text-sm  	" style={{ color: "#453364" }}>
@@ -24,7 +24,7 @@ const Nav = () => {
       </div>
       <div className="flex items-center gap-2 ">
         <div>
-          <FcAlarmClock></FcAlarmClock>
+          <FcAlarmClock className="text-2xl"></FcAlarmClock>
         </div>
         <div>
           <div className="	">
@@ -38,7 +38,7 @@ const Nav = () => {
       <div className="flex items-center gap-2 ">
         <div>
  
-          <BiLocationPlus />
+          <BiLocationPlus className="text-2xl"/>
         </div>
         <div>
           <span className="text-sm  		" style={{ color: "#453364" }}>
