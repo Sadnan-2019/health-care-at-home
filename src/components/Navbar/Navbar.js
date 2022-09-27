@@ -1,9 +1,7 @@
 import React from "react";
 import { Link, NavLink } from "react-router-dom";
 
-import { FcAlarmClock } from "react-icons/fc";
-import { FaPhoneVolume } from "react-icons/fa";
-import { BiLocationPlus } from "react-icons/bi";
+ 
 
 import "./Navbar.css";
 
@@ -60,7 +58,7 @@ const Navbar = () => {
       </li>
       <li className="nav-item p-2">
       <input
-                    class="sm:w-mx-xs w-full px-6 py-3 focus:border-red-700 rounded-full shadow-sm"
+                    class="sm:w-mx-xs w-full px-6 py-3  rounded-full shadow-sm"
                     type="email"
                     placeholder="Enter your search"
                   />
@@ -95,8 +93,8 @@ const Navbar = () => {
             </label>
             <ul
               tabindex="0"
-              className="menu menu-compact dropdown-content mt-3 p-2 shadow bg-green-500 rounded-box w-52"
-            >
+              className="menu menu-compact dropdown-content mt-3 p-2 shadow  rounded-box w-52"
+              style={{ color: "#453364" }}>
               {navItem}
             </ul>
           </div>
