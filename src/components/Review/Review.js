@@ -52,7 +52,7 @@ const Review = () => {
         <Slider {...settings}>
           
         
-        <div className="card shadow-md hover:shadow-lg cursor-pointer rounded-md  lg:max-w-[360px] md:max-w-xs    ">
+        <div className="card shadow-md hover:shadow-lg cursor-pointer rounded-md  lg:max-w-[360px] md:max-w-xs mx-10    ">
               <div className="flex gap-3 items-center">
                 <div className="avatar">
                   <div className="w-24 m-5 rounded-full">

@@ -293,8 +293,55 @@ const Service = () => {
               Our CV builder provides real-time feedback on your resume content,
               ensuring that your resume reaches its full potential!
             </p>
+
+            <label
+              htmlFor="my-modal-2"
+              className="btn btn-sm modal-button mt-3 text-white"
+              style={{ backgroundColor: "#453364" }}
+            >
+              service details
+            </label>
             
           </a>
+
+
+          <input type="checkbox" id="my-modal-2" className="modal-toggle" />
+          <div className="modal modal-bottom sm:modal-middle">
+            <div className="modal-box   ">
+            <h1 className="text-2xl font-bold text-center py-5">Caregiver Details</h1>
+              <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-3   mx-auto	 "  >
+                <div className="text-sm font-bold">
+                  
+                  <li>24/7 Personal Healthcare</li>
+                  <li>Patients Diapar Change</li>
+                  <li>Medication Reminder</li>
+                  <li>ANG Tube Insert &  Feeding   </li>
+                  <li>Hygiene maintenance</li>
+                  <li>Good Time pass with patients </li>
+                 
+                  
+                </div>
+                <div className="">
+                  <img
+                    src="https://calbizjournal.com/wp-content/uploads/2021/07/senior-woman-sitting-in-chair-and-laughing-with-nurse-in-retirement-home.jpg"
+                    alt=""
+                  />
+                </div>
+              </div>
+              <div className="modal-action">
+                <label
+                  htmlFor="my-modal-2"
+                  className="btn text-white "
+                  style={{ backgroundColor: "#453364" }}
+                >
+                  close!
+                </label>
+              </div>
+            </div>
+          </div>
+
+
+
           <a
             className="block p-8 transition bg-white  shadow-md rounded-xl hover:shadow-lg cursor-pointer"
             data-aos="fade-up"
@@ -310,7 +357,53 @@ const Service = () => {
               As you edit your resume with our builder, you’ll immediately see
               the changes applied to your document.
             </p>
+
+            <label
+              htmlFor="my-modal-1"
+              className="btn btn-sm modal-button mt-3 text-white"
+              style={{ backgroundColor: "#453364" }}
+            >
+              service details
+            </label>
           </a>
+
+
+          <input type="checkbox" id="my-modal-1" className="modal-toggle" />
+          <div className="modal modal-bottom sm:modal-middle">
+            <div className="modal-box   ">
+            <h1 className="text-2xl font-bold text-center py-5">Labsupport Details</h1>
+              <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-3   mx-auto	 "  >
+                <div className="text-sm font-bold">
+                  
+                  <li>24/7 Personal Healthcare</li>
+                  <li>Patients Diapar Change</li>
+                  <li>Medication Reminder</li>
+                  <li>ANG Tube Insert &  Feeding   </li>
+                  <li>Hygiene maintenance</li>
+                  <li>Good Time pass with patients </li>
+                 
+                  
+                </div>
+                <div className="">
+                  <img
+                    src="https://calbizjournal.com/wp-content/uploads/2021/07/senior-woman-sitting-in-chair-and-laughing-with-nurse-in-retirement-home.jpg"
+                    alt=""
+                  />
+                </div>
+              </div>
+              <div className="modal-action">
+                <label
+                  htmlFor="my-modal-1"
+                  className="btn text-white "
+                  style={{ backgroundColor: "#453364" }}
+                >
+                  close!
+                </label>
+              </div>
+            </div>
+          </div>
+
+
         </div>
       </div>
     </section>
