@@ -100,7 +100,7 @@ const Navbar = () => {
               {navItem}
             </ul>
           </div>
-          <Link to="/home">
+          <Link to="/">
             <div className="  flex items-center">
               <img
                 className="w-48"
