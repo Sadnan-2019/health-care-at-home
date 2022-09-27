@@ -33,15 +33,15 @@ const Navbar = () => {
       <li className="nav-item p-2">
         <NavLink
           className={({ isActive }) => (isActive ? `${active}` : `${normal}`)}
-          to="/cvTemplate"
+          to="/review"
         >
-          ABOUT
+          REVIEW
         </NavLink>
       </li>
       <li className="nav-item p-2">
         <NavLink
           className={({ isActive }) => (isActive ? `${active}` : `${normal}`)}
-          to="/resumeTemplate"
+          to="/contact"
         >
           CONTACT
         </NavLink>
