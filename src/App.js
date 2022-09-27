@@ -8,10 +8,12 @@ import { Route, Routes } from 'react-router-dom';
 import Service from './components/Service/Service';
 import Review from './components/Review/Review';
 import Contact from './components/Contact/Contact';
+import Nav from './components/Nav/Nav';
 
 function App() {
   return (
     <div className=" ">
+      <Nav></Nav>
    <Navbar></Navbar>
    <Routes>
         <Route path="/home" element={<Home />}></Route>
