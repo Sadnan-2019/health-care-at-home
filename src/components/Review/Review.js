@@ -8,7 +8,7 @@ const Review = () => {
   var settings = {
     dots: true,
     infinite: true,
-    speed: 500,
+    speed: 600,
     slidesToShow: 3,
     slidesToScroll: 2,
     initialSlide: 0,
