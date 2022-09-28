@@ -56,6 +56,8 @@ const Review = () => {
        <Reviewcard/>
        <Reviewcard/>
        <Reviewcard/>
+       <Reviewcard/>
+       <Reviewcard/>
        
           
         </Slider>
