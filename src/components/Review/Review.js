@@ -42,14 +42,21 @@ const Review = () => {
     ],
   };
   return (
-    <div className="py-10">
+    <div className="py-10 " style={{backgroundColor: "#453364" }}>
       <div className=" md:mx-16 lg:mx-24 mx-8 py-12">
-        <h2 className="text-3xl text-center   font-bold poppins-b sm:text-4xl" style={{color: "#453364" }}>
-          Check Out Resent Reviews!
+        <h2 className="text-3xl text-center   font-bold poppins-b sm:text-4xl text-white" >
+          Check Our Recent Reviews!
         </h2>
         <h1 className="  w-64 h-1 rounded-lg mt-2 mb-4 mx-auto" style={{backgroundColor: "#453364" }}></h1>
       </div>
-      <div  className=" px-5 py-12 md:px-10 ">
+     
+      <div  className=" px-5 py-12 md:px-10  ">
+      <div>
+
+<p className="text-white text-2xl">Overall rating </p>
+<p>Overall rating </p>
+<p>Overall rating </p>
+</div>
         <Slider {...settings}>
           
         

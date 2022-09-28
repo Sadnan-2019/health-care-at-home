@@ -27,7 +27,7 @@ const Service = () => {
             data-aos="fade-up"
             data-aos-duration="1000"
           >
-            <img className="w-16" src={premium} alt="" />
+            <img className="w-96" src="https://clipboardhealth.com/wp-content/uploads/2020/08/Perks-of-Working-in-Home-Health-Care.jpeg" alt="" />
 
             <h3 className="mt-3 mb-2 text-xl font-bold text-left ">Nursing</h3>
 
@@ -85,7 +85,7 @@ const Service = () => {
             data-aos="fade-up"
             data-aos-duration="1000"
           >
-            <img className="w-16" src={resume} alt="" />
+            <img className="w-96" src="https://i.ibb.co/MCG18rs/25.jpg" alt="" />
 
             <h3 className="mt-3 mb-2 text-xl font-bold text-left ">
               Physiotherapy
@@ -148,7 +148,7 @@ const Service = () => {
             data-aos="fade-up"
             data-aos-duration="1000"
           >
-            <img className="w-16" src={hidden} alt="" />
+            <img className="w-96" src="https://media.istockphoto.com/photos/nurse-measuring-blood-pressure-of-senior-woman-at-home-picture-id1034253530?k=20&m=1034253530&s=612x612&w=0&h=pd-Ycv6_FNMbsLt5IzheyWyYuaRxIP1VkxX5_neNWk0=" alt="" />
 
             <h3 className="mt-3 mb-2 text-xl font-bold text-left ">
               Medical Assistant
@@ -212,7 +212,7 @@ const Service = () => {
             data-aos="fade-up"
             data-aos-duration="1000"
           >
-            <img className="w-16" src={friendly} alt="" />
+            <img className="w-96" src="https://media.istockphoto.com/photos/home-caregiver-wearing-a-facemask-while-assisting-a-senior-woman-a-picture-id1282348252?k=20&m=1282348252&s=612x612&w=0&h=thZRaFaG0ymwDK3CWfbq0LHMI8MjBc9hz1-EK-RHf5k=" alt="" />
 
             <h3 className="mt-3 mb-2 text-xl font-bold text-left ">
               Medical Caregiver
@@ -283,7 +283,7 @@ const Service = () => {
             data-aos="fade-up"
             data-aos-duration="1000"
           >
-            <img className="w-16" src={liveContent} alt="" />
+            <img className="w-96" src="https://media.istockphoto.com/photos/aged-elegant-woman-and-tea-time-at-nursing-home-picture-id1011187336?k=20&m=1011187336&s=612x612&w=0&h=k_Wqsa3EQZkpkwvB_QWdrMoEZtM9dsCi42lznsa8Tj0=" alt="" />
 
             <h3 className="mt-3 mb-2 text-xl font-bold text-left ">
               Caregiver
@@ -347,7 +347,7 @@ const Service = () => {
             data-aos="fade-up"
             data-aos-duration="1000"
           >
-            <img className="w-16" src={edit} alt="" />
+            <img className="w-96" src="https://media.istockphoto.com/photos/typing-in-laboratory-picture-id589973864?k=20&m=589973864&s=612x612&w=0&h=P2tqCBiPrRuxF-MdvooT3Xtt1EmLOe8W5cSZAKai47s=" alt="" />
 
             <h3 className="mt-3 mb-2 text-xl font-bold text-left ">
               Lab Support

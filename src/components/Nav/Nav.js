@@ -8,14 +8,14 @@ import { BiLocationPlus } from "react-icons/bi";
 const Nav = () => {
   return (
     <div>
-     <div className="grid sm:grid-cols-1 gap-2 lg:grid-cols-3  justify-items-center	  " style={{backgroundColor: "#453364" }}>
+     <div className="grid sm:grid-cols-1 gap-2 lg:grid-cols-3 items-center justify-items-center  " style={{backgroundColor: "#453364" }}>
      <div className="flex items-center     gap-2">
         <div>
           < FaPhoneVolume  className="text-2xl text-white"/>
         </div>
         <div>
           <p className="text-sm text-white 	"  >
-            01779-848666
+            01619848555
           </p>
           <p className="text-sm  	text-white 	"  >
             info@hcah.mrg.com.bd
@@ -28,7 +28,7 @@ const Nav = () => {
         </div>
         <div>
           <div className="	">
-            <p className="text-xs text-white   	"  >
+            <p className="text-xs text-white font-bolder  	"  >
               24/7days Open
             </p>
       
