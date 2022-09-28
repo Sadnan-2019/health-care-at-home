@@ -5,6 +5,7 @@ import Landing from '../Landing/Landing';
 import Modal from '../Modal/Modal';
 import Review from '../Review/Review';
 import Service from '../Service/Service';
+import Success from '../Success/Success';
 
 const Home = () => {
     return (
@@ -12,6 +13,7 @@ const Home = () => {
             <Landing></Landing>
             <Service></Service>
             <Review></Review>
+            <Success></Success>
             <About></About>
             <Contact></Contact>
             {/* <Modal/> */}

@@ -89,6 +89,8 @@ const Review = () => {
               <AiFillStar className="text-white" />
             </div>
           </div>
+
+          
         </div>
         <Slider {...settings}>
           <Reviewcard />

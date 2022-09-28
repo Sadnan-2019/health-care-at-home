@@ -2,13 +2,13 @@ import React from "react";
 
 const About = () => {
   return (
-    <div>
+    <div className="py-10">
       <div
         className="hero min-h-screen"
         data-aos="zoom-in-up"
         data-aos-offset="300"
         data-aos-delay="5000"
-        data-aos-duration="2000"
+        data-aos-duration="4000"
         data-aos-easing="ease-in-out"
         data-aos-mirror="true"
         data-aos-once="false"

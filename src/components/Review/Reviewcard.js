@@ -4,7 +4,8 @@ import { AiFillStar } from "react-icons/ai";
 const Reviewcard = () => {
     return (
       
-        <div className="shadow-md hover:shadow-lg cursor-pointer rounded-md lg:max-w-[360px] md:max-w-xs p-5 bg-white">
+        <div>
+          <div className="shadow-md hover:shadow-lg cursor-pointer rounded-md lg:max-w-[360px] md:max-w-xs p-5 bg-white">
         <div className="grid grid-cols-12">
           <img
             className="col-span-3 w-14 rounded-full"
@@ -32,6 +33,9 @@ const Reviewcard = () => {
           </div>
         </div>
       </div>
+
+      
+        </div>
      
     );
 };
