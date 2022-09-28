@@ -5,7 +5,9 @@ const Reviewcard = () => {
     return (
       
         <div>
-          <div className="shadow-md hover:shadow-lg cursor-pointer rounded-md lg:max-w-[360px] md:max-w-xs p-5 bg-white">
+          <div className="shadow-md hover:shadow-lg cursor-pointer rounded-md lg:max-w-[360px] md:max-w-xs p-5 bg-white"
+          data-aos="fade-up"
+            data-aos-duration="3000"  >
         <div className="grid grid-cols-12">
           <img
             className="col-span-3 w-14 rounded-full"

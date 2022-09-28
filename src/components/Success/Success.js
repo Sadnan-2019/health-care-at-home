@@ -5,7 +5,8 @@ const Success = () => {
      return (
           <div style={{backgroundColor: "#453364" }}>
 
-<div className='grid grid-cols-1 py-10 mx-14' >
+<div className='grid grid-cols-1 py-10 mx-14' data-aos="fade-up"
+            data-aos-duration="1000" >
                <div className="stats shadow">
   
   <div className="stat">
@@ -34,7 +35,7 @@ const Success = () => {
         </div>
       </div>
     </div>
-    <div className="stat-value">86%</div>
+    <div className="stat-value" style={{  color:"#453364" }}>86%</div>
     <div className="stat-title text-1xl font-bold">Tasks done</div>
     <div className="stat-desc text-1xl font-bold">31 tasks remaining</div>
   </div>
