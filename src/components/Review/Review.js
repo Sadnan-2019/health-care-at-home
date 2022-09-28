@@ -2,6 +2,7 @@ import React from "react";
 import Slider from "react-slick";
 
 import { AiFillStar } from "react-icons/ai";
+import Reviewcard from "./Reviewcard";
 
 const Review = () => {
   var settings = {
@@ -48,99 +49,15 @@ const Review = () => {
         </h2>
         <h1 className="  w-64 h-1 rounded-lg mt-2 mb-4 mx-auto" style={{backgroundColor: "#453364" }}></h1>
       </div>
-      <div  className="py-12">
+      <div  className=" px-5 py-12 md:px-10 ">
         <Slider {...settings}>
           
         
-        <div className="card shadow-md hover:shadow-lg cursor-pointer rounded-md  lg:max-w-[360px] md:max-w-xs mx-10    ">
-              <div className="flex gap-3 items-center">
-                <div className="avatar">
-                  <div className="w-24 m-5 rounded-full">
-                    <img src="https://placeimg.com/192/192/people" />
-                  </div>
-                </div>
-                <p className="text-2xl font-bold" style={{color: "#453364" }}>Sadnan</p>
-              </div>
-              <p className="text-md m-3">
-                Lorem Ipsum es simplemente el texto de relleno de las imprentas
-                y archivos de texto. Lorem Ipsum ha sido el texto de relleno
-                estándar de las industrias desde el año 1500.
-              </p>
-             <div className="flex justify-start text-lg gap-1 mt-4 ml-3 p-2" style={{color: "#453364" }}>
-             <AiFillStar/> 
-              <AiFillStar/> 
-              <AiFillStar/> 
-              <AiFillStar/> 
-              <AiFillStar/> 
-             </div>
-            </div>
-        <div className="card shadow-md hover:shadow-lg cursor-pointer rounded-md lg:max-w-[360px] md:max-w-xs     mx-10 ">
-              <div className="flex gap-3 items-center">
-                <div className="avatar">
-                  <div className="w-24 m-5 rounded-full">
-                    <img src="https://placeimg.com/192/192/people" />
-                  </div>
-                </div>
-                <p className="text-2xl font-bold" style={{color: "#453364" }}>Sadnan</p>
-              </div>
-              <p className="text-md m-3">
-                Lorem Ipsum es simplemente el texto de relleno de las imprentas
-                y archivos de texto. Lorem Ipsum ha sido el texto de relleno
-                estándar de las industrias desde el año 1500.
-              </p>
-             <div className="flex justify-start text-lg gap-1 mt-4 ml-3 p-2" style={{color: "#453364" }}>
-             <AiFillStar/> 
-              <AiFillStar/> 
-              <AiFillStar/> 
-              <AiFillStar/> 
-              <AiFillStar/> 
-             </div>
-            </div>
-        <div className="card shadow-md hover:shadow-lg cursor-pointer rounded-md lg:max-w-[360px] md:max-w-xs     mx-10  ">
-              <div className="flex gap-3 items-center">
-                <div className="avatar">
-                  <div className="w-24 m-5 rounded-full">
-                    <img src="https://placeimg.com/192/192/people" />
-                  </div>
-                </div>
-                <p className="text-2xl font-bold" style={{color: "#453364" }}>Sadnan</p>
-              </div>
-              <p className="text-md m-3">
-                Lorem Ipsum es simplemente el texto de relleno de las imprentas
-                y archivos de texto. Lorem Ipsum ha sido el texto de relleno
-                estándar de las industrias desde el año 1500.
-              </p>
-             <div className="flex justify-start text-lg gap-1 mt-4 ml-3 p-2" style={{color: "#453364" }}>
-             <AiFillStar/> 
-              <AiFillStar/> 
-              <AiFillStar/> 
-              <AiFillStar/> 
-              <AiFillStar/> 
-             </div>
-            </div>
-        <div className="card shadow-md hover:shadow-lg cursor-pointer rounded-md lg:max-w-[360px] md:max-w-xs     mx-10  ">
-              <div className="flex gap-3 items-center">
-                <div className="avatar">
-                  <div className="w-24 m-5 rounded-full">
-                    <img src="https://placeimg.com/192/192/people" />
-                  </div>
-                </div>
-                <p className="text-2xl font-bold" style={{color: "#453364" }}>Sadnan</p>
-              </div>
-              <p className="text-md m-3">
-                Lorem Ipsum es simplemente el texto de relleno de las imprentas
-                y archivos de texto. Lorem Ipsum ha sido el texto de relleno
-                estándar de las industrias desde el año 1500.
-              </p>
-             <div className="flex justify-start text-lg gap-1 mt-4 ml-3 p-2" style={{color: "#453364" }}>
-             <AiFillStar/> 
-              <AiFillStar/> 
-              <AiFillStar/> 
-              <AiFillStar/> 
-              <AiFillStar/> 
-             </div>
-            </div>
-        
+       <Reviewcard/>
+       <Reviewcard/>
+       <Reviewcard/>
+       <Reviewcard/>
+       <Reviewcard/>
           
         </Slider>
       </div>
