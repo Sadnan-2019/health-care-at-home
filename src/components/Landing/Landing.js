@@ -2,12 +2,12 @@
 import React from 'react';
 import { BsArrowRight } from "react-icons/bs";
 import { Link } from "react-router-dom";
-import Banner from "../../assets/hero-banner.png";
+ import { FaPhoneVolume } from "react-icons/fa";
 
 const Landing = () => {
     return (
-        <section className=" bg-no-repeat bg-cover width-[100px]" style={{
-          backgroundImage: `url("https://i.ibb.co/6JqcC4t/hello.png")`,
+        <section className=" bg-no-repeat bg-cover " style={{
+          backgroundImage: `url("https://i.ibb.co/MSCmqjh/klksd.png")`,
         }}>
       <div className=" md:py-20 py-10 lg:py-24 lg:mx-16 mx-8 grid lg:grid-cols-1 grid-cols-1 gap-5">
         <div className="max-w-xl text-left md:ml-8 lg:order-1 order-2 mt-10 lg:mt-0">
@@ -33,6 +33,18 @@ const Landing = () => {
           >
             First ever one stop healthcare solution at your home in bangladesh.
           </p>
+          <p
+            data-aos="fade-up"
+            data-aos-duration="1000"
+            className="md:text-[25px] font-bold text-[25px] text-left poppins-b "
+            style={{ lineHeight: "120%",color:"#453364" }}
+          >
+            We are providing high quality healthcare Services.
+          </p>
+          <div className='flex items-center mt-5 font-bold'>
+          < FaPhoneVolume  className="text-2xl " style={{  color:"#453364" }}/>
+          <span className="text-2xl "style={{ color:"#453364" }} > Call Now: 01619848555</span>
+        </div>
 
           <div
             data-aos="fade-up"
