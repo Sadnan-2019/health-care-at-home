@@ -13,7 +13,7 @@ const About = () => {
         data-aos-mirror="true"
         data-aos-once="false"
         style={{
-          backgroundImage: `url("https://img.freepik.com/free-photo/team-young-specialist-doctors-standing-corridor-hospital_1303-21199.jpg?w=740&t=st=1664271330~exp=1664271930~hmac=294c95056bc771c4e724210f2ecfa9eb73be04f49006075520b2c7e387bd0282")`,
+          backgroundImage: `url("https://i.ibb.co/kxsgwb4/unnamed.png")`,
         }}
       >
         <div className="hero-overlay bg-opacity-60"></div>
