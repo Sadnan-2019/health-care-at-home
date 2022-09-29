@@ -60,7 +60,7 @@ const Faq = () => {
         
       </div>
       <div>
-      <img className="mask mask-circle w-96" src="https://placeimg.com/160/160/arch"  alt="" data-aos="flip-left"
+      <img className="rounded" src="https://www.tbsnews.net/sites/default/files/styles/big_2/public/images/2020/04/07/burn_hospital_salahuddin_ahmed_2.jpg?itok=-XDbK1lX&timestamp=1586250124"  alt="" data-aos="flip-left"
      data-aos-easing="ease-out-cubic"
      data-aos-duration="2000"/>
       </div>

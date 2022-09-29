@@ -5,13 +5,13 @@ const About = () => {
     <div className="py-10">
       <div
         className="hero min-h-screen"
-        // data-aos="zoom-in-up"
+        data-aos="zoom-in-up"
         // data-aos-offset="300"
-        // data-aos-delay="5000"
-        // data-aos-duration="4000"
-        // // data-aos-easing="ease-in-out"
-        // data-aos-mirror="true"
-        // data-aos-once="false"
+        data-aos-delay="5000"
+        data-aos-duration="4000"
+        // data-aos-easing="ease-in-out"
+        data-aos-mirror="true"
+        data-aos-once="false"
         style={{
           backgroundImage: `url(" https://i.ibb.co/MpB7WHX/Whats-App-Image-2022-09-29-at-4-02-29-PM.jpg")`,
         }}

@@ -40,7 +40,7 @@ const Nav = () => {
       <div className="flex items-center gap-2 ">
         <div>
  
-          <BiLocationPlus className="text-2xl text-white "/>
+          <BiLocationPlus className="text-2xl text-white animate-ping"/>
         </div>
         <div>
           <span className="text-sm text-white  		"  >
