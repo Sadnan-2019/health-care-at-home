@@ -1,14 +1,5 @@
 import React from "react";
-import resume from "../../assets/service_icon/cv.png";
-import friendly from "../../assets/service_icon/friends.png";
-
-import hidden from "../../assets/service_icon/hidden.png";
-import liveContent from "../../assets/service_icon/live-chat.png";
-import premium from "../../assets/service_icon/premium.png";
-import edit from "../../assets/service_icon/resume.png";
-import { Link } from "react-router-dom";
-import { BsArrowRight } from "react-icons/bs";
-// import Banner from "../../assets/
+ 
 
 const Service = () => {
   return (

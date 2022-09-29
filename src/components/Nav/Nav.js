@@ -13,7 +13,7 @@ const Nav = () => {
      <div className="grid sm:grid-cols-1 gap-2 lg:grid-cols-3 items-center justify-items-center  " style={{backgroundColor: "#453364" }}>
      <div className="flex items-center     gap-2">
         <div>
-          < FaPhoneVolume  className="text-2xl text-white"/>
+          < FaPhoneVolume  className="text-2xl animate-ping	 text-white"/>
         </div>
         <div>
           <p className="text-sm text-white 	"  >
@@ -24,9 +24,9 @@ const Nav = () => {
           </p>
         </div>
       </div>
-      <div className="flex items-center gap-2 ">
+      <div className="flex items-center gap-2  ">
         <div>
-          <FcAlarmClock className="text-2xl text-white "></FcAlarmClock>
+          <FcAlarmClock className="text-2xl text-white animate-ping	"></FcAlarmClock>
         </div>
         <div>
           <div className="	">
