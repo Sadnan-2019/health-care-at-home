@@ -6,7 +6,7 @@ import "./Navbar.css";
 
 const Navbar = () => {
   const active =
-    "text-blue-900 mx-1 font-medium border-b-2 border-blue-900 pb-1  ";
+    "text-white mx-1 font-medium border-b-2 border-blue-900 pb-1  ";
   const normal =
     "  mx-1 hover:text-white-600 font-medium font-bold focus:text-gray-700 p-0   ";
 
@@ -112,7 +112,7 @@ const Navbar = () => {
             <ul
               tabindex="0"
               className="menu menu-compact dropdown-content mt-3 p-2 shadow  rounded-box w-52"
-              style={{ color: "#453364" }}
+              style={{backgroundColor: "#453364",color:"white" }}
             >
               {navItem}
             </ul>

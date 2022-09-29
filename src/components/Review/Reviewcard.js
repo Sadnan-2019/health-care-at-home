@@ -26,7 +26,7 @@ const Reviewcard = () => {
             accusantium cumque tenetur ratione ea nobis dolore voluptas! Vel,
             ipsam nisi?
           </p>
-          <div className="flex justify-start text-lg gap-1 mt-4 text-blue-800">
+          <div className="flex justify-start text-lg gap-1 mt-4  "style={{color: "#453364" }}>
             <AiFillStar />
             <AiFillStar />
             <AiFillStar />

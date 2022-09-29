@@ -8,12 +8,12 @@ const Review = () => {
   var settings = {
     dots: true,
     infinite: true,
-    speed: 400,
+    speed: 300,
     slidesToShow: 3,
     slidesToScroll: 2,
     initialSlide: 0,
     autoplay: true,
-    autoplaySpeed: 2000,
+    autoplaySpeed: 5000,
     responsive: [
       {
         breakpoint: 1024,
