@@ -1,5 +1,6 @@
 import React from "react";
 import { Link, NavLink } from "react-router-dom";
+import Nav from "../Nav/Nav";
 
 import "./Navbar.css";
 
@@ -83,8 +84,11 @@ const Navbar = () => {
   );
 
   return (
-    <div className="px-4 md:pl-10  lg:px-24 bg-base-100">
+    <div className="sticky top-0 z-50 ">
+<Nav/>
+<div className="px-4 md:pl-10  lg:px-24 bg-base-100">
       {/* Navbar start source code from Daisy UI */}
+     
       <div className="navbar   ">
         {/* Navbar left portion */}
         <div className="">
@@ -134,6 +138,7 @@ const Navbar = () => {
           </div>
         </div>
       </div>
+    </div>
     </div>
   );
 };

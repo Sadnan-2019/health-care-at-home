@@ -7,7 +7,9 @@ import { BiLocationPlus } from "react-icons/bi";
 
 const Nav = () => {
   return (
-    <div>
+   <div className="sticky top-0 z-50 ">
+
+<div className="">
      <div className="grid sm:grid-cols-1 gap-2 lg:grid-cols-3 items-center justify-items-center  " style={{backgroundColor: "#453364" }}>
      <div className="flex items-center     gap-2">
         <div>
@@ -51,18 +53,9 @@ const Nav = () => {
       
       
       
-      {/* <div className="flex items-center gap-2 ml-6">
-        <div>
- 
-          <BiLocationPlus />
-        </div>
-        <div>
-          <span className="text-sm  		" style={{ color: "#453364" }}>
-            House 11, Road 108, Gulshan 2, Dhaka, Bangladesh. 1212
-          </span>
-        </div>
-      </div> */}
+    
     </div>
+   </div>
   );
 };
 
