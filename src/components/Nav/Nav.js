@@ -9,9 +9,10 @@ const Nav = () => {
   return (
    <div className="sticky top-0 z-50 ">
 
-<div className="">
+<div className="mx-auto">
      <div className="grid sm:grid-cols-1 gap-2 lg:grid-cols-3 items-center justify-items-center  " style={{backgroundColor: "#453364" }}>
-     <div className="flex items-center     gap-2">
+  <div>
+  <div className="flex items-center     gap-2">
         <div>
           < FaPhoneVolume  className="text-2xl animate-ping	 text-white"/>
         </div>
@@ -24,9 +25,12 @@ const Nav = () => {
           </p>
         </div>
       </div>
+      
+  </div>
+      <div>
       <div className="flex items-center gap-2  ">
-        <div>
-          <FcAlarmClock className="text-2xl text-white animate-ping	"></FcAlarmClock>
+        <div className="animate-spin">
+          <FcAlarmClock className="text-2xl text-white  "></FcAlarmClock>
         </div>
         <div>
           <div className="	">
@@ -36,8 +40,21 @@ const Nav = () => {
       
           </div>
         </div>
+        
       </div>
-      <div className="flex items-center gap-2 ">
+      <div className="flex gap-2 items-center">
+      <div>
+ 
+ <BiLocationPlus className="text-2xl text-white animate-spin"/>
+</div>
+<div>
+ <p className="text-sm text-white  		"  >
+   House 11, Road 108, Gulshan 2, Dhaka, Bangladesh. 1212
+ </p>
+</div>
+      </div>
+      </div>
+      {/* <div className="flex items-center gap-2 ">
         <div>
  
           <BiLocationPlus className="text-2xl text-white animate-ping"/>
@@ -47,7 +64,7 @@ const Nav = () => {
             House 11, Road 108, Gulshan 2, Dhaka, Bangladesh. 1212
           </span>
         </div>
-      </div>
+      </div> */}
      </div>
       
       
