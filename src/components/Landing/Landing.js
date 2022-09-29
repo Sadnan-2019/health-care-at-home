@@ -7,7 +7,7 @@ import { Link } from "react-router-dom";
 const Landing = () => {
     return (
         <section className=" bg-no-repeat bg-cover " style={{
-          backgroundImage: `url("https://i.ibb.co/MSCmqjh/klksd.png")`,
+          backgroundImage: `url("https://i.ibb.co/SRrZBdy/newone.jpg")`,
         }}>
       <div className=" md:py-20 py-10 lg:py-24 lg:mx-16 mx-8 grid lg:grid-cols-1 grid-cols-1 gap-5">
         <div className="max-w-xl text-left md:ml-8 lg:order-1 order-2 mt-10 lg:mt-0">

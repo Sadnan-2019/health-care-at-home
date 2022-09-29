@@ -1,75 +1,89 @@
 import React from "react";
 import { Link, NavLink } from "react-router-dom";
 
- 
-
 import "./Navbar.css";
 
 const Navbar = () => {
-  const active = "text-blue-900 mx-1 font-medium border-b-2 border-blue-900 pb-1  " ;
+  const active =
+    "text-blue-900 mx-1 font-medium border-b-2 border-blue-900 pb-1  ";
   const normal =
-    "  mx-1 hover:text-white-600 font-medium focus:text-gray-700 p-0  " ;
+    "  mx-1 hover:text-white-600 font-medium focus:text-gray-700 p-0  ";
 
   const navItem = (
     <>
       <li className="nav-item p-2">
         <NavLink
           className={({ isActive }) => (isActive ? `${active}` : `${normal}`)}
-          to="/"
+          to="/nursing"
         >
-          HOME
+          Nursing
         </NavLink>
       </li>
       <li className="nav-item p-2">
         <NavLink
           className={({ isActive }) => (isActive ? `${active}` : `${normal}`)}
-          to="/service"
+          to="/physiotherapy"
         >
-          SERVICE
+          Physiotherapy
         </NavLink>
       </li>
       <li className="nav-item p-2">
         <NavLink
           className={({ isActive }) => (isActive ? `${active}` : `${normal}`)}
-          to="/review"
+          to="/medical-assistant"
         >
-          REVIEW
+          Medical Assistant
         </NavLink>
       </li>
+      <li className="nav-item p-2">
+        <NavLink
+          className={({ isActive }) => (isActive ? `${active}` : `${normal}`)}
+          to="/medical-caregiver"
+        >
+          Medical Caregiver
+        </NavLink>
+      </li>
+      <li className="nav-item p-2">
+        <NavLink
+          className={({ isActive }) => (isActive ? `${active}` : `${normal}`)}
+          to="/caregiver"
+        >
+          Caregiver
+        </NavLink>
+      </li>
+      <li className="nav-item p-2">
+        <NavLink
+          className={({ isActive }) => (isActive ? `${active}` : `${normal}`)}
+          to="/medical-equipment"
+        >
+          Medical Equipment
+        </NavLink>
+      </li>
+    
+
       <li className="nav-item p-2">
         <NavLink
           className={({ isActive }) => (isActive ? `${active}` : `${normal}`)}
           to="/about"
-        >ABOUT</NavLink>
+        >
+          About
+        </NavLink>
       </li>
       <li className="nav-item p-2">
         <NavLink
           className={({ isActive }) => (isActive ? `${active}` : `${normal}`)}
           to="/contact"
         >
-          CONTACT
+          Contact
         </NavLink>
       </li>
-      <li className="nav-item p-2">
-        <NavLink
-          className={({ isActive }) => (isActive ? `${active}` : `${normal}`)}
-          to="/profile"
-        >PROFILE</NavLink>
-      </li>
-      <li className="nav-item p-2">
-      <input
-                    class="sm:w-mx-xs w-full px-6 py-3  rounded-full shadow-sm"
-                    type="email"
-                    placeholder="Enter your search"
-                  />
-      </li>
 
-    
+     
     </>
   );
 
   return (
-    <div className="px-4 md:pl-10  lg:px-24 bg-base-100" >
+    <div className="px-4 md:pl-10  lg:px-24 bg-base-100">
       {/* Navbar start source code from Daisy UI */}
       <div className="navbar   ">
         {/* Navbar left portion */}
@@ -94,7 +108,8 @@ const Navbar = () => {
             <ul
               tabindex="0"
               className="menu menu-compact dropdown-content mt-3 p-2 shadow  rounded-box w-52"
-              style={{ color: "#453364" }}>
+              style={{ color: "#453364" }}
+            >
               {navItem}
             </ul>
           </div>
@@ -108,19 +123,16 @@ const Navbar = () => {
             </div>
           </Link>
         </div>
-        
-        <div className="navbar-end flex 	  ">
-          
-         
-        <div className="navbar-start hidden   lg:flex      " >
-        <div className="     "> 
-         <ul className="menu-horizontal p-0 flex items-center    ">{navItem}</ul>
-         
-         </div>
+
+        <div className=" flex 	ml-3  ">
+          <div className="navbar-start hidden   lg:flex      ">
+            <div className="     ">
+              <ul className="menu-horizontal p-0 flex items-center    ">
+                {navItem}
+              </ul>
+            </div>
+          </div>
         </div>
-       
-        </div>
-      
       </div>
     </div>
   );

@@ -28,7 +28,7 @@ const Nav = () => {
         </div>
         <div>
           <div className="	">
-            <p className="text-xs text-white font-bolder  	"  >
+            <p className="text-xs text-white font-bold  	"  >
               24/7days Open
             </p>
       
