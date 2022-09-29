@@ -5,7 +5,7 @@ const Footer = () => {
   return (
     <footer class=" " style={{backgroundColor: "#453364" }} >
       <div class="max-w-screen-xl px-4  pb-6 mx-auto sm:px-6 lg:px-8" >
-        <div class="lg:items-center lg:justify-between lg:flex pt-5 w-96" style={{backgroundColor: "#DFC5FE" }}>
+        {/* <div class="lg:items-center lg:justify-between lg:flex pt-5 w-96" style={{backgroundColor: "#DFC5FE" }}>
           <div class="flex justify-center text-primary sm:justify-start items-center" >
             <img
               className="w-64"
@@ -14,12 +14,8 @@ const Footer = () => {
             />
           </div>
 
-          {/* <p class="max-w-md mx-auto mt-4 leading-relaxed text-center text-gray-500 sm:ml-0 lg:mr-0 sm:text-left lg:mt-0">
-              Resume Builder is lightning fast. There's no software to download.
-              No multi-part sign-up form. No long-winded tutorials. Just a
-              straightforward process.
-            </p> */}
-        </div>
+        
+        </div> */}
 
         <div class="grid grid-cols-1 gap-8 pt-16 mt-16 border-t border-gray-100 md:grid-cols-4 lg:grid-cols-4 text-white" >
           <div class="text-center sm:text-left">

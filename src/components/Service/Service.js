@@ -27,7 +27,7 @@ const Service = () => {
             data-aos="fade-up"
             data-aos-duration="1000"
           >
-            <img className="w-96" src="https://clipboardhealth.com/wp-content/uploads/2020/08/Perks-of-Working-in-Home-Health-Care.jpeg" alt="" />
+            <img className="w-96 h-52 " src="https://www.bangladeshyp.com/img/bd/z/1494774815-12-home-aid-care-bangladesh.jpg" alt="" />
 
             <h3 className="mt-3 mb-2 text-xl font-bold text-left ">Nursing</h3>
 
@@ -63,7 +63,7 @@ const Service = () => {
                 </div>
                 <div>
                   <img
-                    src="https://images.saymedia-content.com/.image/t_share/MTc0MTU0Mzc4MDU0MjE1MTY0/what-is-nursing-care.jpg"
+                    src="https://www.bangladeshyp.com/img/bd/z/1494774815-12-home-aid-care-bangladesh.jpg"
                     alt=""
                   />
                 </div>
@@ -148,7 +148,7 @@ const Service = () => {
             data-aos="fade-up"
             data-aos-duration="1000"
           >
-            <img className="w-96" src="https://media.istockphoto.com/photos/nurse-measuring-blood-pressure-of-senior-woman-at-home-picture-id1034253530?k=20&m=1034253530&s=612x612&w=0&h=pd-Ycv6_FNMbsLt5IzheyWyYuaRxIP1VkxX5_neNWk0=" alt="" />
+            <img className="w-96 h-52" src="https://www.lifecircle.in/wp-content/uploads/2021/09/IMG_8342-1080x675.jpg" alt="" />
 
             <h3 className="mt-3 mb-2 text-xl font-bold text-left ">
               Medical Assistant
@@ -185,7 +185,7 @@ const Service = () => {
                 </div>
                 <div className="">
                   <img
-                    src="https://media.istockphoto.com/photos/confident-young-female-african-scrub-nurse-wear-blue-uniform-face-picture-id1313904486?k=20&m=1313904486&s=612x612&w=0&h=Mk2xusMyPLXaPF7seFujaaSi5qXBYqDSINKwDHXL-tE="
+                    src="https://www.lifecircle.in/wp-content/uploads/2021/09/IMG_8342-1080x675.jpg"
                     alt=""
                   />
                 </div>
@@ -212,7 +212,7 @@ const Service = () => {
             data-aos="fade-up"
             data-aos-duration="1000"
           >
-            <img className="w-96" src="https://media.istockphoto.com/photos/home-caregiver-wearing-a-facemask-while-assisting-a-senior-woman-a-picture-id1282348252?k=20&m=1282348252&s=612x612&w=0&h=thZRaFaG0ymwDK3CWfbq0LHMI8MjBc9hz1-EK-RHf5k=" alt="" />
+            <img className="w-96" src="https://content.jdmagicbox.com/comp/amravati/r3/9999px721.x721.171224091109.s1r3/catalogue/pace-care-services-nawathe-amravati-home-nursing-services-fx12e.jpg" alt="" />
 
             <h3 className="mt-3 mb-2 text-xl font-bold text-left ">
               Medical Caregiver
@@ -252,7 +252,7 @@ const Service = () => {
                 </div>
                 <div className="">
                   <img
-                    src="https://calbizjournal.com/wp-content/uploads/2021/07/senior-woman-sitting-in-chair-and-laughing-with-nurse-in-retirement-home.jpg"
+                    src="https://content.jdmagicbox.com/comp/amravati/r3/9999px721.x721.171224091109.s1r3/catalogue/pace-care-services-nawathe-amravati-home-nursing-services-fx12e.jpg"
                     alt=""
                   />
                 </div>
@@ -283,7 +283,7 @@ const Service = () => {
             data-aos="fade-up"
             data-aos-duration="1000"
           >
-            <img className="w-96" src="https://media.istockphoto.com/photos/aged-elegant-woman-and-tea-time-at-nursing-home-picture-id1011187336?k=20&m=1011187336&s=612x612&w=0&h=k_Wqsa3EQZkpkwvB_QWdrMoEZtM9dsCi42lznsa8Tj0=" alt="" />
+            <img className="w-96" src="https://ehospice.com/wp-content/uploads/2020/07/IMG-20200716-WA0003-770x500.jpg" alt="" />
 
             <h3 className="mt-3 mb-2 text-xl font-bold text-left ">
               Caregiver
@@ -323,7 +323,7 @@ const Service = () => {
                 </div>
                 <div className="">
                   <img
-                    src="https://calbizjournal.com/wp-content/uploads/2021/07/senior-woman-sitting-in-chair-and-laughing-with-nurse-in-retirement-home.jpg"
+                    src="https://ehospice.com/wp-content/uploads/2020/07/IMG-20200716-WA0003-770x500.jpg"
                     alt=""
                   />
                 </div>
@@ -347,10 +347,10 @@ const Service = () => {
             data-aos="fade-up"
             data-aos-duration="1000"
           >
-            <img className="w-96" src="https://media.istockphoto.com/photos/typing-in-laboratory-picture-id589973864?k=20&m=589973864&s=612x612&w=0&h=P2tqCBiPrRuxF-MdvooT3Xtt1EmLOe8W5cSZAKai47s=" alt="" />
+            <img className="w-96" src="https://miro.medium.com/max/1280/1*hzN6JS-HlhW7hoyRYYJD6A.jpeg" alt="" />
 
             <h3 className="mt-3 mb-2 text-xl font-bold text-left ">
-              Lab Support
+            Medical Equipment
             </h3>
 
             <p className="mt-1 text-sm text-left text-gray-800">
@@ -371,7 +371,7 @@ const Service = () => {
           <input type="checkbox" id="my-modal-1" className="modal-toggle" />
           <div className="modal modal-bottom sm:modal-middle">
             <div className="modal-box   ">
-            <h1 className="text-2xl font-bold text-center py-5">Labsupport Details</h1>
+            <h1 className="text-2xl font-bold text-center py-5">Medical Equipment</h1>
               <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-3   mx-auto	 "  >
                 <div className="text-sm font-bold">
                   
@@ -386,7 +386,7 @@ const Service = () => {
                 </div>
                 <div className="">
                   <img
-                    src="https://calbizjournal.com/wp-content/uploads/2021/07/senior-woman-sitting-in-chair-and-laughing-with-nurse-in-retirement-home.jpg"
+                    src="https://miro.medium.com/max/1280/1*hzN6JS-HlhW7hoyRYYJD6A.jpeg"
                     alt=""
                   />
                 </div>
