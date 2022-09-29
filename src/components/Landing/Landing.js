@@ -36,7 +36,7 @@ const Landing = () => {
           <p
             data-aos="fade-up"
             data-aos-duration="1000"
-            className="md:text-[25px] font-bold text-[25px] text-left poppins-b "
+            className="md:text-[25px] font-bold text-[25px] mt-5 text-left poppins-b "
             style={{ lineHeight: "120%",color:"#453364" }}
           >
             We are providing high quality healthcare Services.

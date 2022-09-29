@@ -116,7 +116,8 @@ const Footer = () => {
                     class="text-white transition hover:text-white/75"
                     href="/"
                   >
-                    Lab Support
+                 Medical Equipment
+
 
 
                   </a>

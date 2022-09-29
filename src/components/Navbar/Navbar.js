@@ -7,11 +7,11 @@ const Navbar = () => {
   const active =
     "text-blue-900 mx-1 font-medium border-b-2 border-blue-900 pb-1  ";
   const normal =
-    "  mx-1 hover:text-white-600 font-medium focus:text-gray-700 p-0  ";
+    "  mx-1 hover:text-white-600 font-medium font-bold focus:text-gray-700 p-0   ";
 
   const navItem = (
     <>
-      <li className="nav-item p-2">
+      <li className="nav-item p-2 	">
         <NavLink
           className={({ isActive }) => (isActive ? `${active}` : `${normal}`)}
           to="/nursing"
