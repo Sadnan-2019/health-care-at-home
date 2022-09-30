@@ -9,7 +9,7 @@ const Success = () => {
         data-aos="fade-up"
         data-aos-duration="1000"
       >
-        <div className="stats shadow">
+        <div className="stats ">
           <div className="stat">
             <div className="stat-figure  " style={{ color: "#453364" }}>
               {/* <svg
@@ -80,7 +80,7 @@ const Success = () => {
               <div className="avatar  ">
                 <div className="w-26  " style={{ color: "#453364" }}>
                   <img
-                    src="https://i.ibb.co/Xy0jSNJ/1776932.png"
+                    src="https://i.ibb.co/PWfKLvB/physiotherapy-2393500-1994755.png"
                     alt=""
                     style={{ color: "#453364" }}
                   />

@@ -6,7 +6,7 @@ import "./Navbar.css";
 
 const Navbar = () => {
   const active =
-    "text-white mx-1 font-medium border-b-2 border-blue-900 pb-1 md:text-blue-500 ";
+    "text-white mx-1 font-medium border-b-2 border-blue-900 pb-1 md:text-blue-900 ";
   const normal =
     "  mx-1 hover:text-white-600 font-medium font-bold focus:text-gray-700 p-0   ";
 

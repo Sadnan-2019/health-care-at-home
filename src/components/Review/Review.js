@@ -54,26 +54,30 @@ const Review = () => {
           <div className="flex items-center   justify-between mb-5" >
             <p
               className="text-white text-1xl lg:text-3xl font-bold poppins-b 	"
-              data-aos="fade-right"
-              data-aos-offset="100"
-              data-aos-easing="ease-in-sine"
-              data-aos-duration="4000"
+              // data-aos="fade-right"
+              // data-aos-offset="100"
+              // data-aos-easing="ease-in-sine"
+              // data-aos-duration="4000"
             >
               Hear from the Healed
             </p>
 
-            <p className="text-white text-sm lg:text-2xl   font-bold poppins-b	" data-aos="fade-left"
-              data-aos-offset="100"
-              data-aos-easing="ease-in-sine"
-              data-aos-duration="4000">
-              Overall rating{" "}
+            <p className="text-white text-sm lg:text-2xl   font-bold poppins-b	"
+            //  data-aos="fade-left"
+            //   data-aos-offset="100"
+            //   data-aos-easing="ease-in-sine"
+            //   data-aos-duration="4000"
+              >
+              Overall rating 
             </p>
           </div>
 
           <div className="flex items-center   justify-between mb-8	">
-            <p className="text-white text-1xl lg:text-3xl font-bold poppins-b	" data-aos="fade-right"
-              data-aos-offset="100"
-              data-aos-easing="ease-in-sine">
+            <p className="text-white text-1xl lg:text-3xl font-bold poppins-b	" 
+            // data-aos="fade-right"
+            //   data-aos-offset="100"
+            //   data-aos-easing="ease-in-sine"
+              >
               Happy patients share their kind words and experiences.
             </p>
 
