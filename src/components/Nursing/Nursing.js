@@ -2,6 +2,7 @@ import React from 'react';
 import { BsArrowRight } from 'react-icons/bs';
 import { FaPhoneVolume } from 'react-icons/fa';
 import { Link } from 'react-router-dom';
+import Marque from '../Marque/Marque';
 import Nursingabout from './Nursingabout';
 
 const Nursing = () => {
@@ -70,6 +71,7 @@ const Nursing = () => {
          </section>
 
          <Nursingabout></Nursingabout>
+         <Marque></Marque>
          </div>
      );
 };

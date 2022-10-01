@@ -30,7 +30,7 @@ const Nursingabout = () => {
         <div className="max-w-xl text-left md:ml-8 lg:order-1 order-2 mt-10 lg:mt-0">
           <div className="grid sm:grid-cols-1 mx-12 md:grid-cols-3 lg:grid-cols-3 gap-5">
             <div
-              className="rounded-lg card	border-[1px]	 border-solid	p-5"
+              className="rounded-lg card	border-[1px] w-15	 border-solid	p-5"
               style={{ backgroundColor: "#F5F1EA", borderColor: "#F5F1EA" }}
             >
               <img
