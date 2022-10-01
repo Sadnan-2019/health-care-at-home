@@ -59,7 +59,7 @@ const Review = () => {
               // data-aos-easing="ease-in-sine"
               // data-aos-duration="4000"
             >
-              Hear from the Healed
+              Hear from the healed
             </p>
 
             <p className="text-white text-sm lg:text-2xl   font-bold poppins-b	"

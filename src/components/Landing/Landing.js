@@ -39,7 +39,7 @@ const Landing = () => {
             className="md:text-[25px] font-bold text-[25px] mt-5 text-left poppins-b "
             style={{ lineHeight: "120%",color:"#453364" }}
           >
-            We are providing high quality healthcare Services.
+            We are providing high quality healthcare services at home.
           </p>
           <div className='flex items-center mt-5 font-bold'>
           < FaPhoneVolume  className="text-2xl " style={{  color:"#453364" }}/>

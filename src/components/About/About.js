@@ -21,10 +21,10 @@ const About = () => {
           <div className="">
             <h1 className=" text-5xl font-bold text-white py-12 ">Why HCAH?</h1>
 
-            <div className="text-white 	 grid grid-cols-1 lg:grid-cols-3 gap-8">
+            <div className="text-white 	 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
               <div className="card">
                 <p className="text-xl font-bold mb-4">Monetary satisfaction </p>
-                <p className="text-justify	text-[15px] ">
+                <p className="text-justify	text-[15px] poppins-t">
                   One of the most significant and favorable advantages of
                   healthcare services at home is that it costs much less than
                   keeping a patient in a healing center or hospital. Home based
@@ -38,7 +38,7 @@ const About = () => {
               </div>
               <div>
                 <p className="text-xl font-bold mb-4">Nature of Care</p>
-                <p className="text-justify text-[15px] ">
+                <p className="text-justify text-[15px] poppins-t ">
                   Another essential advantage of home care is that patients get
                   one-on-one consideration, something they would not get as an
                   occupant in a healing center. When patients are monitored on a
@@ -49,7 +49,7 @@ const About = () => {
               </div>
               <div>
                 <p className="text-xl font-bold mb-4">Improved Management of Drugs</p>
-                <p className="text-justify  text-[15px] ">
+                <p className="text-justify  text-[15px] poppins-t">
                  The management of drugs/
                   medicines is a major task when it comes to taking proper care.
                   Most family members are not trained to provide the kind of

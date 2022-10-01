@@ -6,7 +6,7 @@ import { Link } from "react-router-dom";
 const Nursingabout = () => {
   return (
     <div>
-      <div className=" md:py-20 py-10 lg:py-24 lg:mx-16 mx-8 grid grid-cols-1 md:grid-cols-2   lg:grid-cols-2  gap-5">
+      <div className=" md:py-20 py-10 lg:py-24 lg:mx-16 mx-8 grid grid-cols-1 md:grid-cols-1   lg:grid-cols-2  gap-5">
         <div className="max-w-xl text-left md:ml-8 lg:order-1 order-2 mt-10 lg:mt-0">
           <p
             className="lg:text-[43px] md:text-[30px] font-bold text-[26px] text-left poppins-b "
@@ -28,7 +28,7 @@ const Nursingabout = () => {
           </p>
         </div>
         <div className="max-w-xl text-left md:ml-8 lg:order-1 order-2 mt-10 lg:mt-0">
-          <div className="grid sm:grid-cols-1 mx-12 md:grid-cols-2 lg:grid-cols-3 gap-5">
+          <div className="grid sm:grid-cols-1 mx-12 md:grid-cols-3 lg:grid-cols-3 gap-5">
             <div
               className="rounded-lg card	border-[1px]	 border-solid	p-5"
               style={{ backgroundColor: "#F5F1EA", borderColor: "#F5F1EA" }}
@@ -62,7 +62,7 @@ const Nursingabout = () => {
               style={{ backgroundColor: "#F5F1EA", borderColor: "#F5F1EA" }}
             >
               <img
-                src="https://cdn-icons-png.flaticon.com/512/8587/8587740.png"
+                src="https://i.ibb.co/ZBJyqw7/d4b342eb-a312-4ebe-87d7-20f3f64315f3.jpg"
                 alt="Shoes"
                 className="rounded-xl w-15"
                 style={{ color: "#453364" }}
@@ -133,13 +133,14 @@ const Nursingabout = () => {
               style={{ backgroundColor: "#F5F1EA", borderColor: "#F5F1EA" }}
             >
               <img
-                src="https://cdn-icons-png.flaticon.com/512/8587/8587740.png"
+                src="https://cdn-icons-png.flaticon.com/512/2981/2981444.png"
                 alt="Shoes"
                 className="rounded-xl w-15"
                 style={{ color: "#453364" }}
               />
               <p className="poppins-t text-gray-600 text-center">
-                Total Nursing Care
+              Hygiene maintenance
+
               </p>
             </div>
             <div
@@ -147,13 +148,14 @@ const Nursingabout = () => {
               style={{ backgroundColor: "#F5F1EA", borderColor: "#F5F1EA" }}
             >
               <img
-                src="https://cdn-icons-png.flaticon.com/512/8587/8587740.png"
+                src="https://cdn-icons-png.flaticon.com/512/5814/5814794.png"
                 alt="Shoes"
                 className="rounded-xl w-15"
                 style={{ color: "#453364" }}
               />
               <p className="poppins-t text-gray-600 text-center">
-                Total Nursing Care
+              Medication Reminder
+
               </p>
             </div>
           </div>

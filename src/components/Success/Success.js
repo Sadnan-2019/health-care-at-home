@@ -30,7 +30,7 @@ const Success = () => {
            
             </div>
             <div className="text-[18px] font-bold" style={{ color: "#453364" }}>
-              Specialists on our platform
+              Nurses/Medical Assistant on our platform
             </div>
             <div
               className="stat-value "
