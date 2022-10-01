@@ -15,20 +15,20 @@ const Nursingabout = () => {
             Nursing for Complete
           </p>
           <p
-            className="md:text-[43px] font-bold text-[26px] text-left poppins-b "
+            className=" lg:text-[43px] md:text-[30px] font-bold text-[26px] text-left poppins-b "
             style={{ lineHeight: "120%", color: "#453364" }}
           >
             Health Support at Home
           </p>
 
-          <p className="max-w-lg mt-7   md:text-[27px] poppins-t text-gray-600 text-justify ">
+          <p className="max-w-lg mt-7  md:text-[20px] lg:text-[27px] poppins-t text-gray-600 text-justify ">
             Our Skilled Nurses follow clinical protocols at par with
             International standards while delivering the Best Quality Healthcare
             at Home.
           </p>
         </div>
         <div className="max-w-xl text-left md:ml-8 lg:order-1 order-2 mt-10 lg:mt-0">
-          <div className="grid sm:grid-cols-1 mx-12 md:grid-cols-3 lg:grid-cols-3 gap-5">
+          <div className="grid sm:grid-cols-1 mx-12 md:grid-cols-2 lg:grid-cols-3 gap-5">
             <div
               className="rounded-lg card	border-[1px]	 border-solid	p-5"
               style={{ backgroundColor: "#F5F1EA", borderColor: "#F5F1EA" }}
