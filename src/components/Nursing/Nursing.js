@@ -71,7 +71,7 @@ const Nursing = () => {
          </section>
 
          <Nursingabout></Nursingabout>
-         <Marque></Marque>
+         {/* <Marque></Marque> */}
          </div>
      );
 };

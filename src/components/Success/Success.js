@@ -58,7 +58,7 @@ const Success = () => {
             <div className="stat-value" style={{ color: "#453364" }}>
               1,000+ Caregivers
             </div>
-            <div className="stat-title text-1xl font-bold">Tasks done</div>
+          
             {/* <div className="stat-desc text-1xl font-bold">
               31 tasks remaining
             </div> */}
@@ -78,7 +78,7 @@ const Success = () => {
             <div className="  text-xl"  >
               <p className=" stat-value" style={{ color: "#453364" }}>2,000+ Physiotherapy</p>
             </div>
-            <div className="stat-title text-1xl font-bold">Tasks done</div>
+            
             {/* <div className="stat-desc text-1xl font-bold">
               31 tasks remaining
             </div> */}

@@ -7,6 +7,16 @@ const Marque = () => {
     // https://i.ibb.co/sW7BTzT/cancer-removebg-preview.png
     // https://i.ibb.co/s5Qwp2B/cardiac-removebg-preview.png
     <div>
+
+<div className=" md:mx-16 lg:mx-24 mx-8 py-12">
+        <h2 className="text-3xl text-center   font-bold poppins-b sm:text-4xl  " style={{ color: "#453364" }}>
+        Treated Patients Coming from Leading Hospitals
+        </h2>
+        <h1
+            className="  w-64 h-1 rounded-lg mt-2 mb-4 mx-auto"
+            style={{ backgroundColor: "#453364" }}
+          ></h1>
+      </div>
       <Marquee   gradientColor={false} speed={80} gradient={false} play={true}>
         <div className="  	 	 mx-10">
           <img

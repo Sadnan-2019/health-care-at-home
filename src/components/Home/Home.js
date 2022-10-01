@@ -3,6 +3,7 @@ import About from '../About/About';
 import Contact from '../Contact/Contact';
 import Faq from '../Faq/Faq';
 import Landing from '../Landing/Landing';
+import Marque from '../Marque/Marque';
 import Modal from '../Modal/Modal';
 import Review from '../Review/Review';
 import Service from '../Service/Service';
@@ -16,6 +17,7 @@ const Home = () => {
             <Review></Review>
             
             <Success></Success>
+            <Marque></Marque> 
 
             <About></About>
             <Faq></Faq>
