@@ -29,18 +29,18 @@ const Landing = () => {
           <p
             data-aos="fade-up"
             data-aos-duration="2000"
-            className="max-w-lg mt-7 text-left md:text-[17px] poppins-t text-gray-600 "
+            className="max-w-lg mt-7 font-bold text-left md:text-[25px] poppins-t text-gray-600 "
           >
-            First ever one stop healthcare solution at your home in bangladesh.
+            First ever one stop high quality healthcare solution at your home in bangladesh.
           </p>
-          <p
+          {/* <p
             data-aos="fade-up"
             data-aos-duration="1000"
             className="md:text-[25px] font-bold text-[25px] mt-5 text-left poppins-b "
             style={{ lineHeight: "120%",color:"#453364" }}
           >
             We are providing high quality healthcare services at home.
-          </p>
+          </p> */}
           <div className='flex items-center mt-5 font-bold'>
           < FaPhoneVolume  className="text-2xl " style={{  color:"#453364" }}/>
           <span className="text-2xl "style={{ color:"#453364" }} > Call Now: 01619848555</span>
