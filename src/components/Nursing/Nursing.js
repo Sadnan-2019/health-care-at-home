@@ -25,7 +25,15 @@ const Nursing = () => {
                  className="md:text-[43px] font-bold text-[26px] text-left poppins-b "
                  style={{ lineHeight: "120%",color:"#453364" }}
                >
-                 Diploma Nursing Services at Home
+                 Diploma Nursing 
+               </p>
+               <p
+                 data-aos="fade-up"
+                 data-aos-duration="1000"
+                 className="md:text-[43px] font-bold text-[26px] text-left poppins-b "
+                 style={{ lineHeight: "120%",color:"#453364" }}
+               >
+                 Services at Home
                </p>
      
                {/* <p

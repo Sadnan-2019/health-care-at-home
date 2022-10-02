@@ -17,7 +17,7 @@ const Reviewcard = () => {
           />
           <div className="col-span-9">
             <h2 className="text-lg poppins-b font-bold">Sadnan</h2>
-            <p className="font-semibold">Developer</p>
+            <p className="font-semibold">Patients</p>
           </div>
         </div>
         <div className="mt-4">
