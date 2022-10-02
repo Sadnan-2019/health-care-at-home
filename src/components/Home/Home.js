@@ -5,10 +5,11 @@ import Faq from '../Faq/Faq';
 import Landing from '../Landing/Landing';
 import Map from '../Map/Map';
 import Marque from '../Marque/Marque';
-import Modal from '../Modal/Modal';
+
 import Review from '../Review/Review';
 import Service from '../Service/Service';
 import Success from '../Success/Success';
+import Team from '../Team/Team';
 
 const Home = () => {
     return (
@@ -19,7 +20,7 @@ const Home = () => {
             
             <Success></Success>
             <Marque></Marque> 
-
+<Team></Team>
             <About></About>
             <Faq></Faq>
             <Contact></Contact>
