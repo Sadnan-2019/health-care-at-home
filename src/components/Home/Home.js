@@ -3,6 +3,7 @@ import About from '../About/About';
 import Contact from '../Contact/Contact';
 import Faq from '../Faq/Faq';
 import Landing from '../Landing/Landing';
+import Map from '../Map/Map';
 import Marque from '../Marque/Marque';
 import Modal from '../Modal/Modal';
 import Review from '../Review/Review';
@@ -22,6 +23,7 @@ const Home = () => {
             <About></About>
             <Faq></Faq>
             <Contact></Contact>
+            <Map></Map>
             {/* <Modal/> */}
         </div>
     );
