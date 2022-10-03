@@ -9,7 +9,7 @@ const Nav = () => {
   return (
    <div className="sticky top-0 z-50 ">
 
-<div className="mx-auto">
+<div className="mx-auto bg-base-100">
      <div className="grid sm:grid-cols-1 gap-2 lg:grid-cols-3 items-center justify-items-center  " >
 
 
