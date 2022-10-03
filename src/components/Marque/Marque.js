@@ -124,6 +124,13 @@ const Marque = () => {
             className=" w-42       "
           />
         </div>
+        <div className=" 	 mx-10     ">
+          <img
+            src="  https://i.ibb.co/hMPH7rz/16270122020523.png"
+            alt="Shoes"
+            className=" w-42       "
+          />
+        </div>
       
 
       </Marquee>

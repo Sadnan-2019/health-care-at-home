@@ -1,9 +1,10 @@
 import React from 'react';
-import { BsArrowRight } from 'react-icons/bs';
+ 
 import { FaPhoneVolume } from 'react-icons/fa';
-import { Link } from 'react-router-dom';
-import Marque from '../Marque/Marque';
+ 
+ 
 import Nursingabout from './Nursingabout';
+import Nursingchoose from './Nursingchoose';
 
 const Nursing = () => {
      return (
@@ -79,7 +80,7 @@ const Nursing = () => {
          </section>
 
          <Nursingabout></Nursingabout>
-         {/* <Marque></Marque> */}
+         <Nursingchoose></Nursingchoose>
          </div>
      );
 };
