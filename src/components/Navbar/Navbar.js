@@ -12,6 +12,14 @@ const Navbar = () => {
 
   const navItem = (
     <>
+    <li className="nav-item p-2 	">
+        <NavLink
+          className={({ isActive }) => (isActive ? `${active}` : `${normal}`)}
+          to="/home"
+        >
+          Home
+        </NavLink>
+      </li>
       <li className="nav-item p-2 	">
         <NavLink
           className={({ isActive }) => (isActive ? `${active}` : `${normal}`)}
@@ -58,6 +66,22 @@ const Navbar = () => {
           to="/medical-equipment"
         >
           Medical Equipment
+        </NavLink>
+      </li>
+      <li className="nav-item p-2">
+        <NavLink
+          className={({ isActive }) => (isActive ? `${active}` : `${normal}`)}
+          to="/medical-equipment"
+        >
+          Nanicare
+        </NavLink>
+      </li>
+      <li className="nav-item p-2">
+        <NavLink
+          className={({ isActive }) => (isActive ? `${active}` : `${normal}`)}
+          to="/medical-equipment"
+        >
+          Companion 
         </NavLink>
       </li>
     
@@ -117,7 +141,7 @@ const Navbar = () => {
               {navItem}
             </ul>
           </div>
-          <Link to="/">
+          {/* <Link to="/">
             <div className="  flex items-center">
               <img
                 className="w-48"
@@ -125,7 +149,7 @@ const Navbar = () => {
                 src="https://hcah.mrg.com.bd/medicare.bold-themes.com/surgery/wp-content/uploads/sites/16/2018/03/surgery-logo-white.png"
               />
             </div>
-          </Link>
+          </Link> */}
         </div>
 
         <div className=" flex 	ml-3  ">
