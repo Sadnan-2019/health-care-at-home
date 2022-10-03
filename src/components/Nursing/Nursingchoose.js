@@ -24,7 +24,7 @@ const Nursingchoose = () => {
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 mx-10 gap-10  items-center justify-items-center py-10">
           <div
-            className="card w-92 border    "
+            className="card w-92     "
             data-aos="flip-left"
             data-aos-easing="ease-out-cubic"
             data-aos-duration="2000"
@@ -41,7 +41,7 @@ const Nursingchoose = () => {
             </div>
           </div>{" "}
           <div
-            className="card w-92 border    "
+            className="card w-92     "
             data-aos="flip-left"
             data-aos-easing="ease-out-cubic"
             data-aos-duration="2000"
@@ -55,7 +55,7 @@ const Nursingchoose = () => {
             </div>
           </div>{" "}
           <div
-            className="card w-92 border    "
+            className="card w-92     "
             data-aos="flip-left"
             data-aos-easing="ease-out-cubic"
             data-aos-duration="2000"

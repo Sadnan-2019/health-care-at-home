@@ -74,10 +74,7 @@ const Review = () => {
             
             <div
               className="flex items-center gap-2  "
-              data-aos="fade-left"
-              data-aos-offset="100"
-              data-aos-easing="ease-in-sine"
-              data-aos-duration="4000"
+              
             >
               <p className="text-white text-sm lg:text-2xl font-bold	">4.8 </p>
               <AiFillStar className="text-white" />
