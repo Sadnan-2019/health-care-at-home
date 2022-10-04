@@ -60,6 +60,23 @@ const Navbar = () => {
           Caregiver
         </NavLink>
       </li>
+      
+      <li className="nav-item p-2">
+        <NavLink
+          className={({ isActive }) => (isActive ? `${active}` : `${normal}`)}
+          to="/nani-care"
+        >
+          Nanycare
+        </NavLink>
+      </li>
+      <li className="nav-item p-2">
+        <NavLink
+          className={({ isActive }) => (isActive ? `${active}` : `${normal}`)}
+          to="/companion"
+        >
+          Companionship 
+        </NavLink>
+      </li>
       <li className="nav-item p-2">
         <NavLink
           className={({ isActive }) => (isActive ? `${active}` : `${normal}`)}
@@ -68,23 +85,6 @@ const Navbar = () => {
           Medical Equipment
         </NavLink>
       </li>
-      <li className="nav-item p-2">
-        <NavLink
-          className={({ isActive }) => (isActive ? `${active}` : `${normal}`)}
-          to="/medical-equipment"
-        >
-          Nanicare
-        </NavLink>
-      </li>
-      <li className="nav-item p-2">
-        <NavLink
-          className={({ isActive }) => (isActive ? `${active}` : `${normal}`)}
-          to="/medical-equipment"
-        >
-          Companion 
-        </NavLink>
-      </li>
-    
 
       <li className="nav-item p-2">
         <NavLink

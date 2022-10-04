@@ -24,7 +24,7 @@ const Home = () => {
             <About></About>
             <Faq></Faq>
             <Contact></Contact>
-            <Map></Map>
+            {/* <Map></Map> */}
              
         </div>
     );

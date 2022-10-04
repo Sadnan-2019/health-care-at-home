@@ -16,7 +16,7 @@ const Nav = () => {
 <div>
 
 
-<Link to="/">
+<Link to="/home">
             <div className="  flex items-center">
               <img
                 className="w-48"

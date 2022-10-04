@@ -1,5 +1,4 @@
 import React from "react";
- 
 
 const Service = () => {
   return (
@@ -32,10 +31,12 @@ const Service = () => {
 
             <h3 className="mt-3 mb-2 text-xl font-bold text-left ">Nursing</h3>
 
-            <p className="mt-1 text-sm text-left text-gray-800 poppins-t">
-              We offer both free and premium features. Want your resume to have
-              that extra punch? Upgrade to Premium. On a budget? That's OK too -
-              you can use our resume buider completely free of charge.
+            <p className="mt-1 text-sm text-left text-gray-800 poppins-t lg:text-justify">
+              HealthCare at home offers most comprehensive and hollistic nursing
+              care at home. They provide physical & psychological support to the
+              patients.Our nurses administer oral & parenteral medication.All
+              time they are analysis heartbeat,BP,Temperature,Oxygen saturation,
+              & blood glucose.
             </p>
             {/* <button className=' btn btn-sm bg-green-700 border border-green-500 rounded mt-5  '>Service Details</button> */}
             <label
@@ -88,7 +89,7 @@ const Service = () => {
             data-aos-duration="1000"
           >
             <img
-              className="w-96"
+              className="w-96 h-56"
               src="https://i.ibb.co/MCG18rs/25.jpg"
               alt=""
             />
@@ -97,10 +98,13 @@ const Service = () => {
               Physiotherapy
             </h3>
 
-            <p className="mt-1 text-sm text-left text-gray-800">
-              Whatever resume template you're looking for, we've got it! Whether
-              it's a classic black-and-white template, or something a bit more
-              outside the box, we have what you need!
+            <p className="mt-1 text-sm text-left text-gray-800 lg:text-justify">
+              HealthCare at home has a panel of 20 B.Sc physiotherapists.They
+              are experienced & specially trained.Most of them carry instruments
+              such as IRR,Tens,Ultrasonogram etc.Theyare qualified to take care
+              of patients of all ages.They can address
+              Musculoskeletal,Neurological,Post-operative, Stroke patients'
+              condition.
             </p>
             <label
               htmlFor="my-modal-5"
@@ -161,10 +165,12 @@ const Service = () => {
               Medical Assistant
             </h3>
 
-            <p className="mt-1 text-sm text-left text-gray-800">
-              With Novorésumé, you won’t spend hours working on your resume,
-              just to be hit with a hidden paywall. Our resume builder will
-              notify you if you’re using any of our premium features in advance.
+            <p className="mt-1 text-sm text-left text-gray-800 lg:text-justify">
+              Medical assistants are qualified diploma holders.They also do
+              nursing-care at home.Apart from grooming the patients they give
+              injections,Insert NG-tube,Catheter etc.They regularly check
+              BP,Sugar,Oxygen,Pulse & other vital parameters.They know how to
+              take care of bed-sore.
             </p>
 
             <label
@@ -216,7 +222,7 @@ const Service = () => {
             data-aos-duration="1000"
           >
             <img
-              className="w-96"
+              className="w-96 h-56"
               src="https://content.jdmagicbox.com/comp/amravati/r3/9999px721.x721.171224091109.s1r3/catalogue/pace-care-services-nawathe-amravati-home-nursing-services-fx12e.jpg"
               alt=""
             />
@@ -225,9 +231,10 @@ const Service = () => {
               Medical Caregiver
             </h3>
 
-            <p className="mt-1 text-sm text-left text-gray-800">
-              Our resume templates are ATS-friendly. It means your resume won’t
-              automatically be rejected because an ATS can’t read it.
+            <p className="mt-1 text-sm text-left text-gray-800 lg:text-justify">
+              A Medical caregiver is one who takes care of patients by feeding
+              ,grooming,bathing,giving medication,talking & walking the patient.
+              They also check vital parameters & blood-sugar label etc.
             </p>
             <label
               htmlFor="my-modal-3"
@@ -251,7 +258,7 @@ const Service = () => {
                   <li>Medication Reminder</li>
                   <li>NG Tube Feeding </li>
                   <li>Hygiene maintenance</li>
-                  <li>Pass good time  with patients </li>
+                  <li>Pass good time with patients </li>
                 </div>
                 <div className="">
                   <img
@@ -278,7 +285,7 @@ const Service = () => {
             data-aos-duration="1000"
           >
             <img
-              className="w-96"
+              className="w-96 h-56"
               src="https://ehospice.com/wp-content/uploads/2020/07/IMG-20200716-WA0003-770x500.jpg"
               alt=""
             />
@@ -287,9 +294,10 @@ const Service = () => {
               Caregiver
             </h3>
 
-            <p className="mt-1 text-sm text-left text-gray-800">
-              Our CV builder provides real-time feedback on your resume content,
-              ensuring that your resume reaches its full potential!
+            <p className="mt-1 text-sm text-left text-gray-800 lg:text-justify ">
+              A Caregiver gives medication,feed the patient,clean the patients,
+              change diaper,light house-keeping.They also walk & talk with the
+              patients.A Caregiver dress & undress the patients.
             </p>
 
             <label
@@ -312,7 +320,7 @@ const Service = () => {
                   <li>24/7 Personal Healthcare</li>
                   <li>Patients Diapar Change</li>
                   <li>Medication Reminder</li>
-                  <li>NG Tube   Feeding </li>
+                  <li>NG Tube Feeding </li>
                   <li>Hygiene maintenance</li>
                   <li>Pass good time with patients </li>
                 </div>
@@ -334,25 +342,92 @@ const Service = () => {
               </div>
             </div>
           </div>
-
           <a
             className="block p-8 transition bg-white  shadow-md rounded-xl hover:shadow-lg cursor-pointer"
             data-aos="fade-up"
             data-aos-duration="1000"
           >
             <img
-              className="w-96"
-              src="https://miro.medium.com/max/1280/1*hzN6JS-HlhW7hoyRYYJD6A.jpeg"
+              className="w-96 h-56"
+              src="https://i.ibb.co/0Zh2Pqn/Nanny-service1.jpg"
               alt=""
             />
 
             <h3 className="mt-3 mb-2 text-xl font-bold text-left ">
-              Medical Equipment
+              Nannycare
             </h3>
 
-            <p className="mt-1 text-sm text-left text-gray-800">
-              As you edit your resume with our builder, you’ll immediately see
-              the changes applied to your document.
+            <p className="mt-1 text-sm text-left text-gray-800 lg:text-justify">
+              We have experienced nannies to take care of your loving child.
+              They will love & care the way you do it.They feed the baby,clean
+              the baby ,shower the baby they do it all.They are reliable & trust
+              worthy.They sincere & hard working.Your loving child is safe with us.
+            </p>
+
+            <label
+              htmlFor="my-modal-1"
+              className="btn btn-sm modal-button mt-3 text-white"
+              style={{ backgroundColor: "#453364" }}
+            >
+              service details
+            </label>
+          </a>
+
+          <input type="checkbox" id="my-modal-1" className="modal-toggle" />
+          <div className="modal modal-bottom sm:modal-middle">
+            <div className="modal-box   ">
+              <h1 className="text-2xl font-bold text-center py-5">Nannycare</h1>
+              <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-3   mx-auto	 ">
+                <div className="text-sm font-bold">
+                  <li>Oxygen Mask</li>
+                  <li>Glucometer</li>
+                  <li>Oximeter </li>
+                  <li>Hospital Bed </li>
+                  <li>Alfa Mattress </li>
+                  <li>Bed Table</li>
+                  <li>IV Cannula</li>
+                  <li>NG Tube</li>
+                  <li>Bad Site Monitor</li>
+                  <li>Catheter </li>
+                </div>
+                <div className="">
+                  <img
+                    src="https://miro.medium.com/max/1280/1*hzN6JS-HlhW7hoyRYYJD6A.jpeg"
+                    alt=""
+                  />
+                </div>
+              </div>
+              <div className="modal-action">
+                <label
+                  htmlFor="my-modal-1"
+                  className="btn text-white "
+                  style={{ backgroundColor: "#453364" }}
+                >
+                  close!
+                </label>
+              </div>
+            </div>
+          </div>
+          <a
+            className="block p-8 transition bg-white  shadow-md rounded-xl hover:shadow-lg cursor-pointer"
+            data-aos="fade-up"
+            data-aos-duration="1000"
+          >
+            <img
+              className="w-96 h-56"
+              src="https://i.ibb.co/GPmZ182/2438855.jpg"
+              alt=""
+            />
+
+            <h3 className="mt-3 mb-2 text-xl font-bold text-left ">
+              Companionship
+            </h3>
+
+            <p className="mt-1 text-sm text-left text-gray-800 lg:text-justify">
+              Our companions work with your dear ones with compassion &
+              confidence.They give their time to the patients with empathy &
+              care.They are trained & reliable.They walk the patients outside
+              home,read newspaper to the patients.
             </p>
 
             <label
@@ -378,7 +453,75 @@ const Service = () => {
                   <li>Hospital Bed </li>
                   <li>Alfa Mattress </li>
                   <li>Bed Table</li>
-                  <li>IV  Cannula</li>
+                  <li>IV Cannula</li>
+                  <li>NG Tube</li>
+                  <li>Bad Site Monitor</li>
+                  <li>Catheter </li>
+                </div>
+                <div className="">
+                  <img
+                    src="https://miro.medium.com/max/1280/1*hzN6JS-HlhW7hoyRYYJD6A.jpeg"
+                    alt=""
+                  />
+                </div>
+              </div>
+              <div className="modal-action">
+                <label
+                  htmlFor="my-modal-1"
+                  className="btn text-white "
+                  style={{ backgroundColor: "#453364" }}
+                >
+                  close!
+                </label>
+              </div>
+            </div>
+          </div>
+          <a
+            className="block p-8 transition bg-white  shadow-md rounded-xl hover:shadow-lg cursor-pointer"
+            data-aos="fade-up"
+            data-aos-duration="1000"
+          >
+            <img
+              className="w-96 h-56"
+              src="https://miro.medium.com/max/1280/1*hzN6JS-HlhW7hoyRYYJD6A.jpeg"
+              alt=""
+            />
+
+            <h3 className="mt-4 mb-2 text-xl font-bold text-left ">
+              Medical Equipment
+            </h3>
+
+            <p className="mt-1 text-sm text-left text-gray-800 lg:text-justify">
+              We have all types of medical equipments.Patients bed,Bedtable,
+              IV stand,nebulizer,pulse oximeter,glucometer,BP machine,Bipap,Oxygen 
+              cylinder & many more.We provide high quality products.We set up post 
+              ICU equipments at home & high quality professional service.
+            </p>
+
+            <label 
+              htmlFor="my-modal-1"
+              className="btn btn-sm modal-button mt-3 text-white"
+              style={{ backgroundColor: "#453364" }}
+            >
+              service details
+            </label>
+          </a>
+
+          <input type="checkbox" id="my-modal-1" className="modal-toggle" />
+          <div className="modal modal-bottom sm:modal-middle">
+            <div className="modal-box   ">
+              <h1 className="text-2xl font-bold text-center py-5">
+                Medical Equipment
+              </h1>
+              <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-3   mx-auto	 ">
+                <div className="text-sm font-bold">
+                  <li>Oxygen Mask</li>
+                  <li>Glucometer</li>
+                  <li>Oximeter </li>
+                  <li>Hospital Bed </li>
+                  <li>Alfa Mattress </li>
+                  <li>Bed Table</li>
+                  <li>IV Cannula</li>
                   <li>NG Tube</li>
                   <li>Bad Site Monitor</li>
                   <li>Catheter </li>
