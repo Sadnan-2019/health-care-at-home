@@ -18,7 +18,7 @@ const Service = () => {
         </div>
 
         <div className="grid grid-cols-1 gap-8 mt-8 md:grid-cols-2 lg:grid-cols-3 py-5">
-          {/* <a
+          <a
             className="block p-8 transition bg-white  shadow-md rounded-xl hover:shadow-lg cursor-pointer"
             data-aos="fade-up"
             data-aos-duration="1000"
@@ -35,17 +35,20 @@ const Service = () => {
               HealthCare at home offers most comprehensive and hollistic nursing
               care at home. They provide physical & psychological support to the
               patients.Our nurses administer oral & parenteral medication.All
-              time they are analysis heartbeat,BP,Temperature,Oxygen saturation,
-              & blood glucose.
+              time they are analysis heartbeat, BP, Temperature, Oxygen
+              saturation, & blood glucose.
             </p>
- 
+
+            <div>
             <label
               htmlFor="my-modal-6"
-              className="btn btn-sm modal-button mt-3 text-white"
+              className="btn btn-sm modal-button mt-3 text-white   "
               style={{ backgroundColor: "#453364" }}
             >
               service details
             </label>
+     
+            </div>
           </a>
 
           <input type="checkbox" id="my-modal-6" className="modal-toggle" />
@@ -81,26 +84,6 @@ const Service = () => {
                 </label>
               </div>
             </div>
-          </div> */}
-
-          <div className="card w-96 bg-base-100 shadow-xl physiotherapy">
-            <figure>
-              <img src="https://placeimg.com/400/225/arch" alt="Shoes" />
-            </figure>
-            <div className="card-body">
-              <h2 className="card-title">Nursing</h2>
-              <p className="mt-1 text-sm text-left text-gray-800 lg:text-justify">
-                {" "}
-                HealthCare at home offers most comprehensive and hollistic
-                nursing care at home. They provide physical & psychological
-                support to the patients.Our nurses administer oral & parenteral
-                medication.All time they are analysis heartbeat,BP,Temperature,
-                Oxygen saturation, & blood glucose.
-              </p>
-              <div className="card-actions justify-end">
-                <button className="btn btn-primary">Buy Now</button>
-              </div>
-            </div>
           </div>
 
           <a
@@ -118,14 +101,14 @@ const Service = () => {
               Physiotherapy
             </h3>
 
-            <p className="mt-1 text-sm physiotherapy   text-gray-800  ">
-              HealthCare at home has got a good number of diploma and B.Sc
-              physiotherapists.They are experienced & specially trained.Most of
-              them carry instruments such as IRR,TENS,Ultrasound.They are
-              qualified to take care of patients of all ages.They can address
-              Musculoskeletal,Neurological,Post-operative, Stroke patients'
+            <p className="mt-1 text-sm  break-words			   text-gray-800 lg:text-justify  ">
+              HealthCare at home has got a good number   of diploma and B.Sc
+              physiotherapists. They are experienced & specially trained.Most of 
+              them carry instruments such as IRR, TENS, Ultrasound. They are 
+              qualified to take care of patients of all ages.They can address 
+              Musculoskeletal, Neurological, Post-operative, Stroke patients' 
               condition.
-            </p>
+            </p >
             <label
               htmlFor="my-modal-5"
               className="btn btn-sm modal-button mt-3 text-white"
@@ -133,6 +116,8 @@ const Service = () => {
             >
               service details
             </label>
+
+           
           </a>
 
           <input type="checkbox" id="my-modal-5" className="modal-toggle" />
@@ -169,6 +154,7 @@ const Service = () => {
               </div>
             </div>
           </div>
+          
 
           <a
             className="block p-8 transition bg-white  shadow-md rounded-xl hover:shadow-lg cursor-pointer"
@@ -186,11 +172,11 @@ const Service = () => {
             </h3>
 
             <p className="mt-1 text-sm text-left text-gray-800 lg:text-justify">
-              Medical assistants are qualified diploma holders.They also do
-              nursing-care at home.Apart from grooming the patients they give
-              injections,Insert NG-tube,Catheter etc.They regularly check
-              BP,Sugar,Oxygen,Pulse & other vital parameters.They know how to
-              take care of bed-sore.
+              Medical assistants are qualified diploma holders. They also do
+              nursing-care at home. Apart from grooming the patients they give
+              injections, Insert NG-tube, Catheter etc. They regularly check
+              BP, Sugar, Oxygen, Pulse & other vital parameters.They know how to
+              take care of bed-sore .
             </p>
 
             <label
@@ -252,8 +238,8 @@ const Service = () => {
             </h3>
 
             <p className="mt-1 text-sm text-left text-gray-800 lg:text-justify">
-              Our Medical caregiver is one who takes care of patients by feeding
-              ,grooming,bathing,giving medication,talking & walking the patient.
+              Our Medical caregiver is one who takes care of patients by feeding,
+              grooming, bathing, giving medication,talking & walking the patient. 
               They also check vital parameters & blood-sugar label etc.
             </p>
             <label
@@ -317,7 +303,7 @@ const Service = () => {
             <p className="mt-1 text-sm text-left text-gray-800 lg:text-justify ">
               Our Caregiver gives medication,feed to the patient,clean the
               patients, change diaper,light house-keeping.They also walk & talk
-              with the patients.A Caregiver dress & undress the patients.
+              with the patients. A Caregiver dress & undress the patients.
             </p>
 
             <label
@@ -514,9 +500,9 @@ const Service = () => {
 
             <p className="mt-1 text-sm text-left text-gray-800 lg:text-justify">
               We arranged all kindes of medical equipment related product to
-              provide patients care at home.Such as Patients bed,Bedtable, IV
-              stand,nebulizer,pulse oximeter,glucometer,BPmachine,Bipap,Oxygen
-              cylinder & many more.We provide high quality products.We set up
+              provide patients care at home. Such as Patients bed, Bedtable, IV
+              stand, nebulizer, pulse oximeter, glucometer, BP machine, Bipap, Oxygen
+              cylinder & many more. We provide high quality products.We set up
               post ICU equipments at home & high quality professional service.
             </p>
 
