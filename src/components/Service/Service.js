@@ -1,5 +1,5 @@
 import React from "react";
-
+import "./Service.css";
 const Service = () => {
   return (
     <section className="">
@@ -18,7 +18,7 @@ const Service = () => {
         </div>
 
         <div className="grid grid-cols-1 gap-8 mt-8 md:grid-cols-2 lg:grid-cols-3 py-5">
-          <a
+          {/* <a
             className="block p-8 transition bg-white  shadow-md rounded-xl hover:shadow-lg cursor-pointer"
             data-aos="fade-up"
             data-aos-duration="1000"
@@ -38,7 +38,7 @@ const Service = () => {
               time they are analysis heartbeat,BP,Temperature,Oxygen saturation,
               & blood glucose.
             </p>
-            {/* <button className=' btn btn-sm bg-green-700 border border-green-500 rounded mt-5  '>Service Details</button> */}
+ 
             <label
               htmlFor="my-modal-6"
               className="btn btn-sm modal-button mt-3 text-white"
@@ -81,6 +81,26 @@ const Service = () => {
                 </label>
               </div>
             </div>
+          </div> */}
+
+          <div className="card w-96 bg-base-100 shadow-xl physiotherapy">
+            <figure>
+              <img src="https://placeimg.com/400/225/arch" alt="Shoes" />
+            </figure>
+            <div className="card-body">
+              <h2 className="card-title">Nursing</h2>
+              <p className="mt-1 text-sm text-left text-gray-800 lg:text-justify">
+                {" "}
+                HealthCare at home offers most comprehensive and hollistic
+                nursing care at home. They provide physical & psychological
+                support to the patients.Our nurses administer oral & parenteral
+                medication.All time they are analysis heartbeat,BP,Temperature,
+                Oxygen saturation, & blood glucose.
+              </p>
+              <div className="card-actions justify-end">
+                <button className="btn btn-primary">Buy Now</button>
+              </div>
+            </div>
           </div>
 
           <a
@@ -98,7 +118,7 @@ const Service = () => {
               Physiotherapy
             </h3>
 
-            <p className="mt-1 text-sm   text-gray-800 text-justify">
+            <p className="mt-1 text-sm physiotherapy   text-gray-800  ">
               HealthCare at home has got a good number of diploma and B.Sc
               physiotherapists.They are experienced & specially trained.Most of
               them carry instruments such as IRR,TENS,Ultrasound.They are

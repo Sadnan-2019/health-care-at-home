@@ -1,4 +1,5 @@
 import React from 'react';
+import Map from '../Map/Map';
 
 const Contact = () => {
      return (
@@ -11,7 +12,10 @@ const Contact = () => {
 
           
         </div>
-        <div class="card  transition bg-white  shadow-md rounded-xl mx-auto w-1/2  ">
+    <div className='grid grid-cols-1 lg:grid-cols-2 mx-10 gap-10'>
+
+
+    <div class="card  transition bg-white  shadow-md rounded-xl mx-auto w-1/2  ">
       <form class="card-body   ">
         <div class="form-control ">
           <label class="label">
@@ -77,6 +81,14 @@ const Contact = () => {
         </div>
       </form>
     </div>
+      
+      <div>
+
+
+
+<Map></Map >
+      </div>
+      </div> 
     </div>
      );
 };
