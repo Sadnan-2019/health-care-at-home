@@ -5,13 +5,13 @@ const About = () => {
     <div className="py-10">
       <div
         className="hero min-h-screen"
-        data-aos="zoom-in-up"
-        // data-aos-offset="300"
-        data-aos-delay="5000"
-        data-aos-duration="4000"
-        // data-aos-easing="ease-in-out"
-        data-aos-mirror="true"
-        data-aos-once="false"
+        // data-aos="zoom-in-up"
+        // // data-aos-offset="300"
+        // data-aos-delay="5000"
+        // data-aos-duration="4000"
+        // // data-aos-easing="ease-in-out"
+        // data-aos-mirror="true"
+        // data-aos-once="false"
         style={{
           backgroundImage: `url(" https://i.ibb.co/MpB7WHX/Whats-App-Image-2022-09-29-at-4-02-29-PM.jpg")`,
         }}
@@ -22,8 +22,8 @@ const About = () => {
             <h1 className=" text-5xl font-bold text-white py-12 ">Why HCAH?</h1>
 
             <div className="text-white 	 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-              <div className="card">
-                <p className="text-xl font-bold mb-4">Monetary satisfaction </p>
+            <div className="card">
+                <p className="text-xl font-bold mb-4">Affordable  Cost </p>
                 <p className="text-justify	text-[15px] poppins-t">
                   One of the most significant and favorable advantages of
                   healthcare services at home is that it costs much less than
@@ -36,8 +36,15 @@ const About = () => {
                   of care at home itself.
                 </p>
               </div>
+              <div className="card">
+                <p className="text-xl font-bold mb-4">Qualified certified and experience man power </p>
+                <p className="text-justify	text-[15px] poppins-t">
+                  our nurses,physiotherapists,MATS,MCG all are certified,qualified 
+                  and experienced.Both the nurses & MATES are diploma holders.
+                </p>
+              </div>
               <div>
-                <p className="text-xl font-bold mb-4">Nature of Care</p>
+                <p className="text-xl font-bold mb-4">Dedicated Services</p>
                 <p className="text-justify text-[15px] poppins-t ">
                   Another essential advantage of home care is that patients get
                   one-on-one consideration, something they would not get as an

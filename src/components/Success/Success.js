@@ -68,7 +68,7 @@ const Success = () => {
               3000+
             </div>
             <div className="text-[18px] font-bold" style={{ color: "#453364" }}>
-              Medical assistance
+              Medical assistant
             </div>
             
           
@@ -107,7 +107,7 @@ Nurses
               250+
             </div>
             <div className="text-[18px] font-bold" style={{ color: "#453364" }}>
-              Caregiver
+              Caregivers
             </div>
             
           

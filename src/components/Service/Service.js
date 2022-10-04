@@ -98,11 +98,11 @@ const Service = () => {
               Physiotherapy
             </h3>
 
-            <p className="mt-1 text-sm text-left text-gray-800 lg:text-justify">
-              HealthCare at home has a panel of 20 B.Sc physiotherapists.They
-              are experienced & specially trained.Most of them carry instruments
-              such as IRR,Tens,Ultrasonogram etc.Theyare qualified to take care
-              of patients of all ages.They can address
+            <p className="mt-1 text-sm   text-gray-800 text-justify">
+              HealthCare at home has got a good number of diploma and B.Sc
+              physiotherapists.They are experienced & specially trained.Most of
+              them carry instruments such as IRR,TENS,Ultrasound.They are
+              qualified to take care of patients of all ages.They can address
               Musculoskeletal,Neurological,Post-operative, Stroke patients'
               condition.
             </p>
@@ -232,7 +232,7 @@ const Service = () => {
             </h3>
 
             <p className="mt-1 text-sm text-left text-gray-800 lg:text-justify">
-              A Medical caregiver is one who takes care of patients by feeding
+              Our Medical caregiver is one who takes care of patients by feeding
               ,grooming,bathing,giving medication,talking & walking the patient.
               They also check vital parameters & blood-sugar label etc.
             </p>
@@ -295,9 +295,9 @@ const Service = () => {
             </h3>
 
             <p className="mt-1 text-sm text-left text-gray-800 lg:text-justify ">
-              A Caregiver gives medication,feed the patient,clean the patients,
-              change diaper,light house-keeping.They also walk & talk with the
-              patients.A Caregiver dress & undress the patients.
+              Our Caregiver gives medication,feed to the patient,clean the
+              patients, change diaper,light house-keeping.They also walk & talk
+              with the patients.A Caregiver dress & undress the patients.
             </p>
 
             <label
@@ -361,7 +361,8 @@ const Service = () => {
               We have experienced nannies to take care of your loving child.
               They will love & care the way you do it.They feed the baby,clean
               the baby ,shower the baby they do it all.They are reliable & trust
-              worthy.They sincere & hard working.Your loving child is safe with us.
+              worthy.They sincere & hard working.Your loving child is safe with
+              us.
             </p>
 
             <label
@@ -492,13 +493,14 @@ const Service = () => {
             </h3>
 
             <p className="mt-1 text-sm text-left text-gray-800 lg:text-justify">
-              We have all types of medical equipments.Patients bed,Bedtable,
-              IV stand,nebulizer,pulse oximeter,glucometer,BP machine,Bipap,Oxygen 
-              cylinder & many more.We provide high quality products.We set up post 
-              ICU equipments at home & high quality professional service.
+              We arranged all kindes of medical equipment related product to
+              provide patients care at home.Such as Patients bed,Bedtable, IV
+              stand,nebulizer,pulse oximeter,glucometer,BPmachine,Bipap,Oxygen
+              cylinder & many more.We provide high quality products.We set up
+              post ICU equipments at home & high quality professional service.
             </p>
 
-            <label 
+            <label
               htmlFor="my-modal-1"
               className="btn btn-sm modal-button mt-3 text-white"
               style={{ backgroundColor: "#453364" }}
