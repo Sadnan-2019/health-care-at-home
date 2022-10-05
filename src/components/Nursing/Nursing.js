@@ -2,6 +2,7 @@ import React from "react";
 
 import { FaPhoneVolume } from "react-icons/fa";
 import Review from "../Review/Review";
+import Success from "../Success/Success";
 
 import Nursingabout from "./Nursingabout";
 import Nursingchoose from "./Nursingchoose";
@@ -91,6 +92,7 @@ const Nursing = () => {
       <Nursingabout></Nursingabout>
       <Nursingchoose></Nursingchoose>
       <Review></Review>
+      <Success></Success>
     </div>
   );
 };

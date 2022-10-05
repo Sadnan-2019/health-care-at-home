@@ -1,41 +1,17 @@
 import "./Map.css";
 import React, { useRef, useState } from "react";
-import { MapContainer, Marker, TileLayer } from "react-leaflet";
+ 
 import "leaflet/dist/leaflet.css";
 import L from "leaflet";
-// import from './Map.css';
-// 23.791855971335192, 90.41864037546488
-// 23.791912419482312, 90.41861087115821
+ 
 const Map = () => {
-  // const [center, setCenter] = useState({ lat: 51.505, lng: -0.09 });
-  const position = [ 23.791912419482312, 90.41861087115821];
-  const markerIcon = new L.Icon({
-    iconUrl: require("../../assets/map.png"),
-    iconSize: [40, 40],
-    iconAnchor: [17, 46],
-    popupAnchor: [0, -46],
-  });
-  const mapRef = useRef();
-  const ZOOM_LEVEL = 50;
+ 
   return (
-    <div>
-      <MapContainer
-        className="map-container   "
-        center={position}
-        zoom={ZOOM_LEVEL}
-        scrollWheelZoom={false}
-        ref={mapRef}
-      >
-        <TileLayer
-          attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
-          url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
-        />
-
-        <Marker
-          icon={markerIcon}
-          position={position}
-        ></Marker>
-      </MapContainer>
+    <div className="     ">
+      <iframe className='broder rounded w-[500px]   h-96  ' 
+ src="https://www.google.com/maps/embed?pb=!1m26!1m12!1m3!1d3650.7490889132346!2d90.41645411434928!3d23.791947643106184!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m11!3e6!4m3!3m2!1d23.7919271!2d90.418686!4m5!1s0x3755c712067b4975%3A0x78f7e1870533e90e!2sArtLand%20Dhaka%20niloy%20house%2011%2C%20flat%20501%2C%20road%20108%2C%20gulshan%202%20near%20gulshan%20youth%20club%20Dhaka%201212!3m2!1d23.791843699999998!2d90.4186216!5e0!3m2!1sen!2sbd!4v1664948951631!5m2!1sen!2sbd"
+  
+ allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
     </div>
   );
 };

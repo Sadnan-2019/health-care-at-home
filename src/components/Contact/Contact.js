@@ -12,12 +12,13 @@ const Contact = () => {
 
           
         </div>
-    <div className='grid grid-cols-1 lg:grid-cols-2 mx-10 gap-10'>
+    <div className='grid grid-cols-1 md:grid-cols-1 lg:grid-cols-2 gap-[60px] px-[30px] justify-items-center items-center'>
 
 
-    <div class="card  transition bg-white  shadow-md rounded-xl mx-auto w-1/2  ">
+    <div class="card w-[500px]  transition bg-white  shadow-md rounded-xl     ">
       <form class="card-body   ">
-        <div class="form-control ">
+       <div className='flex gap-3'>
+       <div class="form-control ">
           <label class="label">
             <span class="label-text ">
               Name <span className="text-warning">*</span>
@@ -45,6 +46,7 @@ const Contact = () => {
             class="input border border-gray-300 bg-gray-200 "
           />
         </div>
+       </div>
         <div class="form-control">
           <label class="label">
             <span class="label-text ">
@@ -69,7 +71,7 @@ const Contact = () => {
             name="message"
             required
             placeholder="message"
-            class="input border border-gray-300 bg-gray-200 h-12 form-control form-control-message " rows="10"
+            className="input border border-gray-300 bg-gray-200 h-12 form-control form-control-message h-32 "  
             
           ></textarea>
         </div>
@@ -82,11 +84,11 @@ const Contact = () => {
       </form>
     </div>
       
-      <div>
+      <div   className=' py-10   mx-10'>
 
 
 
-<Map></Map >
+<Map  ></Map >
       </div>
       </div> 
     </div>
