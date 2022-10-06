@@ -4,6 +4,7 @@ import Review from '../Review/Review';
 import Success from '../Success/Success';
 import Landingphsio from './Landingphsio';
 import Physioabout from './Physioabout';
+import Recovery from './Recovery';
 import Teamphysio from './Teamphysio';
  
 
@@ -12,6 +13,7 @@ const Physiotherapy = () => {
         <div>
           <Landingphsio/>
           <Physioabout/>
+          <Recovery></Recovery>
           <Review></Review>
       <Success></Success>
       <Marque></Marque>
