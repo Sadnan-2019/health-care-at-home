@@ -22,9 +22,9 @@ const About = () => {
             <h1 className=" text-5xl font-bold text-white py-12 ">Why HCAH?</h1>
 
             <div className="text-white 	 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-            <div className="card">
-                <p className="text-xl font-bold mb-4">Affordable  Cost </p>
-                <p className=" 	text-[15px] poppins-t">
+              <div className="card">
+                <p className="text-[18px]  font-bold mb-4">Affordable Cost </p>
+                <p className="text-justify	 	text-[15px] poppins-t">
                   One of the most significant and favorable advantages of
                   healthcare services at home is that it costs much less than
                   keeping a patient in a healing center or hospital. Home based
@@ -37,21 +37,24 @@ const About = () => {
                 </p>
               </div>
               <div className="card">
-                <p className="text-xl font-bold mb-4">Qualified certified and experience man power </p>
-                <p className=" 	text-[15px] poppins-t">
-                  our nurses,physiotherapists,MATS,MCG all are certified,qualified 
-                  and experienced.Both the nurses & MATS are diploma holders.They know 
-                  how to take care of ailing patients.Apart form holistic nursing
-                  nurses provide patient care with empathy & knowledge.Our physiotherapists
-                  are qualified B.Sc & diploma holders.They will take care of patients' neck pain 
-                  to toe pain.Our medical caregivers give total support to our patients at home.
-                  MCG feed the patients,give medication,clean the patients,sponge the patients.They 
-                  also change diapers.Check vital parameters.
-
+                <p className="text-[18px] font-bold mb-4">
+                  Qualified certified and experience manpower  {" "}
+                </p>
+                <p className=" text-justify	text-[15px] poppins-t">
+                  Our nurses, physiotherapists ,MATS, MCG all are
+                  certified, qualified and experienced. Both the nurses & MATS are
+                  diploma holders. They know how to take care of ailing
+                  patients.Apart form holistic nursing nurses provide patient
+                  care with empathy & knowledge.Our physiotherapists are
+                  qualified B.Sc & diploma holders. They will take care of
+                  patients' neck pain to toe pain.Our medical caregivers give
+                  total support to our patients at home. MCG feed the
+                  patients,give medication, clean the patients, sponge the
+                  patients. They also change diapers.Check vital parameters.
                 </p>
               </div>
               <div>
-                <p className="text-xl font-bold mb-4">Dedicated Services</p>
+                <p className="text-[18px]  font-bold mb-4">Dedicated Services</p>
                 <p className="text-justify text-[15px] poppins-t ">
                   Another essential advantage of home care is that patients get
                   one-on-one consideration, something they would not get as an
@@ -62,10 +65,8 @@ const About = () => {
                 </p>
               </div>
               <div>
-                <p className="text-xl font-bold mb-4">Strong Monitoring Team</p>
-                <p className="text-justify  text-[15px] poppins-t">
-                 
-                </p>
+                <p className="text-[18px]  font-bold mb-4">Strong Monitoring Team</p>
+                <p className="text-justify  text-[15px] poppins-t"></p>
               </div>
             </div>
           </div>

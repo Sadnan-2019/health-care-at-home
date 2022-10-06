@@ -1,15 +1,7 @@
 import React from "react";
-
 import { FaPhoneVolume } from "react-icons/fa";
-import Marque from "../Marque/Marque";
-import Review from "../Review/Review";
-import Success from "../Success/Success";
 
-import Nursingabout from "./Nursingabout";
-import Nursingchoose from "./Nursingchoose";
-import Teamnursing from "./Teamnursing";
-
-const Nursing = () => {
+const Physiotherapylanding = () => {
   return (
     <div>
       <section
@@ -32,7 +24,7 @@ const Nursing = () => {
               className="md:text-[43px] font-bold text-[26px] text-left poppins-b "
               style={{ lineHeight: "120%", color: "#453364" }}
             >
-              Diploma Nursing
+              We are committed to
             </p>
             <p
               data-aos="fade-up"
@@ -40,7 +32,7 @@ const Nursing = () => {
               className="md:text-[43px] font-bold text-[26px] text-left poppins-b "
               style={{ lineHeight: "120%", color: "#453364" }}
             >
-              Services at Home
+              your recovery from pain
             </p>
 
             {/* <p
@@ -56,8 +48,9 @@ const Nursing = () => {
               className="md:text-[25px] font-bold text-[25px] mt-5 text-left poppins-b lg:text-justify "
               style={{ lineHeight: "120%", color: "#453364" }}
             >
-              Trained and experienced diploma nurses to help with daily
-              activities and vitals monitoring at home.
+              Are you suffering from physical pain? Don’t worry! Our expert
+              physiotherapist will provide easy & effective methods of pain
+              relief.
             </p>
             <div
               className="flex items-center mt-5 font-bold"
@@ -90,15 +83,8 @@ const Nursing = () => {
           </div>
         </div>
       </section>
-
-      <Nursingabout></Nursingabout>
-      <Nursingchoose></Nursingchoose>
-      <Review></Review>
-      <Success></Success>
-      <Marque></Marque>
-      <Teamnursing></Teamnursing>
     </div>
   );
 };
 
-export default Nursing;
+export default Physiotherapylanding;

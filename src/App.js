@@ -10,6 +10,7 @@ import Contact from "./components/Contact/Contact";
 import About from "./components/About/About";
 import MessengerCustomerChat from "react-messenger-customer-chat";
 import Nursing from "./components/Nursing/Nursing";
+import Physiotherapylanding from "./components/Physiotherapy/Physiotherapylanding";
  
 // import New from './components/Nav/New';
 
@@ -20,8 +21,8 @@ function App() {
       <Routes>
         <Route path="/home" element={<Home />}></Route>
         <Route path="/nursing" element={<Nursing />}></Route>
-        <Route path="/service" element={<Service />}></Route>
-        <Route path="/review" element={<Review />}></Route>
+        <Route path="/physiotherapy" element={<Physiotherapylanding />}></Route>
+ 
         <Route path="/about" element={<About />}></Route>
         <Route path="/contact" element={<Contact />}></Route>
         {/* <Route path="login" element={<Login />}></Route> */}
