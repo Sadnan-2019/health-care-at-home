@@ -1,10 +1,10 @@
-import React from "react";
+import React from 'react';
 import { FaPhoneVolume } from "react-icons/fa";
 
-const Physiotherapylanding = () => {
-  return (
-    <div>
-      <section
+const Landingphsio = () => {
+    return (
+        <div>
+          <section
         className=" bg-no-repeat bg-cover "
         style={{
           backgroundImage: `url("https://i.ibb.co/C7xQnt5/Whats-App-Image-2022-10-04-at-11-40-43-AM.jpg")`,
@@ -48,9 +48,7 @@ const Physiotherapylanding = () => {
               className="md:text-[25px] font-bold text-[25px] mt-5 text-left poppins-b lg:text-justify "
               style={{ lineHeight: "120%", color: "#453364" }}
             >
-              Are you suffering from physical pain? Don’t worry! Our expert
-              physiotherapist will provide easy & effective methods of pain
-              relief.
+              Are you suffering from physical pain? Don’t worry! Our expert physiotherapist will provide easy & effective methods of pain relief
             </p>
             <div
               className="flex items-center mt-5 font-bold"
@@ -83,8 +81,8 @@ const Physiotherapylanding = () => {
           </div>
         </div>
       </section>
-    </div>
-  );
+        </div>
+    );
 };
 
-export default Physiotherapylanding;
+export default Landingphsio;

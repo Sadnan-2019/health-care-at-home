@@ -1,15 +1,21 @@
 import React from 'react';
-import Nursingabout from '../Nursing/Nursingabout';
-import Physiotherapyabout from './Physiotherapyabout';
+import Marque from '../Marque/Marque';
+import Review from '../Review/Review';
+import Success from '../Success/Success';
+import Landingphsio from './Landingphsio';
+import Physioabout from './Physioabout';
+import Teamphysio from './Teamphysio';
  
-import Physiotherapylanding from './Physiotherapylanding';
 
 const Physiotherapy = () => {
     return (
         <div>
-            <Physiotherapylanding></Physiotherapylanding>
-           <Nursingabout></Nursingabout> 
-           
+          <Landingphsio/>
+          <Physioabout/>
+          <Review></Review>
+      <Success></Success>
+      <Marque></Marque>
+      <Teamphysio></Teamphysio>
         </div>
     );
 };
