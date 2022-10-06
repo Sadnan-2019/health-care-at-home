@@ -24,8 +24,17 @@ const Nursingabout = () => {
           <p className="max-w-lg mt-7  md:text-[20px] lg:text-[27px] poppins-t text-gray-600 text-justify ">
             Our Skilled Nurses follow clinical protocols at par with
             International standards while delivering the Best Quality Healthcare
-            at Home.
+            at Home.Our nurses administer oral,IV & IM medication.They insert 
+            NG tube insertion & feeding.They also do the following -
           </p>
+          <br></br>
+          <li className="text[20px] ">Perform glucose test using Glucometer</li>
+          <li>Tracheostomy tube care </li>
+          <li>Provide oxygen inhalation </li>
+          <li>Change diaper & clean the patients  </li>
+          <li>Do bed sore care  </li>
+          <li>Bathing & sponging the patient</li>
+          <li>Measure vital signs </li>
         </div>
         <div className="max-w-xl text-left md:ml-8 lg:order-1 order-2 mt-10 lg:mt-0">
           <div className="grid sm:grid-cols-1 mx-12 md:grid-cols-3 lg:grid-cols-3 gap-5">

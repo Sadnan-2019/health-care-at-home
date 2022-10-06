@@ -15,7 +15,7 @@ const Nursing = () => {
       <section
         className=" bg-no-repeat bg-cover "
         style={{
-          backgroundImage: `url("https://i.ibb.co/C7xQnt5/Whats-App-Image-2022-10-04-at-11-40-43-AM.jpg")`,
+          backgroundImage: `url("https://i.ibb.co/nnSNBMX/Whats-App-Image-2022-10-06-at-3-30-04-PM.jpg")`,
         }}
       >
         <div className=" md:py-20 py-10 lg:py-24 lg:mx-16 mx-8 grid lg:grid-cols-1 grid-cols-1 gap-5">

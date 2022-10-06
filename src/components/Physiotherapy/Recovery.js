@@ -1,5 +1,6 @@
 import React from "react";
 import spine from "../../assets/spine.jpg";
+import orthopedic from "../../assets/orthopedic.jpg";
 // import spine from "../../assets/spine.jpg"
 // import doctor1 from "../../assets/homed.jpg";
 
@@ -28,7 +29,7 @@ const Recovery = () => {
           <img
             src={spine}
             alt="Shoes"
-            className="rounded-xl w-15"
+            className="rounded-xl w-15 h-32"
             style={{ color: "#453364" }}
           />
           <p className="poppins-t text-xl text-black mt-5 ">Spine Care</p>
@@ -42,9 +43,9 @@ const Recovery = () => {
           style={{ backgroundColor: "#F5F1EA", borderColor: "#F5F1EA" }}
         >
           <img
-            src={spine}
+            src={orthopedic}
             alt="Shoes"
-            className="rounded-xl w-15"
+            className="rounded-xl w-15 h-32"
             style={{ color: "#453364" }}
           />
           <p className="poppins-t text-xl text-black mt-5 ">Orthopedic Care</p>

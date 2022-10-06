@@ -1,25 +1,32 @@
-import React from 'react';
+import React from "react";
 
 const Physioabout = () => {
-    return (
-        <div>
-                    <div className=" md:py-20 py-10 lg:py-24 lg:mx-16 mx-8 grid grid-cols-1 md:grid-cols-1   lg:grid-cols-2  gap-5">
+  return (
+    <div>
+      <div className=" md:py-20 py-10 lg:py-24 lg:mx-16 mx-8 grid grid-cols-1 md:grid-cols-1   lg:grid-cols-2  gap-5">
         <div className="max-w-xl text-left md:ml-8 lg:order-1 order-2 mt-10 lg:mt-0">
           <p
             className="lg:text-[43px] md:text-[30px] font-bold text-[26px] text-left poppins-b "
             style={{ lineHeight: "120%", color: "#453364" }}
           >
-           We cover a broad range of
+            We cover a broad range of
           </p>
           <p
             className=" lg:text-[43px] md:text-[30px] font-bold text-[26px] text-left poppins-b "
             style={{ lineHeight: "120%", color: "#453364" }}
           >
-           medical conditions
+            medical conditions
           </p>
 
           <p className="max-w-lg mt-7  md:text-[20px] lg:text-[27px] poppins-t text-gray-600 text-justify ">
-          Experience the best physiotherapy services to improve function, reduce symptoms, & prevent future complications.
+            Experience the best physiotherapy services at home to improve
+            function,reduce symptoms & prevent future complications.Our physiotherapist
+            evaluates & treats patients suffering from physical disability due to injury,
+            disease or surgery in a home care environment.Establishes treatment plans
+            & treats patients using a variety of methods, including exercises, stretching
+            maneuvers, hands-on therapy & equipment to ease pain & increase their mobility.
+            
+
           </p>
         </div>
         <div className="max-w-xl text-left md:ml-8 lg:order-1 order-2 mt-10 lg:mt-0">
@@ -35,7 +42,7 @@ const Physioabout = () => {
                 style={{ color: "#453364" }}
               />
               <p className="poppins-t text-gray-600 text-center">
-              Musculoskeletal 
+                Musculoskeletal
               </p>
             </div>
             <div
@@ -49,7 +56,7 @@ const Physioabout = () => {
                 style={{ color: "#453364" }}
               />
               <p className="poppins-t text-gray-600 text-center">
-              Neurological 
+                Neurological
               </p>
             </div>
             <div
@@ -62,9 +69,7 @@ const Physioabout = () => {
                 className="rounded-xl w-15"
                 style={{ color: "#453364" }}
               />
-              <p className="poppins-t text-gray-600 text-center">
-              Geriatric 
-              </p>
+              <p className="poppins-t text-gray-600 text-center">Geriatric</p>
             </div>
             <div
               className="rounded-lg card	border-[1px]	 border-solid	p-5"
@@ -77,7 +82,7 @@ const Physioabout = () => {
                 style={{ color: "#453364" }}
               />
               <p className="poppins-t text-gray-600 text-center">
-              Post Operative 
+                Post Operative
               </p>
             </div>
             <div
@@ -90,9 +95,7 @@ const Physioabout = () => {
                 className="rounded-xl w-15"
                 style={{ color: "#453364" }}
               />
-              <p className="poppins-t text-gray-600 text-center">
-              Pediatric 
-              </p>
+              <p className="poppins-t text-gray-600 text-center">Pediatric</p>
             </div>
             <div
               className="rounded-lg card	border-[1px]	 border-solid	p-5"
@@ -104,10 +107,7 @@ const Physioabout = () => {
                 className="rounded-xl w-15"
                 style={{ color: "#453364" }}
               />
-              <p className="poppins-t text-gray-600 text-center">
-              Stroke 
-
-              </p>
+              <p className="poppins-t text-gray-600 text-center">Stroke</p>
             </div>
             <div
               className="rounded-lg card	border-[1px]	 border-solid	p-5"
@@ -119,8 +119,7 @@ const Physioabout = () => {
                 className="rounded-xl w-15"
                 style={{ color: "#453364" }}
               />
-              <p className="poppins-t text-gray-600 text-center">
-Chest              </p>
+              <p className="poppins-t text-gray-600 text-center">Chest </p>
             </div>
             <div
               className="rounded-lg card	border-[1px]	 border-solid	p-5"
@@ -132,10 +131,7 @@ Chest              </p>
                 className="rounded-xl w-15"
                 style={{ color: "#453364" }}
               />
-              <p className="poppins-t text-gray-600 text-center">
-              Sports 
-
-              </p>
+              <p className="poppins-t text-gray-600 text-center">Sports</p>
             </div>
             <div
               className="rounded-lg card	border-[1px]	 border-solid	p-5"
@@ -148,8 +144,7 @@ Chest              </p>
                 style={{ color: "#453364" }}
               />
               <p className="poppins-t text-gray-600 text-center">
-              Gynecological 
-
+                Gynecological
               </p>
             </div>
           </div>
@@ -158,9 +153,8 @@ Chest              </p>
           <img className="lg:w-[100%] w-[90%] mx-auto" src={Banner} alt="" />
         </div> */}
       </div>
-  
-        </div>
-    );
+    </div>
+  );
 };
 
 export default Physioabout;
