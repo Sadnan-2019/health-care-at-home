@@ -6,6 +6,7 @@ import Success from "../Success/Success";
 
 import Nursingabout from "./Nursingabout";
 import Nursingchoose from "./Nursingchoose";
+import Teamnursing from "./Teamnursing";
 
 const Nursing = () => {
   return (
@@ -93,6 +94,7 @@ const Nursing = () => {
       <Nursingchoose></Nursingchoose>
       <Review></Review>
       <Success></Success>
+      <Teamnursing></Teamnursing>
     </div>
   );
 };

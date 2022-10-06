@@ -24,7 +24,7 @@ const About = () => {
             <div className="text-white 	 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             <div className="card">
                 <p className="text-xl font-bold mb-4">Affordable  Cost </p>
-                <p className="text-justify	text-[15px] poppins-t">
+                <p className=" 	text-[15px] poppins-t">
                   One of the most significant and favorable advantages of
                   healthcare services at home is that it costs much less than
                   keeping a patient in a healing center or hospital. Home based
@@ -38,9 +38,16 @@ const About = () => {
               </div>
               <div className="card">
                 <p className="text-xl font-bold mb-4">Qualified certified and experience man power </p>
-                <p className="text-justify	text-[15px] poppins-t">
+                <p className=" 	text-[15px] poppins-t">
                   our nurses,physiotherapists,MATS,MCG all are certified,qualified 
-                  and experienced.Both the nurses & MATES are diploma holders.
+                  and experienced.Both the nurses & MATS are diploma holders.They know 
+                  how to take care of ailing patients.Apart form holistic nursing
+                  nurses provide patient care with empathy & knowledge.Our physiotherapists
+                  are qualified B.Sc & diploma holders.They will take care of patients' neck pain 
+                  to toe pain.Our medical caregivers give total support to our patients at home.
+                  MCG feed the patients,give medication,clean the patients,sponge the patients.They 
+                  also change diapers.Check vital parameters.
+
                 </p>
               </div>
               <div>
@@ -55,18 +62,9 @@ const About = () => {
                 </p>
               </div>
               <div>
-                <p className="text-xl font-bold mb-4">Improved Management of Drugs</p>
+                <p className="text-xl font-bold mb-4">Strong Monitoring Team</p>
                 <p className="text-justify  text-[15px] poppins-t">
-                 The management of drugs/
-                  medicines is a major task when it comes to taking proper care.
-                  Most family members are not trained to provide the kind of
-                  help patients need and having in-home professional help
-                  relieves them of the need to do work for which they are not
-                  prepared. Home health care professionals can ensure the right
-                  medications are being taken at the right times to control
-                  health conditions and prevent harmful drug reactions – Hence,
-                  an in-house health expert is always a good option without any
-                  risks.
+                 
                 </p>
               </div>
             </div>

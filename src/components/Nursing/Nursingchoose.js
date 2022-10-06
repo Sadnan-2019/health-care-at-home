@@ -28,7 +28,7 @@ const Nursingchoose = () => {
             
           >
             <figure className="px-10 pt-10">
-              <img src={rating} alt="Shoes" className="rounded-xl" />
+              <img src={rating} alt="Shoes" className="rounded-xl w-44" />
             </figure>
             <div className="card-body items-center text-center ">
               <h2 className="card-title font-bold ">Highest Customer Rating</h2>
@@ -43,7 +43,7 @@ const Nursingchoose = () => {
             
           >
             <figure className="px-10 pt-10">
-              <img src={consulting} alt="Shoes" className="rounded-xl" />
+              <img  src={consulting} alt="Shoes" className="rounded-xl w-32" style={{color: "#453364" }}/>
             </figure>
             <div className="card-body items-center text-center  ">
               <h2 className="card-title ">Free Doctor Consultation</h2>
@@ -55,7 +55,7 @@ const Nursingchoose = () => {
              
           >
             <figure className="px-10 pt-10">
-              <img src={staf} alt="Shoes" className="rounded-xl" />
+              <img src={staf} alt="Shoes" className="rounded-xl w-52" />
             </figure>
             <div className="card-body items-center text-center  ">
               <h2 className="card-title ">Experienced & Certified Staff
