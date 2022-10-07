@@ -10,7 +10,7 @@ const Nav = () => {
    <div className="sticky top-0 z-50 ">
 
 <div className="mx-auto bg-base-100">
-     <div className="grid sm:grid-cols-2 gap-2 lg:grid-cols-3 items-center justify-items-center  " >
+     <div className="grid sm:grid-cols-1 gap-2 lg:grid-cols-3 items-center justify-items-center  " >
 
 
 <div>
@@ -50,7 +50,7 @@ const Nav = () => {
         </div>
         <div>
           <div className="	">
-            <p className="text-xs  font-bold  	"  >
+            <p className="text-sm   font-bold  	"  >
               24/7days Open
             </p>
       
@@ -65,7 +65,7 @@ const Nav = () => {
 </div>
 <div>
  <p className="text-sm   font-bold 		"  >
-   House 11, Road 108, Gulshan 2, Dhaka, Bangladesh. 1212
+   House 11, Road 108, Gulshan 2,<br></br> Dhaka, Bangladesh. 1212
  </p>
 </div>
       </div>
