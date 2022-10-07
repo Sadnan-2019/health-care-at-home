@@ -12,10 +12,10 @@ const Contact = () => {
 
           
         </div>
-    <div className='grid grid-cols-1 md:grid-cols-1 lg:grid-cols-2 gap-[60px] px-[30px] justify-items-center items-center'>
+    {/* <div className='grid grid-cols-1 md:grid-cols-1  lg:grid-cols-2 gap-[60px] px-[30px] justify-items-center items-center'>
 
 
-    <div class=" w-[500px]  transition bg-white  shadow-md rounded-xl     ">
+    <div class="    transition bg-white  shadow-md rounded-xl     ">
       <form class="  ">
        <div className='flex gap-3'>
        <div class="form-control ">
@@ -90,7 +90,74 @@ const Contact = () => {
 
 <Map  ></Map >
       </div>
-      </div> 
+      </div>  */}
+
+<div className="grid md:grid-cols-2 lg:grid-cols-2 mx-auto   py-10">
+          {/* left side */}
+
+          <div className="lg:[width:70%] md:w-[90%] py-8 rounded">
+            {/* Form signup */}
+
+            <div>
+               
+              
+              <div className="bg-opacity-30 p-5 pt-10 rounded-lg bg-slate-700">
+                
+                 
+               
+                {/* sign in from */}
+                <div class="card  w-full">
+                  <form   class="card-body">
+                    <div class="form-control">
+                      <label class="label">
+                        <span class="label-text text-white">
+                          Email <span className="text-warning">*</span>
+                        </span>
+                      </label>
+                      <input
+                        type="text"
+                        name="email"
+                        required
+                        placeholder="email"
+                        class="input border border-slate-400 bg-slate-800  text-white"
+                      />
+                    </div>
+                    <div class="form-control">
+                      <label class="label">
+                        <span class="label-text text-white">
+                          Password <span className="text-warning">*</span>
+                        </span>
+                      </label>
+                      <input
+                        type="password"
+                        name="password"
+                        required
+                        placeholder="password"
+                        class="input border border-slate-400 bg-slate-800  text-white"
+                      />
+                    </div>
+                     
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+
+          <div className="  mx-auto my-auto">
+           <div>
+            <Map></Map>
+           </div>
+          </div>
+
+          {/* signup */}
+
+         
+        </div>
+
+
+
     </div>
      );
 };

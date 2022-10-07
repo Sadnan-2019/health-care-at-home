@@ -17,7 +17,7 @@ import Physiotherapy from "./components/Physiotherapy/Physiotherapy";
 function App() {
   return (
     <div className=" ">
-      <Navbar></Navbar>
+      {/* <Navbar></Navbar> */}
       <Routes>
         <Route path="/home" element={<Home />}></Route>
         <Route path="/" element={<Home />}></Route>
