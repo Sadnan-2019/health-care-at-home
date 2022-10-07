@@ -16,18 +16,18 @@ const Team = () => {
             Meet Our Experts
           </h2>
         </div>
-        <div className="grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3  mx-10 gap-10  items-center justify-items-center  py-8">
+        <div className="grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3  mx-10 gap-10      py-8">
           <div
-            className="card w-92 border    "
+            className="card  border    "
             data-aos="flip-left"
             data-aos-easing="ease-out-cubic"
-            data-aos-duration="2000"
+            data-aos-duration="2000" style={{height:"350px"}}
           >
-            <figure className="px-10 pt-10">
-              <img src={doctor3} alt="Shoes" className="rounded-xl" />
+            <figure className="">
+              <img src={doctor3} alt="Shoes"   className="rounded-2xl p-4  " style={{height:"250px"  ,borderRadius:"25px"}} />
             </figure>
-            <div className="card-body items-center text-center text-white ">
-              <h2 className="card-title ">Prof. Dr. Dhiman Banik</h2>
+            <div className=" items-center text-center text-white ">
+              <h2 className=" text-center">Prof. Dr. Dhiman Banik</h2>
               <p>Professor & Senior Consultant Cardiologist</p>
               <p>
                 MBBS, D-Card, MD (Card.), Associate Fellow-American College of

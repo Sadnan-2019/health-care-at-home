@@ -110,7 +110,7 @@ const Navbar = () => {
   return (
     <div className="sticky top-0 z-50 ">
 <Nav/>
-<div className="px-4 md:pl-10  lg:px-24  " style={{ backgroundColor: "#453364" }}>
+<div className="px-4 md:pl-10  lg:px-5   " style={{ backgroundColor: "#453364" }}>
       {/* Navbar start source code from Daisy UI */}
      
       <div className="navbar   ">
@@ -141,18 +141,10 @@ const Navbar = () => {
               {navItem}
             </ul>
           </div>
-          {/* <Link to="/">
-            <div className="  flex items-center">
-              <img
-                className="w-48"
-                alt="logo"
-                src="https://hcah.mrg.com.bd/medicare.bold-themes.com/surgery/wp-content/uploads/sites/16/2018/03/surgery-logo-white.png"
-              />
-            </div>
-          </Link> */}
+          
         </div>
 
-        <div className=" flex 	ml-3  ">
+        <div className=" flex 	  ">
           <div className="navbar-start hidden   lg:flex      ">
             <div className="     ">
               <ul className="menu-horizontal p-0 flex items-center    ">

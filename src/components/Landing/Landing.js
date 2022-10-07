@@ -6,7 +6,7 @@ import { Link } from "react-router-dom";
 
 const Landing = () => {
     return (
-        <section className=" bg-no-repeat bg-cover " style={{
+        <section className=" bg-no-repeat bg-cover  " style={{
           backgroundImage: `url("https://i.ibb.co/0F3RKy0/Whats-App-Image-2022-10-06-at-3-30-04-PM.jpg")`,
         }}>
       <div className=" md:py-20 py-10 lg:py-24 lg:mx-16 mx-8 grid lg:grid-cols-1 grid-cols-1 gap-5">
@@ -29,7 +29,7 @@ const Landing = () => {
           <p
             data-aos="fade-up"
             data-aos-duration="2000"
-            className="max-w-lg mt-7 font-bold text-left md:text-[25px] poppins-t text-gray-600 "
+            className="max-w-lg mt-7 font-bold   md:text-[25px] poppins-t text-gray-600  "
           >
             First ever one stop high quality healthcare solution at your home in bangladesh.
           </p>
