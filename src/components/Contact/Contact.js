@@ -15,8 +15,8 @@ const Contact = () => {
     <div className='grid grid-cols-1 md:grid-cols-1 lg:grid-cols-2 gap-[60px] px-[30px] justify-items-center items-center'>
 
 
-    <div class="card w-[500px]  transition bg-white  shadow-md rounded-xl     ">
-      <form class="card-body   ">
+    <div class=" w-[500px]  transition bg-white  shadow-md rounded-xl     ">
+      <form class="  ">
        <div className='flex gap-3'>
        <div class="form-control ">
           <label class="label">

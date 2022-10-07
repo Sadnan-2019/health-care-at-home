@@ -145,7 +145,7 @@ const Team = () => {
          
            
         </div>
-        <p className="text-white text-3xl text-center py-8">
+        <p className="text-lg text-white md:text-3xl lg:text-3xl text-center py-8">
           Multidisciplinary team of 900+ professionals including doctors,
           nurses, physiotherapists, medical assistant & medical caregiver.
         </p>
