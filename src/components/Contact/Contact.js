@@ -92,7 +92,7 @@ const Contact = () => {
       </div>
       </div>  */}
 
-<div className="grid md:grid-cols-2 lg:grid-cols-2 mx-auto   py-10">
+<div className="grid md:grid-cols-2 lg:grid-cols-2 mx-auto   py-10 items-center justify-items-center">
           {/* left side */}
 
           <div className="lg:[width:70%] md:w-[90%] py-8 rounded">
@@ -145,8 +145,8 @@ const Contact = () => {
 
 
 
-          <div className="  mx-auto my-auto">
-           <div>
+          <div className="   ">
+           <div className=''>
             <Map></Map>
            </div>
           </div>
