@@ -1,6 +1,8 @@
 import React from "react";
 import spine from "../../assets/spine.jpg";
 import orthopedic from "../../assets/orthopedic.jpg";
+import cardiac from "../../assets/cardiac-rehab.jpg";
+import stroke from "../../assets/stroke.jpg";
 // import spine from "../../assets/spine.jpg"
 // import doctor1 from "../../assets/homed.jpg";
 
@@ -58,15 +60,14 @@ const Recovery = () => {
           style={{ backgroundColor: "#F5F1EA", borderColor: "#F5F1EA" }}
         >
           <img
-            src={spine}
+            src={cardiac}
             alt="Shoes"
-            className="rounded-xl w-15"
+            className="rounded-xl h-32 w-15"
             style={{ color: "#453364" }}
           />
-          <p className="poppins-t text-xl text-black mt-5 ">Spine Care</p>
+          <p className="poppins-t text-xl text-black mt-5 ">Cardiac Rehab</p>
           <p className="poppins-t text-black text-justify ">
-            Personalized care plans to bring back the lost physical and
-            emotional strength
+          Medically-supervised care program designed for healthy lifestyle initiatives.
           </p>
         </div>
         <div
@@ -74,15 +75,14 @@ const Recovery = () => {
           style={{ backgroundColor: "#F5F1EA", borderColor: "#F5F1EA" }}
         >
           <img
-            src={spine}
+            src={stroke}
             alt="Shoes"
-            className="rounded-xl w-15"
+            className="rounded-xl w-15 h-32"
             style={{ color: "#453364" }}
           />
-          <p className="poppins-t text-xl text-black mt-5 ">Spine Care</p>
+          <p className="poppins-t text-xl text-black mt-5 ">Stroke Care</p>
           <p className="poppins-t text-black text-justify ">
-            Personalized care plans to bring back the lost physical and
-            emotional strength
+          Restore lost strength, balance, cognitive functions to ensure the best possible outcome post-stroke
           </p>
         </div>
       </div>
