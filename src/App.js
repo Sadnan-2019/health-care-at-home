@@ -11,6 +11,7 @@ import MessengerCustomerChat from "react-messenger-customer-chat";
 import Nursing from "./components/Nursing/Nursing";
  
 import Physiotherapy from "./components/Physiotherapy/Physiotherapy";
+import Medicalassistant from "./components/Medicalassistant/Medicalassistant";
  
 // import New from './components/Nav/New';
 
@@ -23,6 +24,7 @@ function App() {
         <Route path="/" element={<Home />}></Route>
         <Route path="/nursing" element={<Nursing />}></Route>
         <Route path="/physiotherapy" element={<Physiotherapy />}></Route>
+        <Route path="/medical-assistant" element={<Medicalassistant />}></Route>
  
         <Route path="/about" element={<About />}></Route>
         <Route path="/contact" element={<Contact />}></Route>

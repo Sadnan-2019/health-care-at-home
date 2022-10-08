@@ -166,7 +166,7 @@ const Contact = () => {
                         class="input border border-slate-400 bg-slate-800 h-32 text-white"
                       ></textarea>
                     </div>
-                    <input class="sm:btn-sm btn   " type="submit" value="Send Message" style={{background:"#453364"}}/>
+                    <input class="sm:btn-sm btn mt-5   " type="submit" value="Send Message" style={{background:"#453364"}}/>
                   </form>
                 </div>
               </div>

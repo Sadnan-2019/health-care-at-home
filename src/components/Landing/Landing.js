@@ -6,8 +6,8 @@ import { Link } from "react-router-dom";
 
 const Landing = () => {
     return (
-        <section className=" bg-no-repeat bg-cover bg-center	  " style={{
-          backgroundImage: `url("https://ehealth.eletsonline.com/wp-content/uploads/2019/04/Home-healthcare.jpg")`,
+        <section className=" bg-no-repeat bg-cover bg-center  " style={{
+          backgroundImage: `url("https://i.ibb.co/nnSNBMX/Whats-App-Image-2022-10-06-at-3-30-04-PM.jpg")`,
         }}>
       <div className=" md:py-20 py-10 lg:py-24 lg:mx-16 mx-8 grid lg:grid-cols-1 grid-cols-1 gap-5">
         <div className="max-w-xl text-left md:ml-8 lg:order-1 order-2 mt-10 lg:mt-0">

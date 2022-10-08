@@ -1,21 +1,14 @@
-import React from "react";
-
+import React from 'react';
 import { FaPhoneVolume } from "react-icons/fa";
-import Marque from "../Marque/Marque";
-import Review from "../Review/Review";
-import Success from "../Success/Success";
 
-import Nursingabout from "./Nursingabout";
-import Nursingchoose from "./Nursingchoose";
-import Teamnursing from "./Teamnursing";
 
-const Nursing = () => {
-  return (
-    <div>
-      <section
+const Asistantlanding = () => {
+    return (
+        <div>
+             <section
         className=" bg-no-repeat bg-cover "
         style={{
-          backgroundImage: `url("https://i.ibb.co/nnSNBMX/Whats-App-Image-2022-10-06-at-3-30-04-PM.jpg")`,
+          backgroundImage: `url("https://i.ibb.co/C7xQnt5/Whats-App-Image-2022-10-04-at-11-40-43-AM.jpg")`,
         }}
       >
         <div className=" md:py-20 py-10 lg:py-24 lg:mx-16 mx-8 grid lg:grid-cols-1 grid-cols-1 gap-5">
@@ -32,7 +25,7 @@ const Nursing = () => {
               className="md:text-[43px] font-bold text-[26px] text-left poppins-b "
               style={{ lineHeight: "120%", color: "#453364" }}
             >
-              Diploma Nursing
+              We are committed to
             </p>
             <p
               data-aos="fade-up"
@@ -40,7 +33,7 @@ const Nursing = () => {
               className="md:text-[43px] font-bold text-[26px] text-left poppins-b "
               style={{ lineHeight: "120%", color: "#453364" }}
             >
-              Services at Home
+              your recovery from pain
             </p>
 
             {/* <p
@@ -56,8 +49,7 @@ const Nursing = () => {
               className="md:text-[25px] font-bold text-[25px] mt-5 text-left poppins-b lg:text-justify "
               style={{ lineHeight: "120%", color: "#453364" }}
             >
-              Qualified and experienced diploma nurses to help with daily
-              activities and vitals signs monitoring at home.
+              Are you suffering from physical pain? Don’t worry! Our expert physiotherapist will provide easy & effective methods of pain relief
             </p>
             <div
               className="flex items-center mt-5 font-bold"
@@ -90,15 +82,8 @@ const Nursing = () => {
           </div>
         </div>
       </section>
-
-      <Nursingabout></Nursingabout>
-      <Nursingchoose></Nursingchoose>
-      <Review></Review>
-      <Success></Success>
-      <Marque></Marque>
-      <Teamnursing></Teamnursing>
-    </div>
-  );
+        </div>
+    );
 };
 
-export default Nursing;
+export default Asistantlanding;
