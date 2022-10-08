@@ -92,23 +92,37 @@ const Contact = () => {
       </div>
       </div>  */}
 
-<div className="grid md:grid-cols-2 lg:grid-cols-2 mx-auto   py-10 items-center justify-items-center">
+<div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 mx-auto   py-10 items-center justify-items-center">
           {/* left side */}
 
-          <div className="lg:[width:70%] md:w-[90%] py-8 rounded">
-            {/* Form signup */}
+          <div className="  lg:[width:85%] md:w-[90%] py-8 rounded">
+       
 
-            <div>
+            <div >
                
               
-              <div className="bg-opacity-30 p-5 pt-10 rounded-lg bg-slate-700">
+              <div className="bg-opacity-30 lg:p-5 pt-10 rounded-lg bg-blue-900  ">
                 
                  
-               
-                {/* sign in from */}
-                <div class="card  w-full">
-                  <form   class="card-body">
-                    <div class="form-control">
+           
+                <div class=" w-full ">
+                  <form   class=" ">
+                  <div className='flex gap-3   items-center justify-items-center'>
+                  <div class="form-control  sm:[w-25%] md:w-[50%]">
+                      <label class="label">
+                        <span class="label-text text-white">
+                          Name <span className="text-warning">*</span>
+                        </span>
+                      </label>
+                      <input
+                        type="text"
+                        name="name"
+                        required
+                        placeholder="name"
+                        class="input border border-slate-400 bg-slate-800  text-white"
+                      />
+                    </div>
+                    <div class="form-control sm:[w-25%] md:w-[50%]">
                       <label class="label">
                         <span class="label-text text-white">
                           Email <span className="text-warning">*</span>
@@ -122,21 +136,37 @@ const Contact = () => {
                         class="input border border-slate-400 bg-slate-800  text-white"
                       />
                     </div>
-                    <div class="form-control">
+                  </div>
+                    
+                    <div class="form-control sm:w-25%">
                       <label class="label">
                         <span class="label-text text-white">
-                          Password <span className="text-warning">*</span>
+                          Subject <span className="text-warning">*</span>
                         </span>
                       </label>
                       <input
-                        type="password"
-                        name="password"
+                        type="text"
+                        name="subject"
                         required
-                        placeholder="password"
+                        placeholder="subject"
                         class="input border border-slate-400 bg-slate-800  text-white"
                       />
                     </div>
-                     
+                    <div class="form-control sm:w-25% ">
+                      <label class="label">
+                        <span class="label-text text-white">
+                          Message <span className="text-warning">*</span>
+                        </span>
+                      </label>
+                      <textarea
+                        type="text"
+                        name="message"
+                        required
+                        placeholder="message"
+                        class="input border border-slate-400 bg-slate-800 h-32 text-white"
+                      ></textarea>
+                    </div>
+                    <input class="sm:btn-sm btn   " type="submit" value="Send Message" style={{background:"#453364"}}/>
                   </form>
                 </div>
               </div>
@@ -151,7 +181,7 @@ const Contact = () => {
            </div>
           </div>
 
-          {/* signup */}
+      
 
          
         </div>
