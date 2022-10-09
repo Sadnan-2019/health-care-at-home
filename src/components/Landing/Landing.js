@@ -3,24 +3,23 @@ import React from 'react';
 import { BsArrowRight } from "react-icons/bs";
 import { Link } from "react-router-dom";
  import { FaPhoneVolume } from "react-icons/fa";
+ import "./Landing.css"
 
 const Landing = () => {
     return (
-        <section className=" bg-no-repeat bg-cover bg-center  " style={{
-          backgroundImage: `url("https://i.ibb.co/nnSNBMX/Whats-App-Image-2022-10-06-at-3-30-04-PM.jpg")`,
-        }}>
+        <section className=" bg-no-repeat bg-cover  w-[100%] h-auto landng  "  >
       <div className=" md:py-20 py-10 lg:py-24 lg:mx-16 mx-8 grid lg:grid-cols-1 grid-cols-1 gap-5">
         <div className="max-w-xl text-left md:ml-8 lg:order-1 order-2 mt-10 lg:mt-0">
           <div className="flex items-center gap-2 bg-gray-100 w-fit px-3 rounded-full py-2 border-[1px] border-gray-200 mb-5">
-            <p className=" px-2 py-[2px] text-white rounded-full  " style={{backgroundColor: "#453364" }}>
+            <p className="hidden lg:block px-2 py-[2px] text-white rounded-full  " style={{backgroundColor: "#453364" }}>
               $
             </p>
-            <p className='text-sm'>Discover the easiest way to get our service!</p>
+            <p className='hidden lg:block text-sm '>Discover the easiest way to get our service!</p>
           </div>
           <p
             data-aos="fade-up"
             data-aos-duration="1000"
-            className="md:text-[43px] font-bold text-[26px] text-left poppins-b "
+            className="md:text-[43px] font-bold text-[20px] text-left poppins-b "
             style={{ lineHeight: "120%",color:"#453364" }}
           >
             HealthCare At Home Bangladesh
@@ -41,7 +40,7 @@ const Landing = () => {
           >
             We are providing high quality healthcare services at home.
           </p> */}
-          <div className='flex items-center mt-5 font-bold'>
+          <div className='flex items-center mt-2 font-bold'>
           < FaPhoneVolume  className="text-2xl " style={{  color:"#453364" }}/>
           <span className="text-2xl "style={{ color:"#453364" }} > Call Now: 01619848555</span>
         </div>
