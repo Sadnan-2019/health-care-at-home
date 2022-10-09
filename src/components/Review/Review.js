@@ -70,7 +70,7 @@ const Review = () => {
               //   data-aos-duration="4000"
             >
               Overall rating
-            </p><br></br>
+            </p>
             
             <div
               className="flex items-center gap-2  "

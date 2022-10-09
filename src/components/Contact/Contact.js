@@ -13,85 +13,7 @@ const Contact = () => {
 
           
         </div>
-    {/* <div className='grid grid-cols-1 md:grid-cols-1  lg:grid-cols-2 gap-[60px] px-[30px] justify-items-center items-center'>
-
-
-    <div class="    transition bg-white  shadow-md rounded-xl     ">
-      <form class="  ">
-       <div className='flex gap-3'>
-       <div class="form-control ">
-          <label class="label">
-            <span class="label-text ">
-              Name <span className="text-warning">*</span>
-            </span>
-          </label>
-          <input
-            type="text"
-            name="name"
-            required
-            placeholder="Type your name"
-            class="input border border-gray-300 bg-gray-200 "
-          />
-        </div>
-        <div class="form-control">
-          <label class="label">
-            <span class="label-text ">
-              Email <span className="text-warning">*</span>
-            </span>
-          </label>
-          <input
-            type="text"
-            name="email"
-            required
-            placeholder="Type your email"
-            class="input border border-gray-300 bg-gray-200 "
-          />
-        </div>
-       </div>
-        <div class="form-control">
-          <label class="label">
-            <span class="label-text ">
-              Address <span className="text-warning">*</span>
-            </span>
-          </label>
-          <input
-            type="text"
-            name="address"
-            required
-            placeholder="address"
-            class="input border border-gray-300 bg-gray-200 "
-          />
-          <label class="label">
-            <span class="label-text ">
-             Message
-              <span className="text-warning">*</span>
-            </span>
-          </label>
-          <textarea
-            type="text"
-            name="message"
-            required
-            placeholder="message"
-            className="input border border-gray-300 bg-gray-200 h-12 form-control form-control-message h-32 "  
-            
-          ></textarea>
-        </div>
-        <div class="form-control mt-2">
-          <button type="submit" class="btn  text-white" style={{backgroundColor: "#453364" }}>
-            Submit
-          </button>
-          
-        </div>
-      </form>
-    </div>
-      
-      <div   className=' py-10   mx-10'>
-
-
-
-<Map  ></Map >
-      </div>
-      </div>  */}
+    
 
 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 px-10  py-10 items-center justify-items-center">
           {/* left side */}
@@ -120,12 +42,12 @@ const Contact = () => {
 
               <div className="form-control w-full max-w-xs">
                 <label className="label">
-                  <span className="label-text">Paasword</span>
+                  <span className="label-text">Name</span>
                 </label>
                 <input
                    
                   type="password"
-                  placeholder="your password"
+                  placeholder="your name"
                   className="input input-bordered w-full max-w-xs"
                 />
               
@@ -133,30 +55,33 @@ const Contact = () => {
              </div>
               <div className="form-control w-full max-w-xs">
                 <label className="label">
-                  <span className="label-text">Paasword</span>
+                  <span className="label-text">Subject</span>
                 </label>
                 <input
                    
-                  type="password"
-                  placeholder="your password"
+                  type="text"
+                  placeholder="your subject"
                   className="input input-bordered w-full max-w-xs"
                 />
               
               </div>
               <div className="form-control w-full max-w-xs">
                 <label className="label">
-                  <span className="label-text">Paasword</span>
+                  <span className="label-text">Message</span>
                 </label>
-                <input
+                <textarea
                    
-                  type="password"
-                  placeholder="your password"
-                  className="input input-bordered w-full max-w-xs"
-                />
+                  type="text"
+                  placeholder="your message"
+                  className="input input-bordered w-full max-w-xs h-32"
+              
+                ></textarea>
               
               </div>
 
-              <input type="submit" className="btn btn-primary" value="Login" />
+     <div className='py-5'>
+     <input type="submit" className="btn  w-full max-w-x " value="Submit" />
+     </div>
                
             </form>
  
