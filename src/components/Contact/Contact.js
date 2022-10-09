@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import Map from '../Map/Map';
 
 const Contact = () => {
@@ -92,86 +93,81 @@ const Contact = () => {
       </div>
       </div>  */}
 
-<div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 mx-auto   py-10 items-center justify-items-center">
+<div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 px-10  py-10 items-center justify-items-center">
           {/* left side */}
 
-          <div className="  lg:[width:85%] md:w-[90%] py-8 rounded">
+   
        
 
             <div >
-               
+            <div className="card flex-shrink-0 w-full max-w-sm shadow-2xl bg-base-100">
+          <div className="card-body">
+         
+            <form  >
+             <div className='flex gap-3'>
+             <div className="form-control w-full max-w-xs">
+                <label className="label">
+                  <span className="label-text">Email</span>
+                </label>
+                <input
+                   
+                  type="email"
+                  placeholder="your email"
+                  className="input input-bordered w-full max-w-xs"
+                />
               
-              <div className="bg-opacity-30 lg:p-5 pt-10 rounded-lg bg-blue-900  ">
-                
-                 
-           
-                <div class=" w-full ">
-                  <form   class=" ">
-                  <div className='flex gap-3   items-center justify-items-center'>
-                  <div class="form-control  sm:[w-25%] md:w-[50%]">
-                      <label class="label">
-                        <span class="label-text text-white">
-                          Name <span className="text-warning">*</span>
-                        </span>
-                      </label>
-                      <input
-                        type="text"
-                        name="name"
-                        required
-                        placeholder="name"
-                        class="input border border-slate-400 bg-slate-800  text-white"
-                      />
-                    </div>
-                    <div class="form-control sm:[w-25%] md:w-[50%]">
-                      <label class="label">
-                        <span class="label-text text-white">
-                          Email <span className="text-warning">*</span>
-                        </span>
-                      </label>
-                      <input
-                        type="text"
-                        name="email"
-                        required
-                        placeholder="email"
-                        class="input border border-slate-400 bg-slate-800  text-white"
-                      />
-                    </div>
-                  </div>
-                    
-                    <div class="form-control sm:w-25%">
-                      <label class="label">
-                        <span class="label-text text-white">
-                          Subject <span className="text-warning">*</span>
-                        </span>
-                      </label>
-                      <input
-                        type="text"
-                        name="subject"
-                        required
-                        placeholder="subject"
-                        class="input border border-slate-400 bg-slate-800  text-white"
-                      />
-                    </div>
-                    <div class="form-control sm:w-25% ">
-                      <label class="label">
-                        <span class="label-text text-white">
-                          Message <span className="text-warning">*</span>
-                        </span>
-                      </label>
-                      <textarea
-                        type="text"
-                        name="message"
-                        required
-                        placeholder="message"
-                        class="input border border-slate-400 bg-slate-800 h-32 text-white"
-                      ></textarea>
-                    </div>
-                    <input class="sm:btn-sm btn mt-5   " type="submit" value="Send Message" style={{background:"#453364"}}/>
-                  </form>
-                </div>
               </div>
-            </div>
+
+              <div className="form-control w-full max-w-xs">
+                <label className="label">
+                  <span className="label-text">Paasword</span>
+                </label>
+                <input
+                   
+                  type="password"
+                  placeholder="your password"
+                  className="input input-bordered w-full max-w-xs"
+                />
+              
+              </div>
+             </div>
+              <div className="form-control w-full max-w-xs">
+                <label className="label">
+                  <span className="label-text">Paasword</span>
+                </label>
+                <input
+                   
+                  type="password"
+                  placeholder="your password"
+                  className="input input-bordered w-full max-w-xs"
+                />
+              
+              </div>
+              <div className="form-control w-full max-w-xs">
+                <label className="label">
+                  <span className="label-text">Paasword</span>
+                </label>
+                <input
+                   
+                  type="password"
+                  placeholder="your password"
+                  className="input input-bordered w-full max-w-xs"
+                />
+              
+              </div>
+
+              <input type="submit" className="btn btn-primary" value="Login" />
+               
+            </form>
+ 
+
+       
+          
           </div>
+        </div>
+              
+            </div>
+ 
 
 
 
