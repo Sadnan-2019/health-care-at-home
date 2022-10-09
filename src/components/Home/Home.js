@@ -16,7 +16,7 @@ const Home = () => {
         <div>
             <Landing></Landing>
             <Service></Service>
-            {/* <Review></Review> */}
+            <Review></Review>
             
             <Success></Success>
             <Marque></Marque> 

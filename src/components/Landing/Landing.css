@@ -109,3 +109,23 @@
     background-repeat: no-repeat;
   }
 }
+/* @media only screen and (min-width: 1000px) and (max-width: 1030px) {
+  .landing {
+    width: 100%;
+    background-image: linear-gradient(
+        to left,
+        rgba(243, 238, 234, 0),
+        rgba(230, 242, 244, 0.837)
+      ),
+      url("https://sphcprivatelimited.com/wp-content/uploads/2020/01/home-care-670x287-1-669x287.png");
+    height: auto;
+
+    background-size: contain;
+    background-size: cover;
+
+    background-size: 150% 100%;
+     background-color: red;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+} */
