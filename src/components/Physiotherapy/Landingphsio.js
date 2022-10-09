@@ -1,14 +1,13 @@
 import React from 'react';
 import { FaPhoneVolume } from "react-icons/fa";
+import "./Physio.css"
 
 const Landingphsio = () => {
     return (
         <div>
           <section
-        className=" bg-no-repeat bg-cover "
-        style={{
-          backgroundImage: `url("https://i.ibb.co/3h1fG5x/IMG-8342-scaled.jpg")`,
-        }}
+        className=" bg-no-repeat bg-cover physio "
+        
       >
         <div className=" md:py-20 py-10 lg:py-24 lg:mx-16 mx-8 grid lg:grid-cols-1 grid-cols-1 gap-5">
           <div className="max-w-xl text-left md:ml-8 lg:order-1 order-2 mt-10 lg:mt-0">
