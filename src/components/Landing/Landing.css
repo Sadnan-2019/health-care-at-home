@@ -1,56 +1,72 @@
 .landing {
-  background-image: linear-gradient(to left, rgba(243, 238, 234, 0.0), rgba(248, 251, 251, 0.30)), url("https://sphcprivatelimited.com/wp-content/uploads/2020/01/home-care-670x287-1-669x287.png");
+  background-image: linear-gradient(
+      to left,
+      rgba(243, 238, 234, 0),
+      rgba(248, 251, 251, 0.3)
+    ),
+    url("https://sphcprivatelimited.com/wp-content/uploads/2020/01/home-care-670x287-1-669x287.png");
 
   background-repeat: no-repeat;
   background-size: cover;
- 
-  
+
   height: auto;
   /* background-position: center;
   background-attachment: fixed; */
-   
 }
-@media only screen and (max-width: 396px)   {
+@media only screen and (max-width: 375px) {
   .landing {
     width: 100%;
-    background-image: linear-gradient(to left, rgba(243, 238, 234, 0), rgba(230, 242, 244, 0.837)), url("https://sphcprivatelimited.com/wp-content/uploads/2020/01/home-care-670x287-1-669x287.png");
-    height: auto ;
+    background-image: linear-gradient(
+        to left,
+        rgba(243, 238, 234, 0),
+        rgba(230, 242, 244, 0.837)
+      ),
+      url("https://sphcprivatelimited.com/wp-content/uploads/2020/01/home-care-670x287-1-669x287.png");
+    height: auto;
 
- 
     background-size: contain;
     background-size: cover;
-  
 
-    padding: 0;
+    background-size: auto 70%;
 
- 
-    background-size: auto 50% ;
-    padding: 0px;
- 
     background-repeat: no-repeat;
   }
-   
 }
-/* @media only screen and (min-width: 740px) and (max-width: 1000px) {
-     .landng {
-          width: 100%;
-          background-image: url("https://i.ibb.co/nnSNBMX/Whats-App-Image-2022-10-06-at-3-30-04-PM.jpg");
-          height: auto  ;
-      
-       
-      
-          background-size: cover;
-      
-          padding: 0;
-      
-      
-          background-size: auto 55% ;
-          padding: 0px;
-      
-          background-repeat: no-repeat;
-        }
+@media only screen and (min-width: 380px) and (max-width: 1000px) {
+  .landing {
+    width: 100%;
+    background-image: linear-gradient(
+        to left,
+        rgba(243, 238, 234, 0),
+        rgba(230, 242, 244, 0.837)
+      ),
+      url("https://sphcprivatelimited.com/wp-content/uploads/2020/01/home-care-670x287-1-669x287.png");
+    height: auto;
 
+    background-size: contain;
+    background-size: cover;
 
+    background-size: auto 70%;
 
+    background-repeat: no-repeat;
+  }
+}
+@media only screen and (min-width: 540px) and (max-width: 720px) {
+  .landing {
+    width: 100%;
+    background-image: linear-gradient(
+        to left,
+        rgba(243, 238, 234, 0),
+        rgba(230, 242, 244, 0.837)
+      ),
+      url("https://sphcprivatelimited.com/wp-content/uploads/2020/01/home-care-670x287-1-669x287.png");
+    height: auto;
 
-} */
+    background-size: contain;
+    background-size: cover;
+
+    background-size: auto 100%;
+
+    background-repeat: no-repeat;
+  }
+}
