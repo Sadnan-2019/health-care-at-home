@@ -85,17 +85,7 @@ const Review = () => {
             </div>
           </div>
 
-          <div className=" mb-8	">
-            {/* <p
-              className="text-white text-1xl lg:text-3xl font-bold poppins-b	"
-              // data-aos="fade-right"
-              //   data-aos-offset="100"
-              //   data-aos-easing="ease-in-sine"
-            >
-              Happy patients share their kind words and experiences.
-            </p> */}
-
-          </div>
+           
         </div>
         <Slider {...settings}>
           {/* <Reviewcard />
