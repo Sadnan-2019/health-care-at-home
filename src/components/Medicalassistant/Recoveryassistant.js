@@ -33,7 +33,7 @@ const Recoveryassistant = () => {
             className="rounded-xl w-15 h-32"
             style={{ color: "#453364" }}
           />
-          <p className="poppins-t text-xl text-black mt-5 ">Spine Care</p>
+          <p className="poppins-t text-xl text-black mt-5 ">Dementia or Alzheimer's disease</p>
           <p className="poppins-t text-black text-justify ">
             Personalized care plans to bring back the lost physical and
             emotional strength

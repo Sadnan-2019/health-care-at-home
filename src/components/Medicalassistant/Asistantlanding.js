@@ -47,7 +47,7 @@ const Asistantlanding = () => {
               className="md:text-[25px] font-bold text-[25px] mt-5 text-left poppins-b lg:text-justify "
               style={{ lineHeight: "120%", color: "#453364" }}
             >
-              Our team of registered medical assistant and skilled healthcare
+              Our team of registered diploma medical assistant and skilled healthcare
               professionals provide in-home medical assistant to help manage and
               coordinate recovery at home.
             </p>
