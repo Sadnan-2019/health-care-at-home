@@ -34,8 +34,8 @@ const Landing = () => {
           </p>
           
           <div className='flex items-center mt-2 font-bold'>
-          < FaPhoneVolume  className="text-2xl " style={{  color:"#453364" }}/>
-          <span className="text-2xl "style={{ color:"#453364" }} > Call Now: 01619848555</span>
+          < FaPhoneVolume  className="lg:text-2xl text-[20px] " style={{  color:"#453364" }}/>
+          <span className="lg:text-2xl text-[20px] "style={{ color:"#453364" }} > Call Now: 01619848555</span>
         </div>
 
           <div

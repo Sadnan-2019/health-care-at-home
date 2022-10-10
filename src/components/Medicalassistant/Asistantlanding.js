@@ -17,7 +17,7 @@ const Asistantlanding = () => {
             <p
               data-aos="fade-up"
               data-aos-duration="1000"
-              className="lg:text-[43px] font-bold text-[22px] text-left poppins-b "
+              className="md:text-[43px] font-bold text-[20px] text-left poppins-b "
               style={{ lineHeight: "120%", color: "#453364" }}
             >
               Always available for
@@ -25,7 +25,7 @@ const Asistantlanding = () => {
             <p
               data-aos="fade-up"
               data-aos-duration="1000"
-              className="md:text-[43px] font-bold text-[22px]text-left poppins-b "
+              className="md:text-[43px] font-bold text-[20px] text-left poppins-b "
               style={{ lineHeight: "120%", color: "#453364" }}
             >
               your day-to-day care
@@ -41,7 +41,7 @@ const Asistantlanding = () => {
             <p
               data-aos="fade-up"
               data-aos-duration="1000"
-              className="md:text-[25px] font-bold text-[22px] mt-5 text-left poppins-b lg:text-justify "
+              className="md:text-[25px] font-bold text-[20px] mt-5 text-left poppins-b lg:text-justify "
               style={{ lineHeight: "120%", color: "#453364" }}
             >
               Our team of registered diploma medical assistant and skilled
@@ -56,7 +56,7 @@ const Asistantlanding = () => {
                 className="text-2xl "
                 style={{ color: "#453364" }}
               />
-              <span className="lg:text-2xl text-[22px] " style={{ color: "#453364" }}>
+              <span className="lg:text-2xl text-[20px] " style={{ color: "#453364" }}>
                 {" "}
                 Call Now: 01619848555
               </span>

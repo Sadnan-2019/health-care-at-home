@@ -28,7 +28,7 @@ const Nursing = () => {
             <p
               data-aos="fade-up"
               data-aos-duration="1000"
-              className="md:text-[43px] font-bold text-[26px] text-left poppins-b "
+              className="md:text-[43px] font-bold text-[20px] text-left poppins-b "
               style={{ lineHeight: "120%", color: "#453364" }}
             >
               Diploma Nursing
@@ -36,7 +36,7 @@ const Nursing = () => {
             <p
               data-aos="fade-up"
               data-aos-duration="1000"
-              className="md:text-[43px] font-bold text-[26px] text-left poppins-b "
+              className="md:text-[43px] font-bold text-[20px] text-left poppins-b "
               style={{ lineHeight: "120%", color: "#453364" }}
             >
               Services at Home
@@ -52,7 +52,7 @@ const Nursing = () => {
             <p
               data-aos="fade-up"
               data-aos-duration="1000"
-              className="md:text-[25px] font-bold text-[25px] mt-5 text-left poppins-b lg:text-justify "
+              className="md:text-[25px] font-bold text-[20px] mt-5 text-left poppins-b lg:text-justify "
               style={{ lineHeight: "120%", color: "#453364" }}
             >
               Qualified and experienced diploma nurses to help with daily
@@ -67,7 +67,7 @@ const Nursing = () => {
                 className="text-2xl "
                 style={{ color: "#453364" }}
               />
-              <span className="text-2xl " style={{ color: "#453364" }}>
+              <span className="lg:text-2xl text-[20px] " style={{ color: "#453364" }}>
                 {" "}
                 Call Now: 01619848555
               </span>
