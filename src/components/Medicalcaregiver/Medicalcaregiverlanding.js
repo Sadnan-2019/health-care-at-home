@@ -19,7 +19,7 @@ const Medicalcaregiverlanding = () => {
               className="md:text-[43px] font-bold text-[26px] text-left poppins-b "
               style={{ lineHeight: "120%", color: "#453364" }}
             >
-              Special medical caregiver  
+                Medical caregiver  provide patients
             </p>
             <p
               data-aos="fade-up"
@@ -27,7 +27,7 @@ const Medicalcaregiverlanding = () => {
               className="md:text-[43px] font-bold text-[26px] text-left poppins-b "
               style={{ lineHeight: "120%", color: "#453364" }}
             >
-               Services provide at your home
+              Care  service  at your home
             </p>
 
             {/* <p

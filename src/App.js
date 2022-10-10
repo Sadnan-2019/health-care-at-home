@@ -12,7 +12,9 @@ import Nursing from "./components/Nursing/Nursing";
  
 import Physiotherapy from "./components/Physiotherapy/Physiotherapy";
 import Medicalassistant from "./components/Medicalassistant/Medicalassistant";
-import Medicalcaregiverlanding from "./components/Medicalcaregiver/Medicalcaregiverlanding";
+import Medicalcaregiver from "./components/Medicalcaregiver/Medicalcaregiver";
+
+
  
 // import New from './components/Nav/New';
 
@@ -26,7 +28,7 @@ function App() {
         <Route path="/nursing" element={<Nursing />}></Route>
         <Route path="/physiotherapy" element={<Physiotherapy />}></Route>
         <Route path="/medical-assistant" element={<Medicalassistant />}></Route>
-        <Route path="/medical-caregiver" element={<Medicalcaregiverlanding />}></Route>
+        <Route path="/medical-caregiver" element={<Medicalcaregiver />}></Route>
  
         <Route path="/about" element={<About />}></Route>
         <Route path="/contact" element={<Contact />}></Route>

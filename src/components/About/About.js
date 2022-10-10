@@ -66,11 +66,30 @@ const About = () => {
               </div>
               <div>
                 <p className="text-[18px]  font-bold mb-4">Strong Monitoring Team</p>
-                <p className="text-justify  text-[15px] poppins-t"></p>
+                <p className="text-justify  text-[15px] poppins-t">
+                  Supervisors of healthcare at home do converse with the 
+                  caregivers every single day.They enquire about quality of service
+                  ,patients satisfaction & patient attendants concerns.
+                  Chief executive officer,who is a physician talks to the patients
+                  & attendant once a week.This composes a strong monitoring 
+                  team.On WhatsApp we have trouble window,where we share 
+                  patients & attendants inconvenience,so that we can address
+                  the problems.
+
+
+                </p>
               </div>
               <div>
                 <p className="text-[18px]  font-bold mb-4">Team 24 x 7</p>
-                <p className="text-justify  text-[15px] poppins-t"></p>
+                <p className="text-justify  text-[15px] poppins-t">
+
+              Our fifteen employee-team works round the clock to serve the community.
+              We are ready to  answer phone calls 24/7.We are open  for conversation  
+              listening to attendants complaints.We can provide home service with caregiver
+              even at mid night.
+       
+
+                </p>
               </div>
             </div>
           </div>

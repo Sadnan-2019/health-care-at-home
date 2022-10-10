@@ -1,13 +1,13 @@
-import React from "react";
+import React from 'react';
 import spine from "../../assets/spine.jpg";
 import orthopedic from "../../assets/orthopedic.jpg";
 import cardiac from "../../assets/cardiac-rehab.jpg";
 import stroke from "../../assets/stroke.jpg";
 
-const Recoveryassistant = () => {
-  return (
-    <div>
-      <div className="py-12">
+const Recoverymedicalcaregiver = () => {
+    return (
+        <div>
+           <div className="py-12">
         <div className=" md:py-20 py-10 lg:py-10 lg:mx-16 mx-8 grid-cols-1 lg:grid-cols-1 text-left md:ml-8 lg:order-1 order-2 mt-10 lg:mt-0">
           <p
             className="lg:text-[43px] md:text-[30px] font-bold text-[26px] text-left poppins-b "
@@ -94,9 +94,9 @@ const Recoveryassistant = () => {
             </p>
           </div>
         </div>
-      </div>
-    </div>
-  );
+      </div> 
+        </div>
+    );
 };
 
-export default Recoveryassistant;
+export default Recoverymedicalcaregiver;

@@ -1,40 +1,38 @@
-import React from "react";
+import React from 'react';
 
-const Asistentabout = () => {
-  return (
-    <div>
-      <div className=" md:py-20 py-10 lg:py-24 lg:mx-16 mx-8 grid grid-cols-1 md:grid-cols-1   lg:grid-cols-2  gap-5">
+const Medicalcaregiverabout = () => {
+    return (
+        <div>
+           <div className=" md:py-20 py-10 lg:py-24 lg:mx-16 mx-8 grid grid-cols-1 md:grid-cols-1   lg:grid-cols-2  gap-5">
         <div className="max-w-xl text-left md:ml-8 lg:order-1 order-2 mt-10 lg:mt-0">
           <p
             className="lg:text-[43px] md:text-[30px] font-bold text-[26px] text-left poppins-b "
             style={{ lineHeight: "120%", color: "#453364" }}
           >
-            Medical Assistant for Complete
+            Medical caregivers are trained nurses provide 
           </p>
           <p
             className=" lg:text-[43px] md:text-[30px] font-bold text-[26px] text-left poppins-b "
             style={{ lineHeight: "120%", color: "#453364" }}
           >
-            Health Support at Home
+            complete Healthcare 
+            service at home
           </p>
 
           <p className="max-w-lg mt-7  md:text-[20px] lg:text-[27px] poppins-t text-gray-600 text-justify ">
-            Our skilled medical assistant follow clinical protocols as per 
-            international standards while delivering the best quality Healthcare
-             service at home.Medical assistants are qualified diploma holders. They also
-            do nursing-care at home. Apart from grooming the patients they give
-            injections, Insert NG-tube, Catheter etc. They regularly check BP,
-            Sugar, Oxygen, Pulse & other vital parameters.They know how to take
-            care of bed-sore as well .
+            Our Skilled medical caregivers are trained & experience to take care 
+            of ailing patients at the comfort of their home. From feeding  
           </p>
           <br></br>
-           
-          
-
-
-
-
-
+          <div className="text-[20px] ">
+          <li >Perform glucose test using Glucometer</li>
+          <li>Tracheostomy tube care </li>
+          <li>Provide oxygen inhalation </li>
+          <li>Change diaper & clean the patients  </li>
+          <li>Do bed sore care  </li>
+          <li>Bathing & sponging the patient</li>
+          <li>Measure vital signs </li>
+          </div>
         </div>
         <div className="max-w-xl text-left md:ml-8 lg:order-1 order-2 mt-10 lg:mt-0">
           <div className="grid sm:grid-cols-1 mx-12 md:grid-cols-3 lg:grid-cols-3 gap-5">
@@ -43,13 +41,13 @@ const Asistentabout = () => {
               style={{ backgroundColor: "#F5F1EA", borderColor: "#F5F1EA" }}
             >
               <img
-                src="https://cdn-icons-png.flaticon.com/512/827/827313.png"
+                src="https://cdn-icons-png.flaticon.com/512/8587/8587740.png"
                 alt="Shoes"
                 className="rounded-xl w-15"
                 style={{ color: "#453364" }}
               />
               <p className="poppins-t text-gray-600 text-center">
-                Turing and repositioning
+                Total Nursing Care
               </p>
             </div>
             <div
@@ -57,13 +55,13 @@ const Asistentabout = () => {
               style={{ backgroundColor: "#F5F1EA", borderColor: "#F5F1EA" }}
             >
               <img
-                src="https://cdn-icons-png.flaticon.com/512/6966/6966523.png"
+                src="https://cdn-icons-png.flaticon.com/128/1225/1225711.png"
                 alt="Shoes"
                 className="rounded-xl w-15"
                 style={{ color: "#453364" }}
               />
               <p className="poppins-t text-gray-600 text-center">
-                24/7 Personal Healthcare
+                IV Cannula insertion
               </p>
             </div>
             <div
@@ -71,13 +69,13 @@ const Asistentabout = () => {
               style={{ backgroundColor: "#F5F1EA", borderColor: "#F5F1EA" }}
             >
               <img
-                src="https://cdn-icons-png.flaticon.com/512/4326/4326586.png"
+                src="https://i.ibb.co/ZBJyqw7/d4b342eb-a312-4ebe-87d7-20f3f64315f3.jpg"
                 alt="Shoes"
                 className="rounded-xl w-15"
                 style={{ color: "#453364" }}
               />
               <p className="poppins-t text-gray-600 text-center">
-                Transfer assistance
+                NG-tube insertion
               </p>
             </div>
             <div
@@ -119,7 +117,8 @@ const Asistentabout = () => {
                 style={{ color: "#453364" }}
               />
               <p className="poppins-t text-gray-600 text-center">
-                Oxygen support
+              Oxygen support
+
               </p>
             </div>
             <div
@@ -133,7 +132,7 @@ const Asistentabout = () => {
                 style={{ color: "#453364" }}
               />
               <p className="poppins-t text-gray-600 text-center">
-                Health records
+              Health records
               </p>
             </div>
             <div
@@ -147,7 +146,8 @@ const Asistentabout = () => {
                 style={{ color: "#453364" }}
               />
               <p className="poppins-t text-gray-600 text-center">
-                Hygiene maintenance
+              Hygiene maintenance
+
               </p>
             </div>
             <div
@@ -161,17 +161,16 @@ const Asistentabout = () => {
                 style={{ color: "#453364" }}
               />
               <p className="poppins-t text-gray-600 text-center">
-                Medication Reminder
+              Medication Reminder
+
               </p>
             </div>
           </div>
         </div>
-        {/* <div className="lg:order-2 order-1  lg:-mt-2">
-          <img className="lg:w-[100%] w-[90%] mx-auto" src={Banner} alt="" />
-        </div> */}
-      </div>
-    </div>
-  );
+         
+      </div> 
+        </div>
+    );
 };
 
-export default Asistentabout;
+export default Medicalcaregiverabout;

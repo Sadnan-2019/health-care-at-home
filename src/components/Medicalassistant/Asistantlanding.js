@@ -45,7 +45,7 @@ const Asistantlanding = () => {
               style={{ lineHeight: "120%", color: "#453364" }}
             >
               Our team of registered diploma medical assistant and skilled
-              healthcare professionals provide in-home medical assistant.
+              healthcare professionals provide in-house medical assistance .
             </p>
             <div
               className="flex items-center mt-5 font-bold"
