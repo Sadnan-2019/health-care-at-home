@@ -16,18 +16,18 @@ const Medicalcaregiverlanding = () => {
             <p
               data-aos="fade-up"
               data-aos-duration="1000"
-              className="md:text-[43px] font-bold text-[26px] text-left poppins-b "
+              className="lg:text-[43px] font-bold text-[22px] text-left poppins-b "
               style={{ lineHeight: "120%", color: "#453364" }}
             >
-                Medical caregiver  provide patients
+                Medical caregiver  provide 
             </p>
             <p
               data-aos="fade-up"
               data-aos-duration="1000"
-              className="md:text-[43px] font-bold text-[26px] text-left poppins-b "
+              className="lg:text-[43px] font-bold text-[22px] text-left poppins-b "
               style={{ lineHeight: "120%", color: "#453364" }}
             >
-              Care  service  at your home
+              patients  care  service  at your home
             </p>
 
             {/* <p
@@ -40,7 +40,7 @@ const Medicalcaregiverlanding = () => {
             <p
               data-aos="fade-up"
               data-aos-duration="1000"
-              className="md:text-[25px] font-bold text-[25px] mt-5 text-left poppins-b lg:text-justify "
+              className="md:text-[25px] font-bold text-[22px] mt-5 text-left poppins-b lg:text-justify "
               style={{ lineHeight: "120%", color: "#453364" }}
             >
               Our medical caregivers are ready to provide quality services to everyone
@@ -55,7 +55,7 @@ const Medicalcaregiverlanding = () => {
                 className="text-2xl "
                 style={{ color: "#453364" }}
               />
-              <span className="text-2xl " style={{ color: "#453364" }}>
+              <span className="lg:text-2xl text-[22px] " style={{ color: "#453364" }}>
                 {" "}
                 Call Now: 01619848555
               </span>

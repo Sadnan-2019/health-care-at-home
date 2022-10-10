@@ -13,3 +13,102 @@
     background-position: center;
     /* background-attachment: fixed; */
   }
+
+
+
+  @media only screen and (max-width: 375px) {
+    .medicalcaregiver {
+      width: 100%;
+      background-image: linear-gradient(
+          to left,
+          rgba(243, 238, 234, 0),
+          rgba(230, 242, 244, 0.700)
+        ),
+        url("https://i.ibb.co/Bnr5sg8/medical-Caregiver.jpg");
+      height: auto;
+  
+      background-size: contain;
+      background-size: cover;
+  
+      background-size: 100% 75%;
+  
+      background-repeat: no-repeat;
+    }
+  }
+  @media only screen and (min-width: 380px) and (max-width: 540px) {
+    .medicalcaregiver {
+      width: 100%;
+      background-image: linear-gradient(
+          to left,
+          rgba(243, 238, 234, 0),
+          rgba(230, 242, 244, 0.700)
+        ),
+        url("https://i.ibb.co/Bnr5sg8/medical-Caregiver.jpg");
+      height: auto;
+  
+      background-size: contain;
+      background-size: cover;
+  
+      background-size: auto 90%;
+  
+      background-repeat: no-repeat;
+    }
+  }
+  @media only screen and (min-width: 447px) and (max-width: 767px) {
+    .medicalcaregiver {
+      width: 100%;
+      background-image: linear-gradient( 
+          to left,
+          rgba(243, 238, 234, 0),
+          rgba(230, 242, 244, 0.700)
+        ),
+        url("https://i.ibb.co/Bnr5sg8/medical-Caregiver.jpg");
+      height: auto;
+  
+      background-size: contain;
+      background-size: cover;
+  
+      background-size: auto 100%;
+  
+      background-repeat: no-repeat;
+    }
+  }
+  
+  @media only screen and (min-width: 540px) and (max-width: 725px) {
+    .medicalcaregiver {
+      width: 100%;
+      background-image: linear-gradient(
+          to left,
+          rgba(243, 238, 234, 0),
+          rgba(230, 242, 244, 0.700)
+        ),
+        url("https://i.ibb.co/Bnr5sg8/medical-Caregiver.jpg");
+      height: auto;
+  
+      background-size: contain;
+      background-size: cover;
+  
+      background-size: auto 100%;
+  
+      background-repeat: no-repeat;
+    }
+  }
+  @media only screen and (min-width: 725px) and (max-width: 1000px) {
+    .medicalcaregiver {
+      width: 100%;
+      background-image: linear-gradient(
+          to left,
+          rgba(243, 238, 234, 0),
+          rgba(230, 242, 244, 0.700)
+        ),
+        url("https://i.ibb.co/Bnr5sg8/medical-Caregiver.jpg");
+      height: auto;
+  
+      background-size: contain;
+      background-size: cover;
+  
+      background-size: 100% 90%;
+  
+      background-repeat: no-repeat;
+    }
+  }
