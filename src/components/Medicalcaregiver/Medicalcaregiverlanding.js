@@ -44,8 +44,7 @@ const Medicalcaregiverlanding = () => {
               style={{ lineHeight: "120%", color: "#453364" }}
             >
               Our medical caregivers are ready to provide quality services to everyone
-              in need of assistance, including elders, those who are living with
-              a disability.  
+              in need of assistance, including elders.  
             </p>
             <div
               className="flex items-center mt-5 font-bold"

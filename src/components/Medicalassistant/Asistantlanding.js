@@ -1,14 +1,11 @@
 import React from "react";
 import { FaPhoneVolume } from "react-icons/fa";
-import "./Assistant.css"
+import "./Assistant.css";
 
 const Asistantlanding = () => {
   return (
     <div>
-      <section
-        className=" h-auto assistant "
-        
-      >
+      <section className=" h-auto assistant ">
         <div className=" md:py-20 py-10 lg:py-24 lg:mx-16 mx-8 grid lg:grid-cols-1 grid-cols-1 gap-5">
           <div className="max-w-xl text-left md:ml-8 lg:order-1 order-2 mt-10 lg:mt-0">
             {/* <div className="flex items-center gap-2 bg-gray-100 w-fit px-3 rounded-full py-2 border-[1px] border-gray-200 mb-5">
@@ -23,7 +20,7 @@ const Asistantlanding = () => {
               className="md:text-[43px] font-bold text-[26px] text-left poppins-b "
               style={{ lineHeight: "120%", color: "#453364" }}
             >
-              Always  available for 
+              Always available for
             </p>
             <p
               data-aos="fade-up"
@@ -31,7 +28,7 @@ const Asistantlanding = () => {
               className="md:text-[43px] font-bold text-[26px] text-left poppins-b "
               style={{ lineHeight: "120%", color: "#453364" }}
             >
-              your day-to-day care  
+              your day-to-day care
             </p>
 
             {/* <p
@@ -47,9 +44,8 @@ const Asistantlanding = () => {
               className="md:text-[25px] font-bold text-[25px] mt-5 text-left poppins-b lg:text-justify "
               style={{ lineHeight: "120%", color: "#453364" }}
             >
-              Our team of registered diploma medical assistant and skilled healthcare
-              professionals provide in-home medical assistant to help manage and
-              coordinate recovery at home.
+              Our team of registered diploma medical assistant and skilled
+              healthcare professionals provide in-home medical assistant.
             </p>
             <div
               className="flex items-center mt-5 font-bold"
