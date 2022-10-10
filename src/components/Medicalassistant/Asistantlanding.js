@@ -1,11 +1,10 @@
-import React from 'react';
+import React from "react";
 import { FaPhoneVolume } from "react-icons/fa";
 
-
 const Asistantlanding = () => {
-    return (
-        <div>
-             <section
+  return (
+    <div>
+      <section
         className=" bg-no-repeat bg-cover "
         style={{
           backgroundImage: `url("https://i.ibb.co/C7xQnt5/Whats-App-Image-2022-10-04-at-11-40-43-AM.jpg")`,
@@ -25,7 +24,7 @@ const Asistantlanding = () => {
               className="md:text-[43px] font-bold text-[26px] text-left poppins-b "
               style={{ lineHeight: "120%", color: "#453364" }}
             >
-              We are committed to
+              Always  available for 
             </p>
             <p
               data-aos="fade-up"
@@ -33,7 +32,7 @@ const Asistantlanding = () => {
               className="md:text-[43px] font-bold text-[26px] text-left poppins-b "
               style={{ lineHeight: "120%", color: "#453364" }}
             >
-              your recovery from pain
+              your day-to-day care for daily needs.
             </p>
 
             {/* <p
@@ -49,7 +48,9 @@ const Asistantlanding = () => {
               className="md:text-[25px] font-bold text-[25px] mt-5 text-left poppins-b lg:text-justify "
               style={{ lineHeight: "120%", color: "#453364" }}
             >
-              Are you suffering from physical pain? Don’t worry! Our expert physiotherapist will provide easy & effective methods of pain relief
+              Our team of registered medical assistant and skilled healthcare
+              professionals provide in-home medical assistant to help manage and
+              coordinate recovery at home.
             </p>
             <div
               className="flex items-center mt-5 font-bold"
@@ -82,8 +83,8 @@ const Asistantlanding = () => {
           </div>
         </div>
       </section>
-        </div>
-    );
+    </div>
+  );
 };
 
 export default Asistantlanding;

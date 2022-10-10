@@ -68,6 +68,10 @@ const About = () => {
                 <p className="text-[18px]  font-bold mb-4">Strong Monitoring Team</p>
                 <p className="text-justify  text-[15px] poppins-t"></p>
               </div>
+              <div>
+                <p className="text-[18px]  font-bold mb-4">Team 24 x 7</p>
+                <p className="text-justify  text-[15px] poppins-t"></p>
+              </div>
             </div>
           </div>
         </div>

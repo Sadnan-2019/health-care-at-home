@@ -1,9 +1,9 @@
-import React from 'react';
+import React from "react";
 
 const Asistentabout = () => {
-    return (
-        <div>
-            <div className=" md:py-20 py-10 lg:py-24 lg:mx-16 mx-8 grid grid-cols-1 md:grid-cols-1   lg:grid-cols-2  gap-5">
+  return (
+    <div>
+      <div className=" md:py-20 py-10 lg:py-24 lg:mx-16 mx-8 grid grid-cols-1 md:grid-cols-1   lg:grid-cols-2  gap-5">
         <div className="max-w-xl text-left md:ml-8 lg:order-1 order-2 mt-10 lg:mt-0">
           <p
             className="lg:text-[43px] md:text-[30px] font-bold text-[26px] text-left poppins-b "
@@ -20,20 +20,29 @@ const Asistentabout = () => {
 
           <p className="max-w-lg mt-7  md:text-[20px] lg:text-[27px] poppins-t text-gray-600 text-justify ">
             Our skilled medical assistant follow clinical protocols at par with
-            International standards while delivering the Best Quality Healthcare
-            at Home.Our nurses administer oral,IV & IM medication.They insert 
-            NG tube insertion & feeding.They also do the following -
+            international standards while delivering the best quality Healthcare
+            at home.Medical assistants are qualified diploma holders. They also
+            do nursing-care at home. Apart from grooming the patients they give
+            injections, Insert NG-tube, Catheter etc. They regularly check BP,
+            Sugar, Oxygen, Pulse & other vital parameters.They know how to take
+            care of bed-sore .
           </p>
           <br></br>
           <div className="text-[20px] ">
-          <li >Perform glucose test using Glucometer</li>
-          <li>Tracheostomy tube care </li>
-          <li>Provide oxygen inhalation </li>
-          <li>Change diaper & clean the patients  </li>
-          <li>Do bed sore care  </li>
-          <li>Bathing & sponging the patient</li>
-          <li>Measure vital signs </li>
+            <li>Turing and repositioning</li>
+            <li>24/7 Personal Healthcare </li>
+            <li>Transfer assistance </li>
+            <li>Medication Reminder </li>
+            <li>Do bed sore care </li>
+            <li>Maintain Health records</li>
+            <li>Hygiene maintenance</li>
           </div>
+          
+
+
+
+
+
         </div>
         <div className="max-w-xl text-left md:ml-8 lg:order-1 order-2 mt-10 lg:mt-0">
           <div className="grid sm:grid-cols-1 mx-12 md:grid-cols-3 lg:grid-cols-3 gap-5">
@@ -48,8 +57,7 @@ const Asistentabout = () => {
                 style={{ color: "#453364" }}
               />
               <p className="poppins-t text-gray-600 text-center">
-              Turing and repositioning
-
+                Turing and repositioning
               </p>
             </div>
             <div
@@ -63,8 +71,7 @@ const Asistentabout = () => {
                 style={{ color: "#453364" }}
               />
               <p className="poppins-t text-gray-600 text-center">
-              24/7 Personal Healthcare
-
+                24/7 Personal Healthcare
               </p>
             </div>
             <div
@@ -78,8 +85,7 @@ const Asistentabout = () => {
                 style={{ color: "#453364" }}
               />
               <p className="poppins-t text-gray-600 text-center">
-              Transfer assistance
-
+                Transfer assistance
               </p>
             </div>
             <div
@@ -121,8 +127,7 @@ const Asistentabout = () => {
                 style={{ color: "#453364" }}
               />
               <p className="poppins-t text-gray-600 text-center">
-              Oxygen support
-
+                Oxygen support
               </p>
             </div>
             <div
@@ -136,7 +141,7 @@ const Asistentabout = () => {
                 style={{ color: "#453364" }}
               />
               <p className="poppins-t text-gray-600 text-center">
-              Health records
+                Health records
               </p>
             </div>
             <div
@@ -150,8 +155,7 @@ const Asistentabout = () => {
                 style={{ color: "#453364" }}
               />
               <p className="poppins-t text-gray-600 text-center">
-              Hygiene maintenance
-
+                Hygiene maintenance
               </p>
             </div>
             <div
@@ -165,8 +169,7 @@ const Asistentabout = () => {
                 style={{ color: "#453364" }}
               />
               <p className="poppins-t text-gray-600 text-center">
-              Medication Reminder
-
+                Medication Reminder
               </p>
             </div>
           </div>
@@ -175,8 +178,8 @@ const Asistentabout = () => {
           <img className="lg:w-[100%] w-[90%] mx-auto" src={Banner} alt="" />
         </div> */}
       </div>
-        </div>
-    );
+    </div>
+  );
 };
 
 export default Asistentabout;
