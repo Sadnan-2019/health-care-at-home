@@ -1,14 +1,13 @@
 import React from "react";
 import { FaPhoneVolume } from "react-icons/fa";
+import "./Assistant.css"
 
 const Asistantlanding = () => {
   return (
     <div>
       <section
-        className=" bg-no-repeat bg-cover "
-        style={{
-          backgroundImage: `url("https://i.ibb.co/C7xQnt5/Whats-App-Image-2022-10-04-at-11-40-43-AM.jpg")`,
-        }}
+        className=" h-auto assistant "
+        
       >
         <div className=" md:py-20 py-10 lg:py-24 lg:mx-16 mx-8 grid lg:grid-cols-1 grid-cols-1 gap-5">
           <div className="max-w-xl text-left md:ml-8 lg:order-1 order-2 mt-10 lg:mt-0">
@@ -32,7 +31,7 @@ const Asistantlanding = () => {
               className="md:text-[43px] font-bold text-[26px] text-left poppins-b "
               style={{ lineHeight: "120%", color: "#453364" }}
             >
-              your day-to-day care for daily needs.
+              your day-to-day care  
             </p>
 
             {/* <p
