@@ -1,8 +1,8 @@
 import React from "react";
-import spine from "../../assets/spine.jpg";
-import orthopedic from "../../assets/orthopedic.jpg";
-import cardiac from "../../assets/cardiac-rehab.jpg";
-import stroke from "../../assets/stroke.jpg";
+import dementia from "../../assets/dementia.jpg";
+import corona from "../../assets/corona.jpeg";
+import postsurgery from "../../assets/postsurgery.png";
+import stroke from "../../assets/brain_stroke2.jpg";
 
 const Recoveryassistant = () => {
   return (
@@ -28,7 +28,7 @@ const Recoveryassistant = () => {
             style={{ backgroundColor: "#F5F1EA", borderColor: "#F5F1EA" }}
           >
             <img
-              src={spine}
+              src={dementia}
               alt="Shoes"
               className="rounded-xl w-15 h-32"
               style={{ color: "#453364" }}
@@ -46,7 +46,7 @@ const Recoveryassistant = () => {
             style={{ backgroundColor: "#F5F1EA", borderColor: "#F5F1EA" }}
           >
             <img
-              src={orthopedic}
+              src={corona}
               alt="Shoes"
               className="rounded-xl w-15 h-32"
               style={{ color: "#453364" }}
@@ -63,7 +63,7 @@ const Recoveryassistant = () => {
             style={{ backgroundColor: "#F5F1EA", borderColor: "#F5F1EA" }}
           >
             <img
-              src={cardiac}
+              src={postsurgery}
               alt="Shoes"
               className="rounded-xl h-32 w-15"
               style={{ color: "#453364" }}

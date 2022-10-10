@@ -31,8 +31,8 @@ const Nursingchoose = () => {
               <img src={rating} alt="Shoes" className="rounded-xl w-44" />
             </figure>
             <div className="card-body items-center text-center ">
-              <h2 className="card-title font-bold ">Highest Customer Rating</h2>
-              <p>
+              <h2 className="card-title font-bold  ">Highest Customer Rating</h2>
+              <p className="">
                 Based on 200+ Facebook & Google Reviews and opinion of more than
                 150 users, HCAH has the highest customer rating of 4.8/5
               </p>

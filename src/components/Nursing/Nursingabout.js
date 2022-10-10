@@ -28,7 +28,7 @@ const Nursingabout = () => {
             NG tube insertion & feeding.They also do the following -
           </p>
           <br></br>
-          <div className="text-[20px] ">
+          <div className="max-w-lg  md:text-[20px] lg:text-[20px] poppins-t text-gray-600 text-justify ">
           <li >Perform glucose test using Glucometer</li>
           <li>Tracheostomy tube care </li>
           <li>Provide oxygen inhalation </li>
