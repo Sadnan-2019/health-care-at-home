@@ -1,37 +1,39 @@
-import React from 'react';
+import React from "react";
 
 const Medicalcaregiverabout = () => {
-    return (
-        <div>
-           <div className=" md:py-20 py-10 lg:py-24 lg:mx-16 mx-8 grid grid-cols-1 md:grid-cols-1   lg:grid-cols-2  gap-5">
+  return (
+    <div>
+      <div className=" md:py-20 py-10 lg:py-24 lg:mx-16 mx-8 grid grid-cols-1 md:grid-cols-1   lg:grid-cols-2  gap-5">
         <div className="max-w-xl text-left md:ml-8 lg:order-1 order-2 mt-10 lg:mt-0">
           <p
             className="lg:text-[43px] md:text-[30px] font-bold text-[26px] text-left poppins-b "
             style={{ lineHeight: "120%", color: "#453364" }}
           >
-            Medical caregivers are trained nurses provide 
+            Medical caregivers are trained nurses provide
           </p>
           <p
             className=" lg:text-[43px] md:text-[30px] font-bold text-[26px] text-left poppins-b "
             style={{ lineHeight: "120%", color: "#453364" }}
           >
-            complete Healthcare 
-            service at home
+            complete Healthcare service at home
           </p>
 
           <p className="max-w-lg mt-7  md:text-[20px] lg:text-[27px] poppins-t text-gray-600 text-justify ">
-            Our Skilled medical caregivers are trained & experience to take care 
-            of ailing patients at the comfort of their home. From feeding  
+            Our Skilled medical caregivers are trained & experienced to take
+            care of ailing patients at the comfort of their home. From feeding
+            to nail nibbling, they do it all.They work with compassion & empathy
+            which ensures prompt recovery of the patients.
           </p>
           <br></br>
           <div className="text-[20px] ">
-          <li >Perform glucose test using Glucometer</li>
-          <li>Tracheostomy tube care </li>
-          <li>Provide oxygen inhalation </li>
-          <li>Change diaper & clean the patients  </li>
-          <li>Do bed sore care  </li>
-          <li>Bathing & sponging the patient</li>
-          <li>Measure vital signs </li>
+            <li>24/7 Personal Healthcare</li>
+            <li>Patients Diaper Change</li>
+            <li>Medication Reminder</li>
+            <li>NG Tube Feeding </li>
+            <li>Hygiene maintenance</li>
+            <li>Pass good time with patients </li>
+            <li>Change position of the patients</li>
+            <li>Sponging,Bathing & Grooming</li>
           </div>
         </div>
         <div className="max-w-xl text-left md:ml-8 lg:order-1 order-2 mt-10 lg:mt-0">
@@ -117,8 +119,7 @@ const Medicalcaregiverabout = () => {
                 style={{ color: "#453364" }}
               />
               <p className="poppins-t text-gray-600 text-center">
-              Oxygen support
-
+                Oxygen support
               </p>
             </div>
             <div
@@ -132,7 +133,7 @@ const Medicalcaregiverabout = () => {
                 style={{ color: "#453364" }}
               />
               <p className="poppins-t text-gray-600 text-center">
-              Health records
+                Health records
               </p>
             </div>
             <div
@@ -146,8 +147,7 @@ const Medicalcaregiverabout = () => {
                 style={{ color: "#453364" }}
               />
               <p className="poppins-t text-gray-600 text-center">
-              Hygiene maintenance
-
+                Hygiene maintenance
               </p>
             </div>
             <div
@@ -161,16 +161,14 @@ const Medicalcaregiverabout = () => {
                 style={{ color: "#453364" }}
               />
               <p className="poppins-t text-gray-600 text-center">
-              Medication Reminder
-
+                Medication Reminder
               </p>
             </div>
           </div>
         </div>
-         
-      </div> 
-        </div>
-    );
+      </div>
+    </div>
+  );
 };
 
 export default Medicalcaregiverabout;

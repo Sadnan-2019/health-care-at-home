@@ -1,8 +1,8 @@
 import React from 'react';
-import spine from "../../assets/spine.jpg";
-import orthopedic from "../../assets/orthopedic.jpg";
-import cardiac from "../../assets/cardiac-rehab.jpg";
-import stroke from "../../assets/stroke.jpg";
+import medication from "../../assets/medication.jpg";
+// import orthopedic from "../../assets/orthopedic.jpg";
+import grooming from "../../assets/grooming.jpg";
+import feeding from "../../assets/feeding.jpg";
 
 const Recoverymedicalcaregiver = () => {
     return (
@@ -28,17 +28,17 @@ const Recoverymedicalcaregiver = () => {
             style={{ backgroundColor: "#F5F1EA", borderColor: "#F5F1EA" }}
           >
             <img
-              src={spine}
+              src={feeding}
               alt="Shoes"
               className="rounded-xl w-15 h-32"
               style={{ color: "#453364" }}
             />
             <p className="poppins-t text-xl text-black mt-5 ">
-              Dementia or Alzheimer's disease
+              Feeding the patients
             </p>
             <p className="poppins-t text-black text-justify ">
-              Alzheimer care is difficult but our qualified MATS know how to
-              take care of this common old age disease.
+              The medical caregiver feeds the patient orally or through
+              NG tube.NG tube feeding is given as per physicians advice.
             </p>
           </div>
           <div
@@ -46,16 +46,15 @@ const Recoverymedicalcaregiver = () => {
             style={{ backgroundColor: "#F5F1EA", borderColor: "#F5F1EA" }}
           >
             <img
-              src={orthopedic}
+              src={grooming}
               alt="Shoes"
               className="rounded-xl w-15 h-32"
               style={{ color: "#453364" }}
             />
-            <p className="poppins-t text-xl text-black mt-5 ">Corona Care</p>
+            <p className="poppins-t text-xl text-black mt-5 ">Grooming the patients</p>
             <p className="poppins-t text-black text-justify ">
-              With total protection & PPE they take care of covid-19 patients.
-              They follow the protocol provided by physician & treat the patient
-              with anti covid treatment.
+              Fixing the hair,nibbling the nails,sponging & bathing.positioning 
+              the patient.Maintain the tooth hygiene.
             </p>
           </div>
           <div
@@ -63,17 +62,18 @@ const Recoverymedicalcaregiver = () => {
             style={{ backgroundColor: "#F5F1EA", borderColor: "#F5F1EA" }}
           >
             <img
-              src={cardiac}
+              src="https://i.ibb.co/56NQTxh/urine.jpg"
               alt="Shoes"
               className="rounded-xl h-32 w-15"
               style={{ color: "#453364" }}
             />
             <p className="poppins-t text-xl text-black mt-5 ">
-              Post surgical care
+              Catheter care
             </p>
             <p className="poppins-t text-black text-justify ">
-              NG tube feeding,Catheter care,Wound care - they do it all. So that
-              recovery is assured.
+             MCG provides catheter care by ensuring licking avoidance,
+             24 hours urine out put measurement  & disposal of urine 
+             at proper interval. 
             </p>
           </div>
           <div
@@ -81,16 +81,17 @@ const Recoverymedicalcaregiver = () => {
             style={{ backgroundColor: "#F5F1EA", borderColor: "#F5F1EA" }}
           >
             <img
-              src={stroke}
+              src={medication}
               alt="Shoes"
               className="rounded-xl w-15 h-32"
               style={{ color: "#453364" }}
             />
-            <p className="poppins-t text-xl text-black mt-5 ">Stroke Care</p>
+            <p className="poppins-t text-xl text-black mt-5 ">Medication </p>
             <p className="poppins-t text-black text-justify ">
-              Medical assistants know how to take care of stroke patients.They
-              feed the patient,position the patient,monitor the patient &
-              overall care of the patients.
+              Medical care givers give medication according to doctors prescription,
+              either orally or through NG tube.They make sure correct medicine 
+              and dose is maintained.
+
             </p>
           </div>
         </div>
