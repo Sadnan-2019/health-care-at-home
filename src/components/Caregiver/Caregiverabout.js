@@ -42,13 +42,14 @@ const Caregiverabout = () => {
               style={{ backgroundColor: "#F5F1EA", borderColor: "#F5F1EA" }}
             >
               <img
-                src="https://cdn-icons-png.flaticon.com/512/6966/6966523.png"
+                src="https://cdn-icons-png.flaticon.com/512/3526/3526139.png"
                 alt="Shoes"
                 className="rounded-xl w-15"
                 style={{ color: "#453364" }}
               />
               <p className="poppins-t text-gray-600 text-center">
-                24/7 Personal healthcare
+              Arrange transport
+
               </p>
             </div>
             <div
@@ -98,13 +99,13 @@ const Caregiverabout = () => {
               style={{ backgroundColor: "#F5F1EA", borderColor: "#F5F1EA" }}
             >
               <img
-                src="https://cdn-icons-png.flaticon.com/512/8123/8123627.png"
+                src="https://cdn-icons-png.flaticon.com/512/979/979009.png"
                 alt="Shoes"
                 className="rounded-xl w-15"
                 style={{ color: "#453364" }}
               />
               <p className="poppins-t text-gray-600 text-center">
-                Dressing wounds
+              Feed to the patient
               </p>
             </div>
             <div
