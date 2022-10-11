@@ -1,9 +1,9 @@
-import React from 'react';
+import React from "react";
 
 const Caregiverabout = () => {
-    return (
-        <div>
-            <div className=" md:py-20 py-10 lg:py-24 lg:mx-16 mx-8 grid grid-cols-1 md:grid-cols-1   lg:grid-cols-2  gap-5">
+  return (
+    <div>
+      <div className=" md:py-20 py-10 lg:py-24 lg:mx-16 mx-8 grid grid-cols-1 md:grid-cols-1   lg:grid-cols-2  gap-5">
         <div className="max-w-xl text-left md:ml-8 lg:order-1 order-2 mt-10 lg:mt-0">
           <p
             className="lg:text-[43px] md:text-[30px] font-bold text-[26px] text-left poppins-b "
@@ -19,21 +19,20 @@ const Caregiverabout = () => {
           </p>
 
           <p className="max-w-lg mt-7  md:text-[20px] lg:text-[27px] poppins-t text-gray-600 text-justify ">
-            Our Skilled medical caregivers are trained & experienced to take
-            care of ailing patients at the comfort of their home. From feeding
-            to nail nibbling, they do it all.They work with compassion & empathy
-            which ensures prompt recovery of the patients.
+            Our Caregiver gives medication,feed to the patient,clean the
+            patients, change diaper,light house-keeping.They also walk & talk
+            with the patients. A Caregiver dress & undress the patients.
           </p>
           <br></br>
           <div className="text-[20px] ">
-            <li>24/7 Personal Healthcare</li>
-            <li>Patients Diaper Change</li>
-            <li>Medication Reminder</li>
-            <li>NG Tube Feeding </li>
-            <li>Hygiene maintenance</li>
+            <li>Provide and assist with personal services such as bathing and grooming etc</li>
+            <li>Accompany patients to their doctor visits</li>
+            <li>Oversee the administration of prescribed medications to patients</li>
+            <li>Assist patients who are unable to handle the day-to-day homemaking duties in their homes </li>
+            <li>Follow a specified care plan for the patients  and report on completed tasks after each visit</li>
             <li>Pass good time with patients </li>
-            <li>Change position of the patients</li>
-            <li>Sponging,Bathing & Grooming</li>
+        
+            <li>Arrange  transport  </li>
           </div>
         </div>
         <div className="max-w-xl text-left md:ml-8 lg:order-1 order-2 mt-10 lg:mt-0">
@@ -49,7 +48,7 @@ const Caregiverabout = () => {
                 style={{ color: "#453364" }}
               />
               <p className="poppins-t text-gray-600 text-center">
-              24/7 Personal healthcare
+                24/7 Personal healthcare
               </p>
             </div>
             <div
@@ -63,8 +62,7 @@ const Caregiverabout = () => {
                 style={{ color: "#453364" }}
               />
               <p className="poppins-t text-gray-600 text-center">
-              Pass good time with patients
-
+                Pass good time with patients
               </p>
             </div>
             <div
@@ -72,13 +70,13 @@ const Caregiverabout = () => {
               style={{ backgroundColor: "#F5F1EA", borderColor: "#F5F1EA" }}
             >
               <img
-                src="https://i.ibb.co/ZBJyqw7/d4b342eb-a312-4ebe-87d7-20f3f64315f3.jpg"
+                src="https://cdn-icons-png.flaticon.com/512/4512/4512622.png"
                 alt="Shoes"
                 className="rounded-xl w-15"
                 style={{ color: "#453364" }}
               />
               <p className="poppins-t text-gray-600 text-center">
-                NG-tube feeding
+              Light house-keeping
               </p>
             </div>
             <div
@@ -92,8 +90,7 @@ const Caregiverabout = () => {
                 style={{ color: "#453364" }}
               />
               <p className="poppins-t text-gray-600 text-center">
-              Sponging Bathing  Grooming
-
+                Sponging Bathing Grooming
               </p>
             </div>
             <div
@@ -121,7 +118,7 @@ const Caregiverabout = () => {
                 style={{ color: "#453364" }}
               />
               <p className="poppins-t text-gray-600 text-center">
-           Diaper Change
+                Diaper Change
               </p>
             </div>
             <div
@@ -169,8 +166,8 @@ const Caregiverabout = () => {
           </div>
         </div>
       </div>
-        </div>
-    );
+    </div>
+  );
 };
 
 export default Caregiverabout;
