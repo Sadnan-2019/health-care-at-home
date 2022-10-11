@@ -33,7 +33,7 @@ successful recovery stories through our qualified & experienced nurses.
             </figure>
             <div className=" items-center text-center text-white ">
               <h2 className=" text-center font-bold">Arpona </h2> 
-              <p>Diploma Nurses</p>
+              <p>Diploma Nurse</p>
               <p>
                 3+ years experienced
               </p>
@@ -50,11 +50,10 @@ successful recovery stories through our qualified & experienced nurses.
             </figure>
             <div className=" items-center text-center text-white ">
               <h2 className=" text-center font-bold">Ritu Akther</h2> 
-              {/* <p>Professor & Senior Consultant Cardiologist</p>
+              <p>Trained Nurse</p>
               <p>
-                MBBS, D-Card, MD (Card.), Associate Fellow-American College of
-                Cardiology
-              </p> */}
+              4+ years experienced
+              </p>
             </div>
           </div>
           <div

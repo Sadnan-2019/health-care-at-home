@@ -45,7 +45,7 @@ const Landingphsio = () => {
               style={{ lineHeight: "120%", color: "#453364" }}
             >
                 Physical pain? Don’t worry! Our expert
-              physiotherapist will provide easy & effective methods of pain
+              physiotherapists will provide easy & effective methods of pain
               relief.
             </p>
             <div

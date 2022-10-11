@@ -13,6 +13,7 @@ import Nursing from "./components/Nursing/Nursing";
 import Physiotherapy from "./components/Physiotherapy/Physiotherapy";
 import Medicalassistant from "./components/Medicalassistant/Medicalassistant";
 import Medicalcaregiver from "./components/Medicalcaregiver/Medicalcaregiver";
+import Caregiver from "./components/Caregiver/Caregiver";
 
 
  
@@ -29,6 +30,7 @@ function App() {
         <Route path="/physiotherapy" element={<Physiotherapy />}></Route>
         <Route path="/medical-assistant" element={<Medicalassistant />}></Route>
         <Route path="/medical-caregiver" element={<Medicalcaregiver />}></Route>
+        <Route path="/caregiver" element={<Caregiver />}></Route>
  
         <Route path="/about" element={<About />}></Route>
         <Route path="/contact" element={<Contact />}></Route>

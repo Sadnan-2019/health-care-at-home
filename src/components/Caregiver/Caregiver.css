@@ -1,0 +1,15 @@
+.caregiver {
+    background-image: linear-gradient(
+        to left,
+        rgba(243, 238, 234, 0),
+        rgba(248, 251, 251, 0.650)
+      ),
+      url("https://i.ibb.co/GWvRxvN/caregiver.png");
+  
+    background-repeat: no-repeat;
+    background-size: cover;
+  
+    height: auto;
+    /* background-position: center;
+    background-attachment: fixed; */
+  }
