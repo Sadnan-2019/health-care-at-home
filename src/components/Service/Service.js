@@ -439,7 +439,7 @@ const Service = () => {
             </p>
 
             <label
-              htmlFor="my-modal-1"
+              htmlFor="my-modal-7"
               className="btn btn-sm modal-button mt-3 text-white"
               style={{ backgroundColor: "#453364" }}
             >
@@ -447,11 +447,11 @@ const Service = () => {
             </label>
           </a>
 
-          <input type="checkbox" id="my-modal-1" className="modal-toggle" />
+          <input type="checkbox" id="my-modal-7" className="modal-toggle" />
           <div className="modal modal-bottom sm:modal-middle">
             <div className="modal-box   ">
               <h1 className="text-2xl font-bold text-center py-5">
-                Medical Equipment
+              Companionship
               </h1>
               <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-3   mx-auto	 ">
                 <div className="text-sm font-bold">
@@ -475,7 +475,7 @@ const Service = () => {
               </div>
               <div className="modal-action">
                 <label
-                  htmlFor="my-modal-1"
+                  htmlFor="my-modal-7"
                   className="btn text-white "
                   style={{ backgroundColor: "#453364" }}
                 >
@@ -508,7 +508,7 @@ const Service = () => {
             </p>
 
             <label
-              htmlFor="my-modal-1"
+              htmlFor="my-modal-8"
               className="btn btn-sm modal-button mt-3 text-white"
               style={{ backgroundColor: "#453364" }}
             >
@@ -516,7 +516,7 @@ const Service = () => {
             </label>
           </a>
 
-          <input type="checkbox" id="my-modal-1" className="modal-toggle" />
+          <input type="checkbox" id="my-modal-8" className="modal-toggle" />
           <div className="modal modal-bottom sm:modal-middle">
             <div className="modal-box   ">
               <h1 className="text-2xl font-bold text-center py-5">
@@ -544,7 +544,7 @@ const Service = () => {
               </div>
               <div className="modal-action">
                 <label
-                  htmlFor="my-modal-1"
+                  htmlFor="my-modal-8"
                   className="btn text-white "
                   style={{ backgroundColor: "#453364" }}
                 >
