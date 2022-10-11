@@ -24,7 +24,7 @@ const Caregiverabout = () => {
             with the patients. A Caregiver dress & undress the patients.
           </p>
           <br></br>
-          <div className="text-[20px] ">
+          <div className="max-w-lg    md:text-[20px] lg:text-[20px] poppins-t text-gray-600 text-justify">
             <li>Provide and assist with personal services such as bathing and grooming etc</li>
             <li>Accompany patients to their doctor visits</li>
             <li>Oversee the administration of prescribed medications to patients</li>

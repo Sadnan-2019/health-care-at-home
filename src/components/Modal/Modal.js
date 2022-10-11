@@ -2,6 +2,9 @@ import React from "react";
 
 const Modal = () => {
   return (
+
+
+    
     <div>
       <label htmlFor="my-modal-6" className="btn modal-button">
         service details
@@ -33,6 +36,8 @@ const Modal = () => {
           </div>
         </div>
       </div>
+
+     
     </div>
   );
 };

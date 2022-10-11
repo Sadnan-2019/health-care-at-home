@@ -387,16 +387,16 @@ const Service = () => {
               <h1 className="text-2xl font-bold text-center py-5">Nannycare</h1>
               <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-3   mx-auto	 ">
                 <div className="text-sm font-bold">
-                  <li>Oxygen Mask</li>
-                  <li>Glucometer</li>
-                  <li>Oximeter </li>
-                  <li>Hospital Bed </li>
-                  <li>Alfa Mattress </li>
-                  <li>Bed Table</li>
-                  <li>IV Cannula</li>
-                  <li>NG Tube</li>
-                  <li>Bad Site Monitor</li>
-                  <li>Catheter </li>
+                  <li>Work like a mother of the baby</li>
+                  <li>Behave nicely with everyone in the house</li>
+                  <li> Feed the baby in a proper way </li>
+                  <li> Burb the baby after feeding </li>
+                  <li>Clean the baby after removing the diaper. </li>
+                  <li>Use baby wipes or wet cotton</li>
+                  <li>Make sure there are no diaper rash</li>
+                  <li>Sometimes leave the baby </li>
+                  <li>Handle the baby softly</li>
+                 
                 </div>
                 <div className="">
                   <img

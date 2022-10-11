@@ -1,23 +1,21 @@
 import React from 'react';
-import Review from '../Review/Review';
-import Success from '../Success/Success';
-import Medicalcaregiverabout from './Medicalcaregiverabout';
 import Medicalcaregiverlanding from './Medicalcaregiverlanding';
+import Medicalcaregiverabout from './Medicalcaregiverabout';
 import Recoverymedicalcaregiver from './Recoverymedicalcaregiver';
 import Teammedicalcaregiver from './Teammedicalcaregiver';
-
-
+import Review from '../Review/Review';
+import Success from '../Success/Success';
 const Medicalcaregiver = () => {
-    return (
-        <div>
-            <Medicalcaregiverlanding/>
+     return (
+          <div>
+                <Medicalcaregiverlanding/>
             <Medicalcaregiverabout/>
             <Recoverymedicalcaregiver/>
             <Review/>
             <Success/>
             <Teammedicalcaregiver/>
-        </div>
-    );
+          </div>
+     );
 };
 
 export default Medicalcaregiver;
