@@ -2,6 +2,7 @@ import React from 'react';
 import doctor1 from "../../assets/homed.jpg";
 import nurse1 from "../../assets/nurse1.png";
 import nurse2 from "../../assets/nurse2.png";
+import nurse3 from "../../assets/nurse5.png";
 const Teamnursing = () => {
     return (
         <div>
@@ -63,15 +64,14 @@ successful recovery stories through our qualified & experienced nurses.
             data-aos-duration="2000" style={{height:"400px"}}
           >
             <figure className="">
-              <img src={nurse1} alt="Shoes"   className="  p-4  " style={{height:"250px"  ,borderRadius:"25px", width:"250px"}} />
+              <img src={nurse3} alt="Shoes"   className="  p-4  " style={{height:"250px"  ,borderRadius:"25px", width:"250px"}} />
             </figure>
             <div className=" items-center text-center text-white ">
-              <h2 className=" text-center font-bold">Ritu Akther</h2> 
-              {/* <p>Professor & Senior Consultant Cardiologist</p>
+              <h2 className=" text-center font-bold">Taniya Akther</h2> 
+              <p>Diploma Nurse</p>
               <p>
-                MBBS, D-Card, MD (Card.), Associate Fellow-American College of
-                Cardiology
-              </p> */}
+               4+ years experienced
+              </p>
             </div>
           </div>
           <div

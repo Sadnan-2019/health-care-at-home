@@ -323,12 +323,13 @@ const Service = () => {
               </h1>
               <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-3   mx-auto	 ">
                 <div className="text-sm font-bold">
-                  <li>24/7 Personal Healthcare</li>
-                  <li>Patients Diapar Change</li>
+                  <li>Provide  personal services such as bathing and grooming etc</li>
+                  <li>Patients Diaper Change</li>
                   <li>Medication Reminder</li>
-                  <li>NG Tube Feeding </li>
+                  <li>Accompany patients to their doctor visits</li>
                   <li>Hygiene maintenance</li>
-                  <li>Pass good time with patients </li>
+                  <li>Light house keeping </li>
+                  <li>Arrange  transport  </li>
                 </div>
                 <div className="">
                   <img
