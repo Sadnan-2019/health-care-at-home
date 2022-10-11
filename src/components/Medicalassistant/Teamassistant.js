@@ -10,12 +10,12 @@ const Teamassistant = () => {
             className="text-3xl text-center text-white  font-bold poppins-b sm:text-4xl"
            
           >
-            Meet Our Team
+             Meet Our Experts Medical Assistant
           </h2>
           <p className=" mt-7  md:text-[20px] lg:text-[27px] poppins-t text-white text-justify px-4">
-          Our specially trained nurses are well experienced, highly
+          Our specially trained medical assistant are well experienced, highly
 professional, and compassionate. We have empowered more than 250
-successful recovery stories through our qualified & experienced nurses.
+successful recovery stories through our qualified & experienced medical assistant.
           </p>
         
         </div>

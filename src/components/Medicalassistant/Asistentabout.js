@@ -63,7 +63,7 @@ const Asistentabout = () => {
                 style={{ color: "#453364" }}
               />
               <p className="poppins-t text-gray-600 text-center">
-                24/7 Personal Healthcare
+                24/7 personal healthcare
               </p>
             </div>
             <div

@@ -43,13 +43,13 @@ const Medicalcaregiverabout = () => {
               style={{ backgroundColor: "#F5F1EA", borderColor: "#F5F1EA" }}
             >
               <img
-                src="https://cdn-icons-png.flaticon.com/512/8587/8587740.png"
+                src="https://cdn-icons-png.flaticon.com/512/6966/6966523.png"
                 alt="Shoes"
                 className="rounded-xl w-15"
                 style={{ color: "#453364" }}
               />
               <p className="poppins-t text-gray-600 text-center">
-                Total Nursing Care
+              24/7 Personal healthcare
               </p>
             </div>
             <div
@@ -57,13 +57,14 @@ const Medicalcaregiverabout = () => {
               style={{ backgroundColor: "#F5F1EA", borderColor: "#F5F1EA" }}
             >
               <img
-                src="https://cdn-icons-png.flaticon.com/128/1225/1225711.png"
+                src="https://cdn-icons-png.flaticon.com/512/1459/1459122.png"
                 alt="Shoes"
                 className="rounded-xl w-15"
                 style={{ color: "#453364" }}
               />
               <p className="poppins-t text-gray-600 text-center">
-                IV Cannula insertion
+              Pass good time with patients
+
               </p>
             </div>
             <div
@@ -77,7 +78,7 @@ const Medicalcaregiverabout = () => {
                 style={{ color: "#453364" }}
               />
               <p className="poppins-t text-gray-600 text-center">
-                NG-tube insertion
+                NG-tube feeding
               </p>
             </div>
             <div
@@ -85,13 +86,14 @@ const Medicalcaregiverabout = () => {
               style={{ backgroundColor: "#F5F1EA", borderColor: "#F5F1EA" }}
             >
               <img
-                src="https://cdn-icons-png.flaticon.com/512/1452/1452259.png"
+                src="https://cdn-icons-png.flaticon.com/512/4187/4187475.png"
                 alt="Shoes"
                 className="rounded-xl w-15"
                 style={{ color: "#453364" }}
               />
               <p className="poppins-t text-gray-600 text-center">
-                Catheterization
+              Sponging Bathing  Grooming
+
               </p>
             </div>
             <div
@@ -113,13 +115,13 @@ const Medicalcaregiverabout = () => {
               style={{ backgroundColor: "#F5F1EA", borderColor: "#F5F1EA" }}
             >
               <img
-                src="https://cdn-icons-png.flaticon.com/512/8330/8330036.png"
+                src="https://cdn-icons-png.flaticon.com/512/452/452822.png"
                 alt="Shoes"
                 className="rounded-xl w-15"
                 style={{ color: "#453364" }}
               />
               <p className="poppins-t text-gray-600 text-center">
-                Oxygen support
+           Diaper Change
               </p>
             </div>
             <div

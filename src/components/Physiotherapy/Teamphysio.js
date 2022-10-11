@@ -10,7 +10,7 @@ const Teamphysio = () => {
             className="text-3xl text-center text-white  font-bold poppins-b sm:text-4xl"
            
           >
-            Meet Our Team
+            Meet Our Experts Physiotherapist
           </h2>
           <p className=" mt-7  md:text-[20px] lg:text-[27px] poppins-t text-white text-justify px-4">
           Our highly qualified experts devise personalized physiotherapy plans for

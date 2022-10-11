@@ -1,5 +1,7 @@
 import React from 'react';
 import doctor1 from "../../assets/homed.jpg";
+import nurse1 from "../../assets/nurse1.png";
+import nurse2 from "../../assets/nurse2.png";
 const Teamnursing = () => {
     return (
         <div>
@@ -10,7 +12,7 @@ const Teamnursing = () => {
             className="text-3xl text-center text-white  font-bold poppins-b sm:text-4xl"
            
           >
-            Meet Our Team
+            Meet Our Experts Nurses
           </h2>
           <p className=" mt-7  md:text-[20px] lg:text-[27px] poppins-t text-white text-justify px-4">
           Our specially trained nurses are well experienced, highly
@@ -19,55 +21,76 @@ successful recovery stories through our qualified & experienced nurses.
           </p>
         
         </div>
-        <div className="grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-4  mx-10 gap-10  items-center justify-items-center  py-12">
-          <div className="card w-92 border    " data-aos="flip-left"
-     data-aos-easing="ease-out-cubic"
-     data-aos-duration="2000">
-            <figure className="px-10 pt-10">
-              <img src={doctor1} alt="Shoes" className="rounded-xl" />
+        <div className="grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-4    items-center justify-items-center  py-12">
+        <div
+            className="card  border     "
+            data-aos="flip-left"
+            data-aos-easing="ease-out-cubic"
+            data-aos-duration="2000" style={{height:"400px"}}
+          >
+            <figure className="">
+              <img src={nurse2} alt="Shoes"   className="  p-4  " style={{height:"250px"  ,borderRadius:"25px",width:"250px"}} />
             </figure>
-            <div className="card-body items-center text-center text-white ">
-              <h2 className="card-title ">Dr. Sunanda Kandiraju</h2>
-              <p>Consultant</p>
-              <p>15+ years' experience</p>
-            
-
+            <div className=" items-center text-center text-white ">
+              <h2 className=" text-center font-bold">Arpona </h2> 
+              <p>Diploma Nurses</p>
+              <p>
+                3+ years experienced
+              </p>
             </div>
           </div>
-          <div className="card w-92 border    " data-aos="flip-left"
-     data-aos-easing="ease-out-cubic"
-     data-aos-duration="2000">
-            <figure className="px-10 pt-10">
-              <img src={doctor1} alt="Shoes" className="rounded-xl" />
+          <div
+            className="card  border     "
+            data-aos="flip-left"
+            data-aos-easing="ease-out-cubic"
+            data-aos-duration="2000" style={{height:"400px"}}
+          >
+            <figure className="">
+              <img src={nurse1} alt="Shoes"   className="  p-4  " style={{height:"250px"  ,borderRadius:"25px",width:"250px"}} />
             </figure>
-            <div className="card-body items-center text-center text-white ">
-              <h2 className="card-title ">Dr. Sunanda Kandiraju</h2>
-              <p>Consultant</p>
-              <p>15+ years' experience</p>
+            <div className=" items-center text-center text-white ">
+              <h2 className=" text-center font-bold">Ritu Akther</h2> 
+              {/* <p>Professor & Senior Consultant Cardiologist</p>
+              <p>
+                MBBS, D-Card, MD (Card.), Associate Fellow-American College of
+                Cardiology
+              </p> */}
             </div>
           </div>
-          <div className="card w-92 border    " data-aos="flip-left"
-     data-aos-easing="ease-out-cubic"
-     data-aos-duration="2000">
-            <figure className="px-10 pt-10">
-              <img src={doctor1} alt="Shoes" className="rounded-xl" />
+          <div
+            className="card  border     "
+            data-aos="flip-left"
+            data-aos-easing="ease-out-cubic"
+            data-aos-duration="2000" style={{height:"400px"}}
+          >
+            <figure className="">
+              <img src={nurse1} alt="Shoes"   className="  p-4  " style={{height:"250px"  ,borderRadius:"25px", width:"250px"}} />
             </figure>
-            <div className="card-body items-center text-center text-white ">
-              <h2 className="card-title ">Dr. Sunanda Kandiraju</h2>
-              <p>Consultant</p>
-              <p>15+ years' experience</p>
+            <div className=" items-center text-center text-white ">
+              <h2 className=" text-center font-bold">Ritu Akther</h2> 
+              {/* <p>Professor & Senior Consultant Cardiologist</p>
+              <p>
+                MBBS, D-Card, MD (Card.), Associate Fellow-American College of
+                Cardiology
+              </p> */}
             </div>
           </div>
-          <div className="card w-92 border    "data-aos="flip-left"
-     data-aos-easing="ease-out-cubic"
-     data-aos-duration="2000">
-            <figure className="px-10 pt-10">
-              <img src={doctor1} alt="Shoes" className="rounded-xl" />
+          <div
+            className="card  border     "
+            data-aos="flip-left"
+            data-aos-easing="ease-out-cubic"
+            data-aos-duration="2000" style={{height:"400px"}}
+          >
+            <figure className="">
+              <img src={nurse1} alt="Shoes"   className="  p-4  " style={{height:"250px"  ,borderRadius:"25px",width:"250px"}} />
             </figure>
-            <div className="card-body items-center text-center text-white ">
-              <h2 className="card-title ">Dr. Sunanda Kandiraju</h2>
-              <p>Consultant</p>
-              <p>15+ years' experience</p>
+            <div className=" items-center text-center text-white ">
+              <h2 className=" text-center font-bold">Ritu Akther</h2> 
+              {/* <p>Professor & Senior Consultant Cardiologist</p>
+              <p>
+                MBBS, D-Card, MD (Card.), Associate Fellow-American College of
+                Cardiology
+              </p> */}
             </div>
           </div>
           
