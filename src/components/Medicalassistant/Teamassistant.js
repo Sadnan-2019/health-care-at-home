@@ -2,6 +2,8 @@ import React from 'react';
 import doctor1 from "../../assets/homed.jpg";
 import mats1 from "../../assets/mats1.png";
 import mats2 from "../../assets/mats2.png";
+import mats3 from "../../assets/mats3.png";
+import mats4 from "../../assets/mats4.png";
 
 const Teamassistant = () => {
     return (
@@ -63,13 +65,13 @@ successful recovery stories through our qualified & experienced medical assistan
             data-aos-duration="2000" style={{height:"400px"}}
           >
             <figure className="">
-              <img src={mats1} alt="Shoes"   className="  p-4  " style={{height:"250px"  ,borderRadius:"25px",width:"250px"}} />
+              <img src={mats3} alt="Shoes"   className="  p-4  " style={{height:"250px"  ,borderRadius:"25px",width:"250px"}} />
             </figure>
             <div className=" items-center text-center text-white ">
-              <h2 className=" text-center font-bold">Nurun Nahar Akter</h2> 
+              <h2 className=" text-center font-bold">Musfiqur Rahman</h2> 
               <p>Diploma Medical Assistant</p>
               <p>
-              2+ years experienced
+              4+ years experienced
               </p>
             </div>
           </div>
@@ -80,13 +82,13 @@ successful recovery stories through our qualified & experienced medical assistan
             data-aos-duration="2000" style={{height:"400px"}}
           >
             <figure className="">
-              <img src={mats1} alt="Shoes"   className="  p-4  " style={{height:"250px"  ,borderRadius:"25px",width:"250px"}} />
+              <img src={mats4} alt="Shoes"   className="  p-4  " style={{height:"250px"  ,borderRadius:"25px",width:"250px"}} />
             </figure>
             <div className=" items-center text-center text-white ">
-              <h2 className=" text-center font-bold">Nurun Nahar Akter</h2> 
+              <h2 className=" text-center font-bold">Al Amin</h2> 
               <p>Diploma Medical Assistant</p>
               <p>
-              2+ years experienced
+              4+ years experienced
               </p>
             </div>
           </div>
