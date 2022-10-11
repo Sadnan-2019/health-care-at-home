@@ -64,7 +64,7 @@ const Navbar = () => {
       <li className="nav-item p-2">
         <NavLink
           className={({ isActive }) => (isActive ? `${active}` : `${normal}`)}
-          to="/nani-care"
+          to="/nanycare"
         >
           Nanycare
         </NavLink>

@@ -1,0 +1,18 @@
+
+
+
+.nanycare {
+    background-image: linear-gradient(
+        to left,
+        rgba(243, 238, 234, 0),
+        rgba(248, 251, 251, 0.600)
+      ),
+      url("https://i.ibb.co/JHP2tDr/Scope-of-practice.jpg");
+  
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: auto;
+    /* background-position: center;
+    background-attachment: fixed; */
+  }
