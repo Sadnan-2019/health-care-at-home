@@ -1,13 +1,13 @@
-import React from 'react';
-import dementia from "../../assets/dementia.jpg";
+import React from "react";
+import dementia from "../../assets/caregiverdemensia.jpg";
 import corona from "../../assets/corona.jpeg";
 import postsurgery from "../../assets/postsurgery.png";
-import stroke from "../../assets/brain_stroke2.jpg";
+import stroke from "../../assets/caregiverstroke.jpg";
 
 const Recoverycaregiver = () => {
-    return (
-        <div>
-            <div className="py-12">
+  return (
+    <div>
+      <div className="py-12">
         <div className=" md:py-20 py-10 lg:py-10 lg:mx-16 mx-8 grid-cols-1 lg:grid-cols-1 text-left md:ml-8 lg:order-1 order-2 mt-10 lg:mt-0">
           <p
             className="lg:text-[43px] md:text-[30px] font-bold text-[26px] text-left poppins-b "
@@ -37,8 +37,9 @@ const Recoverycaregiver = () => {
               Dementia or Alzheimer's disease
             </p>
             <p className="poppins-t text-black text-justify ">
-              Alzheimer care is difficult but our qualified MATS know how to
-              take care of this common old age disease.
+              The problem with Alzheimer patients are loneliness &
+              forgetfulness. Our caregiver gives company to such patients &
+              reminds of recent events.
             </p>
           </div>
           <div
@@ -51,11 +52,12 @@ const Recoverycaregiver = () => {
               className="rounded-xl w-15 h-32"
               style={{ color: "#453364" }}
             />
-            <p className="poppins-t text-xl text-black mt-5 ">Corona Care</p>
+            <p className="poppins-t text-xl text-black mt-5 ">
+              Post Corona Care
+            </p>
             <p className="poppins-t text-black text-justify ">
-              With total protection & PPE they take care of covid-19 patients.
-              They follow the protocol provided by physician & treat the patient
-              with anti covid treatment.
+              With total protection they take care of post-covid patients. They
+              give medication,feed the patient & do grooming.
             </p>
           </div>
           <div
@@ -69,11 +71,11 @@ const Recoverycaregiver = () => {
               style={{ color: "#453364" }}
             />
             <p className="poppins-t text-xl text-black mt-5 ">
-              Post surgical care
+              Recovery form Surgery
             </p>
             <p className="poppins-t text-black text-justify ">
-              NG tube feeding,Catheter care,Wound care - they do it all. So that
-              recovery is assured.
+              Total support provided by our caregivers.Full fills patients needs
+              & give them comfort during post surgical period .
             </p>
           </div>
           <div
@@ -88,15 +90,16 @@ const Recoverycaregiver = () => {
             />
             <p className="poppins-t text-xl text-black mt-5 ">Stroke Care</p>
             <p className="poppins-t text-black text-justify ">
-              Medical assistants know how to take care of stroke patients.They
-              feed the patient,position the patient,monitor the patient &
-              overall care of the patients.
+              As stroke patients need support during movement.Our caregivers
+              gives comprehensive support to the patients. They feed the
+              patient,position the patient,monitor the patient & overall care of
+              the patients.
             </p>
           </div>
         </div>
       </div>
-        </div>
-    );
+    </div>
+  );
 };
 
 export default Recoverycaregiver;

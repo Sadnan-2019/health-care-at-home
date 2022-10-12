@@ -16,7 +16,8 @@ const Caregiverlanding = () => {
               className="md:text-[43px] font-bold text-[20px] text-left poppins-b "
               style={{ lineHeight: "120%", color: "#453364" }}
             >
-              Our caregivers are trained specifically to provide in-home care
+              Our caregivers are trained specifically to provide health care
+              service at home
             </p>
 
             <p
@@ -25,8 +26,8 @@ const Caregiverlanding = () => {
               className="max-w-lg mt-7 font-bold   md:text-[25px] poppins-t    "
               style={{ lineHeight: "120%", color: "#453364" }}
             >
-              High quality & Experience caregivers are here to provide your loved one
-              with exceptional support.
+              High quality & experienced caregivers are here to provide your loved ones
+              with exceptional service & support.
             </p>
 
             <div className="flex items-center mt-2 font-bold">

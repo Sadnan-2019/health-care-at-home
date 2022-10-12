@@ -1,31 +1,39 @@
 import React from 'react';
 
-const Nanycareabout = () => {
-     return (
-          <div>
-             <div className=" md:py-20 py-10 lg:py-24 lg:mx-16 mx-8 grid grid-cols-1 md:grid-cols-1   lg:grid-cols-2  gap-5">
+const Companionshipabout = () => {
+    return (
+        <div>
+         <div className=" md:py-20 py-10 lg:py-24 lg:mx-16 mx-8 grid grid-cols-1 md:grid-cols-1   lg:grid-cols-2  gap-5">
         <div className="max-w-xl text-left md:ml-8 lg:order-1 order-2 mt-10 lg:mt-0">
           <p
             className="lg:text-[43px] md:text-[30px] font-bold text-[26px] text-left poppins-b "
             style={{ lineHeight: "120%", color: "#453364" }}
           >
-         Our nannies are expert babysitters to take care of your child.
-         
+            Nursing for Complete
           </p>
-          {/* <p
+          <p
             className=" lg:text-[43px] md:text-[30px] font-bold text-[26px] text-left poppins-b "
             style={{ lineHeight: "120%", color: "#453364" }}
           >
-          your baby exactly the way you would do it.
-          </p> */}
+            Health Support at Home
+          </p>
 
           <p className="max-w-lg mt-7  md:text-[20px] lg:text-[27px] poppins-t text-gray-600 text-justify ">
-           Our babysitters are trained & experienced to take of your child.Apart from
-           feeding to grooming, they clean the baby,change diaper,shower the baby
-           & play with baby.They are reliable & safe.
+            Our Skilled Nurses follow clinical protocols at par with
+            International standards while delivering the Best Quality Healthcare
+            at Home.Our nurses administer oral,IV & IM medication.They insert 
+            NG tube insertion & feeding.They also do the following -
           </p>
           <br></br>
-       
+          <div className="max-w-lg  md:text-[20px] lg:text-[20px] poppins-t text-gray-600 text-justify ">
+          <li >Perform glucose test using Glucometer</li>
+          <li>Tracheostomy tube care </li>
+          <li>Provide oxygen inhalation </li>
+          <li>Change diaper & clean the patients  </li>
+          <li>Do bed sore care  </li>
+          <li>Bathing & sponging the patient</li>
+          <li>Measure vital signs </li>
+          </div>
         </div>
         <div className="max-w-xl text-left md:ml-8 lg:order-1 order-2 mt-10 lg:mt-0">
           <div className="grid sm:grid-cols-1 mx-12 md:grid-cols-3 lg:grid-cols-3 gap-5">
@@ -34,13 +42,13 @@ const Nanycareabout = () => {
               style={{ backgroundColor: "#F5F1EA", borderColor: "#F5F1EA" }}
             >
               <img
-                src="https://cdn-icons-png.flaticon.com/512/6966/6966523.png"
+                src="https://cdn-icons-png.flaticon.com/512/8587/8587740.png"
                 alt="Shoes"
                 className="rounded-xl w-15"
                 style={{ color: "#453364" }}
               />
               <p className="poppins-t text-gray-600 text-center">
-              24/7 Personal healthcare
+                Total Nursing Care
               </p>
             </div>
             <div
@@ -48,14 +56,13 @@ const Nanycareabout = () => {
               style={{ backgroundColor: "#F5F1EA", borderColor: "#F5F1EA" }}
             >
               <img
-                src="https://cdn-icons-png.flaticon.com/512/1459/1459122.png"
+                src="https://cdn-icons-png.flaticon.com/128/1225/1225711.png"
                 alt="Shoes"
                 className="rounded-xl w-15"
                 style={{ color: "#453364" }}
               />
               <p className="poppins-t text-gray-600 text-center">
-              Pass good time with patients
-
+                IV Cannula insertion
               </p>
             </div>
             <div
@@ -69,7 +76,7 @@ const Nanycareabout = () => {
                 style={{ color: "#453364" }}
               />
               <p className="poppins-t text-gray-600 text-center">
-                NG-tube feeding
+                NG-tube insertion
               </p>
             </div>
             <div
@@ -77,14 +84,13 @@ const Nanycareabout = () => {
               style={{ backgroundColor: "#F5F1EA", borderColor: "#F5F1EA" }}
             >
               <img
-                src="https://cdn-icons-png.flaticon.com/512/4187/4187475.png"
+                src="https://cdn-icons-png.flaticon.com/512/1452/1452259.png"
                 alt="Shoes"
                 className="rounded-xl w-15"
                 style={{ color: "#453364" }}
               />
               <p className="poppins-t text-gray-600 text-center">
-              Sponging Bathing  Grooming
-
+                Catheterization
               </p>
             </div>
             <div
@@ -106,13 +112,14 @@ const Nanycareabout = () => {
               style={{ backgroundColor: "#F5F1EA", borderColor: "#F5F1EA" }}
             >
               <img
-                src="https://cdn-icons-png.flaticon.com/512/452/452822.png"
+                src="https://cdn-icons-png.flaticon.com/512/8330/8330036.png"
                 alt="Shoes"
                 className="rounded-xl w-15"
                 style={{ color: "#453364" }}
               />
               <p className="poppins-t text-gray-600 text-center">
-           Diaper Change
+              Oxygen support
+
               </p>
             </div>
             <div
@@ -126,7 +133,7 @@ const Nanycareabout = () => {
                 style={{ color: "#453364" }}
               />
               <p className="poppins-t text-gray-600 text-center">
-                Health records
+              Health records
               </p>
             </div>
             <div
@@ -140,7 +147,8 @@ const Nanycareabout = () => {
                 style={{ color: "#453364" }}
               />
               <p className="poppins-t text-gray-600 text-center">
-                Hygiene maintenance
+              Hygiene maintenance
+
               </p>
             </div>
             <div
@@ -154,14 +162,18 @@ const Nanycareabout = () => {
                 style={{ color: "#453364" }}
               />
               <p className="poppins-t text-gray-600 text-center">
-                Medication Reminder
+              Medication Reminder
+
               </p>
             </div>
           </div>
         </div>
-      </div>   
-          </div>
-     );
+        {/* <div className="lg:order-2 order-1  lg:-mt-2">
+          <img className="lg:w-[100%] w-[90%] mx-auto" src={Banner} alt="" />
+        </div> */}
+      </div>
+        </div>
+    );
 };
 
-export default Nanycareabout;
+export default Companionshipabout;

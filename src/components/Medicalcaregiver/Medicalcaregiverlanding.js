@@ -7,19 +7,14 @@ const Medicalcaregiverlanding = () => {
       <section className=" h-auto medicalcaregiver ">
         <div className=" md:py-20 py-10 lg:py-24 lg:mx-16 mx-8 grid lg:grid-cols-1 grid-cols-1 gap-5">
           <div className="max-w-xl text-left md:ml-8 lg:order-1 order-2 mt-10 lg:mt-0">
-            {/* <div className="flex items-center gap-2 bg-gray-100 w-fit px-3 rounded-full py-2 border-[1px] border-gray-200 mb-5">
-                 <p className=" px-2 py-[2px] text-white rounded-full  " style={{backgroundColor: "#453364" }}>
-                   $
-                 </p>
-                 <p className='text-sm'>Discover the easiest way to get our service!</p>
-               </div> */}
+             
             <p
               data-aos="fade-up"
               data-aos-duration="1000"
               className="lg:text-[43px] font-bold text-[22px] text-left poppins-b "
               style={{ lineHeight: "120%", color: "#453364" }}
             >
-                Medical caregiver  provide 
+                Medical caregivers  provide 
             </p>
             <p
               data-aos="fade-up"
@@ -43,7 +38,7 @@ const Medicalcaregiverlanding = () => {
               className="md:text-[25px] font-bold text-[22px] mt-5 text-left poppins-b lg:text-justify "
               style={{ lineHeight: "120%", color: "#453364" }}
             >
-              Our medical caregivers are ready to provide quality services to everyone
+              Our medical caregivers are ready to provide quality service to everyone
               in need of assistance, including elders.  
             </p>
             <div

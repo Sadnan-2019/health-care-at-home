@@ -22,10 +22,9 @@ const Nanycarelanding = () => {
               className="max-w-lg mt-7 font-bold   md:text-[25px] poppins-t    "
               style={{ lineHeight: "120%", color: "#453364" }}
             >
-              Our compassionate  are here to provide your loved one
-              with exceptional support, always ready giving you the peace of
-              mind you deserve.
-            </p>
+              Our experienced nannies   are ready to  babysit  your
+              child with total affection & care.They will feed,bathe,groom & 
+              clean your child.            </p>
 
             <div className="flex items-center mt-2 font-bold">
               <FaPhoneVolume

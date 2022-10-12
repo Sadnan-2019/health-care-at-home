@@ -9,7 +9,7 @@ const Caregiverabout = () => {
             className="lg:text-[43px] md:text-[30px] font-bold text-[26px] text-left poppins-b "
             style={{ lineHeight: "120%", color: "#453364" }}
           >
-            Medical caregivers are trained nurses provide
+            Medical caregivers are trained to provide
           </p>
           <p
             className=" lg:text-[43px] md:text-[30px] font-bold text-[26px] text-left poppins-b "
@@ -19,20 +19,31 @@ const Caregiverabout = () => {
           </p>
 
           <p className="max-w-lg mt-7  md:text-[20px] lg:text-[27px] poppins-t text-gray-600 text-justify ">
-            Our Caregiver gives medication,feed to the patient,clean the
-            patients, change diaper,light house-keeping.They also walk & talk
-            with the patients. A Caregiver dress & undress the patients.
+            Our Caregivers give medication,feed the patient,clean the patients,
+            change diaper,light house-keeping.They also walk & talk with the
+            patients. A Caregiver dress & undress the patients.
           </p>
           <br></br>
           <div className="max-w-lg    md:text-[20px] lg:text-[20px] poppins-t text-gray-600 text-justify">
-            <li>Provide and assist with personal services such as bathing and grooming etc</li>
-            <li>Accompany patients to their doctor visits</li>
-            <li>Oversee the administration of prescribed medications to patients</li>
-            <li>Assist patients who are unable to handle the day-to-day homemaking duties in their homes </li>
-            <li>Follow a specified care plan for the patients  and report on completed tasks after each visit</li>
+            <li>
+              Provide and assist with personal services such as bathing and
+              grooming etc
+            </li>
+            <li>Accompany patients to their doctors' visit</li>
+            <li>
+              Oversee the administration of prescribed medications to patients
+            </li>
+            <li>
+              Assist patients who are unable to handle the day-to-day duties in
+              their homes{" "}
+            </li>
+            <li>
+              Follow a specified care plan for the patients and report on
+              completed tasks 
+            </li>
             <li>Pass good time with patients </li>
-        
-            <li>Arrange  transport  </li>
+
+            <li>Arrange transport </li>
           </div>
         </div>
         <div className="max-w-xl text-left md:ml-8 lg:order-1 order-2 mt-10 lg:mt-0">
@@ -48,8 +59,7 @@ const Caregiverabout = () => {
                 style={{ color: "#453364" }}
               />
               <p className="poppins-t text-gray-600 text-center">
-              Arrange transport
-
+                Arrange transport
               </p>
             </div>
             <div
@@ -77,7 +87,7 @@ const Caregiverabout = () => {
                 style={{ color: "#453364" }}
               />
               <p className="poppins-t text-gray-600 text-center">
-              Light house-keeping
+                Light house-keeping
               </p>
             </div>
             <div
@@ -105,7 +115,7 @@ const Caregiverabout = () => {
                 style={{ color: "#453364" }}
               />
               <p className="poppins-t text-gray-600 text-center">
-              Feed to the patient
+                Feed to the patient
               </p>
             </div>
             <div

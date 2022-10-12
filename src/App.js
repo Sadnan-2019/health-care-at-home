@@ -15,6 +15,7 @@ import Medicalassistant from "./components/Medicalassistant/Medicalassistant";
 import Medicalcaregiver from "./components/Medicalcaregiver/Medicalcaregiver";
 import Caregiver from "./components/Caregiver/Caregiver";
 import Nanycare from "./components/Nanycare/Nanycare";
+import Companionship from "./components/Companionship/Companionship";
 
 
  
@@ -33,6 +34,7 @@ function App() {
         <Route path="/medical-caregiver" element={<Medicalcaregiver />}></Route>
         <Route path="/caregiver" element={<Caregiver />}></Route>
         <Route path="/nanycare" element={<Nanycare />}></Route>
+        <Route path="/companion" element={<Companionship />}></Route>
  
         <Route path="/about" element={<About />}></Route>
         <Route path="/contact" element={<Contact />}></Route>

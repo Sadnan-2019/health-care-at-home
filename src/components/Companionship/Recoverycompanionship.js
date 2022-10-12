@@ -1,12 +1,12 @@
 import React from 'react';
-import babyfeed from "../../assets/nanysrecovery.jpg";
-// import orthopedic from "../../assets/orthopedic.jpg";
+import medication from "../../assets/medication.jpg";
+ 
 import grooming from "../../assets/grooming.jpg";
 import feeding from "../../assets/feeding.jpg";
-const Recoverynany = () => {
-     return (
-          <div>
-               <div className="py-12">
+const Recoverycompanionship = () => {
+    return (
+        <div>
+              <div className="py-12">
         <div className=" md:py-20 py-10 lg:py-10 lg:mx-16 mx-8 grid-cols-1 lg:grid-cols-1 text-left md:ml-8 lg:order-1 order-2 mt-10 lg:mt-0">
           <p
             className="lg:text-[43px] md:text-[30px] font-bold text-[26px] text-left poppins-b "
@@ -27,18 +27,17 @@ const Recoverynany = () => {
             style={{ backgroundColor: "#F5F1EA", borderColor: "#F5F1EA" }}
           >
             <img
-              src={babyfeed}
+              src={feeding}
               alt="Shoes"
               className="rounded-xl w-15 h-32"
               style={{ color: "#453364" }}
             />
             <p className="poppins-t text-xl text-black mt-5 ">
-              Feeding the baby
+              Feeding the patients
             </p>
             <p className="poppins-t text-black text-justify ">
-              The nannies  feeds the baby  orally or  with bottle.
-            They do not forget to burb the baby after each feeding.They 
-            give ag 
+              The medical caregiver feeds the patient orally or through
+              NG tube.NG tube feeding is given as per physicians advice.
             </p>
           </div>
           <div
@@ -81,7 +80,7 @@ const Recoverynany = () => {
             style={{ backgroundColor: "#F5F1EA", borderColor: "#F5F1EA" }}
           >
             <img
-              src={babyfeed}
+              src={medication}
               alt="Shoes"
               className="rounded-xl w-15 h-32"
               style={{ color: "#453364" }}
@@ -95,9 +94,9 @@ const Recoverynany = () => {
             </p>
           </div>
         </div>
-      </div>   
-          </div>
-     );
+      </div>  
+        </div>
+    );
 };
 
-export default Recoverynany;
+export default Recoverycompanionship;
