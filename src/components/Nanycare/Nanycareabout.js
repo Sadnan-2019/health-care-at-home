@@ -34,13 +34,13 @@ const Nanycareabout = () => {
               style={{ backgroundColor: "#F5F1EA", borderColor: "#F5F1EA" }}
             >
               <img
-                src="https://cdn-icons-png.flaticon.com/512/6966/6966523.png"
+                src="https://cdn-icons-png.flaticon.com/512/979/979009.png"
                 alt="Shoes"
                 className="rounded-xl w-15"
                 style={{ color: "#453364" }}
               />
               <p className="poppins-t text-gray-600 text-center">
-              24/7 Personal healthcare
+              Feed the baby
               </p>
             </div>
             <div
@@ -54,7 +54,7 @@ const Nanycareabout = () => {
                 style={{ color: "#453364" }}
               />
               <p className="poppins-t text-gray-600 text-center">
-              Pass good time with patients
+              Pass good time with baby
 
               </p>
             </div>
@@ -63,13 +63,13 @@ const Nanycareabout = () => {
               style={{ backgroundColor: "#F5F1EA", borderColor: "#F5F1EA" }}
             >
               <img
-                src="https://i.ibb.co/ZBJyqw7/d4b342eb-a312-4ebe-87d7-20f3f64315f3.jpg"
+                src="https://cdn-icons-png.flaticon.com/512/3034/3034187.png"
                 alt="Shoes"
                 className="rounded-xl w-15"
                 style={{ color: "#453364" }}
               />
               <p className="poppins-t text-gray-600 text-center">
-                NG-tube feeding
+                Playing with baby
               </p>
             </div>
             <div
@@ -83,7 +83,7 @@ const Nanycareabout = () => {
                 style={{ color: "#453364" }}
               />
               <p className="poppins-t text-gray-600 text-center">
-              Sponging Bathing  Grooming
+            Bathing  Grooming
 
               </p>
             </div>
@@ -98,7 +98,7 @@ const Nanycareabout = () => {
                 style={{ color: "#453364" }}
               />
               <p className="poppins-t text-gray-600 text-center">
-                Dressing wounds
+                Clean the baby
               </p>
             </div>
             <div
@@ -120,13 +120,13 @@ const Nanycareabout = () => {
               style={{ backgroundColor: "#F5F1EA", borderColor: "#F5F1EA" }}
             >
               <img
-                src="https://cdn-icons-png.flaticon.com/512/2376/2376100.png"
+                src="https://cdn-icons-png.flaticon.com/512/2920/2920124.png"
                 alt="Shoes"
                 className="rounded-xl w-15"
                 style={{ color: "#453364" }}
               />
               <p className="poppins-t text-gray-600 text-center">
-                Health records
+                Shower   the baby
               </p>
             </div>
             <div

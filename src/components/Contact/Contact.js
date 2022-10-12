@@ -80,7 +80,7 @@ const Contact = () => {
               </div>
 
      <div className='py-5'>
-     <input type="submit" className="btn  w-full max-w-x " value="Submit" />
+     <input type="submit" className="btn  w-full max-w-x " value="Submit" style={{backgroundColor: "#453364", color:"white" }}/>
      </div>
                
             </form>

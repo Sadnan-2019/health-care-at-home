@@ -9,13 +9,12 @@ const Caregiverabout = () => {
             className="lg:text-[43px] md:text-[30px] font-bold text-[26px] text-left poppins-b "
             style={{ lineHeight: "120%", color: "#453364" }}
           >
-            Medical caregivers are trained to provide
-          </p>
+Care giver for complete           </p>
           <p
             className=" lg:text-[43px] md:text-[30px] font-bold text-[26px] text-left poppins-b "
             style={{ lineHeight: "120%", color: "#453364" }}
-          >
-            complete Healthcare service at home
+          >Health Support at Home
+           
           </p>
 
           <p className="max-w-lg mt-7  md:text-[20px] lg:text-[27px] poppins-t text-gray-600 text-justify ">
