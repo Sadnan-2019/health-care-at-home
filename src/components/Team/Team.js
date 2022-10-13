@@ -90,7 +90,9 @@ const Team = () => {
             <div className=" items-center text-center text-white ">
               <h2 className=" text-center font-bold">Dr. Lutfor Rahman</h2>
              
-             <p>Speciality MBBS, MS (CTS) Chief Cardiac Surgeon</p>
+             <p>Specialist   MBBS, MS (CTS) Chief Cardiac Surgeon
+             Labaid Cardiac Hospital 
+             </p>
               {/* <p>
               MBBS, MS (NEUROSURGERY)  
                
@@ -111,7 +113,9 @@ const Team = () => {
             <div className=" items-center text-center text-white ">
               <h2 className=" text-center font-bold">Dr. Zakia Hossain</h2>
              
-             <p>MD is an Internal Medicine Specialist in Woodside</p>
+             <p>MD is an Internal Medicine Specialist in USA
+             
+             </p>
               {/* <p>
               MBBS, MS (NEUROSURGERY)  
                

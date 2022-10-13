@@ -24,13 +24,14 @@ const Companionshiplanding = () => {
             Our companions work with your dear ones with compassion & confidence
           </p>
 
-          {/* <p
+          <p
             data-aos="fade-up"
             data-aos-duration="2000"
             className="max-w-lg mt-7 font-bold   md:text-[25px] poppins-t    "
             style={{ lineHeight: "120%",color:"#453364" }}>
-            First ever one stop high quality healthcare solution at your home in bangladesh.
-          </p> */}
+              Companions are trained to give company to lonely people
+              at home.This is most appropriate for Dementia patient. 
+          </p>
           
           <div className='flex items-center mt-2 font-bold'>
           < FaPhoneVolume  className="lg:text-2xl text-[20px] " style={{  color:"#453364" }}/>
