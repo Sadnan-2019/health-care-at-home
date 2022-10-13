@@ -117,7 +117,7 @@ const Navbar = () => {
         {/* Navbar left portion */}
         <div className="">
           <div className="dropdown">
-            <label tabindex="0" className="btn btn-ghost lg:hidden">
+            <label tabindex="0" className="btn btn-ghost lg:hidden text-white">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 className="h-5 w-5"
@@ -132,10 +132,11 @@ const Navbar = () => {
                   d="M4 6h16M4 12h8m-8 6h16"
                 />
               </svg>
+              
             </label>
             <ul
               tabindex="0"
-              className="menu menu-compact dropdown-content mt-3 p-2 shadow  rounded-box w-52"
+              className="menu menu-compact dropdown-content mt-3 p-2 shadow-xl  rounded-box w-52"
               style={{backgroundColor: "#453364",color:"white" }}
             >
               {navItem}

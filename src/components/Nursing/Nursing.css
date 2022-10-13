@@ -15,7 +15,7 @@
    }
 
 
-   @media only screen and (max-width: 375px) {
+   /* @media only screen and (max-width: 375px) {
     .nursing {
       width: 100%;
       background-image: linear-gradient(
@@ -110,4 +110,4 @@
   
       background-repeat: no-repeat;
     }
-  }
+  } */
