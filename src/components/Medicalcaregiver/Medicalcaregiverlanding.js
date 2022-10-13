@@ -11,32 +11,25 @@ const Medicalcaregiverlanding = () => {
             <p
               data-aos="fade-up"
               data-aos-duration="1000"
-              className="lg:text-[43px] font-bold text-[22px] text-left poppins-b "
+              className="lg:text-[43px] font-bold text-[20px] text-left poppins-b "
               style={{ lineHeight: "120%", color: "#453364" }}
             >
-                Medical caregivers  provide 
+                Medical caregivers  provide patients  care  service  at your home
             </p>
-            <p
-              data-aos="fade-up"
-              data-aos-duration="1000"
-              className="lg:text-[43px] font-bold text-[22px] text-left poppins-b "
-              style={{ lineHeight: "120%", color: "#453364" }}
-            >
-              patients  care  service  at your home
-            </p>
-
             {/* <p
-                 data-aos="fade-up"
-                 data-aos-duration="2000"
-                 className="max-w-lg mt-7 text-left md:text-[17px] poppins-t text-gray-600 "
-               >
-                 First ever one stop healthcare solution at your home in bangladesh.
-               </p> */}
+              data-aos="fade-up"
+              data-aos-duration="1000"
+              className="lg:text-[43px] font-bold text-[20px] text-left poppins-b "
+              style={{ lineHeight: "120%", color: "#453364" }}
+            >
+              
+            </p> */}
+
             <p
               data-aos="fade-up"
               data-aos-duration="1000"
-              className="md:text-[25px] font-bold text-[22px] mt-5 text-left poppins-b lg:text-justify "
-              style={{ lineHeight: "120%", color: "#453364" }}
+              className="max-w-lg mt-7 font-bold   md:text-[25px] poppins-t    "
+              style={{ lineHeight: "120%",color:"#453364" }}
             >
               Our medical caregivers are ready to provide quality service to everyone
               in need of assistance, including elders.  

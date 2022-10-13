@@ -20,32 +20,26 @@ const Asistantlanding = () => {
               className="md:text-[43px] font-bold text-[20px] text-left poppins-b "
               style={{ lineHeight: "120%", color: "#453364" }}
             >
-              Always available for
+              Always available for your day-to-day care
             </p>
-            <p
+            {/* <p
               data-aos="fade-up"
               data-aos-duration="1000"
               className="md:text-[43px] font-bold text-[20px] text-left poppins-b "
               style={{ lineHeight: "120%", color: "#453364" }}
             >
-              your day-to-day care
-            </p>
+              
+            </p> */}
 
-            {/* <p
-                 data-aos="fade-up"
-                 data-aos-duration="2000"
-                 className="max-w-lg mt-7 text-left md:text-[17px] poppins-t text-gray-600 "
-               >
-                 First ever one stop healthcare solution at your home in bangladesh.
-               </p> */}
+           
             <p
               data-aos="fade-up"
               data-aos-duration="1000"
-              className="md:text-[25px] font-bold text-[20px] mt-5 text-left poppins-b lg:text-justify "
+              className="max-w-lg mt-7 font-bold   md:text-[25px] poppins-t text-left  "
               style={{ lineHeight: "120%", color: "#453364" }}
             >
-              Our team of registered diploma medical assistant and skilled
-              healthcare professionals provide in-house medical assistance .
+              Our team of registered diploma medical assistant & skilled
+              healthcare professionals provide in-house medical assistance
             </p>
             <div
               className="flex items-center mt-5 font-bold"
