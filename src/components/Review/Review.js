@@ -52,30 +52,15 @@ const Review = () => {
       <div className=" px-5  md:px-10  ">
         <div className="mx-12 ">
           <div className="flex items-center   justify-between mb-5">
-            <p
-              className="text-white text-1xl lg:text-3xl font-bold poppins-b 	"
-              // data-aos="fade-right"
-              // data-aos-offset="100"
-              // data-aos-easing="ease-in-sine"
-              // data-aos-duration="4000"
-            >
+            <p className="text-white text-1xl lg:text-3xl font-bold poppins-b 	">
               Hear from our respected service takers
             </p>
 
-            <p
-              className="text-white text-sm lg:text-2xl   font-bold poppins-b	"
-              //  data-aos="fade-left"
-              //   data-aos-offset="100"
-              //   data-aos-easing="ease-in-sine"
-              //   data-aos-duration="4000"
-            >
+            <p className="text-white text-sm lg:text-2xl   font-bold poppins-b	">
               Overall rating
             </p>
-            
-            <div
-              className="flex items-center gap-2  "
-              
-            >
+
+            <div className="flex items-center gap-2  ">
               <p className="text-white text-sm lg:text-2xl font-bold	">4.8 </p>
               <AiFillStar className="text-white" />
               <AiFillStar className="text-white" />
@@ -84,8 +69,6 @@ const Review = () => {
               <AiFillStar className="text-white" />
             </div>
           </div>
-
-           
         </div>
         <Slider {...settings}>
           {/* <Reviewcard />
@@ -178,13 +161,16 @@ const Review = () => {
                 alt="user img"
               />
               <div className="col-span-9">
-                <h2 className="text-lg poppins-b font-bold">Badruddin Hasan Saky</h2>
+                <h2 className="text-lg poppins-b font-bold">
+                  Badruddin Hasan Saky
+                </h2>
                 {/* <p className="font-semibold">Patients</p> */}
               </div>
             </div>
             <div className="mt-4">
               <p className="poppins-r">
-              An excellent healthcare at home provider with qualified and well trained medical personnel. You can put your trust here.
+                An excellent healthcare at home provider with qualified and well
+                trained medical personnel. You can put your trust here.
               </p>
               <div
                 className="flex justify-start text-lg gap-1 mt-4  "
