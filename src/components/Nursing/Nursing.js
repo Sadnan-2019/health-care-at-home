@@ -31,16 +31,16 @@ const Nursing = () => {
               className="md:text-[43px] font-bold text-[20px] text-left poppins-b "
               style={{ lineHeight: "120%", color: "#453364" }}
             >
-              Diploma Nursing
+              Diploma Nursing Services at Home
             </p>
-            <p
+            {/* <p
               data-aos="fade-up"
               data-aos-duration="1000"
               className="md:text-[43px] font-bold text-[20px] text-left poppins-b "
               style={{ lineHeight: "120%", color: "#453364" }}
             >
-              Services at Home
-            </p>
+              
+            </p> */}
 
             {/* <p
                  data-aos="fade-up"
@@ -52,7 +52,7 @@ const Nursing = () => {
             <p
               data-aos="fade-up"
               data-aos-duration="1000"
-              className="md:text-[25px] font-bold text-[20px] mt-5 text-left poppins-b lg:text-justify "
+              className="max-w-lg mt-7 font-bold   md:text-[25px] poppins-t text-left lg:text-justify "
               style={{ lineHeight: "120%", color: "#453364" }}
             >
               Qualified and experienced diploma nurses to help with daily

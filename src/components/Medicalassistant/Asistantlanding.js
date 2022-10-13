@@ -22,14 +22,7 @@ const Asistantlanding = () => {
             >
               Always available for your day-to-day care
             </p>
-            {/* <p
-              data-aos="fade-up"
-              data-aos-duration="1000"
-              className="md:text-[43px] font-bold text-[20px] text-left poppins-b "
-              style={{ lineHeight: "120%", color: "#453364" }}
-            >
-              
-            </p> */}
+          
 
            
             <p
