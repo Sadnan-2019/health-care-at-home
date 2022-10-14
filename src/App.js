@@ -17,6 +17,7 @@ import Caregiver from "./components/Caregiver/Caregiver";
 import Nanycare from "./components/Nanycare/Nanycare";
 import Companionship from "./components/Companionship/Companionship";
 import Medicalequipment from "./components/Medicalequipment/Medicalequipment";
+import { ToastContainer } from "react-toastify";
 
 
  
@@ -45,7 +46,7 @@ function App() {
 
       {/* <Home></Home> */}
       <Footer></Footer>
-
+      <ToastContainer></ToastContainer>
       {/* facebook live chat */}
       <MessengerCustomerChat pageId="100086525584173" appId="500779031558701" />
     </div>

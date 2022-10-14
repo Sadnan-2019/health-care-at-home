@@ -1,8 +1,25 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import Map from '../Map/Map';
+import emailjs from '@emailjs/browser';
+import { toast } from 'react-toastify';
 
 const Contact = () => {
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs.sendForm('service_tcuiaj8', 'template_f6q11ak', e.target, 'Fr_p_4r1lKhl_KFYl')
+      .then((result) => {
+          console.log(result.text);
+          toast("SEND SUCCESSFULLY")
+      }, (error) => {
+          console.log(error.text);
+      });
+      e.target.reset();
+  }
+
+
      return (
     <div className=' py-14  '>
         <div className=" ">
@@ -25,7 +42,7 @@ const Contact = () => {
             <div className="card flex-shrink-0 w-full max-w-sm shadow-2xl bg-base-100">
           <div className="card-body">
          
-            <form  >
+            <form  method='post'  onSubmit={sendEmail} >
              <div className='flex gap-3'>
              <div className="form-control w-full max-w-xs">
                 <label className="label">
@@ -34,6 +51,8 @@ const Contact = () => {
                 <input
                    
                   type="email"
+                  name='email'
+                  id='email'
                   placeholder="your email"
                   className="input input-bordered w-full max-w-xs"
                 />
@@ -46,13 +65,30 @@ const Contact = () => {
                 </label>
                 <input
                    
-                  type="password"
+                  type="text"
+                  name='name'
+                  id='name'
                   placeholder="your name"
                   className="input input-bordered w-full max-w-xs"
                 />
               
               </div>
              </div>
+             <div className="form-control w-full max-w-xs">
+                <label className="label">
+                  <span className="label-text">Phone</span>
+                </label>
+                <input
+                   
+                  type="text"
+                  name='phone'
+                  id='phone'
+                  required
+                  placeholder="your phone"
+                  className="input input-bordered w-full max-w-xs"
+                />
+              
+              </div>
               <div className="form-control w-full max-w-xs">
                 <label className="label">
                   <span className="label-text">Subject</span>
@@ -60,6 +96,9 @@ const Contact = () => {
                 <input
                    
                   type="text"
+                  name='subject'
+                  id='subject'
+                  required
                   placeholder="your subject"
                   className="input input-bordered w-full max-w-xs"
                 />
@@ -72,6 +111,9 @@ const Contact = () => {
                 <textarea
                    
                   type="text"
+                  name="message"
+                  id='message'
+                  required
                   placeholder="your message"
                   className="input input-bordered w-full max-w-xs h-32"
               
@@ -80,7 +122,7 @@ const Contact = () => {
               </div>
 
      <div className='py-5'>
-     <input type="submit" className="btn  w-full max-w-x " value="Submit" style={{backgroundColor: "#453364", color:"white" }}/>
+     <input type="submit" className="btn  w-full max-w-x " value="Send message" style={{backgroundColor: "#453364", color:"white" }}/>
      </div>
                
             </form>
