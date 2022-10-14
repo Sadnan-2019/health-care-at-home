@@ -3,6 +3,9 @@ import babyfeed from "../../assets/nanysrecovery.jpg";
 // import orthopedic from "../../assets/orthopedic.jpg";
 import grooming from "../../assets/grooming.jpg";
 import feeding from "../../assets/feeding.jpg";
+import babygrooming from "../../assets/baby-grooming.jpg";
+import babysleep from "../../assets/babyslepping.jpg";
+import diaper from "../../assets/babydiaper.jpg";
 const Recoverynany = () => {
   return (
     <div>
@@ -46,7 +49,7 @@ const Recoverynany = () => {
             style={{ backgroundColor: "#F5F1EA", borderColor: "#F5F1EA" }}
           >
             <img
-              src={grooming}
+              src={babygrooming}
               alt="Shoes"
               className="rounded-xl w-15 h-32"
               style={{ color: "#453364" }}
@@ -64,7 +67,7 @@ const Recoverynany = () => {
             style={{ backgroundColor: "#F5F1EA", borderColor: "#F5F1EA" }}
           >
             <img
-              src="https://i.ibb.co/56NQTxh/urine.jpg"
+              src={babysleep}
               alt="Shoes"
               className="rounded-xl h-32 w-15"
               style={{ color: "#453364" }}
@@ -81,7 +84,7 @@ const Recoverynany = () => {
             style={{ backgroundColor: "#F5F1EA", borderColor: "#F5F1EA" }}
           >
             <img
-              src={babyfeed}
+              src={diaper}
               alt="Shoes"
               className="rounded-xl w-15 h-32"
               style={{ color: "#453364" }}

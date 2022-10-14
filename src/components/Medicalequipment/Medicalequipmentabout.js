@@ -14,8 +14,8 @@ const Medicalequipmentabout = () => {
            
 
           <p className="max-w-lg mt-7  md:text-[20px] lg:text-[27px] poppins-t text-gray-600 text-justify ">
-            We supply more than 200 types of medical equipments. Hospital
-            bed,Alfa mattress,bed table,Neubulizer- you name it we have it all.We also
+            We supply more than 200 types of medical equipments.Hospital
+            bed, Alfa mattress, bed table,Neubulizer - you name it we have it all.We also
             set up post ICU at home.
           </p>
           <br></br>

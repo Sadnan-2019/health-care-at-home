@@ -12,9 +12,9 @@ const Teamnanycare = () => {
              Meet Our Expert Nannies
           </h2>
           <p className=" mt-7  md:text-[20px] lg:text-[27px] poppins-t text-white text-justify px-4">
-          Our specially trained medical caregiver are well experienced, highly
-professional, and compassionate. We have empowered more than 300
-successful recovery stories through our qualified & experienced medical caregiver.
+          Our specially trained  nannies   are well experienced, highly
+professional, and compassionate. We have empowered more than 200
+successful recovery stories through our qualified & experienced  nannies.
           </p>
         
         </div>

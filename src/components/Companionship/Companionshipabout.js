@@ -33,13 +33,13 @@ const Companionshipabout = () => {
               style={{ backgroundColor: "#F5F1EA", borderColor: "#F5F1EA" }}
             >
               <img
-                src="https://cdn-icons-png.flaticon.com/512/8587/8587740.png"
+                src="https://cdn-icons-png.flaticon.com/512/1964/1964087.png"
                 alt="Shoes"
                 className="rounded-xl w-15"
                 style={{ color: "#453364" }}
               />
               <p className="poppins-t text-gray-600 text-center">
-                Total Nursing Care
+                Reading with newspaper
               </p>
             </div>
             <div
@@ -47,13 +47,13 @@ const Companionshipabout = () => {
               style={{ backgroundColor: "#F5F1EA", borderColor: "#F5F1EA" }}
             >
               <img
-                src="https://cdn-icons-png.flaticon.com/128/1225/1225711.png"
+                src="https://cdn-icons-png.flaticon.com/512/3028/3028292.png"
                 alt="Shoes"
                 className="rounded-xl w-15"
                 style={{ color: "#453364" }}
               />
               <p className="poppins-t text-gray-600 text-center">
-                IV Cannula insertion
+                Watching TV
               </p>
             </div>
             <div
@@ -61,13 +61,13 @@ const Companionshipabout = () => {
               style={{ backgroundColor: "#F5F1EA", borderColor: "#F5F1EA" }}
             >
               <img
-                src="https://i.ibb.co/ZBJyqw7/d4b342eb-a312-4ebe-87d7-20f3f64315f3.jpg"
+                src="https://cdn-icons-png.flaticon.com/512/177/177902.png"
                 alt="Shoes"
                 className="rounded-xl w-15"
                 style={{ color: "#453364" }}
               />
               <p className="poppins-t text-gray-600 text-center">
-                NG-tube insertion
+               Walking 
               </p>
             </div>
             <div
@@ -75,13 +75,13 @@ const Companionshipabout = () => {
               style={{ backgroundColor: "#F5F1EA", borderColor: "#F5F1EA" }}
             >
               <img
-                src="https://cdn-icons-png.flaticon.com/512/1452/1452259.png"
+                src="https://cdn-icons-png.flaticon.com/512/1830/1830767.png"
                 alt="Shoes"
                 className="rounded-xl w-15"
                 style={{ color: "#453364" }}
               />
               <p className="poppins-t text-gray-600 text-center">
-                Catheterization
+              Cooking
               </p>
             </div>
             <div
@@ -89,13 +89,13 @@ const Companionshipabout = () => {
               style={{ backgroundColor: "#F5F1EA", borderColor: "#F5F1EA" }}
             >
               <img
-                src="https://cdn-icons-png.flaticon.com/512/8123/8123627.png"
+                src="https://cdn-icons-png.flaticon.com/512/4295/4295295.png"
                 alt="Shoes"
                 className="rounded-xl w-15"
                 style={{ color: "#453364" }}
               />
               <p className="poppins-t text-gray-600 text-center">
-                Dressing wounds
+                24/7 Personal care
               </p>
             </div>
             <div
@@ -103,13 +103,13 @@ const Companionshipabout = () => {
               style={{ backgroundColor: "#F5F1EA", borderColor: "#F5F1EA" }}
             >
               <img
-                src="https://cdn-icons-png.flaticon.com/512/8330/8330036.png"
+                src="https://cdn-icons-png.flaticon.com/512/3526/3526573.png"
                 alt="Shoes"
                 className="rounded-xl w-15"
                 style={{ color: "#453364" }}
               />
               <p className="poppins-t text-gray-600 text-center">
-                Oxygen support
+               Good manner
               </p>
             </div>
             <div
@@ -131,7 +131,7 @@ const Companionshipabout = () => {
               style={{ backgroundColor: "#F5F1EA", borderColor: "#F5F1EA" }}
             >
               <img
-                src="https://cdn-icons-png.flaticon.com/512/2981/2981444.png"
+                src="https://cdn-icons-png.flaticon.com/512/2553/2553628.png"
                 alt="Shoes"
                 className="rounded-xl w-15"
                 style={{ color: "#453364" }}
@@ -145,13 +145,13 @@ const Companionshipabout = () => {
               style={{ backgroundColor: "#F5F1EA", borderColor: "#F5F1EA" }}
             >
               <img
-                src="https://cdn-icons-png.flaticon.com/512/5814/5814794.png"
+                src="https://cdn-icons-png.flaticon.com/512/2755/2755084.png"
                 alt="Shoes"
                 className="rounded-xl w-15"
                 style={{ color: "#453364" }}
               />
               <p className="poppins-t text-gray-600 text-center">
-                Medication Reminder
+                Feeding care
               </p>
             </div>
           </div>

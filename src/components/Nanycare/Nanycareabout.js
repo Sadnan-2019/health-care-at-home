@@ -83,7 +83,7 @@ const Nanycareabout = () => {
                 style={{ color: "#453364" }}
               />
               <p className="poppins-t text-gray-600 text-center">
-            Bathing  Grooming
+            Bathing  
 
               </p>
             </div>
@@ -92,7 +92,7 @@ const Nanycareabout = () => {
               style={{ backgroundColor: "#F5F1EA", borderColor: "#F5F1EA" }}
             >
               <img
-                src="https://cdn-icons-png.flaticon.com/512/8123/8123627.png"
+                src="https://cdn-icons-png.flaticon.com/512/5390/5390914.png"
                 alt="Shoes"
                 className="rounded-xl w-15"
                 style={{ color: "#453364" }}
@@ -148,13 +148,13 @@ const Nanycareabout = () => {
               style={{ backgroundColor: "#F5F1EA", borderColor: "#F5F1EA" }}
             >
               <img
-                src="https://cdn-icons-png.flaticon.com/512/5814/5814794.png"
+                src="https://cdn-icons-png.flaticon.com/512/2138/2138261.png"
                 alt="Shoes"
                 className="rounded-xl w-15"
                 style={{ color: "#453364" }}
               />
               <p className="poppins-t text-gray-600 text-center">
-                Medication Reminder
+              Grooming
               </p>
             </div>
           </div>
