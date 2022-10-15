@@ -69,7 +69,7 @@ const Team = () => {
             <div className=" items-center text-center text-white ">
               <h2 className=" text-center font-bold">Dr.Mohammad Abu Sayeed</h2>
              
-             <p>Associate Professor and Head of Department NEUROSURGERY</p>
+             <p> Professor and Head of Department NEUROSURGERY</p>
               <p>
               MBBS, MS (NEUROSURGERY)  
                

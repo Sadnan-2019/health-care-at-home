@@ -28,26 +28,12 @@ const Medicalequipmentlanding = () => {
  We supply each & every medical related equipments.
           </p>
           
-          <div className='flex items-center mt-2 font-bold'>
+          <div className='flex items-center mt-5 font-bold'>
           < FaPhoneVolume  className="lg:text-2xl text-[20px] " style={{  color:"#453364" }}/>
           <span className="lg:text-2xl text-[20px] "style={{ color:"#453364" }} > Call Now: 01619848555</span>
         </div>
 
-          <div
-            data-aos="fade-up"
-            data-aos-duration="3000"
-            className="flex  gap-4 mt-10 text-center"
-          >
-            <Link
-              className="hidden  md:inline-flex items-center   md:px-8 md:py-3  border   rounded hover:bg-transparent active:text-primary focus:outline-none focus:ring transition ease-in-out delay-150  text-white hover:text-black"
-              to="/resume-builder/how-to-start" style={{backgroundColor: "#453364" }}
-            >
-              <span className="text-sm font-medium"> Get Started </span>
-              <BsArrowRight className="text-lg ml-2" />
-            </Link>
-
-          
-          </div>
+           
         </div>
     
       </div>

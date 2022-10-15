@@ -2,6 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import Map from '../Map/Map';
 import emailjs from '@emailjs/browser';
+import 'react-toastify/dist/ReactToastify.css'; 
 import { toast } from 'react-toastify';
 
 const Contact = () => {

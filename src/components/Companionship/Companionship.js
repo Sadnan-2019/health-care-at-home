@@ -3,7 +3,8 @@ import Review from '../Review/Review';
 import Success from '../Success/Success';
 import Companionshipabout from './Companionshipabout';
 import Companionshiplanding from './Companionshiplanding';
-// import Recoverycompanionship from './Recoverycompanionship';
+// import Companionship from './Companionship';
+import Teamcompanionship from './Teamcompanionship';
 
 const Companionship = () => {
     return (
@@ -13,6 +14,7 @@ const Companionship = () => {
             {/* <Recoverycompanionship/> */}
              <Review/>
              <Success></Success>
+             <Teamcompanionship/>
              
         </div>
     );

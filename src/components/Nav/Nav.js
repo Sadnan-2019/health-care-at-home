@@ -34,7 +34,8 @@ const Nav = () => {
         </div>
         <div>
           <p className="text-[10px] lg:text-sm   	"  >
-            01619848555
+            01619848555 /
+            01779848555
           </p>
           <p className="text-[10px] lg:text-sm	 	"  >
             info@hcah.mrg.com.bd
