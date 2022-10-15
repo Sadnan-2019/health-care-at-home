@@ -28,13 +28,14 @@ const Medicalequipmentabout = () => {
               style={{ backgroundColor: "#F5F1EA", borderColor: "#F5F1EA" }}
             >
               <img
-                src="https://cdn-icons-png.flaticon.com/512/6966/6966523.png"
+                src="https://cdn-icons-png.flaticon.com/512/2955/2955585.png"
                 alt="Shoes"
                 className="rounded-xl w-15"
                 style={{ color: "#453364" }}
               />
               <p className="poppins-t text-gray-600 text-center">
-                24/7 Personal healthcare
+              Oxygen Mask
+
               </p>
             </div>
             <div
@@ -42,13 +43,13 @@ const Medicalequipmentabout = () => {
               style={{ backgroundColor: "#F5F1EA", borderColor: "#F5F1EA" }}
             >
               <img
-                src="https://cdn-icons-png.flaticon.com/512/1459/1459122.png"
+                src="https://cdn-icons-png.flaticon.com/512/7835/7835350.png"
                 alt="Shoes"
                 className="rounded-xl w-15"
                 style={{ color: "#453364" }}
               />
               <p className="poppins-t text-gray-600 text-center">
-                Pass good time with patients
+              Glucometer
               </p>
             </div>
             <div
@@ -56,13 +57,13 @@ const Medicalequipmentabout = () => {
               style={{ backgroundColor: "#F5F1EA", borderColor: "#F5F1EA" }}
             >
               <img
-                src="https://i.ibb.co/ZBJyqw7/d4b342eb-a312-4ebe-87d7-20f3f64315f3.jpg"
+                src="https://cdn-icons-png.flaticon.com/512/6726/6726512.png"
                 alt="Shoes"
                 className="rounded-xl w-15"
                 style={{ color: "#453364" }}
               />
               <p className="poppins-t text-gray-600 text-center">
-                NG-tube feeding
+              Oximeter
               </p>
             </div>
             <div
@@ -70,13 +71,14 @@ const Medicalequipmentabout = () => {
               style={{ backgroundColor: "#F5F1EA", borderColor: "#F5F1EA" }}
             >
               <img
-                src="https://cdn-icons-png.flaticon.com/512/4187/4187475.png"
+                src="https://cdn-icons-png.flaticon.com/512/822/822214.png"
                 alt="Shoes"
                 className="rounded-xl w-15"
                 style={{ color: "#453364" }}
               />
               <p className="poppins-t text-gray-600 text-center">
-                Sponging Bathing Grooming
+              Hospital Bed
+
               </p>
             </div>
             <div
@@ -84,13 +86,14 @@ const Medicalequipmentabout = () => {
               style={{ backgroundColor: "#F5F1EA", borderColor: "#F5F1EA" }}
             >
               <img
-                src="https://cdn-icons-png.flaticon.com/512/8123/8123627.png"
+                src="https://cdn-icons-png.flaticon.com/512/2607/2607043.png"
                 alt="Shoes"
                 className="rounded-xl w-15"
                 style={{ color: "#453364" }}
               />
               <p className="poppins-t text-gray-600 text-center">
-                Dressing wounds
+              Bed Table
+
               </p>
             </div>
             <div
