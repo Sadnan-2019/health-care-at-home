@@ -51,7 +51,7 @@ const Review = () => {
 
       <div className=" px-5  md:px-10  ">
         <div className="mx-12 ">
-          <div className="flex items-center   justify-between mb-5">
+          <div className="flex items-center   justify-between mb-5 flex-col md:flex-row  ">
             <p className="text-white text-1xl lg:text-3xl font-bold poppins-b 	">
               Hear from our respected service takers
             </p>
