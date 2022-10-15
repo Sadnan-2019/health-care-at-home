@@ -48,9 +48,7 @@ function App() {
       <Footer></Footer>
       <ToastContainer></ToastContainer>
       {/* facebook live chat */}
-      <MessengerCustomerChat pageId="105187501050744" appId="500779031558701" />
-     
-    
+      <MessengerCustomerChat pageId="103181519238933" appId="500779031558701" />
     </div>
   );
 }
