@@ -101,13 +101,13 @@ const Medicalequipmentabout = () => {
               style={{ backgroundColor: "#F5F1EA", borderColor: "#F5F1EA" }}
             >
               <img
-                src="https://cdn-icons-png.flaticon.com/512/452/452822.png"
+                src="https://cdn-icons-png.flaticon.com/512/6136/6136251.png"
                 alt="Shoes"
                 className="rounded-xl w-15"
                 style={{ color: "#453364" }}
               />
               <p className="poppins-t text-gray-600 text-center">
-                Diaper Change
+              IV Cannula
               </p>
             </div>
             <div
@@ -115,13 +115,14 @@ const Medicalequipmentabout = () => {
               style={{ backgroundColor: "#F5F1EA", borderColor: "#F5F1EA" }}
             >
               <img
-                src="https://cdn-icons-png.flaticon.com/512/2376/2376100.png"
+                src="https://cdn-icons-png.flaticon.com/512/4004/4004703.png"
                 alt="Shoes"
                 className="rounded-xl w-15"
                 style={{ color: "#453364" }}
               />
               <p className="poppins-t text-gray-600 text-center">
-                Health records
+              Catheter
+
               </p>
             </div>
             <div
@@ -129,13 +130,13 @@ const Medicalequipmentabout = () => {
               style={{ backgroundColor: "#F5F1EA", borderColor: "#F5F1EA" }}
             >
               <img
-                src="https://cdn-icons-png.flaticon.com/512/2981/2981444.png"
+                src="https://cdn-icons-png.flaticon.com/512/809/809957.png"
                 alt="Shoes"
                 className="rounded-xl w-15"
                 style={{ color: "#453364" }}
               />
               <p className="poppins-t text-gray-600 text-center">
-                Hygiene maintenance
+              Statiscope
               </p>
             </div>
             <div
@@ -143,14 +144,13 @@ const Medicalequipmentabout = () => {
               style={{ backgroundColor: "#F5F1EA", borderColor: "#F5F1EA" }}
             >
               <img
-                src="https://cdn-icons-png.flaticon.com/512/5814/5814794.png"
+                src="https://cdn-icons-png.flaticon.com/512/1757/1757690.png"
                 alt="Shoes"
                 className="rounded-xl w-15"
                 style={{ color: "#453364" }}
               />
               <p className="poppins-t text-gray-600 text-center">
-                Medication Reminder
-              </p>
+              Skeleton              </p>
             </div>
           </div>
         </div>
