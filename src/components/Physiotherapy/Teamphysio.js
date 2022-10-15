@@ -19,79 +19,118 @@ const Teamphysio = () => {
           </div>
           <div className="grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-4  mx-10 gap-10  items-center justify-items-center  py-12">
             <div
-              className="card w-92 border    "
+              className="card  border     "
               data-aos="flip-left"
               data-aos-easing="ease-out-cubic"
               data-aos-duration="2000"
+              style={{ height: "500px" }}
             >
-              <figure className="px-10 pt-10">
-                <img src={doctor1} alt="Shoes" className="rounded-xl" />
+              <figure className="">
+                <img
+                  src={doctor1}
+                  alt="Shoes"
+                  className="  p-4  "
+                  style={{ height: "250px", borderRadius: "25px" }}
+                />
               </figure>
-              <div className="card-body items-center text-center text-white ">
-                <h2 className="card-title ">Professor Dr. M. Amjad Hossain</h2>
+              <div className=" items-center text-center text-white p-2 ">
+                <h2 className=" text-center font-bold">
+                  Professor Dr. M. Amjad Hossain
+                </h2>
+
                 <p>
                   MS (Ortho), AO Fellow (Germany) Hand Reconstruction (Madras)
-                  Trained in Hip & Knee Surgery (USA, India)
-                  Hospital Chief Consultant & Head Dept. of Orthopaedic Surgery
-                  Labaid Specialized Hospital, Dhaka.
+                  Trained in Hip & Knee Surgery (USA, India) Hospital Chief
+                  Consultant & Head Dept. of Orthopaedic Surgery Labaid
+                  Specialized Hospital, Dhaka.
                 </p>
-                {/* <p>15+ years' experience</p> */}
               </div>
             </div>
             <div
-              className="card w-92 border    "
+              className="card  border     "
               data-aos="flip-left"
               data-aos-easing="ease-out-cubic"
               data-aos-duration="2000"
+              style={{ height: "500px" }}
             >
-              <figure className="px-10 pt-10">
-                <img src={doctor2} alt="Shoes" className="rounded-xl" />
+              <figure className="">
+                <img
+                  src={doctor2}
+                  alt="Shoes"
+                  className="  p-4  "
+                  style={{ height: "250px", borderRadius: "25px" }}
+                />
               </figure>
-              <div className="card-body items-center text-center text-white ">
-                <h2 className="card-title ">
-                  Prof. Dr. Abu Zaffar Chowdhury (Biru){" "}
+              <div className=" items-center text-center text-white p-2">
+                <h2 className=" text-center font-bold">
+                Prof. Dr. Abu Zaffar Chowdhury (Biru)
                 </h2>
-                <p>Orthopedics, Arthroscopy, Arthroplasty & Trauma Surgeon</p>
-                {/* <p>15+ years' experience</p> */}
-              </div>
-            </div>
-            <div
-              className="card w-92 border    "
-              data-aos="flip-left"
-              data-aos-easing="ease-out-cubic"
-              data-aos-duration="2000"
-            >
-              <figure className="px-10 pt-10">
-                <img src={doctor3} alt="Shoes" className="rounded-xl" />
-              </figure>
-              <div className="card-body items-center text-center text-white ">
-                <h2 className="card-title ">Dr. Md. Zia Uddin</h2>
+
                 <p>
-                  MBBS, D-Ortho, MS (Ortho Surgery) Bone & Joint Specialist &
-                  Spine Surgeon Ex. Consultant, Shahid Sohrawardy Hospital Sr.
-                  Consultant, Labaid Specialized Hospital
+                MBBS, MS (Ortho) Fellow in Arthoscopy & Replacement Surgery
+                  (UK) Fellow in Arthoscopy & Sports Medicine (India) Arthoscopy
+                  & Replacement Surgeon Chairman & Head of Department,
+                  Orthopaedic Surgery Bangabandhu Sheikh Mujib Medical
+                  University.
                 </p>
-                <p>15+ years' experience</p>
               </div>
             </div>
             <div
-              className="card w-92 border    "
+              className="card  border     "
               data-aos="flip-left"
               data-aos-easing="ease-out-cubic"
               data-aos-duration="2000"
+              style={{ height: "500px" }}
             >
-              <figure className="px-10 pt-10">
-                <img src={doctor4} alt="Shoes" className="rounded-xl" />
+              <figure className="">
+                <img
+                  src={doctor3}
+                  alt="Shoes"
+                  className="  p-4  "
+                  style={{ height: "250px", borderRadius: "25px" }}
+                />
               </figure>
-              <div className="card-body items-center text-center text-white ">
-                <h2 className="card-title ">Prof. Dr. Syed Anwaruzzaman</h2>
+              <div className=" items-center text-center text-white p-2">
+                <h2 className=" text-center font-bold">
+                Dr. Md. Zia Uddin
+                </h2>
+
                 <p>
-                  MBBS (CMC), MS (ORTHO) Orthopedic Specialist & Trauma Surgeon
+                MBBS, D-Ortho, MS (Ortho Surgery) Bone & Joint Specialist &
+                  Spine Surgeon Ex. Consultant, Shahid Sohrawardy Hospital Sr.
+                  Consultant, Labaid Specialized Hospital.
+                </p>
+              </div>
+            </div>
+            <div
+              className="card  border     "
+              data-aos="flip-left"
+              data-aos-easing="ease-out-cubic"
+              data-aos-duration="2000"
+              style={{ height: "500px" }}
+            >
+              <figure className="">
+                <img
+                  src={doctor4}
+                  alt="Shoes"
+                  className="  p-4  "
+                  style={{ height: "250px", borderRadius: "25px" }}
+                />
+              </figure>
+              <div className=" items-center text-center text-white p-2">
+                <h2 className=" text-center font-bold">
+                Prof. Dr. Syed Anwaruzzaman
+                </h2>
+
+                <p>
+                MBBS (CMC), MS (ORTHO) Orthopedic Specialist & Trauma Surgeon
                   Cumilla Medical College & Hospital
                 </p>
-                <p>15+ years' experience</p>
               </div>
             </div>
+           
+           
+         
           </div>
         </div>
       </div>
