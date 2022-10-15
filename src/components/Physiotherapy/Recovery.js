@@ -36,8 +36,10 @@ const Recovery = () => {
           />
           <p className="poppins-t text-xl text-black mt-5 ">Spine Care</p>
           <p className="poppins-t text-black text-justify ">
-            Personalized care plans to bring back the lost physical and
-            emotional strength
+            Range of motion (ROM) exercises involve moving the joints through
+            their entire range of motion. ... Stretches. ... Aerobic Exercises.
+            ... Strengthening Exercises. ... Gait Training. ... At-Home
+            Physiotherapy.
           </p>
         </div>
         <div
@@ -52,7 +54,11 @@ const Recovery = () => {
           />
           <p className="poppins-t text-xl text-black mt-5 ">Orthopedic Care</p>
           <p className="poppins-t text-black text-justify ">
-          Restore strength, endurance, flexibility, & mobility and recover from knee/hip surgery
+            Orthopedic Physiotherapy is a medical practice that specifically
+            focuses on the correction of deformities or functional impairments
+            to the skeletal system, particularly the extremities and the spine
+            or associated structures like muscles and ligaments. Essentially,
+            they focus on the musculoskeletal system.
           </p>
         </div>
         <div
@@ -65,9 +71,17 @@ const Recovery = () => {
             className="rounded-xl h-32 w-15"
             style={{ color: "#453364" }}
           />
-          <p className="poppins-t text-xl text-black mt-5 ">Cardiac Rehab</p>
+          <p className="poppins-t text-xl text-black mt-5 ">
+            Chest physiotherapy
+          </p>
           <p className="poppins-t text-black text-justify ">
-          Medically-supervised care program designed for healthy lifestyle initiatives.
+            Chest physiotherapy is a broad term used in research that
+            incorporates physiotherapy treatment techniques that address the
+            removal of secretion and improve airway clearance thereby help to
+            improve respiratory efficiency.Chest physiotherapy is the term for a
+            group of treatments designed to eliminate secretions, thus helping
+            to decrease work of breathing, promote the expansion of the lungs,
+            and prevent the lungs from collapse.
           </p>
         </div>
         <div
@@ -82,7 +96,11 @@ const Recovery = () => {
           />
           <p className="poppins-t text-xl text-black mt-5 ">Stroke Care</p>
           <p className="poppins-t text-black text-justify ">
-          Restore lost strength, balance, cognitive functions to ensure the best possible outcome post-stroke
+            Exercise should be a main component of PT at home after a stroke.
+            Exercise can help improve range of motion, strength, coordination,
+            and balance. Your PT may perform exercises during your home-care
+            sessions. They may also prescribe a home exercise program for you to
+            do independently
           </p>
         </div>
       </div>
