@@ -88,7 +88,78 @@ const Service = () => {
             </div>
           </div>
 
+
+
           <a
+            className="block p-8 transition bg-white  shadow-md rounded-xl hover:shadow-lg cursor-pointer"
+            data-aos="fade-up"
+            data-aos-duration="1000"
+          >
+            <img
+              className="w-96 h-52 "
+              src="https://i.ibb.co/MCG18rs/25.jpg"
+              alt=""
+            />
+
+            <h3 className="mt-3 mb-2 text-xl font-bold text-left ">Physiotherapy</h3>
+
+            <p className="mt-1 text-sm text-left text-gray-800 poppins-t lg:text-justify">
+            HealthCare at home has got a good number   of diploma and B.Sc
+              physiotherapists. They are experienced & specially trained.Most of 
+              them carry instruments such as IRR, TENS, Ultrasound. They are 
+              qualified to take care of patients of all ages.They can address 
+              Musculoskeletal, Neurological, Post-operative, Stroke patients' 
+              condition.
+            </p>
+
+            <div>
+            <label
+              htmlFor="my-modal-5"
+              className="btn btn-sm modal-button mt-3 text-white   "
+              style={{ backgroundColor: "#453364" }}
+            >
+              service details
+            </label>
+     
+            </div>
+          </a>
+
+          <input type="checkbox" id="my-modal-5" className="modal-toggle" />
+          <div className="modal modal-bottom sm:modal-middle">
+            <div className="modal-box   ">
+              <h1 className="text-2xl font-bold text-center py-5">
+                Physiotherapy Details
+              </h1>
+              <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-3   mx-auto	 ">
+                <div className="text-sm font-bold">
+                  <li>Musculoskeletal Physiotherapy </li>
+                  <li>Neurological Physiotherapy</li>
+                  <li>Geriatric Physiotherapy</li>
+                  <li>Post Operative Physiotherapy</li>
+                  <li>Pediatric Physiotherapy</li>
+                  <li>Stroke Physiotherapy</li>
+                  <li>Chest Physiotherapy</li>
+                  <li>Gynecological Physiotherapy</li>
+                  <li>Sports Physiotherapy</li>
+                  <li>All kinds of Musculoskeletal Rehabilitation</li>
+                </div>
+                <div className="">
+                  <img src="https://i.ibb.co/MCG18rs/25.jpg" alt="" />
+                </div>
+              </div>
+              <div className="modal-action">
+                <label
+                  htmlFor="my-modal-5"
+                  className="btn text-white "
+                  style={{ backgroundColor: "#453364" }}
+                >
+                  close!
+                </label>
+              </div>
+            </div>
+          </div>
+
+          {/* <a
             className="block p-8 transition bg-white  shadow-md rounded-xl hover:shadow-lg cursor-pointer"
             data-aos="fade-up"
             data-aos-duration="1000"
@@ -155,7 +226,7 @@ const Service = () => {
                 </label>
               </div>
             </div>
-          </div>
+          </div> */}
           
 
           <a
