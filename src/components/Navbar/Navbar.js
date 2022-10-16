@@ -86,7 +86,7 @@ const Navbar = () => {
         </NavLink>
       </li>
 
-      <li className="nav-item p-2">
+      {/* <li className="nav-item p-2">
         <NavLink
           className={({ isActive }) => (isActive ? `${active}` : `${normal}`)}
           to="/about"
@@ -101,6 +101,31 @@ const Navbar = () => {
         >
           Contact
         </NavLink>
+      </li> */}
+      <li className="dropdown dropdown-hover border-none" > 
+       
+  <label tabIndex={0} className="btn m-1 text-white" style={{ backgroundColor: "#453364" }}>More</label>
+  <ul tabIndex={0} className="dropdown-content menu p-2 shadow  rounded-box w-52" style={{ backgroundColor: "#453364" }}>
+  <li className="nav-item p-2">
+        <NavLink
+          className={({ isActive }) => (isActive ? `${active}` : `${normal}`)}
+          to="/about"
+        >
+          About
+        </NavLink>
+      </li>
+      <li className="nav-item p-2">
+        <NavLink
+          className={({ isActive }) => (isActive ? `${active}` : `${normal}`)}
+          to="/contact"
+        >
+          Contact
+        </NavLink>
+      </li>
+  </ul>
+ 
+
+
       </li>
 
      
