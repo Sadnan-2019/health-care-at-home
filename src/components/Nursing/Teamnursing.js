@@ -23,7 +23,7 @@ successful recovery stories through our qualified & experienced nurses.
           </p>
         
         </div>
-        <div className="grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-4    items-center justify-items-center  py-12">
+        <div className="grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-4 mx-10 gap-10   items-center justify-items-center  py-12">
         <div
             className="card  border     "
             data-aos="flip-left"

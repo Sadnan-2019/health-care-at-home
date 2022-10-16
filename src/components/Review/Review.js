@@ -1,5 +1,7 @@
 import React from "react";
 import Slider from "react-slick";
+import review5 from "../../assets/review5.jpg";
+import review6 from "../../assets/review6.jpg";
 
 import { AiFillStar } from "react-icons/ai";
 import Reviewcard from "./Reviewcard";
@@ -71,12 +73,6 @@ const Review = () => {
           </div>
         </div>
         <Slider {...settings}>
-          {/* <Reviewcard />
-          <Reviewcard />
-          <Reviewcard />
-          <Reviewcard />
-          <Reviewcard /> */}
-
           <div
             className="shadow-md hover:shadow-lg cursor-pointer rounded-md lg:max-w-[360px] md:max-w-xs p-5 h-92 bg-white"
             data-aos="fade-up"
@@ -192,19 +188,20 @@ const Review = () => {
             <div className="grid grid-cols-12">
               <img
                 className="col-span-3 w-14 rounded-full"
-                src="https://placeimg.com/192/192/people"
+                src={review5}
                 alt="user img"
               />
               <div className="col-span-9">
-                <h2 className="text-lg poppins-b font-bold">Sadnan</h2>
-                <p className="font-semibold">Patients</p>
+                <h2 className="text-lg poppins-b font-bold">Shakil Rahman</h2>
+                {/* <p className="font-semibold">Patients</p> */}
               </div>
             </div>
             <div className="mt-4">
               <p className="poppins-r">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                Blanditiis accusantium cumque tenetur ratione ea nobis dolore
-                voluptas! Vel, ipsam nisi?
+                I took physiotherapy services from HCAH. This health care
+                service is the best that can be provided at home. They are
+                experts and have in-depth knowledge about the treatment to be
+                given to patients in various conditions.
               </p>
               <div
                 className="flex justify-start text-lg gap-1 mt-4  "
@@ -226,19 +223,20 @@ const Review = () => {
             <div className="grid grid-cols-12">
               <img
                 className="col-span-3 w-14 rounded-full"
-                src="https://placeimg.com/192/192/people"
+                src={review6}
                 alt="user img"
               />
               <div className="col-span-9">
-                <h2 className="text-lg poppins-b font-bold">Sadnan</h2>
-                <p className="font-semibold">Patients</p>
+                <h2 className="text-lg poppins-b font-bold">Wasim Akbar</h2>
+                {/* <p className="font-semibold">Patients</p> */}
               </div>
             </div>
             <div className="mt-4">
               <p className="poppins-r">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                Blanditiis accusantium cumque tenetur ratione ea nobis dolore
-                voluptas! Vel, ipsam nisi?
+                My father was paralyzed on the left side. I am extremely
+                thankful to HCAH for her wonderful recovery. I am extremely
+                grateful to the physiotherapy team for physically strengthening
+                her to stand on her own.
               </p>
               <div
                 className="flex justify-start text-lg gap-1 mt-4  "
