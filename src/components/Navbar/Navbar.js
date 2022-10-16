@@ -102,11 +102,31 @@ const Navbar = () => {
           Contact
         </NavLink>
       </li> */}
-      <li className="dropdown dropdown-hover border-none" > 
+      <li className="dropdown dropdown-hover hover:border-none" style={{ backgroundColor: "#453364" }} > 
        
-  <label tabIndex={0} className="btn m-1 text-white" style={{ backgroundColor: "#453364" }}>More</label>
+  <div className="flex items-center">
+  <label tabIndex={0} className="m-1 text-white" style={{ backgroundColor: "#453364" }}>More</label>
+  <svg
+            class="fill-current h-4 w-4 text-white"
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 20 20"
+          >
+            <path d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z" />{" "}
+          </svg>
+  </div>
+  
+  
+  
   <ul tabIndex={0} className="dropdown-content menu p-2 shadow  rounded-box w-52" style={{ backgroundColor: "#453364" }}>
   <li className="nav-item p-2">
+        <NavLink
+          className={({ isActive }) => (isActive ? `${active}` : `${normal}`)}
+          to="/blog"
+        >
+          Blog
+        </NavLink>
+      </li>
+      <li className="nav-item p-2">
         <NavLink
           className={({ isActive }) => (isActive ? `${active}` : `${normal}`)}
           to="/about"
