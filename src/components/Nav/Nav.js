@@ -4,6 +4,7 @@ import { Link, NavLink } from "react-router-dom";
 import { FcAlarmClock } from "react-icons/fc";
 import { FaPhoneVolume } from "react-icons/fa";
 import { BiLocationPlus } from "react-icons/bi";
+import HCAHBD from "../../assets/HCAHBD.png"
 
 const Nav = () => {
   return (
@@ -21,7 +22,7 @@ const Nav = () => {
               <img
                 className="w-48"
                 alt="logo"
-                src="https://hcah.mrg.com.bd/medicare.bold-themes.com/surgery/wp-content/uploads/sites/16/2018/03/surgery-logo-white.png"
+                src={HCAHBD}
               />
             </div>
           </Link>

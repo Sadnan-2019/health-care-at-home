@@ -1,5 +1,11 @@
 import React from "react";
-import physio  from "../../assets/servicephysio.jpg";
+import physio from "../../assets/servicephysio.jpg";
+import ambulanceservice from "../../assets/ambulanceservice.jfif";
+import nurseservice from "../../assets/nurseservice.jpg";
+import  servicemedicalassistant from "../../assets/servicemedicalassistant.jpg";
+import medicalcaregiver from "../../assets/servicemedicalcare-giver.webp";
+import  caregiver from "../../assets/service-caregive.jpg";
+import   nanines from "../../assets/service-nanines.jpg";
 
 import "./Service.css";
 const Service = () => {
@@ -27,7 +33,7 @@ const Service = () => {
           >
             <img
               className="w-96 h-52 "
-              src="https://i.ibb.co/MSKJNYh/79d887b1-f1d8-43c3-bd75-7a777ed80557.jpg"
+              src={nurseservice}
               alt=""
             />
 
@@ -42,14 +48,13 @@ const Service = () => {
             </p>
 
             <div>
-            <label
-              htmlFor="my-modal-6"
-              className="btn btn-sm modal-button mt-3 text-white   "
-              style={{ backgroundColor: "#453364" }}
-            >
-              service details
-            </label>
-     
+              <label
+                htmlFor="my-modal-6"
+                className="btn btn-sm modal-button mt-3 text-white   "
+                style={{ backgroundColor: "#453364" }}
+              >
+                service details
+              </label>
             </div>
           </a>
 
@@ -88,8 +93,6 @@ const Service = () => {
             </div>
           </div>
 
-
-
           <a
             className="block p-8 transition bg-white  shadow-md rounded-xl hover:shadow-lg cursor-pointer"
             data-aos="fade-up"
@@ -97,30 +100,31 @@ const Service = () => {
           >
             <img
               className="w-96 h-52 "
-              src="https://i.ibb.co/MCG18rs/25.jpg"
+              src={physio}
               alt=""
             />
 
-            <h3 className="mt-3 mb-2 text-xl font-bold text-left ">Physiotherapy</h3>
+            <h3 className="mt-3 mb-2 text-xl font-bold text-left ">
+              Physiotherapy
+            </h3>
 
             <p className="mt-1 text-sm text-left text-gray-800 poppins-t lg:text-justify">
-            HealthCare at home has got a good number   of diploma and B.Sc
-              physiotherapists. They are experienced & specially trained.Most of 
-              them carry instruments such as IRR, TENS, Ultrasound. They are 
-              qualified to take care of patients of all ages.They can address 
-              Musculoskeletal, Neurological, Post-operative, Stroke patients' 
+              HealthCare at home has got a good number of diploma and B.Sc
+              physiotherapists. They are experienced & specially trained.Most of
+              them carry instruments such as IRR, TENS, Ultrasound. They are
+              qualified to take care of patients of all ages.They can address
+              Musculoskeletal, Neurological, Post-operative, Stroke patients'
               condition.
             </p>
 
             <div>
-            <label
-              htmlFor="my-modal-5"
-              className="btn btn-sm modal-button mt-3 text-white   "
-              style={{ backgroundColor: "#453364" }}
-            >
-              service details
-            </label>
-     
+              <label
+                htmlFor="my-modal-5"
+                className="btn btn-sm modal-button mt-3 text-white   "
+                style={{ backgroundColor: "#453364" }}
+              >
+                service details
+              </label>
             </div>
           </a>
 
@@ -144,7 +148,7 @@ const Service = () => {
                   <li>All kinds of Musculoskeletal Rehabilitation</li>
                 </div>
                 <div className="">
-                  <img src="https://i.ibb.co/MCG18rs/25.jpg" alt="" />
+                  <img src={ physio}  alt="" />
                 </div>
               </div>
               <div className="modal-action">
@@ -159,76 +163,6 @@ const Service = () => {
             </div>
           </div>
 
-          {/* <a
-            className="block p-8 transition bg-white  shadow-md rounded-xl hover:shadow-lg cursor-pointer"
-            data-aos="fade-up"
-            data-aos-duration="1000"
-          >
-            <img
-              className="w-96 h-56"
-              src={physio}
-              alt=""
-            />
-
-            <h3 className="mt-3 mb-2 text-xl font-bold text-left ">
-              Physiotherapy
-            </h3>
-
-            <p className="mt-1 text-sm  break-words			   text-gray-800 lg:text-justify  ">
-              HealthCare at home has got a good number   of diploma and B.Sc
-              physiotherapists. They are experienced & specially trained.Most of 
-              them carry instruments such as IRR, TENS, Ultrasound. They are 
-              qualified to take care of patients of all ages.They can address 
-              Musculoskeletal, Neurological, Post-operative, Stroke patients' 
-              condition.
-            </p >
-            <label
-              htmlFor="my-modal-5"
-              className="btn btn-sm modal-button mt-3 text-white"
-              style={{ backgroundColor: "#453364" }}
-            >
-              service details
-            </label>
-
-           
-          </a>
-
-          <input type="checkbox" id="my-modal-5" className="modal-toggle" />
-          <div className="modal modal-bottom sm:modal-middle">
-            <div className="modal-box   ">
-              <h1 className="text-2xl font-bold text-center py-5">
-                Physiotherapy Details
-              </h1>
-              <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-3   mx-auto	 ">
-                <div className="text-sm font-bold">
-                  <li>Musculoskeletal Physiotherapy </li>
-                  <li>Neurological Physiotherapy</li>
-                  <li>Geriatric Physiotherapy</li>
-                  <li>Post Operative Physiotherapy</li>
-                  <li>Pediatric Physiotherapy</li>
-                  <li>Stroke Physiotherapy</li>
-                  <li>Chest Physiotherapy</li>
-                  <li>Gynecological Physiotherapy</li>
-                  <li>Sports Physiotherapy</li>
-                  <li>All kinds of Musculoskeletal Rehabilitation</li>
-                </div>
-                <div className="">
-                  <img src="https://i.ibb.co/MCG18rs/25.jpg" alt="" />
-                </div>
-              </div>
-              <div className="modal-action">
-                <label
-                  htmlFor="my-modal-5"
-                  className="btn text-white "
-                  style={{ backgroundColor: "#453364" }}
-                >
-                  close!
-                </label>
-              </div>
-            </div>
-          </div> */}
-          
-
           <a
             className="block p-8 transition bg-white  shadow-md rounded-xl hover:shadow-lg cursor-pointer"
             data-aos="fade-up"
@@ -236,7 +170,7 @@ const Service = () => {
           >
             <img
               className="w-96 h-52"
-              src="https://www.lifecircle.in/wp-content/uploads/2021/09/IMG_8342-1080x675.jpg"
+              src={ servicemedicalassistant}
               alt=""
             />
 
@@ -247,8 +181,8 @@ const Service = () => {
             <p className="mt-1 text-sm text-left text-gray-800 lg:text-justify">
               Medical assistants are qualified diploma holders. They also do
               nursing-care at home. Apart from grooming the patients they give
-              injections, Insert NG-tube, Catheter etc. They regularly check
-              BP, Sugar, Oxygen, Pulse & other vital parameters.They know how to
+              injections, Insert NG-tube, Catheter etc. They regularly check BP,
+              Sugar, Oxygen, Pulse & other vital parameters.They know how to
               take care of bed-sore .
             </p>
 
@@ -278,7 +212,7 @@ const Service = () => {
                 </div>
                 <div className="">
                   <img
-                    src="https://www.lifecircle.in/wp-content/uploads/2021/09/IMG_8342-1080x675.jpg"
+                    src={servicemedicalassistant}
                     alt=""
                   />
                 </div>
@@ -302,7 +236,7 @@ const Service = () => {
           >
             <img
               className="w-96 h-56"
-              src="https://content.jdmagicbox.com/comp/amravati/r3/9999px721.x721.171224091109.s1r3/catalogue/pace-care-services-nawathe-amravati-home-nursing-services-fx12e.jpg"
+              src={medicalcaregiver}
               alt=""
             />
 
@@ -311,9 +245,10 @@ const Service = () => {
             </h3>
 
             <p className="mt-1 text-sm text-left text-gray-800 lg:text-justify">
-              Our Medical caregiver is one who takes care of patients by feeding,
-              grooming, bathing, giving medication,talking & walking the patient. 
-              They also check vital parameters & blood-sugar label etc.
+              Our Medical caregiver is one who takes care of patients by
+              feeding, grooming, bathing, giving medication,talking & walking
+              the patient. They also check vital parameters & blood-sugar label
+              etc.
             </p>
             <label
               htmlFor="my-modal-3"
@@ -341,7 +276,7 @@ const Service = () => {
                 </div>
                 <div className="">
                   <img
-                    src="https://content.jdmagicbox.com/comp/amravati/r3/9999px721.x721.171224091109.s1r3/catalogue/pace-care-services-nawathe-amravati-home-nursing-services-fx12e.jpg"
+                    src={medicalcaregiver}
                     alt=""
                   />
                 </div>
@@ -365,7 +300,7 @@ const Service = () => {
           >
             <img
               className="w-96 h-56"
-              src="https://ehospice.com/wp-content/uploads/2020/07/IMG-20200716-WA0003-770x500.jpg"
+              src={caregiver}
               alt=""
             />
 
@@ -396,17 +331,19 @@ const Service = () => {
               </h1>
               <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-3   mx-auto	 ">
                 <div className="text-sm font-bold">
-                  <li>Provide  personal services such as bathing and grooming etc</li>
+                  <li>
+                    Provide personal services such as bathing and grooming etc
+                  </li>
                   <li>Patients Diaper Change</li>
                   <li>Medication Reminder</li>
                   <li>Accompany patients to their doctor visits</li>
                   <li>Hygiene maintenance</li>
                   <li>Light house keeping </li>
-                  <li>Arrange  transport  </li>
+                  <li>Arrange transport </li>
                 </div>
                 <div className="">
                   <img
-                    src="https://ehospice.com/wp-content/uploads/2020/07/IMG-20200716-WA0003-770x500.jpg"
+                    src={caregiver}
                     alt=""
                   />
                 </div>
@@ -429,7 +366,7 @@ const Service = () => {
           >
             <img
               className="w-96 h-56"
-              src="https://i.ibb.co/0Zh2Pqn/Nanny-service1.jpg"
+              src={nanines}
               alt=""
             />
 
@@ -469,11 +406,10 @@ const Service = () => {
                   <li>Make sure there are no diaper rash</li>
                   <li>Sometimes leave the baby </li>
                   <li>Handle the baby softly</li>
-                 
                 </div>
                 <div className="">
                   <img
-                    src="https://miro.medium.com/max/1280/1*hzN6JS-HlhW7hoyRYYJD6A.jpeg"
+                    src={nanines}
                     alt=""
                   />
                 </div>
@@ -524,7 +460,7 @@ const Service = () => {
           <div className="modal modal-bottom sm:modal-middle">
             <div className="modal-box   ">
               <h1 className="text-2xl font-bold text-center py-5">
-              Companionship
+                Companionship
               </h1>
               <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-3   mx-auto	 ">
                 <div className="text-sm font-bold">
@@ -575,9 +511,80 @@ const Service = () => {
             <p className="mt-1 text-sm text-left text-gray-800 lg:text-justify">
               We arranged all kindes of medical equipment related product to
               provide patients care at home. Such as Patients bed, Bedtable, IV
-              stand, nebulizer, pulse oximeter, glucometer, BP machine, Bipap, Oxygen
-              cylinder & many more. We provide high quality products.We set up
-              post ICU equipments at home & high quality professional service.
+              stand, nebulizer, pulse oximeter, glucometer, BP machine, Bipap,
+              Oxygen cylinder & many more. We provide high quality products.We
+              set up post ICU equipments at home & high quality professional
+              service.
+            </p>
+
+            <label
+              htmlFor="my-modal-8"
+              className="btn btn-sm modal-button mt-3 text-white"
+              style={{ backgroundColor: "#453364" }}
+            >
+              service details
+            </label>
+          </a>
+
+          <input type="checkbox" id="my-modal-8" className="modal-toggle" />
+          <div className="modal modal-bottom sm:modal-middle">
+            <div className="modal-box   ">
+              <h1 className="text-2xl font-bold text-center py-5">
+                Medical Equipment
+              </h1>
+              <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-3   mx-auto	 ">
+                <div className="text-sm font-bold">
+                  <li>Oxygen Mask</li>
+                  <li>Glucometer</li>
+                  <li>Oximeter </li>
+                  <li>Hospital Bed </li>
+                  <li>Alfa Mattress </li>
+                  <li>Bed Table</li>
+                  <li>IV Cannula</li>
+                  <li>NG Tube</li>
+                  <li>Bad Site Monitor</li>
+                  <li>Catheter </li>
+                </div>
+                <div className="">
+                  <img
+                    src="https://miro.medium.com/max/1280/1*hzN6JS-HlhW7hoyRYYJD6A.jpeg"
+                    alt=""
+                  />
+                </div>
+              </div>
+              <div className="modal-action">
+                <label
+                  htmlFor="my-modal-8"
+                  className="btn text-white "
+                  style={{ backgroundColor: "#453364" }}
+                >
+                  close!
+                </label>
+              </div>
+            </div>
+          </div>
+          <a
+            className="block p-8 transition bg-white  shadow-md rounded-xl hover:shadow-lg cursor-pointer"
+            data-aos="fade-up"
+            data-aos-duration="1000"
+          >
+            <img
+              className="w-96 h-56"
+              src={ambulanceservice}
+              alt=""
+            />
+
+            <h3 className="mt-4 mb-2 text-xl font-bold text-left ">
+              Emergency Ambulance
+            </h3>
+
+            <p className="mt-1 text-sm text-left text-gray-800 lg:text-justify">
+              The latest model Ambulance service is available. We Provide
+              different types of ambulance services like Ac ambulance service,
+              Non-Ac ambulance service, freezing ambulance service and Basic
+              life support ambulance service. If you need Basic Life Support
+              ICU, CCU, NICU, PICU Ambulance Support with Doctors or Brothers
+              then contact us. 
             </p>
 
             <label

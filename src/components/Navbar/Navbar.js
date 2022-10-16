@@ -86,22 +86,7 @@ const Navbar = () => {
         </NavLink>
       </li>
 
-      {/* <li className="nav-item p-2">
-        <NavLink
-          className={({ isActive }) => (isActive ? `${active}` : `${normal}`)}
-          to="/about"
-        >
-          About
-        </NavLink>
-      </li>
-      <li className="nav-item p-2">
-        <NavLink
-          className={({ isActive }) => (isActive ? `${active}` : `${normal}`)}
-          to="/contact"
-        >
-          Contact
-        </NavLink>
-      </li> */}
+    
       <li className="dropdown dropdown-hover hover:border-none" style={{ backgroundColor: "#453364" }} > 
        
   <div className="flex items-center">
