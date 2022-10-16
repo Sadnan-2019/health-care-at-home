@@ -1,4 +1,6 @@
 import React from "react";
+import physio  from "../../assets/servicephysio.jpg";
+
 import "./Service.css";
 const Service = () => {
   return (
@@ -93,7 +95,7 @@ const Service = () => {
           >
             <img
               className="w-96 h-56"
-              src="https://i.ibb.co/MCG18rs/25.jpg"
+              src={physio}
               alt=""
             />
 
