@@ -233,10 +233,9 @@ const Review = () => {
             </div>
             <div className="mt-4">
               <p className="poppins-r">
-                My father was paralyzed on the left side. I am extremely
-                thankful to HCAH for her wonderful recovery. I am extremely
-                grateful to the physiotherapy team for physically strengthening
-                her to stand on her own.
+                i was paralyzed on the left side. I am extremely thankful to
+                HCAH for my wonderful recovery. I am extremely grateful to the
+                physiotherapy team for physically strengthening my stand on own.
               </p>
               <div
                 className="flex justify-start text-lg gap-1 mt-4  "
