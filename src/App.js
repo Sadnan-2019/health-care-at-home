@@ -18,6 +18,7 @@ import Nanycare from "./components/Nanycare/Nanycare";
 import Companionship from "./components/Companionship/Companionship";
 import Medicalequipment from "./components/Medicalequipment/Medicalequipment";
 import { ToastContainer } from "react-toastify";
+import Blog from "./components/Blog/Blog";
 
 
  
@@ -38,6 +39,7 @@ function App() {
         <Route path="/nanycare" element={<Nanycare />}></Route>
         <Route path="/companion" element={<Companionship />}></Route>
         <Route path="/medical-equipment" element={<Medicalequipment />}></Route>
+        <Route path="/blog" element={<Blog />}></Route>
  
         <Route path="/about" element={<About />}></Route>
         <Route path="/contact" element={<Contact />}></Route>
