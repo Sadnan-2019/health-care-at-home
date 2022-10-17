@@ -6,6 +6,9 @@ import  servicemedicalassistant from "../../assets/servicemedicalassistant.jpg";
 import medicalcaregiver from "../../assets/servicemedicalcare-giver.webp";
 import  caregiver from "../../assets/service-caregive.jpg";
 import   nanines from "../../assets/service-nanines.jpg";
+import   companionship
+from "../../assets/service-companionship.jpg";
+import equipment from "../../assets/service-medical-equipment.jpeg"
 
 import "./Service.css";
 const Service = () => {
@@ -432,7 +435,7 @@ const Service = () => {
           >
             <img
               className="w-96 h-56 rounded-lg"
-              src="https://i.ibb.co/GPmZ182/2438855.jpg"
+              src={companionship}
               alt=""
             />
 
@@ -477,7 +480,7 @@ const Service = () => {
                 </div>
                 <div className="rounded-lg">
                   <img
-                    src="https://miro.medium.com/max/1280/1*hzN6JS-HlhW7hoyRYYJD6A.jpeg"
+                    src={companionship}
                     alt=""
                   />
                 </div>
@@ -500,7 +503,7 @@ const Service = () => {
           >
             <img
               className="w-96 h-56 rounded-lg"
-              src="https://miro.medium.com/max/1280/1*hzN6JS-HlhW7hoyRYYJD6A.jpeg"
+              src={equipment}
               alt=""
             />
 
@@ -547,7 +550,7 @@ const Service = () => {
                 </div>
                 <div className="rounded-lg">
                   <img
-                    src="https://miro.medium.com/max/1280/1*hzN6JS-HlhW7hoyRYYJD6A.jpeg"
+                    src={equipment}
                     alt=""
                   />
                 </div>
