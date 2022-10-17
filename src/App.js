@@ -19,6 +19,7 @@ import Companionship from "./components/Companionship/Companionship";
 import Medicalequipment from "./components/Medicalequipment/Medicalequipment";
 import { ToastContainer } from "react-toastify";
 import Blog from "./components/Blog/Blog";
+import FourZeroFour from "./components/FourZeroFour/FourZeroFour";
 
 
  
@@ -44,6 +45,7 @@ function App() {
         <Route path="/about" element={<About />}></Route>
         <Route path="/contact" element={<Contact />}></Route>
         {/* <Route path="login" element={<Login />}></Route> */}
+        <Route path="/*" element={<FourZeroFour />} /> 
       </Routes>
 
       {/* <Home></Home> */}
