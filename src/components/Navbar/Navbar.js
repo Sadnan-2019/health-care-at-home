@@ -102,7 +102,7 @@ const Navbar = () => {
   
   
   
-  <ul tabIndex={0} className="w-20 dropdown-content menu p-2 shadow  rounded-box lg:w-52" style={{ backgroundColor: "#453364" }}>
+  <ul tabIndex={0} className="w-24 dropdown-content menu p-2 shadow  rounded-box lg:w-52" style={{ backgroundColor: "#453364" }}>
   <li className="nav-item p-2">
         <NavLink
           className={({ isActive }) => (isActive ? `${active}` : `${normal}`)}
