@@ -116,7 +116,7 @@ successful recovery stories through our qualified & experienced medical caregive
               />
             </figure>
             <div className=" items-center text-center text-white ">
-              <h2 className=" text-center font-bold">Sangran Rema</h2>
+              <h2 className=" text-center font-bold">Abul Kashem</h2>
               <p>Medical caregiver</p>
               <p>2+ years experienced</p>
             </div>
