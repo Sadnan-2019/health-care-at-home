@@ -32,7 +32,7 @@ const Service = () => {
             data-aos-duration="1000"
           >
             <img
-              className="w-96 h-52 "
+              className="w-96 h-52 rounded-lg "
               src={nurseservice}
               alt=""
             />
@@ -76,7 +76,7 @@ const Service = () => {
                 </div>
                 <div>
                   <img
-                    src="https://i.ibb.co/MSKJNYh/79d887b1-f1d8-43c3-bd75-7a777ed80557.jpg"
+                    src={nurseservice}
                     alt=""
                   />
                 </div>
@@ -99,7 +99,7 @@ const Service = () => {
             data-aos-duration="1000"
           >
             <img
-              className="w-96 h-52 "
+              className="w-96 h-52 rounded-lg "
               src={physio}
               alt=""
             />
@@ -169,7 +169,7 @@ const Service = () => {
             data-aos-duration="1000"
           >
             <img
-              className="w-96 h-52"
+              className="w-96 h-52 rounded-lg"
               src={ servicemedicalassistant}
               alt=""
             />
@@ -235,7 +235,7 @@ const Service = () => {
             data-aos-duration="1000"
           >
             <img
-              className="w-96 h-56"
+              className="w-96 h-56 rounded-lg"
               src={medicalcaregiver}
               alt=""
             />
@@ -299,7 +299,7 @@ const Service = () => {
             data-aos-duration="1000"
           >
             <img
-              className="w-96 h-56"
+              className="w-96 h-56 rounded-lg"
               src={caregiver}
               alt=""
             />
@@ -365,7 +365,7 @@ const Service = () => {
             data-aos-duration="1000"
           >
             <img
-              className="w-96 h-56"
+              className="w-96 h-56 rounded-lg"
               src={nanines}
               alt=""
             />
@@ -431,7 +431,7 @@ const Service = () => {
             data-aos-duration="1000"
           >
             <img
-              className="w-96 h-56"
+              className="w-96 h-56 rounded-lg"
               src="https://i.ibb.co/GPmZ182/2438855.jpg"
               alt=""
             />
@@ -475,7 +475,7 @@ const Service = () => {
                   <li>Bad Site Monitor</li>
                   <li>Catheter </li>
                 </div>
-                <div className="">
+                <div className="rounded-lg">
                   <img
                     src="https://miro.medium.com/max/1280/1*hzN6JS-HlhW7hoyRYYJD6A.jpeg"
                     alt=""
@@ -499,17 +499,17 @@ const Service = () => {
             data-aos-duration="1000"
           >
             <img
-              className="w-96 h-56"
+              className="w-96 h-56 rounded-lg"
               src="https://miro.medium.com/max/1280/1*hzN6JS-HlhW7hoyRYYJD6A.jpeg"
               alt=""
             />
 
-            <h3 className="mt-4 mb-2 text-xl font-bold text-left ">
-              Medical Equipment
+            <h3 className="mt-3 mb-2 text-xl font-bold text-left ">
+            Medical Equipment
             </h3>
 
             <p className="mt-1 text-sm text-left text-gray-800 lg:text-justify">
-              We arranged all kindes of medical equipment related product to
+            We arranged all kindes of medical equipment related product to
               provide patients care at home. Such as Patients bed, Bedtable, IV
               stand, nebulizer, pulse oximeter, glucometer, BP machine, Bipap,
               Oxygen cylinder & many more. We provide high quality products.We
@@ -545,7 +545,7 @@ const Service = () => {
                   <li>Bad Site Monitor</li>
                   <li>Catheter </li>
                 </div>
-                <div className="">
+                <div className="rounded-lg">
                   <img
                     src="https://miro.medium.com/max/1280/1*hzN6JS-HlhW7hoyRYYJD6A.jpeg"
                     alt=""
@@ -563,18 +563,19 @@ const Service = () => {
               </div>
             </div>
           </div>
+          
           <a
             className="block p-8 transition bg-white  shadow-md rounded-xl hover:shadow-lg cursor-pointer"
             data-aos="fade-up"
             data-aos-duration="1000"
           >
             <img
-              className="w-96 h-56"
+              className="w-96 h-56 rounded-lg"
               src={ambulanceservice}
               alt=""
             />
 
-            <h3 className="mt-4 mb-2 text-xl font-bold text-left ">
+            <h3 className="mt-3 mb-2 text-xl font-bold text-left ">
               Emergency Ambulance
             </h3>
 
@@ -588,7 +589,7 @@ const Service = () => {
             </p>
 
             <label
-              htmlFor="my-modal-8"
+              htmlFor="my-modal-9"
               className="btn btn-sm modal-button mt-3 text-white"
               style={{ backgroundColor: "#453364" }}
             >
@@ -596,11 +597,11 @@ const Service = () => {
             </label>
           </a>
 
-          <input type="checkbox" id="my-modal-8" className="modal-toggle" />
+          <input type="checkbox" id="my-modal-9" className="modal-toggle" />
           <div className="modal modal-bottom sm:modal-middle">
             <div className="modal-box   ">
               <h1 className="text-2xl font-bold text-center py-5">
-                Medical Equipment
+              Emergency Ambulance
               </h1>
               <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-3   mx-auto	 ">
                 <div className="text-sm font-bold">
@@ -624,7 +625,7 @@ const Service = () => {
               </div>
               <div className="modal-action">
                 <label
-                  htmlFor="my-modal-8"
+                  htmlFor="my-modal-9"
                   className="btn text-white "
                   style={{ backgroundColor: "#453364" }}
                 >
