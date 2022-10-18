@@ -36,7 +36,7 @@ const Teamnanycare = () => {
               />
             </figure>
             <div className=" items-center text-center text-white ">
-              <h2 className=" text-center font-bold">Hawalader</h2>
+              <h2 className=" text-center font-bold">Nomrota Hawalader</h2>
               <p>Nanycare</p>
               <p>2+ years experienced</p>
             </div>
@@ -61,7 +61,7 @@ const Teamnanycare = () => {
               />
             </figure>
             <div className=" items-center text-center text-white ">
-              <h2 className=" text-center font-bold">Hawalader</h2>
+              <h2 className=" text-center font-bold">Lily Haque </h2>
               <p>Nanycare</p>
               <p>2+ years experienced</p>
             </div>
@@ -86,7 +86,7 @@ const Teamnanycare = () => {
               />
             </figure>
             <div className=" items-center text-center text-white ">
-              <h2 className=" text-center font-bold">Hawalader</h2>
+              <h2 className=" text-center font-bold">Maya Hossain</h2>
               <p>Nanycare</p>
               <p>2+ years experienced</p>
             </div>
@@ -111,7 +111,7 @@ const Teamnanycare = () => {
               />
             </figure>
             <div className=" items-center text-center text-white ">
-              <h2 className=" text-center font-bold">Hawalader</h2>
+              <h2 className=" text-center font-bold">Ismat Rahman</h2>
               <p>Nanycare</p>
               <p>2+ years experienced</p>
             </div>
