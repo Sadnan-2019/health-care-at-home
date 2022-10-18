@@ -2,13 +2,12 @@ import React from "react";
 import physio from "../../assets/servicephysio.jpg";
 import ambulanceservice from "../../assets/ambulanceservice.jfif";
 import nurseservice from "../../assets/nurseservice.jpg";
-import  servicemedicalassistant from "../../assets/servicemedicalassistant.jpg";
+import servicemedicalassistant from "../../assets/servicemedicalassistant.jpg";
 import medicalcaregiver from "../../assets/servicemedicalcare-giver.webp";
-import  caregiver from "../../assets/service-caregive.jpg";
-import   nanines from "../../assets/service-nanines.jpg";
-import   companionship
-from "../../assets/service-companionship.jpg";
-import equipment from "../../assets/service-medical-equipment.jpeg"
+import caregiver from "../../assets/service-caregive.jpg";
+import nanines from "../../assets/service-nanines.jpg";
+import companionship from "../../assets/service-companionship.jpg";
+import equipment from "../../assets/service-medical-equipment.jpeg";
 
 import "./Service.css";
 const Service = () => {
@@ -34,11 +33,7 @@ const Service = () => {
             data-aos="fade-up"
             data-aos-duration="1000"
           >
-            <img
-              className="w-96 h-52 rounded-lg "
-              src={nurseservice}
-              alt=""
-            />
+            <img className="w-96 h-52 rounded-lg " src={nurseservice} alt="" />
 
             <h3 className="mt-3 mb-2 text-xl font-bold text-left ">Nursing</h3>
 
@@ -78,10 +73,7 @@ const Service = () => {
                   <li>Maintain health records</li>
                 </div>
                 <div>
-                  <img
-                    src={nurseservice}
-                    alt=""
-                  />
+                  <img src={nurseservice} alt="" />
                 </div>
               </div>
               <div className="modal-action">
@@ -101,11 +93,7 @@ const Service = () => {
             data-aos="fade-up"
             data-aos-duration="1000"
           >
-            <img
-              className="w-96 h-52 rounded-lg "
-              src={physio}
-              alt=""
-            />
+            <img className="w-96 h-52 rounded-lg " src={physio} alt="" />
 
             <h3 className="mt-3 mb-2 text-xl font-bold text-left ">
               Physiotherapy
@@ -151,7 +139,7 @@ const Service = () => {
                   <li>All kinds of Musculoskeletal Rehabilitation</li>
                 </div>
                 <div className="">
-                  <img src={ physio}  alt="" />
+                  <img src={physio} alt="" />
                 </div>
               </div>
               <div className="modal-action">
@@ -173,7 +161,7 @@ const Service = () => {
           >
             <img
               className="w-96 h-52 rounded-lg"
-              src={ servicemedicalassistant}
+              src={servicemedicalassistant}
               alt=""
             />
 
@@ -214,10 +202,7 @@ const Service = () => {
                   <li>Hygiene maintenance</li>
                 </div>
                 <div className="">
-                  <img
-                    src={servicemedicalassistant}
-                    alt=""
-                  />
+                  <img src={servicemedicalassistant} alt="" />
                 </div>
               </div>
               <div className="modal-action">
@@ -278,10 +263,7 @@ const Service = () => {
                   <li>Pass good time with patients </li>
                 </div>
                 <div className="">
-                  <img
-                    src={medicalcaregiver}
-                    alt=""
-                  />
+                  <img src={medicalcaregiver} alt="" />
                 </div>
               </div>
               <div className="modal-action">
@@ -301,11 +283,7 @@ const Service = () => {
             data-aos="fade-up"
             data-aos-duration="1000"
           >
-            <img
-              className="w-96 h-56 rounded-lg"
-              src={caregiver}
-              alt=""
-            />
+            <img className="w-96 h-56 rounded-lg" src={caregiver} alt="" />
 
             <h3 className="mt-3 mb-2 text-xl font-bold text-left ">
               Caregiver
@@ -345,10 +323,7 @@ const Service = () => {
                   <li>Arrange transport </li>
                 </div>
                 <div className="">
-                  <img
-                    src={caregiver}
-                    alt=""
-                  />
+                  <img src={caregiver} alt="" />
                 </div>
               </div>
               <div className="modal-action">
@@ -367,11 +342,7 @@ const Service = () => {
             data-aos="fade-up"
             data-aos-duration="1000"
           >
-            <img
-              className="w-96 h-56 rounded-lg"
-              src={nanines}
-              alt=""
-            />
+            <img className="w-96 h-56 rounded-lg" src={nanines} alt="" />
 
             <h3 className="mt-3 mb-2 text-xl font-bold text-left ">
               Nannycare
@@ -411,10 +382,7 @@ const Service = () => {
                   <li>Handle the baby softly</li>
                 </div>
                 <div className="">
-                  <img
-                    src={nanines}
-                    alt=""
-                  />
+                  <img src={nanines} alt="" />
                 </div>
               </div>
               <div className="modal-action">
@@ -433,11 +401,7 @@ const Service = () => {
             data-aos="fade-up"
             data-aos-duration="1000"
           >
-            <img
-              className="w-96 h-56 rounded-lg"
-              src={companionship}
-              alt=""
-            />
+            <img className="w-96 h-56 rounded-lg" src={companionship} alt="" />
 
             <h3 className="mt-3 mb-2 text-xl font-bold text-left ">
               Companionship
@@ -467,22 +431,16 @@ const Service = () => {
               </h1>
               <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-3   mx-auto	 ">
                 <div className="text-sm font-bold">
-                  <li>Oxygen Mask</li>
-                  <li>Glucometer</li>
-                  <li>Oximeter </li>
-                  <li>Hospital Bed </li>
-                  <li>Alfa Mattress </li>
-                  <li>Bed Table</li>
-                  <li>IV Cannula</li>
-                  <li>NG Tube</li>
-                  <li>Bad Site Monitor</li>
-                  <li>Catheter </li>
+                  <li>Good manner</li>
+                  <li>Walking</li>
+                  <li>Watching TV </li>
+                  <li>24/7 Personal care </li>
+                  <li>Cooking</li>
+                  <li>Feeding care</li>
+                
                 </div>
                 <div className="rounded-lg">
-                  <img
-                    src={companionship}
-                    alt=""
-                  />
+                  <img src={companionship} alt="" />
                 </div>
               </div>
               <div className="modal-action">
@@ -501,18 +459,14 @@ const Service = () => {
             data-aos="fade-up"
             data-aos-duration="1000"
           >
-            <img
-              className="w-96 h-56 rounded-lg"
-              src={equipment}
-              alt=""
-            />
+            <img className="w-96 h-56 rounded-lg" src={equipment} alt="" />
 
             <h3 className="mt-3 mb-2 text-xl font-bold text-left ">
-            Medical Equipment
+              Medical Equipment
             </h3>
 
             <p className="mt-1 text-sm text-left text-gray-800 lg:text-justify">
-            We arranged all kindes of medical equipment related product to
+              We arranged all kindes of medical equipment related product to
               provide patients care at home. Such as Patients bed, Bedtable, IV
               stand, nebulizer, pulse oximeter, glucometer, BP machine, Bipap,
               Oxygen cylinder & many more. We provide high quality products.We
@@ -549,10 +503,7 @@ const Service = () => {
                   <li>Catheter </li>
                 </div>
                 <div className="rounded-lg">
-                  <img
-                    src={equipment}
-                    alt=""
-                  />
+                  <img src={equipment} alt="" />
                 </div>
               </div>
               <div className="modal-action">
@@ -566,7 +517,7 @@ const Service = () => {
               </div>
             </div>
           </div>
-          
+
           <a
             className="block p-8 transition bg-white  shadow-md rounded-xl hover:shadow-lg cursor-pointer"
             data-aos="fade-up"
@@ -588,7 +539,7 @@ const Service = () => {
               Non-Ac ambulance service, freezing ambulance service and Basic
               life support ambulance service. If you need Basic Life Support
               ICU, CCU, NICU, PICU Ambulance Support with Doctors or Brothers
-              then contact us. 
+              then contact us.
             </p>
 
             <label
@@ -604,26 +555,18 @@ const Service = () => {
           <div className="modal modal-bottom sm:modal-middle">
             <div className="modal-box   ">
               <h1 className="text-2xl font-bold text-center py-5">
-              Emergency Ambulance
+                Emergency Ambulance
               </h1>
               <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-3   mx-auto	 ">
                 <div className="text-sm font-bold">
-                  <li>Oxygen Mask</li>
-                  <li>Glucometer</li>
-                  <li>Oximeter </li>
-                  <li>Hospital Bed </li>
-                  <li>Alfa Mattress </li>
-                  <li>Bed Table</li>
-                  <li>IV Cannula</li>
-                  <li>NG Tube</li>
-                  <li>Bad Site Monitor</li>
-                  <li>Catheter </li>
+                  <li>24/7 dayes open</li>
+                  <li>Very cost affordable</li>
+                  <li>Good time management </li>
+                  <li>Experience driver</li>
+                  <li>Good vehicles</li>
                 </div>
                 <div className="">
-                  <img
-                    src="https://miro.medium.com/max/1280/1*hzN6JS-HlhW7hoyRYYJD6A.jpeg"
-                    alt=""
-                  />
+                  <img src={ambulanceservice} alt="" />
                 </div>
               </div>
               <div className="modal-action">
