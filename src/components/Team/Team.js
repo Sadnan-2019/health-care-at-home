@@ -145,69 +145,9 @@ const Team = () => {
              
             </div>
           </div>
-          <div
-            className="card  border     "
-            data-aos="flip-left"
-            data-aos-easing="ease-out-cubic"
-            data-aos-duration="2000" style={{height:"400px"}}
-          >
-            <figure className="">
-              <img src={doctor7} alt="Shoes"   className="  p-4  " style={{height:"250px"  ,borderRadius:"25px"}} />
-            </figure>
-            <div className=" items-center text-center text-white ">
-              <h2 className=" text-center font-bold">PROF. DR. S. M. G. KIBRIA</h2>
-             
-             <p>FRCS (England), FRCS (Glasgow), FRCS (Edinburgh), FRCS (General), MSc (Leeds), MBBS (DMC)</p>
-              {/* <p>
-              MBBS, MS (NEUROSURGERY)  
-               
-               Specialist in Brain & Spine Surgeon.
-              </p> */}
-             
-            </div>
-          </div>
-          <div
-            className="card  border     "
-            data-aos="flip-left"
-            data-aos-easing="ease-out-cubic"
-            data-aos-duration="2000" style={{height:"400px"}}
-          >
-            <figure className="">
-              <img src={doctor7} alt="Shoes"   className="  p-4  " style={{height:"250px"  ,borderRadius:"25px"}} />
-            </figure>
-            <div className=" items-center text-center text-white ">
-              <h2 className=" text-center font-bold">PROF. DR. S. M. G. KIBRIA</h2>
-             
-             <p>FRCS (England), FRCS (Glasgow), FRCS (Edinburgh), FRCS (General), MSc (Leeds), MBBS (DMC)</p>
-              {/* <p>
-              MBBS, MS (NEUROSURGERY)  
-               
-               Specialist in Brain & Spine Surgeon.
-              </p> */}
-             
-            </div>
-          </div>
-          <div
-            className="card  border     "
-            data-aos="flip-left"
-            data-aos-easing="ease-out-cubic"
-            data-aos-duration="2000" style={{height:"400px"}}
-          >
-            <figure className="">
-              <img src={doctor7} alt="Shoes"   className="  p-4  " style={{height:"250px"  ,borderRadius:"25px"}} />
-            </figure>
-            <div className=" items-center text-center text-white ">
-              <h2 className=" text-center font-bold">PROF. DR. S. M. G. KIBRIA</h2>
-             
-             <p>FRCS (England), FRCS (Glasgow), FRCS (Edinburgh), FRCS (General), MSc (Leeds), MBBS (DMC)</p>
-              {/* <p>
-              MBBS, MS (NEUROSURGERY)  
-               
-               Specialist in Brain & Spine Surgeon.
-              </p> */}
-             
-            </div>
-          </div>
+           
+           
+        
           
          
            
