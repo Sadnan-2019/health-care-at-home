@@ -25,7 +25,7 @@ const Medicalequipmentlanding = () => {
             data-aos-duration="2000"
             className="max-w-lg mt-7 font-bold   md:text-[25px] poppins-t    "
             style={{ lineHeight: "120%",color:"#453364" }}>
- We supply each & every medical related equipments.
+ We supply related medical equipment
           </p>
           
           <div className='flex items-center mt-5 font-bold'>
