@@ -1,11 +1,26 @@
 import React from "react";
 import Marquee from "react-fast-marquee";
+import popular from "../../assets/hospital/popular.png";
+import universal from "../../assets/hospital/universal.png";
+import labaidcardiac from "../../assets/hospital/labaidcardiac.png";
+import labaidspeacial from "../../assets/hospital/labaidspeacial.png";
+import labaidcanser from "../../assets/hospital/labaidcanser.png";
+import greenlife from "../../assets/hospital/greenlife.png";
+import anwarkhan from "../../assets/hospital/anwarkhan.png";
+import evercare from "../../assets/hospital/evercare.png";
+import united from "../../assets/hospital/united.png";
+import ibnesina from "../../assets/hospital/ibnesina.png";
+import bangladeshspeacial from "../../assets/hospital/bangladeshspeacial.png";
+import impulse from "../../assets/hospital/impulse.png";
+import shikdar from "../../assets/hospital/shikdar.png";
+import samorita from "../../assets/hospital/samorita.png";
+import asgorali from "../../assets/hospital/asgorali.png";
+import prime from "../../assets/hospital/prime.png";
+
 
 const Marque = () => {
   return (
-    // https://i.ibb.co/w4NStQ6/hosoital-1-removebg-preview.png
-    // https://i.ibb.co/sW7BTzT/cancer-removebg-preview.png
-    // https://i.ibb.co/s5Qwp2B/cardiac-removebg-preview.png
+ 
     <div>
 
 <div className=" md:mx-16 lg:mx-24 mx-8 py-12">
@@ -20,84 +35,84 @@ const Marque = () => {
       <Marquee   gradientColor={false} speed={80} gradient={false} play={true}>
         <div className="  	 	 mx-10">
           <img
-            src="https://i.ibb.co/9YWTCqG/logo-1.png"
+            src={popular}
             alt="Shoes"
             className="  "
           />
         </div>
         <div className="       	  mx-10">
           <img
-            src="https://i.ibb.co/T08q5jK/a06d196f971089762aa864990dd933e8.png"
+            src={universal}
             alt="Shoes"
             className="  w-52    "
           />
         </div>
         <div className="     	 mx-10 ">
           <img
-            src="https://i.ibb.co/s5Qwp2B/cardiac-removebg-preview.png"
+            src={labaidcardiac}
             alt="Shoes"
             className="      "
           />
         </div>
         <div className="     	 mx-10 ">
           <img
-            src="https://i.ibb.co/w4NStQ6/hosoital-1-removebg-preview.png"
+            src={labaidspeacial}
             alt="Shoes"
             className="      "
           />
         </div>
         <div className="     	 mx-10 ">
           <img
-            src="https://i.ibb.co/sW7BTzT/cancer-removebg-preview.png"
+            src={labaidcanser}
             alt="Shoes"
             className="      "
           />
         </div>
         <div className="      	 mx-10 ">
           <img
-            src="https://i.ibb.co/NTsG5YB/gmc-logo.png"
+            src={greenlife}
             alt="Shoes"
             className="      "
           />
         </div>
         <div className="     	 mx-10 ">
           <img
-            src="https://i.ibb.co/RgKSNTP/cropped-A-320-75px.png"
+            src={anwarkhan}
             alt="Shoes"
             className="      "
           />
         </div>
         <div className=" 	 mx-10     ">
           <img
-            src="https://i.ibb.co/8cFFsQz/Logo-2.png"
+            src={evercare}
             alt="Shoes"
             className=" w-52       "
           />
         </div>
         <div className=" 	 mx-10     ">
           <img
-            src="https://i.ibb.co/GQ5yLSb/logo.png"
+            src={united}
             alt="Shoes"
             className=" w-52       "
           />
         </div>
         <div className=" 	 mx-10     ">
           <img
-            src="https://i.ibb.co/ssbNjrL/download-removebg-preview.png"
+            src={ibnesina}
             alt="Shoes"
             className=" w-52       "
           />
         </div>
         <div className=" 	 mx-10     ">
           <img
-            src="https://i.ibb.co/9cBGkLy/logo-3.png"
+            src={bangladeshspeacial}
             alt="Shoes"
             className=" w-52       "
           />
         </div>
         <div className=" 	 mx-10     ">
           <img
-            src="https://i.ibb.co/XDWmYfc/logo-4.png"
+            src={impulse}
             alt="Shoes"
             className=" w-52       "
           />
@@ -105,28 +120,28 @@ const Marque = () => {
         
         <div className=" 	 mx-10     ">
           <img
-            src="https://i.ibb.co/wYNRY3n/cropped-cropped-cropped-132100283-101809165182617-8739750313196910175-n-1.png"
+            src={shikdar}
             alt="Shoes"
             className=" w-42       "
           />
         </div>
         <div className=" 	 mx-10     ">
           <img
-            src="https://i.ibb.co/HKcVXPt/samorita-logo1.png"
+            src={samorita}
             alt="Shoes"
             className=" w-42       "
           />
         </div>
         <div className=" 	 mx-10     ">
           <img
-            src="  https://i.ibb.co/9vsHCfB/Social-Media-Logo-Website-Logo-Transparent-280px-X-85px-2.png"
+            src={asgorali}
             alt="Shoes"
             className=" w-42       "
           />
         </div>
         <div className=" 	 mx-10     ">
           <img
-            src="  https://i.ibb.co/hMPH7rz/16270122020523.png"
+            src={prime}
             alt="Shoes"
             className=" w-42       "
           />
