@@ -1,5 +1,5 @@
 import React from "react";
-import doctor1 from "../../assets/homed.jpg";
+// import doctor1 from "../../assets/homed.jpg";
 import avater from "../../assets/avater.png";
 const Teamcompanionship = () => {
   return (

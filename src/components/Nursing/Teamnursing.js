@@ -1,8 +1,8 @@
 import React from 'react';
 import avater from "../../assets/avater.png";
-import nurse1 from "../../assets/nurse1.png";
-import nurse2 from "../../assets/nurse2.png";
-import nurse3 from "../../assets/nurse5.png";
+// import nurse1 from "../../assets/nurse1.png";
+// import nurse2 from "../../assets/nurse2.png";
+// import nurse3 from "../../assets/nurse5.png";
 import nurse6 from "../../assets/nurse6.png";
 const Teamnursing = () => {
     return (

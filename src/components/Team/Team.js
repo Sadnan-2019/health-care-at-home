@@ -1,5 +1,5 @@
 import React from "react";
-import doctor1 from "../../assets/homed.jpg";
+
 import doctor2 from "../../assets/Dr.-Sarwar-Iqbal.jpg";
 import doctor3 from "../../assets/Dhimanbonik.jpg";
 import doctor4 from "../../assets/dr.-abu-sayed.jpg";

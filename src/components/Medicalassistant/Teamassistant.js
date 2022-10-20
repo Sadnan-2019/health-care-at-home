@@ -1,9 +1,9 @@
 import React from "react";
-import doctor1 from "../../assets/homed.jpg";
+// import doctor1 from "../../assets/homed.jpg";
 import mats1 from "../../assets/mats1.png";
-import mats2 from "../../assets/mats2.png";
-import mats3 from "../../assets/mats3.png";
-import mats4 from "../../assets/mats4.png";
+// import mats2 from "../../assets/mats2.png";
+// import mats3 from "../../assets/mats3.png";
+// import mats4 from "../../assets/mats4.png";
 import avater from "../../assets/avater.png";
 
 const Teamassistant = () => {
