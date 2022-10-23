@@ -7,6 +7,8 @@ import Recoverycaregiver from './Recoverycaregiver';
 import Review from '../Review/Review';
 import Success from '../Success/Success';
 import Teamcaregiver from './Teamcaregiver';
+import Marque from '../Marque/Marque';
+
  
 
 const Caregiver = () => {
@@ -17,6 +19,7 @@ const Caregiver = () => {
             <Recoverycaregiver/>
             <Review/>
             <Success/>
+            <Marque/>
             <Teamcaregiver/>
 
        

@@ -5,6 +5,7 @@ import Recoveryassistant from './Recoveryassistant';
 import Review from "../Review/Review";
 import Success from '../Success/Success';
 import Teamassistant from './Teamassistant';
+import Marque from '../Marque/Marque';
 
 const Medicalassistant = () => {
     return (
@@ -14,6 +15,8 @@ const Medicalassistant = () => {
             <Recoveryassistant/>
             <Review/>
             <Success/>
+            <Marque></Marque> 
+           
             <Teamassistant/>
 
         </div>

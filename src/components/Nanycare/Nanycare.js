@@ -5,6 +5,7 @@ import Nanycareabout from './Nanycareabout';
 import Nanycarelanding from './Nanycarelanding';
 import Recoverynany from './Recoverynany';
 import Teamnanycare from './Teamnanycare';
+import Marque from '../Marque/Marque';
 
 const Nanycare = () => {
     return (
@@ -14,6 +15,7 @@ const Nanycare = () => {
             <Recoverynany/>
             <Review/>
             <Success/>
+            <Marque/>
             <Teamnanycare/>
         </div>
     );

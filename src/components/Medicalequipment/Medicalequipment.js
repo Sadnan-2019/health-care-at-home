@@ -3,6 +3,7 @@ import Review from '../Review/Review';
 import Success from '../Success/Success';
 import Medicalequipmentabout from './Medicalequipmentabout';
 import Medicalequipmentlanding from './Medicalequipmentlanding';
+import Marque from '../Marque/Marque';
 
 const Medicalequipment = () => {
     return (
@@ -10,7 +11,9 @@ const Medicalequipment = () => {
             <Medicalequipmentlanding/>
             <Medicalequipmentabout/>
             <Review/>
+           
             <Success/>
+            <Marque/>
         </div>
     );
 };

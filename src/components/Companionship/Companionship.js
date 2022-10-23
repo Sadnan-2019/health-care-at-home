@@ -5,6 +5,7 @@ import Companionshipabout from './Companionshipabout';
 import Companionshiplanding from './Companionshiplanding';
 // import Companionship from './Companionship';
 import Teamcompanionship from './Teamcompanionship';
+import Marque from '../Marque/Marque';
 
 const Companionship = () => {
     return (
@@ -14,6 +15,7 @@ const Companionship = () => {
             {/* <Recoverycompanionship/> */}
              <Review/>
              <Success></Success>
+                <Marque/>
              <Teamcompanionship/>
              
         </div>
