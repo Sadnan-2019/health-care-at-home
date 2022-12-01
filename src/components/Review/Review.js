@@ -49,7 +49,8 @@ const Review = () => {
   return (
     <div className="py-10 " style={{ backgroundColor: "#453364" }}>
       <div className=" md:mx-16 lg:mx-24 mx-8 py-12">
-        <h2 className="text-3xl text-center   font-bold poppins-b sm:text-4xl text-white">
+        <h2 className="text-3xl text-center   font-bold poppins-b sm:text-4xl text-[#453364]">
+      
           Check Our Recent Reviews!
         </h2>
       </div>
