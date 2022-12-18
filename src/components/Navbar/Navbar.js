@@ -1,7 +1,7 @@
 import React from "react";
 import { Link, NavLink } from "react-router-dom";
 import Nav from "../Nav/Nav";
-
+import { BsWhatsapp } from "react-icons/bs";
 import "./Navbar.css";
 
 const Navbar = () => {
@@ -183,6 +183,22 @@ const Navbar = () => {
               </ul>
             </div>
           </div>
+          
+        </div>
+        <div className="navbar-end   ">
+          
+            <a
+              className="btn btn-sm bg-green-500 animate-pulse    rounded-full   "
+              href="https://wa.me/+8801767564737"
+                // href="https://wa.me/+8801767564737"
+              title="WHATSAPP CHAT"
+            >
+              {" "}
+              <BsWhatsapp></BsWhatsapp>
+            </a>
+
+           
+           
         </div>
       </div>
     </div>
