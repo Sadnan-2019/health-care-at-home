@@ -11,6 +11,7 @@ import doctor9 from "../../assets/Qazi Musshtaq.jpg";
 import doctor10 from "../../assets/Dr Tarafder Runa Liala.jpeg";
 import doctor11 from "../../assets/Prof Shahina Subhan Mitu.jpg";
 import doctor12 from "../../assets/Prof,Dr AK Akhteruzzaman.jpeg";
+import doctor13 from "../../assets/Prof. Masud Iqbal.jpeg";
 
 const Team = () => {
   return (
@@ -322,15 +323,43 @@ const Team = () => {
                 style={{ height: "250px", borderRadius: "25px" }}
               />
             </figure>
-            <div className=" items-center text-center text-white p-4">
+            <div className=" items-center text-center text-white ">
               <h2 className=" text-center font-bold">
-              Prof,Dr AK Akhteruzzaman
+                Prof,Dr AK Akhteruzzaman
               </h2>
 
               <p>
-                Bangabandhu Sheikh Mujib Medical University |
-                BSMMU · Department of Anaesthesia, Intensive Care & Pain
-                Medicine MBBS DA MD
+                Bangabandhu Sheikh Mujib Medical University | BSMMU · Department
+                of Anaesthesia, Intensive Care & Pain Medicine MBBS DA MD
+              </p>
+              {/* <p>
+              MBBS, MS (NEUROSURGERY)  
+               
+               Specialist in Brain & Spine Surgeon.
+              </p> */}
+            </div>
+          </div>
+          <div
+            className="card  border     "
+            data-aos="flip-left"
+            data-aos-easing="ease-out-cubic"
+            data-aos-duration="2000"
+            style={{ height: "400px" }}
+          >
+            <figure className="">
+              <img
+                src={doctor13}
+                alt="Shoes"
+                className="  p-4  "
+                style={{ height: "250px", borderRadius: "25px" }}
+              />
+            </figure>
+            <div className=" items-center text-center text-white ">
+              <h2 className=" text-center font-bold">Md Masud Iqbal</h2>
+
+              <p>
+                National Institute of Kidney Diseases & Urology (NIKDU) ·
+                Nephrology MBBS, MD(Nephrology)
               </p>
               {/* <p>
               MBBS, MS (NEUROSURGERY)  
