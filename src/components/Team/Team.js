@@ -12,6 +12,7 @@ import doctor10 from "../../assets/Dr Tarafder Runa Liala.jpeg";
 import doctor11 from "../../assets/Prof Shahina Subhan Mitu.jpg";
 import doctor12 from "../../assets/Prof,Dr AK Akhteruzzaman.jpeg";
 import doctor13 from "../../assets/Prof. Masud Iqbal.jpeg";
+import doctor14 from "../../assets/Mosharaaf.jpg";
 
 const Team = () => {
   return (
@@ -360,6 +361,39 @@ const Team = () => {
               <p>
                 National Institute of Kidney Diseases & Urology (NIKDU) ·
                 Nephrology MBBS, MD(Nephrology)
+              </p>
+              {/* <p>
+              MBBS, MS (NEUROSURGERY)  
+               
+               Specialist in Brain & Spine Surgeon.
+              </p> */}
+            </div>
+          </div>
+          <div
+            className="card  border     "
+            data-aos="flip-left"
+            data-aos-easing="ease-out-cubic"
+            data-aos-duration="2000"
+            style={{ height: "400px" }}
+          >
+            <figure className="">
+              <img
+                src={doctor14}
+                alt="Shoes"
+                className="  p-4  "
+                style={{ height: "250px", borderRadius: "25px" }}
+              />
+            </figure>
+            <div className=" items-center text-center text-white ">
+              <h2 className=" text-center font-bold">
+                Professor Dr. AKM Mosharraf Hossain
+              </h2>
+
+              <p>
+                MBBS, FCCP (USA), FRCP, PhD, FCPS Fellow Pulmonology Sleep &
+                MICU (S'pore) Medicine, Pulmonologist & Sleep Medicine
+                Specialist Chairman, Department of Respiratory Medicine
+                Bangabandhu Sheikh Mujib Medical University, Dhaka
               </p>
               {/* <p>
               MBBS, MS (NEUROSURGERY)  
