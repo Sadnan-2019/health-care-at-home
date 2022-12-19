@@ -8,6 +8,9 @@ import doctor6 from "../../assets/zakiahossain.jpeg";
 import doctor7 from "../../assets/kibria.jpg";
 import doctor8 from "../../assets/Dr Sarwar OPHTHALMOLOGIST.jpg";
 import doctor9 from "../../assets/Qazi Musshtaq.jpg";
+import doctor10 from "../../assets/Dr Tarafder Runa Liala.jpeg";
+import doctor11 from "../../assets/Prof Shahina Subhan Mitu.jpg";
+import doctor12 from "../../assets/Prof,Dr AK Akhteruzzaman.jpeg";
 
 const Team = () => {
   return (
@@ -236,6 +239,98 @@ const Team = () => {
                 Cancer Hospital Mumbai, India St. Lukes Medical Centre, Manila,
                 Philippines Cancer Specialist Director, National Institute of
                 Cancer Research & Hospital Mohakhali, Dhaka
+              </p>
+              {/* <p>
+              MBBS, MS (NEUROSURGERY)  
+               
+               Specialist in Brain & Spine Surgeon.
+              </p> */}
+            </div>
+          </div>
+          <div
+            className="card  border     "
+            data-aos="flip-left"
+            data-aos-easing="ease-out-cubic"
+            data-aos-duration="2000"
+            style={{ height: "400px" }}
+          >
+            <figure className="">
+              <img
+                src={doctor10}
+                alt="Shoes"
+                className="  p-4  "
+                style={{ height: "250px", borderRadius: "25px" }}
+              />
+            </figure>
+            <div className=" items-center text-center text-white ">
+              <h2 className=" text-center font-bold">
+                Associate Prof. Dr Tarafdar Runa Laila
+              </h2>
+
+              <p>
+                MBBS (DMC), FCPS (OBGYN), MS (OBGYN), Training on Infertility
+                (India) Gynecology, Obstetrics Specialist & Surgeon Bangabandhu
+                Sheikh Mujib Medical University Hospital
+              </p>
+              {/* <p>
+              MBBS, MS (NEUROSURGERY)  
+               
+               Specialist in Brain & Spine Surgeon.
+              </p> */}
+            </div>
+          </div>
+          <div
+            className="card  border     "
+            data-aos="flip-left"
+            data-aos-easing="ease-out-cubic"
+            data-aos-duration="2000"
+            style={{ height: "400px" }}
+          >
+            <figure className="">
+              <img
+                src={doctor11}
+                alt="Shoes"
+                className="  p-4  "
+                style={{ height: "250px", borderRadius: "25px" }}
+              />
+            </figure>
+            <div className=" items-center text-center text-white ">
+              <h2 className=" text-center font-bold">
+                Prof Shahina Subhan Mitu
+              </h2>
+
+              <p>Director, Centre for Medical Education (CME)</p>
+              {/* <p>
+              MBBS, MS (NEUROSURGERY)  
+               
+               Specialist in Brain & Spine Surgeon.
+              </p> */}
+            </div>
+          </div>
+          <div
+            className="card  border     "
+            data-aos="flip-left"
+            data-aos-easing="ease-out-cubic"
+            data-aos-duration="2000"
+            style={{ height: "400px" }}
+          >
+            <figure className="">
+              <img
+                src={doctor12}
+                alt="Shoes"
+                className="  p-4  "
+                style={{ height: "250px", borderRadius: "25px" }}
+              />
+            </figure>
+            <div className=" items-center text-center text-white p-4">
+              <h2 className=" text-center font-bold">
+              Prof,Dr AK Akhteruzzaman
+              </h2>
+
+              <p>
+                Bangabandhu Sheikh Mujib Medical University |
+                BSMMU · Department of Anaesthesia, Intensive Care & Pain
+                Medicine MBBS DA MD
               </p>
               {/* <p>
               MBBS, MS (NEUROSURGERY)  

@@ -138,12 +138,12 @@ const Navbar = () => {
   );
 
   return (
-    <div className="sticky top-0 z-50 ">
+    <div className="sticky top-0 z-50 header ">
 <Nav/>
-<div className="px-4 md:pl-10  lg:px-14   " style={{ backgroundColor: "#453364" }}>
+<div className="px-4 md:pl-10  lg:px-14 header  " style={{ backgroundColor: "#453364" }}>
       {/* Navbar start source code from Daisy UI */}
      
-      <div className="navbar   ">
+      <div className="navbar  header ">
         {/* Navbar left portion */}
         <div className="">
           <div className="dropdown">
