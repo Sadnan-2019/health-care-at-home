@@ -207,7 +207,7 @@ const Team = () => {
 
               <p>
                 Consultant Ophthalmologist, Cataract, Medical Retina &
-                Oculoplasty Specialist
+                Oculoplasty Specialist, Bangladesh Eye Hospital. 
               </p>
               {/* <p>
               MBBS, MS (NEUROSURGERY)  
@@ -239,8 +239,7 @@ const Team = () => {
               <p>
                 MBBS (DMC), M.Phil (BSMMU) Higher Training at: Tata Memorial
                 Cancer Hospital Mumbai, India St. Lukes Medical Centre, Manila,
-                Philippines Cancer Specialist Director, National Institute of
-                Cancer Research & Hospital Mohakhali, Dhaka
+                Philippines Cancer Specialist Director,Sr Consultent Labaid Cancer Hospital 
               </p>
               {/* <p>
               MBBS, MS (NEUROSURGERY)  
