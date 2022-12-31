@@ -140,32 +140,32 @@ const Footer = () => {
                   </a>
                 </li>
 
-                <li>
+                {/* <li>
                   <a
                     class="text-white transition hover:text-white/75"
                     href="/"
                   >
                     Conference Notes
                   </a>
-                </li>
+                </li> */}
 
-                <li>
+                {/* <li>
                   <a
                     class="text-white transition hover:text-white/75"
                     href="/"
                   >
                     Forum
                   </a>
-                </li>
+                </li> */}
 
-                <li>
+                {/* <li>
                   <a
                     class="text-white transition hover:text-white/75"
                     href="/"
                   >
                     Downloads
                   </a>
-                </li>
+                </li> */}
 
                 <li>
                   <a
@@ -193,15 +193,15 @@ const Footer = () => {
                   </a>
                 </li>
 
-                <li>
+                {/* <li>
                   <a
                     class="text-white transition hover:text-white/75"
                     href="/"
                   >
                     Support
                   </a>
-                </li>
-
+                </li> */}
+{/* 
                 <li>
                   <a
                     class="flex group justify-center gap-1.5 sm:justify-start"
@@ -216,7 +216,7 @@ const Footer = () => {
                       <span class="relative inline-flex w-2 h-2 bg-blue-800 rounded-full"></span>
                     </span>
                   </a>
-                </li>
+                </li> */}
               </ul>
             </nav>
           </div>
@@ -256,7 +256,7 @@ const Footer = () => {
 
         <div class="pt-6 mt-16 border-t border-gray-100 sm:justify-between sm:items-center sm:flex">
           <p class="text-sm text-center text-white sm:text-left">
-            Copyright &copy; 2022. All rights reserved.
+            Copyright &copy; 2022. All rights reserved HCAH.
           </p>
 
           <ul class="flex justify-center gap-6 mt-4 sm:mt-0 sm:justify-start">
