@@ -262,12 +262,12 @@ const Footer = () => {
           <ul class="flex justify-center gap-6 mt-4 sm:mt-0 sm:justify-start">
             <li>
               <a
-                href="/"
+                href="https://www.facebook.com/hcahbd"
                 rel="noopener noreferrer"
                 target="_blank"
                 class="text-primary transition hover:text-blue-800"
               >
-                <span class="sr-only">Facebook</span>
+                <span class="sr-only text-white">Facebook</span>
                 <svg
                   class="w-6 h-6 text-white"
                   fill="currentColor"

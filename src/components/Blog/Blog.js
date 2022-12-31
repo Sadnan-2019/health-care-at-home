@@ -3,7 +3,13 @@ import React from "react";
 const Blog = () => {
   return (
     <div>
-      <h2 className="text-center text-4xl font bold py-6 "> Our Blog </h2>
+      {/* <h2 className="text-center text-4xl font bold py-6 "> </h2> */}
+      <h2
+            className="text-3xl text-center py-6  font-bold poppins-b sm:text-4xl"
+            style={{ color: "#453364" }}
+          >
+            Our Blog 
+          </h2>
 
       <div className=" grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-2  gap-4 px-12">
         <div class="card  bg-gradient-to-r from-[#486038] to-[#38235D] shadow-xl  text-white mb-5 mt-12">
