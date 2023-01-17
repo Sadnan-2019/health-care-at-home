@@ -1,5 +1,10 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import { BsFacebook } from "react-icons/bs";
+import { RxLinkedinLogo } from "react-icons/rx";
+import { AiFillTwitterCircle } from "react-icons/ai";
+import { FaWhatsappSquare } from "react-icons/fa";
+
 
 const Blog = () => {
   return (
@@ -56,7 +61,15 @@ const Blog = () => {
               him. Rafsan Zaman, the only child, lives in America with his wife
               and children in order to earn a living.
             </p>
+           <div className="flex gap-3    mt-5">
+           < BsFacebook  className="lg:text-2xl text-[20px] " style={{  color:"white" }}/>
+            < RxLinkedinLogo  className="lg:text-2xl text-[20px] " style={{  color:"white" }}/>
+            < AiFillTwitterCircle  className="lg:text-2xl text-[20px] " style={{  color:"white" }}/>
+            < FaWhatsappSquare  className="lg:text-2xl text-[20px] " style={{  color:"white" }}/>
+           </div>
             <div className="py-2 px-5   flex justify-end">
+
+           
               <Link to="/blogtwo">
                 <button
                   htmlFor="my-modal-6"
