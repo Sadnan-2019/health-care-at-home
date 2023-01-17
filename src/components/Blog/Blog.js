@@ -33,6 +33,12 @@ const Blog = () => {
               আগের মতো সাড়া দেয় না। ওদিকে ছেলেও সব সময় মায়ের স্বাস্থ্য নিয়ে
               দুঃশ্চিন্তা করেন।
             </p>
+            <div className="flex gap-3    mt-5">
+           < BsFacebook  className="lg:text-2xl text-[20px] " style={{  color:"white" }}/>
+            < RxLinkedinLogo  className="lg:text-2xl text-[20px] " style={{  color:"white" }}/>
+            < AiFillTwitterCircle  className="lg:text-2xl text-[20px] " style={{  color:"white" }}/>
+            < FaWhatsappSquare  className="lg:text-2xl text-[20px] " style={{  color:"white" }}/>
+           </div>
             <div className="py-2 px-5   flex justify-end">
               <Link to="/blogone">
                 <button
@@ -98,7 +104,14 @@ const Blog = () => {
               have to depend on the private sector for best-possible healthcare
               facilities.
             </p>
+            <div className="flex gap-3    mt-5">
+           < BsFacebook  className="lg:text-2xl text-[20px] " style={{  color:"white" }}/>
+            < RxLinkedinLogo  className="lg:text-2xl text-[20px] " style={{  color:"white" }}/>
+            < AiFillTwitterCircle  className="lg:text-2xl text-[20px] " style={{  color:"white" }}/>
+            < FaWhatsappSquare  className="lg:text-2xl text-[20px] " style={{  color:"white" }}/>
+           </div> 
           </div>
+          
         </div>
         <div class="card  bg-gradient-to-r from-[#486038] to-[#38235D] shadow-xl  text-white mb-5 mt-12">
           <div class="card-body">
@@ -114,6 +127,12 @@ const Blog = () => {
               healthcare has been well appreciated and accepted in most
               countries, including Bangladesh.
             </p>
+            <div className="flex gap-3    mt-5">
+           < BsFacebook  className="lg:text-2xl text-[20px] " style={{  color:"white" }}/>
+            < RxLinkedinLogo  className="lg:text-2xl text-[20px] " style={{  color:"white" }}/>
+            < AiFillTwitterCircle  className="lg:text-2xl text-[20px] " style={{  color:"white" }}/>
+            < FaWhatsappSquare  className="lg:text-2xl text-[20px] " style={{  color:"white" }}/>
+           </div>
           </div>
         </div>
       </div>
@@ -135,6 +154,12 @@ const Blog = () => {
               professionals, many of whom are affiliated to renowned medical
               institutions.
             </p>
+            <div className="flex gap-3    mt-5">
+           < BsFacebook  className="lg:text-2xl text-[20px] " style={{  color:"white" }}/>
+            < RxLinkedinLogo  className="lg:text-2xl text-[20px] " style={{  color:"white" }}/>
+            < AiFillTwitterCircle  className="lg:text-2xl text-[20px] " style={{  color:"white" }}/>
+            < FaWhatsappSquare  className="lg:text-2xl text-[20px] " style={{  color:"white" }}/>
+           </div>
           </div>
         </div>
         <div class="card  bg-gradient-to-r from-[#486038] to-[#38235D] shadow-xl  text-white mb-5 mt-12">
@@ -155,6 +180,12 @@ const Blog = () => {
               There are huge benefits in availing of services from companies
               like HCAH
             </p>
+            <div className="flex gap-3    mt-5">
+           < BsFacebook  className="lg:text-2xl text-[20px] " style={{  color:"white" }}/>
+            < RxLinkedinLogo  className="lg:text-2xl text-[20px] " style={{  color:"white" }}/>
+            < AiFillTwitterCircle  className="lg:text-2xl text-[20px] " style={{  color:"white" }}/>
+            < FaWhatsappSquare  className="lg:text-2xl text-[20px] " style={{  color:"white" }}/>
+           </div>
           </div>
         </div>
       </div>
@@ -171,6 +202,12 @@ const Blog = () => {
               Dhaka University, to create skilled manpower to cater to the
               growing needs of the healthcare industry in Bangladesh.
             </p>
+            <div className="flex gap-3    mt-5">
+           < BsFacebook  className="lg:text-2xl text-[20px] " style={{  color:"white" }}/>
+            < RxLinkedinLogo  className="lg:text-2xl text-[20px] " style={{  color:"white" }}/>
+            < AiFillTwitterCircle  className="lg:text-2xl text-[20px] " style={{  color:"white" }}/>
+            < FaWhatsappSquare  className="lg:text-2xl text-[20px] " style={{  color:"white" }}/>
+           </div>
           </div>
         </div>
         <div class="card  bg-gradient-to-r from-[#486038] to-[#38235D] shadow-xl  text-white mb-5 mt-12">
@@ -186,6 +223,12 @@ const Blog = () => {
               logistical support, can be solved through the operation module
               adopted by HCAH
             </p>
+            <div className="flex gap-3    mt-5">
+           < BsFacebook  className="lg:text-2xl text-[20px] " style={{  color:"white" }}/>
+            < RxLinkedinLogo  className="lg:text-2xl text-[20px] " style={{  color:"white" }}/>
+            < AiFillTwitterCircle  className="lg:text-2xl text-[20px] " style={{  color:"white" }}/>
+            < FaWhatsappSquare  className="lg:text-2xl text-[20px] " style={{  color:"white" }}/>
+           </div>
           </div>
         </div>
       </div>
