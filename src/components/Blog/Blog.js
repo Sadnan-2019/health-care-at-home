@@ -1,15 +1,75 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const Blog = () => {
   return (
     <div>
       {/* <h2 className="text-center text-4xl font bold py-6 "> </h2> */}
       <h2
-            className="text-3xl text-center py-6  font-bold poppins-b sm:text-4xl"
-            style={{ color: "#453364" }}
-          >
-            Our Blog 
-          </h2>
+        className="text-3xl text-center py-6  font-bold poppins-b sm:text-4xl"
+        style={{ color: "#453364" }}
+      >
+        Our Blog
+      </h2>
+
+      <div className=" grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-2  gap-4 px-12">
+        <div class="card  bg-gradient-to-r from-[#486038] to-[#38235D] shadow-xl  text-white mb-5 mt-12">
+          <img
+            src="https://cdn.jagonews24.com/media/imgAllNew/BG/2019November/dd-20230110120818.jpg"
+            alt=""
+          />
+          <div class="card-body">
+            <h2 class="card-title">রোগীর দোরগোড়ায় স্বাস্থ্যসেবা</h2>
+            <p>
+              ষাটোর্ধ্ব জাহানারা বেগম থাকেন গুলশানে। বিশাল বাসায় সারাদিন একাই
+              থাকতে হয় তাকে। অবশ্য তাকে সহায়তা করার জন্য আছেন কয়েকজন গৃহকর্মী।
+              একমাত্র সন্তান রাফসান জামান জীবিকার তাগিদে স্ত্রী সন্তান নিয়ে
+              থাকেন যুক্তরাষ্ট্রে। ইদানিং বয়সের ভারে জাহানারা বেগমের শরীর আর
+              আগের মতো সাড়া দেয় না। ওদিকে ছেলেও সব সময় মায়ের স্বাস্থ্য নিয়ে
+              দুঃশ্চিন্তা করেন।
+            </p>
+            <div className="py-2 px-5   flex justify-end">
+              <Link to="/blogone">
+                <button
+                  htmlFor="my-modal-6"
+                  className="btn btn-sm modal-button mt-3 text-[white] bg-gradient-to-r from-[#303640] to-[#103264]   animate-pulse    "
+                  style={{ backgroundColor: "#453364" }}
+                >
+                  Read More{" "}
+                </button>
+              </Link>
+            </div>
+          </div>
+        </div>
+        <div class="card  bg-gradient-to-r from-[#486038] to-[#38235D] shadow-xl  text-white mb-5 mt-12">
+          <img
+            src="https://cdn.jagonews24.com/media/imgAllNew/BG/2019November/dd-20230110120818.jpg"
+            alt=""
+          />
+          <div class="card-body">
+            <h2 class="card-title">
+              Healthcare services at your doorstep riding on power of technology
+            </h2>
+            <p>
+              Jahanara Begum (65) lives in Gulshan. She has to stay alone all
+              day in a big house. However, there are some domestic helps to help
+              him. Rafsan Zaman, the only child, lives in America with his wife
+              and children in order to earn a living.
+            </p>
+            <div className="py-2 px-5   flex justify-end">
+              <Link to="/blogtwo">
+                <button
+                  htmlFor="my-modal-6"
+                  className="btn btn-sm modal-button mt-3 text-[white] bg-gradient-to-r from-[#303640] to-[#103264]   animate-pulse    "
+                  style={{ backgroundColor: "#453364" }}
+                >
+                  Read More{" "}
+                </button>
+              </Link>
+            </div>
+          </div>
+        </div>
+      </div>
 
       <div className=" grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-2  gap-4 px-12">
         <div class="card  bg-gradient-to-r from-[#486038] to-[#38235D] shadow-xl  text-white mb-5 mt-12">
