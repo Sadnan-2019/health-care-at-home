@@ -32,7 +32,7 @@ function App() {
     <div className=" ">
       
       <Navbar></Navbar>
-      <div className="toast toast-end toast-middle">
+      {/* <div className="toast toast-end toast-middle">
         <div className="alert alert-info">
           <div>
             <span>New mail arrived.</span>
@@ -43,8 +43,8 @@ function App() {
             <span>Message sent successfully.</span>
           </div>
         </div>
-      </div>
-      <div class="fixed bottom-0 right-0 m-6 p-4 bg-red-500 text-white rounded-lg shadow-md" role="alert">
+      </div> */}
+      {/* <div class=" fixed w-full bottom-0 right-0 m-6 p-4 bg-red-500 text-white rounded-lg shadow-md" role="alert">
   <div class="flex">
     <div class="py-1">
       <svg class="fill-current h-6 w-6 text-white mr-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
@@ -60,7 +60,7 @@ function App() {
     onclick="this.parentElement.style.display='none'">
     Close
   </button>
-</div>
+</div> */}
 
       
       <Routes>
