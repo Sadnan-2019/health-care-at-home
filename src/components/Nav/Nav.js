@@ -90,7 +90,7 @@ const Nav = () => {
         {/* <h1 class="animate__animated animate__backInRight">An animated element</h1> */}
 
       <div class="justify-center align-items-center  flex w-72  	 py-8  	bg-red-500   text-white rounded-lg shadow-md"  >
-  <div class=" ">
+  <div class="flex ">
    
     <div className="px-3">
       <p class="font-bold">Error</p>
