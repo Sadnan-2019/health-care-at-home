@@ -150,23 +150,7 @@ const Navbar = () => {
   return (
     <div className="sticky top-0 z-50 header ">
       <Nav />
-      <div class="   w-32 justify-center	  	  bg-red-500 text-white rounded-lg shadow-md"  >
-  <div class="flex">
-    <div class="py-1">
-      <svg class="fill-current h-6 w-6 text-white mr-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
-        <path d="M2.93 17.07A10 10 0 1 1 17.07 2.93 10 10 0 0 1 2.93 17.07zm12.73-1.41A8 8 0 1 0 4.34 4.34a8 8 0 0 0 11.32 11.32zM9 11V9h2v6H9v-4z"/>
-      </svg>
-    </div>
-    <div>
-      <p class="font-bold">Error</p>
-      <p class="text-sm">An error has occurred, please try again later.</p>
-    </div>
-  </div>
-  <button class="text-white font-bold absolute top-0 bottom-0 right-0 px-4 py-3" 
-    onclick="this.parentElement.style.display='none'">
-    Close
-  </button>
-</div>
+      
       <div
         className="px-4 md:pl-10  lg:px-14 header  flex justify-center items-center gap-56 lg:gap-28 "
         style={{ backgroundColor: "#453364" }}
