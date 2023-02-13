@@ -4,6 +4,7 @@ import Nav from "../Nav/Nav";
 import { BsWhatsapp } from "react-icons/bs";
 import "./Navbar.css";
 
+
 const Navbar = () => {
   const active =
     "text-white mx-1 font-medium border-b-2 border-white-900 pb-1 md:text-white-900 ";

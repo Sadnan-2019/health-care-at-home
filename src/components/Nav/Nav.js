@@ -5,8 +5,17 @@ import { FcAlarmClock } from "react-icons/fc";
 import { FaPhoneVolume } from "react-icons/fa";
 import { BiLocationPlus } from "react-icons/bi";
 import HCAHBD from "../../assets/HCAHBD.png"
+import { useState } from "react";
+import 'animate.css';
+
+
+
 
 const Nav = () => {
+
+  const [addclose, setClose] = useState(true);
+
+  
   return (
    <div className="sticky top-0 z-50 ">
 
@@ -76,25 +85,37 @@ const Nav = () => {
      </div>
       
       
-     <div className="grid-col-12 px-10 py-2">
-      <div class="  flex  justify-center 	  	  bg-red-500 text-white rounded-lg shadow-md"  >
-  <div class="flex">
-    <div class="py-1">
-      <svg class="fill-current h-6 w-6 text-white mr-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
-        <path d="M2.93 17.07A10 10 0 1 1 17.07 2.93 10 10 0 0 1 2.93 17.07zm12.73-1.41A8 8 0 1 0 4.34 4.34a8 8 0 0 0 11.32 11.32zM9 11V9h2v6H9v-4z"/>
-      </svg>
-    </div>
-    <div>
+    {addclose? (
+      <div className=" grid-cols-1 lg:grid-cols-2 px-72   animate__animated animate__backInRight      ">
+        {/* <h1 class="animate__animated animate__backInRight">An animated element</h1> */}
+
+      <div class="     	 py-8  	bg-red-500   text-white rounded-lg shadow-md"  >
+  <div class="flex justify-between ">
+   
+    <div className="px-3">
       <p class="font-bold">Error</p>
       <p class="text-sm">An error has occurred, please try again later.</p>
     </div>
-  </div>
-  <button class="text-white font-bold absolute top-0 bottom-0 right-0 px-4 py-3" 
-    onclick="this.parentElement.style.display='none'">
+    
+    
+  <div className="px-3">
+  <button type="button" class="text-white font-bold   top-0 bottom-0 right-0  
+  
+  " onClick={() => {
+    setClose(false);
+    // setClose(!true);
+    // setaddcloseRemove(true)
+  }}
+     >
     Close
   </button>
+  </div>
+  </div>
+  
 </div>
+
       </div>
+    ):null}
       
     
     </div>

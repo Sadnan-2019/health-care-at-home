@@ -31,7 +31,7 @@ function App() {
   return (
     <div className=" ">
       
-      <Navbar></Navbar>
+      <Navbar className=" "></Navbar>
       {/* <div className="toast toast-end toast-middle">
         <div className="alert alert-info">
           <div>
