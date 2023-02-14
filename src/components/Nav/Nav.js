@@ -86,14 +86,14 @@ const Nav = () => {
       
       
     {addclose? (
-      <div className=" grid-cols-1 lg:grid-cols-1 px-72   animate__animated animate__backInRight      ">
+      <div className=" grid-cols-1 lg:grid-cols-1  lg:px-72   animate__animated animate__backInRight      ">
         {/* <h1 class="animate__animated animate__backInRight">An animated element</h1> */}
 
-      <div class="justify-center align-items-center  flex w-72  	 py-8  	bg-red-500   text-white rounded-lg shadow-md"  >
-  <div class="flex ">
+      <div class="     	 py-8  	bg-red-500   text-white rounded-lg shadow-md"  >
+  <div class="flex justify-evenly ">
    
     <div className="px-3">
-      <p class="font-bold">Error</p>
+      <p class="font-bold">Our Payment</p>
       <p class="text-sm">An error has occurred, please try again later.</p>
     </div>
     

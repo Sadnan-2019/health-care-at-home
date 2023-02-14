@@ -153,7 +153,7 @@ const Navbar = () => {
       <Nav />
       
       <div
-        className="px-4 md:pl-10  lg:px-14 header  flex justify-center items-center gap-56 lg:gap-28 "
+        className="px-4 md:pl-10  lg:px-14 header flex justify-center items-center gap-56 lg:gap-28 "
         style={{ backgroundColor: "#453364" }}
       >
         {/* Navbar start source code from Daisy UI */}
