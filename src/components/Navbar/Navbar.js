@@ -9,7 +9,7 @@ const Navbar = () => {
   const active =
     "text-white mx-1 font-medium border-b-2 border-white-900 pb-1 md:text-white-900 ";
   const normal =
-    "  mx-1 text-white-600 font-medium font-bold focus:text-white p-0 lg:text-white   ";
+    "   text-white-600 font-medium font-bold focus:text-white p-0 lg:text-white   ";
 
   const navItem = (
     <>
@@ -84,6 +84,14 @@ const Navbar = () => {
           to="/medical-equipment"
         >
           Medical Equipment
+        </NavLink>
+      </li>
+      <li className="nav-item p-2">
+        <NavLink
+          className={({ isActive }) => (isActive ? `${active}` : `${normal}`)}
+          to="/medical-equipment"
+        >
+          Payment
         </NavLink>
       </li>
 

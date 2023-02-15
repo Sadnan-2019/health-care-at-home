@@ -85,10 +85,9 @@ const Nav = () => {
      </div>
       
       
-    {addclose? (
+    {/* {addclose? (
       <div className=" grid-cols-1 lg:grid-cols-1  lg:px-72   animate__animated animate__backInRight      ">
-        {/* <h1 class="animate__animated animate__backInRight">An animated element</h1> */}
-
+ 
       <div class="     	 py-8  	bg-red-500   text-white rounded-lg shadow-md"  >
   <div class="flex justify-evenly ">
    
@@ -103,8 +102,7 @@ const Nav = () => {
   
   " onClick={() => {
     setClose(false);
-    // setClose(!true);
-    // setaddcloseRemove(true)
+ 
   }}
      >
     Close
@@ -115,7 +113,7 @@ const Nav = () => {
 </div>
 
       </div>
-    ):null}
+    ):null} */}
       
     
     </div>
