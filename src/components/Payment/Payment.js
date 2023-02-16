@@ -45,7 +45,7 @@ Bkash Merchant Payment      </h2>
         className="text-3xl text-center py-6  font-bold poppins-b sm:text-4xl"
         style={{ color: "white" }}
       >
-Electronic Money Transfer     </h2>
+Electronic Fund  Transfer     </h2>
           </div>
           
         </div>
@@ -57,6 +57,17 @@ Electronic Money Transfer     </h2>
         style={{ color: "white" }}
       >
 Cash Payment   </h2>
+          </div>
+          
+        </div>
+        <div class="card animate__animated animate__backInLeft bg-gradient-to-r from-[#486038] to-[#38235D] shadow-xl  text-white mb-5 mt-12">
+          <div class="card-body">
+             <img src={CASH} className="w-92 h-32   rounded-md	" alt=''/>
+             <h2
+        className="text-3xl text-center py-6  font-bold poppins-b sm:text-4xl"
+        style={{ color: "white" }}
+      >
+Deposit To Account  </h2>
           </div>
           
         </div>
