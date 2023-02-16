@@ -22,6 +22,7 @@ import Blog from "./components/Blog/Blog";
 import FourZeroFour from "./components/FourZeroFour/FourZeroFour";
 import Blogone from "./components/Blog/Blogone";
 import Blogtwo from "./components/Blog/Blogtwo";
+import Payment from "./components/Payment/Payment";
 
 
  
@@ -74,6 +75,7 @@ function App() {
         <Route path="/nanycare" element={<Nanycare />}></Route>
         <Route path="/companion" element={<Companionship />}></Route>
         <Route path="/medical-equipment" element={<Medicalequipment />}></Route>
+        <Route path="/payment" element={<Payment />}></Route>
         <Route path="/blog" element={<Blog />}></Route>
         <Route path="/blogone" element={<Blogone />}></Route>
         <Route path="/blogtwo" element={<Blogtwo />}></Route>
