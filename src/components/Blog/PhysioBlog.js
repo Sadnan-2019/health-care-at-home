@@ -152,7 +152,7 @@ const PhysioBlog = () => {
               <img
                 src={cardiac1}
                 alt=""
-                className="rounded-xl     w-96 p-2  mx-auto"
+                className="rounded-xl animate__animated animate__backInLeft     w-96 p-2  mx-auto"
               />
               <div class="card-body">
                 <h2 class="card-title">
