@@ -70,6 +70,10 @@ const CardiacSymptomsCauses = () => {
           </div>
         </div>
         <div className="  grid grid-cols-1 lg:grid-cols-2 gap-10 mx-10   items-center   px-10  ">
+
+        <div className=" ">
+            <img className="py-5  px-10 rounded-xl  	" src={heart3} alt="" />
+          </div>
           <div className="py-10">
             <h2 className="text-3xl font-bold ">
               What is the most common cause of sudden cardiac death?
@@ -110,9 +114,7 @@ const CardiacSymptomsCauses = () => {
               </p>
             </div>
           </div>
-          <div className=" ">
-            <img className="py-5  px-10 rounded-xl  	" src={heart3} alt="" />
-          </div>
+         
         </div>
       </div>
     </div>
