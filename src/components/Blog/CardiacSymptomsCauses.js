@@ -2,6 +2,7 @@ import React from "react";
 import "animate.css";
 import heart1 from "../../assets/heart1.jpg";
 import heart2 from "../../assets/sudden-cardiac-arrest.jpg";
+import heart3 from "../../assets/sudden-cardiac-arrest2.png";
 
 const CardiacSymptomsCauses = () => {
   return (
@@ -62,12 +63,55 @@ const CardiacSymptomsCauses = () => {
 
               <li>Congenital (since birth) heart conditions.</li>
               <li>Extreme physical activity or blood loss.</li>
-
-              
             </div>
           </div>
           <div className=" ">
             <img className="py-5  px-10 rounded-xl  	" src={heart2} alt="" />
+          </div>
+        </div>
+        <div className="  grid grid-cols-1 lg:grid-cols-2 gap-10 mx-10   items-center   px-10  ">
+          <div className="py-10">
+            <h2 className="text-3xl font-bold ">
+              What is the most common cause of sudden cardiac death?
+            </h2>
+            <p className="text-1xl font-bold">
+              Coronary artery disease causes most cases (80%) of sudden cardiac
+              death. In people who are younger, congenital (since birth) heart
+              defects or genetic abnormalities in their heart’s electrical
+              system are often the cause. In people age 35 and older, the cause
+              is more often related to coronary artery disease.
+            </p>
+            <p className="text-1xl font-bold">
+              Other sudden cardiac death causes include cardiomyopathy from: :
+            </p>
+            <div className="text-1xl font-bold  ">
+              <li>Alcohol use disorder.</li>
+              <li>Obesity.</li>
+
+              <li>
+                Genetic disorders of your heart muscle, including hypertrophic
+                cardiomyopathy and arrhythmogenic cardiomyopathy.
+              </li>
+             
+              <p className="mt-2">
+                Sudden cardiac death in athletes is rare (about 1 in 100,000 to
+                one in 300,000 athletes). Most professional athletic programs
+                will screen their prospective athletes for the most common
+                causes of sudden cardiac death in that population, which in the
+                United States is hypertrophic cardiomyopathy. It also happens
+                more often in people AMAB.
+              </p>
+              <p className="mt-2">
+              In people who are younger, most
+                sudden cardiac death occurs while playing team sports. In
+                athletes age 35 and older, it happens more often while running
+                or jogging. About 1 in 15,000 joggers and 1 in 50,000 marathon
+                runners have sudden cardiac death.
+              </p>
+            </div>
+          </div>
+          <div className=" ">
+            <img className="py-5  px-10 rounded-xl  	" src={heart3} alt="" />
           </div>
         </div>
       </div>
