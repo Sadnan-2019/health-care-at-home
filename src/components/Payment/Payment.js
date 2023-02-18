@@ -7,6 +7,7 @@ import { FaWhatsappSquare } from "react-icons/fa";
 import bkash from "../../assets/bkash.png"
 import EFT from "../../assets/EFT.webp"
 import CASH from "../../assets/CASH.jpg"
+import deposit from "../../assets/deposit.jpg"
 import 'animate.css';
  
 
@@ -62,7 +63,7 @@ Cash Payment   </h2>
         </div>
         <div class="card animate__animated animate__backInLeft bg-gradient-to-r from-[#486038] to-[#38235D] shadow-xl  text-white mb-5 mt-12">
           <div class="card-body">
-             <img src={CASH} className="w-92 h-32   rounded-md	" alt=''/>
+             <img src={deposit} className="w-92 h-32   rounded-md	" alt=''/>
              <h2
         className="text-3xl text-center py-6  font-bold poppins-b sm:text-4xl"
         style={{ color: "white" }}

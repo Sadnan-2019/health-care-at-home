@@ -4,6 +4,7 @@ import { BsFacebook } from "react-icons/bs";
 import { RxLinkedinLogo } from "react-icons/rx";
 import { AiFillTwitterCircle } from "react-icons/ai";
 import { FaWhatsappSquare } from "react-icons/fa";
+import PhysioBlog from "./PhysioBlog";
 
 
 const Blog = () => {
@@ -16,6 +17,7 @@ const Blog = () => {
       >
         Our Blog
       </h2>
+      <PhysioBlog></PhysioBlog>
 
       <div className=" grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-2  gap-4 px-12">
         <div class="card  bg-gradient-to-r from-[#486038] to-[#38235D] shadow-xl  text-white mb-5 mt-12">
