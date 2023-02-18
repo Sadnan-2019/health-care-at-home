@@ -1,13 +1,13 @@
 import React from "react";
 import cardiac1 from "../../assets/blogcardicac.jpeg";
-import weightloss from "../../assets/waitloss.png";
-import doctor3 from "../../assets/ziauddin.jpg";
-import doctor4 from "../../assets/anwar.jpg";
+// import weightloss from "../../assets/waitloss.png";
+// import doctor3 from "../../assets/ziauddin.jpg";
+// import doctor4 from "../../assets/anwar.jpg";
 import { BsFacebook } from "react-icons/bs";
 import { RxLinkedinLogo } from "react-icons/rx";
 import { AiFillTwitterCircle } from "react-icons/ai";
 import { FaWhatsappSquare } from "react-icons/fa";
-import { AiOutlineCaretRight } from "react-icons/ai";
+// import { AiOutlineCaretRight } from "react-icons/ai";
 import "animate.css";
 import { Link } from "react-router-dom";
 
@@ -152,6 +152,7 @@ const PhysioBlog = () => {
               <img
                 src={cardiac1}
                 alt=""
+                className="rounded-xl     w-96 p-2  mx-auto"
               />
               <div class="card-body">
                 <h2 class="card-title">
