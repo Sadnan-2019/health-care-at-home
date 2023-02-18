@@ -6,9 +6,7 @@ const CardiacSymptomsCauses = () => {
   return (
     <div>
       <div className=" py-5">
-        <p className="text-3xl font-bold    px-10">
-          What are the symptoms?{" "}
-        </p>
+        <p className="text-3xl font-bold    px-10">What are the symptoms? </p>
         <p className="text-xl      px-10">Healthcare at Home</p>
         <p className="text-xl      px-10">09 January 2023, 21:55</p>
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-10    justify-items-center	  ">
@@ -21,28 +19,25 @@ const CardiacSymptomsCauses = () => {
               In more than half of the cases, sudden cardiac arrest happens
               without prior symptoms.
             </p>
-            <p className="text-1xl font-bold">Sudden cardiac arrest symptoms may include:</p>
-       <div className="text-1xl font-bold  ">    
-        <li>Fainting (losing consciousness).</li>
-            <li>Racing heartbeat.</li>
-            <li>Chest pain.</li>
-            <li>Dizziness.</li>
-            <li>Lightheadedness.</li>
-            <li>Shortness of breath.</li>
-            <li>Feeling sick to your stomach and throwing up.</li>
-            <li>This means that a potentially dangerous heart rhythm problem has started, which is why these are also sudden cardiac death symptoms.
-</li></div>
+            <p className="text-1xl font-bold">
+              Sudden cardiac arrest symptoms may include:
+            </p>
+            <div className="text-1xl font-bold  ">
+              <li>Fainting (losing consciousness).</li>
+              <li>Racing heartbeat.</li>
+              <li>Chest pain.</li>
+              <li>Dizziness.</li>
+              <li>Lightheadedness.</li>
+              <li>Shortness of breath.</li>
+              <li>Feeling sick to your stomach and throwing up.</li>
+              
+              <p className="text-1xl font-bold mt-2 ">
+                This means that a potentially dangerous heart rhythm problem has
+                started, which is why these are also sudden cardiac death
+                symptoms.
+              </p>
+            </div>
           </div>
-          
-
-
-
-
-
-
-
-
-
         </div>
         <p className="px-10 py-2">
           Jahanara Begum (65) lives in Gulshan. She has to stay alone all day in
