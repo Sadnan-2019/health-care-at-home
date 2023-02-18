@@ -208,7 +208,8 @@ const PhysioBlog = () => {
                   </Link>
                 </div>
                 <div className="py-2        ">
-                  <Link to="/blogone">
+                  <Link to="/management-treatment">
+                    {/* Management and Treatment */}
                     <button
                       htmlFor="my-modal-6"
                       className="btn btn-sm modal-button mt-3 text-[white] bg-gradient-to-r from-[#303640] to-[#103264]   animate-pulse    "
