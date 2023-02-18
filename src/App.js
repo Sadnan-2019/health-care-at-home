@@ -23,6 +23,7 @@ import FourZeroFour from "./components/FourZeroFour/FourZeroFour";
 import Blogone from "./components/Blog/Blogone";
 import Blogtwo from "./components/Blog/Blogtwo";
 import Payment from "./components/Payment/Payment";
+import CardiacSymptomsCauses from "./components/Blog/CardiacSymptomsCauses";
 
 
  
@@ -79,6 +80,7 @@ function App() {
         <Route path="/blog" element={<Blog />}></Route>
         <Route path="/blogone" element={<Blogone />}></Route>
         <Route path="/blogtwo" element={<Blogtwo />}></Route>
+        <Route path="/cardiac-symptoms-causes" element={<CardiacSymptomsCauses />}></Route>
  
         <Route path="/about" element={<About />}></Route>
         <Route path="/contact" element={<Contact />}></Route>
