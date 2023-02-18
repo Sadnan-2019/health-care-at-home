@@ -24,6 +24,7 @@ import Blogone from "./components/Blog/Blogone";
 import Blogtwo from "./components/Blog/Blogtwo";
 import Payment from "./components/Payment/Payment";
 import CardiacSymptomsCauses from "./components/Blog/CardiacSymptomsCauses";
+import DiagnosisTests from "./components/Blog/DiagnosisTests";
 
 
  
@@ -81,6 +82,7 @@ function App() {
         <Route path="/blogone" element={<Blogone />}></Route>
         <Route path="/blogtwo" element={<Blogtwo />}></Route>
         <Route path="/cardiac-symptoms-causes" element={<CardiacSymptomsCauses />}></Route>
+        <Route path="/diagnosis-tests" element={<DiagnosisTests />}></Route>
  
         <Route path="/about" element={<About />}></Route>
         <Route path="/contact" element={<Contact />}></Route>
