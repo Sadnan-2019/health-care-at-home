@@ -74,7 +74,7 @@ const CardiacSymptomsCauses = () => {
             <h2 className="text-3xl font-bold ">
               What is the most common cause of sudden cardiac death?
             </h2>
-            <p className="text-1xl font-bold">
+            <p className="text-1xl font-bold mt-2">
               Coronary artery disease causes most cases (80%) of sudden cardiac
               death. In people who are younger, congenital (since birth) heart
               defects or genetic abnormalities in their heart’s electrical
