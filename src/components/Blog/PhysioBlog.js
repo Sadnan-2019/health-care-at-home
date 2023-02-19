@@ -111,7 +111,7 @@ const PhysioBlog = () => {
                     </button>
                   </Link>
                 </div>
-                <div className="py-2  px-4       ">
+                <div className="py-2  px-5       ">
                   <Link to="/blogone">
                     <button
                       htmlFor="my-modal-6"
