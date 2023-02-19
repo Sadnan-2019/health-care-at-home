@@ -34,10 +34,7 @@ const Prevention = () => {
                 eating a low-fat diet.
               </li>
               <li>Avoiding smoking and other tobacco products..</li>
-              <li>
-                Taking medications your healthcare provider prescribes for high
-                cholesterol or arrhythmia.
-              </li>
+              
               <li>
                 Getting an implantable cardioverter defibrillator (ICD) if your
                 healthcare provider recommends it.
