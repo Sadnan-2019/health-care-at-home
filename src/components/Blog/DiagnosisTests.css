@@ -1,0 +1,16 @@
+.diagnosis{
+
+
+    background-image: linear-gradient(
+        to left,
+        rgba(42, 65, 65, 0.7),
+        rgba(42, 65, 65, 0.7)
+      ),
+      url("../../assets/DIAGNOSISTESTS.jpg");
+  
+    background-repeat: no-repeat;
+    background-size: cover;
+  
+    height: auto;
+    background-position: center;
+}

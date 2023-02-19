@@ -12,7 +12,7 @@ const Blog = () => {
     <div>
       {/* <h2 className="text-center text-4xl font bold py-6 "> </h2> */}
       <h2
-        className="text-3xl text-center py-6  font-bold poppins-b sm:text-4xl"
+        className="text-3xl text-center   mt-10 font-bold poppins-b sm:text-4xl"
         style={{ color: "#453364" }}
       >
         Our Blog

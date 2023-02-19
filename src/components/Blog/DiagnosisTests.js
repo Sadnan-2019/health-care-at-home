@@ -1,13 +1,13 @@
 import React from "react";
 import heart3 from "../../assets/sudden-cardiac-arrest2.png";
-
+import "./DiagnosisTests.css";
 const DiagnosisTests = () => {
   return (
     <div>
          <p className="text-3xl font-bold  py-5  px-10">DIAGNOSIS AND TESTS? </p>
         <p className="text-xl      px-10">Healthcare at Home</p>
         <p className="text-xl      px-10">09 January 2023, 21:55</p>
-      <div className="  grid grid-cols-1 lg:grid-cols-2 gap-10 mx-10 justify-center  items-center   px-10  ">
+      <div className=" text-white diagnosis grid grid-cols-1 lg:grid-cols-2 gap-10 mx-10 justify-center  items-center   px-10  ">
         <div className=" py-10">
           <h2 className="text-3xl font-bold ">
             What tests will be done to diagnose sudden cardiac arrest?
