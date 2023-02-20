@@ -16,7 +16,7 @@ const PhysioBlog = () => {
     <div>
       <div>
         <div
-          className="py-10"
+          className=""
           
         >
            
@@ -58,7 +58,7 @@ const PhysioBlog = () => {
                     style={{ color: "white" }}
                   />
                 </div>
-                <div className="flex justify-between gap-8   ">
+                <div className="flex justify-between gap-5 lg:gap-8   ">
                 <div className="py-2      ">
                   <Link to="/cardiac-symptoms-causes">
                     <button
@@ -99,8 +99,8 @@ const PhysioBlog = () => {
 
                
                 </div>
-                <div className="flex justify-between       ">
-                <div className="py-2  px-3     ">
+                <div className="flex justify-between   gap-10    ">
+                <div className="py-2  lg:px-3     ">
                   <Link to="/prevention">
                     <button
                       htmlFor="my-modal-6"
@@ -124,7 +124,7 @@ const PhysioBlog = () => {
                   </Link>
                 </div>
                 <div className="py-2         ">
-                  <Link to="/blogone">
+                  <Link to="/prognosis">
                     <button
                       htmlFor="my-modal-6"
                       className="btn btn-sm modal-button mt-3 text-[white] bg-gradient-to-r from-[#303640] to-[#103264]   animate-pulse    "

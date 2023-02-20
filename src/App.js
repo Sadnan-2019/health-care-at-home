@@ -27,6 +27,7 @@ import CardiacSymptomsCauses from "./components/Blog/CardiacSymptomsCauses";
 import DiagnosisTests from "./components/Blog/DiagnosisTests";
 import ManagementTreatment from "./components/Blog/ManagementTreatment";
 import Prevention from "./components/Blog/Prevention";
+import Prognosis from "./components/Blog/Prognosis";
 
 
  
@@ -87,6 +88,7 @@ function App() {
         <Route path="/diagnosis-tests" element={<DiagnosisTests />}></Route>
         <Route path="/management-treatment" element={<ManagementTreatment />}></Route>
         <Route path="/prevention" element={<Prevention />}></Route>
+        <Route path="/prognosis" element={<Prognosis />}></Route>
  
         <Route path="/about" element={<About />}></Route>
         <Route path="/contact" element={<Contact />}></Route>
