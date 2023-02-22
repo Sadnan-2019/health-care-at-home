@@ -10,12 +10,14 @@ import { FaWhatsappSquare } from "react-icons/fa";
 // import { AiOutlineCaretRight } from "react-icons/ai";
 import "animate.css";
 import { Link } from "react-router-dom";
+import "./Blog.css";
+import ('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;1,300&display=swap');
 
 const PhysioBlog = () => {
   return (
     <div>
       <div>
-        <div className="">
+        <div className="blog">
           <div className="grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-2  mx-10 gap-10  items-center justify-items-center  py-12">
             <div class="card  bg-gradient-to-r from-[#486038] to-[#38235D]   text-white mb-5 mt-12">
               <img

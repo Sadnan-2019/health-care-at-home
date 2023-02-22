@@ -5,11 +5,23 @@ import { RxLinkedinLogo } from "react-icons/rx";
 import { AiFillTwitterCircle } from "react-icons/ai";
 import { FaWhatsappSquare } from "react-icons/fa";
 import PhysioBlog from "./PhysioBlog";
-
-
+import "./Blog.css"  
+// import ('https://fonts.googleapis.com/css2?family=Merriweather:wght@600&display=swap');
+ 
+  // import  ('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;1,100&display=swap');
+ 
+//  import ('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@900;display=swap');
+ 
+import ('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;1,300&display=swap');
+ 
+ 
+// import ('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;1,100&display=swap');
+ 
+  // import ('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,100&display=swap');
+ 
 const Blog = () => {
   return (
-    <div>
+    <div className="blog">
       {/* <h2 className="text-center text-4xl font bold py-6 "> </h2> */}
       <h2
         className="text-3xl text-center   mt-10 font-bold poppins-b sm:text-4xl"
@@ -96,7 +108,7 @@ const Blog = () => {
         <div class="card  bg-gradient-to-r from-[#486038] to-[#38235D] shadow-xl  text-white mb-5 mt-12">
           <div class="card-body">
             <h2 class="card-title">Health is wealth</h2>
-            <p>
+            <p className="font-bold ">
               Health is the primary factor that contributes to the success of
               any individual. The adage “Good health is above wealth” may be
               oft-repeated, but its underlying truth cannot be overstated.
