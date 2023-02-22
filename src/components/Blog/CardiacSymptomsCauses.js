@@ -15,7 +15,7 @@ const CardiacSymptomsCauses = () => {
           <div className=" ">
             <img className="py-5  px-10 rounded-md  	" src={heart1} alt="" />
           </div>
-          <div className="py-10">
+          <div className="py-10 bg-gradient-to-r from-[#486038] to-[#38235D]   text-white p-6 rounded-lg shadow-lg   m-4">
             <h2 className="text-3xl font-bold ">What are the symptoms?</h2>
             <p className="text-1xl font-bold">
               In more than half of the cases, sudden cardiac arrest happens
@@ -42,7 +42,7 @@ const CardiacSymptomsCauses = () => {
           </div>
         </div>
         <div className="  grid grid-cols-1 lg:grid-cols-2 gap-10 mx-10   items-center   px-10  ">
-          <div className="py-10">
+          <div className="py-10 bg-gradient-to-r from-[#486038] to-[#38235D]   text-white p-6 rounded-lg shadow-lg   m-4">
             <h2 className="text-3xl font-bold ">
               What causes a sudden cardiac arrest?
             </h2>
@@ -69,12 +69,10 @@ const CardiacSymptomsCauses = () => {
             <img className="py-5  px-10 rounded-xl  	" src={heart2} alt="" />
           </div>
         </div>
-        <div className="  grid grid-cols-1 lg:grid-cols-2 gap-10 mx-10   items-center   px-10  ">
+        <div className="  grid grid-cols-1 lg:grid-cols-3    items-center     ">
 
-        <div className=" ">
-            <img className="py-5  px-10 rounded-xl  	" src={heart3} alt="" />
-          </div>
-          <div className="py-10">
+        
+          <div className="py-10 bg-gradient-to-r from-[#486038] to-[#38235D]   text-white p-6 rounded-lg shadow-lg   m-4">
             <h2 className="text-3xl font-bold ">
               What is the most common cause of sudden cardiac death?
             </h2>
@@ -97,7 +95,20 @@ const CardiacSymptomsCauses = () => {
                 cardiomyopathy and arrhythmogenic cardiomyopathy.
               </li>
              
-              <p className="mt-2">
+           
+            </div>
+          </div>
+
+
+
+
+
+
+          <div className=" ">
+            <img className="py-5  px-10 rounded-xl  	" src={heart3} alt="" />
+          </div>
+          <div className="py-10 bg-gradient-to-r from-[#486038] to-[#38235D]   text-white p-6 rounded-lg shadow-lg   m-4">
+          <p className="mt-2">
                 Sudden cardiac death in athletes is rare (about 1 in 100,000 to
                 one in 300,000 athletes). Most professional athletic programs
                 will screen their prospective athletes for the most common
@@ -112,7 +123,6 @@ const CardiacSymptomsCauses = () => {
                 or jogging. About 1 in 15,000 joggers and 1 in 50,000 marathon
                 runners have sudden cardiac death.
               </p>
-            </div>
           </div>
          
         </div>
