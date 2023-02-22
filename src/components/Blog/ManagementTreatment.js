@@ -12,6 +12,7 @@ const ManagementTreatment = () => {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-10  mx-10  items-center	 px-10 ">
           <div className=" ">
             <img className="py-5  px-10 rounded-md  	" src={managment} alt="" />
+            
           </div>
           <div className="py-10">
             <h2 className="text-3xl font-bold ">
@@ -45,6 +46,7 @@ const ManagementTreatment = () => {
               care to recover from the effects of their sudden cardiac arrest
               and to treat and prevent future cardiac problems.
             </p>
+           
           </div>
         </div>
         

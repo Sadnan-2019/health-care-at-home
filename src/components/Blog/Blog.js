@@ -19,7 +19,7 @@ const Blog = () => {
       </h2>
       <PhysioBlog></PhysioBlog>
 
-      <div className=" grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-2  gap-4 px-12">
+      {/* <div className=" grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-2  gap-4 px-12">
         <div class="card  bg-gradient-to-r from-[#486038] to-[#38235D] shadow-xl  text-white mb-5 mt-12">
           <img
             src="https://cdn.jagonews24.com/media/imgAllNew/BG/2019November/dd-20230110120818.jpg"
@@ -90,7 +90,7 @@ const Blog = () => {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
 
       <div className=" grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-2  gap-4 px-12">
         <div class="card  bg-gradient-to-r from-[#486038] to-[#38235D] shadow-xl  text-white mb-5 mt-12">

@@ -69,7 +69,7 @@ const CardiacSymptomsCauses = () => {
             <img className="py-5  px-10 rounded-xl  	" src={heart2} alt="" />
           </div>
         </div>
-        <div className="  grid grid-cols-1 lg:grid-cols-3    items-center     ">
+        <div className="  grid grid-cols-1 lg:grid-cols-2   items-center justify-center     ">
 
         
           <div className="py-10 bg-gradient-to-r from-[#486038] to-[#38235D]   text-white p-6 rounded-lg shadow-lg   m-4">
@@ -97,18 +97,7 @@ const CardiacSymptomsCauses = () => {
              
            
             </div>
-          </div>
-
-
-
-
-
-
-          <div className=" ">
-            <img className="py-5  px-10 rounded-xl  	" src={heart3} alt="" />
-          </div>
-          <div className="py-10 bg-gradient-to-r from-[#486038] to-[#38235D]   text-white p-6 rounded-lg shadow-lg   m-4">
-          <p className="mt-2">
+            <p className="mt-2">
                 Sudden cardiac death in athletes is rare (about 1 in 100,000 to
                 one in 300,000 athletes). Most professional athletic programs
                 will screen their prospective athletes for the most common
@@ -122,8 +111,19 @@ const CardiacSymptomsCauses = () => {
                 athletes age 35 and older, it happens more often while running
                 or jogging. About 1 in 15,000 joggers and 1 in 50,000 marathon
                 runners have sudden cardiac death.
-              </p>
+              </p>   
           </div>
+          
+
+
+
+
+
+
+          <div className=" ">
+            <img className="py-5  px-10 rounded-xl  	" src={heart3} alt="" />
+          </div>
+          
          
         </div>
       </div>

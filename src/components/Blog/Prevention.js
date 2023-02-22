@@ -14,14 +14,14 @@ const Prevention = () => {
           <div className=" ">
             <img className="py-5  px-10 rounded-md  	" src={heart1} alt="" />
           </div>
-          <div className="py-10">
+          <div className="py-10 bg-gradient-to-r from-[#486038] to-[#38235D]   text-white p-6 rounded-lg shadow-lg   m-4">
             <h2 className="text-3xl font-bold ">How can I reduce my risk?</h2>
             {/* <p className="text-1xl font-bold">
               In more than half of the cases, sudden cardiac arrest happens
               without prior symptoms.
             </p> */}
-            <p className="text-1xl font-bold">
-              You can reduce your risk in many ways, such as: :
+            <p className="text-1xl font-bold mt-3">
+              You can reduce your risk in many ways, such as:
             </p>
 
             <div className="text-1xl font-bold  ">
