@@ -15,7 +15,7 @@ const Parkinson = () => {
               <p className="max-w-lg mt-7 mb-7 md:text-[20px] lg:text-[27px] poppins-t  font-bold text-justify ">
                 Understanding Parkinson’s disease and ways it can be controlled
               </p>
-              <p className="font-bold  ">
+              <p className="  ">
                 The human brain is an engineering marvel and the most complex
                 biological structure in the universe. It is the body's control
                 centre and part of the nervous system, including the spinal cord
@@ -24,7 +24,7 @@ const Parkinson = () => {
                 bodies with ranging severities--impact on memory, sensation,
                 personality, and life in general.
               </p>
-              <p className="font-bold  py-2 ">
+              <p className="   py-2 ">
                 There are numerous brain disorders, including tumours,
                 Alzheimer's, Parkinson's, dementia, ASL (Amyotrophic Lateral
                 Sclerosis), and many more. Parkinson's disease (PD) is the
@@ -44,7 +44,7 @@ const Parkinson = () => {
             </div>
           </div>
 
-          <div className="py-2 font-bold text-justify   lg:mx-16 mx-8     grid grid-cols-1 lg:grid-cols-1   justify-items-center items-center">
+          <div className="py-2  text-justify   lg:mx-16 mx-8     grid grid-cols-1 lg:grid-cols-1   justify-items-center items-center">
             <p className="px-8">
               PD usually begins slowly and then progresses over time. Symptoms
               might include shaking or tremors, rigid muscles, difficulty
@@ -57,7 +57,7 @@ const Parkinson = () => {
               decreased ability to smell, restless legs, and muscle cramps.
             </p>
           </div>
-          <div className="py-2 font-bold text-justify   lg:mx-16 mx-8     grid grid-cols-1 lg:grid-cols-1   justify-items-center items-center">
+          <div className="py-2   text-justify   lg:mx-16 mx-8     grid grid-cols-1 lg:grid-cols-1   justify-items-center items-center">
             <p className="px-8">
               According to Parkinson's Foundation, more than 10 million people
               globally have PD. According to World Health Rankings and World
@@ -65,7 +65,7 @@ const Parkinson = () => {
               have died in Bangladesh because of PD in 2018.
             </p>
           </div>
-          <div className="py-2 font-bold text-justify   lg:mx-16 mx-8     grid grid-cols-1 lg:grid-cols-1   justify-items-center items-center">
+          <div className="py-2   text-justify   lg:mx-16 mx-8     grid grid-cols-1 lg:grid-cols-1   justify-items-center items-center">
             <p className="px-8">
               Men are 1.5 times more likely to be diagnosed with PD than women,
               according to Parkinson's Foundation. The disease's risk increases
@@ -78,7 +78,7 @@ const Parkinson = () => {
               also increase the risk of developing PD.
             </p>
           </div>
-          <div className="py-2 font-bold text-justify   lg:mx-16 mx-8     grid grid-cols-1 lg:grid-cols-1   justify-items-center items-center">
+          <div className="py-2   text-justify   lg:mx-16 mx-8     grid grid-cols-1 lg:grid-cols-1   justify-items-center items-center">
             <p className="px-8">
               Unfortunately, scientists and researchers have been unable to find
               the cause of PD yet, and there is no permanent cure for it. The
@@ -86,7 +86,7 @@ const Parkinson = () => {
               within the body and lifestyle, which later can lead to death.
             </p>
           </div>
-          <div className="py-2 font-bold text-justify   lg:mx-16 mx-8     grid grid-cols-1 lg:grid-cols-1   justify-items-center items-center">
+          <div className="py-2  text-justify   lg:mx-16 mx-8     grid grid-cols-1 lg:grid-cols-1   justify-items-center items-center">
             <p className="px-8">
               Although there is no permanent cure for the disease, but there are
               ways it can be controlled to improve the complications and the
@@ -99,7 +99,7 @@ const Parkinson = () => {
               medication, and improve drug-related complications.
             </p>
           </div>
-          <div className="py-2 font-bold text-justify   lg:mx-16 mx-8     grid grid-cols-1 lg:grid-cols-1   justify-items-center items-center">
+          <div className="py-2  text-justify   lg:mx-16 mx-8     grid grid-cols-1 lg:grid-cols-1   justify-items-center items-center">
             <p className="px-8">
               In DBS surgery, electrodes are inserted into a targeted area of
               the brain, using Magnetic Resonance Imaging (MRI) and recording of
@@ -110,7 +110,7 @@ const Parkinson = () => {
               off.
             </p>
           </div>
-          <div className="py-2 font-bold text-justify   lg:mx-16 mx-8     grid grid-cols-1 lg:grid-cols-1   justify-items-center items-center">
+          <div className="py-2   text-justify   lg:mx-16 mx-8     grid grid-cols-1 lg:grid-cols-1   justify-items-center items-center">
             <p className="px-8">
               According to a Parkinson's Disease questionnaire PDQ-39, the DBS
               therapy improves life quality by 13% to 26%, like people will feel
@@ -118,7 +118,7 @@ const Parkinson = () => {
               better, and feel less physical discomfort.
             </p>
           </div>
-          <div className="py-2 font-bold text-justify   lg:mx-16 mx-8     grid grid-cols-1 lg:grid-cols-1   justify-items-center items-center">
+          <div className="py-2    text-justify   lg:mx-16 mx-8     grid grid-cols-1 lg:grid-cols-1   justify-items-center items-center">
             <p className="px-8">
               PD patients should consult with doctors about DBS when medications
               alone aren't providing enough relief but still have some effect.
