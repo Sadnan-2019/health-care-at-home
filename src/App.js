@@ -29,6 +29,7 @@ import ManagementTreatment from "./components/Blog/ManagementTreatment";
 import Prevention from "./components/Blog/Prevention";
 import Prognosis from "./components/Blog/Prognosis";
 import LivingWith from "./components/Blog/LivingWith";
+import Parkinson from "./components/Blog/Parkinson";
 
 
  
@@ -85,10 +86,11 @@ function App() {
         <Route path="/blog" element={<Blog />}></Route>
         <Route path="/blogone" element={<Blogone />}></Route>
         <Route path="/blogtwo" element={<Blogtwo />}></Route>
+        <Route path="/blogthree" element={<Parkinson />}></Route>
         <Route path="/cardiac-symptoms-causes" element={<CardiacSymptomsCauses />}></Route>
         <Route path="/diagnosis-tests" element={<DiagnosisTests />}></Route>
         <Route path="/management-treatment" element={<ManagementTreatment />}></Route>
-        <Route path="/prevention" element={<Prevention />}></Route>
+        <Route path="/prevention" element={<Prevention/>}></Route>
         <Route path="/prognosis" element={<Prognosis />}></Route>
         <Route path="/living-with" element={<LivingWith />}></Route>
  
