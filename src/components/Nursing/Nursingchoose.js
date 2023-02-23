@@ -2,11 +2,11 @@ import React from "react";
 import rating from "../../assets/nurserating.png";
 import consulting from "../../assets/free.png";
 import staf from "../../assets/staff.png";
-
+import "../../../src/components/Blog/Blog.css"
 const Nursingchoose = () => {
   return (
     <div>
-      <div className="md:py-20 py-10 lg:py-10 lg:mx-16 mx-8 grid-cols-1 lg:grid-cols-1 ">
+      <div className=" blog md:py-20 py-10 lg:py-10 lg:mx-16 mx-8 grid-cols-1 lg:grid-cols-1 ">
         <div className="  text-left md:ml-8 lg:order-1 order-2 mt-10 lg:mt-0">
           <p
             className="lg:text-[43px] md:text-[30px] font-bold text-[26px] text-left poppins-b "

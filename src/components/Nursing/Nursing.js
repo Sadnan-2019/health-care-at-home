@@ -9,12 +9,12 @@ import Nursingabout from "./Nursingabout";
 import Nursingchoose from "./Nursingchoose";
 import Teamnursing from "./Teamnursing";
 import "./Nursing.css"
-
+import "../../../src/components/Blog/Blog.css"  
 const Nursing = () => {
   return (
     <div>
       <section
-        className="  h-auto  nursing "
+        className="  h-auto blog nursing "
          
       >
         <div className=" md:py-20 py-10 lg:py-24 lg:mx-16 mx-8 grid lg:grid-cols-1 grid-cols-1 gap-5">
@@ -66,7 +66,7 @@ const Nursing = () => {
         </div>
       </section>
 
-      <Nursingabout></Nursingabout>
+      <Nursingabout  ></Nursingabout>
       <Nursingchoose></Nursingchoose>
       <Review></Review>
       <Success></Success>
