@@ -1,8 +1,6 @@
 import React from "react";
 import cardiac1 from "../../assets/blogcardicac.jpeg";
-// import weightloss from "../../assets/waitloss.png";
-// import doctor3 from "../../assets/ziauddin.jpg";
-// import doctor4 from "../../assets/anwar.jpg";
+import parkinson from "../../assets/parkinson1.webp";
 import { BsFacebook } from "react-icons/bs";
 import { RxLinkedinLogo } from "react-icons/rx";
 import { AiFillTwitterCircle } from "react-icons/ai";
@@ -11,7 +9,9 @@ import { FaWhatsappSquare } from "react-icons/fa";
 import "animate.css";
 import { Link } from "react-router-dom";
 import "./Blog.css";
-import ('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;1,300&display=swap');
+import(
+  "https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;1,300&display=swap"
+);
 
 const PhysioBlog = () => {
   return (
@@ -19,11 +19,15 @@ const PhysioBlog = () => {
       <div>
         <div className="blog">
           <div className="grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-2  mx-10 gap-10  items-center justify-items-center  py-12">
-            <div class="card  bg-gradient-to-r from-[#486038] to-[#38235D]   text-white mb-5 mt-12">
+            <div
+              class="card  bg-gradient-to-r from-[#486038] to-[#38235D]   text-white mb-5 mt-12"
+              style={{ height: "700px" }}
+            >
               <img
                 src={cardiac1}
                 alt=""
                 className="rounded-xl animate__animated animate__backInLeft     w-96 p-2  mx-auto"
+                style={{ height: "250px", borderRadius: "25px" }}
               />
               <div class="card-body">
                 <h2 class="card-title">
@@ -37,7 +41,7 @@ const PhysioBlog = () => {
                   cells, sudden cardiac arrest can turn fatal in just minutes.
                   Survival odds are best when help is immediate.
                 </p>
-                <div className="flex gap-3    mt-5">
+                <div className="flex gap-3     ">
                   <BsFacebook
                     className="lg:text-2xl text-[20px] "
                     style={{ color: "white" }}
@@ -129,11 +133,15 @@ const PhysioBlog = () => {
                 </div>
               </div>
             </div>
-            <div class="card  bg-gradient-to-r from-[#486038] to-[#38235D]   text-white mb-5 mt-12">
+            <div
+              class="card  bg-gradient-to-r from-[#486038] to-[#38235D]   text-white mb-5 mt-12"
+              style={{ height: "700px" }}
+            >
               <img
-                src={cardiac1}
+                src={parkinson}
                 alt=""
                 className="rounded-xl animate__animated animate__backInLeft     w-96 p-2  mx-auto"
+                style={{ height: "250px", borderRadius: "25px" }}
               />
               <div class="card-body">
                 <h2 class="card-title">
@@ -144,7 +152,10 @@ const PhysioBlog = () => {
                   The human brain is an engineering marvel and the most complex
                   biological structure in the universe. It is the body's control
                   centre and part of the nervous system, including the spinal
-                  cord and a massive network of nerves and neurons.  
+                  cord and a massive network of nerves and neurons.Thus, any
+                  damage or disorder of the brain can have multiple effects on
+                  individuals' bodies with ranging severities--impact on memory,
+                  sensation, personality, and life in general.
                 </p>
                 <div className="flex gap-3    mt-5">
                   <BsFacebook
@@ -164,7 +175,7 @@ const PhysioBlog = () => {
                     style={{ color: "white" }}
                   />
                 </div>
-                
+
                 <div className="flex justify-end        ">
                   <div className="py-2  lg:px-3     ">
                     <Link to="/blogthree">
