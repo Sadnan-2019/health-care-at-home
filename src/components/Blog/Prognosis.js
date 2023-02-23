@@ -3,11 +3,16 @@ import heart1 from "../../assets/heart1.jpg";
 // import heart2 from "../../assets/sudden-cardiac-arrest.jpg";
 // import heart3 from "../../assets/sudden-cardiac-arrest2.png";
 import "animate.css";
+import "./Blog.css";
+import(
+  "https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;1,300&display=swap"
+);
+
 
 const Prognosis = () => {
   return (
     <div>
-      <div className=" py-5">
+      <div className="blog py-5">
         <p className="text-3xl font-bold    px-10">OUTLOOK / PROGNOSIS </p>
         <p className="text-xl      px-10">Healthcare at Home</p>
         <p className="text-xl      px-10">09 January 2023, 21:55</p>
@@ -16,10 +21,12 @@ const Prognosis = () => {
             <img className="py-5  px-10 rounded-md  mt-5	" src={heart1} alt="" />
           </div>
           <div className="py-10">
-            <h2 className="text-3xl font-bold ">
+            
+          <div className=" bg-gradient-to-r from-[#486038] to-[#38235D]   text-white p-6 rounded-lg shadow-lg   m-4">
+          <h2 className="text-3xl font-bold ">
               What can I expect if I have sudden cardiac arrest?
             </h2>
-            <p className="animate__animated animate__fadeInRight text-1xl font-bold mt-5 bg-gradient-to-r from-[#486038] to-[#38235D]   text-white p-6 rounded-lg shadow-lg   m-4">
+          <p className="animate__animated animate__fadeInRight text-xl mt-5">
               Most people (about 90%) who have a sudden cardiac arrest outside
               of a hospital don’t survive. This is usually because they don’t
               get help in time. Most cases of sudden cardiac arrest that don’t
@@ -27,7 +34,8 @@ const Prognosis = () => {
               don’t receive help is another minute your brain is without the
               oxygen it needs.
             </p>
-            <p className="animate__animated animate__backInUp text-1xl font-bold mt-5 bg-gradient-to-r from-[#486038] to-[#38235D]   text-white p-6 rounded-lg shadow-lg   m-4">
+          </div>
+            <p className="animate__animated animate__backInUp text-xl  mt-5 bg-gradient-to-r from-[#486038] to-[#38235D]   text-white p-6 rounded-lg shadow-lg   m-4">
               People who survive sudden cardiac arrest have a varied outlook,
               depending on how fast they received medical treatment. They
               usually need help regaining skills they had before their sudden
