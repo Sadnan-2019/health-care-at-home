@@ -8,11 +8,11 @@ import caregiver from "../../assets/service-caregive.jpg";
 import nanines from "../../assets/service-nanines.jpg";
 import companionship from "../../assets/service-companionship.jpg";
 import equipment from "../../assets/service-medical-equipment.jpeg";
-
+import "../../../src/components/Blog/Blog.css"  
 import "./Service.css";
 const Service = () => {
   return (
-    <section className="">
+    <section className="blog">
       <div className="md:mx-16 lg:mx-24 mx-8 py-8 ">
         <div className=" ">
           <h2

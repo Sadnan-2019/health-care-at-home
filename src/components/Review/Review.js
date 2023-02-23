@@ -8,7 +8,7 @@ import review3 from "../../assets/review/review3.jpg";
 
 import { AiFillStar } from "react-icons/ai";
 // import Reviewcard from "./Reviewcard";
-
+import "../../../src/components/Blog/Blog.css"  
 const Review = () => {
   var settings = {
     dots: true,
@@ -47,7 +47,7 @@ const Review = () => {
     ],
   };
   return (
-    <div className="py-10 " style={{ backgroundColor: "#453364" }}>
+    <div className="py-10 blog" style={{ backgroundColor: "#453364" }}>
       <div className=" md:mx-16 lg:mx-24 mx-8 py-12">
         <h2 className="text-3xl text-center   font-bold poppins-b sm:text-4xl text-[#453364]">
       
