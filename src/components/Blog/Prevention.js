@@ -1,6 +1,6 @@
 import React from "react";
 import "animate.css";
-import heart1 from "../../assets/Risk.avif";
+import heart1 from "../../assets/prevensiomn.webp";
 import "./Blog.css";
 import(
   "https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;1,300&display=swap"
@@ -12,7 +12,7 @@ const Prevention = () => {
         <p className="text-3xl font-bold    px-10">PREVENTION </p>
         <p className="text-xl      px-10">Healthcare at Home</p>
         <p className="text-xl      px-10">09 January 2023, 21:55</p>
-        <div className="grid grid-cols-1 lg:grid-cols-1 gap-10  mx-10  items-center	 px-10 ">
+        <div className="grid grid-cols-1 lg:grid-cols-1   mx-10  items-center	 px-10 ">
           <div className=" ">
             <img className="py-5  px-10 rounded-md  	" src={heart1} alt="" />
           </div>
