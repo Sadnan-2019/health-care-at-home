@@ -14,7 +14,7 @@ const CardiacSymptomsCauses = () => {
         <p className="text-3xl font-bold    px-10">What are the symptoms? </p>
         <p className="text-xl      px-10">Healthcare at Home</p>
         <p className="text-xl      px-10">09 January 2023, 21:55</p>
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-10  mx-10  items-center	 px-10 ">
+        <div className=" grid grid-cols-1 lg:grid-cols-2   items-center justify-center px-5 ">
           <div className=" ">
             <img className="py-5  px-10 rounded-md  	" src={heart1} alt="" />
           </div>
@@ -44,7 +44,7 @@ const CardiacSymptomsCauses = () => {
             </div>
           </div>
         </div>
-        <div className="  grid grid-cols-1 lg:grid-cols-2 gap-10 mx-10   items-center   px-10  ">
+        <div className="   grid grid-cols-1 lg:grid-cols-2   items-center justify-center px-5  ">
           <div className="py-10 bg-gradient-to-r from-[#486038] to-[#38235D]   text-white p-6 rounded-lg shadow-lg   m-4">
             <h2 className="text-3xl font-bold ">
               What causes a sudden cardiac arrest?
@@ -72,7 +72,7 @@ const CardiacSymptomsCauses = () => {
             <img className="py-5  px-10 rounded-xl  	" src={heart2} alt="" />
           </div>
         </div>
-        <div className="  grid grid-cols-1 lg:grid-cols-2   items-center justify-center     ">
+        <div className="  grid grid-cols-1 lg:grid-cols-2   items-center justify-center px-5    ">
 
         
           <div className="py-10 bg-gradient-to-r from-[#486038] to-[#38235D]   text-white p-6 rounded-lg shadow-lg   m-4">
