@@ -60,12 +60,12 @@ const PhysioBlog = () => {
                     style={{ color: "white" }}
                   />
                 </div>
-                <div className="flex justify-between gap-5 lg:gap-8   ">
+                <div className="   lg:flex  justify-between gap-5 lg:gap-8   ">
                   <div className="py-2      ">
                     <Link to="/cardiac-symptoms-causes">
                       <button
                         htmlFor="my-modal-6"
-                        className="btn lg:btn-sm modal-button mt-3 text-[white] bg-gradient-to-r from-[#303640] to-[#103264]   animate-pulse    "
+                        className="btn btn-sm lg:btn-sm modal-button mt-3 text-[white] bg-gradient-to-r from-[#303640] to-[#103264]   animate-pulse    "
                         style={{ backgroundColor: "#453364" }}
                       >
                         Symptoms and Causes{" "}

@@ -1,6 +1,7 @@
 import React from 'react';
 // import doctor1 from "../../assets/homed.jpg";
 import avater from "../../assets/avater.png";
+import alamin from "../../assets/alamin.jpeg";
 const Teamcaregiver = () => {
     return (
         <div>
@@ -29,7 +30,7 @@ successful recovery stories through our qualified & experienced caregivers.
           >
             <figure className="">
               <img
-                src={avater}
+                src={alamin}
                 alt="Shoes"
                 className="  p-4  "
                 style={{
@@ -40,7 +41,7 @@ successful recovery stories through our qualified & experienced caregivers.
               />
             </figure>
             <div className=" items-center text-center text-white ">
-              <h2 className=" text-center font-bold">Hasna Hena</h2>
+              <h2 className=" text-center font-bold">Md Alamin</h2>
               <p>Caregiver</p>
               <p>2+ years experienced</p>
             </div>
