@@ -23,7 +23,7 @@ const Marque = () => {
  
     <div>
 
-<div className=" md:mx-16 lg:mx-24 mx-8 py-12">
+<div className="blog md:mx-16 lg:mx-24 mx-8 py-12">
         <h2 className="text-xl text-center   font-bold poppins-b lg:text-4xl  " style={{ color: "#453364" }}>
       Services Provided To The  Patients Coming Home From Leading Hospitals
         </h2>

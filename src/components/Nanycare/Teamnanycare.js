@@ -3,7 +3,7 @@ import avater from "../../assets/avater.png";
 const Teamnanycare = () => {
   return (
     <div>
-      <div className="py-10" style={{ backgroundColor: "#453364" }}>
+      <div className="py-10 blog" style={{ backgroundColor: "#453364" }}>
         <div className=" ">
           <h2 className="text-3xl text-center text-white  font-bold poppins-b sm:text-4xl">
             Meet Our Expert Nannies

@@ -14,13 +14,13 @@ const Payment = () => {
   return (
     <div>
       <h2
-        className="text-3xl text-center py-6  font-bold poppins-b sm:text-4xl"
+        className="text-3xl text-center py-6 blog font-bold poppins-b sm:text-4xl"
         style={{ color: "#453364" }}
       >
         Our Payment
       </h2>
 
-      <div className=" grid sm:grid-cols-1 md:grid-cols-3 lg:grid-cols-4  gap-4 px-12">
+      <div className=" blog grid sm:grid-cols-1 md:grid-cols-3 lg:grid-cols-4  gap-4 px-12">
         <div class="card animate__animated animate__backInRight   bg-gradient-to-r from-[#486038] to-[#38235D] shadow-xl  text-white mb-5 mt-12">
           <div class="card-body">
             <img src={bkash} className="w-92 h-32      rounded-md 	" alt="" />

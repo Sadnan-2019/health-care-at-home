@@ -3,7 +3,7 @@ import React from "react";
 const Medicalcaregiverabout = () => {
   return (
     <div>
-      <div className=" md:py-20 py-10 lg:py-24 lg:mx-16 mx-8 grid grid-cols-1 md:grid-cols-1   lg:grid-cols-2  gap-5">
+      <div className="blog md:py-20 py-10 lg:py-24 lg:mx-16 mx-8 grid grid-cols-1 md:grid-cols-1   lg:grid-cols-2  gap-5">
         <div className="max-w-xl text-left md:ml-8 lg:order-1 order-2 mt-10 lg:mt-0">
           <p
             className="lg:text-[43px] md:text-[30px] font-bold text-[26px] text-left poppins-b "

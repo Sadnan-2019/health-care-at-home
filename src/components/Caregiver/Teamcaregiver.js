@@ -4,7 +4,7 @@ import avater from "../../assets/avater.png";
 const Teamcaregiver = () => {
     return (
         <div>
-                <div className="py-10" style={{ backgroundColor: "#453364" }}>
+                <div className=" blog py-10" style={{ backgroundColor: "#453364" }}>
         <div className=" ">
           <h2
             className="text-3xl text-center text-white  font-bold poppins-b sm:text-4xl"

@@ -3,7 +3,7 @@ import { FaTasks } from "react-icons/fa";
 
 const Success = () => {
   return (
-    <div style={{ backgroundColor: "#453364" }}>
+    <div className="blog" style={{ backgroundColor: "#453364" }}>
       <div
         className="grid grid-cols-1 py-10 "
         data-aos="fade-up"

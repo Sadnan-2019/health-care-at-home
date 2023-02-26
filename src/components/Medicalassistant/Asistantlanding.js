@@ -5,7 +5,7 @@ import "./Assistant.css";
 const Asistantlanding = () => {
   return (
     <div>
-      <section className=" h-auto assistant ">
+      <section className=" h-auto assistant blog ">
         <div className=" md:py-20 py-10 lg:py-24 lg:mx-16 mx-8 grid lg:grid-cols-1 grid-cols-1 gap-5">
           <div className="max-w-xl text-left md:ml-8 lg:order-1 order-2 mt-10 lg:mt-0">
             {/* <div className="flex items-center gap-2 bg-gray-100 w-fit px-3 rounded-full py-2 border-[1px] border-gray-200 mb-5">

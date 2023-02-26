@@ -6,7 +6,7 @@ import "./Companionship.css"
 const Companionshiplanding = () => {
     return (
         <div>
-              <section className="   h-auto companionship  "  >
+              <section className=" blog  h-auto companionship  "  >
       <div className=" md:py-20 py-10 lg:py-24 lg:mx-16 mx-8 grid lg:grid-cols-1 grid-cols-1 gap-5">
         <div className="sm:max-w-xs lg:max-w-xl text-left md:ml-8 lg:order-1 order-2   lg:mt-0">
           {/* <div className="hidden lg:flex items-center gap-2   lg:bg-gray-100 w-fit px-3 rounded-full py-2 border-[1px]  lg:border-gray-200 mb-5">

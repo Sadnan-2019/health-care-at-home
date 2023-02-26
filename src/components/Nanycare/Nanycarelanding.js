@@ -4,7 +4,7 @@ import "./Nanycare.css"
 const Nanycarelanding = () => {
     return (
         <div>
-           <section className="   h-auto nanycare  ">
+           <section className="  blog h-auto nanycare  ">
         <div className=" md:py-20 py-10 lg:py-24 lg:mx-16 mx-8 grid lg:grid-cols-1 grid-cols-1 gap-5">
           <div className="sm:max-w-xs lg:max-w-xl text-left md:ml-8 lg:order-1 order-2   lg:mt-0">
             <p
