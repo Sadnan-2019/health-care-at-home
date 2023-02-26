@@ -19,7 +19,7 @@ const PhysioBlog = () => {
     <div>
       <div>
         <div className="blog">
-          <div className="grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-2  mx-10 gap-10  items-center justify-items-center  py-12">
+          <div className=" grid grid-cols-1 lg:grid-cols-2   items-center justify-center px-5 gap-5">
             <div
               class="card  bg-gradient-to-r from-[#486038] to-[#38235D]   text-white mb-5 mt-12"
               style={{ height: "700px" }}
@@ -96,7 +96,7 @@ const PhysioBlog = () => {
                     </Link>
                   </div>
                 </div>
-                <div className="flex justify-between   gap-10    ">
+                <div className="flex justify-between       ">
                   <div className="py-2  lg:px-3     ">
                     <Link to="/prevention">
                       <button
