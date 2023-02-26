@@ -157,7 +157,7 @@ const Navbar = () => {
   );
 
   return (
-    <div className="sticky top-0 z-50 header ">
+    <div className="sticky top-0 z-50 header  blog">
       <Nav />
       
       <div

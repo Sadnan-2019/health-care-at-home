@@ -13,11 +13,11 @@ import 'animate.css';
 
 const Nav = () => {
 
-  const [addclose, setClose] = useState(true);
+  // const [addclose, setClose] = useState(true);
 
   
   return (
-   <div className="sticky top-0 z-50 ">
+   <div className="sticky top-0 z-50 blog ">
 
 <div className="mx-auto bg-base-100">
      <div className="grid  grid-cols-3 gap-2 lg:grid-cols-3 items-center justify-items-center  " >
