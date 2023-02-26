@@ -1,8 +1,8 @@
 import React from "react";
 // import heart3 from "../../assets/sudden-cardiac-arrest2.png";
 import "./DiagnosisTests.css";
-import "./Blog.css";
-import ('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;1,300&display=swap');
+// import "./Blog.css";
+// import ('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;1,300&display=swap');
 const DiagnosisTests = () => {
   return (
     <div className="blog">

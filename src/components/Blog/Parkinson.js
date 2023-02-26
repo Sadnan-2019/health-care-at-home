@@ -1,7 +1,7 @@
 import React from "react";
 import johirul from "../../assets/shahjahirul.jpg";
-import "./Blog.css";
-import ('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;1,300&display=swap');
+// import "./Blog.css";
+// import ('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;1,300&display=swap');
 const Parkinson = () => {
   return (
     <div>

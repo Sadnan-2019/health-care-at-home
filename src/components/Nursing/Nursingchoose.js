@@ -2,7 +2,7 @@ import React from "react";
 import rating from "../../assets/nurserating.png";
 import consulting from "../../assets/free.png";
 import staf from "../../assets/staff.png";
-import "../../../src/components/Blog/Blog.css"
+// import "../../../src/components/Blog/Blog.css"
 const Nursingchoose = () => {
   return (
     <div>

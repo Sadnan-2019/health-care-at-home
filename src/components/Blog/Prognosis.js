@@ -3,10 +3,10 @@ import heart1 from "../../assets/progonosis.webp";
 // import heart2 from "../../assets/sudden-cardiac-arrest.jpg";
 // import heart3 from "../../assets/sudden-cardiac-arrest2.png";
 import "animate.css";
-import "./Blog.css";
-import(
-  "https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;1,300&display=swap"
-);
+// import "./Blog.css";
+// import(
+//   "https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;1,300&display=swap"
+// );
 
 
 const Prognosis = () => {

@@ -4,7 +4,7 @@ import { BsArrowRight } from "react-icons/bs";
 import { Link } from "react-router-dom";
  import { FaPhoneVolume } from "react-icons/fa";
  import "./Landing.css"
- import "../../../src/components/Blog/Blog.css"  
+//  import "../../../src/components/Blog/Blog.css"  
 const Landing = () => {
     return (
         <section className="  blog h-auto landing  "  >

@@ -9,7 +9,7 @@ import Nursingabout from "./Nursingabout";
 import Nursingchoose from "./Nursingchoose";
 import Teamnursing from "./Teamnursing";
 import "./Nursing.css"
-import "../../../src/components/Blog/Blog.css"  
+// import "../../../src/components/Blog/Blog.css"  
 const Nursing = () => {
   return (
     <div>

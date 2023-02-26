@@ -3,6 +3,10 @@
  
  
 @import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;1,300&display=swap');
+.blog{
+
+  font-family: 'Merriweather', serif;
+}
 
 .App {
   text-align: center;

@@ -5,10 +5,10 @@ import { RxLinkedinLogo } from "react-icons/rx";
 import { AiFillTwitterCircle } from "react-icons/ai";
 import { FaWhatsappSquare } from "react-icons/fa";
 import PhysioBlog from "./PhysioBlog";
-import "./Blog.css"  
+// import "./Blog.css"  
  
  
-import ('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;1,300&display=swap');
+// import ('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;1,300&display=swap');
  
  
  

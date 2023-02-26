@@ -2,7 +2,7 @@ import React from "react";
 import { BsArrowRight } from "react-icons/bs";
 import { FaPhoneVolume } from "react-icons/fa";
 import { Link } from "react-router-dom";
-import "../../../src/components/Blog/Blog.css"  
+// import "../../../src/components/Blog/Blog.css"  
 const Nursingabout = () => {
   return (
     <div>
