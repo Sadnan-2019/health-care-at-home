@@ -2,7 +2,7 @@ import React from "react";
 
 const About = () => {
   return (
-    <div className="py-10">
+    <div className="py-10 blog">
       <div
         className="hero min-h-screen"
         // data-aos="zoom-in-up"
