@@ -1,11 +1,13 @@
 import React from "react";
 import hcahfb from "../../../src/assets/hcahfb.jpg";
-import "./Footer.css"
+import "./Footer.css";
+import { AiFillStar } from "react-icons/ai";
+
 
 const Footer = () => {
   return (
-    <footer class="blog " style={{backgroundColor: "#453364" }} >
-      <div class="max-w-screen-xl px-4  pb-6 mx-auto sm:px-6 lg:px-8" >
+    <footer class="blog " style={{ backgroundColor: "#453364" }}>
+      <div class="max-w-screen-xl px-4  pb-6 mx-auto sm:px-6 lg:px-8">
         {/* <div class="lg:items-center lg:justify-between lg:flex pt-5 w-96" style={{backgroundColor: "#DFC5FE" }}>
           <div class="flex justify-center text-primary sm:justify-start items-center" >
             <img
@@ -18,44 +20,32 @@ const Footer = () => {
         
         </div> */}
 
-        <div class="grid grid-cols-1 gap-8 pt-16 mt-16 border-t border-gray-100 md:grid-cols-4 lg:grid-cols-4 text-white" >
+        <div class="grid grid-cols-1 gap-8 pt-16 mt-16 border-t border-gray-100 md:grid-cols-4 lg:grid-cols-4 text-white">
           <div class="text-center sm:text-left">
             <p class="text-lg font-medium text-white">About Us</p>
 
             <nav class="mt-8">
               <ul class="space-y-4 text-sm">
                 <li>
-                  <a
-                    class="text-white transition hover:text-white/75"
-                    href="/"
-                  >
+                  <a class="text-white transition hover:text-white/75" href="/">
                     Company History
                   </a>
                 </li>
 
                 <li>
-                  <a
-                    class="text-white transition hover:text-white/75"
-                    href="/"
-                  >
+                  <a class="text-white transition hover:text-white/75" href="/">
                     Meet the Team
                   </a>
                 </li>
 
                 <li>
-                  <a
-                    class="text-white transition hover:text-white/75"
-                    href="/"
-                  >
+                  <a class="text-white transition hover:text-white/75" href="/">
                     Employee Handbook
                   </a>
                 </li>
 
                 <li>
-                  <a
-                    class="text-white transition hover:text-white/75"
-                    href="/"
-                  >
+                  <a class="text-white transition hover:text-white/75" href="/">
                     Careers
                   </a>
                 </li>
@@ -69,58 +59,36 @@ const Footer = () => {
             <nav class="mt-8">
               <ul class="space-y-4 text-sm">
                 <li>
-                  <a
-                    class="text-white transition hover:text-white/75"
-                    href="/"
-                  >
+                  <a class="text-white transition hover:text-white/75" href="/">
                     Nursing
                   </a>
                 </li>
 
                 <li>
-                  <a
-                    class="text-white transition hover:text-white/75"
-                    href="/"
-                  >
+                  <a class="text-white transition hover:text-white/75" href="/">
                     Physiotherapy{" "}
                   </a>
                 </li>
 
                 <li>
-                  <a
-                    class="text-white transition hover:text-white/75"
-                    href="/"
-                  >
+                  <a class="text-white transition hover:text-white/75" href="/">
                     Medical Assistant
                   </a>
                 </li>
 
                 <li>
-                  <a
-                    class="text-white transition hover:text-white/75"
-                    href="/"
-                  >
+                  <a class="text-white transition hover:text-white/75" href="/">
                     Medical Caregiver
                   </a>
                 </li>
                 <li>
-                  <a
-                    class="text-white transition hover:text-white/75"
-                    href="/"
-                  >
+                  <a class="text-white transition hover:text-white/75" href="/">
                     Caregiver
-
                   </a>
                 </li>
                 <li>
-                  <a
-                    class="text-white transition hover:text-white/75"
-                    href="/"
-                  >
-                 Medical Equipment
-
-
-
+                  <a class="text-white transition hover:text-white/75" href="/">
+                    Medical Equipment
                   </a>
                 </li>
               </ul>
@@ -133,66 +101,88 @@ const Footer = () => {
             <nav class="mt-8">
               <ul class="space-y-4 text-sm">
                 <li>
-                  <a
-                    class="text-white transition hover:text-white/75"
-                    href="/"
-                  >
+                  <a class="text-white transition hover:text-white/75" href="/">
                     Online Guides
                   </a>
                 </li>
 
-            
-
                 <li>
-                  <a
-                    class="text-white transition hover:text-white/75"
-                    href="/"
-                  >
+                  <a class="text-white transition hover:text-white/75" href="/">
                     Upcoming Events
                   </a>
                 </li>
-                <div className="grid lg:grid-cols-1   ">
-                <div className="   relative  "  >
-                  <img className="opacity-50   " src={hcahfb}  alt=""/>
-                  
-                  <div className="flex gap-4 items-center justify-center   mx-10   absolute ">
+                <div className="grid lg:grid-cols-1     ">
+                  <div className="   relative  ">
+                    <img className=" opacity-80	 " src={hcahfb} alt="" />
+
+                    {/* <div className="flex gap-4 items-center justify-center   mx-10   absolute ">
                   <p className="  text-red-700 mt-[-100px]">HealthCare at Home</p>
                   <p className="  text-red-700 mt-[-100px]">120000 followers</p>
                  
-                  {/* <p className="  text-red-700 mt-[-100px]"></p> */}
-                  {/* <p className="  text-red-700 mt-[-100px]">HealthCare at Home</p> */}
-                  {/* <button className="btn btn-xs btn-warning         mt-[-100px]">Fb</button> */}
-                  </div>
                    
-                  <div className="flex gap-4 items-center justify-center      absolute ">
-                  <p className="  text-red-700 mt-[-150px]">HealthCare at Home</p>
-                  <p className="  text-red-700 mt-[-150px]">120000 followers</p>
+                  </div> */}
+
+                    <div className="  	   mx-2     absolute ">
+                      <div className=" rounded-xl   bg-gradient-to-r from-[#486038] to-[#38235D]   text-white">
+                        <p className=" p-1  mt-[-30px]  bg-gradient-to-r from-[#486038] to-[#38235D]   text-white  ">
+                          HealthCare at Home
+                        </p>
+                       <div className="flex gap-10 items-center  px-2">
+                       <a
+                          href="https://www.facebook.com/hcahbd"
+                          rel="noopener noreferrer"
+                          target="_blank"
+                          class="text-primary transition hover:text-blue-800"
+                        >
+                          <span class="sr-only text-white">Facebook</span>
+                          <svg
+                            class="w-6 h-6 text-white"
+                            fill="currentColor"
+                            viewBox="0 0 24 24"
+                            aria-hidden="true"
+                          >
+                            <path
+                              fill-rule="evenodd"
+                              d="M22 12c0-5.523-4.477-10-10-10S2 6.477 2 12c0 4.991 3.657 9.128 8.438 9.878v-6.987h-2.54V12h2.54V9.797c0-2.506 1.492-3.89 3.777-3.89 1.094 0 2.238.195 2.238.195v2.46h-1.26c-1.243 0-1.63.771-1.63 1.562V12h2.773l-.443 2.89h-2.33v6.988C18.343 21.128 22 16.991 22 12z"
+                              clip-rule="evenodd"
+                            />
+                          </svg>
+                          <div className="flex items-center gap-2  ">
+              <p className="text-white text-sm font-bold   ">5 </p>
+              <AiFillStar className="text-white" />
+              <AiFillStar className="text-white" />
+              <AiFillStar className="text-white" />
+              <AiFillStar className="text-white" />
+              <AiFillStar className="text-white" />
+            </div>
+                        </a>
+                        <p className="   p-1       text-white ">
+                          120000 followers
+                        </p>
                  
-                  {/* <p className="  text-red-700 mt-[-100px]"></p> */}
-                  {/* <p className="  text-red-700 mt-[-100px]">HealthCare at Home</p> */}
-                  <button className="btn btn-xs btn-warning         mt-[-150px]">Fb</button>
+                       </div>
+                      </div>
+
+                      {/* <p className="  text-red-700 mt-[-100px]"></p> */}
+                      {/* <p className="  text-red-700 mt-[-100px]">HealthCare at Home</p> */}
+                      {/* <button className="btn btn-xs btn-warning         mt-[-150px]">Fb</button> */}
+                    </div>
                   </div>
-                  
-                 
-                </div>
                 </div>
               </ul>
             </nav>
           </div>
 
           <div class="text-center sm:text-left">
-            <p class="text-lg font-medium text-white">Helpful Links</p>
+            {/* <p class="text-lg font-medium text-white">Helpful Links</p> */}
 
-            <nav class="mt-8">
+            {/* <nav class="mt-8">
               <ul class="space-y-4 text-sm">
                 <li>
-                  <a
-                    class="text-white transition hover:text-white/75"
-                    href="/"
-                  >
+                  <a class="text-white transition hover:text-white/75" href="/">
                     FAQs
                   </a>
-                </li>
+                </li> */}
 
                 {/* <li>
                   <a
@@ -202,7 +192,7 @@ const Footer = () => {
                     Support
                   </a>
                 </li> */}
-{/* 
+                {/* 
                 <li>
                   <a
                     class="flex group justify-center gap-1.5 sm:justify-start"
@@ -218,8 +208,8 @@ const Footer = () => {
                     </span>
                   </a>
                 </li> */}
-              </ul>
-            </nav>
+              {/* </ul>
+            </nav> */}
           </div>
 
           {/* <div class="text-center sm:text-left md:col-span-4 lg:col-span-2">
@@ -325,10 +315,6 @@ const Footer = () => {
                 </svg>
               </a>
             </li>
-
-            
-
-             
           </ul>
         </div>
       </div>
