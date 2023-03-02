@@ -5,7 +5,7 @@ const Success = () => {
   return (
     <div className="blog" style={{ backgroundColor: "#453364" }}>
       <div
-        className="grid grid-cols-1 py-10 "
+        className="grid grid-cols-1 py-10  "
         data-aos="fade-up"
         data-aos-duration="1000"
       >

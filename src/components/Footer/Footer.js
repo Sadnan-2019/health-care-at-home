@@ -1,5 +1,6 @@
 import React from "react";
-// import logo from "../../../src/assets/logo.png";
+import hcahfb from "../../../src/assets/hcahfb.jpg";
+import "./Footer.css"
 
 const Footer = () => {
   return (
@@ -140,32 +141,7 @@ const Footer = () => {
                   </a>
                 </li>
 
-                {/* <li>
-                  <a
-                    class="text-white transition hover:text-white/75"
-                    href="/"
-                  >
-                    Conference Notes
-                  </a>
-                </li> */}
-
-                {/* <li>
-                  <a
-                    class="text-white transition hover:text-white/75"
-                    href="/"
-                  >
-                    Forum
-                  </a>
-                </li> */}
-
-                {/* <li>
-                  <a
-                    class="text-white transition hover:text-white/75"
-                    href="/"
-                  >
-                    Downloads
-                  </a>
-                </li> */}
+            
 
                 <li>
                   <a
@@ -175,6 +151,31 @@ const Footer = () => {
                     Upcoming Events
                   </a>
                 </li>
+                <div className="grid lg:grid-cols-1   ">
+                <div className="   relative  "  >
+                  <img className="opacity-50 w-92 " src={hcahfb}  alt=""/>
+                  
+                  <div className="flex gap-4 items-center justify-center      absolute ">
+                  <p className="  text-red-700 mt-[-100px]">HealthCare at Home</p>
+                  <p className="  text-red-700 mt-[-100px]">120000 followers</p>
+                 
+                  {/* <p className="  text-red-700 mt-[-100px]"></p> */}
+                  {/* <p className="  text-red-700 mt-[-100px]">HealthCare at Home</p> */}
+                  <button className="btn btn-xs btn-warning         mt-[-100px]">Fb</button>
+                  </div>
+                   
+                  <div className="flex gap-4 items-center justify-center      absolute ">
+                  <p className="  text-red-700 mt-[-150px]">HealthCare at Home</p>
+                  <p className="  text-red-700 mt-[-150px]">120000 followers</p>
+                 
+                  {/* <p className="  text-red-700 mt-[-100px]"></p> */}
+                  {/* <p className="  text-red-700 mt-[-100px]">HealthCare at Home</p> */}
+                  <button className="btn btn-xs btn-warning         mt-[-150px]">Fb</button>
+                  </div>
+                  
+                 
+                </div>
+                </div>
               </ul>
             </nav>
           </div>

@@ -1,0 +1,16 @@
+.fb-blog{
+    background-image: linear-gradient(
+        to left,
+        rgba(19, 225, 225, 0.1),
+        rgba(22, 57, 57, 0.4)
+      ),
+      url("../../assets/hcahfb.jpg");
+  
+    background-repeat: no-repeat;
+    background-size: cover;
+  
+    height: auto;
+   
+
+}
+ 
