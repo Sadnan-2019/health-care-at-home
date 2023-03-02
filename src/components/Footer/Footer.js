@@ -153,15 +153,15 @@ const Footer = () => {
                 </li>
                 <div className="grid lg:grid-cols-1   ">
                 <div className="   relative  "  >
-                  <img className="opacity-50 w-92 " src={hcahfb}  alt=""/>
+                  <img className="opacity-50   " src={hcahfb}  alt=""/>
                   
-                  <div className="flex gap-4 items-center justify-center      absolute ">
+                  <div className="flex gap-4 items-center justify-center   mx-10   absolute ">
                   <p className="  text-red-700 mt-[-100px]">HealthCare at Home</p>
                   <p className="  text-red-700 mt-[-100px]">120000 followers</p>
                  
                   {/* <p className="  text-red-700 mt-[-100px]"></p> */}
                   {/* <p className="  text-red-700 mt-[-100px]">HealthCare at Home</p> */}
-                  <button className="btn btn-xs btn-warning         mt-[-100px]">Fb</button>
+                  {/* <button className="btn btn-xs btn-warning         mt-[-100px]">Fb</button> */}
                   </div>
                    
                   <div className="flex gap-4 items-center justify-center      absolute ">
