@@ -1,6 +1,7 @@
 import React from "react";
 import { Link, NavLink } from "react-router-dom";
-
+import sub from "../../assets/sub.png";
+import schs from "../../assets/schs.png";
 import { FcAlarmClock } from "react-icons/fc";
 import { FaPhoneVolume } from "react-icons/fa";
 import { BiLocationPlus } from "react-icons/bi";
@@ -20,7 +21,7 @@ const Nav = () => {
    <div className="sticky top-0 z-50 blog ">
 
 <div className="mx-auto bg-base-100">
-     <div className="grid  grid-cols-3 gap-2 lg:grid-cols-3 items-center justify-items-center  " >
+     <div className="grid  grid-cols-2 gap-2 lg:grid-cols-4 items-center justify-items-center  " >
 
 
 <div>
@@ -81,7 +82,22 @@ const Nav = () => {
 </div>
       </div>
       </div>
-     
+      <div
+            className="   lg:flex items-center font-bold    gap-2"
+            style={{ color: "white" }}
+          >
+            <div>
+            <p className="text-[5px] sm:m-4 lg:text-xs text-transparent  bg-clip-text bg-gradient-to-r from-[#486038] to-[#38235D] shadow-xl  text-white 	">
+                Link Organization
+              </p>
+            </div>
+            <div>
+              
+              {/* <a href="https://www.sub.ac.bd/" target="_blank" ><img src={sub} className="  w-40 lg:w-28  	" alt=""/></a> */}
+              <a href="https://schs.edu.bd/" target="_blank" ><img src={schs} className="   w-40 lg:w-28  	" alt=""/></a>
+               
+            </div>
+          </div>
      </div>
       
       

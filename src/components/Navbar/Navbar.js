@@ -2,6 +2,7 @@ import React from "react";
 import { Link, NavLink } from "react-router-dom";
 import Nav from "../Nav/Nav";
 import { BsWhatsapp } from "react-icons/bs";
+
 import "./Navbar.css";
 
 
@@ -220,6 +221,8 @@ const Navbar = () => {
             {" "}
             <BsWhatsapp></BsWhatsapp>
           </a>
+
+          
         </div>
       </div>
     </div>
