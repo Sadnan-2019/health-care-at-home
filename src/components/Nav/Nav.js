@@ -83,7 +83,7 @@ const Nav = () => {
       </div>
       </div>
       <div
-            className="   lg:flex items-center font-bold    gap-2"
+            className="   lg:flex items-center font-bold  justify-items-center	    gap-2"
             style={{ color: "white" }}
           >
             <div>
@@ -91,9 +91,9 @@ const Nav = () => {
                 Link Organization
               </p>
             </div>
-            <div>
+            <div className="  ">
               
-              <a href="https://www.sub.ac.bd/" target="_blank" ><img src={sub} className="  w-40 lg:w-12  	" alt=""/></a>
+              <a href="https://www.facebook.com/TMCTrishal" target="_blank" ><img src={sub} className=" ml-6 w-10 lg:w-12 lg:ml-4  	" alt=""/></a>
               <a href="https://schs.edu.bd/" target="_blank" ><img src={schs} className="   w-40 lg:w-28  	" alt=""/></a>
                
             </div>
