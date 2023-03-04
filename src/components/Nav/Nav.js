@@ -93,7 +93,7 @@ const Nav = () => {
             </div>
             <div>
               
-              {/* <a href="https://www.sub.ac.bd/" target="_blank" ><img src={sub} className="  w-40 lg:w-28  	" alt=""/></a> */}
+              <a href="https://www.sub.ac.bd/" target="_blank" ><img src={sub} className="  w-40 lg:w-12  	" alt=""/></a>
               <a href="https://schs.edu.bd/" target="_blank" ><img src={schs} className="   w-40 lg:w-28  	" alt=""/></a>
                
             </div>
