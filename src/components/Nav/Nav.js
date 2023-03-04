@@ -21,7 +21,7 @@ const Nav = () => {
    <div className="sticky top-0 z-50 blog ">
 
 <div className="mx-auto bg-base-100">
-     <div className="grid  grid-cols-2 gap-2 lg:grid-cols-4 items-center justify-items-center  " >
+     <div className="   grid    grid-cols-2 lg:gap-10 lg:grid-cols-4 items-center justify-items-center  " >
 
 
 <div>
@@ -55,7 +55,7 @@ const Nav = () => {
       </div>
       
   </div>
-      <div>
+      <div className="bg-warning mx:px-3">
       <div className="flex items-center gap-2  " style={{color: "#453364" }}>
         <div className="animate-spin">
           <FcAlarmClock className="text-[15px] lg:text-2xl   "></FcAlarmClock>
