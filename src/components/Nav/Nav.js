@@ -55,7 +55,7 @@ const Nav = () => {
       </div>
       
   </div>
-      <div className="bg-warning mx-3">
+      <div className="  mx-3">
       <div className="flex items-center gap-2  " style={{color: "#453364" }}>
         <div className="animate-spin">
           <FcAlarmClock className="text-[15px] lg:text-2xl   "></FcAlarmClock>
