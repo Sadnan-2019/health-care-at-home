@@ -44,11 +44,11 @@ const Nav = () => {
           < FaPhoneVolume  className="text-[10px] lg:text-2xl animate-ping	  "/>
         </div>
         <div>
-          <p className="text-[10px] lg:text-sm   	"  >
+          <p className="text-[10px]   font-bold lg:text-xs    bg-clip-text   	"  >
             01619848555 /
             01779848555
           </p>
-          <p className="text-[10px] lg:text-sm	 	"  >
+          <p className="text-[10px]   font-bold lg:text-xs    bg-clip-text	 	"  >
             info@hcah.mrg.com.bd
           </p>
         </div>
@@ -62,7 +62,7 @@ const Nav = () => {
         </div>
         <div>
           <div className="	">
-            <p className="text-[10px] lg:text-sm font-bold  	"  >
+            <p className="text-[10px]   font-bold lg:text-xs    bg-clip-text 	"  >
               24/7days Open
             </p>
       
@@ -76,7 +76,7 @@ const Nav = () => {
  <BiLocationPlus className="text-[15px] lg:text-2xl  animate-spin"/>
 </div>
 <div>
- <p className="text-[10px] lg:text-sm font-bold 		"  >
+ <p className="text-[10px]   font-bold 	 lg:text-xs    bg-clip-text	"  >
    House 11, Road 108, Gulshan 2,<br></br> Dhaka, Bangladesh. 1212
  </p>
 </div>
