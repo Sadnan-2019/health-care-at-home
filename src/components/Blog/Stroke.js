@@ -42,26 +42,31 @@ const Stroke = () => {
             </div>
           </div> */}
 
-       <div>
-       <p className=" max-w-lg mt-7 mb-7 md:text-[20px] lg:text-[27px]   px-8  font-bold  py-2  text-justify   lg:mx-16 mx-8 ">
-              Stroke: Treatment and prevention through awareness
-            </p>
-       <div className="py-2  text-justify   lg:mx-16 mx-8     grid grid-cols-1 lg:grid-cols-1   justify-items-center items-center">
-          <p className="px-8">
-            
-            If you had to do all your daily work without using your one hand,
-            one leg, and one portion of the face, you might be able to imagine
-            how critically stroke-affected patients have to spend their lives. A
-            brain stroke causes a severe medical condition due to complications
-            in the brain’s blood vessels. The cells in our brains are extremely
-            sensitive. Even a little lack in the supply of oxygen and
-            carbohydrate causes the cells to start to decay. If the blood flow
-            to any part of the brain is hampered (except due to injuries) and
-            continues to sustain for twenty-four hours or the patient dies by
-            twenty-four hours – then it might be a case of a stroke.
+        <div>
+          <p className=" max-w-lg mt-7 mb-5 md:text-[20px] lg:text-[27px]   px-8  font-bold  py-2  text-justify   lg:mx-16 mx-8 ">
+            Stroke: Treatment and prevention through awareness
           </p>
+          <p className=" max-w-lg  md:text-[20px] lg:text-[15px]   px-8  font-bold mb-2    text-justify   lg:mx-16 mx-8 ">
+            Prof. Dr. Mohammad Shah Jahirul Hoque Chowdhury Professor (Clinical
+            Neurology) National Institute of Neurosciences & Hospital (NINS)
+            Sher-e-Bangla Nagar, Dhaka
+          </p>
+          <div className="py-2  text-justify   lg:mx-16 mx-8     grid grid-cols-1 lg:grid-cols-1   justify-items-center items-center">
+            <p className="px-8">
+              If you had to do all your daily work without using your one hand,
+              one leg, and one portion of the face, you might be able to imagine
+              how critically stroke-affected patients have to spend their lives.
+              A brain stroke causes a severe medical condition due to
+              complications in the brain’s blood vessels. The cells in our
+              brains are extremely sensitive. Even a little lack in the supply
+              of oxygen and carbohydrate causes the cells to start to decay. If
+              the blood flow to any part of the brain is hampered (except due to
+              injuries) and continues to sustain for twenty-four hours or the
+              patient dies by twenty-four hours – then it might be a case of a
+              stroke.
+            </p>
+          </div>
         </div>
-       </div>
         <div className="py-2   text-justify   lg:mx-16 mx-8     grid grid-cols-1 lg:grid-cols-1   justify-items-center items-center">
           <p className="px-8">
             A stroke could be detected through severe symptoms like paralysis;
@@ -81,7 +86,7 @@ const Stroke = () => {
             recovery increases by quite some extent.
           </p>
         </div>
-        <div className="py-2   text-justify   lg:mx-16 mx-8     grid grid-cols-1 lg:grid-cols-1   justify-items-center items-center">
+        {/* <div className="py-2   text-justify   lg:mx-16 mx-8     grid grid-cols-1 lg:grid-cols-1   justify-items-center items-center">
           <p className="px-8">
             Men are 1.5 times more likely to be diagnosed with PD than women,
             according to Parkinson's Foundation. The disease's risk increases
@@ -93,7 +98,7 @@ const Stroke = () => {
             organic pollutants. Repeated blows on the head can also increase the
             risk of developing PD.
           </p>
-        </div>
+        </div> */}
         <div className="py-2   text-justify   lg:mx-16 mx-8     grid grid-cols-1 lg:grid-cols-1   justify-items-center items-center">
           <p className="px-8">
             Stroke symptoms include sudden weakness or unresponsiveness of one
@@ -133,27 +138,26 @@ const Stroke = () => {
             paralysis is also cured within a comparatively lesser duration.
           </p>
         </div>
-       <div>
-       <p className=" max-w-lg mt-7 mb-7 md:text-[20px] lg:text-[27px]   px-8  font-bold  py-2  text-justify   lg:mx-16 mx-8 ">
-              Treatment for Stroke:
-            </p>
-       <div className="py-2  text-justify   lg:mx-16 mx-8     grid grid-cols-1 lg:grid-cols-1   justify-items-center items-center">
-        
-          <p className="px-8">
-            
-            Whichever type of stroke a patient suffers from, his/her recovery
-            depends mainly on how quickly, efficiently, and properly the primary
-            treatment and rehabilitation process is provided. Certain patients
-            can be treated by thrombolysis (melting blood-clots using
-            injections) and thrombectomy (taking out blood-clots using stents),
-            if brought to the hospital within 3 – 4 hours of suffering from an
-            ischemic stroke. In other cases, the doctor needs to operate
-            extensive investigation and advise medicines and rehabilitations
-            accordingly. Besides primary treatments, hemorrhagic strokes can be
-            treated by surgery, surgical clipping, or coiling.
+        <div>
+          <p className=" max-w-lg mt-7 mb-7 md:text-[20px] lg:text-[27px]   px-8  font-bold  py-2  text-justify   lg:mx-16 mx-8 ">
+            Treatment for Stroke:
           </p>
+          <div className="py-2  text-justify   lg:mx-16 mx-8     grid grid-cols-1 lg:grid-cols-1   justify-items-center items-center">
+            <p className="px-8">
+              Whichever type of stroke a patient suffers from, his/her recovery
+              depends mainly on how quickly, efficiently, and properly the
+              primary treatment and rehabilitation process is provided. Certain
+              patients can be treated by thrombolysis (melting blood-clots using
+              injections) and thrombectomy (taking out blood-clots using
+              stents), if brought to the hospital within 3 – 4 hours of
+              suffering from an ischemic stroke. In other cases, the doctor
+              needs to operate extensive investigation and advise medicines and
+              rehabilitations accordingly. Besides primary treatments,
+              hemorrhagic strokes can be treated by surgery, surgical clipping,
+              or coiling.
+            </p>
+          </div>
         </div>
-       </div>
         <div className="py-2   text-justify   lg:mx-16 mx-8     grid grid-cols-1 lg:grid-cols-1   justify-items-center items-center">
           <p className="px-8">
             Few more remedies are recommended to be applied; for example: if
@@ -172,59 +176,58 @@ const Stroke = () => {
         </div>
 
         <div>
-        <p className="max-w-lg mt-7 mb-7 md:text-[20px] lg:text-[27px]   px-8  font-bold  py-2  text-justify   lg:mx-16 mx-8 ">
-              Causes of Stroke:
-            </p>
-        <div className="py-2  text-justify   lg:mx-16 mx-8     grid grid-cols-1 lg:grid-cols-1   justify-items-center items-center">
-          <p className="px-8">
-           
-            Over 55-years of age have higher risks of stroke. Men are more
-            vulnerable to strokes compared to women. High blood pressure,
-            diabetes, cardiac diseases, and obesity are some of the underlying
-            causes of stroke. Previous cases of stroke or heart attack in the
-            family, smoking or alcohol consumption, heart diseases like
-            irregular heartbeat, heart failure, heart infection, hormone therapy
-            or birth-control medicines, previous history of one or more strokes
-            or Transient Ischemic Attack (TIA) can also increase the chances of
-            a stroke.
+          <p className="max-w-lg mt-7 mb-7 md:text-[20px] lg:text-[27px]   px-8  font-bold  py-2  text-justify   lg:mx-16 mx-8 ">
+            Causes of Stroke:
           </p>
-        </div>
+          <div className="py-2  text-justify   lg:mx-16 mx-8     grid grid-cols-1 lg:grid-cols-1   justify-items-center items-center">
+            <p className="px-8">
+              Over 55-years of age have higher risks of stroke. Men are more
+              vulnerable to strokes compared to women. High blood pressure,
+              diabetes, cardiac diseases, and obesity are some of the underlying
+              causes of stroke. Previous cases of stroke or heart attack in the
+              family, smoking or alcohol consumption, heart diseases like
+              irregular heartbeat, heart failure, heart infection, hormone
+              therapy or birth-control medicines, previous history of one or
+              more strokes or Transient Ischemic Attack (TIA) can also increase
+              the chances of a stroke.
+            </p>
+          </div>
         </div>
         <div>
-        <p className="max-w-lg mt-7 mb-7 md:text-[20px] lg:text-[27px]   px-8  font-bold  py-2  text-justify   lg:mx-16 mx-8  ">
-              Preventives:
-            </p>
-        <div className="py-2  text-justify   lg:mx-16 mx-8     grid grid-cols-1 lg:grid-cols-1   justify-items-center items-center">
-          <p className="px-8">
-           
-            Stroke is mostly preventable. But it is required to raise awareness
-            to prevent this disease, which is why all should know about the
-            risks of stroke and abide by the rules for a healthy lifestyle. To
-            maintain a healthy lifestyle, one should regularly check their blood
-            pressure and take necessary steps to keep it under control, avoid
-            high-fat foods, control their cholesterol levels, check diabetes
-            regularly, keep alert about this, maintain physical exercise, and
-            control their weight. Vegetables, small fish, sea-fish, dried fish,
-            and milk shall be included in the diet. Patients could face
-            paralysis, coma, or even death due to a stroke. But a little
-            awareness and timely treatments can result in up to 50% improvement
-            of the patients’ condition. A healthy lifestyle can lessen the risks
-            of stroke by a large margin. Stroke Day is celebrated around the
-            world on October 29 every year. Stroke-related illness and mortality
-            are a matter of concern for people all over the world. It is great
-            that stroke awareness among the people in our country is now slowly
-            increasing. We want to move forward with modern medical management
-            of stroke and public awareness about stroke.
+          <p className="max-w-lg mt-7 mb-7 md:text-[20px] lg:text-[27px]   px-8  font-bold  py-2  text-justify   lg:mx-16 mx-8  ">
+            Preventives:
           </p>
-        </div>
+          <div className="py-2  text-justify   lg:mx-16 mx-8     grid grid-cols-1 lg:grid-cols-1   justify-items-center items-center">
+            <p className="px-8">
+              Stroke is mostly preventable. But it is required to raise
+              awareness to prevent this disease, which is why all should know
+              about the risks of stroke and abide by the rules for a healthy
+              lifestyle. To maintain a healthy lifestyle, one should regularly
+              check their blood pressure and take necessary steps to keep it
+              under control, avoid high-fat foods, control their cholesterol
+              levels, check diabetes regularly, keep alert about this, maintain
+              physical exercise, and control their weight. Vegetables, small
+              fish, sea-fish, dried fish, and milk shall be included in the
+              diet. Patients could face paralysis, coma, or even death due to a
+              stroke. But a little awareness and timely treatments can result in
+              up to 50% improvement of the patients’ condition. A healthy
+              lifestyle can lessen the risks of stroke by a large margin. Stroke
+              Day is celebrated around the world on October 29 every year.
+              Stroke-related illness and mortality are a matter of concern for
+              people all over the world. It is great that stroke awareness among
+              the people in our country is now slowly increasing. We want to
+              move forward with modern medical management of stroke and public
+              awareness about stroke.
+            </p>
+          </div>
         </div>
         <div className="py-2  text-justify   lg:mx-16 mx-8     grid grid-cols-1 lg:grid-cols-1   justify-items-center items-center">
           <p className="px-8">
-            Disclaimer: “Any and all the Information provided in the article are
-            independent views expressed by Prof. Dr. Mohammad Shah Jahirul Hoque
-            Chowdhury, Professor (Clinical Neurology), National Institute of
-            Neurosciences & Hospital (NINS) for general overview and educational
-            purposes only.”
+            <span className="font-bold">Disclaimer:</span> “Any and all the
+            Information provided in the article are independent views expressed
+            by Prof. Dr. Mohammad Shah Jahirul Hoque Chowdhury, Professor
+            (Clinical Neurology), National Institute of Neurosciences & Hospital
+            (NINS) for general overview and educational purposes only.”
           </p>
         </div>
         {/* <div className="py-2    text-justify   lg:mx-16 mx-8     grid grid-cols-1 lg:grid-cols-1   justify-items-center items-center">
