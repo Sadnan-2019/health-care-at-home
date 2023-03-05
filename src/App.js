@@ -30,6 +30,7 @@ import Prevention from "./components/Blog/Prevention";
 import Prognosis from "./components/Blog/Prognosis";
 import LivingWith from "./components/Blog/LivingWith";
 import Parkinson from "./components/Blog/Parkinson";
+import Stroke from "./components/Blog/Stroke";
 
 
  
@@ -87,6 +88,7 @@ function App() {
         <Route path="/blogone" element={<Blogone />}></Route>
         <Route path="/blogtwo" element={<Blogtwo />}></Route>
         <Route path="/blogthree" element={<Parkinson />}></Route>
+        <Route path="/strokeblog" element={<Stroke/>}></Route>
         <Route path="/cardiac-symptoms-causes" element={<CardiacSymptomsCauses />}></Route>
         <Route path="/diagnosis-tests" element={<DiagnosisTests />}></Route>
         <Route path="/management-treatment" element={<ManagementTreatment />}></Route>

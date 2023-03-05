@@ -2,13 +2,14 @@ import React from "react";
 import cardiac1 from "../../assets/blogcardicac.jpeg";
 import parkinson from "../../assets/parkinson1.webp";
 import heart from "../../assets/heart_2.avif";
+import stroke from "../../assets/Brain-Attack-Strok blog.jpg";
 import { BsFacebook } from "react-icons/bs";
 import { RxLinkedinLogo } from "react-icons/rx";
 import { AiFillTwitterCircle } from "react-icons/ai";
 import { FaWhatsappSquare } from "react-icons/fa";
 // import { AiOutlineCaretRight } from "react-icons/ai";
 import "animate.css";
- 
+// animate__animated animate__backInLeft
 import { Link } from "react-router-dom";
 // import "./Blog.css";
 // import(
@@ -337,6 +338,70 @@ const PhysioBlog = () => {
                     </Link>
                   </div>
                 </div> */}
+              </div>
+            </div>
+
+            <div
+              class="card  bg-gradient-to-r from-[#486038] to-[#38235D]   text-white mb-5 mt-12"
+              style={{ height: "700px" }}
+            >
+              <img
+                src={stroke}
+                alt=""
+                className="rounded-xl animate__animated animate__backInLeft     w-96 p-2  mx-auto"
+                style={{ height: "250px", borderRadius: "25px" }}
+              />
+              <div class="card-body">
+                <h2 class="card-title">
+                  Stroke: Treatment and prevention through awareness
+                </h2>
+                <p className="text-justify">
+                  If you had to do all your daily work without using your one
+                  hand, one leg, and one portion of the face, you might be able
+                  to imagine how critically stroke-affected patients have to
+                  spend their lives.A brain stroke causes a severe medical
+                  condition due to complications in the brain’s blood vessels.
+                  The cells in our brains are extremely sensitive. Even a little
+                  lack in the supply of oxygen and carbohydrate causes the cells
+                  to start to decay. If the blood flow to any part of the brain
+                  is hampered (except due to injuries) and continues to sustain
+                  for twenty-four hours or the patient dies by twenty-four hours
+                  – then it might be a case of a stroke.
+                </p>
+                <div className="flex gap-3    mt-5">
+                  <BsFacebook
+                    className="lg:text-2xl text-[20px] "
+                    style={{ color: "white" }}
+                  />
+                  <RxLinkedinLogo
+                    className="lg:text-2xl text-[20px] "
+                    style={{ color: "white" }}
+                  />
+                  <AiFillTwitterCircle
+                    className="lg:text-2xl text-[20px] "
+                    style={{ color: "white" }}
+                  />
+                  <FaWhatsappSquare
+                    className="lg:text-2xl text-[20px] "
+                    style={{ color: "white" }}
+                  />
+                </div>
+
+                <div className="flex justify-end        ">
+                  <div className="py-2  lg:px-3     ">
+                    <Link to="/strokeblog">
+                      <button
+                        htmlFor="my-modal-6"
+                        className="btn btn-sm modal-button mt-3 text-[white] bg-gradient-to-r from-[#303640] to-[#103264]   animate-pulse    "
+                        style={{ backgroundColor: "#453364" }}
+                      >
+                        Read More{" "}
+                      </button>
+                    </Link>
+                  </div>
+
+                  
+                </div>
               </div>
             </div>
           </div>
