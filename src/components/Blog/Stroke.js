@@ -42,11 +42,13 @@ const Stroke = () => {
             </div>
           </div> */}
 
-        <div className="py-2  text-justify   lg:mx-16 mx-8     grid grid-cols-1 lg:grid-cols-1   justify-items-center items-center">
-          <p className="px-8">
-            <p className="max-w-lg mt-7 mb-7 md:text-[20px] lg:text-[27px] poppins-t  font-bold text-justify ">
+       <div>
+       <p className=" max-w-lg mt-7 mb-7 md:text-[20px] lg:text-[27px]   px-8  font-bold  py-2  text-justify   lg:mx-16 mx-8 ">
               Stroke: Treatment and prevention through awareness
             </p>
+       <div className="py-2  text-justify   lg:mx-16 mx-8     grid grid-cols-1 lg:grid-cols-1   justify-items-center items-center">
+          <p className="px-8">
+            
             If you had to do all your daily work without using your one hand,
             one leg, and one portion of the face, you might be able to imagine
             how critically stroke-affected patients have to spend their lives. A
@@ -59,6 +61,7 @@ const Stroke = () => {
             twenty-four hours – then it might be a case of a stroke.
           </p>
         </div>
+       </div>
         <div className="py-2   text-justify   lg:mx-16 mx-8     grid grid-cols-1 lg:grid-cols-1   justify-items-center items-center">
           <p className="px-8">
             A stroke could be detected through severe symptoms like paralysis;
@@ -130,11 +133,14 @@ const Stroke = () => {
             paralysis is also cured within a comparatively lesser duration.
           </p>
         </div>
-        <div className="py-2  text-justify   lg:mx-16 mx-8     grid grid-cols-1 lg:grid-cols-1   justify-items-center items-center">
-          <p className="px-8">
-            <p className="max-w-lg mt-7 mb-7 md:text-[20px] lg:text-[27px] poppins-t  font-bold text-justify ">
+       <div>
+       <p className=" max-w-lg mt-7 mb-7 md:text-[20px] lg:text-[27px]   px-8  font-bold  py-2  text-justify   lg:mx-16 mx-8 ">
               Treatment for Stroke:
             </p>
+       <div className="py-2  text-justify   lg:mx-16 mx-8     grid grid-cols-1 lg:grid-cols-1   justify-items-center items-center">
+        
+          <p className="px-8">
+            
             Whichever type of stroke a patient suffers from, his/her recovery
             depends mainly on how quickly, efficiently, and properly the primary
             treatment and rehabilitation process is provided. Certain patients
@@ -147,6 +153,7 @@ const Stroke = () => {
             treated by surgery, surgical clipping, or coiling.
           </p>
         </div>
+       </div>
         <div className="py-2   text-justify   lg:mx-16 mx-8     grid grid-cols-1 lg:grid-cols-1   justify-items-center items-center">
           <p className="px-8">
             Few more remedies are recommended to be applied; for example: if
@@ -164,11 +171,13 @@ const Stroke = () => {
           </p>
         </div>
 
-        <div className="py-2  text-justify   lg:mx-16 mx-8     grid grid-cols-1 lg:grid-cols-1   justify-items-center items-center">
-          <p className="px-8">
-            <p className="max-w-lg mt-7 mb-7 md:text-[20px] lg:text-[27px] poppins-t  font-bold text-justify ">
+        <div>
+        <p className="max-w-lg mt-7 mb-7 md:text-[20px] lg:text-[27px]   px-8  font-bold  py-2  text-justify   lg:mx-16 mx-8 ">
               Causes of Stroke:
             </p>
+        <div className="py-2  text-justify   lg:mx-16 mx-8     grid grid-cols-1 lg:grid-cols-1   justify-items-center items-center">
+          <p className="px-8">
+           
             Over 55-years of age have higher risks of stroke. Men are more
             vulnerable to strokes compared to women. High blood pressure,
             diabetes, cardiac diseases, and obesity are some of the underlying
@@ -180,11 +189,14 @@ const Stroke = () => {
             a stroke.
           </p>
         </div>
-        <div className="py-2  text-justify   lg:mx-16 mx-8     grid grid-cols-1 lg:grid-cols-1   justify-items-center items-center">
-          <p className="px-8">
-            <p className="max-w-lg mt-7 mb-7 md:text-[20px] lg:text-[27px] poppins-t  font-bold text-justify ">
+        </div>
+        <div>
+        <p className="max-w-lg mt-7 mb-7 md:text-[20px] lg:text-[27px]   px-8  font-bold  py-2  text-justify   lg:mx-16 mx-8  ">
               Preventives:
             </p>
+        <div className="py-2  text-justify   lg:mx-16 mx-8     grid grid-cols-1 lg:grid-cols-1   justify-items-center items-center">
+          <p className="px-8">
+           
             Stroke is mostly preventable. But it is required to raise awareness
             to prevent this disease, which is why all should know about the
             risks of stroke and abide by the rules for a healthy lifestyle. To
@@ -204,6 +216,7 @@ const Stroke = () => {
             increasing. We want to move forward with modern medical management
             of stroke and public awareness about stroke.
           </p>
+        </div>
         </div>
         <div className="py-2  text-justify   lg:mx-16 mx-8     grid grid-cols-1 lg:grid-cols-1   justify-items-center items-center">
           <p className="px-8">
