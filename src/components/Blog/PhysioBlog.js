@@ -5,6 +5,7 @@ import heart from "../../assets/heart_2.avif";
 import stroke from "../../assets/Brain-Attack-Strok blog.jpg";
 import sholder from "../../assets/shoulder-pain.jpg";
 import Elbow from "../../assets/Elbow-Pain-blog.jpeg";
+import Dry from "../../assets/DRY-NEEDLING.jpg";
 import { BsFacebook } from "react-icons/bs";
 import { RxLinkedinLogo } from "react-icons/rx";
 import { AiFillTwitterCircle } from "react-icons/ai";
@@ -487,6 +488,64 @@ const PhysioBlog = () => {
                   physiotherapist may suggest ways to protect the elbow during
                   your activities. Our overall goal is to help your elbow injury
                   heal as soon as possible.
+                </p>
+                <div className="flex gap-3    mt-5">
+                  <BsFacebook
+                    className="lg:text-2xl text-[20px] "
+                    style={{ color: "white" }}
+                  />
+                  <RxLinkedinLogo
+                    className="lg:text-2xl text-[20px] "
+                    style={{ color: "white" }}
+                  />
+                  <AiFillTwitterCircle
+                    className="lg:text-2xl text-[20px] "
+                    style={{ color: "white" }}
+                  />
+                  <FaWhatsappSquare
+                    className="lg:text-2xl text-[20px] "
+                    style={{ color: "white" }}
+                  />
+                </div>
+
+                {/* <div className="flex justify-end        ">
+                  <div className="py-2  lg:px-3     ">
+                    <Link to="/strokeblog">
+                      <button
+                        htmlFor="my-modal-6"
+                        className="btn btn-sm modal-button mt-3 text-[white] bg-gradient-to-r from-[#303640] to-[#103264]   animate-pulse    "
+                        style={{ backgroundColor: "#453364" }}
+                      >
+                        Read More{" "}
+                      </button>
+                    </Link>
+                  </div>
+                </div> */}
+              </div>
+            </div>
+            <div
+              class="card  bg-gradient-to-r from-[#486038] to-[#38235D]   text-white mb-5 mt-12"
+              style={{ height: "700px" }}
+            >
+              <img
+                src={Dry}
+                alt=""
+                className="rounded-xl animate__animated animate__backInLeft     w-96 p-2  mx-auto"
+                style={{ height: "250px", borderRadius: "25px" }}
+              />
+              <div class="card-body">
+                <h2 class="card-title">WHAT IS DRY NEEDLING?</h2>
+                <p className="text-justify">
+                  Dry needling, also known as myofascial trigger point dry
+                  needling is the use of either solid filiform needles (also
+                  referred to as acupuncture needles) or hollow-core hypodermic
+                  needles for therapy of muscle pain, including pain related to
+                  myofascial pain syndrome. Dry needling is sometimes also known
+                  as intramuscular stimulation (IMS). Acupuncture is a broad
+                  category of needling practices with solid filiform needles.
+                  Modern acupuncture notably includes both traditional and
+                  Western medical acupuncture; dry needling is arguably one
+                  subcategory of western medical acupuncture.
                 </p>
                 <div className="flex gap-3    mt-5">
                   <BsFacebook
