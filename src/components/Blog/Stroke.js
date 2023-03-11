@@ -5,42 +5,8 @@ const Stroke = () => {
     <div>
       {/* <p>Stroke</p> */}
       <div className="blog">
-        {/* <h2 className="font-bold text-3xl px-5 text-center py-5 m-4">
-            Understanding Parkinson’s disease and ways it can be controlled
-          </h2> */}
-        {/* <div className="md:py-20 py-10  lg:mx-16 mx-8     gap-5 grid grid-cols-1 lg:grid-cols-2   justify-items-center items-center	     	  ">
-            <div className="   px-10     text-justify">
-              <p className="max-w-lg mt-7 mb-7 md:text-[20px] lg:text-[27px] poppins-t  font-bold text-justify ">
-              Stroke: Treatment and prevention through awareness
-              </p>
-              <p className="  ">
-                The human brain is an engineering marvel and the most complex
-                biological structure in the universe. It is the body's control
-                centre and part of the nervous system, including the spinal cord
-                and a massive network of nerves and neurons. Thus, any damage or
-                disorder of the brain can have multiple effects on individuals'
-                bodies with ranging severities--impact on memory, sensation,
-                personality, and life in general.
-              </p>
-              <p className="   py-2 ">
-                There are numerous brain disorders, including tumours,
-                Alzheimer's, Parkinson's, dementia, ASL (Amyotrophic Lateral
-                Sclerosis), and many more. Parkinson's disease (PD) is the
-                second most common age-related neurodegenerative disorder after
-                Alzheimer's disease. PD causes nerve cells or neurons in the
-                brain that controls movement to weaken or die. Healthy neurons
-                produce a chemical called dopamine that the brain needs to
-                regulate the body's movement. However, on the other hand,
-                weakened neurons produce lower dopamine levels.
-              </p>
-            </div>
-            <div className=" ">
-              <img src={johirul} className="mb-3" alt="" />
-              <p className="font-bold   ">
-                Mohammad Shah Jahirul Hoque Chowdhury
-              </p>
-            </div>
-          </div> */}
+         
+        
 
         <div>
           <p className=" max-w-lg mt-7 mb-5 md:text-[20px] lg:text-[27px]   px-8  font-bold  py-2  text-justify   lg:mx-16 mx-8 ">

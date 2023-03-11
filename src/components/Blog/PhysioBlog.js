@@ -3,6 +3,8 @@ import cardiac1 from "../../assets/blogcardicac.jpeg";
 import parkinson from "../../assets/parkinson1.webp";
 import heart from "../../assets/heart_2.avif";
 import stroke from "../../assets/Brain-Attack-Strok blog.jpg";
+import sholder from "../../assets/shoulder-pain.jpg";
+import Elbow from "../../assets/Elbow-Pain-blog.jpeg";
 import { BsFacebook } from "react-icons/bs";
 import { RxLinkedinLogo } from "react-icons/rx";
 import { AiFillTwitterCircle } from "react-icons/ai";
@@ -399,9 +401,125 @@ const PhysioBlog = () => {
                       </button>
                     </Link>
                   </div>
-
-                  
                 </div>
+              </div>
+            </div>
+            <div
+              class="card  bg-gradient-to-r from-[#486038] to-[#38235D]   text-white mb-5 mt-12"
+              style={{ height: "700px" }}
+            >
+              <img
+                src={sholder}
+                alt=""
+                className="rounded-xl animate__animated animate__backInLeft     w-96 p-2  mx-auto"
+                style={{ height: "250px", borderRadius: "25px" }}
+              />
+              <div class="card-body">
+                <h2 class="card-title">Shoulder Pain</h2>
+                <p className="text-justify">
+                  The shoulder has a wide and versatile range of motion. When
+                  something goes wrong with your shoulder, it hampers your
+                  ability to move freely and can cause a great deal of pain and
+                  discomfort. The shoulder joint is the most mobile joint in the
+                  body. It moves the shoulder forward and backward. It also
+                  allows the arm to move in a You can injure your shoulder by
+                  performing manual labor, playing sports, or even by repetitive
+                  movement. Certain diseases can bring about pain that travels
+                  to the shoulder. These include diseases of the cervical spine
+                  of the neck, as well as liver, heart, or gallbladder disease.
+                </p>
+                <div className="flex gap-3    mt-5">
+                  <BsFacebook
+                    className="lg:text-2xl text-[20px] "
+                    style={{ color: "white" }}
+                  />
+                  <RxLinkedinLogo
+                    className="lg:text-2xl text-[20px] "
+                    style={{ color: "white" }}
+                  />
+                  <AiFillTwitterCircle
+                    className="lg:text-2xl text-[20px] "
+                    style={{ color: "white" }}
+                  />
+                  <FaWhatsappSquare
+                    className="lg:text-2xl text-[20px] "
+                    style={{ color: "white" }}
+                  />
+                </div>
+
+                {/* <div className="flex justify-end        ">
+                  <div className="py-2  lg:px-3     ">
+                    <Link to="/strokeblog">
+                      <button
+                        htmlFor="my-modal-6"
+                        className="btn btn-sm modal-button mt-3 text-[white] bg-gradient-to-r from-[#303640] to-[#103264]   animate-pulse    "
+                        style={{ backgroundColor: "#453364" }}
+                      >
+                        Read More{" "}
+                      </button>
+                    </Link>
+                  </div>
+                </div> */}
+              </div>
+            </div>
+            <div
+              class="card  bg-gradient-to-r from-[#486038] to-[#38235D]   text-white mb-5 mt-12"
+              style={{ height: "700px" }}
+            >
+              <img
+                src={Elbow}
+                alt=""
+                className="rounded-xl animate__animated animate__backInLeft     w-96 p-2  mx-auto"
+                style={{ height: "250px", borderRadius: "25px" }}
+              />
+              <div class="card-body">
+                <h2 class="card-title">Elbow Pain</h2>
+                <p className="text-justify">
+                  Elbow pain can be caused by many problems. A common cause in
+                  adults is tendinitis. This is inflammation and injury to the
+                  tendons, which are soft tissues that attach muscle to bone.
+                  People who play racquet sports are most likely to injure the
+                  tendons on the outside of the elbow. This condition is
+                  commonly called tennis elbow. Golfers are more likely to
+                  injure the tendons on the inside of the elbow. Other common
+                  causes of elbow tendinitis are gardening, playing baseball,
+                  using a screwdriver, or overusing your wrist and arm. Our
+                  physiotherapist may suggest ways to protect the elbow during
+                  your activities. Our overall goal is to help your elbow injury
+                  heal as soon as possible.
+                </p>
+                <div className="flex gap-3    mt-5">
+                  <BsFacebook
+                    className="lg:text-2xl text-[20px] "
+                    style={{ color: "white" }}
+                  />
+                  <RxLinkedinLogo
+                    className="lg:text-2xl text-[20px] "
+                    style={{ color: "white" }}
+                  />
+                  <AiFillTwitterCircle
+                    className="lg:text-2xl text-[20px] "
+                    style={{ color: "white" }}
+                  />
+                  <FaWhatsappSquare
+                    className="lg:text-2xl text-[20px] "
+                    style={{ color: "white" }}
+                  />
+                </div>
+
+                {/* <div className="flex justify-end        ">
+                  <div className="py-2  lg:px-3     ">
+                    <Link to="/strokeblog">
+                      <button
+                        htmlFor="my-modal-6"
+                        className="btn btn-sm modal-button mt-3 text-[white] bg-gradient-to-r from-[#303640] to-[#103264]   animate-pulse    "
+                        style={{ backgroundColor: "#453364" }}
+                      >
+                        Read More{" "}
+                      </button>
+                    </Link>
+                  </div>
+                </div> */}
               </div>
             </div>
           </div>
