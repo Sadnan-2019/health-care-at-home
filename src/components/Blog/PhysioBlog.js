@@ -6,6 +6,7 @@ import stroke from "../../assets/Brain-Attack-Strok blog.jpg";
 import sholder from "../../assets/shoulder-pain.jpg";
 import Elbow from "../../assets/Elbow-Pain-blog.jpeg";
 import Dry from "../../assets/DRY-NEEDLING.jpg";
+import REFLEXOLOGY from "../../assets/Reflexology.jpg";
 import { BsFacebook } from "react-icons/bs";
 import { RxLinkedinLogo } from "react-icons/rx";
 import { AiFillTwitterCircle } from "react-icons/ai";
@@ -546,6 +547,67 @@ const PhysioBlog = () => {
                   Modern acupuncture notably includes both traditional and
                   Western medical acupuncture; dry needling is arguably one
                   subcategory of western medical acupuncture.
+                </p>
+                <div className="flex gap-3    mt-5">
+                  <BsFacebook
+                    className="lg:text-2xl text-[20px] "
+                    style={{ color: "white" }}
+                  />
+                  <RxLinkedinLogo
+                    className="lg:text-2xl text-[20px] "
+                    style={{ color: "white" }}
+                  />
+                  <AiFillTwitterCircle
+                    className="lg:text-2xl text-[20px] "
+                    style={{ color: "white" }}
+                  />
+                  <FaWhatsappSquare
+                    className="lg:text-2xl text-[20px] "
+                    style={{ color: "white" }}
+                  />
+                </div>
+
+                {/* <div className="flex justify-end        ">
+                  <div className="py-2  lg:px-3     ">
+                    <Link to="/strokeblog">
+                      <button
+                        htmlFor="my-modal-6"
+                        className="btn btn-sm modal-button mt-3 text-[white] bg-gradient-to-r from-[#303640] to-[#103264]   animate-pulse    "
+                        style={{ backgroundColor: "#453364" }}
+                      >
+                        Read More{" "}
+                      </button>
+                    </Link>
+                  </div>
+                </div> */}
+              </div>
+            </div>
+            <div
+              class="card  bg-gradient-to-r from-[#486038] to-[#38235D]   text-white mb-5 mt-12"
+              style={{ height: "700px" }}
+            >
+              <img
+                src={REFLEXOLOGY}
+                alt=""
+                className="rounded-xl animate__animated animate__backInLeft     w-96 p-2  mx-auto"
+                style={{ height: "250px", borderRadius: "25px" }}
+              />
+              <div class="card-body">
+                <h2 class="card-title">BRIEF HISTORY OF REFLEXOLOGY</h2>
+                <p className="text-justify">
+                  Findings show that reflexology was practiced as early as 2330
+                  BC by the ancient Egyptian culture. It is here that the
+                  origins of reflexology were developed. This is evidenced by
+                  the famous pictograph found on a physician’s tomb in Sarrara,
+                  Egypt. From Egypt it is believe that reflexology spread into
+                  India and from there in 100 AD, reflexology had spread to
+                  China via Buddhist monks. China developed its own techniques
+                  in reflexology and out of this comes the modern day
+                  acupuncture. As trade between regions and continents grew,
+                  reflexology spread. It finally made its way to Europe and in
+                  1582 the first book of reflexology was produced by two
+                  doctors. It was believed at this time many middle Europeans
+                  were using some form of reflexology.
                 </p>
                 <div className="flex gap-3    mt-5">
                   <BsFacebook
