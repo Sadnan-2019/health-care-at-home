@@ -76,7 +76,7 @@ const Navbar = () => {
           className={({ isActive }) => (isActive ? `${active}` : `${normal}`)}
           to="/companion"
         >
-          Companionship
+          Companion
         </NavLink>
       </li>
       <li className="nav-item p-2">

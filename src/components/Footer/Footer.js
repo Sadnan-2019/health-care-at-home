@@ -157,7 +157,7 @@ const Footer = () => {
             </div>
                         </a>
                         <p className="   p-1       text-white ">
-                          120000 followers
+                          12K followers
                         </p>
                  
                        </div>
