@@ -7,6 +7,7 @@ import sholder from "../../assets/shoulder-pain.jpg";
 import Elbow from "../../assets/Elbow-Pain-blog.jpeg";
 import Dry from "../../assets/DRY-NEEDLING.jpg";
 import REFLEXOLOGY from "../../assets/Reflexology.jpg";
+import KneePain from "../../assets/kneee.jpg";
 import manualtherapy from "../../assets/manual-therapy.jpg";
 import { BsFacebook } from "react-icons/bs";
 import { RxLinkedinLogo } from "react-icons/rx";
@@ -655,8 +656,7 @@ const PhysioBlog = () => {
                 style={{ height: "250px", borderRadius: "25px" }}
               />
               <div class="card-body">
-                <h2 class="card-title">Manual Therapy
-</h2>
+                <h2 class="card-title">Manual Therapy</h2>
                 <p className="text-justify">
                   Manual therapy, or manipulative therapy,is a physical
                   treatment primarily used by physiotherapistst and manual
@@ -674,6 +674,63 @@ const PhysioBlog = () => {
                   elasticity. Massage is typically the repetitive rubbing,
                   stripping or kneading of myofascial tissues to principally
                   improve interstitial fluid dynamics.
+                </p>
+                <div className="flex gap-3    mt-5">
+                  <BsFacebook
+                    className="lg:text-2xl text-[20px] "
+                    style={{ color: "white" }}
+                  />
+                  <RxLinkedinLogo
+                    className="lg:text-2xl text-[20px] "
+                    style={{ color: "white" }}
+                  />
+                  <AiFillTwitterCircle
+                    className="lg:text-2xl text-[20px] "
+                    style={{ color: "white" }}
+                  />
+                  <FaWhatsappSquare
+                    className="lg:text-2xl text-[20px] "
+                    style={{ color: "white" }}
+                  />
+                </div>
+
+                {/* <div className="flex justify-end        ">
+                  <div className="py-2  lg:px-3     ">
+                    <Link to="/strokeblog">
+                      <button
+                        htmlFor="my-modal-6"
+                        className="btn btn-sm modal-button mt-3 text-[white] bg-gradient-to-r from-[#303640] to-[#103264]   animate-pulse    "
+                        style={{ backgroundColor: "#453364" }}
+                      >
+                        Read More{" "}
+                      </button>
+                    </Link>
+                  </div>
+                </div> */}
+              </div>
+            </div>
+            <div
+              class="card  bg-gradient-to-r from-[#486038] to-[#38235D]   text-white mb-5 mt-12"
+              style={{ height: "700px" }}
+            >
+              <img
+                src={KneePain}
+                alt=""
+                className="rounded-xl animate__animated animate__backInLeft     w-96 p-2  mx-auto"
+                style={{ height: "250px", borderRadius: "25px" }}
+              />
+              <div class="card-body">
+                <h2 class="card-title">Knee Pain</h2>
+                <p className="text-justify">
+                  The knee is a sensitive area of your body and one that is
+                  prone to injury doing almost any activity. Our initial
+                  treatments will focus on decreasing pain and swelling in your
+                  affected knee. Our physiotherapy team may begin
+                  range-of-motion exercises, with the goal of helping you
+                  swiftly regain full movement in your knee. We may also give
+                  you exercises to improve the strength of your knee muscles. As
+                  your symptoms ease and strength improves, we may also provide
+                  specialized exercises to improve knee stability.
                 </p>
                 <div className="flex gap-3    mt-5">
                   <BsFacebook
