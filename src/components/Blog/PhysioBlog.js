@@ -7,6 +7,7 @@ import sholder from "../../assets/shoulder-pain.jpg";
 import Elbow from "../../assets/Elbow-Pain-blog.jpeg";
 import Dry from "../../assets/DRY-NEEDLING.jpg";
 import REFLEXOLOGY from "../../assets/Reflexology.jpg";
+import manualtherapy from "../../assets/manual-therapy.jpg";
 import { BsFacebook } from "react-icons/bs";
 import { RxLinkedinLogo } from "react-icons/rx";
 import { AiFillTwitterCircle } from "react-icons/ai";
@@ -608,6 +609,71 @@ const PhysioBlog = () => {
                   1582 the first book of reflexology was produced by two
                   doctors. It was believed at this time many middle Europeans
                   were using some form of reflexology.
+                </p>
+                <div className="flex gap-3    mt-5">
+                  <BsFacebook
+                    className="lg:text-2xl text-[20px] "
+                    style={{ color: "white" }}
+                  />
+                  <RxLinkedinLogo
+                    className="lg:text-2xl text-[20px] "
+                    style={{ color: "white" }}
+                  />
+                  <AiFillTwitterCircle
+                    className="lg:text-2xl text-[20px] "
+                    style={{ color: "white" }}
+                  />
+                  <FaWhatsappSquare
+                    className="lg:text-2xl text-[20px] "
+                    style={{ color: "white" }}
+                  />
+                </div>
+
+                {/* <div className="flex justify-end        ">
+                  <div className="py-2  lg:px-3     ">
+                    <Link to="/strokeblog">
+                      <button
+                        htmlFor="my-modal-6"
+                        className="btn btn-sm modal-button mt-3 text-[white] bg-gradient-to-r from-[#303640] to-[#103264]   animate-pulse    "
+                        style={{ backgroundColor: "#453364" }}
+                      >
+                        Read More{" "}
+                      </button>
+                    </Link>
+                  </div>
+                </div> */}
+              </div>
+            </div>
+            <div
+              class="card  bg-gradient-to-r from-[#486038] to-[#38235D]   text-white mb-5 mt-12"
+              style={{ height: "700px" }}
+            >
+              <img
+                src={manualtherapy}
+                alt=""
+                className="rounded-xl animate__animated animate__backInLeft     w-96 p-2  mx-auto"
+                style={{ height: "250px", borderRadius: "25px" }}
+              />
+              <div class="card-body">
+                <h2 class="card-title">Manual Therapy
+</h2>
+                <p className="text-justify">
+                  Manual therapy, or manipulative therapy,is a physical
+                  treatment primarily used by physiotherapistst and manual
+                  therapist treat musculoskeletal pain and disability; it most
+                  commonly includes kneading and manipulation of muscles, joint
+                  mobilization and joint manipulation. The three most notable
+                  forms of manual therapy are manipulation, mobilization and
+                  massage. Manipulation is the artful introduction of a rapid
+                  rotational, shear or distraction force into an articulation.
+                  Manipulation is often associated with an audible popping sound
+                  caused by the instantaneous breakdown of gas bubbles that form
+                  during joint cavitation.[citation needed] Mobilization is a
+                  slower, more controlled process of articular and soft-tissue
+                  (myofascial) stretching intended to improve bio-mechanical
+                  elasticity. Massage is typically the repetitive rubbing,
+                  stripping or kneading of myofascial tissues to principally
+                  improve interstitial fluid dynamics.
                 </p>
                 <div className="flex gap-3    mt-5">
                   <BsFacebook
