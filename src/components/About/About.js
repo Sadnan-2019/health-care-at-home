@@ -1,5 +1,7 @@
 import React from "react";
-
+import flyer from "../../assets/hcahflyer.jpg";
+import flyer1 from "../../assets/HCAHBrochure1.jpg";
+import flyer2 from "../../assets/HCAHBrochure2.jpg";
 const About = () => {
   return (
     <div className="py-10 blog">
@@ -38,23 +40,25 @@ const About = () => {
               </div>
               <div className="card">
                 <p className="text-[18px] font-bold mb-4">
-                  Qualified certified and experience manpower  {" "}
+                  Qualified certified and experience manpower{" "}
                 </p>
                 <p className=" text-justify	text-[15px] poppins-t">
-                  Our nurses, physiotherapists ,MATS, MCG all are
-                  certified, qualified and experienced. Both the nurses & MATS are
-                  diploma holders. They know how to take care of ailing
-                  patients.Apart form holistic nursing nurses provide patient
-                  care with empathy & knowledge.Our physiotherapists are
-                  qualified B.Sc & diploma holders. They will take care of
-                  patients' neck pain to toe pain.Our medical caregivers give
-                  total support to our patients at home. MCG feed the
-                  patients,give medication, clean the patients, sponge the
-                  patients. They also change diapers.Check vital parameters.
+                  Our nurses, physiotherapists ,MATS, MCG all are certified,
+                  qualified and experienced. Both the nurses & MATS are diploma
+                  holders. They know how to take care of ailing patients.Apart
+                  form holistic nursing nurses provide patient care with empathy
+                  & knowledge.Our physiotherapists are qualified B.Sc & diploma
+                  holders. They will take care of patients' neck pain to toe
+                  pain.Our medical caregivers give total support to our patients
+                  at home. MCG feed the patients,give medication, clean the
+                  patients, sponge the patients. They also change diapers.Check
+                  vital parameters.
                 </p>
               </div>
               <div>
-                <p className="text-[18px]  font-bold mb-4">Dedicated Services</p>
+                <p className="text-[18px]  font-bold mb-4">
+                  Dedicated Services
+                </p>
                 <p className="text-justify text-[15px] poppins-t ">
                   Another essential advantage of home care is that patients get
                   one-on-one consideration, something they would not get as an
@@ -65,31 +69,40 @@ const About = () => {
                 </p>
               </div>
               <div>
-                <p className="text-[18px]  font-bold mb-4">Strong Monitoring Team</p>
+                <p className="text-[18px]  font-bold mb-4">
+                  Strong Monitoring Team
+                </p>
                 <p className="text-justify  text-[15px] poppins-t">
-                  Supervisors of healthcare at home do converse with the 
-                  caregivers every single day.They enquire about quality of service
-                  ,patients satisfaction & patient attendants concerns.
-                  Chief executive officer,who is a physician talks to the patients
-                  & attendant once a week.This composes a strong monitoring 
-                  team.On WhatsApp we have trouble window,where we share 
-                  patients & attendants inconvenience,so that we can address
-                  the problems.
-
-
+                  Supervisors of healthcare at home do converse with the
+                  caregivers every single day.They enquire about quality of
+                  service ,patients satisfaction & patient attendants concerns.
+                  Chief executive officer,who is a physician talks to the
+                  patients & attendant once a week.This composes a strong
+                  monitoring team.On WhatsApp we have trouble window,where we
+                  share patients & attendants inconvenience,so that we can
+                  address the problems.
                 </p>
               </div>
               <div>
                 <p className="text-[18px]  font-bold mb-4">Team 24 x 7</p>
                 <p className="text-justify  text-[15px] poppins-t">
-
-              Our fifteen employee-team works round the clock to serve the community.
-              We are ready to  answer phone calls 24/7.We are open  for conversation  
-              listening to attendants complaints.We can provide home service with caregiver
-              even at mid night.
-       
-
+                  Our fifteen employee-team works round the clock to serve the
+                  community. We are ready to answer phone calls 24/7.We are open
+                  for conversation listening to attendants complaints.We can
+                  provide home service with caregiver even at mid night.
                 </p>
+              </div>
+            </div>
+
+            <div className="text-white 	py-5 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-8">
+              {/* <div className="card">
+                <img src={flyer} alt="" />
+              </div> */}
+              <div className="card">
+                <img src={flyer2} alt="" />
+              </div>
+              <div className="card">
+                <img src={flyer1} alt="" />
               </div>
             </div>
           </div>

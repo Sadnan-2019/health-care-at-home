@@ -9,6 +9,7 @@ import Dry from "../../assets/DRY-NEEDLING.jpg";
 import REFLEXOLOGY from "../../assets/Reflexology.jpg";
 import KneePain from "../../assets/kneee.jpg";
 import manualtherapy from "../../assets/manual-therapy.jpg";
+import backpain from "../../assets/backpain.jpg";
 import { BsFacebook } from "react-icons/bs";
 import { RxLinkedinLogo } from "react-icons/rx";
 import { AiFillTwitterCircle } from "react-icons/ai";
@@ -731,6 +732,65 @@ const PhysioBlog = () => {
                   you exercises to improve the strength of your knee muscles. As
                   your symptoms ease and strength improves, we may also provide
                   specialized exercises to improve knee stability.
+                </p>
+                <div className="flex gap-3    mt-5">
+                  <BsFacebook
+                    className="lg:text-2xl text-[20px] "
+                    style={{ color: "white" }}
+                  />
+                  <RxLinkedinLogo
+                    className="lg:text-2xl text-[20px] "
+                    style={{ color: "white" }}
+                  />
+                  <AiFillTwitterCircle
+                    className="lg:text-2xl text-[20px] "
+                    style={{ color: "white" }}
+                  />
+                  <FaWhatsappSquare
+                    className="lg:text-2xl text-[20px] "
+                    style={{ color: "white" }}
+                  />
+                </div>
+
+                {/* <div className="flex justify-end        ">
+                  <div className="py-2  lg:px-3     ">
+                    <Link to="/strokeblog">
+                      <button
+                        htmlFor="my-modal-6"
+                        className="btn btn-sm modal-button mt-3 text-[white] bg-gradient-to-r from-[#303640] to-[#103264]   animate-pulse    "
+                        style={{ backgroundColor: "#453364" }}
+                      >
+                        Read More{" "}
+                      </button>
+                    </Link>
+                  </div>
+                </div> */}
+              </div>
+            </div>
+            <div
+              class="card  bg-gradient-to-r from-[#486038] to-[#38235D]   text-white mb-5 mt-12"
+              style={{ height: "700px" }}
+            >
+              <img
+                src={backpain}
+                alt=""
+                className="rounded-xl animate__animated animate__backInLeft     w-96 p-2  mx-auto"
+                style={{ height: "250px", borderRadius: "25px" }}
+              />
+              <div class="card-body">
+                <h2 class="card-title">Back pain</h2>
+                <p className="text-justify">
+                  Back pain is one of the most common reasons people seek
+                  medical help or miss work. Back pain is a leading cause of
+                  disability worldwide. Fortunately, measures can help prevent
+                  or relieve most back pain episodes, especially for people
+                  younger than age 60. If prevention fails, simple home
+                  treatment and using the body correctly often will heal the
+                  back within a few weeks. Surgery is rarely needed to treat
+                  back pain.Back pain can range from a muscle aching to a
+                  shooting, burning or stabbing sensation. Also, the pain can
+                  radiate down a leg. Bending, twisting, lifting, standing or
+                  walking can make it worse.
                 </p>
                 <div className="flex gap-3    mt-5">
                   <BsFacebook
