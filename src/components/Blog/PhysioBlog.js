@@ -82,17 +82,17 @@ const PhysioBlog = () => {
                       </button>
                     </Link>
                   </div>
-                  {/* <div className="py-2       ">
-                    <Link to="/diagnosis-tests">
+                  <div className="py-2  lg:px-3     ">
+                    <Link to="/hyper-prevention">
                       <button
                         htmlFor="my-modal-6"
                         className="btn btn-xs	 lg:btn-xs modal-button mt-3 text-[white] bg-gradient-to-r from-[#303640] to-[#103264]   animate-pulse    "
                         style={{ backgroundColor: "#453364" }}
                       >
-                        Diagnosis and Tests{" "}
+                        Prevention{" "}
                       </button>
                     </Link>
-                  </div> */}
+                  </div>
                   <div className="py-2        ">
                     <Link to="/hyper-management-treatment">
                       {/* Management and Treatment */}
@@ -106,7 +106,7 @@ const PhysioBlog = () => {
                     </Link>
                   </div>
                 </div>
-                <div className="flex justify-between   sm:gap-5	lg:gap-5      ">
+                {/* <div className="flex justify-between   sm:gap-5	lg:gap-5      ">
                   <div className="py-2  lg:px-3     ">
                     <Link to="/prevention">
                       <button
@@ -141,7 +141,7 @@ const PhysioBlog = () => {
                       </button>
                     </Link>
                   </div>
-                </div>
+                </div> */}
               </div>
             </div>
 
