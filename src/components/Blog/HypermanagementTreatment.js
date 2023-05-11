@@ -8,13 +8,13 @@ const HypermanagementTreatment = () => {
         <p className="text-xl      px-10">Healthcare at Home</p>
         <p className="text-xl      px-10">11 May 2023, 21:55</p>
         <div className="     ">
-          <div className=" flex flex-col lg:flex-row bg-gradient-to-r from-[#486038] to-[#38235D]   text-white     lg:gap-10  lg:mx-10  items-center	 lg:px-10 ">
+          <div className=" flex flex-col lg:flex-row bg-gradient-to-r from-[#486038] to-[#38235D]   text-white     lg:gap-8  lg:mx-10  items-center	   ">
            <div>
            <img
-              className="py-5  px-10    shadow-lg 	"
+              className="py-5  px-10  w-11/12  shadow-lg 	"
               src={managment}
               alt=""
-              style={{ borderRadius: "25px" }}
+              style={{ borderRadius: "80px" }}
             />
            </div>
             <div
