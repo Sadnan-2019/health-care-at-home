@@ -12,7 +12,7 @@ const HypertensionSymtoms = () => {
         <p className="text-xl      px-10">11 May 2023, 21:55</p>
         <div className=" grid grid-cols-1 lg:grid-cols-2   items-center justify-center px-5 ">
           <div className=" ">
-            <img className="py-5  px-10 rounded-md  	" src={hyper1} alt="" />
+            <img className="py-5  px-10   	w-4/5" src={hyper1} alt="" />
           </div>
           <div className="py-10 bg-gradient-to-r from-[#486038] to-[#38235D]   text-white p-6 rounded-lg shadow-lg   m-4">
             <h2 className="text-3xl font-bold ">What are the symptoms?</h2>
