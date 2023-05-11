@@ -32,6 +32,7 @@ import LivingWith from "./components/Blog/LivingWith";
 import Parkinson from "./components/Blog/Parkinson";
 import Stroke from "./components/Blog/Stroke";
 import HypertensionSymtoms from "./components/Blog/HypertensionSymtoms";
+import HypermanagementTreatment from "./components/Blog/HypermanagementTreatment";
 
 
  
@@ -94,6 +95,7 @@ function App() {
         <Route path="/hyper-symptoms-causes" element={<HypertensionSymtoms />}></Route>
         <Route path="/diagnosis-tests" element={<DiagnosisTests />}></Route>
         <Route path="/management-treatment" element={<ManagementTreatment />}></Route>
+        <Route path="/hyper-management-treatment" element={<HypermanagementTreatment />}></Route>
         <Route path="/prevention" element={<Prevention/>}></Route>
         <Route path="/prognosis" element={<Prognosis />}></Route>
         <Route path="/living-with" element={<LivingWith />}></Route>

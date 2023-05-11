@@ -94,7 +94,7 @@ const PhysioBlog = () => {
                     </Link>
                   </div> */}
                   <div className="py-2        ">
-                    <Link to="/management-treatment">
+                    <Link to="/hyper-management-treatment">
                       {/* Management and Treatment */}
                       <button
                         htmlFor="my-modal-6"
