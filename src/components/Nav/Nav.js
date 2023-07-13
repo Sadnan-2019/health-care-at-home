@@ -95,7 +95,7 @@ const Nav = () => {
             <div className=" animate__animated animate__backInLeft  ">
 
               
-              <a href="https://www.facebook.com/TMCTrishal" target="_blank" ><img src={sub} className=" ml-6 w-10 lg:w-12 lg:ml-4  	" alt=""/></a>
+              {/* <a href="https://www.facebook.com/TMCTrishal" target="_blank" ><img src={sub} className=" ml-6 w-10 lg:w-12 lg:ml-4  	" alt=""/></a> */}
               <a href="https://schs.edu.bd/" target="_blank" ><img src={schs} className="   w-40 lg:w-28  	" alt=""/></a>
               {/* <a href="https://schs.edu.bd/" target="_blank" ><img src={schs} className="   w-40 lg:w-28  	" alt=""/></a> */}
                
