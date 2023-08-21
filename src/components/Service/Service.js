@@ -1,6 +1,7 @@
 import React from "react";
 import physio from "../../assets/servicephysio.jpg";
 import ambulanceservice from "../../assets/ambulanceservice.jfif";
+import icuservice from "../../assets/icu.jpg";
 import nurseservice from "../../assets/nurseservice.jpg";
 import servicemedicalassistant from "../../assets/servicemedicalassistant.jpg";
 import medicalcaregiver from "../../assets/servicemedicalcare-giver.webp";
@@ -531,6 +532,68 @@ const Service = () => {
 
             <h3 className="mt-3 mb-2 text-xl font-bold text-left ">
               Emergency Ambulance
+            </h3>
+
+            <p className="mt-1 text-sm text-left text-gray-800 lg:text-justify">
+              The latest model Ambulance service is available. We Provide
+              different types of ambulance services like Ac ambulance service,
+              Non-Ac ambulance service, freezing ambulance service and Basic
+              life support ambulance service. If you need Basic Life Support
+              ICU, CCU, NICU, PICU Ambulance Support with Doctors or Brothers
+              then contact us.
+            </p>
+
+            <label
+              htmlFor="my-modal-9"
+              className="btn btn-sm modal-button mt-3 text-white"
+              style={{ backgroundColor: "#453364" }}
+            >
+              service details
+            </label>
+          </a>
+
+          <input type="checkbox" id="my-modal-9" className="modal-toggle" />
+          <div className="modal modal-bottom sm:modal-middle">
+            <div className="modal-box   ">
+              <h1 className="text-2xl font-bold text-center py-5">
+                Emergency Ambulance
+              </h1>
+              <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-3   mx-auto	 ">
+                <div className="text-sm font-bold">
+                  <li>24/7 dayes open</li>
+                  <li>Very cost affordable</li>
+                  <li>Good time management </li>
+                  <li>Experience driver</li>
+                  <li>Good vehicles</li>
+                </div>
+                <div className="">
+                  <img src={ambulanceservice} alt="" />
+                </div>
+              </div>
+              <div className="modal-action">
+                <label
+                  htmlFor="my-modal-9"
+                  className="btn text-white "
+                  style={{ backgroundColor: "#453364" }}
+                >
+                  close!
+                </label>
+              </div>
+            </div>
+          </div>
+          <a
+            className="block p-8 transition bg-white  shadow-md rounded-xl hover:shadow-lg cursor-pointer"
+            data-aos="fade-up"
+            data-aos-duration="1000"
+          >
+            <img
+              className="w-96 h-56 rounded-lg"
+              src={icuservice}
+              alt=""
+            />
+
+            <h3 className="mt-3 mb-2 text-xl font-bold text-left ">
+         ICU & CCU Set Up
             </h3>
 
             <p className="mt-1 text-sm text-left text-gray-800 lg:text-justify">
