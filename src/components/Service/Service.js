@@ -9,7 +9,7 @@ import caregiver from "../../assets/service-caregive.jpg";
 import nanines from "../../assets/service-nanines.jpg";
 import companionship from "../../assets/service-companionship.jpg";
 import equipment from "../../assets/service-medical-equipment.jpeg";
-import "../../../src/components/Blog/Blog.css"  
+import "../../../src/components/Blog/Blog.css";
 import "./Service.css";
 const Service = () => {
   return (
@@ -438,7 +438,6 @@ const Service = () => {
                   <li>24/7 Personal care </li>
                   <li>Cooking</li>
                   <li>Feeding care</li>
-                
                 </div>
                 <div className="rounded-lg">
                   <img src={companionship} alt="" />
@@ -586,23 +585,23 @@ const Service = () => {
             data-aos="fade-up"
             data-aos-duration="1000"
           >
-            <img
-              className="w-96 h-56 rounded-lg"
-              src={icuservice}
-              alt=""
-            />
+            <img className="w-96 h-56 rounded-lg" src={icuservice} alt="" />
 
             <h3 className="mt-3 mb-2 text-xl font-bold text-left ">
-         ICU & CCU Set Up
+              ICU & CCU Setup
             </h3>
 
             <p className="mt-1 text-sm text-left text-gray-800 lg:text-justify">
-              The latest model Ambulance service is available. We Provide
-              different types of ambulance services like Ac ambulance service,
-              Non-Ac ambulance service, freezing ambulance service and Basic
-              life support ambulance service. If you need Basic Life Support
-              ICU, CCU, NICU, PICU Ambulance Support with Doctors or Brothers
-              then contact us.
+              HealthCare at Home is doing something new & exciting. We are
+              setting up critical care services at home. We provide a complete
+              set of types of equipment & accessories. We also provided critical
+              care specialist doctors. To support the patients critically ill,
+              with a tracheostomy, PEG tube, Catheter, NG tube, and Central
+              line- we provide ICU-trained nurses. We Supply patient beds, Bipap
+              machines, Oxygen concentrators, Suction machines, monitors,
+              nebulizers, Wheel-chair & all other types of equipment we need to
+              take care of critically ill patients. We also can provide
+              ventilator support.
             </p>
 
             <label
@@ -610,7 +609,7 @@ const Service = () => {
               className="btn btn-sm modal-button mt-3 text-white"
               style={{ backgroundColor: "#453364" }}
             >
-              service details
+              Service details
             </label>
           </a>
 
@@ -618,7 +617,7 @@ const Service = () => {
           <div className="modal modal-bottom sm:modal-middle">
             <div className="modal-box   ">
               <h1 className="text-2xl font-bold text-center py-5">
-                Emergency Ambulance
+                ICU & CCU Setup
               </h1>
               <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-3   mx-auto	 ">
                 <div className="text-sm font-bold">
@@ -629,7 +628,7 @@ const Service = () => {
                   <li>Good vehicles</li>
                 </div>
                 <div className="">
-                  <img src={ambulanceservice} alt="" />
+                  <img src={icuservice} alt="" />
                 </div>
               </div>
               <div className="modal-action">
