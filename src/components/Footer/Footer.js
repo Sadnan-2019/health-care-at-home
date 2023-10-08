@@ -60,35 +60,35 @@ const Footer = () => {
             <nav class="mt-8">
               <ul class="space-y-4 text-sm">
                 <li>
-                  <a class="text-white transition hover:text-white/75" href="/">
+                  <a class="text-white transition hover:text-white/75" href="/nursing">
                     Nursing
                   </a>
                 </li>
 
                 <li>
-                  <a class="text-white transition hover:text-white/75" href="/">
+                  <a class="text-white transition hover:text-white/75" href="/physiotherapy">
                     Physiotherapy{" "}
                   </a>
                 </li>
 
                 <li>
-                  <a class="text-white transition hover:text-white/75" href="/">
+                  <a class="text-white transition hover:text-white/75" href="/medical-assistant">
                     Medical Assistant
                   </a>
                 </li>
 
                 <li>
-                  <a class="text-white transition hover:text-white/75" href="/">
+                  <a class="text-white transition hover:text-white/75" href="/medical-caregiver">
                     Medical Caregiver
                   </a>
                 </li>
                 <li>
-                  <a class="text-white transition hover:text-white/75" href="/">
+                  <a class="text-white transition hover:text-white/75" href="/caregiver">
                     Caregiver
                   </a>
                 </li>
                 <li>
-                  <a class="text-white transition hover:text-white/75" href="/">
+                  <a class="text-white transition hover:text-white/75" href="/medical-equipment">
                     Medical Equipment
                   </a>
                 </li>
