@@ -23,7 +23,7 @@ const Team = () => {
             Meet Our Experts
           </h2>
         </div>
-        <div className="grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3  mx-10 gap-10      py-8">
+        <div className="grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3  mx-10 gap-10      py-8"   >
           <div
             className="card  border     "
             data-aos="flip-left"

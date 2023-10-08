@@ -34,6 +34,7 @@ import Stroke from "./components/Blog/Stroke";
 import HypertensionSymtoms from "./components/Blog/HypertensionSymtoms";
 import HypermanagementTreatment from "./components/Blog/HypermanagementTreatment";
 import HyperPrevention from "./components/Blog/HyperPrevention";
+import FooterAbout from "./components/FooterAbout/FooterAbout";
 
 
  
@@ -44,35 +45,7 @@ function App() {
     <div className=" ">
       
       <Navbar className=" "></Navbar>
-      {/* <div className="toast toast-end toast-middle">
-        <div className="alert alert-info">
-          <div>
-            <span>New mail arrived.</span>
-          </div>
-        </div>
-        <div className="alert alert-success">
-          <div>
-            <span>Message sent successfully.</span>
-          </div>
-        </div>
-      </div> */}
-      {/* <div class=" fixed w-full bottom-0 right-0 m-6 p-4 bg-red-500 text-white rounded-lg shadow-md" role="alert">
-  <div class="flex">
-    <div class="py-1">
-      <svg class="fill-current h-6 w-6 text-white mr-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
-        <path d="M2.93 17.07A10 10 0 1 1 17.07 2.93 10 10 0 0 1 2.93 17.07zm12.73-1.41A8 8 0 1 0 4.34 4.34a8 8 0 0 0 11.32 11.32zM9 11V9h2v6H9v-4z"/>
-      </svg>
-    </div>
-    <div>
-      <p class="font-bold">Error</p>
-      <p class="text-sm">An error has occurred, please try again later.</p>
-    </div>
-  </div>
-  <button class="text-white font-bold absolute top-0 bottom-0 right-0 px-4 py-3" 
-    onclick="this.parentElement.style.display='none'">
-    Close
-  </button>
-</div> */}
+      
 
       
       <Routes>
@@ -101,6 +74,7 @@ function App() {
         <Route path="/hyper-prevention" element={<HyperPrevention/>}></Route>
         <Route path="/prognosis" element={<Prognosis />}></Route>
         <Route path="/living-with" element={<LivingWith />}></Route>
+        <Route path="/fotter-about" element={<FooterAbout />}></Route>
  
         <Route path="/about" element={<About />}></Route>
         <Route path="/contact" element={<Contact />}></Route>

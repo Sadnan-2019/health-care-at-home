@@ -23,7 +23,7 @@ const Footer = () => {
 
         <div class="grid grid-cols-1 gap-8 pt-16 mt-16 border-t border-gray-100 md:grid-cols-4 lg:grid-cols-4 text-white">
           <div class="text-center sm:text-left">
-            <p class="text-lg font-medium text-white">About Us</p>
+            <a href="/fotter-about" class="text-lg font-medium text-white">About Us</a>
 
             <nav class="mt-8">
               <ul class="space-y-4 text-sm">
@@ -158,7 +158,7 @@ const Footer = () => {
             </div>
                         </a>
                         <p className="   p-1       text-white ">
-                          18K followers
+                          21K followers
                         </p>
                  
                        </div>

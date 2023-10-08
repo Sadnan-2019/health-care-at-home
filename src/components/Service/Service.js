@@ -605,7 +605,7 @@ const Service = () => {
             </p>
 
             <label
-              htmlFor="my-modal-9"
+              htmlFor="my-modal-10"
               className="btn btn-sm modal-button mt-3 text-white"
               style={{ backgroundColor: "#453364" }}
             >
@@ -613,7 +613,7 @@ const Service = () => {
             </label>
           </a>
 
-          <input type="checkbox" id="my-modal-9" className="modal-toggle" />
+          <input type="checkbox" id="my-modal-10" className="modal-toggle" />
           <div className="modal modal-bottom sm:modal-middle">
             <div className="modal-box   ">
               <h1 className="text-2xl font-bold text-center py-5">
@@ -624,7 +624,7 @@ const Service = () => {
                   <li>24/7 dayes open</li>
                   <li>Very cost affordable</li>
                   <li>Good time management </li>
-                  <li>Experience driver</li>
+                  <li>Experience </li>
                   <li>Good vehicles</li>
                 </div>
                 <div className="">
@@ -633,7 +633,7 @@ const Service = () => {
               </div>
               <div className="modal-action">
                 <label
-                  htmlFor="my-modal-9"
+                  htmlFor="my-modal-10"
                   className="btn text-white "
                   style={{ backgroundColor: "#453364" }}
                 >
