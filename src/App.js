@@ -35,6 +35,7 @@ import HypertensionSymtoms from "./components/Blog/HypertensionSymtoms";
 import HypermanagementTreatment from "./components/Blog/HypermanagementTreatment";
 import HyperPrevention from "./components/Blog/HyperPrevention";
 import FooterAbout from "./components/FooterAbout/FooterAbout";
+import HcahLanding from "./components/HcahLanding/HcahLanding";
 
 
  
@@ -78,6 +79,7 @@ function App() {
  
         <Route path="/about" element={<About />}></Route>
         <Route path="/contact" element={<Contact />}></Route>
+        <Route path="/landing" element={<HcahLanding/>}></Route>
         {/* <Route path="login" element={<Login />}></Route> */}
         <Route path="/*" element={<FourZeroFour />} /> 
       </Routes>
