@@ -10,19 +10,21 @@ const HcahLanding = () => {
       <div class="bg-gradient-to-r from-[#92468E] via-[#132C0A] to-[#38235D]  text-white blog">
         <div class="max-w-screen-xl px-8 mx-auto flex flex-col lg:flex-row items-start">
           {/* <!--Left Col--> */}
-          <div class="flex flex-col w-full lg:w-6/12 justify-center lg:pt-24 items-start text-center lg:text-left mb-5 md:mb-0">
+          <div class="flex flex-col w-full lg:w-6/12 justify-center lg:pt-24 items-start text-center lg:text-justify mb-5 md:mb-0">
             <h1
               data-aos="fade-right"
               data-aos-once="true"
               class="my-4 text-2xl font-bold leading-tight text-darken"
             >
-              <span class="text-gray-100">
+              <span class="text-gray-100 text-justify">
                 Experience the transformative blend of professional expertise
                 and heartfelt care as our dedicated medical assistants and
                 caregivers bring top-tier healthcare services directly to your
+                home, ensuring comfort, convenience, and a holistic approach to
+                your well-being.
               </span>{" "}
             </h1>
-            <p
+            {/* <p
               data-aos="fade-down"
               data-aos-once="true"
               data-aos-delay="300"
@@ -30,7 +32,7 @@ const HcahLanding = () => {
             >
               Home, ensuring comfort, convenience, and a holistic approach to
               your well-being.
-            </p>
+            </p> */}
             <div
               data-aos="fade-up"
               data-aos-once="true"

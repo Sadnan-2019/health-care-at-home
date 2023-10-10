@@ -5,13 +5,13 @@ const FooterAbout = () => {
     <div>
       <div className=" ">
         <h2
-          className="blog text-3xl text-center mt-6  font-bold poppins-b sm:text-4xl"
+          className="blog  sm:text-2xl lg:text-3xl text-center mt-6  font-bold poppins-b "
           style={{ color: "#453364" }}
         >
           HealthCare at Home Bangladesh
         </h2>
         <h2
-          className=" blog text-3xl text-center  mt-6 font-bold poppins-b sm:text-4xl"
+          className=" blog sm:text-2xl text-center  mt-6 font-bold poppins-b lg:text-3xl"
           style={{ color: "#453364" }}
         >
           ABOUT US
@@ -22,7 +22,7 @@ const FooterAbout = () => {
         ></h1>
         <div className="grid grid-cols-1 mx-10 px-10">
           <h2
-            className="blog  text-justify mt-6 text-2xl    "
+            className="blog text-lg  text-justify mt-6 lg:text-2xl    "
             style={{ color: "#453364" }}
           >
             HealthCare At Home Bangladesh, originated in 2019, has pioneered the
@@ -32,7 +32,7 @@ const FooterAbout = () => {
           </h2>
 
           <h2
-            className=" blog text-3xl text-center  mt-6 font-bold poppins-b sm:text-4xl"
+            className=" blog sm:text-2xl text-center  mt-6 font-bold poppins-b lg:text-3xl"
             style={{ color: "#453364" }}
           >
             Why HCAHBD?
@@ -42,7 +42,7 @@ const FooterAbout = () => {
             style={{ backgroundColor: "#453364" }}
           ></h1>
           <h2
-            className="blog text-justify mt-6 text-2xl     "
+            className="blog text-lg  text-justify mt-6 lg:text-2xl     "
             style={{ color: "#453364" }}
           >
             Home Health Care services were highly beneficial during the Covid-19
@@ -50,7 +50,7 @@ const FooterAbout = () => {
             in the health industry of Bangladesh.
           </h2>
           <h2
-            className=" blog text-3xl text-center  mt-6 font-bold poppins-b sm:text-4xl"
+            className=" blog sm:text-2xl text-center  mt-6 font-bold poppins-b lg:text-3xl"
             style={{ color: "#453364" }}
           >
             Advantages to HCAHBD
@@ -60,7 +60,7 @@ const FooterAbout = () => {
           style={{ backgroundColor: "#453364" }}
         ></h1>
           <h2
-            className="blog text-justify   py-6 text-2xl     "
+            className="blog text-lg  text-justify mt-6 mb-6 lg:text-2xl      "
             style={{ color: "#453364" }}
           >
             There are a wide variety of benefits in availing health services at home.
