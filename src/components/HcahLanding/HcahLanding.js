@@ -193,9 +193,121 @@ const HcahLanding = () => {
                 src={congrat}
                 alt=""
               />
+
+
+
+
             </div>
           </div>
+          
         </div>
+        <div
+            className="    "
+            data-aos="fade-up"
+            data-aos-duration="1000"
+          >
+            <div className="grid lg:grid-cols-6 gap-5 px-5 mx-5 items-center justify-items-center  ">
+              <div className="stat">
+                <div
+                  className="stat-figure  "
+                  style={{ color: "#453364" }}
+                ></div>
+                <div className="stat-value  " style={{ color: "#453364" }}>
+                  2,378+
+                </div>
+                <div
+                  className="text-[18px] font-bold"
+                  style={{ color: "#453364" }}
+                >
+                  Successful recovery stories
+                </div>
+
+                {/* <div className="stat-desc text-1xl font-bold">
+              21% more than last month
+            </div> */}
+              </div>
+              <div className="stat">
+                <div
+                  className="stat-figure  "
+                  style={{ color: "#453364" }}
+                ></div>
+                <div className="stat-value  " style={{ color: "#453364" }}>
+                  2000+
+                </div>
+                <div
+                  className="text-[18px] font-bold"
+                  style={{ color: "#453364" }}
+                >
+                  HealthCare related man power in our platform
+                </div>
+
+                
+              </div>
+
+            
+
+              <div className="stat">
+                <div
+                  className="stat-figure  "
+                  style={{ color: "#453364" }}
+                ></div>
+                <div className="stat-value  " style={{ color: "#453364" }}>
+                  3000+
+                </div>
+                <div
+                  className="text-[18px] font-bold"
+                  style={{ color: "#453364" }}
+                >
+                  Medical assistant
+                </div>
+              </div>
+              <div className="stat">
+                <div
+                  className="stat-figure  "
+                  style={{ color: "#453364" }}
+                ></div>
+                <div className="stat-value  " style={{ color: "#453364" }}>
+                  150+
+                </div>
+                <div
+                  className="text-[18px] font-bold"
+                  style={{ color: "#453364" }}
+                >
+                  Physiotherapists
+                </div>
+              </div>
+              <div className="stat">
+                <div
+                  className="stat-figure  "
+                  style={{ color: "#453364" }}
+                ></div>
+                <div className="stat-value  " style={{ color: "#453364" }}>
+                  200+
+                </div>
+                <div
+                  className="text-[18px] font-bold"
+                  style={{ color: "#453364" }}
+                >
+                  Nurses
+                </div>
+              </div>
+              <div className="stat">
+                <div
+                  className="stat-figure  "
+                  style={{ color: "#453364" }}
+                ></div>
+                <div className="stat-value  " style={{ color: "#453364" }}>
+                  250+
+                </div>
+                <div
+                  className="text-[18px] font-bold"
+                  style={{ color: "#453364" }}
+                >
+                  Caregivers
+                </div>
+              </div>
+            </div>
+          </div>
         <div class="text-white -mt-14 sm:-mt-24 lg:-mt-36 z-40 relative">
           <svg
             class="xl:h-40 xl:w-full"
@@ -211,6 +323,8 @@ const HcahLanding = () => {
           </svg>
           <div class="bg-white w-full h-20 -mt-px"></div>
         </div>
+        
+      
       </div>
     </div>
   );

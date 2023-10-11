@@ -46,8 +46,13 @@ const Nav = () => {
         </div>
         <div>
           <p className="text-[10px]   font-bold lg:text-xs    bg-clip-text   	"  >
-            01619848555 /
+             
+            <a href="tel:+01619-848555 " className="  	">
+            01619848555
+                  </a>/
+            <a href="tel:+01779848555 " className="  	">
             01779848555
+                  </a>
           </p>
           <p className="text-[10px]   font-bold lg:text-xs    bg-clip-text	 	"  >
             info@hcah.mrg.com.bd

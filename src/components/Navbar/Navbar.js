@@ -214,7 +214,7 @@ const Navbar = () => {
         <div className=" navbar-end    ">
           <a
             className="btn btn-sm bg-green-500 animate-pulse    rounded-full   "
-            href="https://wa.me/+8801741337397"
+            href="https://wa.me/+8801619848555"
             // href="https://wa.me/+8801767564737"
             title="WHATSAPP CHAT"
           >
