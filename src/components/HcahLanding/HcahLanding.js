@@ -210,14 +210,14 @@ const HcahLanding = () => {
               <div className="stat">
                 <div
                   className="stat-figure  "
-                  style={{ color: "#453364" }}
+                  
                 ></div>
-                <div className="stat-value  " style={{ color: "#453364" }}>
+                <div className="stat-value  " >
                   2,378+
                 </div>
                 <div
                   className="text-[18px] font-bold"
-                  style={{ color: "#453364" }}
+                  
                 >
                   Successful recovery stories
                 </div>
@@ -229,14 +229,14 @@ const HcahLanding = () => {
               <div className="stat">
                 <div
                   className="stat-figure  "
-                  style={{ color: "#453364" }}
+                  
                 ></div>
-                <div className="stat-value  " style={{ color: "#453364" }}>
+                <div className="stat-value  " >
                   2000+
                 </div>
                 <div
                   className="text-[18px] font-bold"
-                  style={{ color: "#453364" }}
+                  
                 >
                   HealthCare related man power in our platform
                 </div>
@@ -249,14 +249,14 @@ const HcahLanding = () => {
               <div className="stat">
                 <div
                   className="stat-figure  "
-                  style={{ color: "#453364" }}
+                  
                 ></div>
-                <div className="stat-value  " style={{ color: "#453364" }}>
+                <div className="stat-value  " >
                   3000+
                 </div>
                 <div
                   className="text-[18px] font-bold"
-                  style={{ color: "#453364" }}
+                  
                 >
                   Medical assistant
                 </div>
@@ -264,14 +264,14 @@ const HcahLanding = () => {
               <div className="stat">
                 <div
                   className="stat-figure  "
-                  style={{ color: "#453364" }}
+                  
                 ></div>
-                <div className="stat-value  " style={{ color: "#453364" }}>
+                <div className="stat-value  " >
                   150+
                 </div>
                 <div
                   className="text-[18px] font-bold"
-                  style={{ color: "#453364" }}
+                  
                 >
                   Physiotherapists
                 </div>
@@ -279,14 +279,14 @@ const HcahLanding = () => {
               <div className="stat">
                 <div
                   className="stat-figure  "
-                  style={{ color: "#453364" }}
+                
                 ></div>
-                <div className="stat-value  " style={{ color: "#453364" }}>
+                <div className="stat-value  "  >
                   200+
                 </div>
                 <div
                   className="text-[18px] font-bold"
-                  style={{ color: "#453364" }}
+                 
                 >
                   Nurses
                 </div>
@@ -294,21 +294,21 @@ const HcahLanding = () => {
               <div className="stat">
                 <div
                   className="stat-figure  "
-                  style={{ color: "#453364" }}
+                  // 
                 ></div>
-                <div className="stat-value  " style={{ color: "#453364" }}>
+                <div className="stat-value  "  >
                   250+
                 </div>
                 <div
                   className="text-[18px] font-bold"
-                  style={{ color: "#453364" }}
+                  // 
                 >
                   Caregivers
                 </div>
               </div>
             </div>
           </div>
-        <div class="text-white -mt-14 sm:-mt-24 lg:-mt-36 z-40 relative">
+        <div class="text-white -mt-14 sm:-mt-24 lg:-mt-26 z-40 relative">
           <svg
             class="xl:h-40 xl:w-full"
             data-name="Layer 1"
