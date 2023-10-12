@@ -39,11 +39,11 @@ const HcahLanding = () => {
               data-aos-delay="700"
               class="w-full md:flex items-center justify-center lg:justify-start md:space-x-5"
             >
-              <a href="/" class="lg:mx-0 bg-gray-100 text-blue-500 text-xl font-bold rounded-full py-4 px-9 focus:outline-none transform transition hover:scale-110 duration-300 ease-in-out">
+              <a href="/" class="lg:mx-0 bg-gradient-to-r from-[#92468E] via-[#132C0A] to-[#38235D]  text-white text-xl font-bold rounded-full py-4 px-9 focus:outline-none transform transition hover:scale-110 duration-300 ease-in-out  ">
                 More Info
               </a>
               <div class="flex items-center justify-center space-x-3 mt-5 md:mt-0 focus:outline-none transform transition hover:scale-110 duration-300 ease-in-out">
-                <a href="/" class="bg-white w-14 h-14 rounded-full flex items-center justify-center">
+                <a href="/" class="bg-gradient-to-r from-[#92468E] via-[#132C0A] to-[#38235D] w-14 h-14 rounded-full flex items-center justify-center">
                   <svg
                     class="w-5 h-5 ml-2"
                     viewBox="0 0 24 28"
