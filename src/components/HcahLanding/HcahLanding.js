@@ -203,11 +203,11 @@ const HcahLanding = () => {
           
         </div>
         <div
-            className="    "
+            className=" floating   "
             data-aos="fade-up"
             data-aos-duration="1000"
           >
-            <div className="grid lg:grid-cols-6 gap-5 px-5 mx-5 items-center justify-items-center  ">
+            <div className="grid lg:grid-cols-6 gap-5 px-5 mx-5 items-center justify-items-center py-8 ">
               <div className="stat">
                 <div
                   className="stat-figure  "
