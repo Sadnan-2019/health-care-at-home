@@ -1,5 +1,5 @@
 import React from "react";
-import girl from "../../assets/girl.png";
+import girl from "../../assets/landinggoogole.png";
 import calender from "../../assets/calendar.svg";
 import ux from "../../assets/ux-class.svg";
 import congrat from "../../assets/congrat.svg";
@@ -39,11 +39,11 @@ const HcahLanding = () => {
               data-aos-delay="700"
               class="w-full md:flex items-center justify-center lg:justify-start md:space-x-5"
             >
-              <button class="lg:mx-0 bg-gray-100 text-blue-500 text-xl font-bold rounded-full py-4 px-9 focus:outline-none transform transition hover:scale-110 duration-300 ease-in-out">
-                Join for free
-              </button>
+              <a href="/" class="lg:mx-0 bg-gray-100 text-blue-500 text-xl font-bold rounded-full py-4 px-9 focus:outline-none transform transition hover:scale-110 duration-300 ease-in-out">
+                More Info
+              </a>
               <div class="flex items-center justify-center space-x-3 mt-5 md:mt-0 focus:outline-none transform transition hover:scale-110 duration-300 ease-in-out">
-                <button class="bg-white w-14 h-14 rounded-full flex items-center justify-center">
+                <a href="/" class="bg-white w-14 h-14 rounded-full flex items-center justify-center">
                   <svg
                     class="w-5 h-5 ml-2"
                     viewBox="0 0 24 28"
@@ -55,22 +55,23 @@ const HcahLanding = () => {
                       fill="#23BDEE"
                     />
                   </svg>
-                </button>
-                <span class="cursor-pointer">Watch how it works</span>
+                </a>
+                <span class="cursor-pointer">Watch how we works</span>
               </div>
             </div>
           </div>
           {/* <!--Right Col--> */}
-          <div class="w-full lg:w-6/12 lg:-mt-10 relative" id="girl">
+          <div class="w-full lg:w-6/12 mt-16 floating  relative" id="girl">
             <img
-              data-aos="fade-up"
+              data-aos="fade-down shadow-2xl "
               data-aos-once="true"
-              class="w-10/12 mx-auto 2xl:-mb-20"
+              data-aos-delay="300"
+              class="w-10/12 mx-auto 2xl:-mb-20 "
               src={girl}
               alt=""
             />
             {/* <!-- calendar --> */}
-            <div
+            {/* <div
               data-aos="fade-up"
               data-aos-delay="300"
               data-aos-once="true"
@@ -81,7 +82,7 @@ const HcahLanding = () => {
                 src={calender}
                 alt=""
               />
-            </div>
+            </div> */}
             {/* <!-- red --> */}
             <div
               data-aos="fade-up"
@@ -89,7 +90,7 @@ const HcahLanding = () => {
               data-aos-once="true"
               class="absolute top-20 right-10 sm:right-24 sm:top-28 md:top-36 md:right-32 lg:top-32 lg:right-16 floating"
             >
-              <svg
+              {/* <svg
                 class="h-16 sm:h-24"
                 viewBox="0 0 149 149"
                 fill="none"
@@ -166,10 +167,10 @@ const HcahLanding = () => {
                     />
                   </filter>
                 </defs>
-              </svg>
+              </svg> */}
             </div>
             {/* <!-- ux class --> */}
-            <div
+            {/* <div
               data-aos="fade-up"
               data-aos-delay="500"
               data-aos-once="true"
@@ -180,9 +181,9 @@ const HcahLanding = () => {
                 src={ux}
                 alt=""
               />
-            </div>
+            </div> */}
             {/* <!-- congrats --> */}
-            <div
+            {/* <div
               data-aos="fade-up"
               data-aos-delay="600"
               data-aos-once="true"
@@ -197,7 +198,7 @@ const HcahLanding = () => {
 
 
 
-            </div>
+            </div> */}
           </div>
           
         </div>
