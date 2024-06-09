@@ -7,7 +7,7 @@ import { Route, Routes } from "react-router-dom";
  
 import Contact from "./components/Contact/Contact";
 import About from "./components/About/About";
-import MessengerCustomerChat from "react-messenger-customer-chat";
+ 
 import Nursing from "./components/Nursing/Nursing";
  
 import Physiotherapy from "./components/Physiotherapy/Physiotherapy";
@@ -91,7 +91,7 @@ function App() {
       {/* <MessengerCustomerChat pageId="103181519238933" appId="500779031558701" /> */}
 
       {/* hcah fb page id */}
-      <MessengerCustomerChat pageId="105187501050744" appId="500779031558701" />
+     
     </div>
   );
 }
