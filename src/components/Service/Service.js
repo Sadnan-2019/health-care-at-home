@@ -8,6 +8,7 @@ import medicalcaregiver from "../../assets/servicemedicalcare-giver.webp";
 import caregiver from "../../assets/service-caregive.jpg";
 import nanines from "../../assets/service-nanines.jpg";
 import companionship from "../../assets/service-companionship.jpg";
+import attendant from "../../assets/attendent.jpg";
 import equipment from "../../assets/service-medical-equipment.jpeg";
 import "../../../src/components/Blog/Blog.css";
 import "./Service.css";
@@ -454,6 +455,76 @@ const Service = () => {
               </div>
             </div>
           </div>
+
+
+          <a
+            className="block p-8 transition bg-white  shadow-md rounded-xl hover:shadow-lg cursor-pointer"
+            data-aos="fade-up"
+            data-aos-duration="1000"
+          >
+            <img className="w-96 h-56 rounded-lg" src={attendant} alt="" />
+
+            <h3 className="mt-3 mb-2 text-xl font-bold text-left ">
+              Attendant
+            </h3>
+
+            <p className="mt-1 text-sm text-left text-gray-800 lg:text-justify">
+              Our attendant work with your dear ones with compassion &
+              confidence.They give their time to the patients with empathy &
+              care.They are trained & reliable.They walk the patients outside
+              home,read newspaper to the patients.
+            </p>
+
+            <label
+              htmlFor="my-modal-11"
+              className="btn btn-sm modal-button mt-3 text-white"
+              style={{ backgroundColor: "#453364" }}
+            >
+              service details
+            </label>
+          </a>
+
+          <input type="checkbox" id="my-modal-11" className="modal-toggle" />
+          <div className="modal modal-bottom sm:modal-middle">
+            <div className="modal-box   ">
+              <h1 className="text-2xl font-bold text-center py-5">
+              Attendant
+              </h1>
+              <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-3   mx-auto	 ">
+                <div className="text-sm font-bold">
+                  <li>Good manner</li>
+                  <li>Walking</li>
+                  <li>Watching TV </li>
+                  <li>24/7 Personal care </li>
+                  <li>Cooking</li>
+                  <li>Feeding care</li>
+                </div>
+                <div className="rounded-lg">
+                  <img src={attendant} alt="" />
+                </div>
+              </div>
+              <div className="modal-action">
+                <label
+                  htmlFor="my-modal-11"
+                  className="btn text-white "
+                  style={{ backgroundColor: "#453364" }}
+                >
+                  close!
+                </label>
+              </div>
+            </div>
+          </div>
+
+
+
+
+
+
+
+
+
+
+
           <a
             className="block p-8 transition bg-white  shadow-md rounded-xl hover:shadow-lg cursor-pointer"
             data-aos="fade-up"
