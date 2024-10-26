@@ -105,6 +105,7 @@ const About = () => {
                 <img src={flyer1} alt="" />
               </div>
             </div>
+            
           </div>
         </div>
       </div>
