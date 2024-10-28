@@ -1,0 +1,54 @@
+.animated {
+    opacity: 1;
+  
+    animation: fade-in 1s ease-in-out;
+  
+    animation-duration: 1s;
+  }
+  @keyframes fade-in {
+    from {
+      opacity: 0;
+      transform: translateY(-20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  .border-r{
+
+    
+  }
+  
+  .floating { 
+   animation-name: floating; 
+   animation-duration: 3s; 
+   animation-iteration-count: infinite; 
+   animation-timing-function: ease-in-out;
+} 
+@keyframes floating { 
+   0% { transform: translate(0, 0px); } 
+   50% { transform: translate(0, 8px); } 
+   100% { transform: translate(0, -0px); }  
+} 
+.floating-4 { 
+   animation-name: floating; 
+   animation-duration: 4s; 
+   animation-iteration-count: infinite; 
+   animation-timing-function: ease-in-out;
+} 
+@keyframes floating-4 { 
+   0% { transform: translate(0, 0px); } 
+   50% { transform: translate(0, 8px); } 
+   100% { transform: translate(0, -0px); }  
+}
+.text-darken {
+   color: #e6e6ef;
+}
+
+
+
+
+
+
+

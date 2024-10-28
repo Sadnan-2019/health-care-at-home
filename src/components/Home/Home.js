@@ -10,6 +10,7 @@ import Review from "../Review/Review";
 import Service from "../Service/Service";
 import Success from "../Success/Success";
 import Team from "../Team/Team";
+import YoutubeVideo from "../Blog/YoutubeVideo";
 
 const Home = () => {
   return (
@@ -22,6 +23,7 @@ const Home = () => {
       <Success></Success>
       <Marque></Marque>
       <Team></Team>
+      <YoutubeVideo></YoutubeVideo>
       <About></About>
       {/* <Faq></Faq> */}
       <Contact></Contact>
