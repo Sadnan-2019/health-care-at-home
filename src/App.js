@@ -36,6 +36,7 @@ import HypermanagementTreatment from "./components/Blog/HypermanagementTreatment
 import HyperPrevention from "./components/Blog/HyperPrevention";
 import FooterAbout from "./components/FooterAbout/FooterAbout";
 import HcahLanding from "./components/HcahLanding/HcahLanding";
+import CookieConsent from "./components/CookieConsent/CookieConsent";
 
 
  
@@ -86,6 +87,8 @@ function App() {
 
       {/* <Home></Home> */}
       <Footer></Footer>
+      <CookieConsent></CookieConsent>
+
       <ToastContainer></ToastContainer>
       {/* demo facebook live chat */}
       {/* <MessengerCustomerChat pageId="103181519238933" appId="500779031558701" /> */}

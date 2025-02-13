@@ -14,7 +14,7 @@ import YoutubeVideo from "../Blog/YoutubeVideo";
 
 const Home = () => {
   return (
-    <div>
+    <div className="blog">
       
       <Landing></Landing>
       <Service></Service>
