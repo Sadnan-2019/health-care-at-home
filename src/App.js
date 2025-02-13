@@ -38,11 +38,23 @@ import FooterAbout from "./components/FooterAbout/FooterAbout";
 import HcahLanding from "./components/HcahLanding/HcahLanding";
 import CookieConsent from "./components/CookieConsent/CookieConsent";
 
+import ReactPixel from 'react-facebook-pixel';
 
  
 // import New from './components/Nav/New';
 
 function App() {
+  const options = {
+    autoConfig: true,
+    debug: true,
+  };
+  
+  ReactPixel.init('926835179569776', null, options);
+  ReactPixel.pageView();
+
+
+
+
   return (
     <div className=" ">
       
