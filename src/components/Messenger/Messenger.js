@@ -6,8 +6,8 @@ const Messenger = () => {
     return (
         <div> 
             <div>
-            <a className="" target="_blank"  onClick={() => window.location.href = messengerLink}>
-            <img src={messenger}
+            <a  rel="noreferrer" className="" target="_blank"  onClick={() => window.location.href = messengerLink}>
+            <img src={messenger} alt=''
               // onClick={gotoBtn}
               className=" float-right w-12 top-btn   cursor-pointer"
             />

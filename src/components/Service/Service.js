@@ -30,7 +30,7 @@ const Service = () => {
         </div>
 
         <div className="grid grid-cols-1 gap-8 mt-8 md:grid-cols-2 lg:grid-cols-3 py-5">
-          <a
+          <div
             className="block p-8 transition bg-white  shadow-md rounded-xl hover:shadow-lg cursor-pointer"
             data-aos="fade-up"
             data-aos-duration="1000"
@@ -56,7 +56,7 @@ const Service = () => {
                 service details
               </label>
             </div>
-          </a>
+          </div>
 
           <input type="checkbox" id="my-modal-6" className="modal-toggle" />
           <div className="modal modal-bottom sm:modal-middle">
@@ -90,7 +90,7 @@ const Service = () => {
             </div>
           </div>
 
-          <a 
+          <div 
             className="block p-8 transition bg-white  shadow-md rounded-xl hover:shadow-lg cursor-pointer"
             data-aos="fade-up"
             data-aos-duration="1000"
@@ -119,7 +119,7 @@ const Service = () => {
                 service details
               </label>
             </div>
-          </a>
+          </div>
 
           <input type="checkbox" id="my-modal-5" className="modal-toggle" />
           <div className="modal modal-bottom sm:modal-middle">
@@ -156,7 +156,7 @@ const Service = () => {
             </div>
           </div>
 
-          <a
+          <div
             className="block p-8 transition bg-white  shadow-md rounded-xl hover:shadow-lg cursor-pointer"
             data-aos="fade-up"
             data-aos-duration="1000"
@@ -186,7 +186,7 @@ const Service = () => {
             >
               service details
             </label>
-          </a>
+          </div>
 
           <input type="checkbox" id="my-modal-4" className="modal-toggle" />
           <div className="modal modal-bottom sm:modal-middle">
@@ -219,7 +219,7 @@ const Service = () => {
             </div>
           </div>
 
-          <a
+          <div
             className="block p-8 transition bg-white  shadow-md rounded-xl hover:shadow-lg cursor-pointer"
             data-aos="fade-up"
             data-aos-duration="1000"
@@ -247,7 +247,7 @@ const Service = () => {
             >
               service details
             </label>
-          </a>
+          </div>
 
           <input type="checkbox" id="my-modal-3" className="modal-toggle" />
           <div className="modal modal-bottom sm:modal-middle">
@@ -280,7 +280,7 @@ const Service = () => {
             </div>
           </div>
 
-          <a
+          <div
             className="block p-8 transition bg-white  shadow-md rounded-xl hover:shadow-lg cursor-pointer"
             data-aos="fade-up"
             data-aos-duration="1000"
@@ -304,7 +304,7 @@ const Service = () => {
             >
               service details
             </label>
-          </a>
+          </div>
 
           <input type="checkbox" id="my-modal-2" className="modal-toggle" />
           <div className="modal modal-bottom sm:modal-middle">
@@ -339,7 +339,7 @@ const Service = () => {
               </div>
             </div>
           </div>
-          <a
+          <div
             className="block p-8 transition bg-white  shadow-md rounded-xl hover:shadow-lg cursor-pointer"
             data-aos="fade-up"
             data-aos-duration="1000"
@@ -365,7 +365,7 @@ const Service = () => {
             >
               service details
             </label>
-          </a>
+          </div>
 
           <input type="checkbox" id="my-modal-1" className="modal-toggle" />
           <div className="modal modal-bottom sm:modal-middle">
@@ -398,7 +398,7 @@ const Service = () => {
               </div>
             </div>
           </div>
-          <a
+          <div
             className="block p-8 transition bg-white  shadow-md rounded-xl hover:shadow-lg cursor-pointer"
             data-aos="fade-up"
             data-aos-duration="1000"
@@ -423,7 +423,7 @@ const Service = () => {
             >
               service details
             </label>
-          </a>
+          </div>
 
           <input type="checkbox" id="my-modal-7" className="modal-toggle" />
           <div className="modal modal-bottom sm:modal-middle">
@@ -457,7 +457,7 @@ const Service = () => {
           </div>
 
 
-          <a
+          <div
             className="block p-8 transition bg-white  shadow-md rounded-xl hover:shadow-lg cursor-pointer"
             data-aos="fade-up"
             data-aos-duration="1000"
@@ -482,7 +482,7 @@ const Service = () => {
             >
               service details
             </label>
-          </a>
+          </div>
 
           <input type="checkbox" id="my-modal-11" className="modal-toggle" />
           <div className="modal modal-bottom sm:modal-middle">
@@ -525,7 +525,7 @@ const Service = () => {
 
 
 
-          <a
+          <div
             className="block p-8 transition bg-white  shadow-md rounded-xl hover:shadow-lg cursor-pointer"
             data-aos="fade-up"
             data-aos-duration="1000"
@@ -552,7 +552,7 @@ const Service = () => {
             >
               service details
             </label>
-          </a>
+          </div>
 
           <input type="checkbox" id="my-modal-8" className="modal-toggle" />
           <div className="modal modal-bottom sm:modal-middle">
@@ -589,7 +589,7 @@ const Service = () => {
             </div>
           </div>
 
-          <a
+          <div
             className="block p-8 transition bg-white  shadow-md rounded-xl hover:shadow-lg cursor-pointer"
             data-aos="fade-up"
             data-aos-duration="1000"
@@ -620,7 +620,7 @@ const Service = () => {
             >
               service details
             </label>
-          </a>
+          </div>
 
           <input type="checkbox" id="my-modal-9" className="modal-toggle" />
           <div className="modal modal-bottom sm:modal-middle">
@@ -651,7 +651,7 @@ const Service = () => {
               </div>
             </div>
           </div>
-          <a
+          <div
             className="block p-8 transition bg-white  shadow-md rounded-xl hover:shadow-lg cursor-pointer"
             data-aos="fade-up"
             data-aos-duration="1000"
@@ -682,7 +682,7 @@ const Service = () => {
             >
               Service details
             </label>
-          </a>
+          </div>
 
           <input type="checkbox" id="my-modal-10" className="modal-toggle" />
           <div className="modal modal-bottom sm:modal-middle">

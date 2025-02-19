@@ -407,17 +407,7 @@ const Team = () => {
           nurses, physiotherapists, medical assistant & medical caregiver.
         </p>
 
-        <div className="py-2 px-5   flex justify-center">
-          <a href="">
-            <button
-              htmlFor="my-modal-6"
-              className="btn btn-md modal-button mt-3 text-[white] bg-gradient-to-r from-[#303640] to-[#103264]   animate-pulse    "
-              style={{ backgroundColor: "#453364" }}
-            >
-              More Experts
-            </button>
-          </a>
-        </div>
+     
       </div>
     </div>
   );

@@ -1,12 +1,12 @@
 import React from "react";
-import { Link, NavLink } from "react-router-dom";
-import sub from "../../assets/sub.png";
+import { Link,   } from "react-router-dom";
+ 
 import schs from "../../assets/schs.png";
 import { FcAlarmClock } from "react-icons/fc";
 import { FaPhoneVolume } from "react-icons/fa";
 import { BiLocationPlus } from "react-icons/bi";
 import HCAHBD from "../../assets/HCAHBD.png";
-import { useState } from "react";
+ 
 import "animate.css";
 import "animate.css";
 
@@ -91,7 +91,7 @@ const Nav = () => {
             </div>
             <div className=" animate__animated animate__backInLeft  ">
               {/* <a href="https://www.facebook.com/TMCTrishal" target="_blank" ><img src={sub} className=" ml-6 w-10 lg:w-12 lg:ml-4  	" alt=""/></a> */}
-              <a href="https://schs.edu.bd/" target="_blank">
+              <a href="https://schs.edu.bd/" target="_blank" rel="noreferrer">
                 <img src={schs} className="   w-40 lg:w-28  	" alt="" />
               </a>
               {/* <a href="https://schs.edu.bd/" target="_blank" ><img src={schs} className="   w-40 lg:w-28  	" alt=""/></a> */}

@@ -5,7 +5,7 @@ const FooterAbout = () => {
   return (
     <div>
       <Helmet>
-        <title>About Us - Healthcare at Home</title>
+        {/* <title>About Us - Healthcare at Home</title> */}
         <meta
           name="description"
           content="Learn more about our mission to bring healthcare services to your home."
