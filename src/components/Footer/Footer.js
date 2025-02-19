@@ -11,7 +11,7 @@ const Footer = () => {
         <div class="max-w-screen-xl px-4  pb-6 mx-auto sm:px-6 lg:px-8 ">
           <div class="grid grid-cols-1 gap-8 pt-16 mt-16 border-t border-gray-100 md:grid-cols-4 lg:grid-cols-4 text-white">
             <div class="text-center sm:text-left">
-              <a href="/fotter-about" class="text-lg font-medium text-white">
+              <a href="/about-us" class="text-lg font-medium text-white">
                 About Us
               </a>
 

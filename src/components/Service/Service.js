@@ -90,7 +90,7 @@ const Service = () => {
             </div>
           </div>
 
-          <a
+          <a 
             className="block p-8 transition bg-white  shadow-md rounded-xl hover:shadow-lg cursor-pointer"
             data-aos="fade-up"
             data-aos-duration="1000"

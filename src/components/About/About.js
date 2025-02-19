@@ -2,9 +2,20 @@ import React from "react";
 import flyer from "../../assets/hcahflyer.jpg";
 import flyer1 from "../../assets/HCAHBrochure1.jpg";
 import flyer2 from "../../assets/HCAHBrochure2.jpg";
+import { Helmet } from "react-helmet-async";
 const About = () => {
   return (
     <div className="py-10 blog">
+
+
+<Helmet>
+        <title>About Us - Healthcare at Home</title>
+        <meta name="description" content="Learn more about our mission to bring healthcare services to your home." />
+        <meta name="robots" content="index, follow" />
+        <meta property="og:title" content="About Us - Healthcare at Home" />
+        <meta property="og:description" content="Learn more about our mission." />
+        <meta property="og:url" content="https://hcah.mrg.com.bd/about-us" />
+      </Helmet>
       <div
         className="hero min-h-screen"
         // data-aos="zoom-in-up"
