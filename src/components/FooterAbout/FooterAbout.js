@@ -96,7 +96,6 @@ const FooterAbout = () => {
           allowfullscreen="true"
           allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"
         ></iframe>
-
         <iframe
           title="physio"
           src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fhcahbd%2Fposts%2Fpfbid02fzvm8He9ot83CW5JkyJGc52UbrAVN2rKhciPJafKjVPpiHVaLQNcE4YKqvYCE29rl&show_text=true&width=500"
@@ -108,7 +107,6 @@ const FooterAbout = () => {
           allowfullscreen="true"
           allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"
         ></iframe>
-
         <iframe
           title="service"
           src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fhcahbd%2Fposts%2Fpfbid0gB8NcRL8rT6rB5aSzx9fDeX7gwo67gejMDX5YxLoDGghw7Dht1LorNFhEVh1yYdl&show_text=true&width=500"
@@ -120,7 +118,6 @@ const FooterAbout = () => {
           allowfullscreen="true"
           allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"
         ></iframe>
-
         <iframe
           title="physio1"
           src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fhcahbd%2Fposts%2Fpfbid068tnoVkKbwbdqr1nfTWmH2axhYqWDPPk433cyPRfrJLMB27DgYhnfjoTq4kScuwsl&show_text=true&width=500"
@@ -132,7 +129,6 @@ const FooterAbout = () => {
           allowfullscreen="true"
           allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"
         ></iframe>
-
         <iframe
           title="dr home visit"
           src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fhcahbd%2Fposts%2Fpfbid031RKXwNLZB1Q4RKRggeybLtHtYuLgb9kmqCyvaeY8TbHds4SCBS5HDuT29bedNqUrl&show_text=true&width=500"
@@ -155,7 +151,18 @@ const FooterAbout = () => {
           allowfullscreen="true"
           allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"
         ></iframe>
-      </div>
+        <div
+          title="caregiver two medium"
+          src="https://medium.com/@mdsadnanhossain94_46380/caregiver-for-complete-health-support-at-home-from-healthcare-at-home-bangladesh-17622dbfe488?source=friends_link&sk=e4f78333d8b487cac4a9c6305a8eec9b"
+          width="500"
+          height="648"
+          style={{ border: "none", overflow: "hidden" }}
+          scrolling="no"
+          frameborder="0"
+          allowfullscreen="true"
+          allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"
+        ></div>
+       </div>
     </div>
   );
 };
