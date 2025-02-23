@@ -53,10 +53,10 @@ function App() {
   ReactPixel.pageView();
 
   return (
-    <div className=" ">
+    <div className="">
       
 
-      <Navbar className=" "></Navbar>
+      <Navbar className=""></Navbar>
 
       <HelmetProvider>
         <Routes>

@@ -5,39 +5,39 @@ const FooterAbout = () => {
   return (
     <div>
       <Helmet>
-        {/* <title>About Us - Healthcare at Home</title> */}
+        <title>Health Care at Home</title>
         <meta
           name="description"
           content="Learn more about our mission to bring healthcare services to your home."
         />
         <meta name="robots" content="index, follow" />
-        <meta property="og:title" content="About Us - Healthcare at Home" />
+        <meta property="og:title" content="HealthCare at Home Dhaka" />
         <meta
           property="og:description"
           content="Learn more about our mission."
         />
         <meta property="og:url" content="https://hcah.mrg.com.bd/about-us" />
       </Helmet>
-      <div className=" ">
+      <div className="">
         <h2
-          className="blog  sm:text-2xl lg:text-3xl text-center mt-6  font-bold poppins-b "
+          className="mt-6 font-bold text-center blog sm:text-2xl lg:text-3xl poppins-b "
           style={{ color: "#453364" }}
         >
           HealthCare at Home Bangladesh
         </h2>
         <h2
-          className=" blog sm:text-2xl text-center  mt-6 font-bold poppins-b lg:text-3xl"
+          className="mt-6 font-bold text-center blog sm:text-2xl poppins-b lg:text-3xl"
           style={{ color: "#453364" }}
         >
           ABOUT US
         </h2>
         <h1
-          className="  w-32 h-1 rounded-lg mt-2 mb-4 mx-auto"
+          className="w-32 h-1 mx-auto mt-2 mb-4 rounded-lg "
           style={{ backgroundColor: "#453364" }}
         ></h1>
-        <div className="grid grid-cols-1 mx-10 px-10">
+        <div className="grid grid-cols-1 px-10 mx-10">
           <h2
-            className="blog text-lg  text-justify mt-6 lg:text-2xl    "
+            className="mt-6 text-lg text-justify blog lg:text-2xl "
             style={{ color: "#453364" }}
           >
             HealthCare At Home Bangladesh, originated in 2019, has pioneered the
@@ -47,17 +47,17 @@ const FooterAbout = () => {
           </h2>
 
           <h2
-            className=" blog sm:text-2xl text-center  mt-6 font-bold poppins-b lg:text-3xl"
+            className="mt-6 font-bold text-center blog sm:text-2xl poppins-b lg:text-3xl"
             style={{ color: "#453364" }}
           >
             Why HCAHBD?
           </h2>
           <h1
-            className="  w-32 h-1 rounded-lg mt-2 mb-4 mx-auto"
+            className="w-32 h-1 mx-auto mt-2 mb-4 rounded-lg "
             style={{ backgroundColor: "#453364" }}
           ></h1>
           <h2
-            className="blog text-lg  text-justify mt-6 lg:text-2xl     "
+            className="mt-6 text-lg text-justify blog lg:text-2xl "
             style={{ color: "#453364" }}
           >
             Home Health Care services were highly beneficial during the Covid-19
@@ -65,17 +65,17 @@ const FooterAbout = () => {
             in the health industry of Bangladesh.
           </h2>
           <h2
-            className=" blog sm:text-2xl text-center  mt-6 font-bold poppins-b lg:text-3xl"
+            className="mt-6 font-bold text-center blog sm:text-2xl poppins-b lg:text-3xl"
             style={{ color: "#453364" }}
           >
             Advantages to HCAHBD
           </h2>
           <h1
-            className="  w-32 h-1 rounded-lg mt-2 mb-4 mx-auto"
+            className="w-32 h-1 mx-auto mt-2 mb-4 rounded-lg "
             style={{ backgroundColor: "#453364" }}
           ></h1>
           <h2
-            className="blog text-lg  text-justify mt-6 mb-6 lg:text-2xl      "
+            className="mt-6 mb-6 text-lg text-justify blog lg:text-2xl "
             style={{ color: "#453364" }}
           >
             There are a wide variety of benefits in availing health services at
@@ -84,7 +84,7 @@ const FooterAbout = () => {
         </div>
       </div>
 
-      <div className="py-8 justify-items-center grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-8 mx-8">
+      <div className="grid grid-cols-1 gap-8 py-8 mx-8 justify-items-center md:grid-cols-2 lg:grid-cols-2">
         <iframe
           title="nursing"
           src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fhcahbd%2Fposts%2Fpfbid02Fs58uFot8WNtC2FpvWDshSSQX6oGnuAYLYLf8cf4p8EPM8j6UaHLWb5ZBUkEB1crl&show_text=true&width=500"

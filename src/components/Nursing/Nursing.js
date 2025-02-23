@@ -9,16 +9,32 @@ import Nursingabout from "./Nursingabout";
 import Nursingchoose from "./Nursingchoose";
 import Teamnursing from "./Teamnursing";
 import "./Nursing.css"
+import { Helmet } from "react-helmet-async";
 // import "../../../src/components/Blog/Blog.css"  
 const Nursing = () => {
   return (
     <div>
+        <Helmet>
+              <title>Nursing Care at Dhaka</title>
+              <meta name="description" content="Get top-quality professionals  healthcare services at home. Book professional doctors & caregivers online." />
+              <meta name="keywords" content="healthcare,home care,home nursing care,top caregiver dhaka,physiotheray dhaka, home doctors, medical caregiver" />
+              <meta name="robots" content="index, follow" />
+              <meta property="og:title" content="Nursing Care at Dhaka" />
+              <meta property="og:description" content="Get top-quality healthcare services at home" />
+              <meta property="og:image" content="https://hcah.mrg.com.bd/static/media/nurseservice.a7aa8c08eeeb13c8337d.jpg" />
+              <meta property="og:url" content="https://hcah.mrg.com.bd" />
+              <meta property="og:type" content="website" />.
+              <link rel="canonical" href="https://hcah.mrg.com.bd" />
+      
+      
+             
+            </Helmet>
       <section
-        className="  h-auto blog nursing "
+        className="h-auto blog nursing"
          
       >
-        <div className=" md:py-20 py-10 lg:py-24 lg:mx-16 mx-8 grid lg:grid-cols-1 grid-cols-1 gap-5">
-          <div className="max-w-xl text-left md:ml-8 lg:order-1 order-2 mt-10 lg:mt-0">
+        <div className="grid grid-cols-1 gap-5 py-10 mx-8 md:py-20 lg:py-24 lg:mx-16 lg:grid-cols-1">
+          <div className="order-2 max-w-xl mt-10 text-left md:ml-8 lg:order-1 lg:mt-0">
             
             <p
               data-aos="fade-up"
@@ -58,7 +74,7 @@ const Nursing = () => {
             <div
               data-aos="fade-up"
               data-aos-duration="3000"
-              className="flex  gap-4 mt-10 text-center"
+              className="flex gap-4 mt-10 text-center"
             >
              
             </div>

@@ -16,10 +16,10 @@ const Nav = () => {
   return (
     <div className="sticky top-0 z-50 blog ">
       <div className="mx-auto bg-base-100">
-        <div className="   grid    grid-cols-2 lg:gap-10 lg:grid-cols-4 items-center justify-items-center  ">
+        <div className="grid items-center grid-cols-2 lg:gap-10 lg:grid-cols-4 justify-items-center">
           <div>
-            <Link to="/">
-              <div className="  flex items-center">
+            <Link rel="canonical"   to="/">
+              <div className="flex items-center ">
                 <img className="w-48" alt="logo" src={HCAHBD} />
               </div>
             </Link>
@@ -27,7 +27,7 @@ const Nav = () => {
 
           <div>
             <div
-              className="flex items-center font-bold    gap-2"
+              className="flex items-center gap-2 font-bold"
               style={{ color: "#453364" }}
             >
               <div>
@@ -35,11 +35,11 @@ const Nav = () => {
               </div>
               <div>
                 <p className="text-[10px]   font-bold lg:text-xs    bg-clip-text   	">
-                  <a href="tel:+01619-848555 " className="  	">
+                  <a href="tel:+01619-848555 " className="">
                     01619848555
                   </a>
                   /
-                  <a href="tel:+01779848555 " className="  	">
+                  <a href="tel:+01779848555 " className="">
                     01779848555
                   </a>
                 </p>
@@ -49,16 +49,16 @@ const Nav = () => {
               </div>
             </div>
           </div>
-          <div className="  mx-3">
+          <div className="mx-3 ">
             <div
-              className="flex items-center gap-2  "
+              className="flex items-center gap-2 "
               style={{ color: "#453364" }}
             >
               <div className="animate-spin">
                 <FcAlarmClock className="text-[15px] lg:text-2xl   "></FcAlarmClock>
               </div>
               <div>
-                <div className="	">
+                <div className="">
                   <p className="text-[10px]   font-bold lg:text-xs    bg-clip-text 	">
                     24/7days Open
                   </p>
@@ -66,7 +66,7 @@ const Nav = () => {
               </div>
             </div>
             <div
-              className="flex gap-2 items-center"
+              className="flex items-center gap-2"
               style={{ color: "#453364" }}
             >
               <div>
@@ -81,7 +81,7 @@ const Nav = () => {
             </div>
           </div>
           <div
-            className="   lg:flex items-center font-bold  justify-items-center	    gap-2"
+            className="items-center gap-2 font-bold lg:flex justify-items-center"
             style={{ color: "white" }}
           >
             <div>
@@ -89,12 +89,12 @@ const Nav = () => {
                 Link Organization
               </p>
             </div>
-            <div className=" animate__animated animate__backInLeft  ">
-              {/* <a href="https://www.facebook.com/TMCTrishal" target="_blank" ><img src={sub} className=" ml-6 w-10 lg:w-12 lg:ml-4  	" alt=""/></a> */}
-              <a href="https://schs.edu.bd/" target="_blank" rel="noreferrer">
-                <img src={schs} className="   w-40 lg:w-28  	" alt="" />
+            <div className=" animate__animated animate__backInLeft">
+              {/* <a href="https://www.facebook.com/TMCTrishal" target="_blank" ><img src={sub} className="w-10 ml-6 lg:w-12 lg:ml-4" alt=""/></a> */}
+              <a  href="https://schs.edu.bd/" target="_blank" rel="noreferrer">
+                <img src={schs} className="w-40 lg:w-28" alt="" />
               </a>
-              {/* <a href="https://schs.edu.bd/" target="_blank" ><img src={schs} className="   w-40 lg:w-28  	" alt=""/></a> */}
+              {/* <a href="https://schs.edu.bd/" target="_blank" ><img src={schs} className="w-40 lg:w-28" alt=""/></a> */}
             </div>
           </div>
         </div>

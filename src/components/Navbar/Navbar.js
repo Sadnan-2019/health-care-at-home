@@ -14,48 +14,48 @@ const Navbar = () => {
 
   const navItem = (
     <>
-      <li className="nav-item p-2 	">
-        <NavLink
+      <li rel="canonical"  className="p-2 nav-item ">
+        <NavLink rel="canonical" 
           className={({ isActive }) => (isActive ? `${active}` : `${normal}`)}
           to="/home"
         >
           Home
         </NavLink>
       </li>
-      <li className="nav-item p-2 	">
-        <NavLink
+      <li className="p-2 nav-item ">
+        <NavLink rel="canonical" 
           className={({ isActive }) => (isActive ? `${active}` : `${normal}`)}
           to="/nursing"
         >
           Nursing
         </NavLink>
       </li>
-      <li className="nav-item p-2">
-        <NavLink
+      <li className="p-2 nav-item">
+        <NavLink rel="canonical" 
           className={({ isActive }) => (isActive ? `${active}` : `${normal}`)}
           to="/physiotherapy"
         >
           Physiotherapy
         </NavLink>
       </li>
-      <li className="nav-item p-2">
-        <NavLink
+      <li className="p-2 nav-item">
+        <NavLink rel="canonical" 
           className={({ isActive }) => (isActive ? `${active}` : `${normal}`)}
           to="/medical-assistant"
         >
           Medical Assistant
         </NavLink>
       </li>
-      <li className="nav-item p-2">
-        <NavLink
+      <li className="p-2 nav-item">
+        <NavLink rel="canonical" 
           className={({ isActive }) => (isActive ? `${active}` : `${normal}`)}
           to="/medical-caregiver"
         >
           Medical Caregiver
         </NavLink>
       </li>
-      <li className="nav-item p-2">
-        <NavLink
+      <li className="p-2 nav-item">
+        <NavLink rel="canonical" 
           className={({ isActive }) => (isActive ? `${active}` : `${normal}`)}
           to="/caregiver"
         >
@@ -63,32 +63,32 @@ const Navbar = () => {
         </NavLink>
       </li>
 
-      <li className="nav-item p-2">
-        <NavLink
+      <li className="p-2 nav-item">
+        <NavLink rel="canonical" 
           className={({ isActive }) => (isActive ? `${active}` : `${normal}`)}
           to="/nanycare"
         >
           Nanycare
         </NavLink>
       </li>
-      <li className="nav-item p-2">
-        <NavLink
+      <li className="p-2 nav-item">
+        <NavLink rel="canonical" 
           className={({ isActive }) => (isActive ? `${active}` : `${normal}`)}
           to="/companion"
         >
           Companion
         </NavLink>
       </li>
-      <li className="nav-item p-2">
-        <NavLink
+      <li className="p-2 nav-item">
+        <NavLink rel="canonical" 
           className={({ isActive }) => (isActive ? `${active}` : `${normal}`)}
           to="/medical-equipment"
         >
           Medical Equipment
         </NavLink>
       </li>
-      <li className="nav-item p-2">
-        <NavLink
+      <li className="p-2 nav-item">
+        <NavLink rel="canonical" 
           className={({ isActive }) => (isActive ? `${active}` : `${normal}`)}
           to="/payment"
         >
@@ -119,11 +119,11 @@ const Navbar = () => {
 
         <ul
           tabIndex={0}
-          className="w-24 dropdown-content menu p-2 shadow  rounded-box lg:w-52"
+          className="w-24 p-2 shadow dropdown-content menu rounded-box lg:w-52"
           style={{ backgroundColor: "#453364" }}
         >
-          <li className="nav-item p-2">
-            <NavLink
+          <li className="p-2 nav-item">
+            <NavLink rel="canonical" 
               className={({ isActive }) =>
                 isActive ? `${active}` : `${normal}`
               }
@@ -132,8 +132,8 @@ const Navbar = () => {
               Blog
             </NavLink>
           </li>
-          <li className="nav-item p-2">
-            <NavLink
+          <li className="p-2 nav-item">
+            <NavLink rel="canonical" 
               className={({ isActive }) =>
                 isActive ? `${active}` : `${normal}`
               }
@@ -142,8 +142,8 @@ const Navbar = () => {
               About
             </NavLink>
           </li>
-          <li className="nav-item p-2">
-            <NavLink
+          <li className="p-2 nav-item">
+            <NavLink rel="canonical" 
               className={({ isActive }) =>
                 isActive ? `${active}` : `${normal}`
               }
@@ -158,26 +158,26 @@ const Navbar = () => {
   );
 
   return (
-    <div className="sticky top-0 z-50 header  blog">
+    <div className="sticky top-0 z-50 header blog">
       <Nav />
-      
+     
       <div
-        className="px-4 md:pl-10  lg:px-14 header flex justify-center items-center gap-56 lg:gap-28 "
+        className="flex items-center justify-between gap-56 px-4 md:pl-10 lg:px-14 header lg:gap-28 "
         style={{ backgroundColor: "#453364" }}
       >
         {/* Navbar start source code from Daisy UI */}
 
-        <div className="navbar  header ">
+        <div className="navbar header ">
           {/* Navbar left portion */}
           <div className="">
             <div className="dropdown">
               <label
                 tabindex="0"
-                className="btn btn-ghost lg:hidden text-white"
+                className="text-white btn btn-ghost lg:hidden"
               >
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
-                  className="h-5 w-5"
+                  className="w-5 h-5"
                   fill="none"
                   viewBox="0 0 24 24"
                   stroke="currentColor"
@@ -192,7 +192,7 @@ const Navbar = () => {
               </label>
               <ul
                 tabindex="0"
-                className="menu menu-compact dropdown-content mt-3 p-2 shadow-xl  rounded-box w-52"
+                className="p-2 mt-3 shadow-xl menu menu-compact dropdown-content rounded-box w-52"
                 style={{ backgroundColor: "#453364", color: "white" }}
               >
                 {navItem}
@@ -200,10 +200,10 @@ const Navbar = () => {
             </div>
           </div>
 
-          <div className=" flex 	  ">
-            <div className="navbar-start hidden   lg:flex      ">
-              <div className="     ">
-                <ul className="menu-horizontal p-0 flex items-center    ">
+          <div className="flex ">
+            <div className="hidden navbar-start lg:flex ">
+              <div className="">
+                <ul className="flex items-center p-0 menu-horizontal ">
                   {navItem}
                 </ul>
               </div>
@@ -211,9 +211,9 @@ const Navbar = () => {
           </div>
         </div>
 
-        <div className=" navbar-end    ">
+        <div className=" navbar-end">
           <a
-            className="btn btn-sm bg-green-500 animate-pulse    rounded-full   "
+            className="bg-green-500 rounded-full btn btn-sm animate-pulse "
             href="https://wa.me/+8801619848555"
             // href="https://wa.me/+8801767564737"
             title="WHATSAPP CHAT"

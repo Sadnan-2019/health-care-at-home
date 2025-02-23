@@ -17,17 +17,19 @@ const Home = () => {
   return (
     <div className="blog">
       <Helmet>
-        <title>Best Healthcare at Home | HealthCare at Home Bangladesh</title>
+        <title> HealthCare at Home Bangladesh</title>
         <meta name="description" content="Get top-quality professionals  healthcare services at home. Book professional doctors & caregivers online." />
         <meta name="keywords" content="healthcare,home care,home nursing care,top caregiver dhaka,physiotheray dhaka, home doctors, medical caregiver" />
         <meta name="robots" content="index, follow" />
-        
-     
+        {/* <meta property="og:title" content="Healthcare at Home" /> */}
+        <meta property="og:title" content=" Best Health care at Home" />
         <meta property="og:title" content="Best Healthcare at Home | HealthCare at Home Bangladesh" />
         <meta property="og:description" content="Get top-quality healthcare services at home." />
-        <meta property="og:image" content="https://hcah.mrg.com.bd/images/home-banner.jpg" />
+        <meta property="og:image" content="https://hcah.mrg.com.bd/static/media/service-caregive.f73bb16bcec38cd23239.jpg" />
         <meta property="og:url" content="https://hcah.mrg.com.bd" />
-        <meta property="og:type" content="website" />
+        <meta property="og:type" content="website" />.
+        <link rel="canonical" href="https://hcah.mrg.com.bd" />
+
 
        
       </Helmet>

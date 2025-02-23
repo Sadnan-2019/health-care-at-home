@@ -9,15 +9,15 @@ const About = () => {
 
 
 <Helmet>
-        <title>About Us - Healthcare at Home</title>
+        {/* <title> Health care at Home Bangladesh</title> */}
         <meta name="description" content="Learn more about our mission to bring healthcare services to your home." />
         <meta name="robots" content="index, follow" />
-        <meta property="og:title" content="About Us - Healthcare at Home" />
+        <meta property="og:title" content="Health Care at Home" />
         <meta property="og:description" content="Learn more about our mission." />
         <meta property="og:url" content="https://hcah.mrg.com.bd/about-us" />
       </Helmet>
       <div
-        className="hero min-h-screen"
+        className="min-h-screen hero"
         // data-aos="zoom-in-up"
         // // data-aos-offset="300"
         // data-aos-delay="5000"
@@ -30,11 +30,11 @@ const About = () => {
         }}
       >
         <div className="hero-overlay bg-opacity-60"></div>
-        <div className="hero-content text-center text-neutral-content">
+        <div className="text-center hero-content text-neutral-content">
           <div className="">
-            <h1 className=" text-5xl font-bold text-white py-12 ">Why HCAH?</h1>
+            <h1 className="py-12 text-5xl font-bold text-white ">Why HCAH?</h1>
 
-            <div className="text-white 	 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+            <div className="grid grid-cols-1 gap-8 text-white md:grid-cols-2 lg:grid-cols-3">
               <div className="card">
                 <p className="text-[18px]  font-bold mb-4">Affordable Cost </p>
                 <p className="text-justify	 	text-[15px] poppins-t">
@@ -105,7 +105,7 @@ const About = () => {
               </div>
             </div>
 
-            <div className="text-white 	py-5 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-8">
+            <div className="grid grid-cols-1 gap-8 py-5 text-white md:grid-cols-2 lg:grid-cols-2">
               {/* <div className="card">
                 <img src={flyer} alt="" />
               </div> */}
