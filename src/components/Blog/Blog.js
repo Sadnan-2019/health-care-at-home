@@ -5,17 +5,36 @@ import { RxLinkedinLogo } from "react-icons/rx";
 import { AiFillTwitterCircle } from "react-icons/ai";
 import { FaWhatsappSquare } from "react-icons/fa";
 import PhysioBlog from "./PhysioBlog";
-// import "./Blog.css"  
- 
- 
-// import ('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;1,300&display=swap');
- 
- 
- 
- 
+import { Helmet } from "react-helmet-async";
+
 const Blog = () => {
   return (
     <div className="blog">
+      <Helmet>
+        <title> Blog Caregiver at Dhaka</title>
+        <meta
+          name="description"
+          content="Get top-quality professionals  healthcare services at home. Book professional doctors & caregivers online."
+        />
+        <meta
+          name="keywords"
+          content="healthcare,blog home care,home nursing care,top caregiver dhaka,physiotheray dhaka, home doctors, medical caregiver,Medicalequipment Bangladesh"
+        />
+        <meta name="robots" content="index, follow" />
+        <meta property="og:title" content="Blog caregiver at Dhaka" />
+        <meta
+          property="og:description"
+          content="Get top-quality healthcare services at home"
+        />
+        <meta
+          property="og:image"
+          content="http://localhost:3000/static/media/service-companionship.fe2c54273b549fcbe6e2.jpg"
+        />
+        <meta property="og:url" content="https://hcah.mrg.com.bd" />
+        <meta property="og:type" content="website" />.
+        <link rel="canonical" href="https://hcah.mrg.com.bd/blog" />
+      </Helmet>
+
       {/* <h2 className="text-center text-4xl font bold py-6 "> </h2> */}
       <h2
         className="text-3xl text-center   mt-10 font-bold poppins-b sm:text-4xl"
@@ -24,79 +43,6 @@ const Blog = () => {
         Our Blog
       </h2>
       <PhysioBlog></PhysioBlog>
-
-      {/* <div className=" grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-2  gap-4 px-12">
-        <div class="card  bg-gradient-to-r from-[#486038] to-[#38235D] shadow-xl  text-white mb-5 mt-12">
-          <img
-            src="https://cdn.jagonews24.com/media/imgAllNew/BG/2019November/dd-20230110120818.jpg"
-            alt=""
-          />
-          <div class="card-body">
-            <h2 class="card-title">রোগীর দোরগোড়ায় স্বাস্থ্যসেবা</h2>
-            <p>
-              ষাটোর্ধ্ব জাহানারা বেগম থাকেন গুলশানে। বিশাল বাসায় সারাদিন একাই
-              থাকতে হয় তাকে। অবশ্য তাকে সহায়তা করার জন্য আছেন কয়েকজন গৃহকর্মী।
-              একমাত্র সন্তান রাফসান জামান জীবিকার তাগিদে স্ত্রী সন্তান নিয়ে
-              থাকেন যুক্তরাষ্ট্রে। ইদানিং বয়সের ভারে জাহানারা বেগমের শরীর আর
-              আগের মতো সাড়া দেয় না। ওদিকে ছেলেও সব সময় মায়ের স্বাস্থ্য নিয়ে
-              দুঃশ্চিন্তা করেন।
-            </p>
-            <div className="flex gap-3    mt-5">
-           < BsFacebook  className="lg:text-2xl text-[20px] " style={{  color:"white" }}/>
-            < RxLinkedinLogo  className="lg:text-2xl text-[20px] " style={{  color:"white" }}/>
-            < AiFillTwitterCircle  className="lg:text-2xl text-[20px] " style={{  color:"white" }}/>
-            < FaWhatsappSquare  className="lg:text-2xl text-[20px] " style={{  color:"white" }}/>
-           </div>
-            <div className="py-2 px-5   flex justify-end">
-              <Link to="/blogone">
-                <button
-                  htmlFor="my-modal-6"
-                  className="btn btn-sm modal-button mt-3 text-[white] bg-gradient-to-r from-[#303640] to-[#103264]   animate-pulse    "
-                  style={{ backgroundColor: "#453364" }}
-                >
-                  Read More{" "}
-                </button>
-              </Link>
-            </div>
-          </div>
-        </div>
-        <div class="card  bg-gradient-to-r from-[#486038] to-[#38235D] shadow-xl  text-white mb-5 mt-12">
-          <img
-            src="https://cdn.jagonews24.com/media/imgAllNew/BG/2019November/dd-20230110120818.jpg"
-            alt=""
-          />
-          <div class="card-body">
-            <h2 class="card-title">
-              Healthcare services at your doorstep riding on power of technology
-            </h2>
-            <p>
-              Jahanara Begum (65) lives in Gulshan. She has to stay alone all
-              day in a big house. However, there are some domestic helps to help
-              him. Rafsan Zaman, the only child, lives in America with his wife
-              and children in order to earn a living.
-            </p>
-           <div className="flex gap-3    mt-5">
-           < BsFacebook  className="lg:text-2xl text-[20px] " style={{  color:"white" }}/>
-            < RxLinkedinLogo  className="lg:text-2xl text-[20px] " style={{  color:"white" }}/>
-            < AiFillTwitterCircle  className="lg:text-2xl text-[20px] " style={{  color:"white" }}/>
-            < FaWhatsappSquare  className="lg:text-2xl text-[20px] " style={{  color:"white" }}/>
-           </div>
-            <div className="py-2 px-5   flex justify-end">
-
-           
-              <Link to="/blogtwo">
-                <button
-                  htmlFor="my-modal-6"
-                  className="btn btn-sm modal-button mt-3 text-[white] bg-gradient-to-r from-[#303640] to-[#103264]   animate-pulse    "
-                  style={{ backgroundColor: "#453364" }}
-                >
-                  Read More{" "}
-                </button>
-              </Link>
-            </div>
-          </div>
-        </div>
-      </div> */}
 
       <div className=" grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-2  gap-4 px-12">
         <div class="card  bg-gradient-to-r from-[#486038] to-[#38235D] shadow-xl  text-white mb-5 mt-12">
@@ -113,13 +59,24 @@ const Blog = () => {
               facilities.
             </p>
             <div className="flex gap-3    mt-5">
-           < BsFacebook  className="lg:text-2xl text-[20px] " style={{  color:"white" }}/>
-            < RxLinkedinLogo  className="lg:text-2xl text-[20px] " style={{  color:"white" }}/>
-            < AiFillTwitterCircle  className="lg:text-2xl text-[20px] " style={{  color:"white" }}/>
-            < FaWhatsappSquare  className="lg:text-2xl text-[20px] " style={{  color:"white" }}/>
-           </div> 
+              <BsFacebook
+                className="lg:text-2xl text-[20px] "
+                style={{ color: "white" }}
+              />
+              <RxLinkedinLogo
+                className="lg:text-2xl text-[20px] "
+                style={{ color: "white" }}
+              />
+              <AiFillTwitterCircle
+                className="lg:text-2xl text-[20px] "
+                style={{ color: "white" }}
+              />
+              <FaWhatsappSquare
+                className="lg:text-2xl text-[20px] "
+                style={{ color: "white" }}
+              />
+            </div>
           </div>
-          
         </div>
         <div class="card  bg-gradient-to-r from-[#486038] to-[#38235D] shadow-xl  text-white mb-5 mt-12">
           <div class="card-body">
@@ -136,11 +93,23 @@ const Blog = () => {
               countries, including Bangladesh.
             </p>
             <div className="flex gap-3    mt-5">
-           < BsFacebook  className="lg:text-2xl text-[20px] " style={{  color:"white" }}/>
-            < RxLinkedinLogo  className="lg:text-2xl text-[20px] " style={{  color:"white" }}/>
-            < AiFillTwitterCircle  className="lg:text-2xl text-[20px] " style={{  color:"white" }}/>
-            < FaWhatsappSquare  className="lg:text-2xl text-[20px] " style={{  color:"white" }}/>
-           </div>
+              <BsFacebook
+                className="lg:text-2xl text-[20px] "
+                style={{ color: "white" }}
+              />
+              <RxLinkedinLogo
+                className="lg:text-2xl text-[20px] "
+                style={{ color: "white" }}
+              />
+              <AiFillTwitterCircle
+                className="lg:text-2xl text-[20px] "
+                style={{ color: "white" }}
+              />
+              <FaWhatsappSquare
+                className="lg:text-2xl text-[20px] "
+                style={{ color: "white" }}
+              />
+            </div>
           </div>
         </div>
       </div>
@@ -163,11 +132,23 @@ const Blog = () => {
               institutions.
             </p>
             <div className="flex gap-3    mt-5">
-           < BsFacebook  className="lg:text-2xl text-[20px] " style={{  color:"white" }}/>
-            < RxLinkedinLogo  className="lg:text-2xl text-[20px] " style={{  color:"white" }}/>
-            < AiFillTwitterCircle  className="lg:text-2xl text-[20px] " style={{  color:"white" }}/>
-            < FaWhatsappSquare  className="lg:text-2xl text-[20px] " style={{  color:"white" }}/>
-           </div>
+              <BsFacebook
+                className="lg:text-2xl text-[20px] "
+                style={{ color: "white" }}
+              />
+              <RxLinkedinLogo
+                className="lg:text-2xl text-[20px] "
+                style={{ color: "white" }}
+              />
+              <AiFillTwitterCircle
+                className="lg:text-2xl text-[20px] "
+                style={{ color: "white" }}
+              />
+              <FaWhatsappSquare
+                className="lg:text-2xl text-[20px] "
+                style={{ color: "white" }}
+              />
+            </div>
           </div>
         </div>
         <div class="card  bg-gradient-to-r from-[#486038] to-[#38235D] shadow-xl  text-white mb-5 mt-12">
@@ -189,11 +170,23 @@ const Blog = () => {
               like HCAH
             </p>
             <div className="flex gap-3    mt-5">
-           < BsFacebook  className="lg:text-2xl text-[20px] " style={{  color:"white" }}/>
-            < RxLinkedinLogo  className="lg:text-2xl text-[20px] " style={{  color:"white" }}/>
-            < AiFillTwitterCircle  className="lg:text-2xl text-[20px] " style={{  color:"white" }}/>
-            < FaWhatsappSquare  className="lg:text-2xl text-[20px] " style={{  color:"white" }}/>
-           </div>
+              <BsFacebook
+                className="lg:text-2xl text-[20px] "
+                style={{ color: "white" }}
+              />
+              <RxLinkedinLogo
+                className="lg:text-2xl text-[20px] "
+                style={{ color: "white" }}
+              />
+              <AiFillTwitterCircle
+                className="lg:text-2xl text-[20px] "
+                style={{ color: "white" }}
+              />
+              <FaWhatsappSquare
+                className="lg:text-2xl text-[20px] "
+                style={{ color: "white" }}
+              />
+            </div>
           </div>
         </div>
       </div>
@@ -211,11 +204,23 @@ const Blog = () => {
               growing needs of the healthcare industry in Bangladesh.
             </p>
             <div className="flex gap-3    mt-5">
-           < BsFacebook  className="lg:text-2xl text-[20px] " style={{  color:"white" }}/>
-            < RxLinkedinLogo  className="lg:text-2xl text-[20px] " style={{  color:"white" }}/>
-            < AiFillTwitterCircle  className="lg:text-2xl text-[20px] " style={{  color:"white" }}/>
-            < FaWhatsappSquare  className="lg:text-2xl text-[20px] " style={{  color:"white" }}/>
-           </div>
+              <BsFacebook
+                className="lg:text-2xl text-[20px] "
+                style={{ color: "white" }}
+              />
+              <RxLinkedinLogo
+                className="lg:text-2xl text-[20px] "
+                style={{ color: "white" }}
+              />
+              <AiFillTwitterCircle
+                className="lg:text-2xl text-[20px] "
+                style={{ color: "white" }}
+              />
+              <FaWhatsappSquare
+                className="lg:text-2xl text-[20px] "
+                style={{ color: "white" }}
+              />
+            </div>
           </div>
         </div>
         <div class="card  bg-gradient-to-r from-[#486038] to-[#38235D] shadow-xl  text-white mb-5 mt-12">
@@ -232,11 +237,23 @@ const Blog = () => {
               adopted by HCAH
             </p>
             <div className="flex gap-3    mt-5">
-           < BsFacebook  className="lg:text-2xl text-[20px] " style={{  color:"white" }}/>
-            < RxLinkedinLogo  className="lg:text-2xl text-[20px] " style={{  color:"white" }}/>
-            < AiFillTwitterCircle  className="lg:text-2xl text-[20px] " style={{  color:"white" }}/>
-            < FaWhatsappSquare  className="lg:text-2xl text-[20px] " style={{  color:"white" }}/>
-           </div>
+              <BsFacebook
+                className="lg:text-2xl text-[20px] "
+                style={{ color: "white" }}
+              />
+              <RxLinkedinLogo
+                className="lg:text-2xl text-[20px] "
+                style={{ color: "white" }}
+              />
+              <AiFillTwitterCircle
+                className="lg:text-2xl text-[20px] "
+                style={{ color: "white" }}
+              />
+              <FaWhatsappSquare
+                className="lg:text-2xl text-[20px] "
+                style={{ color: "white" }}
+              />
+            </div>
           </div>
         </div>
       </div>

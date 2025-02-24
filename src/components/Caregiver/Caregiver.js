@@ -23,21 +23,21 @@ const Caregiver = () => {
                     />
                     <meta
                       name="keywords"
-                      content="healthcare,home care,home nursing care,top caregiver dhaka,physiotheray dhaka, home doctors, medical caregiver"
+                      content="healthcare,experience caregiver,diploma nusre,trusted nurse, home care,home nursing care,top caregiver dhaka,physiotheray dhaka, home doctors, medical caregiver"
                     />
                     <meta name="robots" content="index, follow" />
                     <meta property="og:title" content="Caregiver at Dhaka" />
                     <meta
                       property="og:description"
-                      content="Get top-quality healthcare services at home"
+                      content="Get top-quality healthcare services at home around dhaka city"
                     />
                     <meta
                       property="og:image"
                       content="http://localhost:3000/static/media/service-caregive.f73bb16bcec38cd23239.jpg"
                     />
                     <meta property="og:url" content="https://hcah.mrg.com.bd" />
-                    <meta property="og:type" content="website" />.
-                    <link rel="canonical" href="https://hcah.mrg.com.bd" />
+                    <meta property="og:type" content="https://hcah.mrg.com.bd" />.
+                    <link rel="canonical" href="https://hcah.mrg.com.bd/caregiver" />
                   </Helmet>
             <Caregiverlanding/>
             <Caregiverabout/>

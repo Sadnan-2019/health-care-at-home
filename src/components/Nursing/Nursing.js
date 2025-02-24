@@ -24,7 +24,7 @@ const Nursing = () => {
               <meta property="og:image" content="https://hcah.mrg.com.bd/static/media/nurseservice.a7aa8c08eeeb13c8337d.jpg" />
               <meta property="og:url" content="https://hcah.mrg.com.bd" />
               <meta property="og:type" content="website" />.
-              <link rel="canonical" href="https://hcah.mrg.com.bd" />
+              <link rel="canonical" href="https://hcah.mrg.com.bd/nursing" />
       
       
              

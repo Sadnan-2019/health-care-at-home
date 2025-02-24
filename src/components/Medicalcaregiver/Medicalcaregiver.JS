@@ -32,7 +32,7 @@ const Medicalcaregiver = () => {
         />
         <meta property="og:url" content="https://hcah.mrg.com.bd" />
         <meta property="og:type" content="website" />.
-        <link rel="canonical" href="https://hcah.mrg.com.bd" />
+        <link rel="canonical" href="https://hcah.mrg.com.bd/medical-caregiver" />
       </Helmet>
       <Medicalcaregiverlanding />
       <Medicalcaregiverabout />
