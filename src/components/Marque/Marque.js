@@ -24,12 +24,12 @@ const Marque = () => {
     <div>
 
 <div className="blog md:mx-16 lg:mx-24 mx-8 py-12">
-        <h2 className="text-xl text-center   font-bold poppins-b lg:text-4xl  " style={{ color: "#453364" }}>
+        <h2 className="text-xl text-center   font-bold poppins-b lg:text-4xl  text-[#453364] "  >
       Services Provided To The  Patients Coming Home From Leading Hospitals
         </h2>
         <h1
-            className="  w-64 h-1 rounded-lg mt-2 mb-4 mx-auto"
-            style={{ backgroundColor: "#453364" }}
+            className="  w-64 h-1 rounded-lg mt-2 mb-4 mx-auto bg-[#453364]"
+       
           ></h1>
       </div>
       <Marquee   gradientColor={false} speed={80} gradient={false} play={true}>

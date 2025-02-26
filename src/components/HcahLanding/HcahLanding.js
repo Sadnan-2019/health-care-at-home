@@ -70,20 +70,7 @@ const HcahLanding = () => {
               src={girl}
               alt=""
             />
-            {/* <!-- calendar --> */}
-            {/* <div
-              data-aos="fade-up"
-              data-aos-delay="300"
-              data-aos-once="true"
-              class="absolute top-20 -left-6 sm:top-32 sm:left-10 md:top-40 md:left-16 lg:-left-0 lg:top-52 floating-4"
-            >
-              <img
-                class="bg-white bg-opacity-80 rounded-lg h-12 sm:h-16"
-                src={calender}
-                alt=""
-              />
-            </div> */}
-            {/* <!-- red --> */}
+           
             <div
               data-aos="fade-up"
               data-aos-delay="400"

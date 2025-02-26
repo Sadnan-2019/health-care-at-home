@@ -47,7 +47,7 @@ const Review = () => {
     ],
   };
   return (
-    <div className="  py-10 blog" style={{ backgroundColor: "#453364" }}>
+    <div className="  py-10 blog bg-[#453364]"  >
       <div className=" md:mx-16 lg:mx-24 mx-8 py-12">
         <h2 className="text-3xl text-center   font-bold poppins-b sm:text-4xl text-white">
       
@@ -104,8 +104,8 @@ const Review = () => {
                 care consultation
               </p>
               <div
-                className="flex justify-start text-lg gap-1 mt-4  "
-                style={{ color: "#453364" }}
+                className="flex justify-start text-lg gap-1 mt-4 text-[#453364] "
+              
               >
                 <AiFillStar />
                 <AiFillStar />
@@ -138,8 +138,8 @@ const Review = () => {
                 social paranoia.
               </p>
               <div
-                className="flex justify-start text-lg gap-1 mt-4  "
-                style={{ color: "#453364" }}
+                className="flex justify-start text-lg gap-1 mt-4 text-[#453364]  "
+             
               >
                 <AiFillStar />
                 <AiFillStar />
@@ -173,8 +173,8 @@ const Review = () => {
                 trained medical personnel. You can put your trust here.
               </p>
               <div
-                className="flex justify-start text-lg gap-1 mt-4  "
-                style={{ color: "#453364" }}
+                className="flex justify-start text-lg gap-1 mt-4 text-[#453364] "
+              
               >
                 <AiFillStar />
                 <AiFillStar />
@@ -208,8 +208,8 @@ const Review = () => {
                 given to patients in various conditions.
               </p>
               <div
-                className="flex justify-start text-lg gap-1 mt-4  "
-                style={{ color: "#453364" }}
+                className="flex justify-start text-lg gap-1 mt-4  text[#453364]"
+                 
               >
                 <AiFillStar />
                 <AiFillStar />
@@ -242,8 +242,8 @@ const Review = () => {
                 physiotherapy team for physically strengthening my stand on own.
               </p>
               <div
-                className="flex justify-start text-lg gap-1 mt-4  "
-                style={{ color: "#453364" }}
+                className="flex justify-start text-lg gap-1 mt-4 text-[#453364] "
+               
               >
                 <AiFillStar />
                 <AiFillStar />

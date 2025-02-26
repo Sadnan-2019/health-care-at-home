@@ -18,14 +18,14 @@ const Service = () => {
       <div className="md:mx-16 lg:mx-24 mx-8 py-8 ">
         <div className=" ">
           <h2
-            className="text-3xl text-center   font-bold poppins-b sm:text-4xl"
-            style={{ color: "#453364" }}
+            className="text-3xl text-center  text-[#453364]  font-bold poppins-b sm:text-4xl"
+         
           >
             Our Services
           </h2>
           <h1
-            className="  w-32 h-1 rounded-lg mt-2 mb-4 mx-auto"
-            style={{ backgroundColor: "#453364" }}
+            className="  w-32 h-1 rounded-lg mt-2 mb-4 mx-auto bg-[#453364]"
+            
           ></h1>
         </div>
 
@@ -50,8 +50,8 @@ const Service = () => {
             <div>
               <label
                 htmlFor="my-modal-6"
-                className="btn btn-sm modal-button mt-3 text-white   "
-                style={{ backgroundColor: "#453364" }}
+                className="btn btn-sm modal-button mt-3 text-white  bg-[#453364] "
+                
               >
                 service details
               </label>
@@ -81,8 +81,8 @@ const Service = () => {
               <div className="modal-action">
                 <label
                   htmlFor="my-modal-6"
-                  className="btn text-white "
-                  style={{ backgroundColor: "#453364" }}
+                  className="btn text-white bg-[#453364] "
+     
                 >
                   close!
                 </label>
@@ -113,8 +113,8 @@ const Service = () => {
             <div>
               <label
                 htmlFor="my-modal-5"
-                className="btn btn-sm modal-button mt-3 text-white   "
-                style={{ backgroundColor: "#453364" }}
+                className="btn btn-sm modal-button mt-3 text-white  bg-[#453364]  "
+             
               >
                 service details
               </label>
@@ -147,8 +147,8 @@ const Service = () => {
               <div className="modal-action">
                 <label
                   htmlFor="my-modal-5"
-                  className="btn text-white "
-                  style={{ backgroundColor: "#453364" }}
+                  className="btn text-white bg-[#453364] "
+              
                 >
                   close!
                 </label>
@@ -181,8 +181,8 @@ const Service = () => {
 
             <label
               htmlFor="my-modal-4"
-              className="btn btn-sm modal-button mt-3 text-white"
-              style={{ backgroundColor: "#453364" }}
+              className="btn btn-sm modal-button mt-3 text-white bg-[#453364]"
+          
             >
               service details
             </label>
@@ -210,8 +210,8 @@ const Service = () => {
               <div className="modal-action">
                 <label
                   htmlFor="my-modal-4"
-                  className="btn text-white "
-                  style={{ backgroundColor: "#453364" }}
+                  className="btn text-white bg-[#453364] "
+               
                 >
                   close!
                 </label>
@@ -242,8 +242,8 @@ const Service = () => {
             </p>
             <label
               htmlFor="my-modal-3"
-              className="btn btn-sm modal-button mt-3 text-white"
-              style={{ backgroundColor: "#453364" }}
+              className="btn btn-sm modal-button mt-3 text-white bg-[#453364]"
+           
             >
               service details
             </label>
@@ -271,8 +271,8 @@ const Service = () => {
               <div className="modal-action">
                 <label
                   htmlFor="my-modal-3"
-                  className="btn text-white "
-                  style={{ backgroundColor: "#453364" }}
+                  className="btn text-white bg-[#453364]  "
+              
                 >
                   close!
                 </label>
@@ -299,8 +299,8 @@ const Service = () => {
 
             <label
               htmlFor="my-modal-2"
-              className="btn btn-sm modal-button mt-3 text-white"
-              style={{ backgroundColor: "#453364" }}
+              className="btn btn-sm modal-button mt-3 text-white bg-[#453364]"
+            
             >
               service details
             </label>
@@ -331,8 +331,8 @@ const Service = () => {
               <div className="modal-action">
                 <label
                   htmlFor="my-modal-2"
-                  className="btn text-white "
-                  style={{ backgroundColor: "#453364" }}
+                  className="btn text-white  bg-[#453364]"
+                 
                 >
                   close!
                 </label>
@@ -360,8 +360,8 @@ const Service = () => {
 
             <label
               htmlFor="my-modal-1"
-              className="btn btn-sm modal-button mt-3 text-white"
-              style={{ backgroundColor: "#453364" }}
+              className="btn btn-sm modal-button mt-3 text-white bg-[#453364]"
+            
             >
               service details
             </label>
@@ -390,8 +390,8 @@ const Service = () => {
               <div className="modal-action">
                 <label
                   htmlFor="my-modal-1"
-                  className="btn text-white "
-                  style={{ backgroundColor: "#453364" }}
+                  className="btn text-white bg-[#453364]"
+               
                 >
                   close!
                 </label>
@@ -418,8 +418,8 @@ const Service = () => {
 
             <label
               htmlFor="my-modal-7"
-              className="btn btn-sm modal-button mt-3 text-white"
-              style={{ backgroundColor: "#453364" }}
+              className="btn btn-sm modal-button mt-3 text-white bg-[#453364]"
+           
             >
               service details
             </label>
@@ -447,8 +447,8 @@ const Service = () => {
               <div className="modal-action">
                 <label
                   htmlFor="my-modal-7"
-                  className="btn text-white "
-                  style={{ backgroundColor: "#453364" }}
+                  className="btn text-white bg-[#453364]"
+               
                 >
                   close!
                 </label>
@@ -477,8 +477,8 @@ const Service = () => {
 
             <label
               htmlFor="my-modal-11"
-              className="btn btn-sm modal-button mt-3 text-white"
-              style={{ backgroundColor: "#453364" }}
+              className="btn btn-sm modal-button mt-3 text-white bg-[#453364]"
+         
             >
               service details
             </label>
@@ -506,8 +506,8 @@ const Service = () => {
               <div className="modal-action">
                 <label
                   htmlFor="my-modal-11"
-                  className="btn text-white "
-                  style={{ backgroundColor: "#453364" }}
+                  className="btn text-white bg-[#453364]"
+               
                 >
                   close!
                 </label>
@@ -547,8 +547,8 @@ const Service = () => {
 
             <label
               htmlFor="my-modal-8"
-              className="btn btn-sm modal-button mt-3 text-white"
-              style={{ backgroundColor: "#453364" }}
+              className="btn btn-sm modal-button mt-3 text-white bg-[#453364]"
+            
             >
               service details
             </label>
@@ -580,8 +580,8 @@ const Service = () => {
               <div className="modal-action">
                 <label
                   htmlFor="my-modal-8"
-                  className="btn text-white "
-                  style={{ backgroundColor: "#453364" }}
+                  className="btn text-white  bg-[#453364]"
+              
                 >
                   close!
                 </label>
@@ -615,8 +615,8 @@ const Service = () => {
 
             <label
               htmlFor="my-modal-9"
-              className="btn btn-sm modal-button mt-3 text-white"
-              style={{ backgroundColor: "#453364" }}
+              className="btn btn-sm modal-button mt-3 text-white bg-[#453364]"
+          
             >
               service details
             </label>
@@ -643,8 +643,8 @@ const Service = () => {
               <div className="modal-action">
                 <label
                   htmlFor="my-modal-9"
-                  className="btn text-white "
-                  style={{ backgroundColor: "#453364" }}
+                  className="btn text-white bg-[#453364]"
+              
                 >
                   close!
                 </label>
@@ -677,8 +677,8 @@ const Service = () => {
 
             <label
               htmlFor="my-modal-10"
-              className="btn btn-sm modal-button mt-3 text-white"
-              style={{ backgroundColor: "#453364" }}
+              className="btn btn-sm modal-button mt-3 text-white bg-[#453364]"
+        
             >
               Service details
             </label>
@@ -705,8 +705,8 @@ const Service = () => {
               <div className="modal-action">
                 <label
                   htmlFor="my-modal-10"
-                  className="btn text-white "
-                  style={{ backgroundColor: "#453364" }}
+                  className="btn text-white bg-[#453364] "
+              
                 >
                   close!
                 </label>

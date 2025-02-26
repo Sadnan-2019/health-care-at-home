@@ -98,7 +98,7 @@ function App() {
       <Suspense
         fallback={
           <div className="h-screen flex justify-center items-center">
-            <img src={load} />
+            <img src={load} alt=""/>
 
             <span className="loading loading-dots loading-lg">
               .............{" "}

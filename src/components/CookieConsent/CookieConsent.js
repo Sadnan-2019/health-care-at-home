@@ -19,7 +19,7 @@ const CookieConsent = () => {
           position: "fixed", 
           bottom: 0, 
           width: "100%", 
-          background: "#2B373B", 
+          background: "#453364", 
           color: "#fff", 
           padding: "10px", 
           textAlign: "center", 
@@ -27,11 +27,11 @@ const CookieConsent = () => {
         }}>
           <p>We use cookies to ensure the best experience on our website.</p>
           <button onClick={handleAccept} 
-            style={{ background: "#008CBA", color: "#fff", padding: "8px 15px", margin: "5px", border: "none", cursor: "pointer" }}>
+            style={{ background: "#FFFFFF", color: "#000401", padding: "8px 15px", margin: "5px", border: "none", cursor: "pointer" }}>
             Allow
           </button>
           <button onClick={handleDecline} 
-            style={{ background: "#d9534f", color: "#fff", padding: "8px 15px", margin: "5px", border: "none", cursor: "pointer" }}>
+            style={{ background: "#FC4136", color: "#FFFFFF", padding: "8px 15px", margin: "5px", border: "none", cursor: "pointer" }}>
             Refuse
           </button>
           {/* <a href="/privacy-policy" style={{ marginLeft: "10px", color: "#00C6FF" }}>Privacy Policy</a> */}

@@ -166,9 +166,7 @@ const Asistentabout = () => {
             </div>
           </div>
         </div>
-        {/* <div className="lg:order-2 order-1  lg:-mt-2">
-          <img className="lg:w-[100%] w-[90%] mx-auto" src={Banner} alt="" />
-        </div> */}
+     
       </div>
     </div>
   );
