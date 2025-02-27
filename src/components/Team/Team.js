@@ -25,13 +25,14 @@ const Team = () => {
         </div>
         <div className="grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3  mx-10 gap-10      py-8"   >
           <div
-            className="card  border     "
+            className="card  border h-96    "
             data-aos="flip-left"
             data-aos-easing="ease-out-cubic"
             data-aos-duration="2000"
-            style={{ height: "400px" }}
+
+             
           >
-            <figure className="">
+            <figure className=" ">
               <img
                 src={doctor3}
                 alt="Shoes"
@@ -53,7 +54,7 @@ const Team = () => {
             data-aos="flip-left"
             data-aos-easing="ease-out-cubic"
             data-aos-duration="2000"
-            style={{ height: "400px" }}
+           h-96
           >
             <figure className="">
               <img
@@ -80,7 +81,7 @@ const Team = () => {
             data-aos="flip-left"
             data-aos-easing="ease-out-cubic"
             data-aos-duration="2000"
-            style={{ height: "400px" }}
+           h-96
           >
             <figure className="">
               <img
@@ -104,7 +105,7 @@ const Team = () => {
             data-aos="flip-left"
             data-aos-easing="ease-out-cubic"
             data-aos-duration="2000"
-            style={{ height: "400px" }}
+           h-96
           >
             <figure className="">
               <img
@@ -133,7 +134,7 @@ const Team = () => {
             data-aos="flip-left"
             data-aos-easing="ease-out-cubic"
             data-aos-duration="2000"
-            style={{ height: "400px" }}
+           h-96
           >
             <figure className="">
               <img
@@ -159,7 +160,7 @@ const Team = () => {
             data-aos="flip-left"
             data-aos-easing="ease-out-cubic"
             data-aos-duration="2000"
-            style={{ height: "400px" }}
+           h-96
           >
             <figure className="">
               <img
@@ -190,7 +191,7 @@ const Team = () => {
             data-aos="flip-left"
             data-aos-easing="ease-out-cubic"
             data-aos-duration="2000"
-            style={{ height: "400px" }}
+           h-96
           >
             <figure className="">
               <img
@@ -221,7 +222,7 @@ const Team = () => {
             data-aos="flip-left"
             data-aos-easing="ease-out-cubic"
             data-aos-duration="2000"
-            style={{ height: "400px" }}
+           h-96
           >
             <figure className="">
               <img
@@ -253,7 +254,7 @@ const Team = () => {
             data-aos="flip-left"
             data-aos-easing="ease-out-cubic"
             data-aos-duration="2000"
-            style={{ height: "400px" }}
+           h-96
           >
             <figure className="">
               <img
@@ -285,7 +286,7 @@ const Team = () => {
             data-aos="flip-left"
             data-aos-easing="ease-out-cubic"
             data-aos-duration="2000"
-            style={{ height: "400px" }}
+           h-96
           >
             <figure className="">
               <img
@@ -313,7 +314,7 @@ const Team = () => {
             data-aos="flip-left"
             data-aos-easing="ease-out-cubic"
             data-aos-duration="2000"
-            style={{ height: "400px" }}
+           h-96
           >
             <figure className="">
               <img
@@ -344,7 +345,7 @@ const Team = () => {
             data-aos="flip-left"
             data-aos-easing="ease-out-cubic"
             data-aos-duration="2000"
-            style={{ height: "400px" }}
+           h-96
           >
             <figure className="">
               <img
@@ -373,7 +374,7 @@ const Team = () => {
             data-aos="flip-left"
             data-aos-easing="ease-out-cubic"
             data-aos-duration="2000"
-            style={{ height: "400px" }}
+           h-96
           >
             <figure className="">
               <img
