@@ -18,30 +18,30 @@ const Team = () => {
   return (
     <div>
       <div className="blog py-10 bg-[#453364] "  >
-        <div className=" ">
-          <h2 className="text-3xl text-center text-white  font-bold poppins-b sm:text-4xl">
+        <div className="">
+          <h2 className="text-3xl font-bold text-center text-white poppins-b sm:text-4xl">
             Meet Our Experts
           </h2>
         </div>
-        <div className="grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3  mx-10 gap-10      py-8"   >
+        <div className="grid gap-10 py-8 mx-10 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3"   >
           <div
-            className="card  border h-96    "
+            className="border card h-96 "
             data-aos="flip-left"
             data-aos-easing="ease-out-cubic"
             data-aos-duration="2000"
 
              
           >
-            <figure className=" ">
+            <figure className="">
               <img
                 src={doctor3}
                 alt="Shoes"
-                className="  p-4  "
-                style={{ height: "250px", borderRadius: "25px" }}
+                className="h-56 p-4 rounded-3xl "
+                // style={{   borderRadius: "25px" }}
               />
             </figure>
-            <div className=" items-center text-center text-white ">
-              <h2 className=" text-center font-bold">Prof. Dr. Dhiman Banik</h2>
+            <div className="items-center text-center text-white ">
+              <h2 className="font-bold text-center ">Prof. Dr. Dhiman Banik</h2>
               <p>Professor & Senior Consultant Cardiologist</p>
               <p>
                 MBBS, D-Card, MD (Card.), Associate Fellow-American College of
@@ -50,7 +50,7 @@ const Team = () => {
             </div>
           </div>
           <div
-            className="card  border     "
+            className="border card "
             data-aos="flip-left"
             data-aos-easing="ease-out-cubic"
             data-aos-duration="2000"
@@ -60,12 +60,12 @@ const Team = () => {
               <img
                 src={doctor2}
                 alt="Shoes"
-                className="  p-4  "
-                style={{ height: "250px", borderRadius: "25px" }}
+                className="h-56 p-4 rounded-3xl"
+             
               />
             </figure>
-            <div className=" items-center text-center text-white ">
-              <h2 className=" text-center font-bold">Dr Sarwar Iqbal</h2>
+            <div className="items-center text-center text-white ">
+              <h2 className="font-bold text-center ">Dr Sarwar Iqbal</h2>
 
               <p>Professor & Senior Consultant Cardiologist</p>
               <p>
@@ -77,7 +77,7 @@ const Team = () => {
           </div>
 
           <div
-            className="card  border     "
+            className="border card "
             data-aos="flip-left"
             data-aos-easing="ease-out-cubic"
             data-aos-duration="2000"
@@ -87,12 +87,12 @@ const Team = () => {
               <img
                 src={doctor4}
                 alt="Shoes"
-                className="  p-4  "
-                style={{ height: "250px", borderRadius: "25px" }}
+                className="h-56 p-4 rounded-3xl "
+                 
               />
             </figure>
-            <div className=" items-center text-center text-white ">
-              <h2 className=" text-center font-bold">Dr.Mohammad Abu Sayeed</h2>
+            <div className="items-center text-center text-white ">
+              <h2 className="font-bold text-center ">Dr.Mohammad Abu Sayeed</h2>
 
               <p> Professor and Head of Department NEUROSURGERY</p>
               <p>
@@ -101,7 +101,7 @@ const Team = () => {
             </div>
           </div>
           <div
-            className="card  border     "
+            className="border card "
             data-aos="flip-left"
             data-aos-easing="ease-out-cubic"
             data-aos-duration="2000"
@@ -111,12 +111,12 @@ const Team = () => {
               <img
                 src={doctor5}
                 alt="Shoes"
-                className="  p-4  "
-                style={{ height: "250px", borderRadius: "25px" }}
+                className="h-56 p-4 rounded-3xl"
+            
               />
             </figure>
-            <div className=" items-center text-center text-white ">
-              <h2 className=" text-center font-bold">Dr. Lutfor Rahman</h2>
+            <div className="items-center text-center text-white ">
+              <h2 className="font-bold text-center ">Dr. Lutfor Rahman</h2>
 
               <p>
                 Specialist MBBS, MS (CTS) Chief Cardiac Surgeon Labaid Cardiac
@@ -130,7 +130,7 @@ const Team = () => {
             </div>
           </div>
           <div
-            className="card  border     "
+            className="border card "
             data-aos="flip-left"
             data-aos-easing="ease-out-cubic"
             data-aos-duration="2000"
@@ -140,23 +140,19 @@ const Team = () => {
               <img
                 src={doctor6}
                 alt="Shoes"
-                className="  p-4  "
-                style={{ height: "250px", borderRadius: "25px" }}
+                className="h-56 p-4 rounded-3xl"
+              
               />
             </figure>
-            <div className=" items-center text-center text-white ">
-              <h2 className=" text-center font-bold">Dr. Zakia Hossain</h2>
+            <div className="items-center text-center text-white ">
+              <h2 className="font-bold text-center ">Dr. Zakia Hossain</h2>
 
               <p>MD is an Internal Medicine Specialist in USA</p>
-              {/* <p>
-              MBBS, MS (NEUROSURGERY)  
-               
-               Specialist in Brain & Spine Surgeon.
-              </p> */}
+         
             </div>
           </div>
           <div
-            className="card  border     "
+            className="border card "
             data-aos="flip-left"
             data-aos-easing="ease-out-cubic"
             data-aos-duration="2000"
@@ -166,12 +162,12 @@ const Team = () => {
               <img
                 src={doctor7}
                 alt="Shoes"
-                className="  p-4  "
-                style={{ height: "250px", borderRadius: "25px" }}
+                className="h-56 p-4 rounded-3xl "
+              
               />
             </figure>
-            <div className=" items-center text-center text-white ">
-              <h2 className=" text-center font-bold">
+            <div className="items-center text-center text-white ">
+              <h2 className="font-bold text-center ">
                 PROF. DR. S. M. G. KIBRIA
               </h2>
 
@@ -187,7 +183,7 @@ const Team = () => {
             </div>
           </div>
           <div
-            className="card  border     "
+            className="border card "
             data-aos="flip-left"
             data-aos-easing="ease-out-cubic"
             data-aos-duration="2000"
@@ -197,12 +193,12 @@ const Team = () => {
               <img
                 src={doctor8}
                 alt="Shoes"
-                className="  p-4  "
-                style={{ height: "250px", borderRadius: "25px" }}
+                className="h-56 p-4 rounded-3xl"
+            
               />
             </figure>
-            <div className=" items-center text-center text-white ">
-              <h2 className=" text-center font-bold">
+            <div className="items-center text-center text-white ">
+              <h2 className="font-bold text-center ">
                 Dr. Sarwar Jahan Muktafi
               </h2>
 
@@ -218,7 +214,7 @@ const Team = () => {
             </div>
           </div>
           <div
-            className="card  border     "
+            className="border card "
             data-aos="flip-left"
             data-aos-easing="ease-out-cubic"
             data-aos-duration="2000"
@@ -228,12 +224,12 @@ const Team = () => {
               <img
                 src={doctor9}
                 alt="Shoes"
-                className="  p-4  "
-                style={{ height: "250px", borderRadius: "25px" }}
+                className="h-56 p-4 rounded-3xl"
+             
               />
             </figure>
-            <div className=" items-center text-center text-white ">
-              <h2 className=" text-center font-bold">
+            <div className="items-center text-center text-white ">
+              <h2 className="font-bold text-center ">
                 Professor Dr. Qazi Mushtaq Hussain
               </h2>
 
@@ -250,7 +246,7 @@ const Team = () => {
             </div>
           </div>
           <div
-            className="card  border     "
+            className="border card "
             data-aos="flip-left"
             data-aos-easing="ease-out-cubic"
             data-aos-duration="2000"
@@ -260,12 +256,12 @@ const Team = () => {
               <img
                 src={doctor10}
                 alt="Shoes"
-                className="  p-4  "
-                style={{ height: "250px", borderRadius: "25px" }}
+                className="h-56 p-4 rounded-3xl"
+           
               />
             </figure>
-            <div className=" items-center text-center text-white ">
-              <h2 className=" text-center font-bold">
+            <div className="items-center text-center text-white ">
+              <h2 className="font-bold text-center ">
                 Associate Prof. Dr Tarafdar Runa Laila
               </h2>
 
@@ -282,7 +278,7 @@ const Team = () => {
             </div>
           </div>
           <div
-            className="card  border     "
+            className="border card "
             data-aos="flip-left"
             data-aos-easing="ease-out-cubic"
             data-aos-duration="2000"
@@ -292,12 +288,12 @@ const Team = () => {
               <img
                 src={doctor11}
                 alt="Shoes"
-                className="  p-4  "
-                style={{ height: "250px", borderRadius: "25px" }}
+                className="h-56 p-4 rounded-3xl"
+                
               />
             </figure>
-            <div className=" items-center text-center text-white ">
-              <h2 className=" text-center font-bold">
+            <div className="items-center text-center text-white ">
+              <h2 className="font-bold text-center ">
                 Prof Shahina Subhan Mitu
               </h2>
 
@@ -310,7 +306,7 @@ const Team = () => {
             </div>
           </div>
           <div
-            className="card  border     "
+            className="border card "
             data-aos="flip-left"
             data-aos-easing="ease-out-cubic"
             data-aos-duration="2000"
@@ -320,12 +316,12 @@ const Team = () => {
               <img
                 src={doctor12}
                 alt="Shoes"
-                className="  p-4  "
-                style={{ height: "250px", borderRadius: "25px" }}
+                className="h-56 p-4 rounded-3xl "
+              
               />
             </figure>
-            <div className=" items-center text-center text-white ">
-              <h2 className=" text-center font-bold">
+            <div className="items-center text-center text-white ">
+              <h2 className="font-bold text-center ">
                 Prof,Dr AK Akhteruzzaman
               </h2>
 
@@ -341,7 +337,7 @@ const Team = () => {
             </div>
           </div>
           <div
-            className="card  border     "
+            className="border card "
             data-aos="flip-left"
             data-aos-easing="ease-out-cubic"
             data-aos-duration="2000"
@@ -351,12 +347,12 @@ const Team = () => {
               <img
                 src={doctor13}
                 alt="Shoes"
-                className="  p-4  "
-                style={{ height: "250px", borderRadius: "25px" }}
+                className="h-56 p-4 rounded-3xl "
+              
               />
             </figure>
-            <div className=" items-center text-center text-white ">
-              <h2 className=" text-center font-bold">Md Masud Iqbal</h2>
+            <div className="items-center text-center text-white ">
+              <h2 className="font-bold text-center ">Md Masud Iqbal</h2>
 
               <p>
                 National Institute of Kidney Diseases & Urology (NIKDU) ·
@@ -370,7 +366,7 @@ const Team = () => {
             </div>
           </div>
           <div
-            className="card  border     "
+            className="border card "
             data-aos="flip-left"
             data-aos-easing="ease-out-cubic"
             data-aos-duration="2000"
@@ -380,12 +376,12 @@ const Team = () => {
               <img
                 src={doctor14}
                 alt="Shoes"
-                className="  p-4  "
-                style={{ height: "250px", borderRadius: "25px" }}
+                className="h-56 p-4 rounded-3xl"
+                
               />
             </figure>
-            <div className=" items-center text-center text-white ">
-              <h2 className=" text-center font-bold">
+            <div className="items-center text-center text-white ">
+              <h2 className="font-bold text-center ">
                 Professor Dr. AKM Mosharraf Hossain
               </h2>
 
@@ -403,7 +399,7 @@ const Team = () => {
             </div>
           </div>
         </div>
-        <p className="text-lg text-white md:text-3xl lg:text-3xl text-center py-8">
+        <p className="py-8 text-lg text-center text-white md:text-3xl lg:text-3xl">
           Multidisciplinary team of 900+ professionals including doctors,
           nurses, physiotherapists, medical assistant & medical caregiver.
         </p>
