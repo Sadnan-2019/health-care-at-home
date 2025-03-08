@@ -1,0 +1,14 @@
+.aboutbg{
+
+    background-image: linear-gradient(
+        to left,
+        rgba(243, 238, 234, 0),
+        rgba(248, 251, 251, 0.5)
+      ),
+      url("https://i.ibb.co/MpB7WHX/Whats-App-Image-2022-09-29-at-4-02-29-PM.jpg");
+  
+    background-repeat: no-repeat;
+    background-size: cover;
+  
+    height: auto;
+}

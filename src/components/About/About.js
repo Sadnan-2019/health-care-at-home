@@ -3,6 +3,7 @@ import flyer from "../../assets/hcahflyer.jpg";
 import flyer1 from "../../assets/HCAHBrochure1.jpg";
 import flyer2 from "../../assets/HCAHBrochure2.jpg";
 import { Helmet } from "react-helmet-async";
+import "./About.css";
 const About = () => {
   return (
     <div className="py-10 blog">
@@ -17,17 +18,9 @@ const About = () => {
         <meta property="og:url" content="https://hcah.mrg.com.bd/about-us" />
       </Helmet>
       <div
-        className="min-h-screen hero"
-        // data-aos="zoom-in-up"
-        // // data-aos-offset="300"
-        // data-aos-delay="5000"
-        // data-aos-duration="4000"
-        // // data-aos-easing="ease-in-out"
-        // data-aos-mirror="true"
-        // data-aos-once="false"
-        style={{
-          backgroundImage: `url(" https://i.ibb.co/MpB7WHX/Whats-App-Image-2022-09-29-at-4-02-29-PM.jpg")`,
-        }}
+        className="min-h-screen hero aboutbg" 
+  
+      
       >
         <div className="hero-overlay bg-opacity-60"></div>
         <div className="text-center hero-content text-neutral-content">

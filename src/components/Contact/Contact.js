@@ -22,30 +22,30 @@ const Contact = () => {
 
 
      return (
-    <div className=' py-14  '>
-        <div className=" ">
-          <h2 className="text-3xl text-center   font-bold poppins-b sm:text-4xl" style={{color: "#453364" }}>
+    <div className=' py-14'>
+        <div className="">
+          <h2 className="text-3xl font-bold text-center poppins-b sm:text-4xl text-[#453364]"  >
            Contact 
           </h2>
-          <h1 className=' w-32 h-1 rounded-lg mt-2 mb-4 mx-auto' style={{backgroundColor: "#453364" }}></h1>
+          <h1 className='w-32 h-1 mx-auto mt-2 mb-4 rounded-lg bg-[#453364]'  ></h1>
 
           
         </div>
     
 
-<div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 px-10  py-10 items-center justify-items-center">
+<div className="grid items-center grid-cols-1 px-10 py-10 md:grid-cols-2 lg:grid-cols-2 justify-items-center">
           {/* left side */}
 
    
        
 
             <div >
-            <div className="card flex-shrink-0 w-full max-w-sm shadow-2xl bg-base-100">
+            <div className="flex-shrink-0 w-full max-w-sm shadow-2xl card bg-base-100">
           <div className="card-body">
          
             <form  method='post'  onSubmit={sendEmail} >
              <div className='flex gap-3'>
-             <div className="form-control w-full max-w-xs">
+             <div className="w-full max-w-xs form-control">
                 <label className="label">
                   <span className="label-text">Email</span>
                 </label>
@@ -55,12 +55,12 @@ const Contact = () => {
                   name='email'
                   id='email'
                   placeholder="your email"
-                  className="input input-bordered w-full max-w-xs"
+                  className="w-full max-w-xs input input-bordered"
                 />
               
               </div>
 
-              <div className="form-control w-full max-w-xs">
+              <div className="w-full max-w-xs form-control">
                 <label className="label">
                   <span className="label-text">Name</span>
                 </label>
@@ -70,12 +70,12 @@ const Contact = () => {
                   name='name'
                   id='name'
                   placeholder="your name"
-                  className="input input-bordered w-full max-w-xs"
+                  className="w-full max-w-xs input input-bordered"
                 />
               
               </div>
              </div>
-             <div className="form-control w-full max-w-xs">
+             <div className="w-full max-w-xs form-control">
                 <label className="label">
                   <span className="label-text">Phone</span>
                 </label>
@@ -86,11 +86,11 @@ const Contact = () => {
                   id='phone'
                   required
                   placeholder="your phone"
-                  className="input input-bordered w-full max-w-xs"
+                  className="w-full max-w-xs input input-bordered"
                 />
               
               </div>
-              <div className="form-control w-full max-w-xs">
+              <div className="w-full max-w-xs form-control">
                 <label className="label">
                   <span className="label-text">Subject</span>
                 </label>
@@ -101,11 +101,11 @@ const Contact = () => {
                   id='subject'
                   required
                   placeholder="your subject"
-                  className="input input-bordered w-full max-w-xs"
+                  className="w-full max-w-xs input input-bordered"
                 />
               
               </div>
-              <div className="form-control w-full max-w-xs">
+              <div className="w-full max-w-xs form-control">
                 <label className="label">
                   <span className="label-text">Message</span>
                 </label>
@@ -116,14 +116,14 @@ const Contact = () => {
                   id='message'
                   required
                   placeholder="your message"
-                  className="input input-bordered w-full max-w-xs h-32"
+                  className="w-full h-32 max-w-xs input input-bordered"
               
                 ></textarea>
               
               </div>
 
      <div className='py-5'>
-     <input type="submit" className="btn  w-full max-w-x " value="Send message" style={{backgroundColor: "#453364", color:"white" }}/>
+     <input type="submit" className="w-full btn max-w-x bg-[#453364] text-white" value="Send message"  />
      </div>
                
             </form>
@@ -139,7 +139,7 @@ const Contact = () => {
 
 
 
-          <div className="   ">
+          <div className="">
            <div className=''>
             <Map></Map>
            </div>
