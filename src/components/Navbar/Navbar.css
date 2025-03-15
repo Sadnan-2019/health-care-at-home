@@ -7,3 +7,14 @@
     -webkit-transition: all 0.5s;
     transition: all 0.5s;
   }
+
+  /* Add this to make the navbar scrollable */
+.nav-drawer {
+  max-height: 100vh; /* Set maximum height */
+  overflow-y: auto;  /* Enable vertical scrolling */
+}
+
+/* Ensure nav items are displayed in a single line */
+.nav-item a {
+  white-space: nowrap;  /* Prevent text wrapping */
+}

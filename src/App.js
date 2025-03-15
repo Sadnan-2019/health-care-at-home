@@ -97,7 +97,7 @@ function App() {
       <Navbar className=""></Navbar>
       <Suspense
         fallback={
-          <div className="h-screen flex justify-center items-center">
+          <div className="flex items-center justify-center h-screen">
             <img src={load} alt=""/>
 
             <span className="loading loading-dots loading-lg">
