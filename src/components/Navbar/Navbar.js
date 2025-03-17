@@ -9,7 +9,9 @@ import "./Navbar.css";
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
-
+  const gotoBtn = () => {
+    window.scrollTo({ top: 0, left: 0, behavior: "smooth" });
+  };
   const toggleDrawer = () => {
     setIsOpen(!isOpen);
   };
@@ -21,7 +23,7 @@ const Navbar = () => {
 
   const navItem = (
     <>
-      <li rel="canonical" className="p-2 nav-item">
+      <li rel="canonical" className="p-2 nav-item" onClick={gotoBtn}>
         <NavLink
           rel="canonical"
           className={({ isActive }) => (isActive ? `${active}` : `${normal}`)}
@@ -31,7 +33,7 @@ const Navbar = () => {
           Home
         </NavLink>
       </li>
-      <li className="p-2 nav-item" rel="canonical">
+      <li className="p-2 nav-item" rel="canonical" onClick={gotoBtn}>
         <NavLink
           rel="canonical"
           className={({ isActive }) => (isActive ? `${active}` : `${normal}`)}
@@ -41,7 +43,7 @@ const Navbar = () => {
           Nursing
         </NavLink>
       </li>
-      <li className="p-2 nav-item" rel="canonical">
+      <li className="p-2 nav-item" rel="canonical" onClick={gotoBtn}>
         <NavLink
           rel="canonical"
           className={({ isActive }) => (isActive ? `${active}` : `${normal}`)}
@@ -51,7 +53,7 @@ const Navbar = () => {
           Physiotherapy
         </NavLink>
       </li>
-      <li className="p-2 nav-item" rel="canonical">
+      <li className="p-2 nav-item" rel="canonical" onClick={gotoBtn}>
         <NavLink
           rel="canonical"
           className={({ isActive }) => (isActive ? `${active}` : `${normal}`)}
@@ -61,7 +63,7 @@ const Navbar = () => {
           Medical Assistant
         </NavLink>
       </li>
-      <li className="p-2 nav-item" rel="canonical">
+      <li className="p-2 nav-item" rel="canonical" onClick={gotoBtn}>
         <NavLink
           rel="canonical"
           className={({ isActive }) => (isActive ? `${active}` : `${normal}`)}
@@ -71,7 +73,7 @@ const Navbar = () => {
           Medical Caregiver
         </NavLink>
       </li>
-      <li className="p-2 nav-item" rel="canonical">
+      <li className="p-2 nav-item" rel="canonical" onClick={gotoBtn}>
         <NavLink
           rel="canonical"
           className={({ isActive }) => (isActive ? `${active}` : `${normal}`)}
@@ -81,7 +83,7 @@ const Navbar = () => {
           Caregiver
         </NavLink>
       </li>
-      <li className="p-2 nav-item" rel="canonical">
+      <li className="p-2 nav-item" rel="canonical" onClick={gotoBtn}>
         <NavLink
           rel="canonical"
           className={({ isActive }) => (isActive ? `${active}` : `${normal}`)}
@@ -91,7 +93,7 @@ const Navbar = () => {
           Nanycare
         </NavLink>
       </li>
-      <li className="p-2 nav-item" rel="canonical">
+      <li className="p-2 nav-item" rel="canonical" onClick={gotoBtn}>
         <NavLink
           rel="canonical"
           className={({ isActive }) => (isActive ? `${active}` : `${normal}`)}
@@ -101,7 +103,7 @@ const Navbar = () => {
           Companion
         </NavLink>
       </li>
-      <li className="p-2 nav-item" rel="canonical">
+      <li className="p-2 nav-item" rel="canonical" onClick={gotoBtn}>
         <NavLink
           rel="canonical"
           className={({ isActive }) => (isActive ? `${active}` : `${normal}`)}
@@ -111,7 +113,7 @@ const Navbar = () => {
           Medical Equipment
         </NavLink>
       </li>
-      <li className="p-2 nav-item" rel="canonical">
+      <li className="p-2 nav-item" rel="canonical" onClick={gotoBtn}>
         <NavLink
           rel="canonical"
           className={({ isActive }) => (isActive ? `${active}` : `${normal}`)}
@@ -141,7 +143,7 @@ const Navbar = () => {
           tabIndex={0}
           className="w-24 p-2 shadow dropdown-content menu rounded-box lg:w-52 bg-[#453364]"
         >
-          <li className="p-2 nav-item" rel="canonical">
+          <li className="p-2 nav-item" rel="canonical" onClick={gotoBtn}>
             <NavLink
               rel="canonical"
               className={({ isActive }) => (isActive ? `${active}` : `${normal}`)}
@@ -151,7 +153,7 @@ const Navbar = () => {
               Blog
             </NavLink>
           </li>
-          <li className="p-2 nav-item" rel="canonical">
+          <li className="p-2 nav-item" rel="canonical" onClick={gotoBtn}>
             <NavLink
               rel="canonical"
               className={({ isActive }) => (isActive ? `${active}` : `${normal}`)}
@@ -161,7 +163,7 @@ const Navbar = () => {
               About
             </NavLink>
           </li>
-          <li className="p-2 nav-item" rel="canonical">
+          <li className="p-2 nav-item" rel="canonical" onClick={gotoBtn}>
             <NavLink
               rel="canonical"
               className={({ isActive }) => (isActive ? `${active}` : `${normal}`)}

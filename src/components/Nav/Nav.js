@@ -12,7 +12,7 @@ import "animate.css";
 
 const Nav = () => {
   // const [addclose, setClose] = useState(true);
-
+ 
   return (
     <div className="sticky top-0 z-50 blog ">
       <div className="mx-auto bg-base-100">
