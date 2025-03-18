@@ -1,15 +1,15 @@
 import React from "react";
-import physio from "../../assets/servicephysio.jpg";
+import physio from "../../assets/servicephysio.webp";
 import ambulanceservice from "../../assets/ambulanceservice.jfif";
-import icuservice from "../../assets/icu.jpg";
+import icuservice from "../../assets/icu.webp";
 import nurseservice from "../../assets/nurseservice.webp";
-import servicemedicalassistant from "../../assets/servicemedicalassistant.jpg";
+import servicemedicalassistant from "../../assets/servicemedicalassistant.webp";
 import medicalcaregiver from "../../assets/servicemedicalcare-giver.webp";
-import caregiver from "../../assets/service-caregive.jpg";
-import nanines from "../../assets/service-nanines.jpg";
-import companionship from "../../assets/service-companionship.jpg";
-import attendant from "../../assets/attendent.jpg";
-import equipment from "../../assets/service-medical-equipment.jpeg";
+import caregiver from "../../assets/service-caregiver.webp";
+import nanines from "../../assets/service-nanines.webp";
+import companionship from "../../assets/service-companionship.webp";
+import attendant from "../../assets/attendent.webp";
+import equipment from "../../assets/service-medical-equipment.webp";
 import "../../../src/components/Blog/Blog.css";
 import "./Service.css";
 const Service = () => {
@@ -75,7 +75,7 @@ const Service = () => {
                   <li>Maintain health records</li>
                 </div>
                 <div>
-                  <img src={nurseservice} alt="" />
+                  <img src={nurseservice} alt="" loading="lazy" />
                 </div>
               </div>
               <div className="modal-action">
@@ -95,7 +95,8 @@ const Service = () => {
             data-aos="fade-up"
             data-aos-duration="1000"
           >
-            <img className="rounded-lg w-96 h-52 " src={physio} alt="" />
+            <img className="rounded-lg w-96 h-52 " src={physio} alt="" loading="lazy" 
+             />
 
             <h3 className="mt-3 mb-2 text-xl font-bold text-left ">
               Physiotherapy
@@ -141,7 +142,7 @@ const Service = () => {
                   <li>All kinds of Musculoskeletal Rehabilitation</li>
                 </div>
                 <div className="">
-                  <img src={physio} alt="" />
+                  <img src={physio} alt="" loading="lazy"  />
                 </div>
               </div>
               <div className="modal-action">
@@ -165,6 +166,7 @@ const Service = () => {
               className="rounded-lg w-96 h-52"
               src={servicemedicalassistant}
               alt=""
+              loading="lazy" 
             />
 
             <h3 className="mt-3 mb-2 text-xl font-bold text-left ">
@@ -204,7 +206,7 @@ const Service = () => {
                   <li>Hygiene maintenance</li>
                 </div>
                 <div className="">
-                  <img src={servicemedicalassistant} alt="" />
+                  <img src={servicemedicalassistant} alt="" loading="lazy"  />
                 </div>
               </div>
               <div className="modal-action">
@@ -228,6 +230,7 @@ const Service = () => {
               className="h-56 rounded-lg w-96"
               src={medicalcaregiver}
               alt=""
+              loading="lazy" 
             />
 
             <h3 className="mt-3 mb-2 text-xl font-bold text-left ">
@@ -265,7 +268,7 @@ const Service = () => {
                   <li>Pass good time with patients </li>
                 </div>
                 <div className="">
-                  <img src={medicalcaregiver} alt="" />
+                  <img src={medicalcaregiver} alt="" loading="lazy" />
                 </div>
               </div>
               <div className="modal-action">
@@ -285,7 +288,7 @@ const Service = () => {
             data-aos="fade-up"
             data-aos-duration="1000"
           >
-            <img className="h-56 rounded-lg w-96" src={caregiver} alt="" />
+            <img className="h-56 rounded-lg w-96" src={caregiver} alt="" loading="lazy"  />
 
             <h3 className="mt-3 mb-2 text-xl font-bold text-left ">
               Caregiver
@@ -325,7 +328,7 @@ const Service = () => {
                   <li>Arrange transport </li>
                 </div>
                 <div className="">
-                  <img src={caregiver} alt="" />
+                  <img src={caregiver} alt="" loading="lazy" />
                 </div>
               </div>
               <div className="modal-action">
@@ -344,7 +347,7 @@ const Service = () => {
             data-aos="fade-up"
             data-aos-duration="1000"
           >
-            <img className="h-56 rounded-lg w-96" src={nanines} alt="" />
+            <img className="h-56 rounded-lg w-96" src={nanines} alt="" loading="lazy" />
 
             <h3 className="mt-3 mb-2 text-xl font-bold text-left ">
               Nannycare
@@ -384,7 +387,7 @@ const Service = () => {
                   <li>Handle the baby softly</li>
                 </div>
                 <div className="">
-                  <img src={nanines} alt="" />
+                  <img src={nanines} alt=""  loading="lazy" />
                 </div>
               </div>
               <div className="modal-action">
@@ -403,7 +406,7 @@ const Service = () => {
             data-aos="fade-up"
             data-aos-duration="1000"
           >
-            <img className="h-56 rounded-lg w-96" src={companionship} alt="" />
+            <img className="h-56 rounded-lg w-96" src={companionship} alt="" loading="lazy"  />
 
             <h3 className="mt-3 mb-2 text-xl font-bold text-left ">
               Companionship
@@ -441,7 +444,7 @@ const Service = () => {
                   <li>Feeding care</li>
                 </div>
                 <div className="rounded-lg">
-                  <img src={companionship} alt="" />
+                  <img src={companionship} alt="" loading="lazy"  />
                 </div>
               </div>
               <div className="modal-action">
@@ -462,7 +465,7 @@ const Service = () => {
             data-aos="fade-up"
             data-aos-duration="1000"
           >
-            <img className="h-56 rounded-lg w-96" src={attendant} alt="" />
+            <img className="h-56 rounded-lg w-96" src={attendant} alt="" loading="lazy"  />
 
             <h3 className="mt-3 mb-2 text-xl font-bold text-left ">
               Attendant
@@ -500,7 +503,7 @@ const Service = () => {
                   <li>Feeding care</li>
                 </div>
                 <div className="rounded-lg">
-                  <img src={attendant} alt="" />
+                  <img src={attendant} alt="" loading="lazy"  />
                 </div>
               </div>
               <div className="modal-action">
@@ -530,7 +533,8 @@ const Service = () => {
             data-aos="fade-up"
             data-aos-duration="1000"
           >
-            <img className="h-56 rounded-lg w-96" src={equipment} alt="" />
+            <img className="h-56 rounded-lg w-96" src={equipment} alt="" loading="lazy"
+            />
 
             <h3 className="mt-3 mb-2 text-xl font-bold text-left ">
               Medical Equipment
@@ -574,7 +578,7 @@ const Service = () => {
                   <li>Catheter </li>
                 </div>
                 <div className="rounded-lg">
-                  <img src={equipment} alt="" />
+                  <img src={equipment} alt="" loading="lazy"/>
                 </div>
               </div>
               <div className="modal-action">
@@ -598,6 +602,7 @@ const Service = () => {
               className="h-56 rounded-lg w-96"
               src={ambulanceservice}
               alt=""
+              loading="lazy"
             />
 
             <h3 className="mt-3 mb-2 text-xl font-bold text-left ">
@@ -637,7 +642,7 @@ const Service = () => {
                   <li>Good vehicles</li>
                 </div>
                 <div className="">
-                  <img src={ambulanceservice} alt="" />
+                  <img src={ambulanceservice} alt="" loading="lazy"/>
                 </div>
               </div>
               <div className="modal-action">
@@ -656,7 +661,7 @@ const Service = () => {
             data-aos="fade-up"
             data-aos-duration="1000"
           >
-            <img className="h-56 rounded-lg w-96" src={icuservice} alt="" />
+            <img className="h-56 rounded-lg w-96" src={icuservice} alt="" loading="lazy" />
 
             <h3 className="mt-3 mb-2 text-xl font-bold text-left ">
               ICU & CCU Setup
@@ -699,7 +704,7 @@ const Service = () => {
                   <li>Good vehicles</li>
                 </div>
                 <div className="">
-                  <img src={icuservice} alt="" />
+                  <img src={icuservice} alt=""  loading="lazy"/>
                 </div>
               </div>
               <div className="modal-action">
