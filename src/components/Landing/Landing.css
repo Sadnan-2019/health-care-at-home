@@ -4,12 +4,18 @@
       rgba(243, 238, 234, 0),
       rgba(248, 251, 251, 0.5)
     ),
-    url("../../assets/homelanding.png");
+    url("../../assets/homelanding.webp");
 
   background-repeat: no-repeat;
   background-size: cover;
 
   height: auto;
+
+  
+  background-position: center;
+  
+
+
   /* background-position: center;
   background-attachment: fixed; */
 }
@@ -21,7 +27,7 @@
         rgba(243, 238, 234, 0),
         rgba(230, 242, 244, 0.837)
       ),
-      url("../../assets/homelanding.png");
+      url("../../assets/homelanding.webp");
     height: auto;
 
     background-size: contain;
@@ -40,7 +46,7 @@
         rgba(243, 238, 234, 0),
         rgba(230, 242, 244, 0.837)
       ),
-      url("../../assets/homelanding.png");
+      url("../../assets/homelanding.webp");
     height: auto;
 
     background-size: contain;
@@ -59,7 +65,7 @@
         rgba(243, 238, 234, 0),
         rgba(230, 242, 244, 0.837)
       ),
-      url("../../assets/homelanding.png");
+      url("../../assets/homelanding.webp");
     height: auto;
 
     background-size: contain;
@@ -79,7 +85,7 @@
         rgba(243, 238, 234, 0),
         rgba(230, 242, 244, 0.837)
       ),
-      url("../../assets/homelanding.png");
+      url("../../assets/homelanding.webp");
     height: auto;
 
     background-size: contain;
@@ -98,7 +104,7 @@
         rgba(243, 238, 234, 0),
         rgba(230, 242, 244, 0.837)
       ),
-      url("../../assets/homelanding.png");
+      url("../../assets/homelanding.webp");
     height: auto;
 
     background-size: contain;
