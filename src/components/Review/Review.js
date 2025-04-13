@@ -87,6 +87,7 @@ const Review = () => {
                 className="col-span-3 w-14 rounded-full"
                 src={review2}
                 alt="user img"
+                loading="lazy"
               />
               <div className="col-span-9">
                 <h2 className="text-lg poppins-b font-bold">Ryan Ahmed</h2>
@@ -125,6 +126,7 @@ const Review = () => {
                 className="col-span-3 w-14 rounded-full"
                 src={review1}
                 alt="user img"
+                loading="lazy"
               />
               <div className="col-span-9">
                 <h2 className="text-lg poppins-b font-bold">Zareef Akbar</h2>
@@ -159,6 +161,7 @@ const Review = () => {
                 className="col-span-3 w-14 rounded-full"
                 src={review3}
                 alt="user img"
+                loading="lazy"
               />
               <div className="col-span-9">
                 <h2 className="text-lg poppins-b font-bold">
@@ -194,6 +197,7 @@ const Review = () => {
                 className="col-span-3 w-14 rounded-full"
                 src={review5}
                 alt="user img"
+                loading="lazy"
               />
               <div className="col-span-9">
                 <h2 className="text-lg poppins-b font-bold">Shakil Rahman</h2>
@@ -229,6 +233,7 @@ const Review = () => {
                 className="col-span-3 w-14 rounded-full"
                 src={review6}
                 alt="user img"
+                loading="lazy"
               />
               <div className="col-span-9">
                 <h2 className="text-lg poppins-b font-bold">Wasim Akbar</h2>

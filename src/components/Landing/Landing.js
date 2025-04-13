@@ -45,7 +45,7 @@ const Landing = () => {
           >
             <Link
               className="hidden  bg-[#453364]  md:inline-flex items-center   md:px-8 md:py-3  border   rounded hover:bg-transparent active:text-primary focus:outline-none focus:ring transition ease-in-out delay-150  text-white hover:text-black"
-              to="/"  
+              to="/"  rel="canonical"  
             >
               <span className="text-sm font-medium"> Get Started </span>
               <BsArrowRight className="text-lg ml-2" />

@@ -17,26 +17,25 @@ import doctor14 from "../../assets/Mosharaaf.jpg";
 const Team = () => {
   return (
     <div>
-      <div className="blog py-10 bg-[#453364] "  >
+      <div className="blog py-10 bg-[#453364] ">
         <div className="">
           <h2 className="text-3xl font-bold text-center text-white poppins-b sm:text-4xl">
             Meet Our Experts
           </h2>
         </div>
-        <div className="grid gap-10 py-8 mx-10 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3"   >
+        <div className="grid gap-10 py-8 mx-10 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
           <div
             className="border card h-96 "
             data-aos="flip-left"
             data-aos-easing="ease-out-cubic"
             data-aos-duration="2000"
-
-             
           >
             <figure className="">
               <img
                 src={doctor3}
-                alt="Shoes"
+                alt="Team of Healthcare At Home Bangladesh"
                 className="h-56 p-4 rounded-3xl "
+                loading="lazy"
                 // style={{   borderRadius: "25px" }}
               />
             </figure>
@@ -54,14 +53,14 @@ const Team = () => {
             data-aos="flip-left"
             data-aos-easing="ease-out-cubic"
             data-aos-duration="2000"
-           h-96
+            h-96
           >
             <figure className="">
               <img
                 src={doctor2}
-                alt="Shoes"
+                alt="Team of Healthcare At Home Bangladesh"
                 className="h-56 p-4 rounded-3xl"
-             
+                loading="lazy"
               />
             </figure>
             <div className="items-center text-center text-white ">
@@ -81,14 +80,14 @@ const Team = () => {
             data-aos="flip-left"
             data-aos-easing="ease-out-cubic"
             data-aos-duration="2000"
-           h-96
+            h-96
           >
             <figure className="">
               <img
                 src={doctor4}
-                alt="Shoes"
+                alt="Team of Healthcare At Home Bangladesh"
                 className="h-56 p-4 rounded-3xl "
-                 
+                loading="lazy"
               />
             </figure>
             <div className="items-center text-center text-white ">
@@ -105,14 +104,14 @@ const Team = () => {
             data-aos="flip-left"
             data-aos-easing="ease-out-cubic"
             data-aos-duration="2000"
-           h-96
+            h-96
           >
             <figure className="">
               <img
                 src={doctor5}
-                alt="Shoes"
+                alt="Team of Healthcare At Home Bangladesh"
                 className="h-56 p-4 rounded-3xl"
-            
+                loading="lazy"
               />
             </figure>
             <div className="items-center text-center text-white ">
@@ -134,21 +133,20 @@ const Team = () => {
             data-aos="flip-left"
             data-aos-easing="ease-out-cubic"
             data-aos-duration="2000"
-           h-96
+            h-96
           >
             <figure className="">
               <img
                 src={doctor6}
-                alt="Shoes"
+                alt="Team of Healthcare At Home Bangladesh"
                 className="h-56 p-4 rounded-3xl"
-              
+                loading="lazy"
               />
             </figure>
             <div className="items-center text-center text-white ">
               <h2 className="font-bold text-center ">Dr. Zakia Hossain</h2>
 
               <p>MD is an Internal Medicine Specialist in USA</p>
-         
             </div>
           </div>
           <div
@@ -156,14 +154,14 @@ const Team = () => {
             data-aos="flip-left"
             data-aos-easing="ease-out-cubic"
             data-aos-duration="2000"
-           h-96
+            h-96
           >
             <figure className="">
               <img
                 src={doctor7}
-                alt="Shoes"
+                alt="Team of Healthcare At Home Bangladesh"
                 className="h-56 p-4 rounded-3xl "
-              
+                loading="lazy"
               />
             </figure>
             <div className="items-center text-center text-white ">
@@ -187,14 +185,14 @@ const Team = () => {
             data-aos="flip-left"
             data-aos-easing="ease-out-cubic"
             data-aos-duration="2000"
-           h-96
+            h-96
           >
             <figure className="">
               <img
                 src={doctor8}
-                alt="Shoes"
+                alt="Team of Healthcare At Home Bangladesh"
                 className="h-56 p-4 rounded-3xl"
-            
+                loading="lazy"
               />
             </figure>
             <div className="items-center text-center text-white ">
@@ -204,7 +202,7 @@ const Team = () => {
 
               <p>
                 Consultant Ophthalmologist, Cataract, Medical Retina &
-                Oculoplasty Specialist, Bangladesh Eye Hospital. 
+                Oculoplasty Specialist, Bangladesh Eye Hospital.
               </p>
               {/* <p>
               MBBS, MS (NEUROSURGERY)  
@@ -218,14 +216,14 @@ const Team = () => {
             data-aos="flip-left"
             data-aos-easing="ease-out-cubic"
             data-aos-duration="2000"
-           h-96
+            h-96
           >
             <figure className="">
               <img
                 src={doctor9}
-                alt="Shoes"
+                alt="Team of Healthcare At Home Bangladesh"
                 className="h-56 p-4 rounded-3xl"
-             
+                loading="lazy"
               />
             </figure>
             <div className="items-center text-center text-white ">
@@ -236,7 +234,8 @@ const Team = () => {
               <p>
                 MBBS (DMC), M.Phil (BSMMU) Higher Training at: Tata Memorial
                 Cancer Hospital Mumbai, India St. Lukes Medical Centre, Manila,
-                Philippines Cancer Specialist Director,Sr Consultent Labaid Cancer Hospital 
+                Philippines Cancer Specialist Director,Sr Consultent Labaid
+                Cancer Hospital
               </p>
               {/* <p>
               MBBS, MS (NEUROSURGERY)  
@@ -250,14 +249,14 @@ const Team = () => {
             data-aos="flip-left"
             data-aos-easing="ease-out-cubic"
             data-aos-duration="2000"
-           h-96
+            h-96
           >
             <figure className="">
               <img
                 src={doctor10}
-                alt="Shoes"
+                alt="Team of Healthcare At Home Bangladesh"
                 className="h-56 p-4 rounded-3xl"
-           
+                loading="lazy"
               />
             </figure>
             <div className="items-center text-center text-white ">
@@ -282,14 +281,14 @@ const Team = () => {
             data-aos="flip-left"
             data-aos-easing="ease-out-cubic"
             data-aos-duration="2000"
-           h-96
+            h-96
           >
             <figure className="">
               <img
                 src={doctor11}
-                alt="Shoes"
+                alt="Team of Healthcare At Home Bangladesh"
                 className="h-56 p-4 rounded-3xl"
-                
+                loading="lazy"
               />
             </figure>
             <div className="items-center text-center text-white ">
@@ -310,14 +309,14 @@ const Team = () => {
             data-aos="flip-left"
             data-aos-easing="ease-out-cubic"
             data-aos-duration="2000"
-           h-96
+            h-96
           >
             <figure className="">
               <img
                 src={doctor12}
-                alt="Shoes"
+                alt="Team of Healthcare At Home Bangladesh"
                 className="h-56 p-4 rounded-3xl "
-              
+                loading="lazy"
               />
             </figure>
             <div className="items-center text-center text-white ">
@@ -341,14 +340,14 @@ const Team = () => {
             data-aos="flip-left"
             data-aos-easing="ease-out-cubic"
             data-aos-duration="2000"
-           h-96
+            h-96
           >
             <figure className="">
               <img
                 src={doctor13}
-                alt="Shoes"
+                alt="Team of Healthcare At Home Bangladesh"
                 className="h-56 p-4 rounded-3xl "
-              
+                loading="lazy"
               />
             </figure>
             <div className="items-center text-center text-white ">
@@ -370,14 +369,14 @@ const Team = () => {
             data-aos="flip-left"
             data-aos-easing="ease-out-cubic"
             data-aos-duration="2000"
-           h-96
+            h-96
           >
             <figure className="">
               <img
                 src={doctor14}
-                alt="Shoes"
+                alt="Team of Healthcare At Home Bangladesh"
                 className="h-56 p-4 rounded-3xl"
-                
+                loading="lazy"
               />
             </figure>
             <div className="items-center text-center text-white ">
@@ -403,8 +402,6 @@ const Team = () => {
           Multidisciplinary team of 900+ professionals including doctors,
           nurses, physiotherapists, medical assistant & medical caregiver.
         </p>
-
-     
       </div>
     </div>
   );

@@ -75,7 +75,7 @@ const Service = () => {
                   <li>Maintain health records</li>
                 </div>
                 <div>
-                  <img src={nurseservice} alt="" loading="lazy" />
+                  <img src={nurseservice} alt="Compassionate elder care at home" loading="lazy" />
                 </div>
               </div>
               <div className="modal-action">
@@ -95,7 +95,7 @@ const Service = () => {
             data-aos="fade-up"
             data-aos-duration="1000"
           >
-            <img className="rounded-lg w-96 h-52 " src={physio} alt="" loading="lazy" 
+            <img className="rounded-lg w-96 h-52 " alt="Compassionate elder care at home"  src={physio}   loading="lazy" 
              />
 
             <h3 className="mt-3 mb-2 text-xl font-bold text-left ">
@@ -142,7 +142,7 @@ const Service = () => {
                   <li>All kinds of Musculoskeletal Rehabilitation</li>
                 </div>
                 <div className="">
-                  <img src={physio} alt="" loading="lazy"  />
+                  <img src={physio} alt="Compassionate elder care at home"  loading="lazy"  />
                 </div>
               </div>
               <div className="modal-action">
@@ -165,7 +165,7 @@ const Service = () => {
             <img
               className="rounded-lg w-96 h-52"
               src={servicemedicalassistant}
-              alt=""
+              alt="Compassionate elder care at home" 
               loading="lazy" 
             />
 
@@ -206,7 +206,7 @@ const Service = () => {
                   <li>Hygiene maintenance</li>
                 </div>
                 <div className="">
-                  <img src={servicemedicalassistant} alt="" loading="lazy"  />
+                  <img src={servicemedicalassistant} alt="Compassionate elder care at home"  loading="lazy"  />
                 </div>
               </div>
               <div className="modal-action">
@@ -229,7 +229,7 @@ const Service = () => {
             <img
               className="h-56 rounded-lg w-96"
               src={medicalcaregiver}
-              alt=""
+              alt="Compassionate elder care at home" 
               loading="lazy" 
             />
 
@@ -268,7 +268,7 @@ const Service = () => {
                   <li>Pass good time with patients </li>
                 </div>
                 <div className="">
-                  <img src={medicalcaregiver} alt="" loading="lazy" />
+                  <img src={medicalcaregiver} alt="Compassionate elder care at home" loading="lazy" />
                 </div>
               </div>
               <div className="modal-action">
@@ -288,7 +288,7 @@ const Service = () => {
             data-aos="fade-up"
             data-aos-duration="1000"
           >
-            <img className="h-56 rounded-lg w-96" src={caregiver} alt="" loading="lazy"  />
+            <img className="h-56 rounded-lg w-96" src={caregiver} alt="Compassionate elder care at home"  loading="lazy"  />
 
             <h3 className="mt-3 mb-2 text-xl font-bold text-left ">
               Caregiver
@@ -328,7 +328,7 @@ const Service = () => {
                   <li>Arrange transport </li>
                 </div>
                 <div className="">
-                  <img src={caregiver} alt="" loading="lazy" />
+                  <img src={caregiver} alt="Compassionate elder care at home"  loading="lazy" />
                 </div>
               </div>
               <div className="modal-action">
@@ -347,7 +347,7 @@ const Service = () => {
             data-aos="fade-up"
             data-aos-duration="1000"
           >
-            <img className="h-56 rounded-lg w-96" src={nanines} alt="" loading="lazy" />
+            <img className="h-56 rounded-lg w-96" src={nanines} alt="Compassionate elder care at home"  loading="lazy" />
 
             <h3 className="mt-3 mb-2 text-xl font-bold text-left ">
               Nannycare
@@ -387,7 +387,7 @@ const Service = () => {
                   <li>Handle the baby softly</li>
                 </div>
                 <div className="">
-                  <img src={nanines} alt=""  loading="lazy" />
+                  <img src={nanines} alt="Compassionate elder care at home"   loading="lazy" />
                 </div>
               </div>
               <div className="modal-action">
@@ -406,7 +406,7 @@ const Service = () => {
             data-aos="fade-up"
             data-aos-duration="1000"
           >
-            <img className="h-56 rounded-lg w-96" src={companionship} alt="" loading="lazy"  />
+            <img className="h-56 rounded-lg w-96" src={companionship} alt="Compassionate elder care at home"  loading="lazy"  />
 
             <h3 className="mt-3 mb-2 text-xl font-bold text-left ">
               Companionship
@@ -444,7 +444,7 @@ const Service = () => {
                   <li>Feeding care</li>
                 </div>
                 <div className="rounded-lg">
-                  <img src={companionship} alt="" loading="lazy"  />
+                  <img src={companionship} alt="Compassionate elder care at home"  loading="lazy"  />
                 </div>
               </div>
               <div className="modal-action">
@@ -465,7 +465,7 @@ const Service = () => {
             data-aos="fade-up"
             data-aos-duration="1000"
           >
-            <img className="h-56 rounded-lg w-96" src={attendant} alt="" loading="lazy"  />
+            <img className="h-56 rounded-lg w-96" src={attendant} alt="Compassionate elder care at home"  loading="lazy"  />
 
             <h3 className="mt-3 mb-2 text-xl font-bold text-left ">
               Attendant
@@ -503,7 +503,7 @@ const Service = () => {
                   <li>Feeding care</li>
                 </div>
                 <div className="rounded-lg">
-                  <img src={attendant} alt="" loading="lazy"  />
+                  <img src={attendant} alt="Compassionate elder care at home"  loading="lazy"  />
                 </div>
               </div>
               <div className="modal-action">
@@ -533,7 +533,7 @@ const Service = () => {
             data-aos="fade-up"
             data-aos-duration="1000"
           >
-            <img className="h-56 rounded-lg w-96" src={equipment} alt="" loading="lazy"
+            <img className="h-56 rounded-lg w-96" src={equipment} alt="Compassionate elder care at home"  loading="lazy"
             />
 
             <h3 className="mt-3 mb-2 text-xl font-bold text-left ">
@@ -578,7 +578,7 @@ const Service = () => {
                   <li>Catheter </li>
                 </div>
                 <div className="rounded-lg">
-                  <img src={equipment} alt="" loading="lazy"/>
+                  <img src={equipment} alt="Compassionate elder care at home"  loading="lazy"/>
                 </div>
               </div>
               <div className="modal-action">
@@ -601,7 +601,7 @@ const Service = () => {
             <img
               className="h-56 rounded-lg w-96"
               src={ambulanceservice}
-              alt=""
+              alt="Compassionate elder care at home" 
               loading="lazy"
             />
 
@@ -642,7 +642,7 @@ const Service = () => {
                   <li>Good vehicles</li>
                 </div>
                 <div className="">
-                  <img src={ambulanceservice} alt="" loading="lazy"/>
+                  <img src={ambulanceservice} alt="Compassionate elder care at home"  loading="lazy"/>
                 </div>
               </div>
               <div className="modal-action">
@@ -661,7 +661,7 @@ const Service = () => {
             data-aos="fade-up"
             data-aos-duration="1000"
           >
-            <img className="h-56 rounded-lg w-96" src={icuservice} alt="" loading="lazy" />
+            <img className="h-56 rounded-lg w-96" src={icuservice} alt="Compassionate elder care at home"  loading="lazy" />
 
             <h3 className="mt-3 mb-2 text-xl font-bold text-left ">
               ICU & CCU Setup
@@ -704,7 +704,7 @@ const Service = () => {
                   <li>Good vehicles</li>
                 </div>
                 <div className="">
-                  <img src={icuservice} alt=""  loading="lazy"/>
+                  <img src={icuservice} alt="Compassionate elder care at home"   loading="lazy"/>
                 </div>
               </div>
               <div className="modal-action">

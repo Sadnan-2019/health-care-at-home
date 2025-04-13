@@ -103,10 +103,10 @@ const About = () => {
                 <img src={flyer} alt="" />
               </div> */}
               <div className="card">
-                <img src={flyer2} alt="" />
+                <img src={flyer2} alt="Our Serivices "  loading="lazy" />
               </div>
               <div className="card">
-                <img src={flyer1} alt="" />
+                <img src={flyer1} alt="Our Serivices "   loading="lazy"/>
               </div>
             </div>
             

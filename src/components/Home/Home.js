@@ -16,7 +16,7 @@ import { Helmet } from "react-helmet-async";
 const Home = () => {
 
   const schemaData = {
-    "@context": "https://schema.org",
+    "@context": "https://hcah.mrg.com.bd",
     "@type": "LocalBusiness",
     "name": "HealthCare At Home Bangladesh",
     "url": "https://hcah.mrg.com.bd",
