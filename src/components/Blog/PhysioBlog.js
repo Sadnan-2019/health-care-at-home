@@ -2,7 +2,7 @@ import React from "react";
 import cardiac1 from "../../assets/blogcardicac.jpeg";
 import parkinson from "../../assets/parkinson1.webp";
 import heart from "../../assets/heart_2.avif";
-import stroke from "../../assets/Brain-Attack-Strok blog.jpg";
+import stroke from "../../assets/Brain-Attack-Strok blog.webp";
 import hypertension from "../../assets/hyper2.jpeg";
 import sholder from "../../assets/shoulder-pain.jpg";
 import Elbow from "../../assets/Elbow-Pain-blog.jpeg";
@@ -15,14 +15,10 @@ import { BsFacebook } from "react-icons/bs";
 import { RxLinkedinLogo } from "react-icons/rx";
 import { AiFillTwitterCircle } from "react-icons/ai";
 import { FaWhatsappSquare } from "react-icons/fa";
-// import { AiOutlineCaretRight } from "react-icons/ai";
+
 import "animate.css";
-// animate__animated animate__backInLeft
+
 import { Link } from "react-router-dom";
-// import "./Blog.css";
-// import(
-//   "https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;1,300&display=swap"
-// );
 
 const PhysioBlog = () => {
   return (
@@ -106,42 +102,6 @@ const PhysioBlog = () => {
                     </Link>
                   </div>
                 </div>
-                {/* <div className="flex justify-between   sm:gap-5	lg:gap-5      ">
-                  <div className="py-2  lg:px-3     ">
-                    <Link to="/prevention">
-                      <button
-                        htmlFor="my-modal-6"
-                        className="btn btn-xs	 lg:btn-xs modal-button mt-3 text-[white] bg-gradient-to-r from-[#303640] to-[#103264]   animate-pulse    "
-                        style={{ backgroundColor: "#453364" }}
-                      >
-                        Prevention{" "}
-                      </button>
-                    </Link>
-                  </div>
-
-                  <div className="py-2       ">
-                    <Link to="/living-with">
-                      <button
-                        htmlFor="my-modal-6"
-                        className=" btn btn-xs	lg:btn-xs modal-button mt-3 text-[white] bg-gradient-to-r from-[#303640] to-[#103264]   animate-pulse    "
-                        style={{ backgroundColor: "#453364" }}
-                      >
-                        Living With{" "}
-                      </button>
-                    </Link>
-                  </div>
-                  <div className="py-2         ">
-                    <Link to="/prognosis">
-                      <button
-                        htmlFor="my-modal-6"
-                        className="btn btn-xs	 lg:btn-xs modal-button mt-3 text-[white] bg-gradient-to-r from-[#303640] to-[#103264]   animate-pulse    "
-                        style={{ backgroundColor: "#453364" }}
-                      >
-                        Outlook / Prognosis{" "}
-                      </button>
-                    </Link>
-                  </div>
-                </div> */}
               </div>
             </div>
 
@@ -315,29 +275,6 @@ const PhysioBlog = () => {
                       </button>
                     </Link>
                   </div>
-
-                  {/* <div className="py-2       ">
-                    <Link to="/living-with">
-                      <button
-                        htmlFor="my-modal-6"
-                        className=" btn btn-sm modal-button mt-3 text-[white] bg-gradient-to-r from-[#303640] to-[#103264]   animate-pulse    "
-                        style={{ backgroundColor: "#453364" }}
-                      >
-                        Living With{" "}
-                      </button>
-                    </Link>
-                  </div>
-                  <div className="py-2         ">
-                    <Link to="/prognosis">
-                      <button
-                        htmlFor="my-modal-6"
-                        className="btn btn-sm modal-button mt-3 text-[white] bg-gradient-to-r from-[#303640] to-[#103264]   animate-pulse    "
-                        style={{ backgroundColor: "#453364" }}
-                      >
-                        Outlook / Prognosis{" "}
-                      </button>
-                    </Link>
-                  </div> */}
                 </div>
               </div>
             </div>
@@ -390,78 +327,6 @@ const PhysioBlog = () => {
                     style={{ color: "white" }}
                   />
                 </div>
-                {/* <div className="flex justify-between gap-5 lg:gap-8   ">
-                  <div className="py-2      ">
-                    <Link to="/cardiac-symptoms-causes">
-                      <button
-                        htmlFor="my-modal-6"
-                        className="btn lg:btn-sm modal-button mt-3 text-[white] bg-gradient-to-r from-[#303640] to-[#103264]   animate-pulse    "
-                        style={{ backgroundColor: "#453364" }}
-                      >
-                        Symptoms and Causes{" "}
-                      </button>
-                    </Link>
-                  </div>
-                  <div className="py-2       ">
-                    <Link to="/diagnosis-tests">
-                      <button
-                        htmlFor="my-modal-6"
-                        className="btn lg:btn-sm modal-button mt-3 text-[white] bg-gradient-to-r from-[#303640] to-[#103264]   animate-pulse    "
-                        style={{ backgroundColor: "#453364" }}
-                      >
-                        Diagnosis and Tests{" "}
-                      </button>
-                    </Link>
-                  </div>
-                  <div className="py-2        ">
-                    <Link to="/management-treatment">
-                  
-                      <button
-                        htmlFor="my-modal-6"
-                        className="btn lg:btn-sm modal-button mt-3 text-[white] bg-gradient-to-r from-[#303640] to-[#103264]   animate-pulse    "
-                        style={{ backgroundColor: "#453364" }}
-                      >
-                        Management and Treatment{" "}
-                      </button>
-                    </Link>
-                  </div>
-                </div>
-                <div className="flex justify-between   gap-10    ">
-                  <div className="py-2  lg:px-3     ">
-                    <Link to="/prevention">
-                      <button
-                        htmlFor="my-modal-6"
-                        className="btn btn-sm modal-button mt-3 text-[white] bg-gradient-to-r from-[#303640] to-[#103264]   animate-pulse    "
-                        style={{ backgroundColor: "#453364" }}
-                      >
-                        Prevention{" "}
-                      </button>
-                    </Link>
-                  </div>
-
-                  <div className="py-2       ">
-                    <Link to="/living-with">
-                      <button
-                        htmlFor="my-modal-6"
-                        className=" btn btn-sm modal-button mt-3 text-[white] bg-gradient-to-r from-[#303640] to-[#103264]   animate-pulse    "
-                        style={{ backgroundColor: "#453364" }}
-                      >
-                        Living With{" "}
-                      </button>
-                    </Link>
-                  </div>
-                  <div className="py-2         ">
-                    <Link to="/prognosis">
-                      <button
-                        htmlFor="my-modal-6"
-                        className="btn btn-sm modal-button mt-3 text-[white] bg-gradient-to-r from-[#303640] to-[#103264]   animate-pulse    "
-                        style={{ backgroundColor: "#453364" }}
-                      >
-                        Outlook / Prognosis{" "}
-                      </button>
-                    </Link>
-                  </div>
-                </div> */}
               </div>
             </div>
 
@@ -568,20 +433,6 @@ const PhysioBlog = () => {
                     style={{ color: "white" }}
                   />
                 </div>
-
-                {/* <div className="flex justify-end        ">
-                  <div className="py-2  lg:px-3     ">
-                    <Link to="/strokeblog">
-                      <button
-                        htmlFor="my-modal-6"
-                        className="btn btn-sm modal-button mt-3 text-[white] bg-gradient-to-r from-[#303640] to-[#103264]   animate-pulse    "
-                        style={{ backgroundColor: "#453364" }}
-                      >
-                        Read More{" "}
-                      </button>
-                    </Link>
-                  </div>
-                </div> */}
               </div>
             </div>
             <div
@@ -628,20 +479,6 @@ const PhysioBlog = () => {
                     style={{ color: "white" }}
                   />
                 </div>
-
-                {/* <div className="flex justify-end        ">
-                  <div className="py-2  lg:px-3     ">
-                    <Link to="/strokeblog">
-                      <button
-                        htmlFor="my-modal-6"
-                        className="btn btn-sm modal-button mt-3 text-[white] bg-gradient-to-r from-[#303640] to-[#103264]   animate-pulse    "
-                        style={{ backgroundColor: "#453364" }}
-                      >
-                        Read More{" "}
-                      </button>
-                    </Link>
-                  </div>
-                </div> */}
               </div>
             </div>
             <div
@@ -686,20 +523,6 @@ const PhysioBlog = () => {
                     style={{ color: "white" }}
                   />
                 </div>
-
-                {/* <div className="flex justify-end        ">
-                  <div className="py-2  lg:px-3     ">
-                    <Link to="/strokeblog">
-                      <button
-                        htmlFor="my-modal-6"
-                        className="btn btn-sm modal-button mt-3 text-[white] bg-gradient-to-r from-[#303640] to-[#103264]   animate-pulse    "
-                        style={{ backgroundColor: "#453364" }}
-                      >
-                        Read More{" "}
-                      </button>
-                    </Link>
-                  </div>
-                </div> */}
               </div>
             </div>
             <div
@@ -747,20 +570,6 @@ const PhysioBlog = () => {
                     style={{ color: "white" }}
                   />
                 </div>
-
-                {/* <div className="flex justify-end        ">
-                  <div className="py-2  lg:px-3     ">
-                    <Link to="/strokeblog">
-                      <button
-                        htmlFor="my-modal-6"
-                        className="btn btn-sm modal-button mt-3 text-[white] bg-gradient-to-r from-[#303640] to-[#103264]   animate-pulse    "
-                        style={{ backgroundColor: "#453364" }}
-                      >
-                        Read More{" "}
-                      </button>
-                    </Link>
-                  </div>
-                </div> */}
               </div>
             </div>
             <div
@@ -811,20 +620,6 @@ const PhysioBlog = () => {
                     style={{ color: "white" }}
                   />
                 </div>
-
-                {/* <div className="flex justify-end        ">
-                  <div className="py-2  lg:px-3     ">
-                    <Link to="/strokeblog">
-                      <button
-                        htmlFor="my-modal-6"
-                        className="btn btn-sm modal-button mt-3 text-[white] bg-gradient-to-r from-[#303640] to-[#103264]   animate-pulse    "
-                        style={{ backgroundColor: "#453364" }}
-                      >
-                        Read More{" "}
-                      </button>
-                    </Link>
-                  </div>
-                </div> */}
               </div>
             </div>
             <div
@@ -868,20 +663,6 @@ const PhysioBlog = () => {
                     style={{ color: "white" }}
                   />
                 </div>
-
-                {/* <div className="flex justify-end        ">
-                  <div className="py-2  lg:px-3     ">
-                    <Link to="/strokeblog">
-                      <button
-                        htmlFor="my-modal-6"
-                        className="btn btn-sm modal-button mt-3 text-[white] bg-gradient-to-r from-[#303640] to-[#103264]   animate-pulse    "
-                        style={{ backgroundColor: "#453364" }}
-                      >
-                        Read More{" "}
-                      </button>
-                    </Link>
-                  </div>
-                </div> */}
               </div>
             </div>
             <div
@@ -927,20 +708,6 @@ const PhysioBlog = () => {
                     style={{ color: "white" }}
                   />
                 </div>
-
-                {/* <div className="flex justify-end        ">
-                  <div className="py-2  lg:px-3     ">
-                    <Link to="/strokeblog">
-                      <button
-                        htmlFor="my-modal-6"
-                        className="btn btn-sm modal-button mt-3 text-[white] bg-gradient-to-r from-[#303640] to-[#103264]   animate-pulse    "
-                        style={{ backgroundColor: "#453364" }}
-                      >
-                        Read More{" "}
-                      </button>
-                    </Link>
-                  </div>
-                </div> */}
               </div>
             </div>
           </div>
