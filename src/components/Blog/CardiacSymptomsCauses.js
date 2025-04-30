@@ -2,7 +2,7 @@ import React from "react";
 import "animate.css";
 import heart1 from "../../assets/heart1.jpg";
 import heart2 from "../../assets/sudden-cardiac-arrest.jpg";
-import heart3 from "../../assets/sudden-cardiac-arrest2.png";
+import heart3 from "../../assets/sudden-cardiac-arrest2.webp";
  
 const CardiacSymptomsCauses = () => {
   return (

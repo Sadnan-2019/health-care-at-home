@@ -28,7 +28,7 @@ import { Helmet, HelmetProvider } from "react-helmet-async";
 import { lazy, Suspense } from "react";
 import load from "./assets/HCAHBD.png";
 // import New from './components/Nav/New';
-
+ 
 function App() {
   const options = {
     autoConfig: true,

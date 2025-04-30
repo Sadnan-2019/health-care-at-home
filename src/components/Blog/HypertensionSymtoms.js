@@ -2,7 +2,7 @@ import React from "react";
 import "animate.css";
 import hyper1 from "../../assets/HYPER4.png";
 import hyper2 from "../../assets/hyper1.jpg";
-import heart3 from "../../assets/sudden-cardiac-arrest2.png";
+// import heart3 from "../../assets/sudden-cardiac-arrest2.webp";
 const HypertensionSymtoms = () => {
   return (
     <div>
