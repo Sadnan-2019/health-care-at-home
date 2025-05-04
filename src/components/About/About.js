@@ -11,10 +11,10 @@ const About = () => {
 
 <Helmet>
         {/* <title> Health care at Home Bangladesh</title> */}
-        <meta name="description" content="Learn more about our mission to bring healthcare services to your home." />
+        <meta name="description" content="Get top-quality healthcare caregiver physiotherapy diploma nursing services    to bring healthcare services at your home." />
         <meta name="robots" content="index, follow" />
         <meta property="og:title" content="Health Care at Home" />
-        <meta property="og:description" content="Learn more about our mission." />
+        <meta property="og:description" content="  Get top-quality healthcare caregiver physiotherapy diploma nursing services  at your home." />
         <meta property="og:url" content="https://hcah.mrg.com.bd/about-us" />
       </Helmet>
       <div

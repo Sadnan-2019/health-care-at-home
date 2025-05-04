@@ -86,8 +86,9 @@ const Review = () => {
               <img
                 className="col-span-3 w-14 rounded-full"
                 src={review2}
-                alt="user img"
+      
                 loading="lazy"
+                alt="Caregiver Service" title="home caregiver services review" 
               />
               <div className="col-span-9">
                 <h2 className="text-lg poppins-b font-bold">Ryan Ahmed</h2>
@@ -125,7 +126,7 @@ const Review = () => {
               <img
                 className="col-span-3 w-14 rounded-full"
                 src={review1}
-                alt="user img"
+                alt=" Diploma Home  Service" title="home  nursing services  " 
                 loading="lazy"
               />
               <div className="col-span-9">
@@ -160,7 +161,7 @@ const Review = () => {
               <img
                 className="col-span-3 w-14 rounded-full"
                 src={review3}
-                alt="user img"
+                alt="B.S.C  Home Physio Service" title="home  physiotherapy services review" 
                 loading="lazy"
               />
               <div className="col-span-9">
@@ -196,7 +197,7 @@ const Review = () => {
               <img
                 className="col-span-3 w-14 rounded-full"
                 src={review5}
-                alt="user img"
+                alt="Stroke Patients  BSC physio Service" title="home physio service" 
                 loading="lazy"
               />
               <div className="col-span-9">
@@ -232,7 +233,7 @@ const Review = () => {
               <img
                 className="col-span-3 w-14 rounded-full"
                 src={review6}
-                alt="user img"
+                alt="paralyzed patients for physiotherapy team " title="physiotherapy team home service" 
                 loading="lazy"
               />
               <div className="col-span-9">

@@ -72,10 +72,7 @@ const Home = () => {
         <meta property="og:url" content="https://hcah.mrg.com.bd" />
         <meta property="og:type" content="website" />.
         <link rel="canonical" href="https://hcah.mrg.com.bd" />
-        <meta
-          name="description"
-          content="Professional home care services in Dhaka. Expert caregivers, 24/7 support, and quality healthcare at home."
-        />
+       
 
  
 

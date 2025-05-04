@@ -17,16 +17,16 @@ const Service = () => {
     <section className="blog">
       <div className="py-8 mx-8 md:mx-16 lg:mx-24 ">
         <div className="">
-          <h2
+          <h1
             className="text-3xl text-center  text-[#453364]  font-bold poppins-b sm:text-4xl"
          
           >
             Our Services
-          </h2>
-          <h1
+          </h1>
+          <h2
             className="  w-32 h-1 rounded-lg mt-2 mb-4 mx-auto bg-[#453364]"
             
-          ></h1>
+          ></h2>
         </div>
 
         <div className="grid grid-cols-1 gap-8 py-5 mt-8 md:grid-cols-2 lg:grid-cols-3">
@@ -35,7 +35,7 @@ const Service = () => {
             data-aos="fade-up"
             data-aos-duration="1000"
           >
-            <img className="rounded-lg w-96 h-52 " src={nurseservice} alt="Compassionate elder care at home" loading="lazy" />
+            <img title="Nursing Home Care" className="rounded-lg w-96 h-52 " src={nurseservice} alt="Nursing Home Care" loading="lazy" />
 
             <h3 className="mt-3 mb-2 text-xl font-bold text-left ">Nursing</h3>
 
@@ -53,7 +53,7 @@ const Service = () => {
                 className="btn btn-sm modal-button mt-3 text-white  bg-[#453364] "
                 
               >
-                service details
+                 service details
               </label>
             </div>
           </div>
@@ -62,7 +62,7 @@ const Service = () => {
           <div className="modal modal-bottom sm:modal-middle">
             <div className="modal-box ">
               <h1 className="py-5 text-2xl font-bold text-center">
-                Nursing Details
+                Home Nursing Details
               </h1>
               <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 ">
                 <div className="text-sm font-bold">
@@ -75,7 +75,7 @@ const Service = () => {
                   <li>Maintain health records</li>
                 </div>
                 <div>
-                  <img src={nurseservice} alt="Compassionate elder care at home" loading="lazy" />
+                  <img title="Nursing Home Care"  src={nurseservice} alt="Nursing Home Care" loading="lazy" />
                 </div>
               </div>
               <div className="modal-action">
@@ -95,7 +95,7 @@ const Service = () => {
             data-aos="fade-up"
             data-aos-duration="1000"
           >
-            <img className="rounded-lg w-96 h-52 " alt="Compassionate elder care at home"  src={physio}   loading="lazy" 
+            <img title="Physiotherapy Service  at home"  className="rounded-lg w-96 h-52 " alt="Physiotherapy Service  at home"  src={physio}   loading="lazy" 
              />
 
             <h3 className="mt-3 mb-2 text-xl font-bold text-left ">
@@ -142,7 +142,7 @@ const Service = () => {
                   <li>All kinds of Musculoskeletal Rehabilitation</li>
                 </div>
                 <div className="">
-                  <img src={physio} alt="Compassionate elder care at home"  loading="lazy"  />
+                  <img title="Physiotherapy Service  at home" src={physio} alt="Physiotherapy Service  at home"  loading="lazy"  />
                 </div>
               </div>
               <div className="modal-action">
@@ -165,8 +165,9 @@ const Service = () => {
             <img
               className="rounded-lg w-96 h-52"
               src={servicemedicalassistant}
-              alt="Compassionate elder care at home" 
+              alt=" Medical Assistant  Care at Your Home " 
               loading="lazy" 
+              title="Medical Assistant  Care at Your Home "
             />
 
             <h3 className="mt-3 mb-2 text-xl font-bold text-left ">
@@ -206,7 +207,7 @@ const Service = () => {
                   <li>Hygiene maintenance</li>
                 </div>
                 <div className="">
-                  <img src={servicemedicalassistant} alt="Compassionate elder care at home"  loading="lazy"  />
+                  <img src={servicemedicalassistant} alt="Medical Assistant  Care at Your Home " title="Medical Assistant  Care at Your Home "  loading="lazy"  />
                 </div>
               </div>
               <div className="modal-action">
@@ -229,8 +230,9 @@ const Service = () => {
             <img
               className="h-56 rounded-lg w-96"
               src={medicalcaregiver}
-              alt="Compassionate elder care at home" 
+              alt="Medical Caregiver Support at Your Home" 
               loading="lazy" 
+              title="Medical Caregiver Support at Your Home"
             />
 
             <h3 className="mt-3 mb-2 text-xl font-bold text-left ">
@@ -268,7 +270,7 @@ const Service = () => {
                   <li>Pass good time with patients </li>
                 </div>
                 <div className="">
-                  <img src={medicalcaregiver} alt="Compassionate elder care at home" loading="lazy" />
+                  <img   src={medicalcaregiver} alt="Medical Caregiver Support at Your Home"  title="Medical Caregiver Support at Your Home" loading="lazy" />
                 </div>
               </div>
               <div className="modal-action">
@@ -288,8 +290,8 @@ const Service = () => {
             data-aos="fade-up"
             data-aos-duration="1000"
           >
-            <img className="h-56 rounded-lg w-96" src={caregiver} alt="Compassionate elder care at home"  loading="lazy"  />
-
+            <img title="Best Quality Experience  Caregiver" className="h-56 rounded-lg w-96" src={caregiver} alt="Top Caregiver Home Service "  loading="lazy"  />
+            
             <h3 className="mt-3 mb-2 text-xl font-bold text-left ">
               Caregiver
             </h3>
@@ -328,7 +330,7 @@ const Service = () => {
                   <li>Arrange transport </li>
                 </div>
                 <div className="">
-                  <img src={caregiver} alt="Compassionate elder care at home"  loading="lazy" />
+                  <img src={caregiver} title="Best Quality Experience  Caregiver" alt="Top  elder caregiver at your home"  loading="lazy" />
                 </div>
               </div>
               <div className="modal-action">
@@ -347,7 +349,7 @@ const Service = () => {
             data-aos="fade-up"
             data-aos-duration="1000"
           >
-            <img className="h-56 rounded-lg w-96" src={nanines} alt="Compassionate elder care at home"  loading="lazy" />
+            <img title="nannies to take care of your loving child" className="h-56 rounded-lg w-96" src={nanines} alt="   Baby  care at home or office"  loading="lazy" />
 
             <h3 className="mt-3 mb-2 text-xl font-bold text-left ">
               Nannycare
@@ -387,7 +389,7 @@ const Service = () => {
                   <li>Handle the baby softly</li>
                 </div>
                 <div className="">
-                  <img src={nanines} alt="Compassionate elder care at home"   loading="lazy" />
+                  <img title="nannies to take care of your loving child"  src={nanines} alt="Baby  care at home or office"   loading="lazy" />
                 </div>
               </div>
               <div className="modal-action">
@@ -406,7 +408,7 @@ const Service = () => {
             data-aos="fade-up"
             data-aos-duration="1000"
           >
-            <img className="h-56 rounded-lg w-96" src={companionship} alt="Compassionate elder care at home"  loading="lazy"  />
+            <img title="Companions are to give support to lonely people at home" className="h-56 rounded-lg w-96" src={companionship} alt="Companions are trained to give company to lonely people at home"  loading="lazy"  />
 
             <h3 className="mt-3 mb-2 text-xl font-bold text-left ">
               Companionship
@@ -444,7 +446,7 @@ const Service = () => {
                   <li>Feeding care</li>
                 </div>
                 <div className="rounded-lg">
-                  <img src={companionship} alt="Compassionate elder care at home"  loading="lazy"  />
+                  <img title="Companions are to give support to lonely people at home" src={companionship} alt=" Companions are to give support to lonely people at home "  loading="lazy"  />
                 </div>
               </div>
               <div className="modal-action">
@@ -465,7 +467,7 @@ const Service = () => {
             data-aos="fade-up"
             data-aos-duration="1000"
           >
-            <img className="h-56 rounded-lg w-96" src={attendant} alt="Compassionate elder care at home"  loading="lazy"  />
+            <img title="Attendant service at your Home " className="h-56 rounded-lg w-96" src={attendant} alt="Attendant service  at your home"  loading="lazy"  />
 
             <h3 className="mt-3 mb-2 text-xl font-bold text-left ">
               Attendant
@@ -503,7 +505,7 @@ const Service = () => {
                   <li>Feeding care</li>
                 </div>
                 <div className="rounded-lg">
-                  <img src={attendant} alt="Compassionate elder care at home"  loading="lazy"  />
+                  <img title="Attendant service at your Home " src={attendant} alt="Attendant service at your Home"  loading="lazy"  />
                 </div>
               </div>
               <div className="modal-action">
@@ -533,7 +535,7 @@ const Service = () => {
             data-aos="fade-up"
             data-aos-duration="1000"
           >
-            <img className="h-56 rounded-lg w-96" src={equipment} alt="Compassionate elder care at home"  loading="lazy"
+            <img title="Medical Equipment Service" className="h-56 rounded-lg w-96" src={equipment} alt=" Medical Equipment Service "  loading="lazy"
             />
 
             <h3 className="mt-3 mb-2 text-xl font-bold text-left ">
@@ -578,7 +580,7 @@ const Service = () => {
                   <li>Catheter </li>
                 </div>
                 <div className="rounded-lg">
-                  <img src={equipment} alt="Compassionate elder care at home"  loading="lazy"/>
+                  <img title="Medical Equipment Service" src={equipment} alt="Medical Equipment Service"  loading="lazy"/>
                 </div>
               </div>
               <div className="modal-action">
@@ -601,7 +603,8 @@ const Service = () => {
             <img
               className="h-56 rounded-lg w-96"
               src={ambulanceservice}
-              alt="Compassionate elder care at home" 
+              alt="24/7 ambulanceservice  whole bangladesh      " 
+              title="24/7 ambulanceservice for any patients   whole bangladesh  "
               loading="lazy"
             />
 
@@ -642,7 +645,8 @@ const Service = () => {
                   <li>Good vehicles</li>
                 </div>
                 <div className="">
-                  <img src={ambulanceservice} alt="Compassionate elder care at home"  loading="lazy"/>
+                  <img src={ambulanceservice} alt="24/7 ambulanceservice  whole bangladesh      " 
+              title="24/7 ambulanceservice for any patients   whole bangladesh  " loading="lazy"/>
                 </div>
               </div>
               <div className="modal-action">
@@ -661,7 +665,7 @@ const Service = () => {
             data-aos="fade-up"
             data-aos-duration="1000"
           >
-            <img className="h-56 rounded-lg w-96" src={icuservice} alt="Compassionate elder care at home"  loading="lazy" />
+            <img className="h-56 rounded-lg w-96" src={icuservice} alt=" ICU & CCU Setup At Your Home " title="ICU & CCU Setup At Your Home"  loading="lazy" />
 
             <h3 className="mt-3 mb-2 text-xl font-bold text-left ">
               ICU & CCU Setup
@@ -704,7 +708,7 @@ const Service = () => {
                   <li>Good vehicles</li>
                 </div>
                 <div className="">
-                  <img src={icuservice} alt="Compassionate elder care at home"   loading="lazy"/>
+                  <img src={icuservice} alt=" ICU & CCU Setup At Your Home " title="ICU & CCU Setup At Your Home"    loading="lazy"/>
                 </div>
               </div>
               <div className="modal-action">
