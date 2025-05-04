@@ -30,15 +30,17 @@ const Marque = () => {
         <div className="  	 	 mx-10">
           <img
             src={popular}
-            alt="Healthcare At Home Bangladesh"
+            alt="Populer Healthcare At Home Bangladesh"
             className="  "
             loading="lazy"
+            title="Caregiver  At Home Bangladesh"
           />
         </div>
-        <div className="       	  mx-10">
+        <div className="mx-10">
           <img
             src={universal}
-            alt="Healthcare At Home Bangladesh"
+            alt="Universal Healthcare At Home Bangladesh"
+             title="Nurse  At Home Bangladesh"
             className="  w-52    "
             loading="lazy"
           />
@@ -46,7 +48,8 @@ const Marque = () => {
         <div className="     	 mx-10 ">
           <img
             src={labaidcardiac}
-            alt="Healthcare At Home Bangladesh"
+            alt="Labaid Healthcare At Home Bangladesh"
+             title=" Physiotherapy  At Home Bangladesh"
             className="      "
             loading="lazy"
           />
@@ -55,6 +58,7 @@ const Marque = () => {
           <img
             src={labaidspeacial}
             alt="Healthcare At Home Bangladesh"
+            title=" Stroke Patients Physio At Home"
             className="      "
             loading="lazy"
           />
@@ -62,15 +66,16 @@ const Marque = () => {
         <div className="     	 mx-10 ">
           <img
             src={labaidcanser}
-            alt="Healthcare At Home Bangladesh"
+            alt="Labaid Cancer Healthcare At Home Bangladesh"
             className="      "
+            title=" Medical Caregiver   At Home Bangladesh"
             loading="lazy"
           />
         </div>
         <div className="      	 mx-10 ">
           <img
             src={greenlife}
-            alt="Healthcare At Home Bangladesh"
+            alt="Green Life Healthcare At Home Bangladesh"
             className="      "
             loading="lazy"
           />
