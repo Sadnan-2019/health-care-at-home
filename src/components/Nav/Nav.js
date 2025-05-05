@@ -20,7 +20,7 @@ const Nav = () => {
           <div>
             <Link rel="canonical"   to="/">
               <div className="flex items-center ">
-                <img className="w-48" alt="logo" src={HCAHBD} />
+                <img title="health care at home care dhaka" className="w-48" alt="logo" loading="lazy" src={HCAHBD} />
               </div>
             </Link>
           </div>
@@ -92,7 +92,7 @@ const Nav = () => {
             <div className=" animate__animated animate__backInLeft">
              
               <a  href="https://schs.edu.bd/" target="_blank" rel="noreferrer">
-                <img src={schs} className="w-40 lg:w-28" alt="" />
+                <img title="health care at home care dhaka"  src={schs} className="w-40 lg:w-28" alt="partner of home care" />
               </a>
               {/* <a href="https://schs.edu.bd/" target="_blank" ><img src={schs} className="w-40 lg:w-28" alt=""/></a> */}
             </div>

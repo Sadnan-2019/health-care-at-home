@@ -68,7 +68,7 @@ const Marque = () => {
             src={labaidcanser}
             alt="Labaid Cancer Healthcare At Home Bangladesh"
             className="      "
-            title=" Medical Caregiver   At Home Bangladesh"
+            title=" Medical Caregiver At Home Bangladesh"
             loading="lazy"
           />
         </div>
@@ -77,6 +77,7 @@ const Marque = () => {
             src={greenlife}
             alt="Green Life Healthcare At Home Bangladesh"
             className="      "
+            title=" Medical  Nurse Care Dhaka "
             loading="lazy"
           />
         </div>
@@ -86,55 +87,62 @@ const Marque = () => {
             alt="Healthcare At Home Bangladesh"
             className="      "
             loading="lazy"
+            title=" Home Physio Care at  Dhaka "
           />
         </div>
         <div className=" 	 mx-10     ">
           <img
             src={evercare}
-            alt="Healthcare At Home Bangladesh"
+            alt="Home Caregiver At Home Bangladesh"
             className=" w-52       "
             loading="lazy"
+            title=" Home Physio Care at  Dhaka "
           />
         </div>
         <div className=" 	 mx-10     ">
           <img
             src={united}
-            alt="Healthcare At Home Bangladesh"
+            alt=" Babysitter  At Home Bangladesh"
             className=" w-52       "
             loading="lazy"
+             title=" Home  Companion  Care at  Dhaka "
           />
         </div>
         <div className=" 	 mx-10     ">
           <img
             src={ibnesina}
-            alt="Healthcare At Home Bangladesh"
+            alt=" Home Support Caregiver    "
             className=" w-52       "
             loading="lazy"
+             title=" Medical Caregiver Home Service Dhaka "
           />
         </div>
         <div className=" 	 mx-10     ">
           <img
             src={bangladeshspeacial}
-            alt="Healthcare At Home Bangladesh"
+            alt="Homecare Diploma Nurse Bangladesh"
             className=" w-52       "
             loading="lazy"
+            title="  Nursing Home Service Dhaka "
           />
         </div>
         <div className=" 	 mx-10     ">
           <img
             src={impulse}
-            alt="Healthcare At Home Bangladesh"
+            alt="Doctor  At Home Bangladesh"
             className=" w-52       "
             loading="lazy"
+            title="Consultant Visit  Home Service Dhaka "
           />
         </div>
 
         <div className=" 	 mx-10     ">
           <img
             src={shikdar}
-            alt="Healthcare At Home Bangladesh"
+            alt="Home Care Dhaka"
             className=" w-42       "
             loading="lazy"
+            title="Patients  Home Service dhaka "
           />
         </div>
         <div className=" 	 mx-10     ">
@@ -143,22 +151,25 @@ const Marque = () => {
             alt="Healthcare At Home Bangladesh"
             className=" w-42       "
             loading="lazy"
+            title="Patients Support  at  dhaka "
           />
         </div>
         <div className=" 	 mx-10     ">
           <img
             src={asgorali}
-            alt="Healthcare At Home Bangladesh"
+            alt="Home Nanny Support  At Dhaka"
             className=" w-42       "
             loading="lazy"
+            title="Stoke   Home Service haka "
           />
         </div>
         <div className=" 	 mx-10     ">
           <img
             src={prime}
-            alt="Healthcare At Home Bangladesh"
+            alt="medical home service At Home Bangladesh"
             className=" w-42       "
             loading="lazy"
+             title="Stoke  Physio Home Service haka "
           />
         </div>
       </Marquee>

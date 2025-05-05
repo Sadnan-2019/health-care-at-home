@@ -36,7 +36,8 @@ const Team = () => {
                 alt="Team of Healthcare At Home Bangladesh"
                 className="h-56 p-4 rounded-3xl "
                 loading="lazy"
-                // style={{   borderRadius: "25px" }}
+                title="Dhimanbonik Home care Doctor"
+              // style={{   borderRadius: "25px" }}
               />
             </figure>
             <div className="items-center text-center text-white ">
@@ -58,9 +59,10 @@ const Team = () => {
             <figure className="">
               <img
                 src={doctor2}
-                alt="Team of Healthcare At Home Bangladesh"
+                alt="Doctor of Healthcare At Home Bangladesh"
                 className="h-56 p-4 rounded-3xl"
                 loading="lazy"
+                title="Abu Sayed Home care Doctor"
               />
             </figure>
             <div className="items-center text-center text-white ">
@@ -88,6 +90,8 @@ const Team = () => {
                 alt="Team of Healthcare At Home Bangladesh"
                 className="h-56 p-4 rounded-3xl "
                 loading="lazy"
+                title="Dr Sarwar Iqbal Home care Doctor"
+
               />
             </figure>
             <div className="items-center text-center text-white ">
@@ -112,6 +116,7 @@ const Team = () => {
                 alt="Team of Healthcare At Home Bangladesh"
                 className="h-56 p-4 rounded-3xl"
                 loading="lazy"
+                  title="Dr Sarwar Iqbal Home care Doctor"
               />
             </figure>
             <div className="items-center text-center text-white ">
@@ -141,6 +146,7 @@ const Team = () => {
                 alt="Team of Healthcare At Home Bangladesh"
                 className="h-56 p-4 rounded-3xl"
                 loading="lazy"
+                title="Dr zakiahossain    Home care Doctor"
               />
             </figure>
             <div className="items-center text-center text-white ">
