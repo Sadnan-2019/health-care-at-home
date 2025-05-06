@@ -27,6 +27,7 @@ import ReactPixel from "react-facebook-pixel";
 import { Helmet, HelmetProvider } from "react-helmet-async";
 import { lazy, Suspense } from "react";
 import load from "./assets/HCAHBD.png";
+import Protocol from "./components/Protocol/Protocol";
 // import New from './components/Nav/New';
  
 function App() {
@@ -162,6 +163,7 @@ function App() {
             <Route path="/about" element={<About />}></Route>
             <Route path="/contact" element={<Contact />}></Route>
             <Route path="/landing" element={<HcahLanding />}></Route>
+            <Route path="/service-protocol" element={<Protocol/>}></Route>
             {/* <Route path="login" element={<Login />}></Route> */}
             <Route path="/*" element={<FourZeroFour />} />
           </Routes>

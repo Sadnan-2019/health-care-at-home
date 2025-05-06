@@ -113,6 +113,7 @@ const Navbar = () => {
           Medical Equipment
         </NavLink>
       </li>
+      
       <li className="p-2 nav-item" rel="canonical" onClick={gotoBtn}>
         <NavLink
           rel="canonical"
@@ -143,6 +144,17 @@ const Navbar = () => {
           tabIndex={0}
           className="w-24 p-2 shadow dropdown-content menu rounded-box lg:w-52 bg-[#453364]"
         >
+             <li className="p-2 nav-item" rel="canonical" onClick={gotoBtn}>
+            <NavLink
+              rel="canonical"
+              className={({ isActive }) => (isActive ? `${active}` : `${normal}`)}
+              to="/service-protocol"
+              onClick={toggleDrawer} // Close drawer when a nav item is clicked
+            >
+            Our Service Protocol
+            </NavLink>
+          </li>
+
           <li className="p-2 nav-item" rel="canonical" onClick={gotoBtn}>
             <NavLink
               rel="canonical"
