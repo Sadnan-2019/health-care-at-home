@@ -121,7 +121,7 @@ const Footer = () => {
                 <ul class="space-y-4 text-sm">
                   <div className="grid lg:grid-cols-1     ">
                     <div className="   relative  ">
-                      <img className=" opacity-80	 " src={hcahfb} alt="" />
+                      <img title="our home service dhaka" className=" opacity-80	 " src={hcahfb} alt="we care 24/7 home care " />
 
                       <div className="  	   mx-2     absolute ">
                         <div className=" rounded-xl   bg-gradient-to-r from-[#486038] to-[#38235D]   text-white">

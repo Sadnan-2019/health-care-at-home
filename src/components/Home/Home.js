@@ -14,34 +14,30 @@ import YoutubeVideo from "../Blog/YoutubeVideo";
 import { Helmet } from "react-helmet-async";
 
 const Home = () => {
-
   const schemaData = {
     "@context": "https://hcah.mrg.com.bd",
     "@type": "LocalBusiness",
-    "name": "HealthCare At Home Bangladesh",
-    "url": "https://hcah.mrg.com.bd",
-    "logo": "https://hcah.mrg.com.bd/HCAHBD.png",
-    "description": "We provide top-quality home healthcare services in Dhaka, Bangladesh.",
-    "address": {
+    name: "HealthCare At Home Bangladesh",
+    url: "https://hcah.mrg.com.bd",
+    logo: "https://hcah.mrg.com.bd/HCAHBD.png",
+    description:
+      "We provide top-quality caregiver nurse physiotherapy medical caregiver medical assistant  home healthcare services in Dhaka, Bangladesh.",
+    address: {
       "@type": "PostalAddress",
-      "streetAddress": "Niloy 11 Road 108 Gulshan 2",
-      "addressLocality": "Dhaka",
-      "addressRegion": "Dhaka",
-      "postalCode": "1212",
-      "addressCountry": "BD"
+      streetAddress: "Niloy 11 Road 108 Gulshan 2",
+      addressLocality: "Dhaka",
+      addressRegion: "Dhaka",
+      postalCode: "1212",
+      addressCountry: "BD",
     },
-    "telephone": "+8801619848555",
-    "openingHours": "Mo-Fr 09:00-18:00",
-    "sameAs": [
+    telephone: "+8801619848555",
+    openingHours: "Mo-Fr 09:00-18:00",
+    sameAs: [
       "https://www.facebook.com/hcahbd",
-      "https://www.linkedin.com/company/healthcare-at-home-bangladesh/"
-    ]
+      "https://www.linkedin.com/company/healthcare-at-home-bangladesh/",
+    ],
   };
 
-
-
-
-  
   return (
     <div className="blog">
       <Helmet>
@@ -70,32 +66,14 @@ const Home = () => {
           content="https://hcah.mrg.com.bd/static/media/service-caregive.f73bb16bcec38cd23239.jpg"
         />
         <meta property="og:url" content="https://hcah.mrg.com.bd" />
-        <meta property="og:type" content="website" />.
+        <meta property="og:type" content="Caregiver Nurse Physiotherapy Nannycare Home care Dhaka " />.
         <link rel="canonical" href="https://hcah.mrg.com.bd" />
-       
-
- 
-
         {/* ✅ Use dangerouslySetInnerHTML to insert JSON correctly */}
-        <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }} />
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-        
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
+        />
         {/* Schema Markup for Business Details */}
-        
       </Helmet>
       <Landing></Landing>
       <Service></Service>

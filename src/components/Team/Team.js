@@ -168,6 +168,7 @@ const Team = () => {
                 alt="Team of Healthcare At Home Bangladesh"
                 className="h-56 p-4 rounded-3xl "
                 loading="lazy"
+                title="Home Care PROF. DR. S. M. G. KIBRIA "
               />
             </figure>
             <div className="items-center text-center text-white ">
@@ -199,6 +200,7 @@ const Team = () => {
                 alt="Team of Healthcare At Home Bangladesh"
                 className="h-56 p-4 rounded-3xl"
                 loading="lazy"
+                title="Elder care Dr. Sarwar Jahan Muktafi "
               />
             </figure>
             <div className="items-center text-center text-white ">
@@ -230,6 +232,7 @@ const Team = () => {
                 alt="Team of Healthcare At Home Bangladesh"
                 className="h-56 p-4 rounded-3xl"
                 loading="lazy"
+                title="Nursing care Professor Dr. Qazi Mushtaq Hussain"
               />
             </figure>
             <div className="items-center text-center text-white ">
@@ -263,6 +266,7 @@ const Team = () => {
                 alt="Team of Healthcare At Home Bangladesh"
                 className="h-56 p-4 rounded-3xl"
                 loading="lazy"
+                title="Physiocare   Associate Prof. Dr Tarafdar Runa Laila"
               />
             </figure>
             <div className="items-center text-center text-white ">
@@ -295,6 +299,7 @@ const Team = () => {
                 alt="Team of Healthcare At Home Bangladesh"
                 className="h-56 p-4 rounded-3xl"
                 loading="lazy"
+                title=" we care 24/7 home Prof Shahina Subhan Mitu"
               />
             </figure>
             <div className="items-center text-center text-white ">
@@ -323,6 +328,7 @@ const Team = () => {
                 alt="Team of Healthcare At Home Bangladesh"
                 className="h-56 p-4 rounded-3xl "
                 loading="lazy"
+                title="Doctor Home Health care    Prof,Dr AK Akhteruzzaman"
               />
             </figure>
             <div className="items-center text-center text-white ">
@@ -354,6 +360,7 @@ const Team = () => {
                 alt="Team of Healthcare At Home Bangladesh"
                 className="h-56 p-4 rounded-3xl "
                 loading="lazy"
+                title="hOME VISIT DOCTOR Md Masud Iqbal"
               />
             </figure>
             <div className="items-center text-center text-white ">
@@ -383,6 +390,7 @@ const Team = () => {
                 alt="Team of Healthcare At Home Bangladesh"
                 className="h-56 p-4 rounded-3xl"
                 loading="lazy"
+                title=" our Home care doctor Professor Dr. AKM Mosharraf Hossain"
               />
             </figure>
             <div className="items-center text-center text-white ">

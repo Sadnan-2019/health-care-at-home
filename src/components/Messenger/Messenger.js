@@ -7,7 +7,7 @@ const Messenger = () => {
         <div> 
             <div>
             <a  rel="noreferrer" className="" target="_blank"  onClick={() => window.location.href = messengerLink}>
-            <img src={messenger} alt=''
+            <img title='babysitter for 24/7' src={messenger} alt='our homecare messenger'
               // onClick={gotoBtn}
               className=" float-right w-12 top-btn   cursor-pointer"
             />

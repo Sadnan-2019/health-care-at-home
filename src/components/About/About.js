@@ -103,10 +103,10 @@ const About = () => {
                 <img src={flyer} alt="" />
               </div> */}
               <div className="card">
-                <img src={flyer2} alt="Our Serivices "  loading="lazy" />
+                <img title="home health care this is the our service " src={flyer2} alt="Our all  Services "  loading="lazy" />
               </div>
               <div className="card">
-                <img src={flyer1} alt="Our Serivices "   loading="lazy"/>
+                <img src={flyer1} alt="Nursing care Our Services "  title="Physio Home   care Our Services" loading="lazy"/>
               </div>
             </div>
             
