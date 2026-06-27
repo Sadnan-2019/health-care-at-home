@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect, useRef } from "react";
 import { Link, NavLink } from "react-router-dom";
 import Nav from "../Nav/Nav";
 import { BsWhatsapp } from "react-icons/bs";
@@ -9,227 +9,155 @@ import "./Navbar.css";
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
+  const [activeDropdown, setActiveDropdown] = useState(null); // 'services' | 'more' | null
+  
+  const servicesRef = useRef(null);
+  const moreRef = useRef(null);
+
+  // Close desktop dropdowns if clicking anywhere outside the navbar
+  useEffect(() => {
+    const handleOutsideClick = (event) => {
+      if (
+        servicesRef.current && !servicesRef.current.contains(event.target) &&
+        moreRef.current && !moreRef.current.contains(event.target)
+      ) {
+        setActiveDropdown(null);
+      }
+    };
+    document.addEventListener("mousedown", handleOutsideClick);
+    return () => document.removeEventListener("mousedown", handleOutsideClick);
+  }, []);
+
   const gotoBtn = () => {
     window.scrollTo({ top: 0, left: 0, behavior: "smooth" });
   };
-  const toggleDrawer = () => {
-    setIsOpen(!isOpen);
+
+  const toggleDrawer = () => setIsOpen(!isOpen);
+  const closeAll = () => {
+    setIsOpen(false);
+    setActiveDropdown(null);
   };
 
-  const active =
-    "text-white font-medium border-b-2 border-white-900 pb-1 md:text-white-900 ";
-  const normal =
-    "text-white-600 font-medium font-bold focus:text-white p-0 lg:text-white";
+  const toggleDropdown = (name) => {
+    setActiveDropdown(activeDropdown === name ? null : name);
+  };
 
-  const navItem = (
-    <>
-      <li rel="canonical" className="p-2 nav-item" onClick={gotoBtn}>
-        <NavLink
-          rel="canonical"
-          className={({ isActive }) => (isActive ? `${active}` : `${normal}`)}
-          to="/home"
-          onClick={toggleDrawer} // Close drawer when a nav item is clicked
-        >
-          Home
-        </NavLink>
-      </li>
-      <li className="p-2 nav-item" rel="canonical" onClick={gotoBtn}>
-        <NavLink
-          rel="canonical"
-          className={({ isActive }) => (isActive ? `${active}` : `${normal}`)}
-          to="/nursing"
-          onClick={toggleDrawer} // Close drawer when a nav item is clicked
-        >
-          Nursing
-        </NavLink>
-      </li>
-      <li className="p-2 nav-item" rel="canonical" onClick={gotoBtn}>
-        <NavLink
-          rel="canonical"
-          className={({ isActive }) => (isActive ? `${active}` : `${normal}`)}
-          to="/physiotherapy"
-          onClick={toggleDrawer} // Close drawer when a nav item is clicked
-        >
-          Physiotherapy
-        </NavLink>
-      </li>
-      <li className="p-2 nav-item" rel="canonical" onClick={gotoBtn}>
-        <NavLink
-          rel="canonical"
-          className={({ isActive }) => (isActive ? `${active}` : `${normal}`)}
-          to="/medical-assistant"
-          onClick={toggleDrawer} // Close drawer when a nav item is clicked
-        >
-          Medical Assistant
-        </NavLink>
-      </li>
-      <li className="p-2 nav-item" rel="canonical" onClick={gotoBtn}>
-        <NavLink
-          rel="canonical"
-          className={({ isActive }) => (isActive ? `${active}` : `${normal}`)}
-          to="/medical-caregiver"
-          onClick={toggleDrawer} // Close drawer when a nav item is clicked
-        >
-          Medical Caregiver
-        </NavLink>
-      </li>
-      <li className="p-2 nav-item" rel="canonical" onClick={gotoBtn}>
-        <NavLink
-          rel="canonical"
-          className={({ isActive }) => (isActive ? `${active}` : `${normal}`)}
-          to="/caregiver"
-          onClick={toggleDrawer} // Close drawer when a nav item is clicked
-        >
-          Caregiver
-        </NavLink>
-      </li>
-      <li className="p-2 nav-item" rel="canonical" onClick={gotoBtn}>
-        <NavLink
-          rel="canonical"
-          className={({ isActive }) => (isActive ? `${active}` : `${normal}`)}
-          to="/nanycare"
-          onClick={toggleDrawer} // Close drawer when a nav item is clicked
-        >
-          Nanycare
-        </NavLink>
-      </li>
-      <li className="p-2 nav-item" rel="canonical" onClick={gotoBtn}>
-        <NavLink
-          rel="canonical"
-          className={({ isActive }) => (isActive ? `${active}` : `${normal}`)}
-          to="/companion"
-          onClick={toggleDrawer} // Close drawer when a nav item is clicked
-        >
-          Companion
-        </NavLink>
-      </li>
-      <li className="p-2 nav-item" rel="canonical" onClick={gotoBtn}>
-        <NavLink
-          rel="canonical"
-          className={({ isActive }) => (isActive ? `${active}` : `${normal}`)}
-          to="/medical-equipment"
-          onClick={toggleDrawer} // Close drawer when a nav item is clicked
-        >
-          Medical Equipment
-        </NavLink>
-      </li>
-      
-      <li className="p-2 nav-item" rel="canonical" onClick={gotoBtn}>
-        <NavLink
-          rel="canonical"
-          className={({ isActive }) => (isActive ? `${active}` : `${normal}`)}
-          to="/payment"
-          onClick={toggleDrawer} // Close drawer when a nav item is clicked
-        >
-          Payment
-        </NavLink>
-      </li>
+  const active = "text-white font-semibold border-b-2 border-white pb-0.5";
+  const normal = "text-gray-200 font-bold hover:text-white transition-all duration-200";
 
-      <li
-        className="dropdown dropdown-hover hover:border-none bg-[#453364]"
+  const NavItemLink = ({ to, label }) => (
+    <li className="nav-item" onClick={gotoBtn}>
+      <NavLink
+        className={({ isActive }) => (isActive ? active : normal)}
+        to={to}
+        onClick={closeAll}
       >
-        <div className="flex items-center">
-          <label tabIndex={0} className="m-1 text-white bg-[#453364]">
-            More
-          </label>
-          <svg
-            className="w-4 h-4 text-white fill-current"
-            xmlns="http://www.w3.org/2000/svg"
-            viewBox="0 0 20 20"
-          >
-            <path d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z" />
-          </svg>
-        </div>
-        <ul
-          tabIndex={0}
-          className="w-24 p-2 shadow dropdown-content menu rounded-box lg:w-52 bg-[#453364]"
-        >
-             <li className="p-2 nav-item" rel="canonical" onClick={gotoBtn}>
-            <NavLink
-              rel="canonical"
-              className={({ isActive }) => (isActive ? `${active}` : `${normal}`)}
-              to="/service-protocol"
-              onClick={toggleDrawer} // Close drawer when a nav item is clicked
-            >
-            Our Service Protocol
-            </NavLink>
-          </li>
-
-          <li className="p-2 nav-item" rel="canonical" onClick={gotoBtn}>
-            <NavLink
-              rel="canonical"
-              className={({ isActive }) => (isActive ? `${active}` : `${normal}`)}
-              to="/blog"
-              onClick={toggleDrawer} // Close drawer when a nav item is clicked
-            >
-              Blog
-            </NavLink>
-          </li>
-          <li className="p-2 nav-item" rel="canonical" onClick={gotoBtn}>
-            <NavLink
-              rel="canonical"
-              className={({ isActive }) => (isActive ? `${active}` : `${normal}`)}
-              to="/about"
-              onClick={toggleDrawer} // Close drawer when a nav item is clicked
-            >
-              About
-            </NavLink>
-          </li>
-          <li className="p-2 nav-item" rel="canonical" onClick={gotoBtn}>
-            <NavLink
-              rel="canonical"
-              className={({ isActive }) => (isActive ? `${active}` : `${normal}`)}
-              to="/contact"
-              onClick={toggleDrawer} // Close drawer when a nav item is clicked
-            >
-              Contact
-            </NavLink>
-          </li>
-        </ul>
-      </li>
-    </>
+        {label}
+      </NavLink>
+    </li>
   );
 
   return (
-    <div className="sticky top-0 z-50 header blog">
+    <div className="sticky top-0 z-50 w-full shadow-md header-main">
       <Nav />
 
-      <div
-        className="flex items-center justify-between gap-56 px-4 md:pl-10 lg:px-14 header lg:gap-28 bg-[#453364]"
-      >
-        <div className="navbar header">
-          <div className="flex lg:hidden">
-            <button onClick={toggleDrawer} className="text-white btn btn-ghost">
-              {isOpen ? <IoClose className="w-6 h-6" /> : <FiMenu className="w-6 h-6" />}
-            </button>
-            <div
-              className={`fixed top-0 left-0 w-64 h-full bg-gray-00 text-white transform transition-transform z-50 nav-drawer ${
-                isOpen ? "translate-x-0" : "-translate-x-full"
-              }`}
-              style={{ transitionDuration: "300ms" }}
-            >
-              <button onClick={toggleDrawer} className="absolute top-4 right-4 bg-rose-700">
-                <IoClose className="w-6 h-6" />
-              </button>
-              <ul className="p-4 mt-12 bg-[#453364]">{navItem}</ul>
-            </div>
-          </div>
-
-          <div className="hidden navbar-start lg:flex">
-            <ul className="flex items-center p-0 menu-horizontal">{navItem}</ul>
-          </div>
+      <nav className="navbar-container">
+        
+        {/* 1. LEFT SIDE: MOBILE HAMBURGER */}
+        <div className="lg:hidden flex-1 justify-start">
+          <button onClick={toggleDrawer} className="p-2 text-white rounded-md hover:bg-white/10" aria-label="Toggle Menu">
+            {isOpen ? <IoClose className="w-7 h-7" /> : <FiMenu className="w-7 h-7" />}
+          </button>
         </div>
 
-        <div className="navbar-end">
+        {/* 2. CENTERED AREA: LOGO & DESKTOP NAVIGATION */}
+        <div className="hidden lg:flex items-center justify-center flex-1">
+          <ul className="desktop-menu-list">
+            
+            <NavItemLink to="/home" label="Home" />
+
+            {/* SERVICES CLICKABLE DROPDOWN */}
+            <li className="nav-dropdown-wrapper" ref={servicesRef}>
+              <button 
+                onClick={() => toggleDropdown("services")} 
+                className={`dropdown-trigger ${activeDropdown === "services" ? "text-white" : ""}`}
+              >
+                <span>Our Services</span>
+                <svg className={`w-4 h-4 fill-current transition-transform duration-300 ${activeDropdown === "services" ? "rotate-180" : ""}`} xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
+                  <path d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z" />
+                </svg>
+              </button>
+              <ul className={`custom-dropdown-menu ${activeDropdown === "services" ? "show" : ""}`}>
+                <NavItemLink to="/nursing" label="Nursing" />
+                <NavItemLink to="/physiotherapy" label="Physiotherapy" />
+                <NavItemLink to="/medical-assistant" label="Medical Assistant" />
+                <NavItemLink to="/medical-caregiver" label="Medical Caregiver" />
+                <NavItemLink to="/caregiver" label="Caregiver" />
+                <NavItemLink to="/nanycare" label="Nanycare" />
+                <NavItemLink to="/companion" label="Companion" />
+                <NavItemLink to="/medical-equipment" label="Medical Equipment" />
+              </ul>
+            </li>
+
+            <NavItemLink to="/payment" label="Payment" />
+            <NavItemLink to="/service-protocol" label="Our Service Protocol" />
+            <NavItemLink to="/blog" label="Blog" />
+            <NavItemLink to="/about" label="About" />
+            <NavItemLink to="/contact" label="Contact" />
+
+          </ul>
+        </div>
+
+        {/* 3. RIGHT SIDE: WHATSAPP CTA CALL UP */}
+        <div className="flex flex-1 lg:flex-initial justify-end">
           <a
-            className="bg-green-500 rounded-full btn btn-sm animate-pulse"
+            className="flex items-center justify-between gap-2 px-4 py-2 bg-green-500 hover:bg-green-600 text-white font-bold rounded-full text-xs shadow transition-all transform hover:scale-105 animate-pulse whitespace-nowrap"
             href="https://wa.me/+8801619848555"
+            target="_blank"
+            rel="noopener noreferrer"
             title="WHATSAPP CHAT"
           >
-            <BsWhatsapp />
+            <BsWhatsapp className="w-4 h-4" />
+            <span className="hidden sm:inline">WhatsApp</span>
           </a>
         </div>
-      </div>
+
+        {/* MOBILE BACKDROP OVERLAY */}
+        {isOpen && <div className="drawer-overlay" onClick={closeAll} />}
+
+        {/* MOBILE SLIDE DRAWER MENU */}
+        <div className={`nav-drawer ${isOpen ? "open" : "closed"}`}>
+          <div className="flex justify-end p-4">
+            <button onClick={closeAll} className="p-1 bg-rose-700 text-white rounded-md" aria-label="Close Menu">
+              <IoClose className="w-6 h-6" />
+            </button>
+          </div>
+          
+          <ul className="flex flex-col gap-1 p-4 list-none m-0">
+            <NavItemLink to="/home" label="Home" />
+            
+            {/* SERVICES INDIVIDUAL SEPARATION GROUP */}
+            <li className="text-gray-400 text-xs font-bold uppercase tracking-wider mt-4 px-2 mb-1 border-b border-white/10 pb-1">Our Services</li>
+            <NavItemLink to="/nursing" label="Nursing" />
+            <NavItemLink to="/physiotherapy" label="Physiotherapy" />
+            <NavItemLink to="/medical-assistant" label="Medical Assistant" />
+            <NavItemLink to="/medical-caregiver" label="Medical Caregiver" />
+            <NavItemLink to="/caregiver" label="Caregiver" />
+            <NavItemLink to="/nanycare" label="Nanycare" />
+            <NavItemLink to="/companion" label="Companion" />
+            <NavItemLink to="/medical-equipment" label="Medical Equipment" />
+
+            {/* CORE INDIVIDUAL LINK SEPARATIONS */}
+            <li className="text-gray-400 text-xs font-bold uppercase tracking-wider mt-4 px-2 mb-1 border-b border-white/10 pb-1">More Links</li>
+            <NavItemLink to="/payment" label="Payment" />
+            <NavItemLink to="/service-protocol" label="Our Service Protocol" />
+            <NavItemLink to="/blog" label="Blog" />
+            <NavItemLink to="/about" label="About" />
+            <NavItemLink to="/contact" label="Contact" />
+          </ul>
+        </div>
+
+      </nav>
     </div>
   );
 };

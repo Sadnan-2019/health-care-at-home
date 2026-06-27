@@ -1,20 +1,138 @@
-.dropdown:hover .dropdown-menu {
-     display: block;
-   }
-
-  .header{
-
-    -webkit-transition: all 0.5s;
-    transition: all 0.5s;
-  }
-
-  /* Add this to make the navbar scrollable */
-.nav-drawer {
-  max-height: 100vh; /* Set maximum height */
-  overflow-y: auto;  /* Enable vertical scrolling */
+.header-main {
+  width: 100%;
 }
 
-/* Ensure nav items are displayed in a single line */
+.navbar-container {
+  display: flex;
+  align-items: center;
+  background-color: #453364;
+  position: relative;
+  padding: 0.75rem 1rem;
+}
+
+@media (min-width: 1024px) {
+  .navbar-container {
+    padding: 0.75rem 3.5rem;
+  }
+}
+
+/* Perfect Center-Alignment Desktop Framework */
+.desktop-menu-list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1.5rem;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
 .nav-item a {
-  white-space: nowrap;  /* Prevent text wrapping */
+  display: block;
+  padding: 0.5rem;
+  white-space: nowrap;
+  text-decoration: none;
+}
+
+/* Clickable Dropdown Styling Rules */
+.nav-dropdown-wrapper {
+  position: relative;
+}
+
+.dropdown-trigger {
+  background: none;
+  border: none;
+  display: flex;
+  align-items: center;
+  gap: 0.25rem;
+  padding: 0.5rem;
+  color: #e5e7eb;
+  font-weight: 700;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: color 0.2s ease;
+}
+
+.dropdown-trigger:hover {
+  color: #ffffff;
+}
+
+.custom-dropdown-menu {
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  transform: translateX(-50%) translateY(15px); /* Centers the dropdown block under the button */
+  background-color: #453364;
+  min-width: 240px;
+  padding: 0.5rem 0;
+  margin: 0;
+  list-style: none;
+  border-radius: 0.5rem;
+  box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.4), 0 8px 10px -6px rgba(0, 0, 0, 0.4);
+  border: 1px solid rgba(255, 255, 255, 0.05);
+  
+  /* Initial hidden state */
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.2s cubic-bezier(0.4, 0, 0.2, 1), 
+              transform 0.2s cubic-bezier(0.4, 0, 0.2, 1), 
+              visibility 0.2s;
+  z-index: 100;
+}
+
+/* Activated Clickable Class Window */
+.custom-dropdown-menu.show {
+  opacity: 1;
+  visibility: visible;
+  transform: translateX(-50%) translateY(4px);
+}
+
+.custom-dropdown-menu .nav-item a {
+  padding: 0.65rem 1.2rem;
+  font-weight: 500;
+  border: none !important;
+}
+
+.custom-dropdown-menu .nav-item a:hover {
+  background-color: rgba(255, 255, 255, 0.08);
+  color: #ffffff;
+  padding-left: 1.5rem;
+  transition: padding-left 0.2s ease, background-color 0.2s ease;
+}
+
+/* Mobile Sidebar & Architecture Rules */
+.drawer-overlay {
+  position: fixed;
+  inset: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  backdrop-filter: blur(4px);
+  z-index: 40;
+}
+
+.nav-drawer {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 290px;
+  height: 100vh;
+  background-color: #453364;
+  z-index: 50;
+  box-shadow: 4px 0 30px rgba(0, 0, 0, 0.5);
+  overflow-y: auto;
+  transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.nav-drawer.open {
+  transform: translateX(0);
+}
+
+.nav-drawer.closed {
+  transform: translateX(-100%);
+}
+
+@media (max-width: 1023px) {
+  .nav-drawer .nav-item a {
+    padding: 0.65rem 0.75rem;
+    font-size: 0.95rem;
+  }
 }
