@@ -14,30 +14,48 @@ import YoutubeVideo from "../Blog/YoutubeVideo";
 import { Helmet } from "react-helmet-async";
 
 const Home = () => {
-  const schemaData = {
-    "@context": "https://hcah.mrg.com.bd",
-    "@type": "LocalBusiness",
-    name: "HealthCare At Home Bangladesh",
-    url: "https://hcah.mrg.com.bd",
-    logo: "https://hcah.mrg.com.bd/HCAHBD.png",
-    description:
-      "We provide top-quality caregiver nurse physiotherapy medical caregiver medical assistant  home healthcare services in Dhaka, Bangladesh.",
-    address: {
-      "@type": "PostalAddress",
-      streetAddress: "Niloy 11 Road 108 Gulshan 2",
-      addressLocality: "Dhaka",
-      addressRegion: "Dhaka",
-      postalCode: "1212",
-      addressCountry: "BD",
-    },
-    telephone: "+8801619848555",
-    openingHours: "Mo-Fr 09:00-18:00",
-    sameAs: [
-      "https://www.facebook.com/hcahbd",
-      "https://www.linkedin.com/company/healthcare-at-home-bangladesh/",
-    ],
-  };
+   
 
+const schemaData = {
+  "@context": "https://schema.org",
+  "@type": "HomeAndCommunityCare",
+  "@id": "https://www.hcah.mrg.com.bd/#organization",
+
+  name: "HealthCare at Home Bangladesh",
+
+  url: "https://www.hcah.mrg.com.bd",
+
+  logo: "https://www.hcah.mrg.com.bd/HCAHBD.png",
+
+  image: "https://www.hcah.mrg.com.bd/HCAHBD.png",
+
+  telephone: "+8801619848555",
+
+  priceRange: "$$",
+
+  description:
+    "Professional home nursing, physiotherapy, caregiver, elderly care and medical assistant services in Dhaka and Bangladesh.",
+
+  address: {
+    "@type": "PostalAddress",
+    streetAddress: "Niloy 11, Road 108, Gulshan 2",
+    addressLocality: "Dhaka",
+    addressRegion: "Dhaka",
+    postalCode: "1212",
+    addressCountry: "BD",
+  },
+
+  areaServed: {
+    "@type": "Country",
+    name: "Bangladesh",
+  },
+
+  sameAs: [
+    "https://www.facebook.com/hcahbd"
+  ]
+};
+
+   
   return (
     <div className="blog">
       <Helmet>
@@ -84,7 +102,7 @@ const Home = () => {
       <Team></Team>
       <YoutubeVideo></YoutubeVideo>
       <About></About>
-      {/* <Faq></Faq> */}
+      <Faq></Faq>
       <Contact></Contact>
       {/* <Map></Map> */}
     </div>

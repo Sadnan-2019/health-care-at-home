@@ -28,6 +28,7 @@ import { Helmet, HelmetProvider } from "react-helmet-async";
 import { lazy, Suspense } from "react";
 import load from "./assets/HCAHBD.png";
 import Protocol from "./components/Protocol/Protocol";
+import HealthcareChatbot from "./components/HealthcareChatbot/HealthcareChatbot";
 // import New from './components/Nav/New';
  
 function App() {
@@ -172,6 +173,7 @@ function App() {
 
       {/* <Home></Home> */}
       <Footer></Footer>
+      <HealthcareChatbot></HealthcareChatbot>
       <CookieConsent></CookieConsent>
 
       <ToastContainer></ToastContainer>
