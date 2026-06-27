@@ -4,7 +4,7 @@ import "./HealthcareChatbot.css";
 
 // 2. Initialize Groq (Ensure you have REACT_APP_GROQ_API_KEY or VITE_GROQ_API_KEY in your frontend env)
 const groq = new Groq({
-  apiKey: "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",
+  apiKey: process.env.REACT_APP_GROQ_API_KEY || "",
   dangerouslyAllowBrowser: true, // Required to run Groq directly in the browser
 });
 
