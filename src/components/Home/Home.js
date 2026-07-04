@@ -12,8 +12,9 @@ import Success from "../Success/Success";
 import Team from "../Team/Team";
 import YoutubeVideo from "../Blog/YoutubeVideo";
 import { Helmet } from "react-helmet-async";
+import serviceListSchema from "../../../src/schema/serviceListSchema";
 
-const Home = () => {
+   const Home = () => {
    
 
 const schemaData = {
@@ -59,40 +60,115 @@ const schemaData = {
   return (
     <div className="blog">
       <Helmet>
-        <title> HealthCare at Home Bangladesh</title>
-        <meta
-          name="description"
-          content="Get top-quality professionals  healthcare services at home. Book professional doctors & caregivers online."
-        />
-        <meta
-          name="keywords"
-          content="healthcare,home care,home nursing care,top caregiver dhaka,physiotheray dhaka, home doctors, medical caregiver"
-        />
-        <meta name="robots" content="index, follow" />
-        {/* <meta property="og:title" content="Healthcare at Home" /> */}
-        <meta property="og:title" content=" Best Health care at Home" />
-        <meta
-          property="og:title"
-          content="Best Healthcare at Home | HealthCare at Home Bangladesh"
-        />
-        <meta
-          property="og:description"
-          content="Get top-quality healthcare services at home."
-        />
-        <meta
-          property="og:image"
-          content="https://hcah.mrg.com.bd/static/media/service-caregive.f73bb16bcec38cd23239.jpg"
-        />
-        <meta property="og:url" content="https://hcah.mrg.com.bd" />
-        <meta property="og:type" content="Caregiver Nurse Physiotherapy Nannycare Home care Dhaka " />.
-        <link rel="canonical" href="https://hcah.mrg.com.bd" />
-        {/* ✅ Use dangerouslySetInnerHTML to insert JSON correctly */}
-        <script
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
-        />
-        {/* Schema Markup for Business Details */}
-      </Helmet>
+
+  {/* Primary SEO */}
+
+  <title>
+    Home Healthcare Services in Bangladesh | Nursing, Caregiver & Physiotherapy | HealthCare at Home
+  </title>
+
+  <meta
+    name="description"
+    content="HealthCare at Home Bangladesh provides professional home nursing, caregiver, physiotherapy, elderly care, medical assistant, ICU setup, medical equipment rental, emergency ambulance, and home healthcare services across Bangladesh."
+  />
+
+  <meta
+    name="keywords"
+    content="Home Healthcare Bangladesh, Home Nursing Service, Caregiver Service, Physiotherapy at Home, Elderly Care Bangladesh, Patient Attendant, Medical Assistant, ICU Setup at Home, Medical Equipment Rental, Emergency Ambulance"
+  />
+
+  <meta name="robots" content="index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1" />
+
+  <link
+    rel="canonical"
+    href="https://hcah.mrg.com.bd/"
+  />
+
+
+
+  {/* Open Graph */}
+
+  <meta
+    property="og:type"
+    content="website"
+  />
+
+  <meta
+    property="og:locale"
+    content="en_US"
+  />
+
+  <meta
+    property="og:site_name"
+    content="HealthCare at Home Bangladesh"
+  />
+
+  <meta
+    property="og:title"
+    content="Home Healthcare Services in Bangladesh | HealthCare at Home"
+  />
+
+  <meta
+    property="og:description"
+    content="Professional home nursing, caregiver, physiotherapy, elderly care, ICU setup, medical equipment rental and ambulance services in Bangladesh."
+  />
+
+  <meta
+    property="og:url"
+    content="https://hcah.mrg.com.bd/"
+  />
+
+  <meta
+    property="og:image"
+    content="https://hcah.mrg.com.bd/HCAHBD.png"
+  />
+
+
+
+  {/* Twitter */}
+
+  <meta
+    name="twitter:card"
+    content="summary_large_image"
+  />
+
+  <meta
+    name="twitter:title"
+    content="Home Healthcare Services in Bangladesh"
+  />
+
+  <meta
+    name="twitter:description"
+    content="Professional home nursing, caregiver, physiotherapy and elderly care services throughout Bangladesh."
+  />
+
+  <meta
+    name="twitter:image"
+    content="https://hcah.mrg.com.bd/HCAHBD.png"
+  />
+
+
+
+  {/* Schema */}
+
+  <script
+    type="application/ld+json"
+    dangerouslySetInnerHTML={{
+      __html: JSON.stringify(schemaData),
+    }}
+  />
+
+  <script
+    type="application/ld+json"
+    dangerouslySetInnerHTML={{
+      __html: JSON.stringify(serviceListSchema),
+    }}
+  />
+
+   
+   
+
+</Helmet>
       <Landing></Landing>
       <Service></Service>
       <Review></Review>

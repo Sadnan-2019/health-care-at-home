@@ -12,7 +12,298 @@ import attendant from "../../assets/attendent.webp";
 import equipment from "../../assets/service-medical-equipment.webp";
 import "../../../src/components/Blog/Blog.css";
 import "./Service.css";
+import { Link } from "react-router-dom";
 const Service = () => {
+
+ const servicesData = [
+  {
+    id: "service-home-nursing",
+    slug: "/services/home-nursing",
+    title: "Home Nursing",
+    image: nurseservice,
+    altText:
+      "Professional Home Nursing Service for Elderly and Patients in Bangladesh",
+    description:
+      "Our registered nurses provide professional home nursing services for elderly individuals, post-operative recovery, stroke rehabilitation, chronic illness management, and critical care patients. We deliver compassionate nursing care at home with medication administration, wound dressing, catheter care, NG tube support, oxygen therapy, and continuous patient monitoring.",
+    details: [
+      "24/7 Home Nursing Care",
+      "Medication Administration",
+      "IV Cannula Insertion",
+      "NG Tube Insertion & Care",
+      "Urinary Catheter Care",
+      "Wound Dressing",
+      "Injection Administration",
+      "Oxygen Therapy Support",
+      "Vital Signs Monitoring",
+      "Blood Pressure & Blood Glucose Monitoring",
+      "Post-Surgical Nursing Care",
+      "Stroke & Elderly Patient Care",
+      "Health Record Maintenance"
+    ]
+  },
+
+  {
+    id: "service-home-physiotherapy",
+    slug: "/services/home-physiotherapy",
+    title: "Home Physiotherapy",
+    image: physio,
+    altText:
+      "Professional Home Physiotherapy Service in Bangladesh",
+    description:
+      "Our experienced physiotherapists provide personalized home physiotherapy services for stroke recovery, orthopedic conditions, neurological rehabilitation, sports injuries, post-operative care, arthritis, back pain, neck pain, and elderly mobility support using evidence-based treatment techniques.",
+    details: [
+      "Stroke Rehabilitation",
+      "Neurological Physiotherapy",
+      "Orthopedic Physiotherapy",
+      "Post-Surgery Rehabilitation",
+      "Sports Injury Rehabilitation",
+      "Back & Neck Pain Treatment",
+      "Chest Physiotherapy",
+      "Pediatric Physiotherapy",
+      "Geriatric Physiotherapy",
+      "Musculoskeletal Rehabilitation",
+      "Exercise Therapy",
+      "Home Mobility Training"
+    ]
+  },
+
+  {
+    id: "service-medical-assistant",
+    slug: "/services/medical-assistant",
+    title: "Medical Assistant",
+    image: servicemedicalassistant,
+    altText:
+      "Professional Medical Assistant Service at Home",
+    description:
+      "Our qualified medical assistants provide professional patient support at home for elderly individuals, post-operative recovery, and long-term care. They assist with medication reminders, injections, catheter care, NG tube support, mobility assistance, hygiene maintenance, and routine health monitoring.",
+    details: [
+      "Patient Assistance",
+      "Medication Reminder",
+      "Injection Support",
+      "Catheter Care",
+      "NG Tube Assistance",
+      "Patient Transfer Assistance",
+      "Bed Positioning",
+      "Vital Signs Monitoring",
+      "Personal Hygiene Support",
+      "Health Record Maintenance",
+      "Elderly Care Assistance",
+      "Daily Patient Support"
+    ]
+  },
+
+  {
+    id: "service-medical-caregiver",
+    slug: "/services/medical-caregiver",
+    title: "Medical Caregiver",
+    image: medicalcaregiver,
+    altText:
+      "Professional Medical Caregiver Service for Home Patients",
+    description:
+      "Our trained medical caregivers provide compassionate home care for elderly individuals, disabled patients, stroke survivors, dementia patients, and those recovering after surgery. They assist with daily living activities, medication reminders, feeding support, hygiene care, mobility assistance, and emotional companionship.",
+    details: [
+      "24/7 Patient Care",
+      "Medication Reminder",
+      "Personal Hygiene Assistance",
+      "Patient Feeding",
+      "Diaper Changing",
+      "NG Tube Feeding Support",
+      "Mobility Assistance",
+      "Patient Walking Support",
+      "Daily Health Observation",
+      "Companionship",
+      "Bedside Assistance",
+      "Elderly & Stroke Care"
+    ]
+  },
+
+  {
+  id: "service-caregiver",
+  slug: "/services/caregiver",
+  title: "Home Caregiver",
+  image: caregiver,
+  altText:
+    "Professional Home Caregiver Service for Elderly and Patients in Bangladesh",
+  description:
+    "Our trained caregivers provide compassionate home care services for elderly individuals, disabled adults, dementia patients, and people recovering from illness or surgery. They assist with personal hygiene, bathing, grooming, feeding, mobility support, medication reminders, companionship, and daily living activities to help patients remain comfortable and independent at home.",
+  details: [
+    "24/7 Caregiver Support",
+    "Personal Hygiene Assistance",
+    "Bathing & Grooming",
+    "Patient Feeding",
+    "Medication Reminder",
+    "Diaper Changing",
+    "Walking & Mobility Assistance",
+    "Companionship",
+    "Doctor Appointment Assistance",
+    "Light Housekeeping",
+    "Transportation Assistance",
+    "Daily Living Support"
+  ]
+},
+
+{
+  id: "service-nanny-care",
+  slug: "/services/nanny-care",
+  title: "Nanny Care",
+  image: nanines,
+  altText:
+    "Professional Baby Care and Nanny Service at Home in Bangladesh",
+  description:
+    "Our experienced nannies provide safe and reliable baby care services for newborns, infants, toddlers, and young children. They assist with feeding, bathing, diaper changing, sleep routines, hygiene, playtime, and child supervision while creating a caring and nurturing environment for your little one.",
+  details: [
+    "Newborn Baby Care",
+    "Infant Care",
+    "Toddler Care",
+    "Bottle Feeding",
+    "Baby Bathing",
+    "Diaper Changing",
+    "Sleep Routine Assistance",
+    "Baby Hygiene",
+    "Play & Learning Activities",
+    "Child Supervision",
+    "Safe Baby Handling",
+    "Mother Support"
+  ]
+},
+
+{
+  id: "service-companionship",
+  slug: "/services/companionship",
+  title: "Senior Companionship",
+  image: companionship,
+  altText:
+    "Senior Companion Care Service at Home in Bangladesh",
+  description:
+    "Our companionship service helps elderly individuals and patients stay socially active, emotionally supported, and mentally engaged at home. Our compassionate companions provide conversation, walking assistance, reading, meal companionship, recreational activities, and emotional support to improve overall well-being and reduce loneliness.",
+  details: [
+    "Elderly Companionship",
+    "Conversation & Emotional Support",
+    "Walking Assistance",
+    "Reading & Recreation",
+    "Meal Companionship",
+    "Social Engagement",
+    "Light Household Assistance",
+    "Medication Reminder",
+    "Daily Routine Support",
+    "Hospital Visit Companion",
+    "Family Relief Care",
+    "Friendly Home Visits"
+  ]
+},
+
+{
+  id: "service-attendant",
+  slug: "/services/patient-attendant",
+  title: "Patient Attendant",
+  image: attendant,
+  altText:
+    "Professional Patient Attendant Service at Home",
+  description:
+    "Our patient attendants provide dependable bedside support for elderly individuals, hospitalized patients at home, and people recovering from surgery or illness. They assist with mobility, personal care, feeding, hygiene, repositioning, and daily routine activities under family guidance.",
+  details: [
+    "Bedside Patient Support",
+    "Patient Mobility Assistance",
+    "Feeding Assistance",
+    "Personal Hygiene",
+    "Bed Positioning",
+    "Wheelchair Assistance",
+    "Toilet Assistance",
+    "Daily Patient Observation",
+    "Hospital Discharge Support",
+    "Companion Assistance",
+    "Elderly Patient Care",
+    "Home Recovery Support"
+  ]
+},
+
+{
+  id: "service-medical-equipment",
+  slug: "/services/medical-equipment",
+  title: "Medical Equipment Rental",
+  image: equipment,
+  altText:
+    "Medical Equipment Rental and Home Medical Devices in Bangladesh",
+  description:
+    "We supply high-quality medical equipment for home patient care, post-operative recovery, ICU setup, and long-term treatment. Our medical equipment rental service includes hospital beds, oxygen concentrators, BiPAP machines, wheelchairs, suction machines, nebulizers, patient monitors, and other essential healthcare devices.",
+  details: [
+    "Hospital Bed Rental",
+    "Oxygen Concentrator",
+    "Oxygen Cylinder",
+    "BiPAP Machine",
+    "CPAP Machine",
+    "Patient Monitor",
+    "Wheelchair",
+    "Nebulizer",
+    "Suction Machine",
+    "Pulse Oximeter",
+    "Glucometer",
+    "Medical Equipment Delivery"
+  ]
+},
+
+{
+  id: "service-emergency-ambulance",
+  slug: "/services/emergency-ambulance",
+  title: "Emergency Ambulance",
+  image: ambulanceservice,
+  altText:
+    "24/7 Emergency Ambulance Service in Bangladesh",
+  description:
+    "Our emergency ambulance service operates 24/7 for patient transfers, emergency response, hospital admissions, ICU transfers, and intercity medical transportation. We provide AC ambulances, non-AC ambulances, ICU ambulances, CCU ambulances, ventilator ambulances, and trained medical support whenever required.",
+  details: [
+    "24/7 Ambulance Service",
+    "ICU Ambulance",
+    "CCU Ambulance",
+    "Ventilator Ambulance",
+    "AC Ambulance",
+    "Non-AC Ambulance",
+    "Hospital Transfer",
+    "Emergency Patient Transport",
+    "Intercity Ambulance",
+    "Doctor & Nurse Support",
+    "Medical Oxygen Support",
+    "Critical Care Transport"
+  ]
+},
+
+{
+  id: "service-icu-home-setup",
+  slug: "/services/home-icu-setup",
+  title: "ICU & Critical Care Setup",
+  image: icuservice,
+  altText:
+    "Home ICU Setup and Critical Care Service in Bangladesh",
+  description:
+    "We provide complete ICU and critical care setup at home for patients requiring advanced medical support after hospitalization or during long-term recovery. Our service includes ICU-trained nurses, ventilator support, oxygen therapy, patient monitors, suction machines, hospital beds, BiPAP machines, and professional home critical care management.",
+  details: [
+    "Complete Home ICU Setup",
+    "ICU-Trained Nurses",
+    "Ventilator Support",
+    "BiPAP & CPAP Support",
+    "Patient Monitor Setup",
+    "Hospital Bed Installation",
+    "Oxygen Therapy",
+    "Suction Machine",
+    "Critical Care Monitoring",
+    "Post ICU Recovery",
+    "Long-Term Critical Care",
+    "24/7 ICU Home Support"
+  ]
+}
+
+];
+
+
+
+
+
+
+
+
+
+
+
   return (
     <section className="blog">
       <div className="py-8 mx-8 md:mx-16 lg:mx-24 ">
@@ -29,700 +320,102 @@ const Service = () => {
           ></h2>
         </div>
 
-        <div className="grid grid-cols-1 gap-8 py-5 mt-8 md:grid-cols-2 lg:grid-cols-3">
-          <div
-            className="block p-8 transition bg-white shadow-md cursor-pointer rounded-xl hover:shadow-lg"
-            data-aos="fade-up"
-            data-aos-duration="1000"
-          >
-            <img title="Nursing Home Care" className="rounded-lg w-96 h-52 " src={nurseservice} alt="Nursing Home Care" loading="lazy" />
-
-            <h3 className="mt-3 mb-2 text-xl font-bold text-left ">Nursing</h3>
-
-            <p className="mt-1 text-sm text-left text-gray-800 poppins-t lg:text-justify">
-              HealthCare at home offers most comprehensive and hollistic nursing
-              care at home. They provide physical & psychological support to the
-              patients.Our nurses administer oral & parenteral medication.All
-              time they are analysis heartbeat, BP, Temperature, Oxygen
-              saturation, & blood glucose.
-            </p>
-
-            <div>
-              <label
-                htmlFor="my-modal-6"
-                className="btn btn-sm modal-button mt-3 text-white  bg-[#453364] "
-                
-              >
-                 service details
-              </label>
-            </div>
-          </div>
-
-          <input type="checkbox" id="my-modal-6" className="modal-toggle" />
-          <div className="modal modal-bottom sm:modal-middle">
-            <div className="modal-box ">
-              <h1 className="py-5 text-2xl font-bold text-center">
-                Home Nursing Details
-              </h1>
-              <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 ">
-                <div className="text-sm font-bold">
-                  <li>Total Nursing Care</li>
-                  <li>IV Cannula insertion</li>
-                  <li>NG-tube insertion</li>
-                  <li>Catheterization</li>
-                  <li>Dressing wounds</li>
-                  <li>Oxygen support</li>
-                  <li>Maintain health records</li>
-                </div>
-                <div>
-                  <img title="Nursing Home Care"  src={nurseservice} alt="Nursing Home Care" loading="lazy" />
-                </div>
-              </div>
-              <div className="modal-action">
-                <label
-                  htmlFor="my-modal-6"
-                  className="btn text-white bg-[#453364] "
-     
-                >
-                  close!
-                </label>
-              </div>
-            </div>
-          </div>
-
-          <div 
-            className="block p-8 transition bg-white shadow-md cursor-pointer rounded-xl hover:shadow-lg"
-            data-aos="fade-up"
-            data-aos-duration="1000"
-          >
-            <img title="Physiotherapy Service  at home"  className="rounded-lg w-96 h-52 " alt="Physiotherapy Service  at home"  src={physio}   loading="lazy" 
-             />
-
-            <h3 className="mt-3 mb-2 text-xl font-bold text-left ">
-              Physiotherapy
-            </h3>
-
-            <p className="mt-1 text-sm text-left text-gray-800 poppins-t lg:text-justify">
-              HealthCare at home has got a good number of diploma and B.Sc
-              physiotherapists. They are experienced & specially trained.Most of
-              them carry instruments such as IRR, TENS, Ultrasound. They are
-              qualified to take care of patients of all ages.They can address
-              Musculoskeletal, Neurological, Post-operative, Stroke patients'
-              condition.
-            </p>
-
-            <div>
-              <label
-                htmlFor="my-modal-5"
-                className="btn btn-sm modal-button mt-3 text-white  bg-[#453364]  "
-             
-              >
-                service details
-              </label>
-            </div>
-          </div>
-
-          <input type="checkbox" id="my-modal-5" className="modal-toggle" />
-          <div className="modal modal-bottom sm:modal-middle">
-            <div className="modal-box ">
-              <h1 className="py-5 text-2xl font-bold text-center">
-                Physiotherapy Details
-              </h1>
-              <div className="grid grid-cols-1 gap-3 mx-auto md:grid-cols-2 lg:grid-cols-2 ">
-                <div className="text-sm font-bold">
-                  <li>Musculoskeletal Physiotherapy </li>
-                  <li>Neurological Physiotherapy</li>
-                  <li>Geriatric Physiotherapy</li>
-                  <li>Post Operative Physiotherapy</li>
-                  <li>Pediatric Physiotherapy</li>
-                  <li>Stroke Physiotherapy</li>
-                  <li>Chest Physiotherapy</li>
-                  <li>Gynecological Physiotherapy</li>
-                  <li>Sports Physiotherapy</li>
-                  <li>All kinds of Musculoskeletal Rehabilitation</li>
-                </div>
-                <div className="">
-                  <img title="Physiotherapy Service  at home" src={physio} alt="Physiotherapy Service  at home"  loading="lazy"  />
-                </div>
-              </div>
-              <div className="modal-action">
-                <label
-                  htmlFor="my-modal-5"
-                  className="btn text-white bg-[#453364] "
-              
-                >
-                  close!
-                </label>
-              </div>
-            </div>
-          </div>
-
-          <div
-            className="block p-8 transition bg-white shadow-md cursor-pointer rounded-xl hover:shadow-lg"
-            data-aos="fade-up"
-            data-aos-duration="1000"
-          >
-            <img
-              className="rounded-lg w-96 h-52"
-              src={servicemedicalassistant}
-              alt=" Medical Assistant  Care at Your Home " 
-              loading="lazy" 
-              title="Medical Assistant  Care at Your Home "
-            />
-
-            <h3 className="mt-3 mb-2 text-xl font-bold text-left ">
-              Medical Assistant
-            </h3>
-
-            <p className="mt-1 text-sm text-left text-gray-800 lg:text-justify">
-              Medical assistants are qualified diploma holders. They also do
-              nursing-care at home. Apart from grooming the patients they give
-              injections, Insert NG-tube, Catheter etc. They regularly check BP,
-              Sugar, Oxygen, Pulse & other vital parameters.They know how to
-              take care of bed-sore .
-            </p>
-
-            <label
-              htmlFor="my-modal-4"
-              className="btn btn-sm modal-button mt-3 text-white bg-[#453364]"
-          
-            >
-              service details
-            </label>
-          </div>
-
-          <input type="checkbox" id="my-modal-4" className="modal-toggle" />
-          <div className="modal modal-bottom sm:modal-middle">
-            <div className="modal-box ">
-              <h1 className="py-5 text-2xl font-bold text-center">
-                Medical Assistant Details
-              </h1>
-              <div className="grid grid-cols-1 gap-3 mx-auto md:grid-cols-2 lg:grid-cols-2 ">
-                <div className="text-sm font-bold">
-                  <li>Turing and repositioning </li>
-                  <li>24/7 Personal Healthcare</li>
-                  <li>Transfer assistance</li>
-                  <li>Medication Reminder</li>
-                  <li>Maintain Health records </li>
-                  <li>Hygiene maintenance</li>
-                </div>
-                <div className="">
-                  <img src={servicemedicalassistant} alt="Medical Assistant  Care at Your Home " title="Medical Assistant  Care at Your Home "  loading="lazy"  />
-                </div>
-              </div>
-              <div className="modal-action">
-                <label
-                  htmlFor="my-modal-4"
-                  className="btn text-white bg-[#453364] "
-               
-                >
-                  close!
-                </label>
-              </div>
-            </div>
-          </div>
-
-          <div
-            className="block p-8 transition bg-white shadow-md cursor-pointer rounded-xl hover:shadow-lg"
-            data-aos="fade-up"
-            data-aos-duration="1000"
-          >
-            <img
-              className="h-56 rounded-lg w-96"
-              src={medicalcaregiver}
-              alt="Medical Caregiver Support at Your Home" 
-              loading="lazy" 
-              title="Medical Caregiver Support at Your Home"
-            />
-
-            <h3 className="mt-3 mb-2 text-xl font-bold text-left ">
-              Medical Caregiver
-            </h3>
-
-            <p className="mt-1 text-sm text-left text-gray-800 lg:text-justify">
-              Our Medical caregiver is one who takes care of patients by
-              feeding, grooming, bathing, giving medication,talking & walking
-              the patient. They also check vital parameters & blood-sugar label
-              etc.
-            </p>
-            <label
-              htmlFor="my-modal-3"
-              className="btn btn-sm modal-button mt-3 text-white bg-[#453364]"
-           
-            >
-              service details
-            </label>
-          </div>
-
-          <input type="checkbox" id="my-modal-3" className="modal-toggle" />
-          <div className="modal modal-bottom sm:modal-middle">
-            <div className="modal-box ">
-              <h1 className="py-5 text-2xl font-bold text-center">
-                Medical Caregiver Details
-              </h1>
-              <div className="grid grid-cols-1 gap-3 mx-auto md:grid-cols-2 lg:grid-cols-2 ">
-                <div className="text-sm font-bold">
-                  <li>24/7 Personal Healthcare</li>
-                  <li>Patients Diapar Change</li>
-                  <li>Medication Reminder</li>
-                  <li>NG Tube Feeding </li>
-                  <li>Hygiene maintenance</li>
-                  <li>Pass good time with patients </li>
-                </div>
-                <div className="">
-                  <img   src={medicalcaregiver} alt="Medical Caregiver Support at Your Home"  title="Medical Caregiver Support at Your Home" loading="lazy" />
-                </div>
-              </div>
-              <div className="modal-action">
-                <label
-                  htmlFor="my-modal-3"
-                  className="btn text-white bg-[#453364]  "
-              
-                >
-                  close!
-                </label>
-              </div>
-            </div>
-          </div>
-
-          <div
-            className="block p-8 transition bg-white shadow-md cursor-pointer rounded-xl hover:shadow-lg"
-            data-aos="fade-up"
-            data-aos-duration="1000"
-          >
-            <img title="Best Quality Experience  Caregiver" className="h-56 rounded-lg w-96" src={caregiver} alt="Top Caregiver Home Service "  loading="lazy"  />
-            
-            <h3 className="mt-3 mb-2 text-xl font-bold text-left ">
-              Caregiver
-            </h3>
-
-            <p className="mt-1 text-sm text-left text-gray-800 lg:text-justify ">
-              Our Caregiver gives medication,feed to the patient,clean the
-              patients, change diaper,light house-keeping.They also walk & talk
-              with the patients. A Caregiver dress & undress the patients.
-            </p>
-
-            <label
-              htmlFor="my-modal-2"
-              className="btn btn-sm modal-button mt-3 text-white bg-[#453364]"
-            
-            >
-              service details
-            </label>
-          </div>
-
-          <input type="checkbox" id="my-modal-2" className="modal-toggle" />
-          <div className="modal modal-bottom sm:modal-middle">
-            <div className="modal-box ">
-              <h1 className="py-5 text-2xl font-bold text-center">
-                Caregiver Details
-              </h1>
-              <div className="grid grid-cols-1 gap-3 mx-auto md:grid-cols-2 lg:grid-cols-2 ">
-                <div className="text-sm font-bold">
-                  <li>
-                    Provide personal services such as bathing and grooming etc
-                  </li>
-                  <li>Patients Diaper Change</li>
-                  <li>Medication Reminder</li>
-                  <li>Accompany patients to their doctor visits</li>
-                  <li>Hygiene maintenance</li>
-                  <li>Light house keeping </li>
-                  <li>Arrange transport </li>
-                </div>
-                <div className="">
-                  <img src={caregiver} title="Best Quality Experience  Caregiver" alt="Top  elder caregiver at your home"  loading="lazy" />
-                </div>
-              </div>
-              <div className="modal-action">
-                <label
-                  htmlFor="my-modal-2"
-                  className="btn text-white  bg-[#453364]"
-                 
-                >
-                  close!
-                </label>
-              </div>
-            </div>
-          </div>
-          <div
-            className="block p-8 transition bg-white shadow-md cursor-pointer rounded-xl hover:shadow-lg"
-            data-aos="fade-up"
-            data-aos-duration="1000"
-          >
-            <img title="nannies to take care of your loving child" className="h-56 rounded-lg w-96" src={nanines} alt="   Baby  care at home or office"  loading="lazy" />
-
-            <h3 className="mt-3 mb-2 text-xl font-bold text-left ">
-              Nannycare
-            </h3>
-
-            <p className="mt-1 text-sm text-left text-gray-800 lg:text-justify">
-              We have experienced nannies to take care of your loving child.
-              They will love & care the way you do it.They feed the baby,clean
-              the baby ,shower the baby they do it all.They are reliable & trust
-              worthy.They sincere & hard working.Your loving child is safe with
-              us.
-            </p>
-
-            <label
-              htmlFor="my-modal-1"
-              className="btn btn-sm modal-button mt-3 text-white bg-[#453364]"
-            
-            >
-              service details
-            </label>
-          </div>
-
-          <input type="checkbox" id="my-modal-1" className="modal-toggle" />
-          <div className="modal modal-bottom sm:modal-middle">
-            <div className="modal-box ">
-              <h1 className="py-5 text-2xl font-bold text-center">Nannycare</h1>
-              <div className="grid grid-cols-1 gap-3 mx-auto md:grid-cols-2 lg:grid-cols-2 ">
-                <div className="text-sm font-bold">
-                  <li>Work like a mother of the baby</li>
-                  <li>Behave nicely with everyone in the house</li>
-                  <li> Feed the baby in a proper way </li>
-                  <li> Burb the baby after feeding </li>
-                  <li>Clean the baby after removing the diaper. </li>
-                  <li>Use baby wipes or wet cotton</li>
-                  <li>Make sure there are no diaper rash</li>
-                  <li>Sometimes leave the baby </li>
-                  <li>Handle the baby softly</li>
-                </div>
-                <div className="">
-                  <img title="nannies to take care of your loving child"  src={nanines} alt="Baby  care at home or office"   loading="lazy" />
-                </div>
-              </div>
-              <div className="modal-action">
-                <label
-                  htmlFor="my-modal-1"
-                  className="btn text-white bg-[#453364]"
-               
-                >
-                  close!
-                </label>
-              </div>
-            </div>
-          </div>
-          <div
-            className="block p-8 transition bg-white shadow-md cursor-pointer rounded-xl hover:shadow-lg"
-            data-aos="fade-up"
-            data-aos-duration="1000"
-          >
-            <img title="Companions are to give support to lonely people at home" className="h-56 rounded-lg w-96" src={companionship} alt="Companions are trained to give company to lonely people at home"  loading="lazy"  />
-
-            <h3 className="mt-3 mb-2 text-xl font-bold text-left ">
-              Companionship
-            </h3>
-
-            <p className="mt-1 text-sm text-left text-gray-800 lg:text-justify">
-              Our companions work with your dear ones with compassion &
-              confidence.They give their time to the patients with empathy &
-              care.They are trained & reliable.They walk the patients outside
-              home,read newspaper to the patients.
-            </p>
-
-            <label
-              htmlFor="my-modal-7"
-              className="btn btn-sm modal-button mt-3 text-white bg-[#453364]"
-           
-            >
-              service details
-            </label>
-          </div>
-
-          <input type="checkbox" id="my-modal-7" className="modal-toggle" />
-          <div className="modal modal-bottom sm:modal-middle">
-            <div className="modal-box ">
-              <h1 className="py-5 text-2xl font-bold text-center">
-                Companionship
-              </h1>
-              <div className="grid grid-cols-1 gap-3 mx-auto md:grid-cols-2 lg:grid-cols-2 ">
-                <div className="text-sm font-bold">
-                  <li>Good manner</li>
-                  <li>Walking</li>
-                  <li>Watching TV </li>
-                  <li>24/7 Personal care </li>
-                  <li>Cooking</li>
-                  <li>Feeding care</li>
-                </div>
-                <div className="rounded-lg">
-                  <img title="Companions are to give support to lonely people at home" src={companionship} alt=" Companions are to give support to lonely people at home "  loading="lazy"  />
-                </div>
-              </div>
-              <div className="modal-action">
-                <label
-                  htmlFor="my-modal-7"
-                  className="btn text-white bg-[#453364]"
-               
-                >
-                  close!
-                </label>
-              </div>
-            </div>
-          </div>
-
-
-          <div
-            className="block p-8 transition bg-white shadow-md cursor-pointer rounded-xl hover:shadow-lg"
-            data-aos="fade-up"
-            data-aos-duration="1000"
-          >
-            <img title="Attendant service at your Home " className="h-56 rounded-lg w-96" src={attendant} alt="Attendant service  at your home"  loading="lazy"  />
-
-            <h3 className="mt-3 mb-2 text-xl font-bold text-left ">
-              Attendant
-            </h3>
-
-            <p className="mt-1 text-sm text-left text-gray-800 lg:text-justify">
-              Our attendant work with your dear ones with compassion &
-              confidence.They give their time to the patients with empathy &
-              care.They are trained & reliable.They walk the patients outside
-              home,read newspaper to the patients.
-            </p>
-
-            <label
-              htmlFor="my-modal-11"
-              className="btn btn-sm modal-button mt-3 text-white bg-[#453364]"
-         
-            >
-              service details
-            </label>
-          </div>
-
-          <input type="checkbox" id="my-modal-11" className="modal-toggle" />
-          <div className="modal modal-bottom sm:modal-middle">
-            <div className="modal-box ">
-              <h1 className="py-5 text-2xl font-bold text-center">
-              Attendant
-              </h1>
-              <div className="grid grid-cols-1 gap-3 mx-auto md:grid-cols-2 lg:grid-cols-2 ">
-                <div className="text-sm font-bold">
-                  <li>Good manner</li>
-                  <li>Walking</li>
-                  <li>Watching TV </li>
-                  <li>24/7 Personal care </li>
-                  <li>Cooking</li>
-                  <li>Feeding care</li>
-                </div>
-                <div className="rounded-lg">
-                  <img title="Attendant service at your Home " src={attendant} alt="Attendant service at your Home"  loading="lazy"  />
-                </div>
-              </div>
-              <div className="modal-action">
-                <label
-                  htmlFor="my-modal-11"
-                  className="btn text-white bg-[#453364]"
-               
-                >
-                  close!
-                </label>
-              </div>
-            </div>
-          </div>
-
-
-
-
-
-
-
-
-
-
-
-          <div
-            className="block p-8 transition bg-white shadow-md cursor-pointer rounded-xl hover:shadow-lg"
-            data-aos="fade-up"
-            data-aos-duration="1000"
-          >
-            <img title="Medical Equipment Service" className="h-56 rounded-lg w-96" src={equipment} alt=" Medical Equipment Service "  loading="lazy"
-            />
-
-            <h3 className="mt-3 mb-2 text-xl font-bold text-left ">
-              Medical Equipment
-            </h3>
-
-            <p className="mt-1 text-sm text-left text-gray-800 lg:text-justify">
-              We arranged all kindes of medical equipment related product to
-              provide patients care at home. Such as Patients bed, Bedtable, IV
-              stand, nebulizer, pulse oximeter, glucometer, BP machine, Bipap,
-              Oxygen cylinder & many more. We provide high quality products.We
-              set up post ICU equipments at home & high quality professional
-              service.
-            </p>
-
-            <label
-              htmlFor="my-modal-8"
-              className="btn btn-sm modal-button mt-3 text-white bg-[#453364]"
-            
-            >
-              service details
-            </label>
-          </div>
-
-          <input type="checkbox" id="my-modal-8" className="modal-toggle" />
-          <div className="modal modal-bottom sm:modal-middle">
-            <div className="modal-box ">
-              <h1 className="py-5 text-2xl font-bold text-center">
-                Medical Equipment
-              </h1>
-              <div className="grid grid-cols-1 gap-3 mx-auto md:grid-cols-2 lg:grid-cols-2 ">
-                <div className="text-sm font-bold">
-                  <li>Oxygen Mask</li>
-                  <li>Glucometer</li>
-                  <li>Oximeter </li>
-                  <li>Hospital Bed </li>
-                  <li>Alfa Mattress </li>
-                  <li>Bed Table</li>
-                  <li>IV Cannula</li>
-                  <li>NG Tube</li>
-                  <li>Bad Site Monitor</li>
-                  <li>Catheter </li>
-                </div>
-                <div className="rounded-lg">
-                  <img title="Medical Equipment Service" src={equipment} alt="Medical Equipment Service"  loading="lazy"/>
-                </div>
-              </div>
-              <div className="modal-action">
-                <label
-                  htmlFor="my-modal-8"
-                  className="btn text-white  bg-[#453364]"
-              
-                >
-                  close!
-                </label>
-              </div>
-            </div>
-          </div>
-
-          <div
-            className="block p-8 transition bg-white shadow-md cursor-pointer rounded-xl hover:shadow-lg"
-            data-aos="fade-up"
-            data-aos-duration="1000"
-          >
-            <img
-              className="h-56 rounded-lg w-96"
-              src={ambulanceservice}
-              alt="24/7 ambulanceservice  whole bangladesh      " 
-              title="24/7 ambulanceservice for any patients   whole bangladesh  "
-              loading="lazy"
-            />
-
-            <h3 className="mt-3 mb-2 text-xl font-bold text-left ">
-              Emergency Ambulance
-            </h3>
-
-            <p className="mt-1 text-sm text-left text-gray-800 lg:text-justify">
-              The latest model Ambulance service is available. We Provide
-              different types of ambulance services like Ac ambulance service,
-              Non-Ac ambulance service, freezing ambulance service and Basic
-              life support ambulance service. If you need Basic Life Support
-              ICU, CCU, NICU, PICU Ambulance Support with Doctors or Brothers
-              then contact us.
-            </p>
-
-            <label
-              htmlFor="my-modal-9"
-              className="btn btn-sm modal-button mt-3 text-white bg-[#453364]"
-          
-            >
-              service details
-            </label>
-          </div>
-
-          <input type="checkbox" id="my-modal-9" className="modal-toggle" />
-          <div className="modal modal-bottom sm:modal-middle">
-            <div className="modal-box ">
-              <h1 className="py-5 text-2xl font-bold text-center">
-                Emergency Ambulance
-              </h1>
-              <div className="grid grid-cols-1 gap-3 mx-auto md:grid-cols-2 lg:grid-cols-2 ">
-                <div className="text-sm font-bold">
-                  <li>24/7 dayes open</li>
-                  <li>Very cost affordable</li>
-                  <li>Good time management </li>
-                  <li>Experience driver</li>
-                  <li>Good vehicles</li>
-                </div>
-                <div className="">
-                  <img src={ambulanceservice} alt="24/7 ambulanceservice  whole bangladesh      " 
-              title="24/7 ambulanceservice for any patients   whole bangladesh  " loading="lazy"/>
-                </div>
-              </div>
-              <div className="modal-action">
-                <label
-                  htmlFor="my-modal-9"
-                  className="btn text-white bg-[#453364]"
-              
-                >
-                  close!
-                </label>
-              </div>
-            </div>
-          </div>
-          <div
-            className="block p-8 transition bg-white shadow-md cursor-pointer rounded-xl hover:shadow-lg"
-            data-aos="fade-up"
-            data-aos-duration="1000"
-          >
-            <img className="h-56 rounded-lg w-96" src={icuservice} alt=" ICU & CCU Setup At Your Home " title="ICU & CCU Setup At Your Home"  loading="lazy" />
-
-            <h3 className="mt-3 mb-2 text-xl font-bold text-left ">
-              ICU & CCU Setup
-            </h3>
-
-            <p className="mt-1 text-sm text-left text-gray-800 lg:text-justify">
-              HealthCare at Home is doing something new & exciting. We are
-              setting up critical care services at home. We provide a complete
-              set of types of equipment & accessories. We also provided critical
-              care specialist doctors. To support the patients critically ill,
-              with a tracheostomy, PEG tube, Catheter, NG tube, and Central
-              line- we provide ICU-trained nurses. We Supply patient beds, Bipap
-              machines, Oxygen concentrators, Suction machines, monitors,
-              nebulizers, Wheel-chair & all other types of equipment we need to
-              take care of critically ill patients. We also can provide
-              ventilator support.
-            </p>
-
-            <label
-              htmlFor="my-modal-10"
-              className="btn btn-sm modal-button mt-3 text-white bg-[#453364]"
         
-            >
-              Service details
-            </label>
-          </div>
 
-          <input type="checkbox" id="my-modal-10" className="modal-toggle" />
-          <div className="modal modal-bottom sm:modal-middle">
-            <div className="modal-box ">
-              <h1 className="py-5 text-2xl font-bold text-center">
-                ICU & CCU Setup
-              </h1>
-              <div className="grid grid-cols-1 gap-3 mx-auto md:grid-cols-2 lg:grid-cols-2 ">
-                <div className="text-sm font-bold">
-                  <li>24/7 dayes open</li>
-                  <li>Very cost affordable</li>
-                  <li>Good time management </li>
-                  <li>Experience </li>
-                  <li>Good vehicles</li>
-                </div>
-                <div className="">
-                  <img src={icuservice} alt=" ICU & CCU Setup At Your Home " title="ICU & CCU Setup At Your Home"    loading="lazy"/>
-                </div>
-              </div>
-              <div className="modal-action">
-                <label
-                  htmlFor="my-modal-10"
-                  className="btn text-white bg-[#453364] "
-              
-                >
-                  close!
-                </label>
-              </div>
-            </div>
-          </div>
-        </div>
+<div className="grid grid-cols-1 gap-8 mt-10 md:grid-cols-2 lg:grid-cols-3">
+
+  {servicesData.map((service) => (
+
+    <article
+      key={service.id}
+      className="flex flex-col overflow-hidden transition-all duration-300 bg-white border border-gray-100 shadow-md rounded-xl hover:shadow-xl hover:-translate-y-1"
+      data-aos="fade-up"
+      data-aos-duration="1000"
+    >
+
+      {/* Service Image */}
+
+      <Link to={service.slug}>
+        <img
+          src={service.image}
+          alt={service.altText}
+          title={service.altText}
+          loading="lazy"
+          className="object-cover w-full h-56 transition-transform duration-300 hover:scale-105"
+        />
+      </Link>
+
+      {/* Content */}
+
+      <div className="flex flex-col flex-grow p-6">
+
+        <h3 className="text-xl font-bold text-[#453364] leading-7">
+
+          <Link
+            to={service.slug}
+            className="hover:text-[#6A4FA3] transition-colors duration-200"
+          >
+            {service.title}
+          </Link>
+
+        </h3>
+
+        <p className="mt-4 text-sm leading-7 text-gray-700 flex-grow line-clamp-5">
+
+          {service.description}
+
+        </p>
+
+        {/* Highlights */}
+
+        <ul className="mt-5 space-y-2">
+
+          {service.details.slice(0, 4).map((detail, idx) => (
+
+            <li
+              key={idx}
+              className="flex items-center text-sm text-gray-600"
+            >
+
+              <svg
+                className="w-4 h-4 mr-2 text-[#453364] flex-shrink-0"
+                fill="currentColor"
+                viewBox="0 0 20 20"
+              >
+                <path
+                  fillRule="evenodd"
+                  d="M16.707 5.293a1 1 0 010 1.414l-8
+                  8a1 1 0 01-1.414 0l-4-4a1 1
+                  0 011.414-1.414L8 12.586l7.293-7.293a1
+                  1 0 011.414 0z"
+                  clipRule="evenodd"
+                />
+              </svg>
+
+              {detail}
+
+            </li>
+
+          ))}
+
+        </ul>
+
+        {/* Button */}
+
+        <Link
+          to={service.slug}
+          className="mt-6 btn bg-[#453364] hover:bg-[#362850] text-white border-none"
+        >
+          Learn More
+        </Link>
+
+      </div>
+
+    </article>
+
+  ))}
+
+</div>
       </div>
     </section>
   );
