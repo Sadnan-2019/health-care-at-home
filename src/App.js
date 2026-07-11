@@ -108,7 +108,7 @@ function App() {
           </div>
         }
       >
-        <HelmetProvider>
+        
           <Routes key={location.pathname}>
             <Route path="/home" element={<Home />}></Route>
             <Route path="/" element={<Home />}></Route>
@@ -168,7 +168,7 @@ function App() {
             {/* <Route path="login" element={<Login />}></Route> */}
             <Route path="/*" element={<FourZeroFour />} />
           </Routes>
-        </HelmetProvider>
+          
       </Suspense>
 
       {/* <Home></Home> */}

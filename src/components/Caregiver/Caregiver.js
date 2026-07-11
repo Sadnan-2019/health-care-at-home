@@ -9,6 +9,7 @@ import Success from '../Success/Success';
 import Teamcaregiver from './Teamcaregiver';
 import Marque from '../Marque/Marque';
 import { Helmet } from 'react-helmet-async';
+import WhoNeedsCaregiver from './WhoNeedsCaregiver';
 
  
 
@@ -16,7 +17,7 @@ const Caregiver = () => {
     return (
         <div>
               <Helmet>
-                    <title>Caregiver at Dhaka</title>
+                    <title>Professional Home Caregiver Service in Dhaka, Bangladesh</title>
                     <meta
                       name="description"
                       content="Get top-quality professionals  healthcare services at home. Book professional doctors & caregivers online."
@@ -41,6 +42,7 @@ const Caregiver = () => {
                   </Helmet>
             <Caregiverlanding/>
             <Caregiverabout/>
+            <WhoNeedsCaregiver></WhoNeedsCaregiver>
             <Recoverycaregiver/>
             <Review/>
             <Success/>

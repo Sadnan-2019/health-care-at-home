@@ -1,7 +1,7 @@
  const serviceListSchema = {
   "@context": "https://schema.org",
   "@type": "ItemList",
-  "@id": "https://hcah.mrg.com.bd/#services",
+  "@id": "https://hcah.mrg.com.bd",
   "name": "Home Healthcare Services in Bangladesh",
   "description":
     "HealthCare at Home Bangladesh provides professional home healthcare services including home nursing, physiotherapy, caregiver support, medical assistance, ICU setup, medical equipment rental, emergency ambulance, and elderly care services.",
