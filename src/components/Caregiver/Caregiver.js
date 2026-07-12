@@ -10,6 +10,7 @@ import Teamcaregiver from './Teamcaregiver';
 import Marque from '../Marque/Marque';
 import { Helmet } from 'react-helmet-async';
 import WhoNeedsCaregiver from './WhoNeedsCaregiver';
+import Faq from './Faq';
 
  
 
@@ -43,6 +44,7 @@ const Caregiver = () => {
             <Caregiverlanding/>
             <Caregiverabout/>
             <WhoNeedsCaregiver></WhoNeedsCaregiver>
+            <Faq></Faq>
             <Recoverycaregiver/>
             <Review/>
             <Success/>
