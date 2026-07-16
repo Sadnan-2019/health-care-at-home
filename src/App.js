@@ -21,7 +21,7 @@ import HypertensionSymtoms from "./components/Blog/HypertensionSymtoms";
 import HypermanagementTreatment from "./components/Blog/HypermanagementTreatment";
 import HyperPrevention from "./components/Blog/HyperPrevention";
 import HcahLanding from "./components/HcahLanding/HcahLanding";
-import CookieConsent from "./components/CookieConsent/CookieConsent";
+// import CookieConsent from "./components/CookieConsent/CookieConsent";
 
 import ReactPixel from "react-facebook-pixel";
 import { Helmet, HelmetProvider } from "react-helmet-async";
@@ -112,19 +112,19 @@ function App() {
           <Routes key={location.pathname}>
             <Route path="/home" element={<Home />}></Route>
             <Route path="/" element={<Home />}></Route>
-            <Route path="/nursing" element={<Nursing />}></Route>
-            <Route path="/physiotherapy" element={<Physiotherapy />}></Route>
+            <Route path="/services/home-nursing-care" element={<Nursing />}></Route>
+            <Route path="/service/physiotherapy-at-home" element={<Physiotherapy />}></Route>
             <Route
-              path="/medical-assistant"
+              path="/service/home-care-medical-assistant"
               element={<Medicalassistant />}
             ></Route>
             <Route
-              path="/medical-caregiver"
+              path="/services/medical-caregiver-at-dhaka"
               element={<Medicalcaregiver />}
             ></Route>
-            <Route path="/caregiver" element={<Caregiver />}></Route>
-            <Route path="/nanycare" element={<Nanycare />}></Route>
-            <Route path="/companion" element={<Companionship />}></Route>
+            <Route path="/services/caregiver-home-service-at-dhaka" element={<Caregiver />}></Route>
+            <Route path="/services/find-nanny-service-in-dhaka" element={<Nanycare />}></Route>
+            <Route path="/services/companionship" element={<Companionship />}></Route>
             <Route
               path="/medical-equipment"
               element={<Medicalequipment />}
@@ -174,7 +174,7 @@ function App() {
       {/* <Home></Home> */}
       <Footer></Footer>
       <HealthcareChatbot></HealthcareChatbot>
-      <CookieConsent></CookieConsent>
+      {/* <CookieConsent></CookieConsent> */}
 
       <ToastContainer></ToastContainer>
       {/* demo facebook live chat */}

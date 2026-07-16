@@ -18,8 +18,8 @@ const Service = () => {
  const servicesData = [
   {
     id: "service-home-nursing",
-    slug: "/services/home-nursing",
-    title: "Home Nursing",
+    slug: "/services/home-nursing-care",
+    title: "Home Nursing Care",
     image: nurseservice,
     altText:
       "Professional Home Nursing Service for Elderly and Patients in Bangladesh",
@@ -44,7 +44,7 @@ const Service = () => {
 
   {
     id: "service-home-physiotherapy",
-    slug: "/services/home-physiotherapy",
+    slug: "/service/physiotherapy-at-home",
     title: "Home Physiotherapy",
     image: physio,
     altText:
@@ -69,7 +69,7 @@ const Service = () => {
 
   {
     id: "service-medical-assistant",
-    slug: "/services/medical-assistant",
+    slug: "/service/home-care-medical-assistant",
     title: "Medical Assistant",
     image: servicemedicalassistant,
     altText:
@@ -94,7 +94,7 @@ const Service = () => {
 
   {
     id: "service-medical-caregiver",
-    slug: "/services/medical-caregiver",
+    slug: "/services/medical-caregiver-at-dhaka",
     title: "Medical Caregiver",
     image: medicalcaregiver,
     altText:
@@ -119,8 +119,8 @@ const Service = () => {
 
   {
   id: "service-caregiver",
-  slug: "/services/caregiver",
-  title: "Home Caregiver",
+  slug: "/services/caregiver-home-service-at-dhaka ",
+  title: "Home Caregiver Service",
   image: caregiver,
   altText:
     "Professional Home Caregiver Service for Elderly and Patients in Bangladesh",
@@ -144,7 +144,7 @@ const Service = () => {
 
 {
   id: "service-nanny-care",
-  slug: "/services/nanny-care",
+  slug: "/services/find-nanny-service-in-dhaka",
   title: "Nanny Care",
   image: nanines,
   altText:
