@@ -1,101 +1,143 @@
 import React from "react";
 import flyer from "../../assets/hcahflyer.jpg";
+import {
+  FaUserNurse,
+  FaHeartbeat,
+  FaHome,
+  FaBaby,
+  FaProcedures,
+  FaUserShield,
+} from "react-icons/fa";
 import flyer1 from "../../assets/HCAHBrochure1.jpg";
 import flyer2 from "../../assets/HCAHBrochure2.jpg";
 import { Helmet } from "react-helmet-async";
 import "./About.css";
 const About = () => {
+  const whyChooseUs = [
+    {
+      id: 1,
+      icon: <FaHeartbeat />,
+      title: "Affordable Home Healthcare Services",
+      description:
+        "Receive hospital-quality home healthcare services at affordable rates. From professional nursing care and caregiver support to physiotherapy at home, we help families reduce hospital visits while maintaining quality treatment.",
+    },
+    {
+      id: 2,
+      icon: <FaUserNurse />,
+      title: "Qualified Nurses, Caregivers & Physiotherapists",
+      description:
+        "Our experienced nurses, trained caregivers and licensed physiotherapists provide safe patient care, elderly care, baby care at home and rehabilitation services across Bangladesh.",
+    },
+    {
+      id: 3,
+      icon: <FaBaby />,
+      title: "Personalized Elderly & Baby Care at Home",
+      description:
+        "Whether you need elderly care, newborn baby care at home or long-term caregiver assistance, every care plan is personalized according to the patient's medical and daily living needs.",
+    },
+    {
+      id: 4,
+      icon: <FaProcedures />,
+      title: "Professional Nursing Care at Home",
+      description:
+        "Our diploma nurses provide medication management, wound dressing, catheter care, NG tube feeding, vital sign monitoring and post-surgical nursing care in the comfort of your home.",
+    },
+    {
+      id: 5,
+      icon: <FaHome />,
+      title: "Physiotherapy at Home for Faster Recovery",
+      description:
+        "Recover safely with physiotherapy at home for stroke rehabilitation, arthritis, back pain, neck pain, sports injuries, post-operative recovery and mobility improvement.",
+    },
+    {
+      id: 6,
+      icon: <FaUserShield />,
+      title: "24/7 Monitoring & Family Support",
+      description:
+        "Every patient receives continuous supervision from our healthcare team with regular follow-up, family communication and quality monitoring to ensure safe and reliable home healthcare.",
+    },
+  ];
+
+  const whyChooseSection = {
+    badge: "Trusted Home Healthcare Provider",
+
+    title: "Why Families Across Bangladesh Choose HealthCare At Home",
+
+    description:
+      "From qualified nurses and experienced caregivers to physiotherapy, doctor home visits and elderly care, we deliver safe, compassionate and professional home healthcare services with 24/7 support and personalized patient care.",
+  };
   return (
     <div className="py-10 blog">
-
-
-<Helmet>
+      <Helmet>
         {/* <title> Health care at Home Bangladesh</title> */}
-        <meta name="description" content="Get top-quality healthcare caregiver physiotherapy diploma nursing services    to bring healthcare services at your home." />
+        <meta
+          name="description"
+          content="Get top-quality healthcare caregiver physiotherapy diploma nursing services    to bring healthcare services at your home."
+        />
         <meta name="robots" content="index, follow" />
         <meta property="og:title" content="Health Care at Home" />
-        <meta property="og:description" content="  Get top-quality healthcare caregiver physiotherapy diploma nursing services  at your home." />
+        <meta
+          property="og:description"
+          content="  Get top-quality healthcare caregiver physiotherapy diploma nursing services  at your home."
+        />
         <meta property="og:url" content="https://hcah.mrg.com.bd/about-us" />
       </Helmet>
+
       <div
-        className="min-h-screen hero aboutbg" 
-  
-      
+        className="max-w-4xl mx-auto text-center mb-14"
+        data-aos="fade-up"
+        data-aos-duration="1000"
       >
+        <span className="inline-flex items-center px-4 py-2 rounded-full bg-[#453364] text-white border border-[#453364]/20 text-sm font-semibold">
+          {whyChooseSection.badge}
+        </span>
+
+        <h2 className="mt-5 text-3xl md:text-4xl lg:text-5xl font-bold text-[#453364] leading-tight">
+          {whyChooseSection.title}
+        </h2>
+
+        <p className="mt-6 text-base md:text-lg text-gray-600 leading-8 max-w-3xl mx-auto">
+          {whyChooseSection.description}
+        </p>
+
+        <div className="w-24 h-1 bg-[#453364] rounded-full mx-auto mt-8"></div>
+      </div>
+      <div className="min-h-screen hero aboutbg">
         <div className="hero-overlay bg-opacity-60"></div>
         <div className="text-center hero-content text-neutral-content">
           <div className="">
-            <h1 className="py-12 text-5xl font-bold text-white ">Why HCAH?</h1>
 
-            <div className="grid grid-cols-1 gap-8 text-white md:grid-cols-2 lg:grid-cols-3">
-              <div className="card">
-                <p className="text-[18px]  font-bold mb-4">Affordable Cost </p>
-                <p className="text-justify	 	text-[15px] poppins-t">
-                  One of the most significant and favorable advantages of
-                  healthcare services at home is that it costs much less than
-                  keeping a patient in a healing center or hospital. Home based
-                  healthcare experts give the full bouquet of services to
-                  individuals who are released from the doctor’s facility yet
-                  need certain medicinal care all through the length of their
-                  recuperation. Apart from this, it also saves you the visiting
-                  costs of the doctor and your time by seeking the same amount
-                  of care at home itself.
-                </p>
-              </div>
-              <div className="card">
-                <p className="text-[18px] font-bold mb-4">
-                  Qualified certified and experience manpower{" "}
-                </p>
-                <p className=" text-justify	text-[15px] poppins-t">
-                  Our nurses, physiotherapists ,MATS, MCG all are certified,
-                  qualified and experienced. Both the nurses & MATS are diploma
-                  holders. They know how to take care of ailing patients.Apart
-                  form holistic nursing nurses provide patient care with empathy
-                  & knowledge.Our physiotherapists are qualified B.Sc & diploma
-                  holders. They will take care of patients' neck pain to toe
-                  pain.Our medical caregivers give total support to our patients
-                  at home. MCG feed the patients,give medication, clean the
-                  patients, sponge the patients. They also change diapers.Check
-                  vital parameters.
-                </p>
-              </div>
-              <div>
-                <p className="text-[18px]  font-bold mb-4">
-                  Dedicated Services
-                </p>
-                <p className="text-justify text-[15px] poppins-t ">
-                  Another essential advantage of home care is that patients get
-                  one-on-one consideration, something they would not get as an
-                  occupant in a healing center. When patients are monitored on a
-                  continuous basis and health care providers are able to access
-                  real time data, diseases are treated before they get out of
-                  hand.
-                </p>
-              </div>
-              <div>
-                <p className="text-[18px]  font-bold mb-4">
-                  Strong Monitoring Team
-                </p>
-                <p className="text-justify  text-[15px] poppins-t">
-                  Supervisors of healthcare at home do converse with the
-                  caregivers every single day.They enquire about quality of
-                  service ,patients satisfaction & patient attendants concerns.
-                  Chief executive officer,who is a physician talks to the
-                  patients & attendant once a week.This composes a strong
-                  monitoring team.On WhatsApp we have trouble window,where we
-                  share patients & attendants inconvenience,so that we can
-                  address the problems.
-                </p>
-              </div>
-              <div>
-                <p className="text-[18px]  font-bold mb-4">Team 24 x 7</p>
-                <p className="text-justify  text-[15px] poppins-t">
-                  Our fifteen employee-team works round the clock to serve the
-                  community. We are ready to answer phone calls 24/7.We are open
-                  for conversation listening to attendants complaints.We can
-                  provide home service with caregiver even at mid night.
-                </p>
-              </div>
+            <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-8 mt-14">
+              {whyChooseUs.map((item, index) => (
+                <div
+                  key={item.id}
+                  data-aos="fade-up"
+                  data-aos-delay={index * 100}
+                  className="group relative overflow-hidden rounded-3xl bg-white/10 backdrop-blur-sm border border-white/20 p-8 hover:bg-white hover:shadow-2xl transition-all duration-500"
+                >
+                  {/* Top Gradient */}
+
+                  <div className="absolute top-0 left-0 h-1 w-full bg-gradient-to-r from-[#453364] via-[#8b6fc7] to-[#453364]"></div>
+
+                  {/* Icon */}
+
+                  <div className="w-16 h-16 rounded-2xl bg-white/15 group-hover:bg-[#453364] text-white group-hover:text-white flex items-center justify-center text-3xl mb-7 transition duration-300">
+                    {item.icon}
+                  </div>
+
+                  {/* Title */}
+
+                  <h3 className="text-2xl font-bold text-white group-hover:text-[#453364] leading-snug transition">
+                    {item.title}
+                  </h3>
+
+                  {/* Description */}
+
+                  <p className="mt-5 text-gray-200 group-hover:text-gray-600 leading-8 text-[16px] transition">
+                    {item.description}
+                  </p>
+                </div>
+              ))}
             </div>
 
             <div className="grid grid-cols-1 gap-8 py-5 text-white md:grid-cols-2 lg:grid-cols-2">
@@ -103,13 +145,22 @@ const About = () => {
                 <img src={flyer} alt="" />
               </div> */}
               <div className="card">
-                <img title="home health care this is the our service " src={flyer2} alt="Our all  Services "  loading="lazy" />
+                <img
+                  title="home health care this is the our service "
+                  src={flyer2}
+                  alt="Our all  Services "
+                  loading="lazy"
+                />
               </div>
               <div className="card">
-                <img src={flyer1} alt="Nursing care Our Services "  title="Physio Home   care Our Services" loading="lazy"/>
+                <img
+                  src={flyer1}
+                  alt="Nursing care Our Services "
+                  title="Physio Home   care Our Services"
+                  loading="lazy"
+                />
               </div>
             </div>
-            
           </div>
         </div>
       </div>

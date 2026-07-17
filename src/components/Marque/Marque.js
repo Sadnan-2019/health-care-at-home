@@ -18,162 +18,183 @@ import asgorali from "../../assets/hospital/asgorali.png";
 import prime from "../../assets/hospital/prime.png";
 
 const Marque = () => {
+
+const hospitals = [
+  {
+    id: 1,
+    name: "Popular Diagnostic Centre",
+    image: popular,
+    alt: "Popular Diagnostic Centre logo",
+  },
+  {
+    id: 2,
+    name: "Universal Medical College Hospital",
+    image: universal,
+    alt: "Universal Medical College Hospital logo",
+  },
+  {
+    id: 3,
+    name: "Labaid Cardiac Hospital",
+    image: labaidcardiac,
+    alt: "Labaid Cardiac Hospital logo",
+  },
+  {
+    id: 4,
+    name: "Labaid Specialized Hospital",
+    image: labaidspeacial,
+    alt: "Labaid Specialized Hospital logo",
+  },
+  {
+    id: 5,
+    name: "Labaid Cancer Hospital",
+    image: labaidcanser,
+    alt: "Labaid Cancer Hospital logo",
+  },
+  {
+    id: 6,
+    name: "Green Life Hospital",
+    image: greenlife,
+    alt: "Green Life Hospital logo",
+  },
+  {
+    id: 7,
+    name: "Anwer Khan Modern Hospital",
+    image: anwarkhan,
+    alt: "Anwer Khan Modern Hospital logo",
+  },
+  {
+    id: 8,
+    name: "Evercare Hospital Dhaka",
+    image: evercare,
+    alt: "Evercare Hospital Dhaka logo",
+  },
+  {
+    id: 9,
+    name: "United Hospital Dhaka",
+    image: united,
+    alt: "United Hospital Dhaka logo",
+  },
+  {
+    id: 10,
+    name: "Ibn Sina Hospital",
+    image: ibnesina,
+    alt: "Ibn Sina Hospital logo",
+  },
+  {
+    id: 11,
+    name: "Bangladesh Specialized Hospital",
+    image: bangladeshspeacial,
+    alt: "Bangladesh Specialized Hospital logo",
+  },
+  {
+    id: 12,
+    name: "Impulse Hospital",
+    image: impulse,
+    alt: "Impulse Hospital logo",
+  },
+  {
+    id: 13,
+    name: "Shikder Medical College Hospital",
+    image: shikdar,
+    alt: "Shikder Medical College Hospital logo",
+  },
+  {
+    id: 14,
+    name: "Samorita Hospital",
+    image: samorita,
+    alt: "Samorita Hospital Limited logo",
+  },
+  {
+    id: 15,
+    name: "Asgar Ali Hospital",
+    image: asgorali,
+    alt: "Asgar Ali Hospital logo",
+  },
+  {
+    id: 16,
+    name: "Prime Hospital",
+    image: prime,
+    alt: "Prime Hospital logo",
+  },
+];
+
+
+
   return (
-    <div>
-      <div className="blog md:mx-16 lg:mx-24 mx-8 py-12">
-        <h2 className="text-xl text-center   font-bold poppins-b lg:text-4xl  text-[#453364] ">
-          Services Provided To The Patients Coming Home From Leading Hospitals
-        </h2>
-        <h1 className="  w-64 h-1 rounded-lg mt-2 mb-4 mx-auto bg-[#453364]"></h1>
-      </div>
-      <Marquee gradientColor={false} speed={80} gradient={false} play={true}>
-        <div className="  	 	 mx-10">
-          <img
-            src={popular}
-            alt="Populer Healthcare At Home Bangladesh"
-            className="  "
-            loading="lazy"
-            title="Caregiver  At Home Bangladesh"
-          />
-        </div>
-        <div className="mx-10">
-          <img
-            src={universal}
-            alt="Universal Healthcare At Home Bangladesh"
-             title="Nurse  At Home Bangladesh"
-            className="  w-52    "
-            loading="lazy"
-          />
-        </div>
-        <div className="     	 mx-10 ">
-          <img
-            src={labaidcardiac}
-            alt="Labaid Healthcare At Home Bangladesh"
-             title=" Physiotherapy  At Home Bangladesh"
-            className="      "
-            loading="lazy"
-          />
-        </div>
-        <div className="     	 mx-10 ">
-          <img
-            src={labaidspeacial}
-            alt="Healthcare At Home Bangladesh"
-            title=" Stroke Patients Physio At Home"
-            className="      "
-            loading="lazy"
-          />
-        </div>
-        <div className="     	 mx-10 ">
-          <img
-            src={labaidcanser}
-            alt="Labaid Cancer Healthcare At Home Bangladesh"
-            className="      "
-            title=" Medical Caregiver At Home Bangladesh"
-            loading="lazy"
-          />
-        </div>
-        <div className="      	 mx-10 ">
-          <img
-            src={greenlife}
-            alt="Green Life Healthcare At Home Bangladesh"
-            className="      "
-            title=" Medical  Nurse Care Dhaka "
-            loading="lazy"
-          />
-        </div>
-        <div className="     	 mx-10 ">
-          <img
-            src={anwarkhan}
-            alt="Healthcare At Home Bangladesh"
-            className="      "
-            loading="lazy"
-            title=" Home Physio Care at  Dhaka "
-          />
-        </div>
-        <div className=" 	 mx-10     ">
-          <img
-            src={evercare}
-            alt="Home Caregiver At Home Bangladesh"
-            className=" w-52       "
-            loading="lazy"
-            title=" Home Physio Care at  Dhaka "
-          />
-        </div>
-        <div className=" 	 mx-10     ">
-          <img
-            src={united}
-            alt=" Babysitter  At Home Bangladesh"
-            className=" w-52       "
-            loading="lazy"
-             title=" Home  Companion  Care at  Dhaka "
-          />
-        </div>
-        <div className=" 	 mx-10     ">
-          <img
-            src={ibnesina}
-            alt=" Home Support Caregiver    "
-            className=" w-52       "
-            loading="lazy"
-             title=" Medical Caregiver Home Service Dhaka "
-          />
-        </div>
-        <div className=" 	 mx-10     ">
-          <img
-            src={bangladeshspeacial}
-            alt="Homecare Diploma Nurse Bangladesh"
-            className=" w-52       "
-            loading="lazy"
-            title="  Nursing Home Service Dhaka "
-          />
-        </div>
-        <div className=" 	 mx-10     ">
-          <img
-            src={impulse}
-            alt="Doctor  At Home Bangladesh"
-            className=" w-52       "
-            loading="lazy"
-            title="Consultant Visit  Home Service Dhaka "
-          />
+    <section
+  className="py-16 lg:py-20 bg-white"
+  aria-labelledby="trusted-hospitals"
+>
+  <div className="container mx-auto px-6 lg:px-12">
+
+    {/* Heading */}
+
+    <div
+      className="max-w-4xl mx-auto text-center mb-12"
+      data-aos="fade-up"
+      data-aos-duration="1000"
+    >
+
+      <span className="inline-flex items-center px-4 py-2 rounded-full bg-[#453364] text-white text-sm font-semibold tracking-wide uppercase">
+
+        Trusted Continuity of Care
+
+      </span>
+
+      <h2
+        id="trusted-hospitals"
+        className="mt-5 text-3xl md:text-4xl lg:text-5xl font-bold text-[#453364] leading-tight"
+      >
+        Supporting Patients After Treatment at Leading Hospitals
+      </h2>
+
+      <p className="mt-5 text-gray-600 text-base md:text-lg leading-8 max-w-3xl mx-auto">
+
+        Our experienced caregivers, nurses, physiotherapists and home healthcare professionals continue quality care for patients after hospital discharge from many leading hospitals across Bangladesh.
+
+      </p>
+
+    </div>
+
+    {/* Hospitals */}
+
+    <Marquee
+
+      speed={45}
+      gradient={true}
+      gradientWidth={80}
+      pauseOnHover={true}
+      autoFill={true}
+
+    >
+
+      {hospitals.map((hospital) => (
+
+        <div
+          key={hospital.id}
+          className="mx-5"
+        >
+
+          <div className="bg-white border border-gray-200 rounded-2xl shadow-sm hover:shadow-lg transition-all duration-300 h-28 w-52 flex items-center justify-center p-6">
+
+            <img
+              src={hospital.image}
+              alt={hospital.alt}
+              loading="lazy"
+              decoding="async"
+              className="max-h-16 w-auto object-contain grayscale hover:grayscale-0 transition-all duration-300"
+            />
+
+          </div>
+
         </div>
 
-        <div className=" 	 mx-10     ">
-          <img
-            src={shikdar}
-            alt="Home Care Dhaka"
-            className=" w-42       "
-            loading="lazy"
-            title="Patients  Home Service dhaka "
-          />
-        </div>
-        <div className=" 	 mx-10     ">
-          <img
-            src={samorita}
-            alt="Healthcare At Home Bangladesh"
-            className=" w-42       "
-            loading="lazy"
-            title="Patients Support  at  dhaka "
-          />
-        </div>
-        <div className=" 	 mx-10     ">
-          <img
-            src={asgorali}
-            alt="Home Nanny Support  At Dhaka"
-            className=" w-42       "
-            loading="lazy"
-            title="Stoke   Home Service haka "
-          />
-        </div>
-        <div className=" 	 mx-10     ">
-          <img
-            src={prime}
-            alt="medical home service At Home Bangladesh"
-            className=" w-42       "
-            loading="lazy"
-             title="Stoke  Physio Home Service haka "
-          />
-        </div>
-      </Marquee>
-    </div>
+      ))}
+
+    </Marquee>
+
+  </div>
+</section>
   );
 };
 

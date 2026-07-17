@@ -1,0 +1,36 @@
+.review-slider .slick-slide {
+  padding: 12px;
+}
+
+.review-slider .slick-list {
+  margin: 0 -12px;
+}
+
+.review-slider .slick-track {
+  display: flex;
+}
+
+.review-slider .slick-slide > div {
+  height: 100%;
+}
+
+.review-slider .slick-dots {
+  bottom: -45px;
+}
+
+.review-slider .slick-dots li {
+  margin: 0 4px;
+}
+
+.review-slider .slick-dots li button:before {
+  font-size: 11px;
+  color: #453364;
+  opacity: .25;
+  transition: .3s;
+}
+
+.review-slider .slick-dots li.slick-active button:before {
+  color: #453364;
+  opacity: 1;
+  transform: scale(1.25);
+}

@@ -307,18 +307,23 @@ const Service = () => {
   return (
     <section className="blog">
       <div className="py-8 mx-8 md:mx-16 lg:mx-24 ">
-        <div className="">
-          <h1
-            className="text-3xl text-center  text-[#453364]  font-bold poppins-b sm:text-4xl"
-         
-          >
-            Our Services
-          </h1>
-          <h2
-            className="  w-32 h-1 rounded-lg mt-2 mb-4 mx-auto bg-[#453364]"
-            
-          ></h2>
-        </div>
+         <div className="text-center max-w-3xl mx-auto">
+
+  <span className="inline-block px-4 py-1 rounded-full bg-[#453364] text-white text-sm font-semibold">
+    Our Care Solutions
+  </span>
+
+  <h2 className="mt-4 text-3xl sm:text-4xl lg:text-5xl font-bold text-[#453364] leading-tight">
+    Find the Right Care for Every Need
+  </h2>
+
+  <p className="mt-5 text-gray-600 text-base md:text-lg leading-7">
+    Choose from caregiver service, home nursing, doctor home visit, physiotherapy, elderly care and other professional home healthcare services designed to support recovery, independence and better quality of life.
+  </p>
+
+  <div className="w-20 h-1 bg-[#453364] rounded-full mx-auto mt-6"></div>
+
+</div>
 
         
 

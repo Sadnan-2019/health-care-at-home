@@ -5,260 +5,211 @@ import review6 from "../../assets/review/review6.jpg";
 import review1 from "../../assets/review/review1.jpg";
 import review2 from "../../assets/review/review2.jpg";
 import review3 from "../../assets/review/review3.jpg";
+import {
+  FaStar,
+  FaQuoteLeft,
+  FaCheckCircle,
+  FaPhoneVolume,
+} from "react-icons/fa";
 
 import { AiFillStar } from "react-icons/ai";
 // import Reviewcard from "./Reviewcard";
-import "../../../src/components/Blog/Blog.css"  
+import "../../../src/components/Blog/Blog.css";
 const Review = () => {
-  var settings = {
+  const patientReviews = [
+    {
+      id: 1,
+      name: "Zariif Akbar",
+      location: "Gulshan, Dhaka",
+      service: "Caregiver Service",
+      rating: 5,
+      verified: true,
+      image: review1,
+      review:
+        "The caregiver was compassionate, punctual and well-trained. My father received excellent elderly care after his stroke, and the support gave our family complete peace of mind.",
+    },
+    {
+      id: 2,
+      name: "Ryhan Ahmed ",
+      location: "Banani, Dhaka",
+      service: "Home Nursing",
+      rating: 5,
+      verified: true,
+      image: review2,
+      review:
+        "The home nursing service was outstanding. The nurse monitored medication, vital signs and wound care professionally. I highly recommend Healthcare At Home Bangladesh.",
+    },
+    {
+      id: 3,
+      name: "Abdul Karim",
+      location: "Dhanmondi, Dhaka",
+      service: "Physiotherapy at Home",
+      rating: 5,
+      verified: true,
+      image: review3,
+      review:
+        "The physiotherapist helped me recover after knee replacement surgery. Every session was professional and I regained confidence walking again.",
+    },
+    // {
+    //   id: 4,
+    //   name: "Farzana Rahman",
+    //   location: "Uttara, Dhaka",
+    //   service: "Doctor Home Visit",
+    //   rating: 5,
+    //   verified: true,
+    //   // image: review3,
+    //   review:
+    //     "Booking a doctor home visit was simple. The doctor arrived on time, explained everything clearly and saved us from travelling with an elderly patient.",
+    // },
+    {
+      id: 5,
+      name: "Mahmud Hasan",
+      location: "Mirpur, Dhaka",
+      service: "Elderly Care",
+      rating: 5,
+      verified: true,
+      image: review5,
+      review:
+        "Our caregiver treated my mother with patience, respect and kindness. The elderly care service exceeded our expectations and made daily life much easier.",
+    },
+    {
+      id: 6,
+      name: "Sharmeen Akter",
+      location: "Mohammadpur, Dhaka",
+      service: "Post-Surgery Care",
+      rating: 5,
+      verified: true,
+      image: review6,
+      review:
+        "After surgery we needed professional home care. The nursing team managed dressing changes, medication support and recovery guidance with great care.",
+    },
+  ];
+
+  const settings = {
     dots: true,
+    arrows: false,
     infinite: true,
-    speed: 300,
-    slidesToShow: 3,
-    slidesToScroll: 2,
-    initialSlide: 0,
+    speed: 700,
     autoplay: true,
     autoplaySpeed: 5000,
+    cssEase: "ease-in-out",
+    pauseOnHover: true,
+    pauseOnFocus: true,
+    pauseOnDotsHover: true,
+    swipe: true,
+    swipeToSlide: true,
+    draggable: true,
+    touchMove: true,
+    adaptiveHeight: false,
+    slidesToShow: 3,
+    slidesToScroll: 1,
+
     responsive: [
+      {
+        breakpoint: 1280,
+        settings: {
+          slidesToShow: 3,
+        },
+      },
       {
         breakpoint: 1024,
         settings: {
           slidesToShow: 2,
-          slidesToScroll: 2,
-          infinite: true,
-          dots: true,
         },
       },
       {
-        breakpoint: 600,
+        breakpoint: 768,
         settings: {
           slidesToShow: 1,
-          slidesToScroll: 1,
-          initialSlide: 1,
+          centerMode: true,
+          centerPadding: "25px",
         },
       },
       {
-        breakpoint: 480,
+        breakpoint: 576,
         settings: {
           slidesToShow: 1,
-          slidesToScroll: 1,
+          centerMode: false,
         },
       },
     ],
   };
   return (
-    <div className="  py-10 blog bg-[#453364]"  >
-      <div className=" md:mx-16 lg:mx-24 mx-8 py-12">
-        <h2 className="text-3xl text-center   font-bold poppins-b sm:text-4xl text-white">
-      
-          Check Our Recent Reviews!
+    <div className="  py-10 blog bg-[#453364]">
+      <div className="text-center max-w-4xl mx-auto mb-12">
+        <span className="inline-block px-4 py-1 rounded-full   text-white text-sm font-semibold tracking-wide uppercase">
+          Patient Testimonials
+        </span>
+
+        <h2 className="mt-4 text-3xl sm:text-4xl lg:text-5xl font-bold text-white leading-tight">
+          Trusted by Families Across Bangladesh
         </h2>
+
+        <p className="mt-5 text-base md:text-lg leading-8 text-gray-200 max-w-3xl mx-auto">
+          Discover what patients and families say about our caregiver service,
+          home nursing, physiotherapy, doctor home visit and elderly care. Their
+          experiences reflect our commitment to compassionate, professional and
+          reliable home healthcare.
+        </p>
+
+        <div className="w-24 h-1 bg-white rounded-full mx-auto mt-6"></div>
       </div>
 
       <div className=" px-10  md:px-10  ">
-        <div className="mx-12 ">
-          <div className="flex items-center   justify-between mb-5 flex-col md:flex-row  ">
-            <p className="text-white text-1xl lg:text-3xl font-bold poppins-b 	">
-              Hear from our respected service takers
-            </p>
+        <Slider {...settings} className="review-slider">
+          {patientReviews.map((item) => (
+            <div key={item.id} className="px-3 pb-3">
+              <article className="h-full bg-white rounded-2xl border border-gray-100 shadow-md hover:shadow-xl transition-all duration-300 overflow-hidden">
+                {/* Card Body */}
+                <div className="p-7 flex flex-col h-full">
+                  {/* Rating */}
+                  <div className="flex items-center justify-between">
+                    <div className="text-yellow-400 text-lg tracking-wide">
+                      {"★".repeat(item.rating)}
+                    </div>
 
-            <p className="text-white text-sm lg:text-2xl   font-bold poppins-b	">
-              Overall rating
-            </p>
+                    <span className="bg-green-100 text-green-700 text-xs font-semibold px-3 py-1 rounded-full">
+                      Verified Patient
+                    </span>
+                  </div>
 
-            <div className="flex items-center gap-2  ">
-              <p className="text-white text-sm lg:text-2xl font-bold	">4.8 </p>
-              <AiFillStar className="text-white" />
-              <AiFillStar className="text-white" />
-              <AiFillStar className="text-white" />
-              <AiFillStar className="text-white" />
-              <AiFillStar className="text-white" />
+                  {/* Review */}
+                  <p className="mt-6 text-gray-600 leading-7 flex-grow italic">
+                    "{item.review}"
+                  </p>
+
+                  {/* Service */}
+                  <div className="mt-6">
+                    <span className="inline-flex items-center rounded-full bg-[#453364]/10 text-[#453364] text-sm font-semibold px-4 py-2">
+                      {item.service}
+                    </span>
+                  </div>
+
+                  {/* Patient */}
+                  <div className="flex items-center mt-7 pt-5 border-t border-gray-100">
+                    <img
+                      src={item.image}
+                      alt={`${item.name} received ${item.service} from HealthCare At Home Bangladesh`}
+                      loading="lazy"
+                      className="w-16 h-16 rounded-full object-cover border-2 border-[#453364]/10"
+                    />
+
+                    <div className="ml-4">
+                      <h3 className="text-lg font-bold text-[#453364]">
+                        {item.name}
+                      </h3>
+
+                      <p className="text-sm text-gray-500">{item.location}</p>
+
+                      <p className="text-sm font-medium text-[#453364] mt-1">
+                        {item.service}
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </article>
             </div>
-          </div>
-        </div>
-        <Slider {...settings}>
-          <div
-            className="shadow-md hover:shadow-lg cursor-pointer rounded-md lg:max-w-[360px] md:max-w-xs p-5 h-92 bg-white"
-            data-aos="fade-up"
-            data-aos-duration="3000"
-          >
-            <div className="grid grid-cols-12">
-              <img
-                className="col-span-3 w-14 rounded-full"
-                src={review2}
-      
-                loading="lazy"
-                alt="Caregiver Service" title="home caregiver services review" 
-              />
-              <div className="col-span-9">
-                <h2 className="text-lg poppins-b font-bold">Ryan Ahmed</h2>
-                {/* <p className="font-semibold">Patients</p> */}
-              </div>
-            </div>
-            <div className="mt-4">
-              <p className="poppins-r text-justify">
-                We have tried several home care services, both independent and
-                company managed, HealthCare at Home Bangladesh stood out to us
-                as the most qualified and dependable. Many thanks to Dr. Mahmud
-                for taking house calls and making a personal effort to ensure
-                all our service needs are met from medical assistance to
-                rehabilitative physical therapy, not to mention regular primary
-                care consultation
-              </p>
-              <div
-                className="flex justify-start text-lg gap-1 mt-4 text-[#453364] "
-              
-              >
-                <AiFillStar />
-                <AiFillStar />
-                <AiFillStar />
-                <AiFillStar />
-                <AiFillStar />
-              </div>
-            </div>
-          </div>
-          <div
-            className="shadow-md hover:shadow-lg cursor-pointer rounded-md lg:max-w-[360px] md:max-w-xs p-5 bg-white"
-            data-aos="fade-up"
-            data-aos-duration="3000"
-          >
-            <div className="grid grid-cols-12">
-              <img
-                className="col-span-3 w-14 rounded-full"
-                src={review1}
-                alt=" Diploma Home  Service" title="home  nursing services  " 
-                loading="lazy"
-              />
-              <div className="col-span-9">
-                <h2 className="text-lg poppins-b font-bold">Zareef Akbar</h2>
-                {/* <p className="font-semibold">Patients</p> */}
-              </div>
-            </div>
-            <div className="mt-4">
-              <p className="poppins-r">
-                Very professional and prompt service. Would highly recommend. A
-                very practical way to get health care during these times of
-                social paranoia.
-              </p>
-              <div
-                className="flex justify-start text-lg gap-1 mt-4 text-[#453364]  "
-             
-              >
-                <AiFillStar />
-                <AiFillStar />
-                <AiFillStar />
-                <AiFillStar />
-                <AiFillStar />
-              </div>
-            </div>
-          </div>
-          <div
-            className="shadow-md hover:shadow-lg cursor-pointer rounded-md lg:max-w-[360px] md:max-w-xs p-5 h-92 bg-white"
-            data-aos="fade-up"
-            data-aos-duration="3000"
-          >
-            <div className="grid grid-cols-12">
-              <img
-                className="col-span-3 w-14 rounded-full"
-                src={review3}
-                alt="B.S.C  Home Physio Service" title="home  physiotherapy services review" 
-                loading="lazy"
-              />
-              <div className="col-span-9">
-                <h2 className="text-lg poppins-b font-bold">
-                  Badruddin Hasan Saky
-                </h2>
-                {/* <p className="font-semibold">Patients</p> */}
-              </div>
-            </div>
-            <div className="mt-4">
-              <p className="poppins-r">
-                An excellent healthcare at home provider with qualified and well
-                trained medical personnel. You can put your trust here.
-              </p>
-              <div
-                className="flex justify-start text-lg gap-1 mt-4 text-[#453364] "
-              
-              >
-                <AiFillStar />
-                <AiFillStar />
-                <AiFillStar />
-                <AiFillStar />
-                <AiFillStar />
-              </div>
-            </div>
-          </div>
-          <div
-            className="shadow-md hover:shadow-lg cursor-pointer rounded-md lg:max-w-[360px] md:max-w-xs p-5 bg-white"
-            data-aos="fade-up"
-            data-aos-duration="3000"
-          >
-            <div className="grid grid-cols-12">
-              <img
-                className="col-span-3 w-14 rounded-full"
-                src={review5}
-                alt="Stroke Patients  BSC physio Service" title="home physio service" 
-                loading="lazy"
-              />
-              <div className="col-span-9">
-                <h2 className="text-lg poppins-b font-bold">Shakil Rahman</h2>
-                {/* <p className="font-semibold">Patients</p> */}
-              </div>
-            </div>
-            <div className="mt-4">
-              <p className="poppins-r">
-                I took physiotherapy services from HCAH. This health care
-                service is the best that can be provided at home. They are
-                experts and have in-depth knowledge about the treatment to be
-                given to patients in various conditions.
-              </p>
-              <div
-                className="flex justify-start text-lg gap-1 mt-4  text[#453364]"
-                 
-              >
-                <AiFillStar />
-                <AiFillStar />
-                <AiFillStar />
-                <AiFillStar />
-                <AiFillStar />
-              </div>
-            </div>
-          </div>
-          <div
-            className="shadow-md hover:shadow-lg cursor-pointer rounded-md lg:max-w-[360px] md:max-w-xs p-5 bg-white"
-            data-aos="fade-up"
-            data-aos-duration="3000"
-          >
-            <div className="grid grid-cols-12">
-              <img
-                className="col-span-3 w-14 rounded-full"
-                src={review6}
-                alt="paralyzed patients for physiotherapy team " title="physiotherapy team home service" 
-                loading="lazy"
-              />
-              <div className="col-span-9">
-                <h2 className="text-lg poppins-b font-bold">Wasim Akbar</h2>
-                {/* <p className="font-semibold">Patients</p> */}
-              </div>
-            </div>
-            <div className="mt-4">
-              <p className="poppins-r">
-                i was paralyzed on the left side. I am extremely thankful to
-                HCAH for my wonderful recovery. I am extremely grateful to the
-                physiotherapy team for physically strengthening my stand on own.
-              </p>
-              <div
-                className="flex justify-start text-lg gap-1 mt-4 text-[#453364] "
-               
-              >
-                <AiFillStar />
-                <AiFillStar />
-                <AiFillStar />
-                <AiFillStar />
-                <AiFillStar />
-              </div>
-            </div>
-          </div>
+          ))}
         </Slider>
       </div>
     </div>
