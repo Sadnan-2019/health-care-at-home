@@ -119,7 +119,7 @@ const Service = () => {
 
   {
   id: "service-caregiver",
-  slug: "/services/caregiver-home-service-at-dhaka ",
+  slug: "/services/caregiver ",
   title: "Home Caregiver Service",
   image: caregiver,
   altText:

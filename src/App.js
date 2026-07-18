@@ -119,10 +119,10 @@ function App() {
               element={<Medicalassistant />}
             ></Route>
             <Route
-              path="/services/medical-caregiver-at-dhaka"
+              path="/services/medical-caregiver"
               element={<Medicalcaregiver />}
             ></Route>
-            <Route path="/services/caregiver-home-service-at-dhaka" element={<Caregiver />}></Route>
+            <Route path="/caregiver" element={<Caregiver />}></Route>
             <Route path="/services/find-nanny-service-in-dhaka" element={<Nanycare />}></Route>
             <Route path="/services/companionship" element={<Companionship />}></Route>
             <Route

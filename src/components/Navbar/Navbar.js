@@ -91,8 +91,8 @@ const Navbar = () => {
                 <NavItemLink to="/services/home-nursing-care" label="Nursing" />
                 <NavItemLink to="/service/physiotherapy-at-home" label="Physiotherapy" />
                 <NavItemLink to="/service/home-care-medical-assistant" label="Medical Assistant" />
-                <NavItemLink to="/services/medical-caregiver-at-dhaka" label="Medical Caregiver" />
-                <NavItemLink to="/services/caregiver-home-service-at-dhaka" label="Caregiver" />
+                <NavItemLink to="/services/medical-caregiver" label="Medical Caregiver" />
+                <NavItemLink to="/caregiver" label="Caregiver" />
                 <NavItemLink to="/services/find-nanny-service-in-dhaka" label="Nanycare" />
                 <NavItemLink to="/services/companionship" label="Companion" />
                 <NavItemLink to="/medical-equipment" label="Medical Equipment" />
@@ -139,13 +139,13 @@ const Navbar = () => {
             {/* SERVICES INDIVIDUAL SEPARATION GROUP */}
             <li className="text-gray-400 text-xs font-bold uppercase tracking-wider mt-4 px-2 mb-1 border-b border-white/10 pb-1">Our Services</li>
             <NavItemLink to="/services/home-nursing-care" label="Nursing" />
-            <NavItemLink to="/physiotherapy" label="Physiotherapy" />
-            <NavItemLink to="/medical-assistant" label="Medical Assistant" />
-            <NavItemLink to="/medical-caregiver" label="Medical Caregiver" />
-            <NavItemLink to="/caregiver" label="Caregiver" />
-            <NavItemLink to="/nanycare" label="Nanycare" />
-            <NavItemLink to="/companion" label="Companion" />
-            <NavItemLink to="/medical-equipment" label="Medical Equipment" />
+                <NavItemLink to="/service/physiotherapy-at-home" label="Physiotherapy" />
+                <NavItemLink to="/service/home-care-medical-assistant" label="Medical Assistant" />
+                <NavItemLink to="/services/medical-caregiver" label="Medical Caregiver" />
+                <NavItemLink to="/caregiver" label="Caregiver" />
+                <NavItemLink to="/services/find-nanny-service-in-dhaka" label="Nanycare" />
+                <NavItemLink to="/services/companionship" label="Companion" />
+                <NavItemLink to="/medical-equipment" label="Medical Equipment" />
 
             {/* CORE INDIVIDUAL LINK SEPARATIONS */}
             <li className="text-gray-400 text-xs font-bold uppercase tracking-wider mt-4 px-2 mb-1 border-b border-white/10 pb-1">More Links</li>
