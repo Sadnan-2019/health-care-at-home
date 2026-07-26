@@ -7,6 +7,7 @@ import Physioabout from "./Physioabout";
 import Recovery from "./Recovery";
 import Teamphysio from "./Teamphysio";
 import { Helmet } from "react-helmet-async";
+import WhyChoosePhysio from "./WhyChoosePhysio";
 
 const Physiotherapy = () => {
   return (
@@ -37,6 +38,8 @@ const Physiotherapy = () => {
       </Helmet>
       <Landingphsio />
       <Physioabout />
+      <WhyChoosePhysio></WhyChoosePhysio>
+      
       <Recovery></Recovery>
       <Review></Review>
       <Success></Success>

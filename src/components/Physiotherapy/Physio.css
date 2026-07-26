@@ -1,24 +1,18 @@
 .physio {
-     background-image: linear-gradient(
-         to left,
-         rgba(243, 238, 234, 0),
-         rgba(248, 251, 251, 0.500)
-       ),
-       url("../../assets/phsyiolanding.jpg");
-   
-     background-repeat: no-repeat;
-     background-size: cover;
-   
-     height: auto;
-     background-position: center;
-     /* background-attachment: fixed; */
-   }
+  background-image:
+    linear-gradient(to left, rgb(248, 251, 251, 0.5), rgba(13, 13, 13, 0.801)),
+    url("../../assets/phsyiolanding.jpg");
 
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  /* background-attachment: fixed; */
+}
 
+/* ///media query */
 
-   /* ///media query */
-
-   /* @media only screen and (max-width: 375px) {
+/* @media only screen and (max-width: 375px) {
     .physio {
       width: 100%;
       background-image: linear-gradient(
