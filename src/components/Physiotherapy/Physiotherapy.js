@@ -8,6 +8,9 @@ import Recovery from "./Recovery";
 import Teamphysio from "./Teamphysio";
 import { Helmet } from "react-helmet-async";
 import WhyChoosePhysio from "./WhyChoosePhysio";
+import AboutHomePhysiotherapy from "./AboutHomePhysiotherapy";
+import TreatmentProcess from "./TreatmentProcess";
+import Faq from "../Faq/Faq";
 
 const Physiotherapy = () => {
   return (
@@ -39,11 +42,13 @@ const Physiotherapy = () => {
       <Landingphsio />
       <Physioabout />
       <WhyChoosePhysio></WhyChoosePhysio>
-      
-      <Recovery></Recovery>
+      <AboutHomePhysiotherapy></AboutHomePhysiotherapy>
+     <TreatmentProcess></TreatmentProcess>
       <Review></Review>
       <Success></Success>
       <Marque></Marque>
+       <Recovery></Recovery>
+       <Faq></Faq>
       <Teamphysio></Teamphysio>
     </div>
   );

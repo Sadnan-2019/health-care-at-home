@@ -179,11 +179,13 @@ const Caregiver = () => {
         <Caregiverlanding />
         <Caregiverabout />
         <WhoNeedsCaregiver />
-        <Faq />
-        <Recoverycaregiver />
+      
+        
         <Review />
         <Success />
         <Marque />
+        <Recoverycaregiver />
+          <Faq />
         <Teamcaregiver />
       </div>
     </>

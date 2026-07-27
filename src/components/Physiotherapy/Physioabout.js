@@ -5,8 +5,6 @@ import {
   FaRunning,
   FaLungs,
   FaWheelchair,
-} from "react-icons/fa";
-import {
   FaPhoneVolume,
   FaWhatsapp,
   FaCheckCircle,
@@ -84,82 +82,49 @@ const Physioabout = () => {
 
   {/* Small Badge */}
 
-  <div
-    data-aos="fade-up"
-    className="inline-flex items-center px-4 py-2 rounded-full bg-[#453364]/10 text-[#453364] font-semibold text-sm mb-5"
-  >
-    Home Physiotherapy Services in Dhaka
-  </div>
+   <div>
+            <span className="inline-flex items-center px-4 py-2 rounded-full bg-[#453364]/10 text-[#453364] text-sm font-semibold">
+              Physiotherapy Home Service in Dhaka
+            </span>
 
-  {/* H2 */}
+            <h2 className="mt-6 text-3xl md:text-5xl font-bold leading-tight text-[#453364]">
+              Expert Home Physiotherapy for Pain Relief & Rehabilitation
+            </h2>
 
-  <h2
-    data-aos="fade-up"
-    data-aos-delay="100"
-    className="text-[28px] md:text-[38px] lg:text-[45px] font-bold leading-tight text-[#453364]"
-  >
-    Home Physiotherapy for
-    <br />
-    Pain Relief & Rehabilitation
-  </h2>
+            <p className="mt-6 text-gray-600 leading-8 text-justify">
+              Our <strong>Physiotherapy Home Service in Dhaka</strong> provides
+              personalized treatment for patients recovering from injuries,
+              surgery, stroke, arthritis, and other mobility problems. Our
+              experienced <strong>physiotherapists at home</strong> assess your
+              condition and create an evidence-based rehabilitation plan to
+              reduce pain, improve movement, and restore independence.
+            </p>
 
-  {/* Paragraph */}
+            <p className="mt-5 text-gray-600 leading-8 text-justify">
+              Whether you need <strong>back pain treatment</strong>,
+              <strong> neck pain physiotherapy</strong>,
+              <strong> stroke rehabilitation</strong>,
+              <strong> sports injury rehabilitation</strong>, or
+              <strong> post-surgery physiotherapy</strong>, we deliver
+              professional home physiotherapy services throughout Dhaka with
+              patient-centered care.
+            </p>
 
-  <p
-    data-aos="fade-up"
-    data-aos-delay="200"
-    className="mt-6 text-gray-600 leading-8 text-[17px] text-justify"
-  >
-    Our <strong>home physiotherapy service in Dhaka</strong> helps patients
-    recover safely and comfortably without travelling to a clinic.
-    Experienced physiotherapists assess your condition, create a
-    personalized treatment plan, and provide evidence-based rehabilitation
-    using therapeutic exercises, manual therapy, stretching techniques,
-    mobility training, and modern physiotherapy equipment. Whether you are
-    recovering from a stroke, surgery, sports injury, or managing chronic
-    pain, we are committed to improving your movement, reducing pain, and
-    restoring independence in the comfort of your home.
-  </p>
-
-  {/* Quick Benefits */}
-
-  <div
-    data-aos="fade-up"
-    data-aos-delay="300"
-    className="mt-8 space-y-3"
-  >
-
-    <div className="flex items-center gap-3">
-
-      <FaCheckCircle className="text-green-600 flex-shrink-0" />
-
-      <span className="text-gray-700">
-        Personalized treatment plans for every patient
-      </span>
-
-    </div>
-
-    <div className="flex items-center gap-3">
-
-      <FaCheckCircle className="text-green-600 flex-shrink-0" />
-
-      <span className="text-gray-700">
-        Effective pain relief and mobility improvement
-      </span>
-
-    </div>
-
-    <div className="flex items-center gap-3">
-
-      <FaCheckCircle className="text-green-600 flex-shrink-0" />
-
-      <span className="text-gray-700">
-        Professional home visits across Dhaka
-      </span>
-
-    </div>
-
-  </div>
+            <div className="mt-8 space-y-4">
+              {[
+                "Certified & Experienced Physiotherapists",
+                "Personalized Home Rehabilitation Programs",
+                "Pain Relief & Mobility Improvement",
+                "Stroke, Orthopedic & Neurological Rehabilitation",
+                "Home Visits Across Dhaka",
+              ].map((item, index) => (
+                <div key={index} className="flex items-start gap-3">
+                  <FaCheckCircle className="text-green-600 mt-1 flex-shrink-0" />
+                  <span className="text-gray-700">{item}</span>
+                </div>
+              ))}
+            </div>
+          </div>
 
 </div>
         <div className="lg:ml-8 mt-10">
@@ -169,27 +134,23 @@ const Physioabout = () => {
     {conditions.map((item, index) => (
 
       <div
-        key={index}
-        data-aos="zoom-in"
-        data-aos-delay={index * 100}
-        className="bg-[#F5F1EA] rounded-2xl p-6 hover:shadow-xl hover:-translate-y-2 duration-300 text-center"
-      >
+  key={index}
+  data-aos="zoom-in"
+  data-aos-delay={index * 100}
+  className="bg-[#F5F1EA] rounded-2xl p-6 hover:shadow-xl hover:-translate-y-2 duration-300 text-center"
+>
+  <div className="flex justify-center mb-5 text-[#453364]">
+    {item.icon}
+  </div>
 
-        <img
-          src={item.icon}
-          alt={item.title}
-          className="w-16 h-16 mx-auto mb-5"
-        />
+  <h3 className="text-lg font-bold text-[#453364]">
+    {item.title}
+  </h3>
 
-        <h3 className="text-lg font-bold text-[#453364]">
-          {item.title}
-        </h3>
-
-        <p className="text-sm text-gray-600 leading-6 mt-3">
-          {item.description}
-        </p>
-
-      </div>
+  <p className="text-sm text-gray-600 leading-6 mt-3">
+    {item.description}
+  </p>
+</div>
 
     ))}
 
