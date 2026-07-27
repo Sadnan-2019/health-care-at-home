@@ -1,9 +1,5 @@
 .caregiver {
-    background-image: linear-gradient(
-        to left,
-        rgba(243, 238, 234, 0),
-        rgba(248, 251, 251, 0.650)
-      ),
+    background-image: linear-gradient(to left, rgb(248, 251, 251, 0.5), rgba(13, 13, 13, 0.801)),
       url("../../assets/caregiverlanding.png");
   
     background-repeat: no-repeat;

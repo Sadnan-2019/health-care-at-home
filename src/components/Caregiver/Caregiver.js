@@ -177,16 +177,26 @@ const Caregiver = () => {
 
       <div>
         <Caregiverlanding />
-        <Caregiverabout />
-        <WhoNeedsCaregiver />
-      
-        
-        <Review />
-        <Success />
-        <Marque />
-        <Recoverycaregiver />
-          <Faq />
-        <Teamcaregiver />
+
+<Caregiverabout />
+
+<WhoNeedsCaregiver />
+
+ 
+
+<Recoverycaregiver />
+
+<Success />
+
+<Review />
+
+<Teamcaregiver />
+
+<Marque />
+
+<Faq />
+
+ 
       </div>
     </>
   );

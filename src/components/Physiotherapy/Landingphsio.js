@@ -2,7 +2,7 @@ import React from "react";
 import { FaPhoneAlt, FaWhatsapp, FaCalendarCheck, FaCheckCircle } from "react-icons/fa";
 import "./Physio.css";
 
-const HeroPhysio = () => {
+const   HeroPhysio = () => {
   const conditions = [
     "Stroke Rehab",
     "Back Pain",
