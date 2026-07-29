@@ -112,19 +112,19 @@ function App() {
           <Routes key={location.pathname}>
             <Route path="/home" element={<Home />}></Route>
             <Route path="/" element={<Home />}></Route>
-            <Route path="/services/home-nursing-care" element={<Nursing />}></Route>
-            <Route path="/service/physiotherapy-at-home" element={<Physiotherapy />}></Route>
+            <Route path="/nursing" element={<Nursing />}></Route>
+            <Route path="/physiotherapy" element={<Physiotherapy />}></Route>
             <Route
               path="/service/home-care-medical-assistant"
               element={<Medicalassistant />}
             ></Route>
             <Route
-              path="/services/medical-caregiver"
+              path="/medical-caregiver"
               element={<Medicalcaregiver />}
             ></Route>
             <Route path="/caregiver" element={<Caregiver />}></Route>
             <Route path="/services/find-nanny-service-in-dhaka" element={<Nanycare />}></Route>
-            <Route path="/services/companionship" element={<Companionship />}></Route>
+            <Route path="/companionship" element={<Companionship />}></Route>
             <Route
               path="/medical-equipment"
               element={<Medicalequipment />}

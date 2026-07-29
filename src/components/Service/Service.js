@@ -18,7 +18,7 @@ const Service = () => {
  const servicesData = [
   {
     id: "service-home-nursing",
-    slug: "/services/home-nursing-care",
+    slug: "/nursing",
     title: "Home Nursing Care",
     image: nurseservice,
     altText:
@@ -44,7 +44,7 @@ const Service = () => {
 
   {
     id: "service-home-physiotherapy",
-    slug: "/service/physiotherapy-at-home",
+    slug: "/physiotherapy",
     title: "Home Physiotherapy",
     image: physio,
     altText:
@@ -94,7 +94,7 @@ const Service = () => {
 
   {
     id: "service-medical-caregiver",
-    slug: "/services/medical-caregiver-at-dhaka",
+    slug: "/medical-caregiver",
     title: "Medical Caregiver",
     image: medicalcaregiver,
     altText:
@@ -119,7 +119,7 @@ const Service = () => {
 
   {
   id: "service-caregiver",
-  slug: "/services/caregiver ",
+  slug: "/caregiver ",
   title: "Home Caregiver Service",
   image: caregiver,
   altText:
@@ -169,7 +169,7 @@ const Service = () => {
 
 {
   id: "service-companionship",
-  slug: "/services/companionship",
+  slug: "/companionship",
   title: "Senior Companionship",
   image: companionship,
   altText:

@@ -88,13 +88,13 @@ const Navbar = () => {
                 </svg>
               </button>
               <ul className={`custom-dropdown-menu ${activeDropdown === "services" ? "show" : ""}`}>
-                <NavItemLink to="/services/home-nursing-care" label="Nursing" />
-                <NavItemLink to="/service/physiotherapy-at-home" label="Physiotherapy" />
+                <NavItemLink to="/nursing" label="Nursing" />
+                <NavItemLink to="/physiotherapy" label="Physiotherapy" />
                 <NavItemLink to="/service/home-care-medical-assistant" label="Medical Assistant" />
-                <NavItemLink to="/services/medical-caregiver" label="Medical Caregiver" />
+                <NavItemLink to="/medical-caregiver" label="Medical Caregiver" />
                 <NavItemLink to="/caregiver" label="Caregiver" />
                 <NavItemLink to="/services/find-nanny-service-in-dhaka" label="Nanycare" />
-                <NavItemLink to="/services/companionship" label="Companion" />
+                <NavItemLink to="companionship" label="Companion" />
                 <NavItemLink to="/medical-equipment" label="Medical Equipment" />
               </ul>
             </li>
