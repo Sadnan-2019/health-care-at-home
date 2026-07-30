@@ -1,6 +1,6 @@
 import React from "react";
 import { Helmet } from "react-helmet-async";
-
+ 
 const FooterAbout = () => {
   return (
     <div>
@@ -18,6 +18,9 @@ const FooterAbout = () => {
         />
         <meta property="og:url" content="https://hcah.mrg.com.bd/about-us" />
       </Helmet>
+
+ 
+      
       <div className="">
         <h2
           className="mt-6 font-bold text-center blog sm:text-2xl lg:text-3xl poppins-b "

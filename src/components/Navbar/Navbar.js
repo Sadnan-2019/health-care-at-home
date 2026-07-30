@@ -90,10 +90,10 @@ const Navbar = () => {
               <ul className={`custom-dropdown-menu ${activeDropdown === "services" ? "show" : ""}`}>
                 <NavItemLink to="/nursing" label="Nursing" />
                 <NavItemLink to="/physiotherapy" label="Physiotherapy" />
-                <NavItemLink to="/service/home-care-medical-assistant" label="Medical Assistant" />
+                <NavItemLink to="//medical-assistant" label="Medical Assistant" />
                 <NavItemLink to="/medical-caregiver" label="Medical Caregiver" />
                 <NavItemLink to="/caregiver" label="Caregiver" />
-                <NavItemLink to="/services/find-nanny-service-in-dhaka" label="Nanycare" />
+                <NavItemLink to="/nanycare" label="Nanycare" />
                 <NavItemLink to="companionship" label="Companion" />
                 <NavItemLink to="/medical-equipment" label="Medical Equipment" />
               </ul>
@@ -102,7 +102,7 @@ const Navbar = () => {
             <NavItemLink to="/payment" label="Payment" />
             <NavItemLink to="/service-protocol" label="Our Service Protocol" />
             <NavItemLink to="/blog" label="Blog" />
-            <NavItemLink to="/about" label="About" />
+            <NavItemLink to="/about-fotter" label="About" />
             <NavItemLink to="/contact" label="Contact" />
 
           </ul>

@@ -115,7 +115,7 @@ function App() {
             <Route path="/nursing" element={<Nursing />}></Route>
             <Route path="/physiotherapy" element={<Physiotherapy />}></Route>
             <Route
-              path="/service/home-care-medical-assistant"
+              path="/medical-assistant"
               element={<Medicalassistant />}
             ></Route>
             <Route
@@ -123,7 +123,7 @@ function App() {
               element={<Medicalcaregiver />}
             ></Route>
             <Route path="/caregiver" element={<Caregiver />}></Route>
-            <Route path="/services/find-nanny-service-in-dhaka" element={<Nanycare />}></Route>
+            <Route path="/nanycare" element={<Nanycare />}></Route>
             <Route path="/companionship" element={<Companionship />}></Route>
             <Route
               path="/medical-equipment"
@@ -159,7 +159,7 @@ function App() {
             ></Route>
             <Route path="/prognosis" element={<Prognosis />}></Route>
             <Route path="/living-with" element={<LivingWith />}></Route>
-            <Route path="/about-us" element={<FooterAbout />}></Route>
+            <Route path="/fotter-about" element={<FooterAbout />}></Route>
 
             <Route path="/about" element={<About />}></Route>
             <Route path="/contact" element={<Contact />}></Route>

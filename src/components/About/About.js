@@ -83,6 +83,7 @@ const About = () => {
         <meta property="og:url" content="https://hcah.mrg.com.bd/about-us" />
       </Helmet>
 
+ <About></About>
       <div
         className="max-w-4xl mx-auto text-center mb-14"
         data-aos="fade-up"
