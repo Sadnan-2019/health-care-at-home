@@ -21,10 +21,6 @@ import HypertensionSymtoms from "./components/Blog/HypertensionSymtoms";
 import HypermanagementTreatment from "./components/Blog/HypermanagementTreatment";
 import HyperPrevention from "./components/Blog/HyperPrevention";
 import HcahLanding from "./components/HcahLanding/HcahLanding";
-// import CookieConsent from "./components/CookieConsent/CookieConsent";
-
-import ReactPixel from "react-facebook-pixel";
-import { Helmet, HelmetProvider } from "react-helmet-async";
 import { lazy, Suspense } from "react";
 import load from "./assets/HCAHBD.png";
 import Protocol from "./components/Protocol/Protocol";
@@ -32,14 +28,7 @@ import HealthcareChatbot from "./components/HealthcareChatbot/HealthcareChatbot"
 // import New from './components/Nav/New';
  
 function App() {
-  const options = {
-    autoConfig: true,
-    debug: true,
-  };
-
-  ReactPixel.init("926835179569776", null, options);
-
-  ReactPixel.pageView();
+  
 
   const location = useLocation();
   // Function to delay component loading
@@ -159,7 +148,7 @@ function App() {
             ></Route>
             <Route path="/prognosis" element={<Prognosis />}></Route>
             <Route path="/living-with" element={<LivingWith />}></Route>
-            <Route path="/fotter-about" element={<FooterAbout />}></Route>
+            {/* <Route path="/fotter-about" element={<FooterAbout />}></Route> */}
 
             <Route path="/about" element={<About />}></Route>
             <Route path="/contact" element={<Contact />}></Route>
