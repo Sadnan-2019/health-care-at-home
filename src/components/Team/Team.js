@@ -159,7 +159,7 @@ const Team = () => {
           {expertSection.title}
         </h2>
 
-        <p className="mt-6 text-gray-200 text-base md:text-lg leading-8 max-w-3xl mx-auto">
+        <p className="mt-6 text-black  text-base md:text-lg leading-8 max-w-3xl mx-auto">
           {expertSection.description}
         </p>
 
