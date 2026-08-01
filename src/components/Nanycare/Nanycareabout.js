@@ -95,20 +95,20 @@ const Nanycareabout = () => {
             <div 
               data-aos="fade-up"
               data-aos-duration="1300"
-              className="bg-white p-6 sm:p-8 rounded-2xl shadow-sm border border-gray-100 hover:shadow-md transition-all duration-300"
+              className="bg-[#453364] p-6 sm:p-8 rounded-2xl shadow-sm border border-gray-100 hover:shadow-md transition-all duration-300"
             >
               <div className="flex items-center gap-4 mb-4">
-                <div className="p-3.5 rounded-xl bg-[#453364]/10 text-[#453364] text-2xl">
+                <div className="p-3.5 rounded-xl bg-[#453364]/10 text-white text-2xl">
                   <FaShower />
                 </div>
-                <h3 className="text-xl font-bold poppins-b text-gray-900">
+                <h3 className="text-xl font-bold poppins-b text-white">
                   1. Newborn Hygiene & Daily Grooming
                 </h3>
               </div>
-              <ul className="space-y-3 poppins-t text-sm sm:text-base text-gray-700 pl-2">
+              <ul className="space-y-3 poppins-t text-sm sm:text-base text-white pl-2">
                 <li className="flex items-start gap-3">
                   <span className="text-[#453364] font-bold mt-1">•</span>
-                  <span>Sponging and temperature-regulated <strong className="font-semibold text-[#453364]">safe bathing</strong> using hypoallergenic, baby-safe products.</span>
+                  <span>Sponging and temperature-regulated <strong className="font-semibold text-white">safe bathing</strong> using hypoallergenic, baby-safe products.</span>
                 </li>
                 <li className="flex items-start gap-3">
                   <span className="text-[#453364] font-bold mt-1">•</span>
@@ -116,7 +116,7 @@ const Nanycareabout = () => {
                 </li>
                 <li className="flex items-start gap-3">
                   <span className="text-[#453364] font-bold mt-1">•</span>
-                  <span>Proper <strong className="font-semibold text-[#453364]">diaper hygiene</strong>, barrier cream application, and diaper rash prevention protocols.</span>
+                  <span>Proper <strong className="font-semibold text-white">diaper hygiene</strong>, barrier cream application, and diaper rash prevention protocols.</span>
                 </li>
               </ul>
             </div>
@@ -125,27 +125,27 @@ const Nanycareabout = () => {
             <div 
               data-aos="fade-up"
               data-aos-duration="1400"
-              className="bg-white p-6 sm:p-8 rounded-2xl shadow-sm border border-gray-100 hover:shadow-md transition-all duration-300"
+              className="bg-[#453364] p-6 sm:p-8 rounded-2xl shadow-sm border border-gray-100 hover:shadow-md transition-all duration-300"
             >
               <div className="flex items-center gap-4 mb-4">
-                <div className="p-3.5 rounded-xl bg-[#453364]/10 text-[#453364] text-2xl">
+                <div className="p-3.5 rounded-xl bg-[#453364]/10 text-white text-2xl">
                   <FaUtensils />
                 </div>
-                <h3 className="text-xl font-bold poppins-b text-gray-900">
+                <h3 className="text-xl font-bold poppins-b text-white">
                   2. Infant Nutrition & Meal Administration
                 </h3>
               </div>
-              <ul className="space-y-3 poppins-t text-sm sm:text-base text-gray-700 pl-2">
+              <ul className="space-y-3 poppins-t text-sm sm:text-base text-white pl-2">
                 <li className="flex items-start gap-3">
-                  <span className="text-[#453364] font-bold mt-1">•</span>
+                  <span className="text-white font-bold mt-1">•</span>
                   <span>Breast milk handling, hygienic bottle preparation, and paced bottle-feeding techniques.</span>
                 </li>
                 <li className="flex items-start gap-3">
-                  <span className="text-[#453364] font-bold mt-1">•</span>
+                  <span className="text-white font-bold mt-1">•</span>
                   <span>Post-feeding positioning and thorough burping to prevent infant reflux and colic distress.</span>
                 </li>
                 <li className="flex items-start gap-3">
-                  <span className="text-[#453364] font-bold mt-1">•</span>
+                  <span className="text-white font-bold mt-1">•</span>
                   <span>Preparation of age-appropriate solid foods (weaning foods, purees, porridge) for infants aged 6 months and older.</span>
                 </li>
               </ul>
@@ -155,27 +155,27 @@ const Nanycareabout = () => {
             <div 
               data-aos="fade-up"
               data-aos-duration="1500"
-              className="bg-white p-6 sm:p-8 rounded-2xl shadow-sm border border-gray-100 hover:shadow-md transition-all duration-300"
+              className="bg-[#453364] p-6 sm:p-8 rounded-2xl shadow-sm border border-gray-100 hover:shadow-md transition-all duration-300"
             >
               <div className="flex items-center gap-4 mb-4">
-                <div className="p-3.5 rounded-xl bg-[#453364]/10 text-[#453364] text-2xl">
+                <div className="p-3.5 rounded-xl bg-[#453364]/10 text-white text-2xl">
                   <FaBrain />
                 </div>
-                <h3 className="text-xl font-bold poppins-b text-gray-900">
+                <h3 className="text-xl font-bold poppins-b text-white">
                   3. Developmental & Cognitive Engagement
                 </h3>
               </div>
-              <ul className="space-y-3 poppins-t text-sm sm:text-base text-gray-700 pl-2">
+              <ul className="space-y-3 poppins-t text-sm sm:text-base text-white pl-2">
                 <li className="flex items-start gap-3">
-                  <span className="text-[#453364] font-bold mt-1">•</span>
+                  <span className="text-white font-bold mt-1">•</span>
                   <span>Supervised tummy time sessions to strengthen neck, shoulder, and core muscles.</span>
                 </li>
                 <li className="flex items-start gap-3">
-                  <span className="text-[#453364] font-bold mt-1">•</span>
+                  <span className="text-white font-bold mt-1">•</span>
                   <span>Visual and auditory sensory stimulation using high-contrast cards, age-appropriate toys, and songs.</span>
                 </li>
                 <li className="flex items-start gap-3">
-                  <span className="text-[#453364] font-bold mt-1">•</span>
+                  <span className="text-white font-bold mt-1">•</span>
                   <span>Encouraging language exposure through interactive reading and vocal responses during awake windows.</span>
                 </li>
               </ul>
@@ -185,28 +185,28 @@ const Nanycareabout = () => {
             <div 
               data-aos="fade-up"
               data-aos-duration="1600"
-              className="bg-white p-6 sm:p-8 rounded-2xl shadow-sm border border-gray-100 hover:shadow-md transition-all duration-300"
+              className="bg-[#453364] p-6 sm:p-8 rounded-2xl shadow-sm border border-gray-100 hover:shadow-md transition-all duration-300"
             >
               <div className="flex items-center gap-4 mb-4">
-                <div className="p-3.5 rounded-xl bg-[#453364]/10 text-[#453364] text-2xl">
+                <div className="p-3.5 rounded-xl bg-[#453364]/10 text-white text-2xl">
                   <FaNotesMedical />
                 </div>
-                <h3 className="text-xl font-bold poppins-b text-gray-900">
+                <h3 className="text-xl font-bold poppins-b text-white">
                   4. Health, Safety & Medical Support
                 </h3>
               </div>
-              <ul className="space-y-3 poppins-t text-sm sm:text-base text-gray-700 pl-2">
+              <ul className="space-y-3 poppins-t text-sm sm:text-base text-white pl-2">
                 <li className="flex items-start gap-3">
-                  <span className="text-[#453364] font-bold mt-1">•</span>
+                  <span className="text-white font-bold mt-1">•</span>
                   <span>Routine temperature, weight, and general physical condition tracking.</span>
                 </li>
                 <li className="flex items-start gap-3">
-                  <span className="text-[#453364] font-bold mt-1">•</span>
+                  <span className="text-white font-bold mt-1">•</span>
                   <span>Timely administration of prescribed medications or pediatric supplements.</span>
                 </li>
                 <li className="flex items-start gap-3">
-                  <span className="text-[#453364] font-bold mt-1">•</span>
-                  <span>Digital maintenance of <strong className="font-semibold text-[#453364]">vaccination reminders</strong> and pediatric appointment logs.</span>
+                  <span className="text-white font-bold mt-1">•</span>
+                  <span>Digital maintenance of <strong className="font-semibold text-white">vaccination reminders</strong> and pediatric appointment logs.</span>
                 </li>
               </ul>
             </div>
@@ -218,13 +218,13 @@ const Nanycareabout = () => {
       {/* -------------------------------------------------------------
           SECTION 5: NEWBORN BABY CARE AT HOME (NEONATAL CARE)
       ------------------------------------------------------------- */}
-      <section className="bg-white py-12 md:py-20">
+      <section className="bg-[#453364] py-12 md:py-20">
         <div className="container mx-auto px-6 sm:px-10 lg:px-16 max-w-6xl">
           
           <h2 
             data-aos="fade-up"
             className="text-2xl sm:text-3xl md:text-4xl font-bold poppins-b mb-6 text-left"
-            style={{ color: "#453364" }}
+            style={{ color: "white" }}
           >
             Newborn Baby Care at Home
           </h2>
@@ -232,9 +232,9 @@ const Nanycareabout = () => {
           <p 
             data-aos="fade-up"
             data-aos-duration="1200"
-            className="text-base sm:text-lg leading-relaxed poppins-t mb-10 text-gray-700 max-w-4xl"
+            className="text-base sm:text-lg leading-relaxed poppins-t mb-10 text-white max-w-4xl"
           >
-            The first 28 days of life—the neonatal period—are the most delicate phase of early development. Specialized <strong className="font-semibold text-[#453364]">newborn care at home</strong> focuses on protecting fragile immunity while establishing structured health patterns right from day one.
+            The first 28 days of life—the neonatal period—are the most delicate phase of early development. Specialized <strong className="font-semibold text-white">newborn care at home</strong> focuses on protecting fragile immunity while establishing structured health patterns right from day one.
           </p>
 
           {/* Neonatal Care Priorities Block */}
@@ -245,7 +245,7 @@ const Nanycareabout = () => {
           >
             <h3 
               className="text-lg sm:text-xl font-bold text-center poppins-b mb-8 tracking-wide border-b border-[#453364]/10 pb-4"
-              style={{ color: "#453364" }}
+              style={{ color: "black" }}
             >
               NEONATAL CARE PRIORITIES (0 – 28 DAYS)
             </h3>
