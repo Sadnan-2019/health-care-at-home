@@ -7,6 +7,8 @@ import Recoverynany from "./Recoverynany";
 import Teamnanycare from "./Teamnanycare";
 import Marque from "../Marque/Marque";
 import { Helmet } from "react-helmet-async";
+import InfantToddlerCare from "./InfantToddlerCare";
+import NannyCareBenefits from "./NannyCareBenefits";
 
 const Nanycare = () => {
   return (
@@ -37,6 +39,8 @@ const Nanycare = () => {
       </Helmet>
       <Nanycarelanding />
       <Nanycareabout />
+      <InfantToddlerCare></InfantToddlerCare>
+      <NannyCareBenefits></NannyCareBenefits>
       <Recoverynany />
       <Review />
       <Success />
