@@ -9,6 +9,11 @@ import Marque from "../Marque/Marque";
 import { Helmet } from "react-helmet-async";
 import InfantToddlerCare from "./InfantToddlerCare";
 import NannyCareBenefits from "./NannyCareBenefits";
+import BabyCareRoutine from "./BabyCareRoutine";
+import SafeFeedingAndSleep from "./SafeFeedingAndSleep";
+import NannycareSelection from "./NannySelection";
+import ServiceAreasBangladesh from "./ServiceAreasBangladesh.js";
+import BabyCarePricingBD from "./BabyCarePricingBD.js";
 
 const Nanycare = () => {
   return (
@@ -41,6 +46,11 @@ const Nanycare = () => {
       <Nanycareabout />
       <InfantToddlerCare></InfantToddlerCare>
       <NannyCareBenefits></NannyCareBenefits>
+      <BabyCareRoutine></BabyCareRoutine>
+      <SafeFeedingAndSleep></SafeFeedingAndSleep>
+    <NannycareSelection></NannycareSelection>
+    <ServiceAreasBangladesh></ServiceAreasBangladesh>
+    <BabyCarePricingBD></BabyCarePricingBD>
       <Recoverynany />
       <Review />
       <Success />
