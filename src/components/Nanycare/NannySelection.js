@@ -59,8 +59,8 @@ const NannycareSelection = () => {
             Trusted Baby Care at Home
           </span>
           <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold poppins-b mb-4 text-gray-900">
-            How We Select &amp; Train Caregivers
-          </h2>
+  How We Select & Train Professional Nannies & Baby Caregivers
+</h2>
           <p className="text-base sm:text-lg poppins-t text-gray-600 leading-relaxed">
             To ensure complete home safety and exceptional care quality, our hiring framework follows a rigorous 4-step vetting process before placing any professional baby care specialist in your home.
           </p>
@@ -211,8 +211,8 @@ const NannycareSelection = () => {
         >
           <div className="max-w-2xl text-center md:text-left">
             <span className="text-xs uppercase tracking-widest text-purple-200 font-bold bg-white/10 px-3 py-1 rounded-full inline-block mb-3">
-              Verified &amp; Insured Caregivers
-            </span>
+  Verified &amp; Trained Nannies
+</span>
             <h3 className="text-xl sm:text-2xl md:text-3xl font-bold poppins-b mb-3">
               Find a Verified Baby Care Specialist Near You
             </h3>

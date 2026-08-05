@@ -1,103 +1,120 @@
 import React from "react";
+
+// Asset Imports
 import babyfeed from "../../assets/nanysrecovery.jpg";
-// import orthopedic from "../../assets/orthopedic.jpg";
-import grooming from "../../assets/grooming.jpg";
-import feeding from "../../assets/feeding.jpg";
 import babygrooming from "../../assets/baby-grooming.jpg";
 import babysleep from "../../assets/babyslepping.jpg";
 import diaper from "../../assets/babydiaper.jpg";
+
 const Recoverynany = () => {
+  // Service Card Data structured with keywords and semantic copy
+  const services = [
+    {
+      id: "infant-feeding",
+      image: babyfeed,
+      alt: "Professional nanny providing infant care feeding in Bangladesh",
+      title: "Infant Feeding & Nutrition",
+      description:
+        "Our trained nannies assist with bottle feeding, proper burping techniques after every meal, and hygienic preparation of age-appropriate semisolid foods and vegetable purees."
+    },
+    {
+      id: "baby-grooming",
+      image: babygrooming,
+      alt: "Nanny performing baby grooming and safe bathing at home in Dhaka",
+      title: "Baby Grooming & Hygiene",
+      description:
+        "Maintaining essential infant hygiene including gentle nail trimming, soft hair grooming, sponge baths, complete bathing, and early oral/gum care routines."
+    },
+    {
+      id: "sleep-routine",
+      image: babysleep,
+      alt: "Newborn baby care at home showing managed baby sleep routine",
+      title: "Baby Sleep Routine Management",
+      description:
+        "Establishing healthy, safe baby sleep routines. Our newborn caregivers ensure babies receive recommended rest hours and safe sleep monitoring essential for early childhood development."
+    },
+    {
+      id: "diaper-care",
+      image: diaper,
+      alt: "Child care at home caregiver managing diaper hygiene and care",
+      title: "Diaper Hygiene & Skin Care",
+      description:
+        "Prompt diaper changes, anti-rash hygiene maintenance, thorough cleansing, and daily warm sponge bathing to keep your baby clean, comfortable, and healthy."
+    }
+  ];
+
+  // Schema.org Structured Data for Services
+  const schemaData = {
+    "@context": "https://schema.org",
+    "@type": "ItemList",
+    "name": "Nanny & Baby Care Home Services in Bangladesh",
+    "description": "Comprehensive infant care at home services including feeding, grooming, sleep routine management, and diaper hygiene.",
+    "itemListElement": services.map((service, index) => ({
+      "@type": "ListItem",
+      "position": index + 1,
+      "name": service.title,
+      "description": service.description
+    }))
+  };
+
   return (
-    <div>
-      <div className="py-12 blog">
-        <div className=" md:py-20 py-10 lg:py-10 lg:mx-16 mx-8 grid-cols-1 lg:grid-cols-1 text-left md:ml-8 lg:order-1 order-2 mt-10 lg:mt-0">
-          <p
-            className="lg:text-[43px] md:text-[30px] font-bold text-[26px] text-left poppins-b "
-            style={{ lineHeight: "120%", color: "#453364" }}
-          >
-            Recovery Programs
-          </p>
+    <section className="py-12 md:py-16 bg-white font-sans" aria-labelledby="nanny-services-heading">
+      
+      {/* Inject Schema.org JSON-LD for rich snippet rankings */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
+      />
 
-          <p className=" mt-7  md:text-[20px] lg:text-[27px] poppins-t text-gray-600 text-justify ">
-            Every patient is unique. So is every care journey. But our process &
-            quality are always consistent.
+      <div className="container mx-auto px-6 sm:px-10 lg:px-16 max-w-7xl">
+        
+        {/* Section Header */}
+        <div className="max-w-3xl mb-10 md:mb-14">
+          <span className="text-xs sm:text-sm font-bold uppercase tracking-widest text-[#453364] bg-[#453364]/10 px-3.5 py-1.5 rounded-full inline-block mb-3">
+            Professional Childcare Programs
+          </span>
+          <h2 
+            id="nanny-services-heading" 
+            className="text-2xl sm:text-3xl md:text-4xl font-bold text-[#453364] leading-tight mb-4"
+          >
+            Comprehensive Baby Care & Nanny Services in Bangladesh
+          </h2>
+          <p className="text-base sm:text-lg text-gray-600 leading-relaxed">
+            Every newborn and child is unique. Our professional baby caregivers follow structured, safe, and hygienic care routines tailored specifically to your baby&apos;s daily growth and home environment.
           </p>
         </div>
 
-        <div className="grid sm:grid-cols-1 mx-12 md:grid-cols-2 lg:grid-cols-4 gap-5">
-          <div
-            className="rounded-lg card	border-[1px] w-15	 border-solid	p-5"
-            style={{ backgroundColor: "#F5F1EA", borderColor: "#F5F1EA" }}
-          >
-            <img
-              src={babyfeed}
-              alt="Shoes"
-              className="rounded-xl w-15 h-32"
-              style={{ color: "#453364" }}
-            />
-            <p className="poppins-t text-xl text-black mt-5 ">
-              Feeding the baby
-            </p>
-            <p className="poppins-t text-black text-justify ">
-              The nannies feeds the baby orally or with bottle. They do not
-              forget to burb the baby after each feeding.They give semisolid
-              food with some vegetables.
-            </p>
-          </div>
-          <div
-            className="rounded-lg card	border-[1px] w-15	 border-solid	p-5"
-            style={{ backgroundColor: "#F5F1EA", borderColor: "#F5F1EA" }}
-          >
-            <img
-              src={babygrooming}
-              alt="Shoes"
-              className="rounded-xl w-15 h-32"
-              style={{ color: "#453364" }}
-            />
-            <p className="poppins-t text-xl text-black mt-5 ">
-              Grooming the baby
-            </p>
-            <p className="poppins-t text-black text-justify ">
-              Fixing the hair,nibbling the nails,sponging & bathing.Maintain
-              the tooth hygiene.
-            </p>
-          </div>
-          <div
-            className="rounded-lg card	border-[1px] w-15	 border-solid	p-5"
-            style={{ backgroundColor: "#F5F1EA", borderColor: "#F5F1EA" }}
-          >
-            <img
-              src={babysleep}
-              alt="Shoes"
-              className="rounded-xl h-32 w-15"
-              style={{ color: "#453364" }}
-            />
-            <p className="poppins-t text-xl text-black mt-5 ">Sleeping schedule</p>
-            <p className="poppins-t text-black text-justify ">
-              Babies must  sleep at least 12h a day.Our nannies make sure of that.
-              New research shows baby should sleep on chest for some time of the day.
-              This is important for babies growth.
-            </p>
-          </div>
-          <div
-            className="rounded-lg card	border-[1px] w-15	 border-solid	p-5"
-            style={{ backgroundColor: "#F5F1EA", borderColor: "#F5F1EA" }}
-          >
-            <img
-              src={diaper}
-              alt="Shoes"
-              className="rounded-xl w-15 h-32"
-              style={{ color: "#453364" }}
-            />
-            <p className="poppins-t text-xl text-black mt-5 ">Diaper Change  </p>
-            <p className="poppins-t text-black text-justify ">
-              Our babysitter will change diapers & clean the baby.They also 
-              sponge & give bath to the baby.
-            </p>
-          </div>
+        {/* Services Grid */}
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+          {services.map((service) => (
+            <article
+              key={service.id}
+              className="bg-[#F5F1EA] rounded-2xl p-5 border border-amber-100/60 shadow-sm hover:shadow-md transition-all duration-200 flex flex-col justify-between"
+            >
+              <div>
+                <div className="overflow-hidden rounded-xl h-44 mb-5">
+                  <img
+                    src={service.image}
+                    alt={service.alt}
+                    className="w-full h-full object-cover transition-transform duration-300 hover:scale-105"
+                    loading="lazy"
+                  />
+                </div>
+
+                <h3 className="text-lg font-bold text-gray-900 mb-2">
+                  {service.title}
+                </h3>
+
+                <p className="text-sm text-gray-700 leading-relaxed">
+                  {service.description}
+                </p>
+              </div>
+            </article>
+          ))}
         </div>
+
       </div>
-    </div>
+    </section>
   );
 };
 

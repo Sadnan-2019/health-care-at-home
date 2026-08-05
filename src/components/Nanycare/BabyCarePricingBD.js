@@ -79,7 +79,7 @@ const BabyCarePricingBD = () => {
             Baby Care Service Price in Bangladesh
           </h2>
           <p className="text-base sm:text-lg poppins-t text-gray-600 leading-relaxed">
-            Understanding the <strong>baby care service price in Bangladesh</strong> helps families choose the right service model for their household budget. Costs vary based on caregiver qualifications, duty duration, and specialized medical needs.
+            Understanding the <strong>baby care service price in Bangladesh</strong> helps families choose the right service model for their household budget. Costs vary based on babysitter and nannies  qualifications, duty duration, and specialized medical needs.
           </p>
         </div>
 
@@ -144,7 +144,7 @@ const BabyCarePricingBD = () => {
             <div className="flex gap-3">
               <FaCheckCircle className="text-emerald-500 text-base shrink-0 mt-0.5" />
               <div>
-                <strong className="text-gray-900 block poppins-b mb-0.5">Caregiver Experience</strong>
+                <strong className="text-gray-900 block poppins-b mb-0.5">Babysitter  Experience</strong>
                 Certified diploma nurses and senior nannies command higher tier pricing than basic babysitters.
               </div>
             </div>

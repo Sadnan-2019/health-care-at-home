@@ -193,7 +193,7 @@ const InfantToddlerCare = () => {
               Structured Safety &amp; Responsive Caregiving
             </h4>
             <p className="text-base leading-relaxed poppins-t text-gray-700">
-              For toddlers, our trained caregivers focus on childproofing home spaces, supervising active play to prevent indoor injuries, establishing structured daily routines, and supporting early language acquisition through <strong className="font-semibold text-[#453364]">responsive caregiving</strong>.
+              For toddlers, our trained babysitter focus on childproofing home spaces, supervising active play to prevent indoor injuries, establishing structured daily routines, and supporting early language acquisition through <strong className="font-semibold text-[#453364]">responsive babysitting</strong>.
             </p>
           </div>
         </div>

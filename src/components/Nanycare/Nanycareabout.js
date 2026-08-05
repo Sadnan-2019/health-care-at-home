@@ -295,9 +295,9 @@ const Nanycareabout = () => {
           <p 
             data-aos="fade-up"
             data-aos-duration="1600"
-            className="text-base sm:text-lg leading-relaxed poppins-t text-gray-700 max-w-4xl"
+            className="text-base sm:text-lg leading-relaxed poppins-t text-white max-w-4xl"
           >
-            Our specialized <strong className="font-semibold text-[#453364]">newborn caregivers</strong> implement medical-grade sanitization protocols before every handling session. They assist with early latching difficulties, manage sleep-wake confusion, and spot early signs of neonatal distress—such as infant jaundice, dehydration, or respiratory changes—ensuring immediate medical escalation if needed.
+            Our specialized <strong className="font-semibold text-white">newborn caregivers</strong> implement medical-grade sanitization protocols before every handling session. They assist with early latching difficulties, manage sleep-wake confusion, and spot early signs of neonatal distress—such as infant jaundice, dehydration, or respiratory changes—ensuring immediate medical escalation if needed.
           </p>
 
         </div>

@@ -14,6 +14,10 @@ import SafeFeedingAndSleep from "./SafeFeedingAndSleep";
 import NannycareSelection from "./NannySelection";
 import ServiceAreasBangladesh from "./ServiceAreasBangladesh.js";
 import BabyCarePricingBD from "./BabyCarePricingBD.js";
+import NannyVsBabysitterVsNurse from "./NannyVsBabysitterVsNurse.js";
+import WhyChooseUs from "./WhyChooseUs.js";
+import Faq from "../Faq/Faq.js";
+import FAQSection from "./FAQSection.js";
 
 const Nanycare = () => {
   return (
@@ -51,11 +55,15 @@ const Nanycare = () => {
     <NannycareSelection></NannycareSelection>
     <ServiceAreasBangladesh></ServiceAreasBangladesh>
     <BabyCarePricingBD></BabyCarePricingBD>
+    <NannyVsBabysitterVsNurse></NannyVsBabysitterVsNurse>
+    <WhyChooseUs></WhyChooseUs>
+    
       <Recoverynany />
       <Review />
       <Success />
       <Marque />
       <Teamnanycare />
+       <FAQSection></FAQSection>
     </div>
   );
 };

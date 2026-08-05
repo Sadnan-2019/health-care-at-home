@@ -33,8 +33,10 @@ const ServiceAreasBangladesh = () => {
     { title: "Baby Care Service in Uttara", desc: "Specialized baby care package coverage across Sectors 1–18." },
     { title: "Baby Care Service in Dhanmondi", desc: "Reliable home nanny care and pediatric hygiene assistance." },
     { title: "Baby Care Service in Bashundhara", desc: "Full-day & night-shift baby care specialists in Bashundhara R/A." },
-    { title: "Baby Care Service in Mirpur", desc: "Professional child care at home and full-time trained caregivers." }
-  ];
+{ 
+  title: "Baby Care Service in Mirpur", 
+  desc: "Professional child care at home with full-time trained nannies and baby care specialists." 
+}  ];
 
   return (
     <section className="bg-slate-50 py-12 md:py-20 font-sans text-gray-800">
@@ -69,8 +71,8 @@ const ServiceAreasBangladesh = () => {
           </div>
 
           <p className="text-sm sm:text-base poppins-t text-gray-700 leading-relaxed mb-8 max-w-4xl">
-            Our certified caregivers provide comprehensive <strong>newborn care at home</strong> and trained nanny services across every major neighborhood in Dhaka City, including Baridhara, Mohammadpur, Lalmatia, Malibagh, Nikunja, and Old Dhaka.
-          </p>
+  Our verified nannies and baby care specialists provide comprehensive <strong>newborn care at home</strong> and professional baby sitting services across every major neighborhood in Dhaka City, including Baridhara, Mohammadpur, Lalmatia, Malibagh, Nikunja, and Old Dhaka.
+</p>
 
           {/* GRID FOR H3 DHAKA SPECIFIC NEIGHBORHOODS */}
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
