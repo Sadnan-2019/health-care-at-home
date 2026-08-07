@@ -54,7 +54,7 @@ const Nanycare = () => {
       <SafeFeedingAndSleep></SafeFeedingAndSleep>
     <NannycareSelection></NannycareSelection>
     <ServiceAreasBangladesh></ServiceAreasBangladesh>
-    <BabyCarePricingBD></BabyCarePricingBD>
+    {/* <BabyCarePricingBD></BabyCarePricingBD> */}
     <NannyVsBabysitterVsNurse></NannyVsBabysitterVsNurse>
     <WhyChooseUs></WhyChooseUs>
     

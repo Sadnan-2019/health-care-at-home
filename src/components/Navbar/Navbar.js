@@ -112,7 +112,7 @@ const Navbar = () => {
         <div className="flex flex-1 lg:flex-initial justify-end">
           <a
             className="flex items-center justify-between gap-2 px-4 py-2 bg-green-500 hover:bg-green-600 text-white font-bold rounded-full text-xs shadow transition-all transform hover:scale-105 animate-pulse whitespace-nowrap"
-            href="https://wa.me/+8801619848555"
+            href="https://wa.me/8801619848555"
             target="_blank"
             rel="noopener noreferrer"
             title="WHATSAPP CHAT"
@@ -125,7 +125,7 @@ const Navbar = () => {
         {/* MOBILE BACKDROP OVERLAY */}
         {isOpen && <div className="drawer-overlay" onClick={closeAll} />}
 
-        {/* MOBILE SLIDE DRAWER MENU */}
+        {/* MOBILE SLIDE DRAWER MENU - MATCHED EXACTLY TO DESKTOP URLS */}
         <div className={`nav-drawer ${isOpen ? "open" : "closed"}`}>
           <div className="flex justify-end p-4">
             <button onClick={closeAll} className="p-1 bg-rose-700 text-white rounded-md" aria-label="Close Menu">
@@ -138,14 +138,14 @@ const Navbar = () => {
             
             {/* SERVICES INDIVIDUAL SEPARATION GROUP */}
             <li className="text-gray-400 text-xs font-bold uppercase tracking-wider mt-4 px-2 mb-1 border-b border-white/10 pb-1">Our Services</li>
-            <NavItemLink to="/services/home-nursing-care" label="Nursing" />
-                <NavItemLink to="/service/physiotherapy-at-home" label="Physiotherapy" />
-                <NavItemLink to="/service/home-care-medical-assistant" label="Medical Assistant" />
-                <NavItemLink to="/services/medical-caregiver" label="Medical Caregiver" />
-                <NavItemLink to="/caregiver" label="Caregiver" />
-                <NavItemLink to="/services/find-nanny-service-in-dhaka" label="Nanycare" />
-                <NavItemLink to="/services/companionship" label="Companion" />
-                <NavItemLink to="/medical-equipment" label="Medical Equipment" />
+            <NavItemLink to="/nursing" label="Nursing" />
+            <NavItemLink to="/physiotherapy" label="Physiotherapy" />
+            <NavItemLink to="/medical-assistant" label="Medical Assistant" />
+            <NavItemLink to="/medical-caregiver" label="Medical Caregiver" />
+            <NavItemLink to="/caregiver" label="Caregiver" />
+            <NavItemLink to="/nanycare" label="Nanycare" />
+            <NavItemLink to="/companionship" label="Companion" />
+            <NavItemLink to="/medical-equipment" label="Medical Equipment" />
 
             {/* CORE INDIVIDUAL LINK SEPARATIONS */}
             <li className="text-gray-400 text-xs font-bold uppercase tracking-wider mt-4 px-2 mb-1 border-b border-white/10 pb-1">More Links</li>

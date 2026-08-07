@@ -5,7 +5,7 @@ import {
   FaClock, 
   FaCheckCircle, 
   FaPhoneAlt, 
-  FaQuestionCircle 
+  FaWhatsapp
 } from 'react-icons/fa';
 
 const BabyCarePricingBD = () => {
@@ -166,38 +166,47 @@ const BabyCarePricingBD = () => {
         </div>
 
         {/* HIGH-CONVERSION HIGH-VALUE CTA CARD */}
-        <div 
-          className="rounded-3xl p-8 sm:p-10 text-white shadow-xl relative overflow-hidden flex flex-col md:flex-row items-center justify-between gap-8"
-          style={{ backgroundColor: "#453364" }}
-        >
-          <div className="max-w-2xl text-center md:text-left">
-            <span className="text-xs uppercase tracking-widest text-purple-200 font-bold bg-white/10 px-3 py-1 rounded-full inline-block mb-3">
-              Custom Quote Assistance
-            </span>
-            <h3 className="text-xl sm:text-2xl md:text-3xl font-bold poppins-b mb-3">
-              Need a Custom Baby Care Package for Your Budget?
-            </h3>
-            <p className="text-sm sm:text-base poppins-t text-purple-100 leading-relaxed">
-              Get an accurate estimate based on your exact shift duration, location in Bangladesh, and specialized child care requirements.
-            </p>
-          </div>
+        {/* HIGH-CONVERSION HIGH-VALUE CTA CARD */}
+<div 
+  className="rounded-3xl p-8 sm:p-10 text-white shadow-xl relative overflow-hidden flex flex-col md:flex-row items-center justify-between gap-8"
+  style={{ backgroundColor: "#453364" }}
+>
+  {/* SEO-Optimized Marketing Content */}
+  <div className="max-w-2xl text-center md:text-left">
+    <span className="text-xs uppercase tracking-widest text-purple-200 font-bold bg-white/10 px-3 py-1 rounded-full inline-block mb-3">
+      Nanny Service Pricing Guide
+    </span>
+    <h3 className="text-xl sm:text-2xl md:text-3xl font-bold poppins-b mb-3">
+      Need a Custom Nanny &amp; Babysitter Package for Your Budget?
+    </h3>
+    <p className="text-sm sm:text-base poppins-t text-purple-100 leading-relaxed">
+      Get an accurate cost estimate based on your shift duration, specific neighborhood in Bangladesh, and custom infant childcare requirements.
+    </p>
+  </div>
 
-          <div className="flex flex-col sm:flex-row gap-4 shrink-0 w-full md:w-auto">
-            <a
-              href="#pricing-calculator"
-              className="inline-flex items-center justify-center gap-2 bg-amber-400 hover:bg-amber-300 text-gray-900 font-bold px-6 py-3.5 rounded-xl transition-all duration-300 text-sm shadow-md text-center"
-            >
-              <span>Calculate Custom Rate</span>
-            </a>
-            <a
-              href="tel:+8801700000000"
-              className="inline-flex items-center justify-center gap-2 bg-white/10 hover:bg-white/20 border border-white/20 text-white font-semibold px-6 py-3.5 rounded-xl transition-all duration-300 text-sm text-center"
-            >
-              <FaPhoneAlt className="text-xs" />
-              <span>Call for Instant Quote</span>
-            </a>
-          </div>
-        </div>
+  {/* Clean Dual CTA Layout (Strictly 2 Buttons) */}
+  <div className="flex flex-col sm:flex-row gap-4 shrink-0 w-full md:w-auto">
+    {/* Button 1: Primary WhatsApp Pricing Action */}
+    <a
+      href="https://wa.me/8801619848555?text=Hello%2C%20I%20want%20to%20get%20a%20custom%20price%20quote%20for%20a%20nanny%20or%20babysitter%20package."
+      target="_blank"
+      rel="noopener noreferrer"
+      className="inline-flex items-center justify-center gap-2 bg-amber-400 hover:bg-amber-300 text-gray-900 font-bold px-6 py-3.5 rounded-xl transition-all duration-300 text-sm shadow-md text-center"
+    >
+      <FaWhatsapp className="text-base text-emerald-700" />
+      <span>Get Quote via WhatsApp</span>
+    </a>
+
+    {/* Button 2: Secondary Call Dialer */}
+    <a
+      href="tel:+8801619848555"
+      className="inline-flex items-center justify-center gap-2 bg-white/10 hover:bg-white/20 border border-white/20 text-white font-semibold px-6 py-3.5 rounded-xl transition-all duration-300 text-sm text-center"
+    >
+      <FaPhoneAlt className="text-xs" />
+      <span>Call +880 1619-848555</span>
+    </a>
+  </div>
+</div>
 
       </div>
     </section>

@@ -7,7 +7,8 @@ import {
   FaBed, 
   FaChartLine, 
   FaPhoneAlt, 
-  FaShieldAlt 
+  FaShieldAlt,
+  FaWhatsapp,
 } from 'react-icons/fa';
 
 const NannyCareBenefits = () => {
@@ -263,19 +264,24 @@ const NannyCareBenefits = () => {
           </p>
 
           <div className="flex flex-col sm:flex-row justify-center items-center gap-4">
-            <a 
-              href="#book-now" 
-              className="w-full sm:w-auto bg-emerald-500 hover:bg-emerald-600 text-white font-bold py-4 px-8 rounded-full shadow-lg transition-all duration-300 transform hover:-translate-y-0.5 text-center"
-            >
-              Book a Trusted Baby Caregiver Today
-            </a>
-            <a 
-              href="tel:+880123456789" 
-              className="w-full sm:w-auto bg-white/10 hover:bg-white/20 text-white font-semibold py-4 px-8 rounded-full backdrop-blur-sm transition-all duration-300 flex items-center justify-center gap-2 border border-white/20"
-            >
-              <FaPhoneAlt /> Call for Consultation
-            </a>
-          </div>
+  {/* Primary WhatsApp Action Button */}
+  <a 
+    href="https://wa.me/8801619848555?text=Hello%2C%20I%20want%20to%20hire%20a%20professional%20nanny%20or%20babysitter%20for%20my%20child.%20Please%20provide%20pricing%20details." 
+    target="_blank"
+    rel="noopener noreferrer"
+    className="w-full sm:w-auto bg-[#25D366] hover:bg-[#20ba5a] text-white font-bold py-4 px-8 rounded-full shadow-lg transition-all duration-300 transform hover:-translate-y-0.5 flex items-center justify-center gap-2 text-center"
+  >
+    <FaWhatsapp className="text-xl" /> Hire Nanny &amp; Babysitter via WhatsApp
+  </a>
+
+  {/* Secondary Phone Dialer Button */}
+  <a 
+    href="tel:+8801619848555" 
+    className="w-full sm:w-auto bg-white/10 hover:bg-white/20 text-white font-semibold py-4 px-8 rounded-full backdrop-blur-sm transition-all duration-300 flex items-center justify-center gap-2 border border-white/20"
+  >
+    <FaPhoneAlt /> Call +880 1619-848555
+  </a>
+</div>
         </div>
 
       </div>

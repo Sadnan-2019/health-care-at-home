@@ -1,6 +1,13 @@
 import React from "react";
 
-import { FaPhoneVolume, FaBriefcase, FaHeartbeat, FaBaby, FaCity, FaUsers } from "react-icons/fa";
+import {
+  FaPhoneVolume,
+  FaBriefcase,
+  FaHeartbeat,
+  FaBaby,
+  FaCity,
+  FaUsers,
+} from "react-icons/fa";
 import "./Nanycare.css"; // We'll handle the gradient logic here
 
 const Nanycarelanding = () => {
@@ -81,16 +88,13 @@ const Nanycarelanding = () => {
         </div>
       </section>
 
-        
-
       {/* -------------------------------------------------------------
           SECTION 2: PROFESSIONAL BABY CARE AT HOME (H2 SECTION)
       ------------------------------------------------------------- */}
       <section className="bg-slate-50 py-12 md:py-16">
         <div className="container mx-auto px-6 sm:px-10 lg:px-16 max-w-5xl">
-          
           {/* Section H2 Heading */}
-          <h2 
+          <h2
             data-aos="fade-up"
             className="text-2xl sm:text-3xl md:text-4xl font-bold poppins-b mb-6 text-left"
             style={{ color: "#453364" }}
@@ -99,21 +103,24 @@ const Nanycarelanding = () => {
           </h2>
 
           {/* Section Paragraph */}
-          <p 
+          <p
             data-aos="fade-up"
             data-aos-duration="1200"
             className="text-base sm:text-lg leading-relaxed poppins-t mb-10 text-gray-700"
           >
-            Professional home baby care bridges the gap between basic domestic help and clinical care. Unlike standard domestic workers, trained caregivers bring structured knowledge of infant development, strict infection control, infant nutrition, and milestone tracking.
+            Professional home baby care bridges the gap between basic domestic
+            help and clinical care. Unlike standard domestic workers, trained
+            caregivers bring structured knowledge of infant development, strict
+            infection control, infant nutrition, and milestone tracking.
           </p>
 
           {/* Structured Diagram Card */}
-          <div 
+          <div
             data-aos="zoom-in"
             data-aos-duration="1500"
             className="bg-white rounded-2xl p-6 sm:p-8 shadow-md border border-gray-100 mb-10"
           >
-            <h3 
+            <h3
               className="text-lg sm:text-xl font-bold text-center poppins-b pb-4 mb-6 border-b border-gray-200 tracking-wide"
               style={{ color: "#453364" }}
             >
@@ -123,7 +130,7 @@ const Nanycarelanding = () => {
             <div className="grid md:grid-cols-2 gap-6">
               {/* Physical Well-being Column */}
               <div className="bg-[#453364]/5 p-5 rounded-xl border-l-4 border-[#453364]">
-                <h4 
+                <h4
                   className="text-base sm:text-lg font-bold poppins-b mb-3"
                   style={{ color: "#453364" }}
                 >
@@ -147,7 +154,7 @@ const Nanycarelanding = () => {
 
               {/* Developmental Support Column */}
               <div className="bg-[#453364]/5 p-5 rounded-xl border-l-4 border-[#453364]">
-                <h4 
+                <h4
                   className="text-base sm:text-lg font-bold poppins-b mb-3"
                   style={{ color: "#453364" }}
                 >
@@ -172,21 +179,28 @@ const Nanycarelanding = () => {
           </div>
 
           {/* Concluding Paragraph for Location Relevance */}
-          <p 
+          <p
             data-aos="fade-up"
             data-aos-duration="1800"
             className="text-base sm:text-lg leading-relaxed poppins-t text-gray-700"
           >
-            In urban centers like <strong className="font-semibold text-[#453364]">Dhaka</strong>, <strong className="font-semibold text-[#453364]">Chittagong</strong>, and <strong className="font-semibold text-[#453364]">Sylhet</strong>, working couples often face the challenge of nuclear family living without immediate extended family support. Professional home care provides one-on-one attention, ensuring your infant follows a personalized daily schedule while remaining safe from external pathogens common in commercial daycares.
+            In urban centers like{" "}
+            <strong className="font-semibold text-[#453364]">Dhaka</strong>,{" "}
+            <strong className="font-semibold text-[#453364]">Chittagong</strong>
+            , and{" "}
+            <strong className="font-semibold text-[#453364]">Sylhet</strong>,
+            working couples often face the challenge of nuclear family living
+            without immediate extended family support. Professional home care
+            provides one-on-one attention, ensuring your infant follows a
+            personalized daily schedule while remaining safe from external
+            pathogens common in commercial daycares.
           </p>
-
         </div>
       </section>
 
       <section className="bg-white py-12 md:py-16">
         <div className="container mx-auto px-6 sm:px-10 lg:px-16 max-w-5xl">
-          
-          <h2 
+          <h2
             data-aos="fade-up"
             className="text-2xl sm:text-3xl md:text-4xl font-bold poppins-b mb-4 text-left"
             style={{ color: "#453364" }}
@@ -194,7 +208,7 @@ const Nanycarelanding = () => {
             Who Needs Baby Care Services?
           </h2>
 
-          <p 
+          <p
             data-aos="fade-up"
             data-aos-duration="1200"
             className="text-base sm:text-lg leading-relaxed poppins-t mb-8 text-gray-700"
@@ -203,9 +217,8 @@ const Nanycarelanding = () => {
           </p>
 
           <div className="grid sm:grid-cols-1 md:grid-cols-2 gap-6">
-            
             {/* Card 1: Working Parents */}
-            <div 
+            <div
               data-aos="fade-up"
               data-aos-duration="1300"
               className="p-6 rounded-2xl bg-[#453364] border border-slate-100 hover:shadow-lg transition-all duration-300"
@@ -219,12 +232,17 @@ const Nanycarelanding = () => {
                 </h3>
               </div>
               <p className="text-sm sm:text-base leading-relaxed poppins-t text-white">
-                Mothers and fathers managing full-time careers who need structured daytime or <strong className="font-semibold text-white">live-in nanny</strong> care to maintain uninterrupted work routines.
+                Mothers and fathers managing full-time careers who need
+                structured daytime or{" "}
+                <strong className="font-semibold text-white">
+                  live-in nanny
+                </strong>{" "}
+                care to maintain uninterrupted work routines.
               </p>
             </div>
 
             {/* Card 2: C-Section Mothers */}
-            <div 
+            <div
               data-aos="fade-up"
               data-aos-duration="1400"
               className="p-6 rounded-2xl bg-[#453364]  border border-slate-100 hover:shadow-lg transition-all duration-300"
@@ -238,12 +256,17 @@ const Nanycarelanding = () => {
                 </h3>
               </div>
               <p className="text-sm sm:text-base leading-relaxed poppins-t text-white">
-                Postpartum physical recovery demands rest. A <strong className="font-semibold text-white">newborn caregiver</strong> manages night feedings, diaper shifts, and lifting, allowing mothers to heal smoothly.
-              </p>
+  Postpartum physical recovery demands rest. A{" "}
+  <strong className="font-semibold text-white">
+    newborn nanny or baby care specialist
+  </strong>{" "}
+  manages night feedings, diaper shifts, and lifting, allowing
+  mothers to heal smoothly.
+</p>
             </div>
 
             {/* Card 3: Premature / High-Risk Infants */}
-            <div 
+            <div
               data-aos="fade-up"
               data-aos-duration="1500"
               className="p-6 rounded-2xl bg-[#453364]  border border-slate-100 hover:shadow-lg transition-all duration-300"
@@ -257,12 +280,18 @@ const Nanycarelanding = () => {
                 </h3>
               </div>
               <p className="text-sm sm:text-base leading-relaxed poppins-t text-white">
-                High-risk babies require clinical precision in vital monitoring, medication administration, and strict infection control provided by a trained <strong className="font-semibold text-[#453364]">baby care nurse</strong>.
+                High-risk babies require clinical precision in vital monitoring,
+                medication administration, and strict infection control provided
+                by a trained{" "}
+                <strong className="font-semibold text-[#453364]">
+                  baby care nurse
+                </strong>
+                .
               </p>
             </div>
 
             {/* Card 4: Urban Nuclear Families */}
-            <div 
+            <div
               data-aos="fade-up"
               data-aos-duration="1600"
               className="p-6 rounded-2xl bg-[#453364] border border-slate-100 hover:shadow-lg transition-all duration-300"
@@ -276,12 +305,19 @@ const Nanycarelanding = () => {
                 </h3>
               </div>
               <p className="text-sm sm:text-base leading-relaxed poppins-t text-white">
-                Families living away from grandparents or extended kin in areas like <strong className="font-semibold text-white">Gulshan</strong>, <strong className="font-semibold text-[#453364]">Dhanmondi</strong>, or <strong className="font-semibold text-[#453364]">Uttara</strong> who require a trusted home support system.
-              </p>
+  Families living away from extended kin in premium zones like{" "}
+  <strong className="font-semibold text-white">Gulshan</strong>,{" "}
+  <strong className="font-semibold text-white">Dhanmondi</strong>,{" "}
+  <strong className="font-semibold text-white">Baridhara</strong>,{" "}
+  <strong className="font-semibold text-white">Uttara</strong>, or{" "}
+  <strong className="font-semibold text-white">Banani</strong>{" "}
+  who rely on a professional nanny and babysitter network for a trusted home support system{" "}
+  <strong className="font-semibold text-white">across Bangladesh</strong>.
+</p>
             </div>
 
             {/* Card 5: Twins & Multiples */}
-            <div 
+            <div
               data-aos="fade-up"
               data-aos-duration="1700"
               className="p-6 rounded-2xl bg-[#453364] border border-slate-100 hover:shadow-lg transition-all duration-300 sm:col-span-1 md:col-span-2"
@@ -295,10 +331,11 @@ const Nanycarelanding = () => {
                 </h3>
               </div>
               <p className="text-sm sm:text-base leading-relaxed poppins-t text-white">
-                Managing multiple newborns simultaneously requires an extra set of skilled hands to coordinate feeding schedules and sleep routines effectively.
+                Managing multiple newborns simultaneously requires an extra set
+                of skilled hands to coordinate feeding schedules and sleep
+                routines effectively.
               </p>
             </div>
-
           </div>
         </div>
       </section>

@@ -9,7 +9,7 @@ import {
   FaCheck, 
   FaInfoCircle,
   FaBuilding,
-  FaGraduationCap,
+FaWhatsapp,
   FaStethoscope
 } from 'react-icons/fa';
 
@@ -96,17 +96,17 @@ const NannyVsBabysitterVsNurse = () => {
       <div className="container mx-auto px-6 sm:px-10 lg:px-16 max-w-6xl">
         
         {/* H2 MAIN HEADER */}
-        <div className="text-center max-w-3xl mx-auto mb-12">
-          <span className="text-xs sm:text-sm font-bold uppercase tracking-widest text-[#453364] bg-[#453364]/10 px-3.5 py-1.5 rounded-full inline-block mb-3">
-            Childcare Role Guide &amp; Definitions
-          </span>
-          <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold poppins-b mb-4 text-gray-900">
-            Nanny vs Babysitter vs Baby Care Nurse
-          </h2>
-          <p className="text-base sm:text-lg poppins-t text-gray-600 leading-relaxed">
-            Understanding the distinct qualifications and responsibilities of each caregiver type helps you choose the safest, most reliable care for your family in Bangladesh.
-          </p>
-        </div>
+<div className="text-center max-w-3xl mx-auto mb-12">
+  <span className="text-xs sm:text-sm font-bold uppercase tracking-widest text-[#453364] bg-[#453364]/10 px-3.5 py-1.5 rounded-full inline-block mb-3">
+    Nanny &amp; Babysitter Selection Guide
+  </span>
+  <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold poppins-b mb-4 text-gray-900">
+    Nanny vs Babysitter vs Baby Care Nurse in Bangladesh
+  </h2>
+  <p className="text-base sm:text-lg poppins-t text-gray-600 leading-relaxed">
+    Understanding the unique qualifications and exact roles of each professional baby caregiver helps you choose the safest, most reliable baby care service in Bangladesh.
+  </p>
+</div>
 
         {/* DEFINITION SECTION FOR HIGH SEO KEYWORD INDEXING */}
         <div className="mb-16">
@@ -332,21 +332,27 @@ const NannyVsBabysitterVsNurse = () => {
           </div>
 
           <div className="flex flex-col sm:flex-row gap-4 shrink-0 w-full md:w-auto">
-            <a
-              href="#consult-specialist"
-              className="inline-flex items-center justify-center gap-2 bg-amber-400 hover:bg-amber-300 text-gray-900 font-bold px-6 py-3.5 rounded-xl transition-all duration-300 text-sm shadow-md text-center"
-            >
-              <span>Match Caregiver Profile</span>
-              <FaArrowRight />
-            </a>
-            <a
-              href="tel:+8801700000000"
-              className="inline-flex items-center justify-center gap-2 bg-white/10 hover:bg-white/20 border border-white/20 text-white font-semibold px-6 py-3.5 rounded-xl transition-all duration-300 text-sm text-center"
-            >
-              <FaPhoneAlt className="text-xs" />
-              <span>Talk to Care Expert</span>
-            </a>
-          </div>
+  {/* Button 1: WhatsApp Action */}
+  <a
+    href="https://wa.me/8801619848555?text=Hello%2C%20I%20want%20to%20match%20a%20professional%20nanny%20or%20babysitter%20profile%20for%20my%20child."
+    target="_blank"
+    rel="noopener noreferrer"
+    className="inline-flex items-center justify-center gap-2 bg-amber-400 hover:bg-amber-300 text-gray-900 font-bold px-6 py-3.5 rounded-xl transition-all duration-300 text-sm shadow-md text-center"
+  >
+    <FaWhatsapp className="text-base text-emerald-700" />
+    <span>Match Nanny &amp; Babysitter Profile</span>
+    <FaArrowRight className="text-xs" />
+  </a>
+
+  {/* Button 2: Direct Call Action */}
+  <a
+    href="tel:+8801619848555"
+    className="inline-flex items-center justify-center gap-2 bg-white/10 hover:bg-white/20 border border-white/20 text-white font-semibold px-6 py-3.5 rounded-xl transition-all duration-300 text-sm text-center"
+  >
+    <FaPhoneAlt className="text-xs" />
+    <span>Call +880 1619-848555</span>
+  </a>
+</div>
         </div>
 
       </div>

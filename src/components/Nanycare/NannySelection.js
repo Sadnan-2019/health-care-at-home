@@ -5,7 +5,8 @@ import {
   FaGraduationCap, 
   FaUserNurse, 
   FaArrowRight, 
-  FaPhoneAlt 
+  FaPhoneAlt,
+ FaWhatsapp
 } from 'react-icons/fa';
 
 const NannycareSelection = () => {
@@ -222,22 +223,28 @@ const NannycareSelection = () => {
           </div>
 
           {/* CTA BUTTONS */}
-          <div className="flex flex-col sm:flex-row gap-4 shrink-0 w-full md:w-auto">
-            <a
-              href="#book-now"
-              className="inline-flex items-center justify-center gap-2 bg-amber-400 hover:bg-amber-300 text-gray-900 font-bold px-6 py-3.5 rounded-xl transition-all duration-300 text-sm shadow-md text-center"
-            >
-              <span>Book Your Baby Care Package</span>
-              <FaArrowRight />
-            </a>
-            <a
-              href="tel:+1234567890"
-              className="inline-flex items-center justify-center gap-2 bg-white/10 hover:bg-white/20 border border-white/20 text-white font-semibold px-6 py-3.5 rounded-xl transition-all duration-300 text-sm text-center"
-            >
-              <FaPhoneAlt className="text-xs" />
-              <span>Free Care Consultation</span>
-            </a>
-          </div>
+<div className="flex flex-col sm:flex-row gap-4 shrink-0 w-full md:w-auto">
+  {/* Primary WhatsApp Booking Action */}
+  <a
+    href="https://wa.me/8801619848555?text=Hello%2C%20I%20am%20interested%20in%20booking%20a%20professional%20nanny%20or%20babysitter%20package%20for%20my%20child."
+    target="_blank"
+    rel="noopener noreferrer"
+    className="inline-flex items-center justify-center gap-2 bg-amber-400 hover:bg-amber-300 text-gray-900 font-bold px-6 py-3.5 rounded-xl transition-all duration-300 text-sm shadow-md text-center"
+  >
+    <FaWhatsapp className="text-base text-emerald-700" />
+    <span>Book Nanny &amp; Babysitter via WhatsApp</span>
+    <FaArrowRight className="text-xs" />
+  </a>
+
+  {/* Secondary Direct Call Action */}
+  <a
+    href="tel:+8801619848555"
+    className="inline-flex items-center justify-center gap-2 bg-white/10 hover:bg-white/20 border border-white/20 text-white font-semibold px-6 py-3.5 rounded-xl transition-all duration-300 text-sm text-center"
+  >
+    <FaPhoneAlt className="text-xs" />
+    <span>Call +880 1619-848555</span>
+  </a>
+</div>
         </div>
 
       </div>
