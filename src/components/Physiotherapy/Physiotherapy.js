@@ -41,7 +41,7 @@ const Physiotherapy = () => {
 
         <link
           rel="canonical"
-          href="https://hcah.mrg.com.bd/service/physiotherapy-at-home"
+          href="https://hcah.mrg.com.bd/physiotherapy"
         />
 
         {/* Open Graph */}

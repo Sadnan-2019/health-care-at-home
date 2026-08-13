@@ -21,7 +21,7 @@ const   HeroPhysio = () => {
   return (
     <section className="h-auto physio relative bg-cover bg-center bg-no-repeat py-12 md:py-20 lg:py-24">
       {/* Optional subtle overlay for background image readability */}
-      <div className="absolute inset-0 bg-white/70 lg:bg-transparent"></div>
+      {/* <div className="absolute inset-0 bg-white/70 lg:bg-transparent"></div> */}
 
       <div className="relative max-w-7xl mx-auto px-6 sm:px-8 lg:px-12">
         <div className="max-w-2xl text-left">

@@ -102,7 +102,7 @@ function App() {
             <Route path="/home" element={<Home />}></Route>
             <Route path="/" element={<Home />}></Route>
             <Route path="/nursing" element={<Nursing />}></Route>
-            <Route path="/physiotherapy" element={<Physiotherapy />}></Route>
+            <Route path="/service/physiotherapy-at-home" element={<Physiotherapy />}></Route>
             <Route
               path="/medical-assistant"
               element={<Medicalassistant />}

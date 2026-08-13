@@ -89,7 +89,7 @@ const Navbar = () => {
               </button>
               <ul className={`custom-dropdown-menu ${activeDropdown === "services" ? "show" : ""}`}>
                 <NavItemLink to="/nursing" label="Nursing" />
-                <NavItemLink to="/physiotherapy" label="Physiotherapy" />
+                <NavItemLink to="/service/physiotherapy-at-home" label="Physiotherapy" />
                 <NavItemLink to="/medical-assistant" label="Medical Assistant" />
                 <NavItemLink to="/medical-caregiver" label="Medical Caregiver" />
                 <NavItemLink to="/caregiver" label="Caregiver" />
@@ -139,7 +139,7 @@ const Navbar = () => {
             {/* SERVICES INDIVIDUAL SEPARATION GROUP */}
             <li className="text-gray-400 text-xs font-bold uppercase tracking-wider mt-4 px-2 mb-1 border-b border-white/10 pb-1">Our Services</li>
             <NavItemLink to="/nursing" label="Nursing" />
-            <NavItemLink to="/physiotherapy" label="Physiotherapy" />
+            <NavItemLink to="/service/physiotherapy-at-home" label="Physiotherapy" />
             <NavItemLink to="/medical-assistant" label="Medical Assistant" />
             <NavItemLink to="/medical-caregiver" label="Medical Caregiver" />
             <NavItemLink to="/caregiver" label="Caregiver" />
