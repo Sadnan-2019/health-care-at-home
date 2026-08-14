@@ -25,6 +25,7 @@ import { lazy, Suspense } from "react";
 import load from "./assets/HCAHBD.png";
 import Protocol from "./components/Protocol/Protocol";
 import HealthcareChatbot from "./components/HealthcareChatbot/HealthcareChatbot";
+import GulshanCaregiverPrices from "./components/Blog/GulshanCaregiverPrices";
 // import New from './components/Nav/New';
  
 function App() {
@@ -124,6 +125,7 @@ function App() {
             <Route path="/blogtwo" element={<Blogtwo />}></Route>
             <Route path="/blogthree" element={<Parkinson />}></Route>
             <Route path="/strokeblog" element={<Stroke />}></Route>
+            <Route path="/caregiver-prices-gulshan" element={<GulshanCaregiverPrices />}></Route>
             <Route
               path="/cardiac-symptoms-causes"
               element={<CardiacSymptomsCauses />}

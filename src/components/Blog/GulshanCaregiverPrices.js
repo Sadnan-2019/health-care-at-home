@@ -1,8 +1,128 @@
 import React from "react";
+import { Helmet } from "react-helmet-async";
 
 const GulshanCaregiverPrices = () => {
+
+     // 1. Article Schema Data
+const articleSchema = {
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "Caregiver Prices in Gulshan: Complete Cost Guide & Monthly Rates",
+  "description": "Comprehensive 2026 cost guide for home caregiver, patient attendant, and nursing services in Gulshan, Dhaka.",
+  "image": "https://hcah.mrg.com.bd/assets/cargiverpricesingulshan.jpg",
+  "author": {
+    "@type": "Organization",
+    "name": "Health Care at Home Bangladesh",
+    "url": "https://hcah.mrg.com.bd/"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Health Care at Home Bangladesh",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://hcah.mrg.com.bd/logo.png"
+    }
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://hcah.mrg.com.bd/blog/caregiver-prices-gulshan"
+  }
+};
+
+// 2. FAQ Schema Data
+const faqSchema = {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Can I request a caregiver for only a few days in Gulshan?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, short-term caregiver arrangements may be possible depending on the provider's availability. This can be useful after hospital discharge, during temporary recovery, or when a family caregiver is unavailable. Discuss the required dates, working hours, and patient's needs with the provider before confirming the service."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can a caregiver stay overnight with an elderly person at home?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, overnight support can be arranged when the selected service includes nighttime caregiving. Families should clarify whether the caregiver is expected to remain awake throughout the night or provide assistance when needed. The patient's condition and required level of supervision should be discussed before selecting an overnight arrangement."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can caregiver duties be changed after the service starts?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Care duties may sometimes need to change as a patient's condition or routine changes. However, families should discuss any new responsibilities with the provider first. Changes involving additional supervision, mobility assistance, or different working hours may require a revised care arrangement or schedule."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can families interview a caregiver before starting home care?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Families can ask the provider whether an introduction or discussion with the assigned caregiver is possible before care begins. This can help clarify communication style, experience, and understanding of the patient's routine. It also gives the family an opportunity to explain important preferences and expectations."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What should a family prepare before a caregiver starts?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Families should prepare basic information about the patient's daily routine, mobility, meals, personal care, and important household instructions. It is also helpful to clearly explain the caregiver's responsibilities, working hours, and communication process. Keeping relevant care instructions organized can make the transition smoother."
+      }
+    }
+  ]
+};
   return (
     <div className="max-w-4xl mx-auto px-4 py-8 bg-white text-gray-800">
+     <Helmet>
+  {/* Standard Meta Tags */}
+  <title>Caregiver Prices in Gulshan | 2026 Monthly Rates Guide</title>
+  <meta
+    name="description"
+    content="Find complete home caregiver rates in Gulshan, Dhaka. Explore 12-hour vs 24-hour pricing, patient care costs, and verification details."
+  />
+  <meta
+    name="keywords"
+    content="Caregiver prices Gulshan, Home care rates Gulshan, Patient attendant cost Dhaka, Nursing care Gulshan 2026"
+  />
+
+  {/* Canonical Tag (Crucial for SEO) */}
+  <link rel="canonical" href="https://hcah.mrg.com.bd/blog/caregiver-prices-gulshan" />
+
+  {/* Open Graph / Facebook Meta Tags */}
+  <meta property="og:title" content="Caregiver Prices in Gulshan: Complete Cost Guide" />
+  <meta
+    property="og:description"
+    content="Explore current rates for home caregivers, diploma nurses, and elderly care services in Gulshan, Dhaka."
+  />
+  <meta property="og:type" content="article" />
+  <meta property="og:url" content="https://hcah.mrg.com.bd/blog/caregiver-prices-gulshan" />
+  <meta property="og:image" content="https://hcah.mrg.com.bd/assets/cargiverpricesingulshan.jpg" />
+  <meta property="og:site_name" content="Health Care at Home Bangladesh" />
+
+  {/* Twitter Card Meta Tags */}
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Caregiver Prices in Gulshan: Complete Cost Guide" />
+  <meta
+    name="twitter:description"
+    content="Find complete home caregiver rates in Gulshan, Dhaka. Explore 12-hour vs 24-hour pricing and patient care costs."
+  />
+  <meta name="twitter:image" content="https://hcah.mrg.com.bd/assets/cargiverpricesingulshan.jpg" />
+
+  {/* Article Schema */}
+  <script type="application/ld+json">
+    {JSON.stringify(articleSchema)}
+  </script>
+
+  {/* FAQ Schema */}
+  <script type="application/ld+json">
+    {JSON.stringify(faqSchema)}
+  </script>
+</Helmet>
       <article className="space-y-6">
         {/* Main Title - H1 */}
         <h1 className="text-3xl sm:text-4xl font-bold text-gray-900 tracking-tight leading-tight mb-6 border-b pb-4">

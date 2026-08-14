@@ -19,6 +19,8 @@ import { FaWhatsappSquare } from "react-icons/fa";
 import "animate.css";
 
 import { Link } from "react-router-dom";
+import GulshanCaregiverPricesCover from "./GulshanCaregiverPricesCover";
+import WorldHypertensionDay from "./WorldHypertensionDay";
 
 const PhysioBlog = () => {
   return (
@@ -26,84 +28,13 @@ const PhysioBlog = () => {
       <div>
         <div className="blog">
           <div className=" grid grid-cols-1 lg:grid-cols-2   items-center justify-center px-5 gap-5">
-            <div
-              class="card  bg-gradient-to-r from-[#486038] to-[#38235D]   text-white mb-5 mt-12"
-              style={{ height: "700px" }}
-            >
-              <img
-                src={hypertension}
-                alt=""
-                className="rounded-xl animate__animated animate__backInLeft     w-96 p-2  mx-auto"
-                style={{ height: "250px", borderRadius: "25px" }}
-              />
-              <div class="card-body">
-                <h2 class="card-title">
-                  World Hypertension Day: Diet that can help reduce the risk of
-                  this disease and to what extent
-                </h2>
-                <p className="text-justify">
-                  Hypertension (high blood pressure) is when the pressure in
-                  your blood vessels is too high (140/90 mmHg or higher). It is
-                  common but can be serious if not treated. People with high
-                  blood pressure may not feel symptoms. The only way to know is
-                  to get your blood pressure checked.
-                </p>
-                <div className="flex gap-3     ">
-                  <BsFacebook
-                    className="lg:text-2xl text-[20px] "
-                    style={{ color: "white" }}
-                  />
-                  <RxLinkedinLogo
-                    className="lg:text-2xl text-[20px] "
-                    style={{ color: "white" }}
-                  />
-                  <AiFillTwitterCircle
-                    className="lg:text-2xl text-[20px] "
-                    style={{ color: "white" }}
-                  />
-                  <FaWhatsappSquare
-                    className="lg:text-2xl text-[20px] "
-                    style={{ color: "white" }}
-                  />
-                </div>
-                <div className="   flex    justify-between gap-5 lg:gap-8   ">
-                  <div className="py-2      ">
-                    <Link to="/hyper-symptoms-causes">
-                      <button
-                        htmlFor="my-modal-6"
-                        className="btn btn-xs	lg:btn-xs modal-button mt-3 text-[white] bg-gradient-to-r from-[#303640] to-[#103264]   animate-pulse    "
-                        style={{ backgroundColor: "#453364" }}
-                      >
-                        Symptoms and Causes{" "}
-                      </button>
-                    </Link>
-                  </div>
-                  <div className="py-2  lg:px-3     ">
-                    <Link to="/hyper-prevention">
-                      <button
-                        htmlFor="my-modal-6"
-                        className="btn btn-xs	 lg:btn-xs modal-button mt-3 text-[white] bg-gradient-to-r from-[#303640] to-[#103264]   animate-pulse    "
-                        style={{ backgroundColor: "#453364" }}
-                      >
-                        Prevention{" "}
-                      </button>
-                    </Link>
-                  </div>
-                  <div className="py-2        ">
-                    <Link to="/hyper-management-treatment">
-                      {/* Management and Treatment */}
-                      <button
-                        htmlFor="my-modal-6"
-                        className="btn 	btn-xs lg:btn-xs modal-button mt-3 text-[white] bg-gradient-to-r from-[#303640] to-[#103264]   animate-pulse    "
-                        style={{ backgroundColor: "#453364" }}
-                      >
-                        Management and Treatment{" "}
-                      </button>
-                    </Link>
-                  </div>
-                </div>
-              </div>
-            </div>
+
+
+<GulshanCaregiverPricesCover></GulshanCaregiverPricesCover>
+
+
+
+             <WorldHypertensionDay></WorldHypertensionDay>
 
             <div
               class="card  bg-gradient-to-r from-[#486038] to-[#38235D]   text-white mb-5 mt-12"
