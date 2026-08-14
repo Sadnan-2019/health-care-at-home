@@ -6,6 +6,7 @@ import { AiFillTwitterCircle } from "react-icons/ai";
 import { FaWhatsappSquare } from "react-icons/fa";
 import PhysioBlog from "./PhysioBlog";
 import { Helmet } from "react-helmet-async";
+import GulshanCaregiverPrices from "./GulshanCaregiverPrices";
 
 const Blog = () => {
   return (
@@ -43,6 +44,7 @@ const Blog = () => {
         Our Blog
       </h2>
       <PhysioBlog></PhysioBlog>
+      <GulshanCaregiverPrices></GulshanCaregiverPrices>
 
       <div className=" grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-2  gap-4 px-12">
         <div class="card  bg-gradient-to-r from-[#486038] to-[#38235D] shadow-xl  text-white mb-5 mt-12">
