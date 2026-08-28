@@ -26,6 +26,7 @@ import load from "./assets/HCAHBD.png";
 import Protocol from "./components/Protocol/Protocol";
 import HealthcareChatbot from "./components/HealthcareChatbot/HealthcareChatbot";
 import GulshanCaregiverPrices from "./components/Blog/GulshanCaregiverPrices";
+import CaregiverServiceDhaka from "./components/Blog/CaregiverServiceDhaka";
 // import New from './components/Nav/New';
  
 function App() {
@@ -126,6 +127,7 @@ function App() {
             <Route path="/blogthree" element={<Parkinson />}></Route>
             <Route path="/strokeblog" element={<Stroke />}></Route>
             <Route path="/caregiver-prices-gulshan" element={<GulshanCaregiverPrices />}></Route>
+            <Route path="/blog/caregiver-service-in-dhaka" element={<CaregiverServiceDhaka />}></Route>
             <Route
               path="/cardiac-symptoms-causes"
               element={<CardiacSymptomsCauses />}

@@ -21,6 +21,7 @@ import "animate.css";
 import { Link } from "react-router-dom";
 import GulshanCaregiverPricesCover from "./GulshanCaregiverPricesCover";
 import WorldHypertensionDay from "./WorldHypertensionDay";
+import CaregiverServiceDhakaCover from "./CaregiverServiceDhakaCover";
 
 const PhysioBlog = () => {
   return (
@@ -29,7 +30,7 @@ const PhysioBlog = () => {
         <div className="blog">
           <div className=" grid grid-cols-1 lg:grid-cols-2   items-center justify-center px-5 gap-5">
 
-
+<CaregiverServiceDhakaCover></CaregiverServiceDhakaCover>
 <GulshanCaregiverPricesCover></GulshanCaregiverPricesCover>
 
 
