@@ -1,10 +1,133 @@
 import React from 'react';
 import { HeartHandshake, ShieldCheck, Clock, UserCheck,Sparkles, 
    } from 'lucide-react';
+import { Helmet } from 'react-helmet-async';
 const CaregiverServiceDhaka = () => {
-    
+    // 1. Article Schema Data
+const articleSchema = {
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "Caregiver Service in Dhaka | Professional & Trusted Home Care",
+  "description": "Need a trusted Caregiver Service in Dhaka? Discover professional home care for elderly and recovering patients.",
+  "image": "https://hcah.mrg.com.bd/assets/cargiverpricesingulshan.jpg",
+  "author": {
+    "@type": "Organization",
+    "name": "HealthCare at Home Bangladesh",
+    "url": "https://hcah.mrg.com.bd/"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "HealthCare at Home Bangladesh",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://hcah.mrg.com.bd/logo.png"
+    }
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://hcah.mrg.com.bd/blog/caregiver-service-in-dhaka"
+  }
+};
+
+// 2. FAQ Schema Data
+const faqSchema = {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Can a caregiver stay with a patient during hospital follow-up visits?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, a caregiver may accompany a patient to follow-up appointments when this is part of the agreed care arrangement. They can assist with mobility, transportation, personal needs, and communication. Families should confirm these responsibilities in advance, particularly if the patient has limited movement or requires continuous supervision."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can a caregiver help patients with dementia or memory-related difficulties?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "A caregiver may provide daily support and supervision for someone experiencing memory-related difficulties. This can include companionship, assistance with meals, personal care, and maintaining a familiar routine. Families should discuss the patient’s condition beforehand so appropriate experience and care requirements can be considered."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can caregivers assist patients who use wheelchairs or walking aids?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, caregivers can provide everyday assistance to patients who use wheelchairs, walkers, or other mobility aids, depending on their training and the agreed responsibilities. They may help with movement around the home, transfers, and routine activities while following safe handling practices appropriate to the patient’s abilities."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can a family member stay involved while a caregiver provides daily care?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. Family involvement can remain an important part of home care. Family members can share relevant information about the patient’s habits, preferences, and changing needs while the caregiver handles agreed daily responsibilities. Regular communication can help everyone maintain a consistent and comfortable care routine."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "When should a family consider changing the caregiver?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "A change may be worth considering when the caregiver repeatedly fails to follow agreed responsibilities, communication remains difficult, or the patient feels consistently uncomfortable or unsafe. Families should first discuss concerns clearly and allow reasonable opportunity for improvement, unless there is an immediate safety concern requiring prompt action."
+      }
+    }
+  ]
+};
      return (
           <div>
+
+            <Helmet>
+      {/* Standard Meta Tags */}
+      <title>Caregiver Service in Dhaka | Professional &amp; Trusted Home Care</title>
+      <meta
+        name="description"
+        content="Need a trusted Caregiver Service in Dhaka? Discover professional home care for elderly and recovering patients."
+      />
+      <meta
+        name="keywords"
+        content="Caregiver Service in Dhaka, Home Care Services Dhaka, Patient Attendant Dhaka, Elderly Care Bangladesh, Home Healthcare Dhaka 2026"
+      />
+
+      {/* Canonical Tag */}
+      <link rel="canonical" href="https://hcah.mrg.com.bd/blog/caregiver-service-in-dhaka" />
+
+      {/* Open Graph / Facebook Meta Tags */}
+      <meta property="og:title" content="Caregiver Service in Dhaka | Professional &amp; Trusted Home Care" />
+      <meta
+        property="og:description"
+        content="Need a trusted Caregiver Service in Dhaka? Discover professional home care for elderly and recovering patients."
+      />
+      <meta property="og:type" content="article" />
+      <meta property="og:url" content="https://hcah.mrg.com.bd/blog/caregiver-service-in-dhaka" />
+      <meta property="og:image" content="https://hcah.mrg.com.bd/assets/cargiverpricesingulshan.jpg" />
+      <meta property="og:site_name" content="Health Care at Home Bangladesh" />
+
+      {/* Twitter Card Meta Tags */}
+      <meta name="twitter:card" content="summary_large_image" />
+      <meta name="twitter:title" content="Caregiver Service in Dhaka | Professional &amp; Trusted Home Care" />
+      <meta
+        name="twitter:description"
+        content="Need a trusted Caregiver Service in Dhaka? Discover professional home care for elderly and recovering patients."
+      />
+      <meta name="twitter:image" content="https://hcah.mrg.com.bd/assets/cargiverpricesingulshan.jpg" />
+
+      {/* Article Schema */}
+      {articleSchema && (
+        <script type="application/ld+json">
+          {JSON.stringify(articleSchema)}
+        </script>
+      )}
+
+      {/* FAQ Schema */}
+      {faqSchema && (
+        <script type="application/ld+json">
+          {JSON.stringify(faqSchema)}
+        </script>
+      )}
+    </Helmet>
           <section className="bg-white py-5 md:py-5 text-slate-800">
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
         
@@ -465,7 +588,7 @@ const CaregiverServiceDhaka = () => {
 
 
 
-    <section className="bg-white   text-slate-800">
+    <section className="bg-white text-slate-800 py-2">
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
         
         {/* Main Section Heading */}
@@ -474,7 +597,7 @@ const CaregiverServiceDhaka = () => {
         </h2>
 
         {/* Section Intro Paragraphs */}
-        <div className="space-y-4 text-base sm:text-lg text-slate-700 leading-relaxed mb-8">
+        <div className="space-y-4 text-base sm:text-lg text-slate-700 leading-relaxed mb-6">
           <p>
             Arranging a home caregiver usually starts with understanding the patient’s condition and the type of help needed. Clear information at the beginning makes it easier to find a caregiver who fits the patient’s routine and level of assistance.
           </p>
@@ -482,6 +605,9 @@ const CaregiverServiceDhaka = () => {
             Families should discuss their expectations openly before confirming the care arrangement.
           </p>
         </div>
+
+        {/* Quick Contact Buttons (Inline CTA) */}
+        
 
         {/* Subsection 1 */}
         <div className="mb-8">
@@ -565,6 +691,38 @@ const CaregiverServiceDhaka = () => {
           <p className="text-base text-slate-700 leading-relaxed">
             A clear plan gives the caregiver a better understanding of the patient’s needs and helps the family feel confident about the care arrangement.
           </p>
+        </div>
+
+        {/* Bottom CTA Banner */}
+        <div className="bg-[#0F2C59] text-white rounded-2xl p-6 sm:p-8 mt-10 shadow-xl text-center flex flex-col items-center justify-center">
+          <h4 className="text-xl sm:text-2xl font-extrabold mb-2 text-white">
+            Ready to Book a Trusted Caregiver in Dhaka?
+          </h4>
+          <p className="text-slate-200 text-sm sm:text-base max-w-xl mb-6">
+            Speak directly with our home care advisors on WhatsApp for immediate support and customized caregiver matching.
+          </p>
+
+          <div className="flex flex-col sm:flex-row items-center justify-center gap-4 w-full max-w-md">
+            {/* Number 1 Button */}
+            <a
+              href="https://wa.me/8801619848555"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="w-full sm:w-1/2 inline-flex items-center justify-center px-5 py-3.5 bg-[#E5A93C] hover:bg-[#d49428] text-[#0F2C59] font-bold text-base rounded-xl shadow-lg transition-all duration-300 transform active:scale-95 no-underline"
+            >
+              WhatsApp: 01619848555
+            </a>
+
+            {/* Number 2 Button */}
+            <a
+              href="https://wa.me/8801779848555"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="w-full sm:w-1/2 inline-flex items-center justify-center px-5 py-3.5 bg-[#25D366] hover:bg-[#20bd5a] text-white font-bold text-base rounded-xl shadow-lg transition-all duration-300 transform active:scale-95 no-underline"
+            >
+              WhatsApp: 01779848555
+            </a>
+          </div>
         </div>
 
       </div>

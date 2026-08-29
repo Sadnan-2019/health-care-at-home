@@ -1,6 +1,6 @@
 import { Link } from "lucide-react";
 import React from "react";
-import caregiverpriceingulshan from "../../assets/cargiverpricesingulshan.jpg";
+import caregiverpriceingulshan from "../../assets/caregiverserviceindhaka.jpg";
 import { useNavigate } from "react-router-dom";
 const CaregiverServiceDhakaCover = () => {
      const navigate = useNavigate();
