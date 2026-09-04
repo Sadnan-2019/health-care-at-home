@@ -22,30 +22,48 @@ import FAQSection from "./FAQSection.js";
 const Nanycare = () => {
   return (
     <div>
-      <Helmet>
-        <title>Nanycare at Dhaka</title>
-        <meta
-          name="description"
-          content="Get top-quality professionals  healthcare services at home. Book professional doctors & caregivers online."
-        />
-        <meta
-          name="keywords"
-          content="healthcare,home care,home nursing care,top caregiver dhaka,physiotheray dhaka, home doctors, medical caregiver"
-        />
-        <meta name="robots" content="index, follow" />
-        <meta property="og:title" content="Nanycare at Dhaka" />
-        <meta
-          property="og:description"
-          content="Get top-quality healthcare services at home"
-        />
-        <meta
-          property="og:image"
-          content="http://localhost:3000/static/media/service-caregive.f73bb16bcec38cd23239.jpg"
-        />
-        <meta property="og:url" content="https://hcah.mrg.com.bd" />
-        <meta property="og:type" content="website" />.
-        <link rel="canonical" href="https://hcah.mrg.com.bd" />
-      </Helmet>
+     <Helmet>
+  <title>Nanycare at Dhaka | Baby Care & Nanny Services</title>
+
+  <meta
+    name="description"
+    content="Get trusted baby care, nanny, babysitter, and newborn care services at home in Dhaka. Hire trained and verified caregivers for your child."
+  />
+
+  <meta
+    name="keywords"
+    content="nanycare Dhaka, baby care at home, nanny service Dhaka, babysitter Dhaka, newborn care Dhaka, baby care service Bangladesh, child care at home"
+  />
+
+  <meta name="robots" content="index, follow" />
+
+  <meta
+    property="og:title"
+    content="Nanycare at Dhaka | Baby Care & Nanny Services"
+  />
+
+  <meta
+    property="og:description"
+    content="Trusted baby care, nanny, babysitter, and newborn care services at home in Dhaka."
+  />
+
+  <meta
+    property="og:image"
+    content="https://hcah.mrg.com.bd/static/media/nanysrecovery.f88d6a787f8627fbf07b.jpg"
+  />
+
+  <meta
+    property="og:url"
+    content="https://hcah.mrg.com.bd/nanycare"
+  />
+
+  <meta property="og:type" content="website" />
+
+  <link
+    rel="canonical"
+    href="https://hcah.mrg.com.bd/nanycare"
+  />
+</Helmet>
       <Nanycarelanding />
       <Nanycareabout />
       <InfantToddlerCare></InfantToddlerCare>

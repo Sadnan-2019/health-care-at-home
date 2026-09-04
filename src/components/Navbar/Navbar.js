@@ -89,7 +89,7 @@ const Navbar = () => {
               </button>
               <ul className={`custom-dropdown-menu ${activeDropdown === "services" ? "show" : ""}`}>
                 <NavItemLink to="/nursing" label="Nursing" />
-                <NavItemLink to="/service/physiotherapy-at-home" label="Physiotherapy" />
+                <NavItemLink to="/physiotherapy" label="Physiotherapy" />
                 <NavItemLink to="/medical-assistant" label="Medical Assistant" />
                 <NavItemLink to="/medical-caregiver" label="Medical Caregiver" />
                 <NavItemLink to="/caregiver" label="Caregiver" />

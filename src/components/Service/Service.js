@@ -69,7 +69,7 @@ const Service = () => {
 
   {
     id: "service-medical-assistant",
-    slug: "/service/home-care-medical-assistant",
+    slug: "/medical-assistant",
     title: "Medical Assistant",
     image: servicemedicalassistant,
     altText:
@@ -144,7 +144,7 @@ const Service = () => {
 
 {
   id: "service-nanny-care",
-  slug: "/services/find-nanny-service-in-dhaka",
+  slug: "/nanycare",
   title: "Nanny Care",
   image: nanines,
   altText:
