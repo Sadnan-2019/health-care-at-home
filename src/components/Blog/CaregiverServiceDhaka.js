@@ -79,55 +79,39 @@ const faqSchema = {
      return (
           <div>
 
-            <Helmet>
-      {/* Standard Meta Tags */}
-      <title>Caregiver Service in Dhaka | Professional &amp; Trusted Home Care</title>
-      <meta
-        name="description"
-        content="Need a trusted Caregiver Service in Dhaka? Discover professional home care for elderly and recovering patients."
-      />
-      <meta
-        name="keywords"
-        content="Caregiver Service in Dhaka, Home Care Services Dhaka, Patient Attendant Dhaka, Elderly Care Bangladesh, Home Healthcare Dhaka 2026"
-      />
+          <Helmet>
+        {/* Title & Description */}
+        <title>A Complete Guide to Caregiver Services in Dhaka: Costs & Hiring Advice</title>
+        <meta 
+          name="description" 
+          content="Learn about home caregiver services in Dhaka, including daily duties, cost breakdowns, background verification checks, and tips for choosing the right caregiver." 
+        />
+        <meta 
+          name="keywords" 
+          content="caregiver cost in dhaka, caregiver duties dhaka, how to hire caregiver bangladesh, elderly care guide dhaka, caregiver background check dhaka" 
+        />
+        <link rel="canonical" href="https://hcah.mrg.com.bd/blog/caregiver-service-in-dhaka" />
 
-      {/* Canonical Tag */}
-      <link rel="canonical" href="https://hcah.mrg.com.bd/blog/caregiver-service-in-dhaka" />
+        {/* Open Graph Tags */}
+        <meta property="og:type" content="article" />
+        <meta property="og:title" content="A Complete Guide to Caregiver Services in Dhaka: Costs & Hiring Advice" />
+        <meta property="og:description" content="Detailed guide on caregiver duties, hourly/monthly cost factors, verification checklists, and FAQs for families in Dhaka." />
+        <meta property="og:url" content="https://hcah.mrg.com.bd/blog/caregiver-service-in-dhaka" />
 
-      {/* Open Graph / Facebook Meta Tags */}
-      <meta property="og:title" content="Caregiver Service in Dhaka | Professional &amp; Trusted Home Care" />
-      <meta
-        property="og:description"
-        content="Need a trusted Caregiver Service in Dhaka? Discover professional home care for elderly and recovering patients."
-      />
-      <meta property="og:type" content="article" />
-      <meta property="og:url" content="https://hcah.mrg.com.bd/blog/caregiver-service-in-dhaka" />
-      <meta property="og:image" content="https://hcah.mrg.com.bd/assets/cargiverpricesingulshan.jpg" />
-      <meta property="og:site_name" content="Health Care at Home Bangladesh" />
-
-      {/* Twitter Card Meta Tags */}
-      <meta name="twitter:card" content="summary_large_image" />
-      <meta name="twitter:title" content="Caregiver Service in Dhaka | Professional &amp; Trusted Home Care" />
-      <meta
-        name="twitter:description"
-        content="Need a trusted Caregiver Service in Dhaka? Discover professional home care for elderly and recovering patients."
-      />
-      <meta name="twitter:image" content="https://hcah.mrg.com.bd/assets/cargiverpricesingulshan.jpg" />
-
-      {/* Article Schema */}
-      {articleSchema && (
+        {/* Schema Markup */}
         <script type="application/ld+json">
-          {JSON.stringify(articleSchema)}
+          {JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "BlogPosting",
+            "headline": "A Complete Guide to Caregiver Services in Dhaka: Costs & Hiring Advice",
+            "description": "Comprehensive informational guide covering caregiver duties, cost factors, identity verification, and FAQs for home care in Dhaka.",
+            "mainEntityOfPage": {
+              "@type": "WebPage",
+              "@id": "https://hcah.mrg.com.bd/blog/caregiver-service-in-dhaka"
+            }
+          })}
         </script>
-      )}
-
-      {/* FAQ Schema */}
-      {faqSchema && (
-        <script type="application/ld+json">
-          {JSON.stringify(faqSchema)}
-        </script>
-      )}
-    </Helmet>
+      </Helmet>
           <section className="bg-white py-5 md:py-5 text-slate-800">
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
         
