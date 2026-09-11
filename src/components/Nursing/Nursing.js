@@ -12,6 +12,7 @@ import "./Nursing.css"
 import { Helmet } from "react-helmet-async";
 import WhoNeedsNursingSection from "./WhoNeedsNursingSection";
 import FlexibleNursingCareSection from "./FlexibleNursingCareSection";
+import FAQSection from "./FAQSection";
 // import "../../../src/components/Blog/Blog.css"  
 const Nursing = () => {
   return (
@@ -84,6 +85,7 @@ const Nursing = () => {
       <Success></Success>
       <Marque></Marque>
       <Teamnursing></Teamnursing>
+      <FAQSection></FAQSection>
     </div>
   );
 };
