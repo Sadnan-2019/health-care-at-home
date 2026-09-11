@@ -10,6 +10,8 @@ import Nursingchoose from "./Nursingchoose";
 import Teamnursing from "./Teamnursing";
 import "./Nursing.css"
 import { Helmet } from "react-helmet-async";
+import WhoNeedsNursingSection from "./WhoNeedsNursingSection";
+import FlexibleNursingCareSection from "./FlexibleNursingCareSection";
 // import "../../../src/components/Blog/Blog.css"  
 const Nursing = () => {
   return (
@@ -29,60 +31,54 @@ const Nursing = () => {
       
              
             </Helmet>
-      <section
-        className="h-auto blog nursing"
-         
-      >
-        <div className="grid grid-cols-1 gap-5 py-10 mx-8 md:py-20 lg:py-24 lg:mx-16 lg:grid-cols-1">
-          <div className="order-2 max-w-xl mt-10 text-left md:ml-8 lg:order-1 lg:mt-0">
-            
-            <p
-              data-aos="fade-up"
-              data-aos-duration="1000"
-              className="md:text-[43px] font-bold text-[20px] text-left poppins-b text-white "
-              style={{ lineHeight: "120%"}}
-            >
-              Diploma Nursing Services at Home
-            </p>
-        
+      <section className="relative  nursing text-white py-20 lg:py-28 overflow-hidden">
+      {/* Background Image with Dark Overlay */}
+      <div 
+        className="absolute inset-0 bg-cover bg-center z-0 opacity-30"
+        style={{ backgroundImage: `url('/images/home-nursing-dhaka.jpg')` }}
+        role="img"
+        aria-label="Professional nurse caring for a patient at home in Dhaka"
+      />
+      <div className="absolute inset-0   z-0" />
 
-           
-            <p
-              data-aos="fade-up"
-              data-aos-duration="1000"
-              className="max-w-lg mt-7 font-bold   md:text-[25px] poppins-t text-left lg:text-justify "
-              style={{ lineHeight: "120%", color: "white" }}
-            >
-              Qualified and experienced diploma nurses to help with daily
-              activities and vitals signs monitoring at home.
-            </p>
-            <div
-              className="flex items-center mt-5 font-bold"
-              data-aos="fade-up"
-              data-aos-duration="3000"
-            >
-              <FaPhoneVolume
-                className="text-2xl "
-                style={{ color: "white" }}
-              />
-              <span className="lg:text-2xl text-[20px] " style={{ color: "white" }}>
-                {" "}
-                Call Now: 01619848555
-              </span>
-            </div>
+      <div className="container mx-auto px-4 sm:px-6 lg:px-8 relative z-10 max-w-5xl">
+        <div className="space-y-6">
+          <div className="inline-flex items-center gap-2 bg-teal-500/10 text-teal-300 px-3.5 py-1.5 rounded-full text-sm font-medium border border-teal-500/20">
+            <span className="w-2 h-2 rounded-full bg-teal-400 animate-pulse" />
+            Available 24/7 Across Dhaka City
+          </div>
 
-            <div
-              data-aos="fade-up"
-              data-aos-duration="3000"
-              className="flex gap-4 mt-10 text-center"
+          <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold tracking-tight leading-tight text-white">
+            Home Nursing Service in Dhaka
+          </h1>
+
+          <p className="text-lg sm:text-xl text-white leading-relaxed max-w-3xl">
+            HCAH delivers professional <strong className="text-white font-semibold">nursing care at home in Dhaka</strong>, bringing certified clinical support directly to your doorstep. Designed for elderly individuals, post-surgery recovering patients, and those managing chronic illnesses, our dedicated <strong className="text-white font-semibold">home healthcare service</strong> ensures hospital-grade medical attention within the comfort of familiar surroundings. From daily <strong className="text-white font-semibold">patient care service</strong> and vital monitoring to specialized clinical procedures, families can easily arrange compassionate, reliable <strong className="text-white font-semibold">nursing services in Dhaka</strong> through our structured care plans.
+          </p>
+
+          <div className="pt-4 flex flex-wrap items-center gap-4">
+            <a 
+              href="https://wa.me/8801619848555" 
+              target="_blank" 
+              rel="noopener noreferrer" 
+              className="bg-emerald-600 hover:bg-emerald-500 text-white font-semibold px-6 py-3.5 rounded-lg shadow-lg transition-colors duration-200 inline-flex items-center gap-2"
             >
-             
-            </div>
+              WhatsApp: 01619-848555
+            </a>
+            <a 
+              href="tel:+8801779848555" 
+              className="bg-slate-800 hover:bg-slate-700 text-slate-100 font-semibold px-6 py-3.5 rounded-lg border border-slate-700 transition-colors duration-200 inline-flex items-center gap-2"
+            >
+              Call: 01779-848555
+            </a>
           </div>
         </div>
-      </section>
+      </div>
+    </section>
 
       <Nursingabout  ></Nursingabout>
+      <WhoNeedsNursingSection></WhoNeedsNursingSection>
+      <FlexibleNursingCareSection></FlexibleNursingCareSection>
       <Nursingchoose></Nursingchoose>
       <Review></Review>
       <Success></Success>

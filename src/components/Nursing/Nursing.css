@@ -7,11 +7,10 @@
     ),
     url("../../assets/Nursing.jpg");
 
-  background-repeat: no-repeat;
-  background-size: cover;
-
-  height: auto;
-  background-position: center;
+background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: auto;
   /* background-attachment: fixed; */
 }
 
