@@ -28,6 +28,7 @@ import HealthcareChatbot from "./components/HealthcareChatbot/HealthcareChatbot"
 import GulshanCaregiverPrices from "./components/Blog/GulshanCaregiverPrices";
 import CaregiverServiceDhaka from "./components/Blog/CaregiverServiceDhaka";
 import NursingHomeCareInDhanmondi from "./components/ServiceArea/NursingHomeCareInDhanmondi";
+import CaregiverServiceInBangladesh from "./components/Blog/CaregiverServiceInBangladesh";
 // import New from './components/Nav/New';
  
 function App() {
@@ -160,6 +161,7 @@ function App() {
             <Route path="/landing" element={<HcahLanding />}></Route>
             <Route path="/service-protocol" element={<Protocol/>}></Route>
             <Route path="/nursing-home-care-in-dhanmondi" element={<NursingHomeCareInDhanmondi/>}></Route>
+            <Route path="/caregiver-service-in-bangladesh" element={<CaregiverServiceInBangladesh/>}></Route>
             {/* <Route path="login" element={<Login />}></Route> */}
             <Route path="/*" element={<FourZeroFour />} />
           </Routes>
