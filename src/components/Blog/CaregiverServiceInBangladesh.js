@@ -138,7 +138,7 @@ const faqSchema = {
 
   <meta
     property="og:image"
-    content="YOUR_ACTUAL_CAREGIVER_IMAGE_URL"
+    content="https://hcah.mrg.com.bd/static/media/caregiverlanding.e7c8e0f9218038f7cf91.png"
   />
 
   <meta
