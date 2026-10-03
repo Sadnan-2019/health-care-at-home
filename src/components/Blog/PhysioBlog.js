@@ -22,6 +22,7 @@ import { Link } from "react-router-dom";
 import GulshanCaregiverPricesCover from "./GulshanCaregiverPricesCover";
 import WorldHypertensionDay from "./WorldHypertensionDay";
 import CaregiverServiceDhakaCover from "./CaregiverServiceDhakaCover";
+import CaregiverBlogBanner from "./CaregiverBlogBanner";
 
 const PhysioBlog = () => {
   return (
@@ -29,6 +30,7 @@ const PhysioBlog = () => {
       <div>
         <div className="blog">
           <div className=" grid grid-cols-1 lg:grid-cols-2   items-center justify-center px-5 gap-5">
+            <CaregiverBlogBanner></CaregiverBlogBanner>
 
 <CaregiverServiceDhakaCover></CaregiverServiceDhakaCover>
 <GulshanCaregiverPricesCover></GulshanCaregiverPricesCover>

@@ -1,6 +1,6 @@
 import React from "react";
 import { Helmet } from "react-helmet-async";
-
+import bannerImage from '../../assets/caregiverserviceinbangladesh.webp';
 const CaregiverServiceInBangladesh = () => {
 
 const articleSchema = {
@@ -180,55 +180,18 @@ const faqSchema = {
       {/* Background Image Container with Overlay */}
       <div className="absolute inset-0 z-0">
         <img
-          src="https://images.unsplash.com/photo-1576765608535-5f04d1e3f289?auto=format&fit=crop&w=1600&q=80"
-          alt="Caregiver supporting an elderly person with compassion at home"
-          className="w-full h-full object-cover object-center opacity-30"
+          src={bannerImage}
+          alt="Caregiver Service in Bangladesh"
+          className="w-full h-full object-cover object-center opacity-40"
         />
-        <div className="absolute inset-0 bg-gradient-to-r from-slate-950 via-slate-900/90 to-transparent" />
+        <div className="absolute inset-0 bg-gradient-to-r from-slate-950/90 via-slate-900/70 to-transparent" />
       </div>
 
-      {/* Banner Content Layer */}
-      <div className="relative z-10 px-6 py-16 sm:px-12 sm:py-20 lg:py-24 max-w-2xl space-y-6">
-        
-        {/* Subtle Badge */}
-        <div className="inline-block bg-teal-500/20 border border-teal-400/40 px-3 py-1 rounded-full text-xs font-semibold text-teal-300 uppercase tracking-wide">
-          Trusted Home Care Support in Bangladesh
-        </div>
-
-        {/* Banner Main Heading */}
+      {/* Banner Content - Title Only */}
+      <div className="relative z-10 px-6 py-16 sm:px-12 sm:py-24 lg:py-28 max-w-3xl">
         <h1 className="text-3xl sm:text-4xl lg:text-5xl font-extrabold text-white tracking-tight leading-tight">
-          Reliable & Compassionate Caregiver Services at Home
+          Caregiver Service in Bangladesh: Professional Home Care for Elderly & Patients
         </h1>
-
-        {/* Banner Description */}
-        <p className="text-base sm:text-lg text-slate-300 leading-relaxed">
-          From daily mobility and hygiene assistance to full-time home care support, find the right balance of personal care for your loved ones in Dhaka and across Bangladesh.
-        </p>
-
-        {/* Action Link Anchors */}
-        <div className="pt-2 flex flex-col sm:flex-row items-stretch sm:items-center gap-4">
-          <a
-            href="https://hcah.mrg.com.bd/caregiver"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="inline-flex justify-center items-center gap-2 bg-teal-600 hover:bg-teal-500 text-white font-bold py-3.5 px-6 rounded-xl transition-all duration-200 shadow-md hover:shadow-teal-500/20"
-          >
-            Explore Caregiver Services
-            <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M14 5l7 7m0 0l-7 7m7-7H3" />
-            </svg>
-          </a>
-
-          <a
-            href="https://hcah.mrg.com.bd/"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="inline-flex justify-center items-center border border-slate-700 bg-slate-800/80 hover:bg-slate-800 text-slate-200 hover:text-white font-semibold py-3.5 px-6 rounded-xl transition-colors duration-200"
-          >
-            Visit HCAH Homepage
-          </a>
-        </div>
-
       </div>
     </header>
 
