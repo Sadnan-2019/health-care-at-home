@@ -195,12 +195,12 @@ const faqSchema = {
       </div>
     </header>
 
-      <section className="bg-slate-50 py-12 md:py-16 px-4 sm:px-6 lg:px-8">
+      <section className="  py-12 md:py-16 px-4 sm:px-6 lg:px-8">
         <div className="max-w-4xl mx-auto space-y-6">
           {/* H1 Heading without spans */}
-          <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-slate-900 leading-tight">
-            What Is a Caregiver Service in Bangladesh?
-          </h1>
+          {/* <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-slate-900 leading-tight">
+          Caregiver Service in Bangladesh: Professional Home Care for Elderly & Patients
+          </h1> */}
 
           {/* Intro Paragraphs */}
           <p className="text-lg text-slate-700 leading-relaxed">
@@ -234,7 +234,7 @@ const faqSchema = {
         </div>
       </section>
 
-      <article className="min-h-screen bg-slate-50 text-slate-800 py-12 px-4 sm:px-6 lg:px-8 font-sans leading-relaxed">
+      <article className="min-h-screen   text-slate-800 py-12 px-4 sm:px-6 lg:px-8 font-sans leading-relaxed">
         <div className="max-w-4xl mx-auto space-y-12">
           {/* SECTION 1: What Is a Caregiver Service in Bangladesh? */}
           <section className="space-y-6">
@@ -579,7 +579,7 @@ const faqSchema = {
               falls, and other conditions that affect independence.
             </p>
 
-            <div className="p-5 bg-slate-50 border border-slate-200/80 rounded-2xl space-y-3">
+            <div className="p-5   border border-slate-200/80 rounded-2xl space-y-3">
               <h4 className="text-base font-semibold text-slate-900">
                 Common signs include difficulty with:
               </h4>
@@ -864,7 +864,7 @@ const faqSchema = {
         {/* Core Caregiver Duties Grid */}
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
           {/* 1. Personal Care */}
-          <section className="p-6 bg-slate-50 border border-slate-200/80 rounded-2xl space-y-4">
+          <section className="p-6   border border-slate-200/80 rounded-2xl space-y-4">
             <h3 className="text-xl font-bold text-slate-900">Personal Care</h3>
             <p className="text-sm text-slate-600 leading-relaxed">
               A caregiver may assist with basic personal tasks that a person
@@ -959,7 +959,7 @@ const faqSchema = {
           </section>
 
           {/* 2. Mobility & Daily Movement */}
-          <section className="p-6 bg-slate-50 border border-slate-200/80 rounded-2xl space-y-4">
+          <section className="p-6   border border-slate-200/80 rounded-2xl space-y-4">
             <h3 className="text-xl font-bold text-slate-900">
               Mobility & Daily Movement
             </h3>
@@ -1057,7 +1057,7 @@ const faqSchema = {
           </section>
 
           {/* 3. Feeding & Daily Meals */}
-          <section className="p-6 bg-slate-50 border border-slate-200/80 rounded-2xl space-y-4">
+          <section className="p-6   border border-slate-200/80 rounded-2xl space-y-4">
             <h3 className="text-xl font-bold text-slate-900">
               Feeding & Daily Meals
             </h3>
@@ -1139,7 +1139,7 @@ const faqSchema = {
           </section>
 
           {/* 4. Companionship & Daily Routine */}
-          <section className="p-6 bg-slate-50 border border-slate-200/80 rounded-2xl space-y-4 flex flex-col justify-between">
+          <section className="p-6   border border-slate-200/80 rounded-2xl space-y-4 flex flex-col justify-between">
             <div className="space-y-4">
               <h3 className="text-xl font-bold text-slate-900">
                 Companionship & Daily Routine
@@ -1229,7 +1229,7 @@ const faqSchema = {
               when age or reduced mobility makes them difficult.
             </p>
 
-            <div className="p-5 bg-slate-50 border border-slate-200/80 rounded-2xl space-y-3">
+            <div className="p-5   border border-slate-200/80 rounded-2xl space-y-3">
               <h4 className="text-base font-semibold text-slate-900">
                 Support may include:
               </h4>
@@ -1332,7 +1332,7 @@ const faqSchema = {
               when a patient is not yet ready to manage daily activities alone.
             </p>
 
-            <div className="p-5 bg-slate-50 border border-slate-200/80 rounded-2xl space-y-3">
+            <div className="p-5   border border-slate-200/80 rounded-2xl space-y-3">
               <h4 className="text-base font-semibold text-slate-900">
                 They can provide temporary help with:
               </h4>
@@ -1465,19 +1465,19 @@ const faqSchema = {
           <div className="overflow-x-auto border border-slate-200 rounded-2xl bg-white shadow-sm">
             <table className="w-full text-left border-collapse">
               <thead>
-                <tr className="bg-slate-50 border-b border-slate-200 text-slate-900 text-sm font-semibold">
+                <tr className="  border-b border-slate-200 text-slate-900 text-sm font-semibold">
                   <th className="py-3.5 px-4 sm:px-6">Need</th>
                   <th className="py-3.5 px-4 sm:px-6">Possible Arrangement</th>
                 </tr>
               </thead>
               <tbody className="divide-y divide-slate-200 text-sm sm:text-base text-slate-700">
-                <tr className="hover:bg-slate-50/50 transition-colors">
+                <tr className="hover: /50 transition-colors">
                   <td className="py-3.5 px-4 sm:px-6">Daytime assistance</td>
                   <td className="py-3.5 px-4 sm:px-6 font-medium text-teal-800">
                     8/12-hour care
                   </td>
                 </tr>
-                <tr className="hover:bg-slate-50/50 transition-colors">
+                <tr className="hover: /50 transition-colors">
                   <td className="py-3.5 px-4 sm:px-6">
                     Extended daytime or night support
                   </td>
@@ -1485,7 +1485,7 @@ const faqSchema = {
                     12-hour care
                   </td>
                 </tr>
-                <tr className="hover:bg-slate-50/50 transition-colors">
+                <tr className="hover: /50 transition-colors">
                   <td className="py-3.5 px-4 sm:px-6">
                     Frequent or continuous assistance
                   </td>
@@ -1520,7 +1520,7 @@ const faqSchema = {
         {/* Side-by-Side Comparison Grid */}
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
           {/* 1. Caregiver Duties */}
-          <section className="p-6 bg-slate-50 border border-slate-200/80 rounded-2xl space-y-4 flex flex-col justify-between">
+          <section className="p-6   border border-slate-200/80 rounded-2xl space-y-4 flex flex-col justify-between">
             <div className="space-y-4">
               <h3 className="text-xl font-bold text-slate-900 border-b border-slate-200/80 pb-3">
                 Caregiver
@@ -1729,7 +1729,7 @@ const faqSchema = {
         </section>
 
         {/* How HCAH Can Help Box */}
-        <section className="p-6 bg-slate-50 border border-slate-200 rounded-2xl space-y-3">
+        <section className="p-6   border border-slate-200 rounded-2xl space-y-3">
           <h3 className="text-xl font-bold text-slate-900">
             How HCAH Can Help
           </h3>
@@ -1761,7 +1761,7 @@ const faqSchema = {
         {/* Steps List */}
         <div className="space-y-8">
           {/* 1. Check Caregiver Identity */}
-          <section className="p-6 bg-slate-50 border border-slate-200/80 rounded-2xl space-y-3">
+          <section className="p-6   border border-slate-200/80 rounded-2xl space-y-3">
             <div className="flex items-start gap-4">
               <div className="w-8 h-8 rounded-full bg-teal-600 text-white font-bold text-sm flex items-center justify-center flex-shrink-0 mt-0.5">
                 1
@@ -1849,7 +1849,7 @@ const faqSchema = {
           </section>
 
           {/* 2. Ask About Training and Experience */}
-          <section className="p-6 bg-slate-50 border border-slate-200/80 rounded-2xl space-y-3">
+          <section className="p-6   border border-slate-200/80 rounded-2xl space-y-3">
             <div className="flex items-start gap-4">
               <div className="w-8 h-8 rounded-full bg-teal-600 text-white font-bold text-sm flex items-center justify-center flex-shrink-0 mt-0.5">
                 2
@@ -1945,7 +1945,7 @@ const faqSchema = {
           </section>
 
           {/* 3. Confirm Daily Responsibilities */}
-          <section className="p-6 bg-slate-50 border border-slate-200/80 rounded-2xl space-y-3">
+          <section className="p-6   border border-slate-200/80 rounded-2xl space-y-3">
             <div className="flex items-start gap-4">
               <div className="w-8 h-8 rounded-full bg-teal-600 text-white font-bold text-sm flex items-center justify-center flex-shrink-0 mt-0.5">
                 3
@@ -1969,7 +1969,7 @@ const faqSchema = {
           </section>
 
           {/* 4. Ask About Supervision */}
-          <section className="p-6 bg-slate-50 border border-slate-200/80 rounded-2xl space-y-3">
+          <section className="p-6   border border-slate-200/80 rounded-2xl space-y-3">
             <div className="flex items-start gap-4">
               <div className="w-8 h-8 rounded-full bg-teal-600 text-white font-bold text-sm flex items-center justify-center flex-shrink-0 mt-0.5">
                 4
@@ -2040,7 +2040,7 @@ const faqSchema = {
           </section>
 
           {/* 5. Confirm Service Hours */}
-          <section className="p-6 bg-slate-50 border border-slate-200/80 rounded-2xl space-y-3">
+          <section className="p-6   border border-slate-200/80 rounded-2xl space-y-3">
             <div className="flex items-start gap-4">
               <div className="w-8 h-8 rounded-full bg-teal-600 text-white font-bold text-sm flex items-center justify-center flex-shrink-0 mt-0.5">
                 5
@@ -2132,7 +2132,7 @@ const faqSchema = {
           </section>
 
           {/* 6. Ask About Replacement */}
-          <section className="p-6 bg-slate-50 border border-slate-200/80 rounded-2xl space-y-3">
+          <section className="p-6   border border-slate-200/80 rounded-2xl space-y-3">
             <div className="flex items-start gap-4">
               <div className="w-8 h-8 rounded-full bg-teal-600 text-white font-bold text-sm flex items-center justify-center flex-shrink-0 mt-0.5">
                 6
@@ -2224,7 +2224,7 @@ const faqSchema = {
           </section>
 
           {/* 7. Check Whether Nursing Is Required */}
-          <section className="p-6 bg-slate-50 border border-slate-200/80 rounded-2xl space-y-3">
+          <section className="p-6   border border-slate-200/80 rounded-2xl space-y-3">
             <div className="flex items-start gap-4">
               <div className="w-8 h-8 rounded-full bg-teal-600 text-white font-bold text-sm flex items-center justify-center flex-shrink-0 mt-0.5">
                 7
@@ -2277,7 +2277,7 @@ const faqSchema = {
         </header>
 
         {/* 1. Understanding Requirements */}
-        <section className="p-6 bg-slate-50 border border-slate-200/80 rounded-2xl space-y-4">
+        <section className="p-6   border border-slate-200/80 rounded-2xl space-y-4">
           <h3 className="text-xl font-bold text-slate-900 border-b border-slate-200/80 pb-3">
             Understanding the Family's Care Requirement
           </h3>
@@ -2361,7 +2361,7 @@ const faqSchema = {
         </section>
 
         {/* 2. Matching Service */}
-        <section className="p-6 bg-slate-50 border border-slate-200/80 rounded-2xl space-y-4">
+        <section className="p-6   border border-slate-200/80 rounded-2xl space-y-4">
           <h3 className="text-xl font-bold text-slate-900 border-b border-slate-200/80 pb-3">
             Matching the Service to the Care Need
           </h3>
@@ -2567,7 +2567,7 @@ const faqSchema = {
         {/* Accordion FAQ Items */}
         <div className="space-y-4">
           {/* FAQ Item 1 */}
-          <details className="group border border-slate-200 bg-slate-50 rounded-2xl p-6 [&_summary::-webkit-details-marker]:none transition-all duration-200">
+          <details className="group border border-slate-200   rounded-2xl p-6 [&_summary::-webkit-details-marker]:none transition-all duration-200">
             <summary className="flex items-center justify-between font-bold text-lg text-slate-900 cursor-pointer select-none">
               How soon can caregiver support usually begin after contacting a
               service?
@@ -2594,7 +2594,7 @@ const faqSchema = {
           </details>
 
           {/* FAQ Item 2 */}
-          <details className="group border border-slate-200 bg-slate-50 rounded-2xl p-6 [&_summary::-webkit-details-marker]:none transition-all duration-200">
+          <details className="group border border-slate-200   rounded-2xl p-6 [&_summary::-webkit-details-marker]:none transition-all duration-200">
             <summary className="flex items-center justify-between font-bold text-lg text-slate-900 cursor-pointer select-none">
               Can caregiver support be arranged for only a few days?
             </summary>
@@ -2622,7 +2622,7 @@ const faqSchema = {
           </details>
 
           {/* FAQ Item 3 */}
-          <details className="group border border-slate-200 bg-slate-50 rounded-2xl p-6 [&_summary::-webkit-details-marker]:none transition-all duration-200">
+          <details className="group border border-slate-200   rounded-2xl p-6 [&_summary::-webkit-details-marker]:none transition-all duration-200">
             <summary className="flex items-center justify-between font-bold text-lg text-slate-900 cursor-pointer select-none">
               Can a family change the caregiver's working hours later?
             </summary>
@@ -2635,7 +2635,7 @@ const faqSchema = {
           </details>
 
           {/* FAQ Item 4 */}
-          <details className="group border border-slate-200 bg-slate-50 rounded-2xl p-6 [&_summary::-webkit-details-marker]:none transition-all duration-200">
+          <details className="group border border-slate-200   rounded-2xl p-6 [&_summary::-webkit-details-marker]:none transition-all duration-200">
             <summary className="flex items-center justify-between font-bold text-lg text-slate-900 cursor-pointer select-none">
               What information should I provide when requesting a caregiver?
             </summary>
@@ -2649,7 +2649,7 @@ const faqSchema = {
           </details>
 
           {/* FAQ Item 5 */}
-          <details className="group border border-slate-200 bg-slate-50 rounded-2xl p-6 [&_summary::-webkit-details-marker]:none transition-all duration-200">
+          <details className="group border border-slate-200   rounded-2xl p-6 [&_summary::-webkit-details-marker]:none transition-all duration-200">
             <summary className="flex items-center justify-between font-bold text-lg text-slate-900 cursor-pointer select-none">
               What should a family do if the person's care needs increase?
             </summary>
