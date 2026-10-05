@@ -99,12 +99,13 @@ const faqSchema = {
 <Helmet>
   {/* Standard Meta Tags */}
   <title>
-    Caregiver Service in Bangladesh | Elderly & Patient Home Care
+       Caregiver Service in Bangladesh: Professional Home Care for Elderly & Patients
+
   </title>
 
   <meta
     name="description"
-    content="Learn about caregiver services in Bangladesh for elderly people, patients, bedridden individuals, and post-surgery recovery, and how to choose the right home-care support."
+    content="Learn how caregiver services in Bangladesh support elderly people and patients at home. Choose the right care option for your family member."
   />
 
   <meta
@@ -115,25 +116,26 @@ const faqSchema = {
   {/* Canonical */}
   <link
     rel="canonical"
-    href="https://hcah.mrg.com.bd/caregiver-service-bangladesh"
+    href="https://hcah.mrg.com.bd/caregiver-service-in-bangladesh"
   />
 
   {/* Open Graph / Facebook */}
   <meta
     property="og:title"
-    content="Caregiver Service in Bangladesh | Elderly & Patient Home Care"
+    content="  Caregiver Service in Bangladesh: Professional Home Care for Elderly & Patients
+"
   />
 
   <meta
     property="og:description"
-    content="Understand caregiver support for elderly people, patients, bedridden individuals and post-surgery recovery, including how to choose the right home-care service."
+    content="Learn how caregiver services in Bangladesh support elderly people and patients at home. Choose the right care option for your family member."
   />
 
   <meta property="og:type" content="article" />
 
   <meta
     property="og:url"
-    content="https://hcah.mrg.com.bd/caregiver-service-bangladesh"
+    content="https://hcah.mrg.com.bd/caregiver-service-in-bangladesh"
   />
 
   <meta
@@ -1748,9 +1750,9 @@ const faqSchema = {
       <article className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-12 md:py-16 text-slate-800 space-y-10">
         {/* Header */}
         <header className="space-y-4">
-          <h1 className="text-2xl sm:text-3xl lg:text-4xl font-bold text-slate-900 tracking-tight">
+          <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold text-slate-900 tracking-tight">
             How to Choose a Caregiver Service in Bangladesh
-          </h1>
+          </h2>
           <p className="text-base sm:text-lg text-slate-700 leading-relaxed">
             Choosing a caregiver service Dhaka families can rely on requires
             more than checking availability. Before hiring, ask practical
