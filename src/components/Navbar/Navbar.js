@@ -9,9 +9,10 @@ import "./Navbar.css";
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
-  const [activeDropdown, setActiveDropdown] = useState(null); // 'services' | 'more' | null
-  
+  const [activeDropdown, setActiveDropdown] = useState(null); // 'services' | 'service-area' | 'more' | null
+
   const servicesRef = useRef(null);
+  const serviceAreaRef = useRef(null);
   const moreRef = useRef(null);
 
   // Close desktop dropdowns if clicking anywhere outside the navbar
@@ -19,6 +20,7 @@ const Navbar = () => {
     const handleOutsideClick = (event) => {
       if (
         servicesRef.current && !servicesRef.current.contains(event.target) &&
+        serviceAreaRef.current && !serviceAreaRef.current.contains(event.target) &&
         moreRef.current && !moreRef.current.contains(event.target)
       ) {
         setActiveDropdown(null);
@@ -99,6 +101,29 @@ const Navbar = () => {
               </ul>
             </li>
 
+            {/* SERVICE AREA CLICKABLE DROPDOWN */}
+            <li className="nav-dropdown-wrapper" ref={serviceAreaRef}>
+              <button 
+                onClick={() => toggleDropdown("service-area")} 
+                className={`dropdown-trigger ${activeDropdown === "service-area" ? "text-white" : ""}`}
+              >
+                <span>Service Area</span>
+                <svg className={`w-4 h-4 fill-current transition-transform duration-300 ${activeDropdown === "service-area" ? "rotate-180" : ""}`} xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
+                  <path d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z" />
+                </svg>
+              </button>
+              <ul className={`custom-dropdown-menu ${activeDropdown === "service-area" ? "show" : ""}`}>
+                 <NavItemLink to="nursing-home-care-in-dhanmondi" label="Nursing Home Care in Dhanmondi" />
+                {/* <NavItemLink to="/service-area/chittagong" label="Chittagong" />
+                <NavItemLink to="/service-area/sylhet" label="Sylhet" />
+                <NavItemLink to="/service-area/rajshahi" label="Rajshahi" />
+                <NavItemLink to="/service-area/khulna" label="Khulna" />
+                <NavItemLink to="/service-area/barishal" label="Barishal" />
+                <NavItemLink to="/service-area/rangpur" label="Rangpur" />
+                <NavItemLink to="/service-area/mymensingh" label="Mymensingh" /> */}
+              </ul>
+            </li>
+
             <NavItemLink to="/payment" label="Payment" />
             <NavItemLink to="/service-protocol" label="Our Service Protocol" />
             <NavItemLink to="/blog" label="Blog" />
@@ -125,7 +150,7 @@ const Navbar = () => {
         {/* MOBILE BACKDROP OVERLAY */}
         {isOpen && <div className="drawer-overlay" onClick={closeAll} />}
 
-        {/* MOBILE SLIDE DRAWER MENU - MATCHED EXACTLY TO DESKTOP URLS */}
+        {/* MOBILE SLIDE DRAWER MENU */}
         <div className={`nav-drawer ${isOpen ? "open" : "closed"}`}>
           <div className="flex justify-end p-4">
             <button onClick={closeAll} className="p-1 bg-rose-700 text-white rounded-md" aria-label="Close Menu">
@@ -139,13 +164,24 @@ const Navbar = () => {
             {/* SERVICES INDIVIDUAL SEPARATION GROUP */}
             <li className="text-gray-400 text-xs font-bold uppercase tracking-wider mt-4 px-2 mb-1 border-b border-white/10 pb-1">Our Services</li>
             <NavItemLink to="/nursing" label="Nursing" />
-            <NavItemLink to="/service/physiotherapy-at-home" label="Physiotherapy" />
+            <NavItemLink to="/physiotherapy" label="Physiotherapy" />
             <NavItemLink to="/medical-assistant" label="Medical Assistant" />
             <NavItemLink to="/medical-caregiver" label="Medical Caregiver" />
             <NavItemLink to="/caregiver" label="Caregiver" />
             <NavItemLink to="/nanycare" label="Nanycare" />
             <NavItemLink to="/companionship" label="Companion" />
             <NavItemLink to="/medical-equipment" label="Medical Equipment" />
+
+            {/* SERVICE AREA INDIVIDUAL SEPARATION GROUP */}
+            <li className="text-gray-400 text-xs font-bold uppercase tracking-wider mt-4 px-2 mb-1 border-b border-white/10 pb-1">Service Area</li>
+            <NavItemLink to="nursing-home-care-in-dhanmondi" label="nursing-home-care-in-dhanmondi" />
+            {/* <NavItemLink to="/service-area/chittagong" label="Chittagong" />
+            <NavItemLink to="/service-area/sylhet" label="Sylhet" />
+            <NavItemLink to="/service-area/rajshahi" label="Rajshahi" />
+            <NavItemLink to="/service-area/khulna" label="Khulna" />
+            <NavItemLink to="/service-area/barishal" label="Barishal" />
+            <NavItemLink to="/service-area/rangpur" label="Rangpur" />
+            <NavItemLink to="/service-area/mymensingh" label="Mymensingh" /> */}
 
             {/* CORE INDIVIDUAL LINK SEPARATIONS */}
             <li className="text-gray-400 text-xs font-bold uppercase tracking-wider mt-4 px-2 mb-1 border-b border-white/10 pb-1">More Links</li>

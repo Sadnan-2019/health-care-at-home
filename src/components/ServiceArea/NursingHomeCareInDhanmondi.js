@@ -48,6 +48,8 @@ import {
   User,
   Send,
 } from "lucide-react";
+
+import  heroBg from "../../assets/nursingcareindhanmondi.webp"
 import { Helmet } from "react-helmet-async";
 const NursingHomeCareInDhanmondi = () => {
 
@@ -382,145 +384,136 @@ const roadsAndBlocks = [
       </script>
     </Helmet>
       <section className="relative bg-gradient-to-b from-slate-50 via-emerald-50/20 to-white py-12 px-4 sm:px-6 lg:px-8 font-sans overflow-hidden">
-        <div className="max-w-7xl mx-auto">
-          <div className="grid grid-cols-1 lg:grid-cols-12 gap-10 items-center">
-            {/* Main Hero Content */}
-            <div className="lg:col-span-7 space-y-6">
-              {/* Fast Deployment Location Badge */}
-              <div className="inline-flex items-center gap-2 bg-emerald-100/80 border border-emerald-200 text-emerald-800 text-xs sm:text-sm font-semibold px-3.5 py-1.5 rounded-full shadow-sm">
-                <Clock className="w-4 h-4 text-emerald-600 animate-pulse" />
-                <span>
-                  Fast Deployment Across Dhanmondi Residential & Commercial
-                  Areas
-                </span>
-              </div>
+      <div
+        className="absolute inset-0 z-0 bg-center bg-cover"
+        style={{ backgroundImage: `url(${heroBg})` }}
+      >
+        <div className="absolute inset-0 bg-slate-950/30"></div>
+      </div>
+      <div className="max-w-7xl mx-auto z-10 relative">
+        <div className="grid grid-cols-1 lg:grid-cols-12 gap-10 items-center">
+          {/* Main Hero Content */}
+          <div className="lg:col-span-7 space-y-6">
+            {/* Fast Deployment Location Badge */}
+            <div className="inline-flex items-center gap-2 bg-emerald-100/80 border border-emerald-200 text-emerald-800 text-xs sm:text-sm font-semibold px-3.5 py-1.5 rounded-full shadow-sm">
+              <Clock className="w-4 h-4 text-emerald-600 animate-pulse" />
+              <span>Fast Deployment Across Dhanmondi Residential &amp; Commercial Areas</span>
+            </div>
 
-              {/* H1 Heading */}
-              <h1 className="text-3xl sm:text-4xl lg:text-5xl font-extrabold text-slate-900 leading-tight tracking-tight">
-                Nursing Home Care in Dhanmondi
-              </h1>
+            {/* H1 Heading */}
+            <h1 className="text-3xl sm:text-4xl lg:text-5xl font-extrabold text-[#d44401] leading-tight tracking-tight">
+              Nursing Home Care in Dhanmondi
+            </h1>
 
-              {/* Summary Paragraph */}
-              <p className="text-base sm:text-lg text-slate-600 leading-relaxed max-w-2xl">
-                Professional nursing and home care support for elderly people,
-                recovering patients, bedridden individuals, and families who
-                need reliable assistance at home in Dhanmondi.
-              </p>
+            {/* Summary Paragraph */}
+            <p className="text-base sm:text-lg text-[#d44401]  leading-relaxed max-w-2xl">
+              Professional nursing and home care support for elderly people, recovering patients, bedridden individuals, and families who need reliable assistance at home in Dhanmondi.
+            </p>
 
-              {/* Core Services Provided */}
-              <div className="pt-2">
-                <span className="block text-xs font-bold text-slate-400 uppercase tracking-wider mb-3">
-                  Core Services Provided
-                </span>
-                <div className="flex flex-wrap gap-2.5">
-                  {[
-                    "In-Home Nursing",
-                    "Personal Care",
-                    "Elderly Support",
-                    "Post-Hospital Recovery",
-                  ].map((service, index) => (
-                    <span
-                      key={index}
-                      className="bg-white border border-slate-200 text-slate-800 font-medium text-xs sm:text-sm px-3.5 py-2 rounded-lg shadow-sm flex items-center gap-2 hover:border-emerald-500 transition-colors"
-                    >
-                      <Heart className="w-4 h-4 text-emerald-600 fill-emerald-100" />
-                      {service}
-                    </span>
-                  ))}
-                </div>
-              </div>
-
-              {/* Target Audience Bullet Highlights */}
-              <div className="bg-white/80 backdrop-blur-sm border border-slate-200/80 rounded-xl p-4 sm:p-5 shadow-sm space-y-2.5">
-                <div className="flex items-center gap-2 text-xs font-bold text-slate-500 uppercase tracking-wider mb-1">
-                  <Users className="w-4 h-4 text-emerald-600" /> Dedicated Care
-                  Designed For:
-                </div>
-                <ul className="grid grid-cols-1 sm:grid-cols-3 gap-2 text-xs sm:text-sm text-slate-700 font-medium">
-                  <li className="flex items-center gap-2">
-                    <span className="w-1.5 h-1.5 rounded-full bg-emerald-500"></span>
-                    Senior Citizens
-                  </li>
-                  <li className="flex items-center gap-2">
-                    <span className="w-1.5 h-1.5 rounded-full bg-emerald-500"></span>
-                    Post-Surgical Patients
-                  </li>
-                  <li className="flex items-center gap-2">
-                    <span className="w-1.5 h-1.5 rounded-full bg-emerald-500"></span>
-                    Bedridden Loved Ones
-                  </li>
-                </ul>
-              </div>
-
-              {/* Primary CTAs (Booking Action) */}
-              <div className="pt-3 flex flex-col sm:flex-row gap-3.5">
-                <a
-                  href="tel:+8801619848555"
-                  className="inline-flex items-center justify-center gap-2.5 bg-emerald-600 hover:bg-emerald-700 active:bg-emerald-800 text-white font-bold px-7 py-3.5 rounded-xl shadow-lg shadow-emerald-600/25 transition-all text-base sm:text-lg"
-                >
-                  <Phone className="w-5 h-5 fill-white" />
-                  Call Now
-                </a>
-
-                <a
-                  href="https://wa.me/8801619848555"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="inline-flex items-center justify-center gap-2.5 bg-emerald-500 hover:bg-emerald-600 active:bg-emerald-700 text-white font-bold px-7 py-3.5 rounded-xl shadow-lg shadow-emerald-500/20 transition-all text-base sm:text-lg"
-                >
-                  <MessageCircle className="w-5 h-5 fill-white" />
-                  WhatsApp Chat
-                </a>
+            {/* Core Services Provided */}
+            <div className="pt-2">
+              <span className="block text-xs font-bold text-[#d44401] uppercase tracking-wider mb-3">
+                Core Services Provided
+              </span>
+              <div className="flex flex-wrap gap-2.5">
+                {[
+                  "In-Home Nursing",
+                  "Personal Care",
+                  "Elderly Support",
+                  "Post-Hospital Recovery",
+                ].map((service, index) => (
+                  <span
+                    key={index}
+                    className="bg-white/80 border border-slate-200 text-slate-900 font-medium text-xs sm:text-sm px-3.5 py-2 rounded-lg shadow-sm flex items-center gap-2 hover:border-emerald-500 transition-colors"
+                  >
+                    <Heart className="w-4 h-4 text-emerald-600 fill-emerald-100" />
+                    {service}
+                  </span>
+                ))}
               </div>
             </div>
 
-            {/* Local Area & Trust Card Column */}
-            <div className="lg:col-span-5">
-              <div className="bg-white border border-slate-200 rounded-2xl p-6 sm:p-8 shadow-xl relative">
-                <div className="absolute -top-3.5 right-6 bg-emerald-600 text-white text-xs font-extrabold px-3 py-1 rounded-full uppercase tracking-wider shadow-sm">
-                  Verified Local Care
+            {/* Target Audience Bullet Highlights */}
+            <div className="bg-white/80 backdrop-blur-sm border border-slate-200/80 rounded-xl p-4 sm:p-5 shadow-sm space-y-2.5">
+              <div className="flex items-center gap-2 text-xs font-bold text-slate-500 uppercase tracking-wider mb-1">
+                <Users className="w-4 h-4 text-emerald-600" /> Dedicated Care Designed For:
+              </div>
+              <ul className="grid grid-cols-1 sm:grid-cols-3 gap-2 text-xs sm:text-sm text-slate-700 font-medium">
+                <li className="flex items-center gap-2">
+                  <span className="w-1.5 h-1.5 rounded-full bg-emerald-500"></span>
+                  Senior Citizens
+                </li>
+                <li className="flex items-center gap-2">
+                  <span className="w-1.5 h-1.5 rounded-full bg-emerald-500"></span>
+                  Post-Surgical Patients
+                </li>
+                <li className="flex items-center gap-2">
+                  <span className="w-1.5 h-1.5 rounded-full bg-emerald-500"></span>
+                  Bedridden Loved Ones
+                </li>
+              </ul>
+            </div>
+
+            {/* Primary CTAs (Booking Action) */}
+            <div className="pt-3 flex flex-col sm:flex-row gap-3.5">
+              <a
+                href="tel:+8801619848555"
+                className="inline-flex items-center justify-center gap-2.5 bg-emerald-600 hover:bg-emerald-700 active:bg-emerald-800 text-white font-bold px-7 py-3.5 rounded-xl shadow-lg shadow-emerald-600/25 transition-all text-base sm:text-lg"
+              >
+                <Phone className="w-5 h-5 fill-white" />
+                Call Now
+              </a>
+
+              <a
+                href="https://wa.me/8801619848555"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center justify-center gap-2.5 bg-emerald-500 hover:bg-emerald-600 active:bg-emerald-700 text-white font-bold px-7 py-3.5 rounded-xl shadow-lg shadow-emerald-500/20 transition-all text-base sm:text-lg"
+              >
+                <MessageCircle className="w-5 h-5 fill-white" />
+                WhatsApp Chat
+              </a>
+            </div>
+          </div>
+
+          {/* Local Area & Trust Card Column */}
+          <div className="lg:col-span-5 z-10 relative">
+            <div className="bg-white border border-slate-200 rounded-2xl p-6 sm:p-8 shadow-xl">
+              <div className="absolute -top-3.5 right-6 bg-emerald-600 text-white text-xs font-extrabold px-3 py-1 rounded-full uppercase tracking-wider shadow-sm">
+                Verified Local Care
+              </div>
+
+              <h2 className="text-xl font-bold text-slate-900 mb-4 flex items-center gap-2">
+                <MapPin className="w-5 h-5 text-emerald-600" />
+                Serving All Dhanmondi Blocks
+              </h2>
+
+              <p className="text-sm text-slate-600 leading-relaxed mb-6">
+                Our certified BSc/Diploma nurses and caregivers are stationed locally to reach your home in Dhanmondi within 1–2 hours.
+              </p>
+
+              <div className="space-y-4 pt-2 border-t border-slate-100">
+                <div className="flex items-start gap-3">
+                  <ShieldCheck className="w-5 h-5 text-emerald-600 shrink-0 mt-0.5" />
+                  <div>
+                    <p className="text-xs sm:text-sm font-bold text-slate-900">Background Verified Staff</p>
+                    <p className="text-xs text-slate-500">NID verified nurses with hospital clinical experience.</p>
+                  </div>
                 </div>
 
-                <h2 className="text-xl font-bold text-slate-900 mb-4 flex items-center gap-2">
-                  <MapPin className="w-5 h-5 text-emerald-600" />
-                  Serving All Dhanmondi Blocks
-                </h2>
-
-                <p className="text-sm text-slate-600 leading-relaxed mb-6">
-                  Our certified BSc/Diploma nurses and caregivers are stationed
-                  locally to reach your home in Dhanmondi within 1–2 hours.
-                </p>
-
-                <div className="space-y-4 pt-2 border-t border-slate-100">
-                  <div className="flex items-start gap-3">
-                    <ShieldCheck className="w-5 h-5 text-emerald-600 shrink-0 mt-0.5" />
-                    <div>
-                      <p className="text-xs sm:text-sm font-bold text-slate-900">
-                        Background Verified Staff
-                      </p>
-                      <p className="text-xs text-slate-500">
-                        NID verified nurses with hospital clinical experience.
-                      </p>
-                    </div>
-                  </div>
-
-                  <div className="flex items-start gap-3">
-                    <Clock className="w-5 h-5 text-emerald-600 shrink-0 mt-0.5" />
-                    <div>
-                      <p className="text-xs sm:text-sm font-bold text-slate-900">
-                        24/7 Rapid Response
-                      </p>
-                      <p className="text-xs text-slate-500">
-                        Continuous day/night shift coverage across Dhanmondi.
-                      </p>
-                    </div>
+                <div className="flex items-start gap-3">
+                  <Clock className="w-5 h-5 text-emerald-600 shrink-0 mt-0.5" />
+                  <div>
+                    <p className="text-xs sm:text-sm font-bold text-slate-900">24/7 Rapid Response</p>
+                    <p className="text-xs text-slate-500">Continuous day/night shift coverage across Dhanmondi.</p>
                   </div>
                 </div>
               </div>
             </div>
           </div>
         </div>
-      </section>
+      </div>
+    </section>
 
       <section
         id="home-nursing-services-dhanmondi"

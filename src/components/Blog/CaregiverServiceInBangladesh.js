@@ -1,210 +1,189 @@
-import React from "react";
+import React, { useState } from "react";
 import { Helmet } from "react-helmet-async";
 import bannerImage from '../../assets/caregiverserviceinbangladesh.webp';
+import { ChevronDown, ShieldCheck, Clock, DollarSign } from 'lucide-react';
+
 const CaregiverServiceInBangladesh = () => {
 
-const articleSchema = {
-  "@context": "https://schema.org",
-  "@type": "Article",
-  "@id": "https://hcah.mrg.com.bd/caregiver-service-bangladesh#article",
-  "headline": "Caregiver Service in Bangladesh: Professional Home Care for Elderly & Patients",
-  "description":
-    "Learn about caregiver services in Bangladesh for elderly people, patients, bedridden individuals, and post-surgery recovery, and how to choose the right home-care support.",
-  "url": "https://hcah.mrg.com.bd/caregiver-service-bangladesh",
-  "mainEntityOfPage": {
-    "@type": "WebPage",
-    "@id": "https://hcah.mrg.com.bd/caregiver-service-bangladesh"
-  },
-  "publisher": {
-    "@type": "Organization",
-    "name": "Health Care at Home Bangladesh",
-    "url": "https://hcah.mrg.com.bd/"
-  },
-  "inLanguage": "en-BD",
-  "articleSection": "Home Care",
-  "keywords": [
-    "caregiver service in Bangladesh",
-    "caregiver service Dhaka",
-    "home caregiver service Dhaka",
-    "caregiver in Dhaka",
-    "elderly care at home",
-    "patient care at home",
-    "24 hour caregiver service Dhaka",
-    "caregiver for bedridden patient",
-    "post surgery caregiver",
-    "caregiver for elderly"
-  ]
-};
+  const canonicalUrl = "https://hcah.mrg.com.bd/caregiver-service-in-bangladesh";
+  const featuredImage = "https://hcah.mrg.com.bd/static/media/caregiverlanding.e7c8e0f9218038f7cf91.png";
+  
+  // Page Title & Meta Description matched across standard tags, OpenGraph, Twitter, and Schema
+  const pageTitle = "Caregiver Service in Bangladesh: Professional Home Care for Elderly & Patients";
+  const pageDescription = "Explore caregiver services in Bangladesh for elderly people and patients at home. Learn how to choose the right support for your family.";
 
-const faqSchema = {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "mainEntity": [
+  // Accordion state for visible UI FAQ
+  const [openFaq, setOpenFaq] = useState(null);
+
+  const toggleFaq = (index) => {
+    setOpenFaq(openFaq === index ? null : index);
+  };
+
+  // Expanded FAQ array combining original questions with high-intent localized search queries
+  const faqList = [
     {
-      "@type": "Question",
-      "name": "How soon can caregiver support usually begin after contacting a service?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text":
-          "Start time depends on caregiver availability, the patient's needs, required hours and location. Before confirming, ask when support can begin and whether the agency can arrange a suitable caregiver for the requested schedule."
-      }
+      question: "What is the monthly cost/pricing of a home caregiver in Dhaka?",
+      answer: "The monthly cost for a professional home caregiver in Dhaka typically ranges from BDT 18,000 to BDT 35,000+, depending on whether you require a patient attendant or a certified diploma nurse, as well as shift duty (12-hour vs 24-hour live-in care)."
     },
     {
-      "@type": "Question",
-      "name": "Can caregiver support be arranged for only a few days?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text":
-          "Yes. Caregiver support can be arranged for temporary needs, such as recovery after hospital discharge or surgery. Discuss the expected duration when making the request so the service arrangement matches the person's recovery period and daily assistance needs."
-      }
+      question: "How are your caregivers background-checked and verified in Bangladesh?",
+      answer: "Every caregiver under Health Care at Home (HCAH) undergoes biometric National ID (NID) verification, permanent address verification, criminal background checks, and verified medical training certification before assignment."
     },
     {
-      "@type": "Question",
-      "name": "Can a family change the caregiver's working hours later?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text":
-          "Working hours may be changed when the person's care requirements change, but this depends on the service arrangement and caregiver availability. Families should discuss any change with the agency rather than changing the schedule informally."
-      }
+      question: "How soon can caregiver support usually begin after contacting a service?",
+      answer: "Start time depends on caregiver availability, the patient's needs, required hours and location. Before confirming, ask when support can begin and whether the agency can arrange a suitable caregiver for the requested schedule."
     },
     {
-      "@type": "Question",
-      "name": "What information should I provide when requesting a caregiver?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text":
-          "Explain the person's age, general condition, mobility level, daily activities requiring assistance, feeding needs, preferred working hours and expected duration. Also mention whether the person needs overnight support or professional nursing care."
-      }
+      question: "Can caregiver support be arranged for only a few days?",
+      answer: "Yes. Caregiver support can be arranged for temporary needs, such as recovery after hospital discharge or surgery. Discuss the expected duration when making the request so the service arrangement matches the person's recovery period and daily assistance needs."
     },
     {
-      "@type": "Question",
-      "name": "What should a family do if the person's care needs increase?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text":
-          "Inform the caregiver or agency as soon as the change becomes noticeable. The required hours or type of professional support may need to be reassessed. If the new need involves clinical treatment, nursing, rehabilitation or medical assessment, an appropriately qualified healthcare professional should be consulted."
-      }
+      question: "Can a family change the caregiver's working hours later?",
+      answer: "Working hours may be changed when the person's care requirements change, but this depends on the service arrangement and caregiver availability. Families should discuss any change with the agency rather than changing the schedule informally."
+    },
+    {
+      question: "What information should I provide when requesting a caregiver?",
+      answer: "Explain the person's age, general condition, mobility level, daily activities requiring assistance, feeding needs, preferred working hours and expected duration. Also mention whether the person needs overnight support or professional nursing care."
+    },
+    {
+      question: "What should a family do if the person's care needs increase?",
+      answer: "Inform the caregiver or agency as soon as the change becomes noticeable. The required hours or type of professional support may need to be reassessed. If the new need involves clinical treatment, nursing, rehabilitation or medical assessment, an appropriately qualified healthcare professional should be consulted."
     }
-  ]
-};
+  ];
 
+  // Article Schema
+  const articleSchema = {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "@id": `${canonicalUrl}#article`,
+    "headline": pageTitle,
+    "description": pageDescription,
+    "url": canonicalUrl,
+    "image": [featuredImage],
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": canonicalUrl
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "Health Care at Home Bangladesh",
+      "url": "https://hcah.mrg.com.bd/"
+    },
+    "inLanguage": "en-BD",
+    "articleSection": "Home Care",
+    "keywords": [
+      "caregiver service in Bangladesh",
+      "caregiver service Dhaka",
+      "home caregiver service Dhaka",
+      "caregiver in Dhaka",
+      "elderly care at home",
+      "patient care at home",
+      "24 hour caregiver service Dhaka",
+      "caregiver for bedridden patient",
+      "post surgery caregiver",
+      "caregiver for elderly"
+    ]
+  };
+
+  // FAQ Schema
+  const faqSchema = {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "@id": `${canonicalUrl}#faq`,
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": canonicalUrl
+    },
+    "mainEntity": faqList.map((item) => ({
+      "@type": "Question",
+      "name": item.question,
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": item.answer
+      }
+    }))
+  };
 
   return (
-
-
-
-
     <div>
-
-<Helmet>
-  {/* Standard Meta Tags */}
-  <title>
-       Caregiver Service in Bangladesh: Professional Home Care for Elderly & Patients
-
-  </title>
-
-  <meta
-    name="description"
-    content="Learn how caregiver services in Bangladesh support elderly people and patients at home. Choose the right care option for your family member."
-  />
-
-  <meta
-    name="keywords"
-    content="caregiver service in Bangladesh, caregiver service Dhaka, home caregiver service Dhaka, caregiver in Dhaka, elderly care at home, patient care at home, 24 hour caregiver service Dhaka, caregiver for bedridden patient, post surgery caregiver, caregiver for elderly"
-  />
-
-  {/* Canonical */}
-  <link
-    rel="canonical"
-    href="https://hcah.mrg.com.bd/caregiver-service-in-bangladesh"
-  />
-
-  {/* Open Graph / Facebook */}
-  <meta
-    property="og:title"
-    content="  Caregiver Service in Bangladesh: Professional Home Care for Elderly & Patients
-"
-  />
-
-  <meta
-    property="og:description"
-    content="Learn how caregiver services in Bangladesh support elderly people and patients at home. Choose the right care option for your family member."
-  />
-
-  <meta property="og:type" content="article" />
-
-  <meta
-    property="og:url"
-    content="https://hcah.mrg.com.bd/caregiver-service-in-bangladesh"
-  />
-
-  <meta
-    property="og:image"
-    content="https://hcah.mrg.com.bd/static/media/caregiverlanding.e7c8e0f9218038f7cf91.png"
-  />
-
-  <meta
-    property="og:site_name"
-    content="Health Care at Home Bangladesh"
-  />
-
-  {/* Twitter Card */}
-  <meta name="twitter:card" content="summary_large_image" />
-
-  <meta
-    name="twitter:title"
-    content="Caregiver Service in Bangladesh | Elderly & Patient Home Care"
-  />
-
-  <meta
-    name="twitter:description"
-    content="Learn about caregiver support for elderly people, patients, bedridden individuals and post-surgery recovery at home in Bangladesh."
-  />
-
-  <meta
-    name="twitter:image"
-    content="YOUR_ACTUAL_CAREGIVER_IMAGE_URL"
-  />
-
-  {/* Article Schema */}
-  <script type="application/ld+json">
-    {JSON.stringify(articleSchema)}
-  </script>
-
-  {/* FAQ Schema */}
-  <script type="application/ld+json">
-    {JSON.stringify(faqSchema)}
-  </script>
-</Helmet>
-
-
-<header className="relative bg-slate-900 text-white overflow-hidden my-6 rounded-3xl max-w-5xl mx-auto shadow-xl">
-      {/* Background Image Container with Overlay */}
-      <div className="absolute inset-0 z-0">
-        <img
-          src={bannerImage}
-          alt="Caregiver Service in Bangladesh"
-          className="w-full h-full object-cover object-center opacity-40"
+      <Helmet>
+        {/* Standard Search Meta Tags */}
+        <title>{pageTitle}</title>
+        <meta name="description" content={pageDescription} />
+        <meta 
+          name="keywords" 
+          content="caregiver service in Bangladesh, caregiver service Dhaka, home caregiver service Dhaka, caregiver in Dhaka, elderly care at home, patient care at home, 24 hour caregiver service Dhaka, caregiver for bedridden patient, post surgery caregiver, caregiver for elderly" 
         />
-        <div className="absolute inset-0 bg-gradient-to-r from-slate-950/90 via-slate-900/70 to-transparent" />
-      </div>
 
-      {/* Banner Content - Title Only */}
-      <div className="relative z-10 px-6 py-16 sm:px-12 sm:py-24 lg:py-28 max-w-3xl">
-        <h1 className="text-3xl sm:text-4xl lg:text-5xl font-extrabold text-white tracking-tight leading-tight">
-          Caregiver Service in Bangladesh: Professional Home Care for Elderly & Patients
-        </h1>
-      </div>
-    </header>
+        {/* Canonical Link */}
+        <link rel="canonical" href={canonicalUrl} />
 
-      <section className="  py-12 md:py-16 px-4 sm:px-6 lg:px-8">
-        <div className="max-w-4xl mx-auto space-y-6">
-          {/* H1 Heading without spans */}
-          {/* <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-slate-900 leading-tight">
-          Caregiver Service in Bangladesh: Professional Home Care for Elderly & Patients
-          </h1> */}
+        {/* Open Graph / Facebook */}
+        <meta property="og:type" content="article" />
+        <meta property="og:title" content={pageTitle} />
+        <meta property="og:description" content={pageDescription} />
+        <meta property="og:url" content={canonicalUrl} />
+        <meta property="og:image" content={featuredImage} />
+        <meta property="og:site_name" content="Health Care at Home Bangladesh" />
 
-          {/* Intro Paragraphs */}
+        {/* Twitter Card */}
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content={pageTitle} />
+        <meta name="twitter:description" content={pageDescription} />
+        <meta name="twitter:image" content={featuredImage} />
+
+        {/* Structured Data Scripts */}
+        <script type="application/ld+json">{JSON.stringify(articleSchema)}</script>
+        <script type="application/ld+json">{JSON.stringify(faqSchema)}</script>
+      </Helmet>
+
+      {/* HERO BANNER */}
+      <header className="relative bg-slate-900 text-white overflow-hidden my-6 rounded-3xl max-w-5xl mx-auto shadow-xl">
+        <div className="absolute inset-0 z-0">
+          <img
+            src={bannerImage}
+            alt="Caregiver Service in Bangladesh"
+            className="w-full h-full object-cover object-center opacity-40"
+          />
+          <div className="absolute inset-0 bg-gradient-to-r from-slate-950/90 via-slate-900/70 to-transparent" />
+        </div>
+
+        <div className="relative z-10 px-6 py-16 sm:px-12 sm:py-24 lg:py-28 max-w-3xl">
+          <h1 className="text-3xl sm:text-4xl lg:text-5xl font-extrabold text-white tracking-tight leading-tight">
+            Caregiver Service in Bangladesh: Professional Home Care for Elderly & Patients
+          </h1>
+        </div>
+      </header>
+
+      {/* INTEGRATED SECTION: VALUE HIGHLIGHTS GRID & INTRO SECTION */}
+      <section className="py-8 md:py-12 px-4 sm:px-6 lg:px-8 max-w-4xl mx-auto space-y-8">
+        {/* Value Highlights Grid */}
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+          <div className="p-5 bg-white rounded-xl shadow-sm border border-slate-200/80 flex items-start space-x-3">
+            <ShieldCheck className="w-8 h-8 text-teal-600 flex-shrink-0" />
+            <div>
+              <p className="font-semibold text-slate-900 text-base">NID Verified</p>
+              <p className="text-sm text-slate-600 mt-1">Background checked and trained caregiver staff.</p>
+            </div>
+          </div>
+          <div className="p-5 bg-white rounded-xl shadow-sm border border-slate-200/80 flex items-start space-x-3">
+            <Clock className="w-8 h-8 text-teal-600 flex-shrink-0" />
+            <div>
+              <p className="font-semibold text-slate-900 text-base">Flexible Scheduling</p>
+              <p className="text-sm text-slate-600 mt-1">Short-term relief, 12-hour, or 24-hour live-in support.</p>
+            </div>
+          </div>
+          <div className="p-5 bg-white rounded-xl shadow-sm border border-slate-200/80 flex items-start space-x-3">
+            <DollarSign className="w-8 h-8 text-teal-600 flex-shrink-0" />
+            <div>
+              <p className="font-semibold text-slate-900 text-base">Transparent Care</p>
+              <p className="text-sm text-slate-600 mt-1">Tailored daily and monthly caregiver solutions in Dhaka.</p>
+            </div>
+          </div>
+        </div>
+
+        {/* Intro Paragraphs & UNFPA Demographic Stat Box */}
+        <div className="space-y-6">
           <p className="text-lg text-slate-700 leading-relaxed">
             A caregiver service in Bangladesh can help families support an
             elderly parent, a patient recovering after surgery, or someone who
@@ -236,11 +215,11 @@ const faqSchema = {
         </div>
       </section>
 
-      <article className="min-h-screen   text-slate-800 py-12 px-4 sm:px-6 lg:px-8 font-sans leading-relaxed">
+      {/* ARTICLE CONTENT */}
+      <article className="min-h-screen text-slate-800 py-6 px-4 sm:px-6 lg:px-8 font-sans leading-relaxed">
         <div className="max-w-4xl mx-auto space-y-12">
           {/* SECTION 1: What Is a Caregiver Service in Bangladesh? */}
           <section className="space-y-6">
-            {/* SEO H2 Header */}
             <h2 className="text-2xl sm:text-3xl font-bold text-slate-900 border-b border-slate-200 pb-3">
               What Is a Caregiver Service in Bangladesh?
             </h2>
@@ -277,7 +256,6 @@ const faqSchema = {
 
           {/* SECTION 2: What a Professional Caregiver Does */}
           <section className="space-y-6">
-            {/* SEO H3 Sub-header */}
             <h3 className="text-xl sm:text-2xl font-bold text-slate-900">
               What a Professional Caregiver Does
             </h3>
@@ -287,7 +265,6 @@ const faqSchema = {
               treatment. Depending on the person's needs, this can include:
             </p>
 
-            {/* Key Duties List */}
             <ul className="space-y-3.5 pl-2">
               <li className="flex items-start gap-3">
                 <svg
@@ -406,7 +383,6 @@ const faqSchema = {
               </li>
             </ul>
 
-            {/* Practical Example Callout Box */}
             <div className="p-5 bg-white border border-slate-200 rounded-xl shadow-sm space-y-1">
               <h4 className="text-sm font-semibold uppercase tracking-wider text-teal-700">
                 Practical Example
@@ -421,7 +397,6 @@ const faqSchema = {
 
           {/* SECTION 3: What a Caregiver Does Not Replace */}
           <section className="space-y-4">
-            {/* SEO H3 Sub-header */}
             <h3 className="text-xl sm:text-2xl font-bold text-slate-900">
               What a Caregiver Does Not Replace
             </h3>
@@ -442,7 +417,6 @@ const faqSchema = {
 
           {/* SECTION 4: Where Caregiver Support Is Provided */}
           <section className="space-y-6">
-            {/* SEO H3 Sub-header */}
             <h3 className="text-xl sm:text-2xl font-bold text-slate-900">
               Where Caregiver Support Is Provided
             </h3>
@@ -531,7 +505,6 @@ const faqSchema = {
               </li>
             </ul>
 
-            {/* Dhaka Localized Recommendation Note */}
             <div className="p-5 bg-slate-100 rounded-xl border border-slate-200 space-y-1">
               <h4 className="text-sm font-semibold text-slate-900">
                 Caregiver Arrangement in Dhaka
@@ -547,7 +520,6 @@ const faqSchema = {
       </article>
 
       <article className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-12 md:py-16 text-slate-800 space-y-12">
-        {/* Main Section Header */}
         <header className="space-y-4">
           <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold text-slate-900 tracking-tight">
             Who Needs Elderly Care at Home or Patient Care at Home?
@@ -559,9 +531,7 @@ const faqSchema = {
           </p>
         </header>
 
-        {/* Target Audience Categories */}
         <div className="space-y-10">
-          {/* 1. Elderly People */}
           <section className="space-y-4">
             <h3 className="text-xl sm:text-2xl font-bold text-slate-900">
               Elderly People Who Need Daily Assistance
@@ -581,88 +551,38 @@ const faqSchema = {
               falls, and other conditions that affect independence.
             </p>
 
-            <div className="p-5   border border-slate-200/80 rounded-2xl space-y-3">
+            <div className="p-5 border border-slate-200/80 rounded-2xl space-y-3">
               <h4 className="text-base font-semibold text-slate-900">
                 Common signs include difficulty with:
               </h4>
               <ul className="grid grid-cols-1 sm:grid-cols-2 gap-2 text-sm sm:text-base text-slate-700">
                 <li className="flex items-start gap-2">
-                  <svg
-                    className="w-5 h-5 text-teal-600 flex-shrink-0 mt-0.5"
-                    fill="none"
-                    stroke="currentColor"
-                    viewBox="0 0 24 24"
-                  >
-                    <path
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      strokeWidth="2"
-                      d="M5 13l4 4L19 7"
-                    />
+                  <svg className="w-5 h-5 text-teal-600 flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" />
                   </svg>
                   Bathing, dressing or using the toilet
                 </li>
                 <li className="flex items-start gap-2">
-                  <svg
-                    className="w-5 h-5 text-teal-600 flex-shrink-0 mt-0.5"
-                    fill="none"
-                    stroke="currentColor"
-                    viewBox="0 0 24 24"
-                  >
-                    <path
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      strokeWidth="2"
-                      d="M5 13l4 4L19 7"
-                    />
+                  <svg className="w-5 h-5 text-teal-600 flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" />
                   </svg>
                   Walking safely around the home
                 </li>
                 <li className="flex items-start gap-2">
-                  <svg
-                    className="w-5 h-5 text-teal-600 flex-shrink-0 mt-0.5"
-                    fill="none"
-                    stroke="currentColor"
-                    viewBox="0 0 24 24"
-                  >
-                    <path
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      strokeWidth="2"
-                      d="M5 13l4 4L19 7"
-                    />
+                  <svg className="w-5 h-5 text-teal-600 flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" />
                   </svg>
                   Preparing meals
                 </li>
                 <li className="flex items-start gap-2">
-                  <svg
-                    className="w-5 h-5 text-teal-600 flex-shrink-0 mt-0.5"
-                    fill="none"
-                    stroke="currentColor"
-                    viewBox="0 0 24 24"
-                  >
-                    <path
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      strokeWidth="2"
-                      d="M5 13l4 4L19 7"
-                    />
+                  <svg className="w-5 h-5 text-teal-600 flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" />
                   </svg>
                   Managing regular daily routines
                 </li>
                 <li className="flex items-start gap-2 sm:col-span-2">
-                  <svg
-                    className="w-5 h-5 text-teal-600 flex-shrink-0 mt-0.5"
-                    fill="none"
-                    stroke="currentColor"
-                    viewBox="0 0 24 24"
-                  >
-                    <path
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      strokeWidth="2"
-                      d="M5 13l4 4L19 7"
-                    />
+                  <svg className="w-5 h-5 text-teal-600 flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" />
                   </svg>
                   Staying alone for long periods
                 </li>
@@ -670,7 +590,6 @@ const faqSchema = {
             </div>
           </section>
 
-          {/* 2. Patients Recovering After Surgery */}
           <section className="space-y-3">
             <h3 className="text-xl sm:text-2xl font-bold text-slate-900">
               Patients Recovering After Surgery
@@ -686,7 +605,6 @@ const faqSchema = {
             </p>
           </section>
 
-          {/* 3. Bedridden Patients */}
           <section className="space-y-3">
             <h3 className="text-xl sm:text-2xl font-bold text-slate-900">
               Bedridden Patients
@@ -694,7 +612,7 @@ const faqSchema = {
             <p className="text-base text-slate-700 leading-relaxed">
               A caregiver for bedridden patient may provide regular help with
               personal hygiene, feeding, positioning, transfers where
-              appropriate and everyday comfort.
+              appropriate and daily comfort.
             </p>
             <p className="text-base text-slate-700 leading-relaxed">
               The caregiver can also keep family members informed about relevant
@@ -702,7 +620,6 @@ const faqSchema = {
             </p>
           </section>
 
-          {/* 4. Stroke or Mobility-Limited Patients */}
           <section className="space-y-3">
             <h3 className="text-xl sm:text-2xl font-bold text-slate-900">
               Stroke or Mobility-Limited Patients
@@ -727,7 +644,6 @@ const faqSchema = {
             </p>
           </section>
 
-          {/* 5. Chronic Illness */}
           <section className="space-y-3">
             <h3 className="text-xl sm:text-2xl font-bold text-slate-900">
               Chronic Illness or Long-Term Support Needs
@@ -745,7 +661,6 @@ const faqSchema = {
           </section>
         </div>
 
-        {/* Practical Checklist Feature Card */}
         <section className="p-6 sm:p-8 bg-teal-50/70 border border-teal-200/80 rounded-2xl space-y-4">
           <h3 className="text-xl font-bold text-teal-950">
             Practical Checklist
@@ -756,82 +671,32 @@ const faqSchema = {
 
           <ul className="space-y-2.5 text-sm sm:text-base text-teal-900">
             <li className="flex items-start gap-3">
-              <svg
-                className="w-5 h-5 text-teal-600 flex-shrink-0 mt-0.5"
-                fill="none"
-                stroke="currentColor"
-                viewBox="0 0 24 24"
-              >
-                <path
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  strokeWidth="2"
-                  d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"
-                />
+              <svg className="w-5 h-5 text-teal-600 flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
               </svg>
               Need help with basic daily activities
             </li>
             <li className="flex items-start gap-3">
-              <svg
-                className="w-5 h-5 text-teal-600 flex-shrink-0 mt-0.5"
-                fill="none"
-                stroke="currentColor"
-                viewBox="0 0 24 24"
-              >
-                <path
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  strokeWidth="2"
-                  d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"
-                />
+              <svg className="w-5 h-5 text-teal-600 flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
               </svg>
               Cannot move around safely alone
             </li>
             <li className="flex items-start gap-3">
-              <svg
-                className="w-5 h-5 text-teal-600 flex-shrink-0 mt-0.5"
-                fill="none"
-                stroke="currentColor"
-                viewBox="0 0 24 24"
-              >
-                <path
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  strokeWidth="2"
-                  d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"
-                />
+              <svg className="w-5 h-5 text-teal-600 flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
               </svg>
               Need regular help after hospital discharge
             </li>
             <li className="flex items-start gap-3">
-              <svg
-                className="w-5 h-5 text-teal-600 flex-shrink-0 mt-0.5"
-                fill="none"
-                stroke="currentColor"
-                viewBox="0 0 24 24"
-              >
-                <path
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  strokeWidth="2"
-                  d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"
-                />
+              <svg className="w-5 h-5 text-teal-600 flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
               </svg>
               Require support for several hours a day
             </li>
             <li className="flex items-start gap-3">
-              <svg
-                className="w-5 h-5 text-teal-600 flex-shrink-0 mt-0.5"
-                fill="none"
-                stroke="currentColor"
-                viewBox="0 0 24 24"
-              >
-                <path
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  strokeWidth="2"
-                  d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"
-                />
+              <svg className="w-5 h-5 text-teal-600 flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
               </svg>
               Cannot be consistently supported by family members
             </li>
@@ -845,7 +710,6 @@ const faqSchema = {
       </article>
 
       <article className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-12 md:py-16 text-slate-800 space-y-12">
-        {/* Section Header */}
         <header className="space-y-4">
           <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold text-slate-900 tracking-tight">
             What Does a Home Caregiver Do?
@@ -863,10 +727,8 @@ const faqSchema = {
           </p>
         </header>
 
-        {/* Core Caregiver Duties Grid */}
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-          {/* 1. Personal Care */}
-          <section className="p-6   border border-slate-200/80 rounded-2xl space-y-4">
+          <section className="p-6 border border-slate-200/80 rounded-2xl space-y-4">
             <h3 className="text-xl font-bold text-slate-900">Personal Care</h3>
             <p className="text-sm text-slate-600 leading-relaxed">
               A caregiver may assist with basic personal tasks that a person
@@ -874,82 +736,32 @@ const faqSchema = {
             </p>
             <ul className="space-y-2 text-sm text-slate-700">
               <li className="flex items-center gap-2">
-                <svg
-                  className="w-4 h-4 text-teal-600 flex-shrink-0"
-                  fill="none"
-                  stroke="currentColor"
-                  viewBox="0 0 24 24"
-                >
-                  <path
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    strokeWidth="2"
-                    d="M5 13l4 4L19 7"
-                  />
+                <svg className="w-4 h-4 text-teal-600 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" />
                 </svg>
                 Bathing and grooming
               </li>
               <li className="flex items-center gap-2">
-                <svg
-                  className="w-4 h-4 text-teal-600 flex-shrink-0"
-                  fill="none"
-                  stroke="currentColor"
-                  viewBox="0 0 24 24"
-                >
-                  <path
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    strokeWidth="2"
-                    d="M5 13l4 4L19 7"
-                  />
+                <svg className="w-4 h-4 text-teal-600 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" />
                 </svg>
                 Dressing and changing clothes
               </li>
               <li className="flex items-center gap-2">
-                <svg
-                  className="w-4 h-4 text-teal-600 flex-shrink-0"
-                  fill="none"
-                  stroke="currentColor"
-                  viewBox="0 0 24 24"
-                >
-                  <path
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    strokeWidth="2"
-                    d="M5 13l4 4L19 7"
-                  />
+                <svg className="w-4 h-4 text-teal-600 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" />
                 </svg>
                 Toileting support
               </li>
               <li className="flex items-center gap-2">
-                <svg
-                  className="w-4 h-4 text-teal-600 flex-shrink-0"
-                  fill="none"
-                  stroke="currentColor"
-                  viewBox="0 0 24 24"
-                >
-                  <path
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    strokeWidth="2"
-                    d="M5 13l4 4L19 7"
-                  />
+                <svg className="w-4 h-4 text-teal-600 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" />
                 </svg>
                 Oral hygiene
               </li>
               <li className="flex items-center gap-2">
-                <svg
-                  className="w-4 h-4 text-teal-600 flex-shrink-0"
-                  fill="none"
-                  stroke="currentColor"
-                  viewBox="0 0 24 24"
-                >
-                  <path
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    strokeWidth="2"
-                    d="M5 13l4 4L19 7"
-                  />
+                <svg className="w-4 h-4 text-teal-600 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" />
                 </svg>
                 Maintaining personal cleanliness
               </li>
@@ -960,8 +772,7 @@ const faqSchema = {
             </p>
           </section>
 
-          {/* 2. Mobility & Daily Movement */}
-          <section className="p-6   border border-slate-200/80 rounded-2xl space-y-4">
+          <section className="p-6 border border-slate-200/80 rounded-2xl space-y-4">
             <h3 className="text-xl font-bold text-slate-900">
               Mobility & Daily Movement
             </h3>
@@ -971,82 +782,32 @@ const faqSchema = {
             </p>
             <ul className="space-y-2 text-sm text-slate-700">
               <li className="flex items-center gap-2">
-                <svg
-                  className="w-4 h-4 text-teal-600 flex-shrink-0"
-                  fill="none"
-                  stroke="currentColor"
-                  viewBox="0 0 24 24"
-                >
-                  <path
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    strokeWidth="2"
-                    d="M5 13l4 4L19 7"
-                  />
+                <svg className="w-4 h-4 text-teal-600 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" />
                 </svg>
                 Walking assistance
               </li>
               <li className="flex items-center gap-2">
-                <svg
-                  className="w-4 h-4 text-teal-600 flex-shrink-0"
-                  fill="none"
-                  stroke="currentColor"
-                  viewBox="0 0 24 24"
-                >
-                  <path
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    strokeWidth="2"
-                    d="M5 13l4 4L19 7"
-                  />
+                <svg className="w-4 h-4 text-teal-600 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" />
                 </svg>
                 Wheelchair assistance
               </li>
               <li className="flex items-center gap-2">
-                <svg
-                  className="w-4 h-4 text-teal-600 flex-shrink-0"
-                  fill="none"
-                  stroke="currentColor"
-                  viewBox="0 0 24 24"
-                >
-                  <path
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    strokeWidth="2"
-                    d="M5 13l4 4L19 7"
-                  />
+                <svg className="w-4 h-4 text-teal-600 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" />
                 </svg>
                 Bed-to-chair transfers
               </li>
               <li className="flex items-center gap-2">
-                <svg
-                  className="w-4 h-4 text-teal-600 flex-shrink-0"
-                  fill="none"
-                  stroke="currentColor"
-                  viewBox="0 0 24 24"
-                >
-                  <path
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    strokeWidth="2"
-                    d="M5 13l4 4L19 7"
-                  />
+                <svg className="w-4 h-4 text-teal-600 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" />
                 </svg>
                 Moving safely between rooms
               </li>
               <li className="flex items-center gap-2">
-                <svg
-                  className="w-4 h-4 text-teal-600 flex-shrink-0"
-                  fill="none"
-                  stroke="currentColor"
-                  viewBox="0 0 24 24"
-                >
-                  <path
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    strokeWidth="2"
-                    d="M5 13l4 4L19 7"
-                  />
+                <svg className="w-4 h-4 text-teal-600 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" />
                 </svg>
                 Positioning support when appropriate
               </li>
@@ -1058,8 +819,7 @@ const faqSchema = {
             </p>
           </section>
 
-          {/* 3. Feeding & Daily Meals */}
-          <section className="p-6   border border-slate-200/80 rounded-2xl space-y-4">
+          <section className="p-6 border border-slate-200/80 rounded-2xl space-y-4">
             <h3 className="text-xl font-bold text-slate-900">
               Feeding & Daily Meals
             </h3>
@@ -1070,66 +830,26 @@ const faqSchema = {
             </p>
             <ul className="space-y-2 text-sm text-slate-700">
               <li className="flex items-center gap-2">
-                <svg
-                  className="w-4 h-4 text-teal-600 flex-shrink-0"
-                  fill="none"
-                  stroke="currentColor"
-                  viewBox="0 0 24 24"
-                >
-                  <path
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    strokeWidth="2"
-                    d="M5 13l4 4L19 7"
-                  />
+                <svg className="w-4 h-4 text-teal-600 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" />
                 </svg>
                 Preparing or arranging meals
               </li>
               <li className="flex items-center gap-2">
-                <svg
-                  className="w-4 h-4 text-teal-600 flex-shrink-0"
-                  fill="none"
-                  stroke="currentColor"
-                  viewBox="0 0 24 24"
-                >
-                  <path
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    strokeWidth="2"
-                    d="M5 13l4 4L19 7"
-                  />
+                <svg className="w-4 h-4 text-teal-600 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" />
                 </svg>
                 Feeding when appropriate
               </li>
               <li className="flex items-center gap-2">
-                <svg
-                  className="w-4 h-4 text-teal-600 flex-shrink-0"
-                  fill="none"
-                  stroke="currentColor"
-                  viewBox="0 0 24 24"
-                >
-                  <path
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    strokeWidth="2"
-                    d="M5 13l4 4L19 7"
-                  />
+                <svg className="w-4 h-4 text-teal-600 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" />
                 </svg>
                 Maintaining regular meal times
               </li>
               <li className="flex items-center gap-2">
-                <svg
-                  className="w-4 h-4 text-teal-600 flex-shrink-0"
-                  fill="none"
-                  stroke="currentColor"
-                  viewBox="0 0 24 24"
-                >
-                  <path
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    strokeWidth="2"
-                    d="M5 13l4 4L19 7"
-                  />
+                <svg className="w-4 h-4 text-teal-600 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" />
                 </svg>
                 Supporting someone who cannot eat independently
               </li>
@@ -1140,8 +860,7 @@ const faqSchema = {
             </p>
           </section>
 
-          {/* 4. Companionship & Daily Routine */}
-          <section className="p-6   border border-slate-200/80 rounded-2xl space-y-4 flex flex-col justify-between">
+          <section className="p-6 border border-slate-200/80 rounded-2xl space-y-4 flex flex-col justify-between">
             <div className="space-y-4">
               <h3 className="text-xl font-bold text-slate-900">
                 Companionship & Daily Routine
@@ -1174,7 +893,6 @@ const faqSchema = {
           </section>
         </div>
 
-        {/* Observation & Family Communication */}
         <section className="space-y-3">
           <h3 className="text-xl sm:text-2xl font-bold text-slate-900">
             Observation & Family Communication
@@ -1189,7 +907,6 @@ const faqSchema = {
           </p>
         </section>
 
-        {/* Practical Example Callout Box */}
         <section className="p-6 bg-teal-50/70 border border-teal-200/80 rounded-2xl space-y-2">
           <h3 className="text-base font-bold text-teal-950 uppercase tracking-wider">
             Practical Example
@@ -1205,8 +922,8 @@ const faqSchema = {
           </p>
         </section>
       </article>
+
       <article className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-12 md:py-16 text-slate-800 space-y-12">
-        {/* Section Header */}
         <header className="space-y-4">
           <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold text-slate-900 tracking-tight">
             Which Type of Caregiver Does Your Family Member Need?
@@ -1219,9 +936,7 @@ const faqSchema = {
           </p>
         </header>
 
-        {/* Caregiver Categories */}
         <div className="space-y-10">
-          {/* 1. Caregiver for Elderly People */}
           <section className="space-y-4">
             <h3 className="text-xl sm:text-2xl font-bold text-slate-900">
               Caregiver for Elderly People
@@ -1231,88 +946,38 @@ const faqSchema = {
               when age or reduced mobility makes them difficult.
             </p>
 
-            <div className="p-5   border border-slate-200/80 rounded-2xl space-y-3">
+            <div className="p-5 border border-slate-200/80 rounded-2xl space-y-3">
               <h4 className="text-base font-semibold text-slate-900">
                 Support may include:
               </h4>
               <ul className="grid grid-cols-1 sm:grid-cols-2 gap-2 text-sm sm:text-base text-slate-700">
                 <li className="flex items-center gap-2">
-                  <svg
-                    className="w-5 h-5 text-teal-600 flex-shrink-0"
-                    fill="none"
-                    stroke="currentColor"
-                    viewBox="0 0 24 24"
-                  >
-                    <path
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      strokeWidth="2"
-                      d="M5 13l4 4L19 7"
-                    />
+                  <svg className="w-5 h-5 text-teal-600 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" />
                   </svg>
                   Personal care and dressing
                 </li>
                 <li className="flex items-center gap-2">
-                  <svg
-                    className="w-5 h-5 text-teal-600 flex-shrink-0"
-                    fill="none"
-                    stroke="currentColor"
-                    viewBox="0 0 24 24"
-                  >
-                    <path
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      strokeWidth="2"
-                      d="M5 13l4 4L19 7"
-                    />
+                  <svg className="w-5 h-5 text-teal-600 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" />
                   </svg>
                   Walking and daily movement
                 </li>
                 <li className="flex items-center gap-2">
-                  <svg
-                    className="w-5 h-5 text-teal-600 flex-shrink-0"
-                    fill="none"
-                    stroke="currentColor"
-                    viewBox="0 0 24 24"
-                  >
-                    <path
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      strokeWidth="2"
-                      d="M5 13l4 4L19 7"
-                    />
+                  <svg className="w-5 h-5 text-teal-600 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" />
                   </svg>
                   Meals and feeding assistance
                 </li>
                 <li className="flex items-center gap-2">
-                  <svg
-                    className="w-5 h-5 text-teal-600 flex-shrink-0"
-                    fill="none"
-                    stroke="currentColor"
-                    viewBox="0 0 24 24"
-                  >
-                    <path
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      strokeWidth="2"
-                      d="M5 13l4 4L19 7"
-                    />
+                  <svg className="w-5 h-5 text-teal-600 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" />
                   </svg>
                   Companionship
                 </li>
                 <li className="flex items-center gap-2 sm:col-span-2">
-                  <svg
-                    className="w-5 h-5 text-teal-600 flex-shrink-0"
-                    fill="none"
-                    stroke="currentColor"
-                    viewBox="0 0 24 24"
-                  >
-                    <path
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      strokeWidth="2"
-                      d="M5 13l4 4L19 7"
-                    />
+                  <svg className="w-5 h-5 text-teal-600 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" />
                   </svg>
                   Regular household routines
                 </li>
@@ -1324,7 +989,6 @@ const faqSchema = {
             </p>
           </section>
 
-          {/* 2. Post-Surgery Caregiver */}
           <section className="space-y-4">
             <h3 className="text-xl sm:text-2xl font-bold text-slate-900">
               Post-Surgery Caregiver
@@ -1334,72 +998,32 @@ const faqSchema = {
               when a patient is not yet ready to manage daily activities alone.
             </p>
 
-            <div className="p-5   border border-slate-200/80 rounded-2xl space-y-3">
+            <div className="p-5 border border-slate-200/80 rounded-2xl space-y-3">
               <h4 className="text-base font-semibold text-slate-900">
                 They can provide temporary help with:
               </h4>
               <ul className="grid grid-cols-1 sm:grid-cols-2 gap-2 text-sm sm:text-base text-slate-700">
                 <li className="flex items-center gap-2">
-                  <svg
-                    className="w-5 h-5 text-teal-600 flex-shrink-0"
-                    fill="none"
-                    stroke="currentColor"
-                    viewBox="0 0 24 24"
-                  >
-                    <path
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      strokeWidth="2"
-                      d="M5 13l4 4L19 7"
-                    />
+                  <svg className="w-5 h-5 text-teal-600 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" />
                   </svg>
                   Getting around safely
                 </li>
                 <li className="flex items-center gap-2">
-                  <svg
-                    className="w-5 h-5 text-teal-600 flex-shrink-0"
-                    fill="none"
-                    stroke="currentColor"
-                    viewBox="0 0 24 24"
-                  >
-                    <path
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      strokeWidth="2"
-                      d="M5 13l4 4L19 7"
-                    />
+                  <svg className="w-5 h-5 text-teal-600 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" />
                   </svg>
                   Bathing and dressing
                 </li>
                 <li className="flex items-center gap-2">
-                  <svg
-                    className="w-5 h-5 text-teal-600 flex-shrink-0"
-                    fill="none"
-                    stroke="currentColor"
-                    viewBox="0 0 24 24"
-                  >
-                    <path
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      strokeWidth="2"
-                      d="M5 13l4 4L19 7"
-                    />
+                  <svg className="w-5 h-5 text-teal-600 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" />
                   </svg>
                   Meals and feeding
                 </li>
                 <li className="flex items-center gap-2">
-                  <svg
-                    className="w-5 h-5 text-teal-600 flex-shrink-0"
-                    fill="none"
-                    stroke="currentColor"
-                    viewBox="0 0 24 24"
-                  >
-                    <path
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      strokeWidth="2"
-                      d="M5 13l4 4L19 7"
-                    />
+                  <svg className="w-5 h-5 text-teal-600 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" />
                   </svg>
                   Everyday routines
                 </li>
@@ -1423,7 +1047,6 @@ const faqSchema = {
             </p>
           </section>
 
-          {/* 3. Caregiver for Bedridden Patients */}
           <section className="space-y-3">
             <h3 className="text-xl sm:text-2xl font-bold text-slate-900">
               Caregiver for Bedridden Patients
@@ -1440,7 +1063,6 @@ const faqSchema = {
             </p>
           </section>
 
-          {/* 4. 24-Hour Caregiver Service */}
           <section className="space-y-4">
             <h3 className="text-xl sm:text-2xl font-bold text-slate-900">
               24-Hour Caregiver Service
@@ -1458,7 +1080,6 @@ const faqSchema = {
           </section>
         </div>
 
-        {/* 12-Hour vs 24-Hour Care Comparison Table */}
         <section className="space-y-4">
           <h3 className="text-xl font-bold text-slate-900">
             12-Hour vs 24-Hour Care
@@ -1467,19 +1088,19 @@ const faqSchema = {
           <div className="overflow-x-auto border border-slate-200 rounded-2xl bg-white shadow-sm">
             <table className="w-full text-left border-collapse">
               <thead>
-                <tr className="  border-b border-slate-200 text-slate-900 text-sm font-semibold">
+                <tr className="border-b border-slate-200 text-slate-900 text-sm font-semibold">
                   <th className="py-3.5 px-4 sm:px-6">Need</th>
                   <th className="py-3.5 px-4 sm:px-6">Possible Arrangement</th>
                 </tr>
               </thead>
               <tbody className="divide-y divide-slate-200 text-sm sm:text-base text-slate-700">
-                <tr className="hover: /50 transition-colors">
+                <tr className="hover:bg-slate-50/50 transition-colors">
                   <td className="py-3.5 px-4 sm:px-6">Daytime assistance</td>
                   <td className="py-3.5 px-4 sm:px-6 font-medium text-teal-800">
                     8/12-hour care
                   </td>
                 </tr>
-                <tr className="hover: /50 transition-colors">
+                <tr className="hover:bg-slate-50/50 transition-colors">
                   <td className="py-3.5 px-4 sm:px-6">
                     Extended daytime or night support
                   </td>
@@ -1487,7 +1108,7 @@ const faqSchema = {
                     12-hour care
                   </td>
                 </tr>
-                <tr className="hover: /50 transition-colors">
+                <tr className="hover:bg-slate-50/50 transition-colors">
                   <td className="py-3.5 px-4 sm:px-6">
                     Frequent or continuous assistance
                   </td>
@@ -1506,8 +1127,8 @@ const faqSchema = {
           </p>
         </section>
       </article>
+
       <article className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-12 md:py-16 text-slate-800 space-y-12">
-        {/* Section Header */}
         <header className="space-y-4">
           <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold text-slate-900 tracking-tight">
             Caregiver vs Nurse: What Is the Difference?
@@ -1519,10 +1140,8 @@ const faqSchema = {
           </p>
         </header>
 
-        {/* Side-by-Side Comparison Grid */}
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-          {/* 1. Caregiver Duties */}
-          <section className="p-6   border border-slate-200/80 rounded-2xl space-y-4 flex flex-col justify-between">
+          <section className="p-6 border border-slate-200/80 rounded-2xl space-y-4 flex flex-col justify-between">
             <div className="space-y-4">
               <h3 className="text-xl font-bold text-slate-900 border-b border-slate-200/80 pb-3">
                 Caregiver
@@ -1533,91 +1152,39 @@ const faqSchema = {
               </p>
               <ul className="space-y-2.5 text-sm text-slate-700">
                 <li className="flex items-start gap-2.5">
-                  <svg
-                    className="w-4 h-4 text-teal-600 flex-shrink-0 mt-0.5"
-                    fill="none"
-                    stroke="currentColor"
-                    viewBox="0 0 24 24"
-                  >
-                    <path
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      strokeWidth="2"
-                      d="M5 13l4 4L19 7"
-                    />
+                  <svg className="w-4 h-4 text-teal-600 flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" />
                   </svg>
                   Bathing, dressing and personal hygiene
                 </li>
                 <li className="flex items-start gap-2.5">
-                  <svg
-                    className="w-4 h-4 text-teal-600 flex-shrink-0 mt-0.5"
-                    fill="none"
-                    stroke="currentColor"
-                    viewBox="0 0 24 24"
-                  >
-                    <path
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      strokeWidth="2"
-                      d="M5 13l4 4L19 7"
-                    />
+                  <svg className="w-4 h-4 text-teal-600 flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" />
                   </svg>
                   Walking and mobility assistance
                 </li>
                 <li className="flex items-start gap-2.5">
-                  <svg
-                    className="w-4 h-4 text-teal-600 flex-shrink-0 mt-0.5"
-                    fill="none"
-                    stroke="currentColor"
-                    viewBox="0 0 24 24"
-                  >
-                    <path
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      strokeWidth="2"
-                      d="M5 13l4 4L19 7"
-                    />
+                  <svg className="w-4 h-4 text-teal-600 flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" />
                   </svg>
                   Feeding support
                 </li>
                 <li className="flex items-start gap-2.5">
-                  <svg
-                    className="w-4 h-4 text-teal-600 flex-shrink-0 mt-0.5"
-                    fill="none"
-                    stroke="currentColor"
-                    viewBox="0 0 24 24"
-                  >
-                    <path
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      strokeWidth="2"
-                      d="M5 13l4 4L19 7"
-                    />
+                  <svg className="w-4 h-4 text-teal-600 flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" />
                   </svg>
                   Companionship
                 </li>
                 <li className="flex items-start gap-2.5">
-                  <svg
-                    className="w-4 h-4 text-teal-600 flex-shrink-0 mt-0.5"
-                    fill="none"
-                    stroke="currentColor"
-                    viewBox="0 0 24 24"
-                  >
-                    <path
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      strokeWidth="2"
-                      d="M5 13l4 4L19 7"
-                    />
+                  <svg className="w-4 h-4 text-teal-600 flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" />
                   </svg>
-                  Daily routines and household support related to the person's
-                  care
+                  Daily routines and household support related to the person's care
                 </li>
               </ul>
             </div>
           </section>
 
-          {/* 2. Nurse Responsibilities */}
           <section className="p-6 bg-teal-50/50 border border-teal-200/80 rounded-2xl space-y-4 flex flex-col justify-between">
             <div className="space-y-4">
               <h3 className="text-xl font-bold text-slate-900 border-b border-teal-200/80 pb-3">
@@ -1630,67 +1197,26 @@ const faqSchema = {
               </p>
               <ul className="space-y-2.5 text-sm text-slate-700">
                 <li className="flex items-start gap-2.5">
-                  <svg
-                    className="w-4 h-4 text-teal-600 flex-shrink-0 mt-0.5"
-                    fill="none"
-                    stroke="currentColor"
-                    viewBox="0 0 24 24"
-                  >
-                    <path
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      strokeWidth="2"
-                      d="M5 13l4 4L19 7"
-                    />
+                  <svg className="w-4 h-4 text-teal-600 flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" />
                   </svg>
                   Nursing assessment and monitoring
                 </li>
                 <li className="flex items-start gap-2.5">
-                  <svg
-                    className="w-4 h-4 text-teal-600 flex-shrink-0 mt-0.5"
-                    fill="none"
-                    stroke="currentColor"
-                    viewBox="0 0 24 24"
-                  >
-                    <path
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      strokeWidth="2"
-                      d="M5 13l4 4L19 7"
-                    />
+                  <svg className="w-4 h-4 text-teal-600 flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" />
                   </svg>
-                  Medication or treatment-related procedures when appropriately
-                  prescribed
+                  Medication or treatment-related procedures when appropriately prescribed
                 </li>
                 <li className="flex items-start gap-2.5">
-                  <svg
-                    className="w-4 h-4 text-teal-600 flex-shrink-0 mt-0.5"
-                    fill="none"
-                    stroke="currentColor"
-                    viewBox="0 0 24 24"
-                  >
-                    <path
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      strokeWidth="2"
-                      d="M5 13l4 4L19 7"
-                    />
+                  <svg className="w-4 h-4 text-teal-600 flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" />
                   </svg>
                   Wound or catheter care when within professional scope
                 </li>
                 <li className="flex items-start gap-2.5">
-                  <svg
-                    className="w-4 h-4 text-teal-600 flex-shrink-0 mt-0.5"
-                    fill="none"
-                    stroke="currentColor"
-                    viewBox="0 0 24 24"
-                  >
-                    <path
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      strokeWidth="2"
-                      d="M5 13l4 4L19 7"
-                    />
+                  <svg className="w-4 h-4 text-teal-600 flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" />
                   </svg>
                   Monitoring changes that require clinical attention
                 </li>
@@ -1715,7 +1241,6 @@ const faqSchema = {
           </section>
         </div>
 
-        {/* When Might a Family Need Both? */}
         <section className="space-y-3">
           <h3 className="text-xl sm:text-2xl font-bold text-slate-900">
             When Might a Family Need Both?
@@ -1730,8 +1255,7 @@ const faqSchema = {
           </p>
         </section>
 
-        {/* How HCAH Can Help Box */}
-        <section className="p-6   border border-slate-200 rounded-2xl space-y-3">
+        <section className="p-6 border border-slate-200 rounded-2xl space-y-3">
           <h3 className="text-xl font-bold text-slate-900">
             How HCAH Can Help
           </h3>
@@ -1748,7 +1272,6 @@ const faqSchema = {
       </article>
 
       <article className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-12 md:py-16 text-slate-800 space-y-10">
-        {/* Header */}
         <header className="space-y-4">
           <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold text-slate-900 tracking-tight">
             How to Choose a Caregiver Service in Bangladesh
@@ -1760,84 +1283,43 @@ const faqSchema = {
           </p>
         </header>
 
-        {/* Steps List */}
         <div className="space-y-8">
-          {/* 1. Check Caregiver Identity */}
-          <section className="p-6   border border-slate-200/80 rounded-2xl space-y-3">
+          {/* Step 1 */}
+          <section className="p-6 border border-slate-200/80 rounded-2xl space-y-3">
             <div className="flex items-start gap-4">
               <div className="w-8 h-8 rounded-full bg-teal-600 text-white font-bold text-sm flex items-center justify-center flex-shrink-0 mt-0.5">
                 1
               </div>
               <div className="space-y-2 flex-1">
-                <h2 className="text-xl font-bold text-slate-900">
+                <h3 className="text-xl font-bold text-slate-900">
                   Check Caregiver Identity and Verification
-                </h2>
+                </h3>
                 <p className="text-sm sm:text-base text-slate-700 leading-relaxed">
                   Ask how the agency checks the caregiver before assigning them
                   to a family. This may include:
                 </p>
                 <ul className="space-y-2 text-sm sm:text-base text-slate-700 pt-1">
                   <li className="flex items-start gap-2.5">
-                    <svg
-                      className="w-4 h-4 text-teal-600 flex-shrink-0 mt-1"
-                      fill="none"
-                      stroke="currentColor"
-                      viewBox="0 0 24 24"
-                    >
-                      <path
-                        strokeLinecap="round"
-                        strokeLinejoin="round"
-                        strokeWidth="2"
-                        d="M5 13l4 4L19 7"
-                      />
+                    <svg className="w-4 h-4 text-teal-600 flex-shrink-0 mt-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" />
                     </svg>
                     Identity verification
                   </li>
                   <li className="flex items-start gap-2.5">
-                    <svg
-                      className="w-4 h-4 text-teal-600 flex-shrink-0 mt-1"
-                      fill="none"
-                      stroke="currentColor"
-                      viewBox="0 0 24 24"
-                    >
-                      <path
-                        strokeLinecap="round"
-                        strokeLinejoin="round"
-                        strokeWidth="2"
-                        d="M5 13l4 4L19 7"
-                      />
+                    <svg className="w-4 h-4 text-teal-600 flex-shrink-0 mt-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" />
                     </svg>
                     Background checks, where available
                   </li>
                   <li className="flex items-start gap-2.5">
-                    <svg
-                      className="w-4 h-4 text-teal-600 flex-shrink-0 mt-1"
-                      fill="none"
-                      stroke="currentColor"
-                      viewBox="0 0 24 24"
-                    >
-                      <path
-                        strokeLinecap="round"
-                        strokeLinejoin="round"
-                        strokeWidth="2"
-                        d="M5 13l4 4L19 7"
-                      />
+                    <svg className="w-4 h-4 text-teal-600 flex-shrink-0 mt-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" />
                     </svg>
                     Previous work history or references
                   </li>
                   <li className="flex items-start gap-2.5">
-                    <svg
-                      className="w-4 h-4 text-teal-600 flex-shrink-0 mt-1"
-                      fill="none"
-                      stroke="currentColor"
-                      viewBox="0 0 24 24"
-                    >
-                      <path
-                        strokeLinecap="round"
-                        strokeLinejoin="round"
-                        strokeWidth="2"
-                        d="M5 13l4 4L19 7"
-                      />
+                    <svg className="w-4 h-4 text-teal-600 flex-shrink-0 mt-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" />
                     </svg>
                     The agency's own verification process
                   </li>
@@ -1850,16 +1332,16 @@ const faqSchema = {
             </div>
           </section>
 
-          {/* 2. Ask About Training and Experience */}
-          <section className="p-6   border border-slate-200/80 rounded-2xl space-y-3">
+          {/* Step 2 */}
+          <section className="p-6 border border-slate-200/80 rounded-2xl space-y-3">
             <div className="flex items-start gap-4">
               <div className="w-8 h-8 rounded-full bg-teal-600 text-white font-bold text-sm flex items-center justify-center flex-shrink-0 mt-0.5">
                 2
               </div>
               <div className="space-y-2 flex-1">
-                <h2 className="text-xl font-bold text-slate-900">
+                <h3 className="text-xl font-bold text-slate-900">
                   Ask About Training and Experience
-                </h2>
+                </h3>
                 <p className="text-sm sm:text-base text-slate-700 leading-relaxed">
                   A caregiver's experience should match the person's needs.
                   Someone caring for an independent older adult may require
@@ -1871,66 +1353,26 @@ const faqSchema = {
                 </p>
                 <ul className="grid grid-cols-1 sm:grid-cols-2 gap-2 text-sm sm:text-base text-slate-700">
                   <li className="flex items-center gap-2 bg-white p-2.5 rounded-lg border border-slate-200/60">
-                    <svg
-                      className="w-4 h-4 text-teal-600 flex-shrink-0"
-                      fill="none"
-                      stroke="currentColor"
-                      viewBox="0 0 24 24"
-                    >
-                      <path
-                        strokeLinecap="round"
-                        strokeLinejoin="round"
-                        strokeWidth="2"
-                        d="M5 13l4 4L19 7"
-                      />
+                    <svg className="w-4 h-4 text-teal-600 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" />
                     </svg>
                     Elderly care
                   </li>
                   <li className="flex items-center gap-2 bg-white p-2.5 rounded-lg border border-slate-200/60">
-                    <svg
-                      className="w-4 h-4 text-teal-600 flex-shrink-0"
-                      fill="none"
-                      stroke="currentColor"
-                      viewBox="0 0 24 24"
-                    >
-                      <path
-                        strokeLinecap="round"
-                        strokeLinejoin="round"
-                        strokeWidth="2"
-                        d="M5 13l4 4L19 7"
-                      />
+                    <svg className="w-4 h-4 text-teal-600 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" />
                     </svg>
                     Bedridden patients
                   </li>
                   <li className="flex items-center gap-2 bg-white p-2.5 rounded-lg border border-slate-200/60">
-                    <svg
-                      className="w-4 h-4 text-teal-600 flex-shrink-0"
-                      fill="none"
-                      stroke="currentColor"
-                      viewBox="0 0 24 24"
-                    >
-                      <path
-                        strokeLinecap="round"
-                        strokeLinejoin="round"
-                        strokeWidth="2"
-                        d="M5 13l4 4L19 7"
-                      />
+                    <svg className="w-4 h-4 text-teal-600 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" />
                     </svg>
                     Mobility assistance
                   </li>
                   <li className="flex items-center gap-2 bg-white p-2.5 rounded-lg border border-slate-200/60">
-                    <svg
-                      className="w-4 h-4 text-teal-600 flex-shrink-0"
-                      fill="none"
-                      stroke="currentColor"
-                      viewBox="0 0 24 24"
-                    >
-                      <path
-                        strokeLinecap="round"
-                        strokeLinejoin="round"
-                        strokeWidth="2"
-                        d="M5 13l4 4L19 7"
-                      />
+                    <svg className="w-4 h-4 text-teal-600 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" />
                     </svg>
                     Post-surgery support
                   </li>
@@ -1946,16 +1388,16 @@ const faqSchema = {
             </div>
           </section>
 
-          {/* 3. Confirm Daily Responsibilities */}
-          <section className="p-6   border border-slate-200/80 rounded-2xl space-y-3">
+          {/* Step 3 */}
+          <section className="p-6 border border-slate-200/80 rounded-2xl space-y-3">
             <div className="flex items-start gap-4">
               <div className="w-8 h-8 rounded-full bg-teal-600 text-white font-bold text-sm flex items-center justify-center flex-shrink-0 mt-0.5">
                 3
               </div>
               <div className="space-y-2 flex-1">
-                <h2 className="text-xl font-bold text-slate-900">
+                <h3 className="text-xl font-bold text-slate-900">
                   Confirm Exactly What the Caregiver Will Do
-                </h2>
+                </h3>
                 <p className="text-sm sm:text-base text-slate-700 leading-relaxed">
                   Before service begins, agree on the daily responsibilities.
                   For example, will the caregiver help with bathing, meals,
@@ -1970,16 +1412,16 @@ const faqSchema = {
             </div>
           </section>
 
-          {/* 4. Ask About Supervision */}
-          <section className="p-6   border border-slate-200/80 rounded-2xl space-y-3">
+          {/* Step 4 */}
+          <section className="p-6 border border-slate-200/80 rounded-2xl space-y-3">
             <div className="flex items-start gap-4">
               <div className="w-8 h-8 rounded-full bg-teal-600 text-white font-bold text-sm flex items-center justify-center flex-shrink-0 mt-0.5">
                 4
               </div>
               <div className="space-y-2 flex-1">
-                <h2 className="text-xl font-bold text-slate-900">
+                <h3 className="text-xl font-bold text-slate-900">
                   Ask About Supervision
-                </h2>
+                </h3>
                 <p className="text-sm sm:text-base text-slate-700 leading-relaxed">
                   A caregiver may spend many hours with your family member, so
                   know who remains responsible for service support.
@@ -1989,50 +1431,20 @@ const faqSchema = {
                 </p>
                 <ul className="space-y-2 text-sm sm:text-base text-slate-700">
                   <li className="flex items-start gap-2.5">
-                    <svg
-                      className="w-4 h-4 text-teal-600 flex-shrink-0 mt-1"
-                      fill="none"
-                      stroke="currentColor"
-                      viewBox="0 0 24 24"
-                    >
-                      <path
-                        strokeLinecap="round"
-                        strokeLinejoin="round"
-                        strokeWidth="2"
-                        d="M8.228 9c.549-1.165 2.03-2 3.772-2 2.21 0 4 1.343 4 3 0 1.4-1.278 2.575-3.006 2.907-.542.104-.994.54-.994 1.093m0 3h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"
-                      />
+                    <svg className="w-4 h-4 text-teal-600 flex-shrink-0 mt-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M8.228 9c.549-1.165 2.03-2 3.772-2 2.21 0 4 1.343 4 3 0 1.4-1.278 2.575-3.006 2.907-.542.104-.994.54-.994 1.093m0 3h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
                     </svg>
                     Who should the family contact if a problem occurs?
                   </li>
                   <li className="flex items-start gap-2.5">
-                    <svg
-                      className="w-4 h-4 text-teal-600 flex-shrink-0 mt-1"
-                      fill="none"
-                      stroke="currentColor"
-                      viewBox="0 0 24 24"
-                    >
-                      <path
-                        strokeLinecap="round"
-                        strokeLinejoin="round"
-                        strokeWidth="2"
-                        d="M8.228 9c.549-1.165 2.03-2 3.772-2 2.21 0 4 1.343 4 3 0 1.4-1.278 2.575-3.006 2.907-.542.104-.994.54-.994 1.093m0 3h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"
-                      />
+                    <svg className="w-4 h-4 text-teal-600 flex-shrink-0 mt-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M8.228 9c.549-1.165 2.03-2 3.772-2 2.21 0 4 1.343 4 3 0 1.4-1.278 2.575-3.006 2.907-.542.104-.994.54-.994 1.093m0 3h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
                     </svg>
                     Does the agency supervise the caregiver?
                   </li>
                   <li className="flex items-start gap-2.5">
-                    <svg
-                      className="w-4 h-4 text-teal-600 flex-shrink-0 mt-1"
-                      fill="none"
-                      stroke="currentColor"
-                      viewBox="0 0 24 24"
-                    >
-                      <path
-                        strokeLinecap="round"
-                        strokeLinejoin="round"
-                        strokeWidth="2"
-                        d="M8.228 9c.549-1.165 2.03-2 3.772-2 2.21 0 4 1.343 4 3 0 1.4-1.278 2.575-3.006 2.907-.542.104-.994.54-.994 1.093m0 3h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"
-                      />
+                    <svg className="w-4 h-4 text-teal-600 flex-shrink-0 mt-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M8.228 9c.549-1.165 2.03-2 3.772-2 2.21 0 4 1.343 4 3 0 1.4-1.278 2.575-3.006 2.907-.542.104-.994.54-.994 1.093m0 3h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
                     </svg>
                     How can concerns or changes in care needs be reported?
                   </li>
@@ -2041,16 +1453,16 @@ const faqSchema = {
             </div>
           </section>
 
-          {/* 5. Confirm Service Hours */}
-          <section className="p-6   border border-slate-200/80 rounded-2xl space-y-3">
+          {/* Step 5 */}
+          <section className="p-6 border border-slate-200/80 rounded-2xl space-y-3">
             <div className="flex items-start gap-4">
               <div className="w-8 h-8 rounded-full bg-teal-600 text-white font-bold text-sm flex items-center justify-center flex-shrink-0 mt-0.5">
                 5
               </div>
               <div className="space-y-2 flex-1">
-                <h2 className="text-xl font-bold text-slate-900">
+                <h3 className="text-xl font-bold text-slate-900">
                   Confirm Working Hours and Schedule Needs
-                </h2>
+                </h3>
                 <p className="text-sm sm:text-base text-slate-700 leading-relaxed">
                   Before starting a caregiver service in Bangladesh, agree on
                   how many hours of support are actually needed. Common
@@ -2058,66 +1470,26 @@ const faqSchema = {
                 </p>
                 <ul className="grid grid-cols-1 sm:grid-cols-2 gap-2 text-sm sm:text-base text-slate-700 pt-1">
                   <li className="flex items-center gap-2 bg-white p-2.5 rounded-lg border border-slate-200/60">
-                    <svg
-                      className="w-4 h-4 text-teal-600 flex-shrink-0"
-                      fill="none"
-                      stroke="currentColor"
-                      viewBox="0 0 24 24"
-                    >
-                      <path
-                        strokeLinecap="round"
-                        strokeLinejoin="round"
-                        strokeWidth="2"
-                        d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"
-                      />
+                    <svg className="w-4 h-4 text-teal-600 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
                     </svg>
                     8-hour daytime support
                   </li>
                   <li className="flex items-center gap-2 bg-white p-2.5 rounded-lg border border-slate-200/60">
-                    <svg
-                      className="w-4 h-4 text-teal-600 flex-shrink-0"
-                      fill="none"
-                      stroke="currentColor"
-                      viewBox="0 0 24 24"
-                    >
-                      <path
-                        strokeLinecap="round"
-                        strokeLinejoin="round"
-                        strokeWidth="2"
-                        d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"
-                      />
+                    <svg className="w-4 h-4 text-teal-600 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
                     </svg>
                     12-hour daytime or night support
                   </li>
                   <li className="flex items-center gap-2 bg-white p-2.5 rounded-lg border border-slate-200/60">
-                    <svg
-                      className="w-4 h-4 text-teal-600 flex-shrink-0"
-                      fill="none"
-                      stroke="currentColor"
-                      viewBox="0 0 24 24"
-                    >
-                      <path
-                        strokeLinecap="round"
-                        strokeLinejoin="round"
-                        strokeWidth="2"
-                        d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"
-                      />
+                    <svg className="w-4 h-4 text-teal-600 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
                     </svg>
                     24-hour arrangements
                   </li>
                   <li className="flex items-center gap-2 bg-white p-2.5 rounded-lg border border-slate-200/60">
-                    <svg
-                      className="w-4 h-4 text-teal-600 flex-shrink-0"
-                      fill="none"
-                      stroke="currentColor"
-                      viewBox="0 0 24 24"
-                    >
-                      <path
-                        strokeLinecap="round"
-                        strokeLinejoin="round"
-                        strokeWidth="2"
-                        d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"
-                      />
+                    <svg className="w-4 h-4 text-teal-600 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
                     </svg>
                     Temporary recovery / long-term care
                   </li>
@@ -2133,16 +1505,16 @@ const faqSchema = {
             </div>
           </section>
 
-          {/* 6. Ask About Replacement */}
-          <section className="p-6   border border-slate-200/80 rounded-2xl space-y-3">
+          {/* Step 6 */}
+          <section className="p-6 border border-slate-200/80 rounded-2xl space-y-3">
             <div className="flex items-start gap-4">
               <div className="w-8 h-8 rounded-full bg-teal-600 text-white font-bold text-sm flex items-center justify-center flex-shrink-0 mt-0.5">
                 6
               </div>
               <div className="space-y-2 flex-1">
-                <h2 className="text-xl font-bold text-slate-900">
+                <h3 className="text-xl font-bold text-slate-900">
                   Ask About Replacement and Support Arrangements
-                </h2>
+                </h3>
                 <p className="text-sm sm:text-base text-slate-700 leading-relaxed">
                   A caregiver may become unavailable because of illness, leave
                   or other circumstances. Ask the agency what happens in that
@@ -2153,66 +1525,26 @@ const faqSchema = {
                 </p>
                 <ul className="space-y-2 text-sm sm:text-base text-slate-700">
                   <li className="flex items-start gap-2.5">
-                    <svg
-                      className="w-4 h-4 text-teal-600 flex-shrink-0 mt-1"
-                      fill="none"
-                      stroke="currentColor"
-                      viewBox="0 0 24 24"
-                    >
-                      <path
-                        strokeLinecap="round"
-                        strokeLinejoin="round"
-                        strokeWidth="2"
-                        d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"
-                      />
+                    <svg className="w-4 h-4 text-teal-600 flex-shrink-0 mt-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
                     </svg>
                     How quickly can a replacement be arranged?
                   </li>
                   <li className="flex items-start gap-2.5">
-                    <svg
-                      className="w-4 h-4 text-teal-600 flex-shrink-0 mt-1"
-                      fill="none"
-                      stroke="currentColor"
-                      viewBox="0 0 24 24"
-                    >
-                      <path
-                        strokeLinecap="round"
-                        strokeLinejoin="round"
-                        strokeWidth="2"
-                        d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"
-                      />
+                    <svg className="w-4 h-4 text-teal-600 flex-shrink-0 mt-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
                     </svg>
                     Who should the family contact if there is a problem?
                   </li>
                   <li className="flex items-start gap-2.5">
-                    <svg
-                      className="w-4 h-4 text-teal-600 flex-shrink-0 mt-1"
-                      fill="none"
-                      stroke="currentColor"
-                      viewBox="0 0 24 24"
-                    >
-                      <path
-                        strokeLinecap="round"
-                        strokeLinejoin="round"
-                        strokeWidth="2"
-                        d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"
-                      />
+                    <svg className="w-4 h-4 text-teal-600 flex-shrink-0 mt-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
                     </svg>
                     Does the agency follow up after the caregiver starts?
                   </li>
                   <li className="flex items-start gap-2.5">
-                    <svg
-                      className="w-4 h-4 text-teal-600 flex-shrink-0 mt-1"
-                      fill="none"
-                      stroke="currentColor"
-                      viewBox="0 0 24 24"
-                    >
-                      <path
-                        strokeLinecap="round"
-                        strokeLinejoin="round"
-                        strokeWidth="2"
-                        d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"
-                      />
+                    <svg className="w-4 h-4 text-teal-600 flex-shrink-0 mt-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
                     </svg>
                     What happens if the person's care needs change?
                   </li>
@@ -2225,16 +1557,16 @@ const faqSchema = {
             </div>
           </section>
 
-          {/* 7. Check Whether Nursing Is Required */}
-          <section className="p-6   border border-slate-200/80 rounded-2xl space-y-3">
+          {/* Step 7 */}
+          <section className="p-6 border border-slate-200/80 rounded-2xl space-y-3">
             <div className="flex items-start gap-4">
               <div className="w-8 h-8 rounded-full bg-teal-600 text-white font-bold text-sm flex items-center justify-center flex-shrink-0 mt-0.5">
                 7
               </div>
               <div className="space-y-2 flex-1">
-                <h2 className="text-xl font-bold text-slate-900">
+                <h3 className="text-xl font-bold text-slate-900">
                   Check Whether Nursing or Another Professional Is Required
-                </h2>
+                </h3>
                 <p className="text-sm sm:text-base text-slate-700 leading-relaxed">
                   Finally, ask whether the person needs only daily assistance or
                   also requires professional healthcare.
@@ -2256,7 +1588,6 @@ const faqSchema = {
       </article>
 
       <article className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-12 md:py-16 text-slate-800 space-y-10">
-        {/* Section Header */}
         <header className="space-y-4">
           <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold text-slate-900 tracking-tight">
             How HCAH's Home Care Service Can Support Your Family
@@ -2278,8 +1609,7 @@ const faqSchema = {
           </p>
         </header>
 
-        {/* 1. Understanding Requirements */}
-        <section className="p-6   border border-slate-200/80 rounded-2xl space-y-4">
+        <section className="p-6 border border-slate-200/80 rounded-2xl space-y-4">
           <h3 className="text-xl font-bold text-slate-900 border-b border-slate-200/80 pb-3">
             Understanding the Family's Care Requirement
           </h3>
@@ -2288,66 +1618,26 @@ const faqSchema = {
           </p>
           <ul className="space-y-2.5 text-sm sm:text-base text-slate-700">
             <li className="flex items-start gap-2.5">
-              <svg
-                className="w-4 h-4 text-teal-600 flex-shrink-0 mt-1"
-                fill="none"
-                stroke="currentColor"
-                viewBox="0 0 24 24"
-              >
-                <path
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  strokeWidth="2"
-                  d="M5 13l4 4L19 7"
-                />
+              <svg className="w-4 h-4 text-teal-600 flex-shrink-0 mt-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" />
               </svg>
               What daily activities the person needs help with
             </li>
             <li className="flex items-start gap-2.5">
-              <svg
-                className="w-4 h-4 text-teal-600 flex-shrink-0 mt-1"
-                fill="none"
-                stroke="currentColor"
-                viewBox="0 0 24 24"
-              >
-                <path
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  strokeWidth="2"
-                  d="M5 13l4 4L19 7"
-                />
+              <svg className="w-4 h-4 text-teal-600 flex-shrink-0 mt-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" />
               </svg>
               How much assistance is required
             </li>
             <li className="flex items-start gap-2.5">
-              <svg
-                className="w-4 h-4 text-teal-600 flex-shrink-0 mt-1"
-                fill="none"
-                stroke="currentColor"
-                viewBox="0 0 24 24"
-              >
-                <path
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  strokeWidth="2"
-                  d="M5 13l4 4L19 7"
-                />
+              <svg className="w-4 h-4 text-teal-600 flex-shrink-0 mt-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" />
               </svg>
               Whether support is needed for a few hours or longer
             </li>
             <li className="flex items-start gap-2.5">
-              <svg
-                className="w-4 h-4 text-teal-600 flex-shrink-0 mt-1"
-                fill="none"
-                stroke="currentColor"
-                viewBox="0 0 24 24"
-              >
-                <path
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  strokeWidth="2"
-                  d="M5 13l4 4L19 7"
-                />
+              <svg className="w-4 h-4 text-teal-600 flex-shrink-0 mt-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" />
               </svg>
               Whether the need is temporary or ongoing
             </li>
@@ -2362,8 +1652,7 @@ const faqSchema = {
           </div>
         </section>
 
-        {/* 2. Matching Service */}
-        <section className="p-6   border border-slate-200/80 rounded-2xl space-y-4">
+        <section className="p-6 border border-slate-200/80 rounded-2xl space-y-4">
           <h3 className="text-xl font-bold text-slate-900 border-b border-slate-200/80 pb-3">
             Matching the Service to the Care Need
           </h3>
@@ -2372,82 +1661,32 @@ const faqSchema = {
           </p>
           <ul className="grid grid-cols-1 sm:grid-cols-2 gap-2 text-sm sm:text-base text-slate-700">
             <li className="flex items-center gap-2 bg-white p-2.5 rounded-lg border border-slate-200/60">
-              <svg
-                className="w-4 h-4 text-teal-600 flex-shrink-0"
-                fill="none"
-                stroke="currentColor"
-                viewBox="0 0 24 24"
-              >
-                <path
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  strokeWidth="2"
-                  d="M5 13l4 4L19 7"
-                />
+              <svg className="w-4 h-4 text-teal-600 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" />
               </svg>
               Elderly care and daily activities
             </li>
             <li className="flex items-center gap-2 bg-white p-2.5 rounded-lg border border-slate-200/60">
-              <svg
-                className="w-4 h-4 text-teal-600 flex-shrink-0"
-                fill="none"
-                stroke="currentColor"
-                viewBox="0 0 24 24"
-              >
-                <path
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  strokeWidth="2"
-                  d="M5 13l4 4L19 7"
-                />
+              <svg className="w-4 h-4 text-teal-600 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" />
               </svg>
               Patient care at home
             </li>
             <li className="flex items-center gap-2 bg-white p-2.5 rounded-lg border border-slate-200/60">
-              <svg
-                className="w-4 h-4 text-teal-600 flex-shrink-0"
-                fill="none"
-                stroke="currentColor"
-                viewBox="0 0 24 24"
-              >
-                <path
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  strokeWidth="2"
-                  d="M5 13l4 4L19 7"
-                />
+              <svg className="w-4 h-4 text-teal-600 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" />
               </svg>
               Bedridden patient support
             </li>
             <li className="flex items-center gap-2 bg-white p-2.5 rounded-lg border border-slate-200/60">
-              <svg
-                className="w-4 h-4 text-teal-600 flex-shrink-0"
-                fill="none"
-                stroke="currentColor"
-                viewBox="0 0 24 24"
-              >
-                <path
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  strokeWidth="2"
-                  d="M5 13l4 4L19 7"
-                />
+              <svg className="w-4 h-4 text-teal-600 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" />
               </svg>
               Recovery after surgery
             </li>
             <li className="flex items-center gap-2 bg-white p-2.5 rounded-lg border border-slate-200/60 sm:col-span-2">
-              <svg
-                className="w-4 h-4 text-teal-600 flex-shrink-0"
-                fill="none"
-                stroke="currentColor"
-                viewBox="0 0 24 24"
-              >
-                <path
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  strokeWidth="2"
-                  d="M5 13l4 4L19 7"
-                />
+              <svg className="w-4 h-4 text-teal-600 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" />
               </svg>
               Nursing care when clinical support is required
             </li>
@@ -2458,7 +1697,6 @@ const faqSchema = {
           </p>
         </section>
 
-        {/* 3. Communication */}
         <section className="space-y-3">
           <h3 className="text-xl font-bold text-slate-900">
             Ongoing Family Communication
@@ -2475,7 +1713,6 @@ const faqSchema = {
           </p>
         </section>
 
-        {/* Call to Action Box */}
         <section className="p-6 bg-teal-50/60 border border-teal-200/80 rounded-2xl space-y-4">
           <h3 className="text-xl font-bold text-slate-900">
             Need Help Finding the Right Support?
@@ -2507,12 +1744,10 @@ const faqSchema = {
 
       <article className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-10 md:py-14 text-slate-800">
         <section className="p-6 sm:p-8 bg-gradient-to-br from-slate-50 to-teal-50/30 border border-slate-200/80 rounded-2xl space-y-4 shadow-sm">
-          {/* Section Header */}
           <h2 className="text-2xl sm:text-3xl font-bold text-slate-900 tracking-tight">
             Conclusion
           </h2>
 
-          {/* Content Paragraphs */}
           <p className="text-base sm:text-lg text-slate-700 leading-relaxed">
             Choosing caregiver support starts with understanding what your
             family member can and cannot manage independently. Their mobility,
@@ -2534,7 +1769,6 @@ const faqSchema = {
             care at home.
           </p>
 
-          {/* Final CTA Paragraph */}
           <p className="text-base sm:text-lg text-slate-800 leading-relaxed font-medium pt-2 border-t border-slate-200/80">
             If you are unsure what type of support your family member needs,{" "}
             <a
@@ -2558,113 +1792,43 @@ const faqSchema = {
           </p>
         </section>
       </article>
+
+      {/* ACCORDION FAQ SECTION */}
       <article className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-12 md:py-16 text-slate-800 space-y-8">
-        {/* Section Header */}
         <header className="space-y-3">
           <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold text-slate-900 tracking-tight">
             Frequently Asked Questions (FAQs)
           </h2>
         </header>
 
-        {/* Accordion FAQ Items */}
-        <div className="space-y-4">
-          {/* FAQ Item 1 */}
-          <details className="group border border-slate-200   rounded-2xl p-6 [&_summary::-webkit-details-marker]:none transition-all duration-200">
-            <summary className="flex items-center justify-between font-bold text-lg text-slate-900 cursor-pointer select-none">
-              How soon can caregiver support usually begin after contacting a
-              service?
-              <svg
-                className="w-5 h-5 text-teal-600 transition-transform duration-300 group-open:rotate-180 flex-shrink-0 ml-4"
-                fill="none"
-                stroke="currentColor"
-                viewBox="0 0 24 24"
+        <section className="bg-white rounded-2xl p-6 sm:p-8 shadow-sm border border-gray-200 mt-10">
+          <div className="space-y-4">
+            {faqList.map((faq, index) => (
+              <div 
+                key={index} 
+                className="border border-gray-200 rounded-lg overflow-hidden transition-all duration-200"
               >
-                <path
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  strokeWidth="2"
-                  d="M19 9l-7 7-7-7"
-                />
-              </svg>
-            </summary>
-            <p className="mt-4 text-base text-slate-700 leading-relaxed border-t border-slate-200/80 pt-4">
-              Start time depends on caregiver availability, the patient's needs,
-              required hours and location. Before confirming, ask when support
-              can begin and whether the agency can arrange a suitable caregiver
-              for the requested schedule.
-            </p>
-          </details>
-
-          {/* FAQ Item 2 */}
-          <details className="group border border-slate-200   rounded-2xl p-6 [&_summary::-webkit-details-marker]:none transition-all duration-200">
-            <summary className="flex items-center justify-between font-bold text-lg text-slate-900 cursor-pointer select-none">
-              Can caregiver support be arranged for only a few days?
-            </summary>
-            <div className="mt-4 text-base text-slate-700 leading-relaxed border-t border-slate-200/80 pt-4 space-y-3">
-              <p>
-                Yes. Caregiver support can be arranged for temporary needs, such
-                as recovery after hospital discharge or surgery. Discuss the
-                expected duration when making the request so the service
-                arrangement matches the person's recovery period and daily
-                assistance needs.
-              </p>
-              <p className="text-sm font-medium text-teal-800">
-                You can explore temporary or long-term options directly on our{" "}
-                <a
-                  href="https://hcah.mrg.com.bd/caregiver"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="underline decoration-teal-500 underline-offset-2 hover:text-teal-600 transition-colors"
+                <button
+                  onClick={() => toggleFaq(index)}
+                  className="w-full flex justify-between items-center p-4 text-left bg-gray-50 hover:bg-gray-100 transition-colors focus:outline-none"
+                  aria-expanded={openFaq === index}
                 >
-                  caregiver service page
-                </a>
-                .
-              </p>
-            </div>
-          </details>
-
-          {/* FAQ Item 3 */}
-          <details className="group border border-slate-200   rounded-2xl p-6 [&_summary::-webkit-details-marker]:none transition-all duration-200">
-            <summary className="flex items-center justify-between font-bold text-lg text-slate-900 cursor-pointer select-none">
-              Can a family change the caregiver's working hours later?
-            </summary>
-            <p className="mt-4 text-base text-slate-700 leading-relaxed border-t border-slate-200/80 pt-4">
-              Working hours may be changed when the person's care requirements
-              change, but this depends on the service arrangement and caregiver
-              availability. Families should discuss any change with the agency
-              rather than changing the schedule informally.
-            </p>
-          </details>
-
-          {/* FAQ Item 4 */}
-          <details className="group border border-slate-200   rounded-2xl p-6 [&_summary::-webkit-details-marker]:none transition-all duration-200">
-            <summary className="flex items-center justify-between font-bold text-lg text-slate-900 cursor-pointer select-none">
-              What information should I provide when requesting a caregiver?
-            </summary>
-            <p className="mt-4 text-base text-slate-700 leading-relaxed border-t border-slate-200/80 pt-4">
-              Explain the person's age, general condition, mobility level, daily
-              activities requiring assistance, feeding needs, preferred working
-              hours and expected duration. Also mention whether the person needs
-              overnight support or professional nursing care so the appropriate
-              arrangement can be considered.
-            </p>
-          </details>
-
-          {/* FAQ Item 5 */}
-          <details className="group border border-slate-200   rounded-2xl p-6 [&_summary::-webkit-details-marker]:none transition-all duration-200">
-            <summary className="flex items-center justify-between font-bold text-lg text-slate-900 cursor-pointer select-none">
-              What should a family do if the person's care needs increase?
-            </summary>
-            <p className="mt-4 text-base text-slate-700 leading-relaxed border-t border-slate-200/80 pt-4">
-              Inform the caregiver or agency as soon as the change becomes
-              noticeable. The required hours or type of professional support may
-              need to be reassessed. If the new need involves clinical
-              treatment, nursing, rehabilitation or medical assessment, an
-              appropriately qualified healthcare professional should be
-              consulted.
-            </p>
-          </details>
-        </div>
+                  <span className="font-medium text-gray-900 pr-4">{faq.question}</span>
+                  <ChevronDown 
+                    className={`w-5 h-5 text-gray-500 transform transition-transform duration-200 flex-shrink-0 ${
+                      openFaq === index ? 'rotate-180' : ''
+                    }`} 
+                  />
+                </button>
+                {openFaq === index && (
+                  <div className="p-4 bg-white border-t border-gray-100 text-gray-700 leading-relaxed text-sm">
+                    {faq.answer}
+                  </div>
+                )}
+              </div>
+            ))}
+          </div>
+        </section>
       </article>
     </div>
   );
