@@ -87,11 +87,11 @@ const CaregiverServiceDhaka = () => {
       <Helmet>
         {/* Title & Description */}
         <title>
-          A Complete Guide to Caregiver Services in Dhaka: Costs & Hiring Advice
+Caregiver Service in Dhaka: Professional & Trusted Home Care
         </title>
         <meta
           name="description"
-          content="Learn about home caregiver services in Dhaka, including daily duties, cost breakdowns, background verification checks, and tips for choosing the right caregiver."
+          content="Looking for trusted assistance? Our Caregiver Service in Dhaka offers expert help. Book professional home care for your loved ones today."
         />
         <meta
           name="keywords"
@@ -106,7 +106,7 @@ const CaregiverServiceDhaka = () => {
         <meta property="og:type" content="article" />
         <meta
           property="og:title"
-          content="A Complete Guide to Caregiver Services in Dhaka: Costs & Hiring Advice"
+          content="Caregiver Service in Dhaka | Professional & Trusted Home Care"
         />
         <meta
           property="og:description"
@@ -123,7 +123,7 @@ const CaregiverServiceDhaka = () => {
             "@context": "https://schema.org",
             "@type": "BlogPosting",
             headline:
-              "A Complete Guide to Caregiver Services in Dhaka: Costs & Hiring Advice",
+              "Caregiver Service in Dhaka: Professional & Trusted Home Care",
             description:
               "Comprehensive informational guide covering caregiver duties, cost factors, identity verification, and FAQs for home care in Dhaka.",
             mainEntityOfPage: {
@@ -142,7 +142,7 @@ const CaregiverServiceDhaka = () => {
               Verified Home Healthcare
             </span>
             <h1 className="text-3xl sm:text-4xl lg:text-5xl font-extrabold text-slate-900 tracking-tight leading-tight">
-              Caregiver Service in Dhaka | Professional & Trusted Home Care
+              Caregiver Service in Dhaka: Professional & Trusted Home Care
             </h1>
           </div>
 
