@@ -30,6 +30,7 @@ import CaregiverServiceDhaka from "./components/Blog/CaregiverServiceDhaka";
 import NursingHomeCareInDhanmondi from "./components/ServiceArea/NursingHomeCareInDhanmondi";
 import CaregiverServiceInBangladesh from "./components/Blog/CaregiverServiceInBangladesh";
 import FamiliesLivingAbroad from "./components/ServiceArea/FamiliesLivingAbroad";
+import NannyServiceDhaka from "./components/Blog/NannyServiceDhaka";
 // import New from './components/Nav/New';
  
 function App() {
@@ -164,6 +165,7 @@ function App() {
             <Route path="/nursing-home-care-in-dhanmondi" element={<NursingHomeCareInDhanmondi/>}></Route>
             <Route path="/elderly-care-at-home-dhaka" element={<FamiliesLivingAbroad/>}></Route>
             <Route path="/caregiver-service-in-bangladesh" element={<CaregiverServiceInBangladesh/>}></Route>
+            <Route path="/nanny-services-for-baby-in-dhaka" element={<NannyServiceDhaka/>}></Route>
             {/* <Route path="login" element={<Login />}></Route> */}
             <Route path="/*" element={<FourZeroFour />} />
           </Routes>

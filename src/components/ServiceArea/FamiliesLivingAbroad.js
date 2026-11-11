@@ -27,6 +27,7 @@ import { Phone, HeartHandshake, ShieldCheck, ArrowRight, CheckCircle2,Heart,
 ChevronDown, 
   ChevronUp} from 'lucide-react';
 import bannerImage from '../../assets/caregiverserviceinbangladesh.webp';
+import { Helmet } from 'react-helmet-async';
 
 export default function FamiliesLivingAbroad() {
 
@@ -211,8 +212,163 @@ const [openIndex, setOpenIndex] = useState(0);
     setOpenIndex(openIndex === index ? null : index);
   };
 
+
+  const faqSchema = {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "Can elderly care at home be arranged temporarily after hospital discharge?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Yes. Families can discuss temporary caregiver or professional nursing support for parents returning home after hospital discharge. The required assistance depends on recovery needs, mobility and medical advice. Discussing the expected duration and care responsibilities beforehand helps establish a suitable arrangement."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Can a caregiver assist an elderly parent during nighttime?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Yes. Nighttime caregiver assistance can be discussed when elderly parents need help using the toilet, changing positions, moving safely or following their usual nighttime routine. Families should explain these requirements when discussing the care schedule with HCAH."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "What should I prepare before my parent starts receiving home care?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Prepare relevant medical information, prescribed medication details, dietary instructions, emergency contact numbers and information about your parent's daily routine. Keep frequently used items accessible and explain any mobility limitations or personal preferences to the assigned caregiver."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Can elderly care arrangements be changed if my parent's needs increase?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Yes. If your parent's mobility, health condition or daily assistance requirements change, communicate the situation to HCAH. The family can discuss adjustments to care responsibilities, working hours or additional nursing assistance, depending on the patient's needs and service availability."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "What should families living abroad consider when arranging emergency support for elderly parents?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Families should establish a local emergency contact, keep important medical information accessible and discuss an emergency communication plan with their parents and care team. Caregiver assistance does not replace emergency medical services. Sudden or serious symptoms require immediate medical attention."
+        }
+      }
+    ]
+  };
+
+  const businessSchema = {
+    "@context": "https://schema.org",
+    "@type": "MedicalBusiness",
+    "name": "Healthcare at Home Bangladesh",
+    "alternateName": "HCAH",
+    "url": "https://hcah.mrg.com.bd/elderly-care-at-home-dhaka",
+    "logo": "https://hcah.mrg.com.bd/static/media/service-caregiver.fc35f60eac916c309745.webp",
+    "image": "https://hcah.mrg.com.bd/static/media/service-caregiver.fc35f60eac916c309745.webp",
+    "description": "Healthcare at Home Bangladesh (HCAH) provides professional caregiver support and nursing care at home in Dhaka for elderly parents.",
+    "telephone": "+8801619848555",
+    "priceRange": "$$",
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Dhaka",
+      "addressCountry": "BD"
+    },
+    "areaServed": {
+      "@type": "City",
+      "name": "Dhaka"
+    },
+    "medicalSpecialty": "Geriatric"
+  };
+
   return (
     <div>
+
+      
+<Helmet>
+      <title>
+        Elderly Care at Home in Dhaka | Parents Living Abroad
+      </title>
+
+      <meta
+        name="description"
+        content="Arrange elderly care at home in Dhaka while living abroad. HCAH provides caregiver support and professional nursing assistance for your elderly parents."
+      />
+
+      <meta
+        name="keywords"
+        content="elderly care at home in Dhaka, elderly care Dhaka, elderly care service Bangladesh, home care for elderly parents in Dhaka, caregiver for elderly parents, elderly caregiver service Dhaka, professional nursing care at home, elderly parents living abroad"
+      />
+
+      <meta name="robots" content="index, follow" />
+
+      {/* Open Graph */}
+      <meta
+        property="og:title"
+        content="Elderly Care at Home in Dhaka | Parents Living Abroad"
+      />
+
+      <meta
+        property="og:description"
+        content="Arrange elderly care at home in Dhaka while living abroad. Get caregiver support and professional nursing assistance for your parents from HCAH."
+      />
+
+      <meta
+        property="og:image"
+        content="https://hcah.mrg.com.bd/static/media/service-caregiver.fc35f60eac916c309745.webp"
+      />
+
+      <meta
+        property="og:url"
+        content="https://hcah.mrg.com.bd/elderly-care-at-home-dhaka"
+      />
+
+      <meta property="og:type" content="website" />
+
+      <meta
+        property="og:site_name"
+        content="Healthcare at Home Bangladesh"
+      />
+
+      <meta property="og:locale" content="en_US" />
+
+      {/* Twitter Card */}
+      <meta name="twitter:card" content="summary_large_image" />
+
+      <meta
+        name="twitter:title"
+        content="Elderly Care at Home in Dhaka | Parents Living Abroad"
+      />
+
+      <meta
+        name="twitter:description"
+        content="Arrange caregiver support and professional nursing assistance for your elderly parents in Dhaka, even while living abroad."
+      />
+
+      <meta
+        name="twitter:image"
+        content="https://hcah.mrg.com.bd/static/media/service-caregiver.fc35f60eac916c309745.webp"
+      />
+
+      {/* Canonical */}
+      <link
+        rel="canonical"
+        href="https://hcah.mrg.com.bd/elderly-care-at-home-dhaka"
+      />
+
+      {/* Structured Data: FAQ Schema */}
+      <script type="application/ld+json">
+        {JSON.stringify(faqSchema)}
+      </script>
+
+      {/* Structured Data: MedicalBusiness / LocalBusiness Schema */}
+      <script type="application/ld+json">
+        {JSON.stringify(businessSchema)}
+      </script>
+    </Helmet>
+
       <section className="relative w-full min-h-[600px] flex items-center font-sans overflow-hidden py-16 md:py-24">
       
       {/* 1. Full-bleed background image */}
