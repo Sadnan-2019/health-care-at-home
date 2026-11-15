@@ -1,4 +1,5 @@
 import React from 'react';
+import { Helmet } from 'react-helmet-async';
 
 export default function NannyServiceDhaka() {
 
@@ -24,9 +25,118 @@ export default function NannyServiceDhaka() {
       answer: "Yes. Parents can discuss replacement options with the service provider if the assigned nanny does not meet their expectations. Before starting, confirm the provider's replacement policy, applicable conditions and whether any additional charges apply."
     }
   ];
+
+const pageTitle = "Nanny Services for Baby in Dhaka: What Parents Should Know";
+  
+  // Exact 137 characters (including spaces), two short sentences, includes exact primary keyword
+  const pageDescription = "Compare trusted nanny services for baby in Dhaka, including daily duties and rates. Learn safety tips to hire the right caregiver at home.";
+  
+  const canonicalUrl = "https://hcah.mrg.com.bd/nanny-service-for-baby-in-dhaka";
+  const featuredImage = "https://hcah.mrg.com.bd/assets/nanny-banner.jpg"; // Replace with actual image URL
+
+  const articleSchema = {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "Nanny Services for Baby Care in Dhaka: Parent’s Complete Guide",
+    "description": pageDescription,
+    "image": featuredImage,
+    "author": {
+      "@type": "Organization",
+      "name": "Health Care at Home Bangladesh"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "Health Care at Home Bangladesh",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://hcah.mrg.com.bd/logo.png"
+      }
+    },
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": canonicalUrl
+    }
+  };
+
+  const faqSchema = {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "Can parents request the same nanny for long-term baby care?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Yes. Parents can discuss long-term arrangements with the service provider. Having the same nanny regularly can help the baby become familiar with the caregiver and make it easier to maintain consistent daily routines."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Should parents arrange a trial period before hiring a nanny?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Yes. A trial period allows parents to observe how the nanny interacts with their baby, follows instructions and handles everyday responsibilities. It also gives both sides an opportunity to discuss expectations before starting a regular arrangement."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Can a nanny look after more than one child at home?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "This depends on the children's ages, care requirements and the nanny's experience. Parents should discuss the number of children beforehand to ensure the caregiver can give each child enough attention and supervision."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "What should parents prepare before a nanny starts working?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Parents should arrange essential baby-care supplies, including diapers, clean clothes, feeding items, towels and toiletries. It is also helpful to prepare written instructions covering feeding, sleeping, emergency contacts and important household rules."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Can parents change a nanny if the arrangement is not suitable?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Yes. Parents can discuss replacement options with the service provider if the assigned nanny does not meet their expectations. Before starting, confirm the provider's replacement policy, applicable conditions and whether any additional charges apply."
+        }
+      }
+    ]
+  };
+
   return (
    <div>
+<Helmet>
+      {/* Standard Search Meta Tags */}
+      <title>{pageTitle}</title>
+      <meta name="description" content={pageDescription} />
+      <meta
+        name="keywords"
+        content="nanny services for baby in dhaka, baby care service Dhaka, home nanny Dhaka, newborn care nanny Dhaka, part time nanny Dhaka, full time nanny Dhaka, overnight baby care Dhaka, infant caregiver Dhaka, Healthcare at Home Bangladesh"
+      />
 
+      {/* Canonical Link */}
+      <link rel="canonical" href={canonicalUrl} />
+
+      {/* Open Graph / Facebook */}
+      <meta property="og:type" content="article" />
+      <meta property="og:title" content={pageTitle} />
+      <meta property="og:description" content={pageDescription} />
+      <meta property="og:url" content={canonicalUrl} />
+      <meta property="og:image" content={featuredImage} />
+      <meta property="og:site_name" content="Health Care at Home Bangladesh" />
+
+      {/* Twitter Card */}
+      <meta name="twitter:card" content="summary_large_image" />
+      <meta name="twitter:title" content={pageTitle} />
+      <meta name="twitter:description" content={pageDescription} />
+      <meta name="twitter:image" content={featuredImage} />
+
+      {/* Structured Data Scripts */}
+      <script type="application/ld+json">{JSON.stringify(articleSchema)}</script>
+      <script type="application/ld+json">{JSON.stringify(faqSchema)}</script>
+    </Helmet>
       <article className="max-w-3xl mx-auto px-4 py-8 font-sans text-slate-900 leading-relaxed">
       {/* Blog H1 Heading */}
       <h1 className="text-3xl sm:text-4xl font-bold tracking-tight mb-6">
@@ -56,7 +166,28 @@ export default function NannyServiceDhaka() {
           <li>Nanny service costs and working arrangements.</li>
         </ul>
       </div>
-
+<section className="max-w-3xl mx-auto px-4 py-8 font-sans text-slate-900 leading-relaxed bg-slate-50 rounded-xl border border-slate-200 my-6 shadow-sm">
+      <h2 className="text-xl sm:text-2xl font-bold tracking-tight mb-4 text-slate-900">
+        TL;DR: Summary for Busy Parents
+      </h2>
+      <p className="text-base sm:text-lg mb-4 text-slate-700">
+        Managing a baby’s routine alongside work and household duties in Dhaka requires structured childcare tailored to your child's age and family schedule.
+      </p>
+      <ul className="space-y-3 text-base sm:text-lg text-slate-700 list-disc pl-5">
+        <li>
+          <strong>Healthcare at Home Bangladesh for reliable nanny services for baby in Dhaka:</strong> As a trusted home healthcare and baby-care provider in Dhaka, <a href="https://hcah.mrg.com.bd/nanycare" className="text-blue-600 font-medium hover:underline">Healthcare at Home Bangladesh (hcah.mrg.com.bd)</a> connects working parents and recovering mothers with trained caregivers for feeding, hygiene, sleep routines, and supervised play. Available in flexible 8-hour part-time or 24-hour full-time shifts, it provides vetted placement and reliable replacement policies.
+        </li>
+        <li>
+          <strong>Alternative childcare approaches and trade-offs:</strong> Families also rely on relatives or independent local attendants. While relatives offer familiarity at no fee, nuclear families often lack nearby support. Independent attendants seem flexible, yet frequently lack verified newborn-care training, structured safety protocols, or guaranteed backup replacements.
+        </li>
+        <li>
+          <strong>Matching the right care to your needs:</strong> Part-time nannies (around 800 BDT/day) suit office hours, while 24-hour packages (around 1,200 BDT/day plus food/accommodation) aid postpartum recovery. Note that standard nannies handle daily childcare only; babies needing injections or clinical monitoring require qualified home nursing professionals.
+        </li>
+        <li>
+          <strong>Key safety and hiring considerations:</strong> Ensure safe care by sharing written feeding and safe-sleep instructions, starting with a trial period, keeping daily handover logs, and confirming exact charges and replacement terms upfront.
+        </li>
+      </ul>
+    </section>
 
       <section className="max-w-3xl mx-auto px-4 py-8 font-sans text-slate-900 leading-relaxed">
       {/* Main Section Heading */}

@@ -23,6 +23,7 @@ import GulshanCaregiverPricesCover from "./GulshanCaregiverPricesCover";
 import WorldHypertensionDay from "./WorldHypertensionDay";
 import CaregiverServiceDhakaCover from "./CaregiverServiceDhakaCover";
 import CaregiverBlogBanner from "./CaregiverBlogBanner";
+import NannyServiceBanner from "./NannyServiceBanner";
 
 const PhysioBlog = () => {
   return (
@@ -30,6 +31,7 @@ const PhysioBlog = () => {
       <div>
         <div className="blog">
           <div className=" grid grid-cols-1 lg:grid-cols-2   items-center justify-center px-5 gap-5">
+            <NannyServiceBanner></NannyServiceBanner>
             <CaregiverBlogBanner></CaregiverBlogBanner>
 
 <CaregiverServiceDhakaCover></CaregiverServiceDhakaCover>
