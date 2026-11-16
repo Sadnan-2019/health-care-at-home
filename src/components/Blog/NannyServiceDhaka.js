@@ -168,7 +168,7 @@ const pageTitle = "Nanny Services for Baby in Dhaka: What Parents Should Know";
       </div>
 <section className="max-w-3xl mx-auto px-4 py-8 font-sans text-slate-900 leading-relaxed bg-slate-50 rounded-xl border border-slate-200 my-6 shadow-sm">
       <h2 className="text-xl sm:text-2xl font-bold tracking-tight mb-4 text-slate-900">
-        TL;DR: Summary for Busy Parents
+        TL;DR
       </h2>
       <p className="text-base sm:text-lg mb-4 text-slate-700">
         Managing a baby’s routine alongside work and household duties in Dhaka requires structured childcare tailored to your child's age and family schedule.
