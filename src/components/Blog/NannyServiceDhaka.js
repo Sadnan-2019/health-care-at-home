@@ -31,7 +31,7 @@ const pageTitle = "Nanny Services for Baby in Dhaka: What Parents Should Know";
   // Exact 137 characters (including spaces), two short sentences, includes exact primary keyword
   const pageDescription = "Compare trusted nanny services for baby in Dhaka, including daily duties and rates. Learn safety tips to hire the right caregiver at home.";
   
-  const canonicalUrl = "https://hcah.mrg.com.bd/nanny-service-for-baby-in-dhaka";
+  const canonicalUrl = "https://hcah.mrg.com.bd/nanny-services-for-baby-in-dhaka";
   const featuredImage = "https://hcah.mrg.com.bd/assets/nanny-banner.jpg"; // Replace with actual image URL
 
   const articleSchema = {
